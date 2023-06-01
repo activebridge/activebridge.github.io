@@ -50,7 +50,9 @@ p {
 }
 
 section.container {
-  #container {
+  div {
+    display: flex;
+    justify-content: center;
   }
 
   figure {
