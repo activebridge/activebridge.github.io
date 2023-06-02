@@ -24,9 +24,9 @@
 
 h4 {
   font-size: 30px;
-  font-weight: 400;
   line-height: 45px;
   letter-spacing: 0.5em;
+  text-transform: uppercase;
   text-align: center;
   margin: 10% 25% 2rem 25%;
 }
@@ -58,6 +58,8 @@ p {
 }
 
 section.container {
+  position: relative;
+
   div {
     display: flex;
     justify-content: center;
@@ -85,7 +87,7 @@ section.container {
 }
 
 button {
-  color: white;
+  color: #FFFFFF;
   height: 80px;
   width: 480px;
   border-radius: 56px;
@@ -95,4 +97,54 @@ button {
   letter-spacing: 0.5em;
   text-transform: uppercase;
   cursor: pointer;
+  border: 0;
+}
+
+button.secondary {
+  background: #FFFFFF;
+  color: #000;
+  box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.15), inset 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.5em;
+  font-family: Cera Pro;
+}
+
+.negotiation-content {
+  padding: 0 10%;
+
+  figure {
+    display: flex;
+    justify-content: center;
+    background: #A49FEB;
+    border-radius: 20px;
+    margin-right: 100px;
+    min-width: fit-content;
+    min-height: fit-content;
+    padding: 45px;
+
+    img { mix-blend-mode: luminosity }
+  }
+
+  section {
+    display: flex;
+    margin-bottom: 35px;
+  }
+
+  section:nth-child(2n) { flex-direction: row-reverse }
+
+  p {
+    margin-left: 0;
+    text-align: start;
+  }
+}
+
+h6 {
+  font-family: 'Inria Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 150%;
 }
