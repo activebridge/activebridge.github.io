@@ -124,16 +124,22 @@ button.secondary {
     min-width: fit-content;
     min-height: fit-content;
     padding: 45px;
+    margin: auto;
 
     img { mix-blend-mode: luminosity }
   }
 
   section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
     margin-bottom: 35px;
   }
 
-  section:nth-child(2n) { flex-direction: row-reverse }
+  @media (min-width: 600px) {
+    section { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  section:nth-child(2n) { direction: rtl; }
 
   p {
     margin-left: 0;
