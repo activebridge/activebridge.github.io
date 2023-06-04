@@ -114,6 +114,10 @@ button.secondary {
 
 .negotiation-content {
   padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  position: relative;
 
   figure {
     display: flex;
@@ -130,20 +134,27 @@ button.secondary {
   }
 
   section {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 35px;
-  }
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
 
-  @media (min-width: 600px) {
-    section { grid-template-columns: repeat(2, 1fr); }
+    &:nth-of-type(2n) {
+      flex-direction: row-reverse;
+    }
   }
-
-  section:nth-child(2n) { direction: rtl; }
 
   p {
     margin-left: 0;
     text-align: start;
+  }
+
+  svg {
+    position: absolute;
+
+    path {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+    }
   }
 }
 
