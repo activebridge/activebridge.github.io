@@ -113,22 +113,20 @@ button.secondary {
 }
 
 .negotiation-content {
-  padding: 0 10%;
-  display: flex;
-  flex-direction: column;
-  gap: 10%;
+  padding: 0 18%;
+  display: grid;
+  gap: 5rem;
   position: relative;
+  grid-template-columns: 1fr;
 
   figure {
     display: flex;
     justify-content: center;
     background: #A49FEB;
     border-radius: 20px;
-    margin-right: 100px;
     min-width: fit-content;
     min-height: fit-content;
     padding: 45px;
-    margin: auto;
 
     img { mix-blend-mode: luminosity }
   }
@@ -137,6 +135,7 @@ button.secondary {
     display: flex;
     flex-direction: row;
     gap: 10%;
+    max-height: 350px;
 
     &:nth-of-type(2n) {
       flex-direction: row-reverse;
@@ -148,13 +147,27 @@ button.secondary {
     text-align: start;
   }
 
+  path {
+    stroke-dasharray: 4000; 
+    stroke-dashoffset: 4000;
+  }
+
+  @keyframes animatePath {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
   svg {
     position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 335px;
 
-    path {
-      stroke-dasharray: 1000;
-      stroke-dashoffset: 1000;
-    }
+    // path {
+    //   stroke-dasharray: 4000;
+    //   stroke-dashoffset: 4000;
+    // }
   }
 }
 
