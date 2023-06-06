@@ -1,5 +1,5 @@
----
----
+--- 
+--- 
 
 @import "services";
 
@@ -27,4 +27,34 @@ h3 {
 
 body {
   font-family: Cera Pro;
+}
+
+.top-section {
+  overflow: hidden;
+  animation: fill 1s ease-out;
+  position: absolute;
+  top: 34%;
+  bottom: 0;
+
+  svg {
+    // width: 100%;
+  }
+}
+
+.asd {
+  width: 100%;
+}
+
+.zxc {
+  position: relative;
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
 }
