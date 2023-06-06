@@ -1,17 +1,11 @@
-// let path = document.querySelector("path#main");
-// let pathLenght = document.getTotalLength();
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("scroll", function () {
+    let height = scrollY - motionSection.offsetTop
+    if (height > 0) {
+      let motionPercent = (height / 820) * 100
+      let percent = 100 - motionPercent
 
-// path.style.strokeDasharray = pathLenght + ' ' + pathLenght;
-
-// path.style.strokeDashoffset = pathLenght;
-
-window.addEventListener(
-  "scroll",
-  () => {
-    document.body.style.setProperty(
-      "--scroll",
-      window.pageYOffset / (document.body.offsetHeight - window.innerHeight)
-    );
-  },
-  false
-);
+      document.querySelector('path').style.strokeDashoffset = (percent / 100) * 4000
+    }
+  });
+});

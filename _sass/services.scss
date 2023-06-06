@@ -149,7 +149,7 @@ button.secondary {
 
   path {
     stroke-dasharray: 4000; 
-    stroke-dashoffset: 4000;
+    stroke-dashoffset: calc(3000 - var(--scroll));
   }
 
   @keyframes animatePath {
@@ -163,11 +163,6 @@ button.secondary {
     left: 0;
     right: 0;
     top: 335px;
-
-    // path {
-    //   stroke-dasharray: 4000;
-    //   stroke-dashoffset: 4000;
-    // }
   }
 }
 
@@ -177,4 +172,8 @@ h6 {
   font-weight: 700;
   font-size: 22px;
   line-height: 150%;
+}
+
+button.secondary {
+  margin: 10%;
 }
