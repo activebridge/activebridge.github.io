@@ -23,7 +23,7 @@ body {
   top: 40px;
   min-height: 100vh;
   padding-bottom: 7em;
-  background: center/cover no-repeat url('/assets/images/index/background.png');
+  background: center/cover no-repeat url('/assets/images/index/background.webp');
   line-height: 1.5;
   z-index: 1;
 
@@ -518,7 +518,7 @@ body {
     }
 
     &-about-us-info {
-      background: center/cover no-repeat url('/assets/images/index/about_us_photo_mob.png');
+      background: center/cover no-repeat url('/assets/images/index/about_us_photo_mob.webp');
 
       .row { padding: 7vh 5vh; }
 

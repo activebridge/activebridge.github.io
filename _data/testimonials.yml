@@ -8,16 +8,16 @@ solutions:
   description: We offer our expertise in developing custom applications and cloud-based platforms for startups and SMB
   all:
   - title: HealthTech HIPPA Solution
-    image: healthcare.png
+    image: healthcare.webp
     description: a leading American <div class="blue-text">HIPAA-compliant encryption platform</div> protecting patients, healthcare
                  providers, prescribers, pharmacists, and vendors by securing clinical communications and electronic patient health
                  information (ePHI).
   - title: Insuretech SaaS platform
-    image: insurtech.png
+    image: insurtech.webp
     description: a mission-focused company serving healthcare service providers to digitally manage and dispatch <div class="blue-text">workers’
                  compensation bills</div> to employers.
   - title: E-commerce platform with CRM features
-    image: e-commerce.png
+    image: e-commerce.webp
     description: an innovative company advocating sustainable consumption connecting influencers designing sustainable activewear, suppliers and
                  factories sewing clothes with the end consumer.
   button: Check out our solutions

@@ -61,40 +61,40 @@ help_businesses: We help businesses from healthcare, finance, retail, education,
                  opportunities, overcome technological business challenges, and gain higher operational efficiency.
 view_all_solutions: View all solutions
 solutions:
-- logo: healthcare.png
+- logo: healthcare.webp
   title: Healthcare & HIPPA HealthTech
   description: Active Bridge provides end-to-end custom <div class="blue-text">web development solutions</div> for non-financial
                businesses, fintech organizations, and banks.
   index: 0
-- logo: bank.png
+- logo: bank.webp
   title: Finance & Banking
   description: 'Active Bridge provides end-to-end <div class="blue-text">custom web development solutions</div> for non-financial
                 businesses, fintech organizations, and banks.'
   index: 1
-- logo: insurtech.png
+- logo: insurtech.webp
   title: InsurTech
   description: Active Bridge’s industry-specific <div class="blue-text">Ruby on Rails development solutions</div> are powered
                by expertise gained during 10 years of providing programming services for insurance companies.
   index: -1
 awards:
-- image: award-2.png
+- image: award-2.webp
   link: https://clutch.co/profile/active-bridge#reviews
   alt: Top IT Service Company. Arizona, US
-- image: award-4.png
+- image: award-4.webp
   link: https://www.expertise.com/az/phoenix/web-developers
   alt: Best Web Developers in Phoenix, 2022
-- image: award-5.png
+- image: award-5.webp
   link: https://selectedfirms.co/companies/web-development/usa
   alt: Top Web Development Companies of USA
-- image: award-6.png
+- image: award-6.webp
   link: https://topfirms.co/companies/web-development/usa
   alt: Top 30+ Web Development Companies in USA
-- image: award-7.png
+- image: award-7.webp
   link: https://clutch.co/profile/active-bridge?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews#reviews
   alt: Active Bridge LLC, reviewed on Clutch.co
-- image: award-1.png
+- image: award-1.webp
   link: https://topfirms.co/companies/web-development/usa
   alt: Top 30+ Web Development Companies in USA
-- image: award-10.1.png
+- image: award-10.1.webp
   link: https://topfirms.co/companies/web-development/usa
   alt: Best Mobile App Developers in Phoenix, 2022
