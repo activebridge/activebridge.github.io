@@ -47,7 +47,7 @@ all:
     We consider the engineers assigned to our company a core part of the team.
     Thanks guys!
   class: normal_logo
-  index: 0
+  index: 1
 - company: Def Method
   specialization: Technology company
   logo: projects/def_method.svg
@@ -60,7 +60,7 @@ all:
     tested features in an Agile fashion across multiple countries and time zones.
     Their commitment to quality and efficiency is outstanding.
   class: bigger_logo
-  index: 1
+  index: 2
 - company: Modean Apps
   specialization: IT / Tech company
   logo: projects/modean_apps.svg
@@ -70,7 +70,7 @@ all:
   description:
     Awesome team. Full stack development. Happy to work with these guys any day.
   class: smaller_logo
-  index: -1
+  index: 3
 - company: Preeline
   specialization: E-commerce company
   logo: projects/preeline.svg
@@ -84,7 +84,7 @@ all:
     Overall this is an absolutely amazing team to work with, composed of driven developers and bright minds.
     We feel so incredibly lucky to be working with them
   class: smaller_logo
-  index: 2
+  index: 4
 - company: Freestak
   specialization: Marketing company
   logo: projects/freestak.svg
@@ -101,7 +101,7 @@ all:
     After the active development phase, we’ve retained Active Bridge for the ongoing development and maintenance
     of our platform and I couldn’t recommend them enough.
   class: normal_logo
-  index: -2
+  index: 5
 - company: LifeLinker Inc
   specialization: Healthcare / IT company
   logo: projects/life_linker.svg
@@ -116,7 +116,7 @@ all:
     There’s no better source for best quality, best practice and best value development services than
     Active-Bridge. We’re delighted and most appreciative. Thank you.
   class: bigger_logo
-  index: 3
+  index: 6
 - company: My School Ed
   specialization: Tech Company
   logo: projects/myschool.svg
@@ -128,7 +128,7 @@ all:
     but issues and have nothing but good results from Eugene and Active Bridge. You will not find a better company
     period.
   class: normal_logo
-  index: -3
+  index: 7
 tell-us:
   title: We are grateful for their appreciation and always try to meet and exceed the clients’ expectations.
   description: Customer satisfaction not only impacts Active Bridge’s bottom line but also impacts team morale and

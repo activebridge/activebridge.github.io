@@ -299,6 +299,10 @@ body {
 }
 
 .index-solutions__holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
   .index-solutions__items {
     margin: 7vh auto 0 auto;
   }

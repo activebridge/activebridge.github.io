@@ -44,9 +44,16 @@ layout: default
       </div>
 
       <div class="carousel">
-        <ul class="carousel__list testimonials-carousel">
+        <input type="radio" name="testimonials" id="item-1" checked>
+        <input type="radio" name="testimonials" id="item-2">
+        <input type="radio" name="testimonials" id="item-3">
+        <input type="radio" name="testimonials" id="item-4">
+        <input type="radio" name="testimonials" id="item-5">
+        <input type="radio" name="testimonials" id="item-6">
+        <input type="radio" name="testimonials" id="item-7">
+        <div class="carousel__list testimonials-carousel">
           {% for item in site.data.testimonials.all %}
-            <li class="carousel__item" data-index="{{ item.index }}">
+            <label class="carousel__item" for="item-{{ item.index }}" id="card-{{ item.index }}">
               <div class="carousel__image">
                 <img src="{{ item.image }}" alt="Logo">
               </div>
@@ -56,11 +63,10 @@ layout: default
               <div class="carousel__description">
                 {{ item.description }}
               </div>
-            </li>
+            </label>
           {% endfor %}
-        </ul>
+        </div>
       </div>
-
       <a id="index-read-testimonials" class="button white-text violet-button", target="_blank" href="#">
         {{ site.data.testimonials.button }}
       </a>
@@ -156,9 +162,12 @@ layout: default
         <div class="description">{{ site.data.index.help_businesses }}</div>
 
         <div class="carousel">
-          <ul class="carousel__list solutions">
+          <input type="radio" name="solution" id="solution-1" checked>
+          <input type="radio" name="solution" id="solution-2">
+          <input type="radio" name="solution" id="solution-3">
+          <div class="carousel__list solutions">
             {% for solution in site.data.index.solutions %}
-              <li class="carousel__item" data-index="{{ solution.index }}">
+              <label class="carousel__item" for="solution-{{ solution.index }}" id="card-{{ solution.index }}-solution">
                 <div class="carousel__title solutions__title">{{ solution.title }}</div>
                 <div class="carousel__logo solutions__logo">
                   <img src="/assets/images/index/solutions/{{ solution.logo }}" alt="Logo">
@@ -166,9 +175,9 @@ layout: default
                 <div class="carousel__description solutions__description">
                   {{ solution.description }}
                 </div>
-              </li>
+              </label>
             {% endfor %}
-          </ul>
+          </div>
         </div>
       </div>
     </div>

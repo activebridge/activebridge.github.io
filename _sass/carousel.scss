@@ -1,57 +1,43 @@
 .carousel {
-  display: flex;
-  align-items: center;
   width: 100%;
+  max-width: 800px;
+  max-height: 600px;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 6vh;
+  transform-style: preserve-3d;
+
+  input[type=radio] { display: none; }
 
   &__list {
     position: relative;
-    display: flex;
-    justify-content: center;
     width: 100%;
     height: 60vh;
     max-height: 550px;
-    padding-inline-start: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
   &__item {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 35vw;
     max-width: 430px;
     height: 70vh;
     max-height: 530px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
     background-color: $white;
     border-radius: 24px;
-    transition: all .3s ease-in;
+    cursor: pointer;
     box-shadow: inset -4px -6px 10px grey, 2px 1px 12px 0px grey;
-
-    &[data-index="0"] { z-index: 2; }
-
-    &[data-index="-1"],
-    &[data-index="1"] {
-      opacity: 0.7;
-    }
-
-    &[data-index="-1"] {
-      transform: translateX(-40%) scale(.9);
-      z-index: 1;
-    }
-
-    &[data-index="1"] {
-      transform: translateX(40%) scale(.9);
-      z-index: 1;
-    }
-
-    &[data-index="-2"],
-    &[data-index="2"],
-    &[data-index="-3"],
-    &[data-index="3"]{
-      display: none;
-    }
+    transition: all .3s ease-in;
   }
 
   &__image {
@@ -66,11 +52,11 @@
 
   &__description {
     margin: 1vh 3vh 5vh;
-    text-align: justify;
+    display: -webkit-box;
     font-size: .9em;
     line-height: 1.8em;
-    display: -webkit-box;
     overflow: hidden;
+    text-align: justify;
     text-overflow: ellipsis;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 7;
@@ -101,6 +87,82 @@
     }
   }
 
+  #item-1:checked ~ .carousel__list #card-7,
+  #item-2:checked ~ .carousel__list #card-1,
+  #item-3:checked ~ .carousel__list #card-2,
+  #item-4:checked ~ .carousel__list #card-3,
+  #item-5:checked ~ .carousel__list #card-4,
+  #item-6:checked ~ .carousel__list #card-5,
+  #item-7:checked ~ .carousel__list #card-6,
+  #solution-1:checked ~ .carousel__list #card-3-solution,
+  #solution-2:checked ~ .carousel__list #card-1-solution,
+  #solution-3:checked ~ .carousel__list #card-2-solution {
+    transform: translatex(-40%) scale(.9);
+    opacity: .4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .carousel__list #card-2,
+  #item-2:checked ~ .carousel__list #card-3,
+  #item-3:checked ~ .carousel__list #card-4,
+  #item-4:checked ~ .carousel__list #card-5,
+  #item-5:checked ~ .carousel__list #card-6,
+  #item-6:checked ~ .carousel__list #card-7,
+  #item-7:checked ~ .carousel__list #card-1,
+  #solution-1:checked ~ .carousel__list #card-2-solution,
+  #solution-2:checked ~ .carousel__list #card-3-solution,
+  #solution-3:checked ~ .carousel__list #card-1-solution {
+    transform: translatex(40%) scale(.9);
+    opacity: .4;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .carousel__list #card-1,
+  #item-2:checked ~ .carousel__list #card-2,
+  #item-3:checked ~ .carousel__list #card-3,
+  #item-4:checked ~ .carousel__list #card-4,
+  #item-5:checked ~ .carousel__list #card-5,
+  #item-6:checked ~ .carousel__list #card-6,
+  #item-7:checked ~ .carousel__list #card-7,
+  #solution-1:checked ~ .carousel__list #card-1-solution,
+  #solution-2:checked ~ .carousel__list #card-2-solution,
+  #solution-3:checked ~ .carousel__list #card-3-solution {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+
+  #item-1:checked ~ .carousel__list #card-3,
+  #item-1:checked ~ .carousel__list #card-4,
+  #item-1:checked ~ .carousel__list #card-5,
+  #item-1:checked ~ .carousel__list #card-6,
+  #item-2:checked ~ .carousel__list #card-6,
+  #item-2:checked ~ .carousel__list #card-7,
+  #item-2:checked ~ .carousel__list #card-4,
+  #item-2:checked ~ .carousel__list #card-5,
+  #item-3:checked ~ .carousel__list #card-1,
+  #item-3:checked ~ .carousel__list #card-7,
+  #item-3:checked ~ .carousel__list #card-5,
+  #item-3:checked ~ .carousel__list #card-6,
+  #item-4:checked ~ .carousel__list #card-7,
+  #item-4:checked ~ .carousel__list #card-1,
+  #item-4:checked ~ .carousel__list #card-2,
+  #item-4:checked ~ .carousel__list #card-6,
+  #item-5:checked ~ .carousel__list #card-2,
+  #item-5:checked ~ .carousel__list #card-3,
+  #item-5:checked ~ .carousel__list #card-1,
+  #item-5:checked ~ .carousel__list #card-7,
+  #item-6:checked ~ .carousel__list #card-1,
+  #item-6:checked ~ .carousel__list #card-2,
+  #item-6:checked ~ .carousel__list #card-3,
+  #item-6:checked ~ .carousel__list #card-4,
+  #item-7:checked ~ .carousel__list #card-5,
+  #item-7:checked ~ .carousel__list #card-4,
+  #item-7:checked ~ .carousel__list #card-2,
+  #item-7:checked ~ .carousel__list #card-3 {
+    display: none;
+  }
+
   .testimonials-carousel {
     .carousel__image { margin: 3vh 3vh 2vh; }
 
@@ -128,10 +190,32 @@
     &__item {
       width: 60vw;
       height: 42vh;
+    }
 
-      &[data-index="1"] { transform: translateX(30%) scale(.9); }
+    #item-1:checked ~ .carousel__list #card-7,
+    #item-2:checked ~ .carousel__list #card-1,
+    #item-3:checked ~ .carousel__list #card-2,
+    #item-4:checked ~ .carousel__list #card-3,
+    #item-5:checked ~ .carousel__list #card-4,
+    #item-6:checked ~ .carousel__list #card-5,
+    #item-7:checked ~ .carousel__list #card-6,
+    #solution-1:checked ~ .carousel__list #card-3-solution,
+    #solution-2:checked ~ .carousel__list #card-1-solution,
+    #solution-3:checked ~ .carousel__list #card-2-solution {
+      transform: translatex(-30%) scale(.8);
+    }
 
-      &[data-index="-1"] { transform: translateX(-30%) scale(.9); }
+    #item-1:checked ~ .carousel__list #card-2,
+    #item-2:checked ~ .carousel__list #card-3,
+    #item-3:checked ~ .carousel__list #card-4,
+    #item-4:checked ~ .carousel__list #card-5,
+    #item-5:checked ~ .carousel__list #card-6,
+    #item-6:checked ~ .carousel__list #card-7,
+    #item-7:checked ~ .carousel__list #card-1,
+    #solution-1:checked ~ .carousel__list #card-2-solution,
+    #solution-2:checked ~ .carousel__list #card-3-solution,
+    #solution-3:checked ~ .carousel__list #card-1-solution {
+      transform: translatex(30%) scale(.8);
     }
 
     &__description {
