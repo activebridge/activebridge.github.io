@@ -1,0 +1,138 @@
+.faq {
+  &__main-content {
+    background: no-repeat url('/assets/images/faq/Cloud-1.webp'),
+                linear-gradient(132deg, #FBDF89 8.4%, #A49FEB 52.42%, #8CC9FC 93.77%);
+    background-blend-mode: luminosity;
+    background-position: top 87px left 0, top 0 left 0;
+    padding: 191px 30px 113px 30px;
+    position: relative;
+
+    &::after {
+      bottom: -10%;
+      content: url('/assets/images/faq/Cloud-2.webp');
+      filter: blur(5px);
+      position: absolute;
+      right: 0;
+      mix-blend-mode: luminosity;
+      z-index: 1;
+    }
+  }
+
+  &__description {
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    position: relative;
+    margin-bottom: 32px;
+  }
+
+  details {
+    user-select: none;
+    &:last-child{ border-bottom: 1px solid $black_sea; }
+
+    &[open] {
+      animation-name: fadeInDown;
+      animation-duration: 0.5s;
+    }
+  }
+
+  @keyframes fadeInDown {
+
+    0% {
+      opacity: 0;
+      transform: translateY(-0.5em);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &__summary {
+    color: $black_sea;
+    cursor: pointer;
+    border: 1px solid $black_sea;
+    border-bottom: none;
+    font-family: 'Cera Regular';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    list-style: none;
+    padding: 22px 32px;
+    text-align: justify;
+    text-transform: uppercase;
+  }
+
+  &__detail-description {
+    border: 1px solid $black_sea;
+    border-bottom: none;
+    padding: 21px 10px 33px 63px;
+
+    p, li { text-align: justify; }
+  }
+  ul { margin: 0; }
+
+  &__botton-info {
+    background: linear-gradient(116deg, #5723B5 0%, #8CC9FC 100%);
+    box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.25);
+    padding: 26px 0 24px 0;
+
+    .wrapper {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  &__gift { mix-blend-mode: luminosity; }
+}
+
+@media (max-width: 1440px) {
+  .faq {
+    &__table {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .faq {
+    &__description { margin-bottom: 51px; }
+
+    &__botton-info {
+      .wrapper {
+        flex-direction: column;
+      }
+    }
+    &__gift { margin-bottom: 24px; }
+  }
+}
+
+@media (max-width: 767px) {
+  .faq {
+    &__main-content {
+      background-position: top 107px left 0, top 0 left 0;
+      background-size: 140px 140px, cover;
+      padding: 66px 50px 88px 50px;
+
+      &::after {
+        bottom: -5%;
+        content: url('/assets/images/faq/Cloud-4.webp');
+      }
+    }
+
+    &__summary {
+      font-size: 10px;
+      padding: 12px 15px;
+    }
+
+    &__table { z-index: 0;}
+    &__description { font-size: 12px; }
+    &__detail-description { padding: 7px 14px 11px 15px; }
+    &__gift { width: 150px; }
+  }
+}
