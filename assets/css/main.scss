@@ -10,6 +10,7 @@
 @import "crew";
 @import "accordion";
 @import "services";
+@import "public_404";
 
 @font-face {
   font-family: 'Cera Regular';
@@ -25,7 +26,20 @@
   font-display: swap;
 }
 
-body { font-family: 'Cera Regular', serif; }
+h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 15px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Cera Regular', serif;
+  min-width: 390px;
+}
 
 a:hover { text-decoration: none !important; }
 
@@ -594,5 +608,33 @@ input#menu {
 
   100% {
     width: 100%;
+  }
+}
+
+.contant-container {
+  margin: 0 auto;
+  max-width: 930px;
+  text-align: center;
+
+  .description {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 18px;
+    letter-spacing: 9px;
+   }
+
+  .contant-container {
+    .description {
+      font-size: 10px;
+      line-height: 15px;
+    }
   }
 }
