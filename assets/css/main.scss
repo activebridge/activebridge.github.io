@@ -8,6 +8,7 @@
 @import "carousel";
 @import "services";
 @import "public_404";
+@import "privacy_policy";
 
 @font-face {
   font-family: 'Cera Regular';
@@ -23,15 +24,7 @@
   font-display: swap;
 }
 
-h2 {
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 15px;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-}
+p { margin: 0; }
 
 body {
   font-family: 'Cera Regular', serif;
@@ -608,30 +601,67 @@ input#menu {
   }
 }
 
-.contant-container {
+.wrapper {
   margin: 0 auto;
   max-width: 930px;
   text-align: center;
+}
 
-  .description {
-    font-family: Cera Pro;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-  }
+.base-content {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.title-2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 15px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.title-3 {
+  font-family: Inria Serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.title-4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin: 0;
+  text-align: center;
+  text-transform: none;
 }
 
 @media (max-width: 767px) {
-  h2 {
+  .title-2 {
     font-size: 18px;
     letter-spacing: 9px;
    }
 
-  .contant-container {
-    .description {
-      font-size: 10px;
-      line-height: 15px;
-    }
+  .title-3 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .title-4 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .base-content {
+    font-size: 10px;
+    line-height: 15px;
   }
 }
