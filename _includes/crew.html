@@ -1,0 +1,11 @@
+<div class="crew">
+  {% for item in site.data.about.crew.all %}
+    <div class="crew__item">
+      <div class="crew__item-photo">
+        <img src="/assets/images/{{ item.image }}" alt="Crew">
+      </div>
+      <div class="crew__item-name">{{ item.name }}</div>
+      <div class="crew__item-post">{{ item.post }}</div>
+    </div>
+  {% endfor %}
+</div>
