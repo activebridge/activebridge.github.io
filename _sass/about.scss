@@ -45,7 +45,7 @@
   }
 
   &__crew {
-    background: center/cover no-repeat url("/assets/images/about/crew.jpeg");
+    background: center/cover no-repeat url("/assets/images/about/crew.webp");
 
     .about__description {
       padding: 5vh 0;
@@ -138,9 +138,14 @@
       align-items: center;
       margin-bottom: 5vh;
 
-      &-img { margin-right: 2vw; }
+      &-img {
+        margin-right: 2vw;
 
-      img { width: 16vh; }
+        img {
+          width: 16vh;
+          max-width: none;
+        }
+      }
 
       &-text { text-align: justify; }
 
@@ -158,7 +163,13 @@
   }
 
   &__testimonials {
-    background: center/cover no-repeat url('/assets/images/about/about-bg.jpeg');
+    background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
     &-title { margin-bottom: 5vh; }
 
@@ -173,7 +184,7 @@
 
   &__culture {
     min-height: 100vh;
-    background: center/cover no-repeat url('/assets/images/about/team.jpeg');
+    background: center/cover no-repeat url('/assets/images/about/team.webp');
 
     .row {
       display: flex;
@@ -261,7 +272,9 @@
       max-width: 70vw;
     }
 
-    .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.jpeg'); }
+    .info-container:first-child {
+      background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp');
+    }
 
     &__crew {
       &-container { justify-content: center; }
@@ -274,6 +287,11 @@
     }
 
     &__benefits {
+      .overlay {
+        top: 50%;
+        height: 43%;
+      }
+
       .accordion__item-text {
         padding: 5vh 4vh 4vh;
         font-size: .8em;
@@ -296,7 +314,7 @@
 
         &-img { margin: auto; }
 
-        svg { width: 18vh; }
+        img { width: 18vh; }
 
         &-title {
           margin-bottom: 2vh;
