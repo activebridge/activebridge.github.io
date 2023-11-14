@@ -1,3 +1,4 @@
+
 .carousel {
   width: 100%;
   max-width: 800px;
@@ -85,80 +86,82 @@
     }
   }
 
-  #item-1:checked ~ .carousel__list #card-7,
-  #item-2:checked ~ .carousel__list #card-1,
-  #item-3:checked ~ .carousel__list #card-2,
-  #item-4:checked ~ .carousel__list #card-3,
-  #item-5:checked ~ .carousel__list #card-4,
-  #item-6:checked ~ .carousel__list #card-5,
-  #item-7:checked ~ .carousel__list #card-6,
-  #solution-1:checked ~ .carousel__list #card-3-solution,
-  #solution-2:checked ~ .carousel__list #card-1-solution,
-  #solution-3:checked ~ .carousel__list #card-2-solution {
-    transform: translatex(-40%) scale(.9);
-    opacity: .4;
-    z-index: 0;
-  }
+  @for $number from 1 through 10 {
+    #item-1-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #solution-1-#{$number}:checked ~ .carousel__list #card-3-solution,
+    #solution-2-#{$number}:checked ~ .carousel__list #card-1-solution,
+    #solution-3-#{$number}:checked ~ .carousel__list #card-2-solution {
+      transform: translatex(-40%) scale(.9);
+      opacity: .4;
+      z-index: 0;
+    }
 
-  #item-1:checked ~ .carousel__list #card-2,
-  #item-2:checked ~ .carousel__list #card-3,
-  #item-3:checked ~ .carousel__list #card-4,
-  #item-4:checked ~ .carousel__list #card-5,
-  #item-5:checked ~ .carousel__list #card-6,
-  #item-6:checked ~ .carousel__list #card-7,
-  #item-7:checked ~ .carousel__list #card-1,
-  #solution-1:checked ~ .carousel__list #card-2-solution,
-  #solution-2:checked ~ .carousel__list #card-3-solution,
-  #solution-3:checked ~ .carousel__list #card-1-solution {
-    transform: translatex(40%) scale(.9);
-    opacity: .4;
-    z-index: 0;
-  }
+    #item-1-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #solution-1-#{$number}:checked ~ .carousel__list #card-2-solution,
+    #solution-2-#{$number}:checked ~ .carousel__list #card-3-solution,
+    #solution-3-#{$number}:checked ~ .carousel__list #card-1-solution {
+      transform: translatex(40%) scale(.9);
+      opacity: .4;
+      z-index: 0;
+    }
 
-  #item-1:checked ~ .carousel__list #card-1,
-  #item-2:checked ~ .carousel__list #card-2,
-  #item-3:checked ~ .carousel__list #card-3,
-  #item-4:checked ~ .carousel__list #card-4,
-  #item-5:checked ~ .carousel__list #card-5,
-  #item-6:checked ~ .carousel__list #card-6,
-  #item-7:checked ~ .carousel__list #card-7,
-  #solution-1:checked ~ .carousel__list #card-1-solution,
-  #solution-2:checked ~ .carousel__list #card-2-solution,
-  #solution-3:checked ~ .carousel__list #card-3-solution {
-    transform: translatex(0) scale(1);
-    opacity: 1;
-    z-index: 1;
-  }
+    #item-1-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #solution-1-#{$number}:checked ~ .carousel__list #card-1-solution,
+    #solution-2-#{$number}:checked ~ .carousel__list #card-2-solution,
+    #solution-3-#{$number}:checked ~ .carousel__list #card-3-solution {
+      transform: translatex(0) scale(1);
+      opacity: 1;
+      z-index: 1;
+    }
 
-  #item-1:checked ~ .carousel__list #card-3,
-  #item-1:checked ~ .carousel__list #card-4,
-  #item-1:checked ~ .carousel__list #card-5,
-  #item-1:checked ~ .carousel__list #card-6,
-  #item-2:checked ~ .carousel__list #card-6,
-  #item-2:checked ~ .carousel__list #card-7,
-  #item-2:checked ~ .carousel__list #card-4,
-  #item-2:checked ~ .carousel__list #card-5,
-  #item-3:checked ~ .carousel__list #card-1,
-  #item-3:checked ~ .carousel__list #card-7,
-  #item-3:checked ~ .carousel__list #card-5,
-  #item-3:checked ~ .carousel__list #card-6,
-  #item-4:checked ~ .carousel__list #card-7,
-  #item-4:checked ~ .carousel__list #card-1,
-  #item-4:checked ~ .carousel__list #card-2,
-  #item-4:checked ~ .carousel__list #card-6,
-  #item-5:checked ~ .carousel__list #card-2,
-  #item-5:checked ~ .carousel__list #card-3,
-  #item-5:checked ~ .carousel__list #card-1,
-  #item-5:checked ~ .carousel__list #card-7,
-  #item-6:checked ~ .carousel__list #card-1,
-  #item-6:checked ~ .carousel__list #card-2,
-  #item-6:checked ~ .carousel__list #card-3,
-  #item-6:checked ~ .carousel__list #card-4,
-  #item-7:checked ~ .carousel__list #card-5,
-  #item-7:checked ~ .carousel__list #card-4,
-  #item-7:checked ~ .carousel__list #card-2,
-  #item-7:checked ~ .carousel__list #card-3 {
-    display: none;
+    #item-1-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-1-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-1-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-1-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-2-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-3-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-4-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-5-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+    #item-6-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+    #item-7-#{$number}:checked ~ .carousel__list #card-3-#{$number} {
+      display: none;
+    }
   }
 
   .testimonials-carousel {
@@ -190,30 +193,32 @@
       height: 42vh;
     }
 
-    #item-1:checked ~ .carousel__list #card-7,
-    #item-2:checked ~ .carousel__list #card-1,
-    #item-3:checked ~ .carousel__list #card-2,
-    #item-4:checked ~ .carousel__list #card-3,
-    #item-5:checked ~ .carousel__list #card-4,
-    #item-6:checked ~ .carousel__list #card-5,
-    #item-7:checked ~ .carousel__list #card-6,
-    #solution-1:checked ~ .carousel__list #card-3-solution,
-    #solution-2:checked ~ .carousel__list #card-1-solution,
-    #solution-3:checked ~ .carousel__list #card-2-solution {
-      transform: translatex(-30%) scale(.8);
-    }
+    @for $number from 1 through 10 {
+      #item-1-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+      #item-2-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+      #item-3-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+      #item-4-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+      #item-5-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+      #item-6-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+      #item-7-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+      #solution-1-#{$number}:checked ~ .carousel__list #card-3-solution,
+      #solution-2-#{$number}:checked ~ .carousel__list #card-1-solution,
+      #solution-3-#{$number}:checked ~ .carousel__list #card-2-solution {
+        transform: translatex(-30%) scale(.8);
+      }
 
-    #item-1:checked ~ .carousel__list #card-2,
-    #item-2:checked ~ .carousel__list #card-3,
-    #item-3:checked ~ .carousel__list #card-4,
-    #item-4:checked ~ .carousel__list #card-5,
-    #item-5:checked ~ .carousel__list #card-6,
-    #item-6:checked ~ .carousel__list #card-7,
-    #item-7:checked ~ .carousel__list #card-1,
-    #solution-1:checked ~ .carousel__list #card-2-solution,
-    #solution-2:checked ~ .carousel__list #card-3-solution,
-    #solution-3:checked ~ .carousel__list #card-1-solution {
-      transform: translatex(30%) scale(.8);
+      #item-1-#{$number}:checked ~ .carousel__list #card-2-#{$number},
+      #item-2-#{$number}:checked ~ .carousel__list #card-3-#{$number},
+      #item-3-#{$number}:checked ~ .carousel__list #card-4-#{$number},
+      #item-4-#{$number}:checked ~ .carousel__list #card-5-#{$number},
+      #item-5-#{$number}:checked ~ .carousel__list #card-6-#{$number},
+      #item-6-#{$number}:checked ~ .carousel__list #card-7-#{$number},
+      #item-7-#{$number}:checked ~ .carousel__list #card-1-#{$number},
+      #solution-1-#{$number}:checked ~ .carousel__list #card-2-solution,
+      #solution-2-#{$number}:checked ~ .carousel__list #card-3-solution,
+      #solution-3-#{$number}:checked ~ .carousel__list #card-1-solution {
+        transform: translatex(30%) scale(.8);
+      }
     }
 
     &__description {
