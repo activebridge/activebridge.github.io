@@ -1,0 +1,393 @@
+.about {
+  &.container { padding-top: 0; }
+
+  .wrap { padding-top: 10vh; }
+
+  &__header,
+  &__description {
+    font-family: 'Inria', serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.7em;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__header {
+    margin-top: 4.5vh;
+    margin-bottom: 0;
+  }
+
+  &__description {
+    margin-bottom: 4.5vh;
+
+    &-cera {
+      font-family: 'Cera Regular', serif;
+      font-size: 1em;
+    }
+  }
+
+  &__vision {
+    &-description {
+      color: $black;
+      text-align: justify;
+    }
+  }
+
+  &__vision,
+  &__benefits,
+  &__key-facts {
+    h2.header-2 {
+      margin-bottom: 5vh;
+      font-size: 1.5em;
+      max-width: 100%;
+    }
+  }
+
+  &__crew {
+    background: center/cover no-repeat url("/assets/images/about/crew.jpeg");
+
+    .about__description {
+      padding: 5vh 0;
+      text-align: justify;
+      margin-bottom: 0;
+    }
+
+    &-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 4.5vh 0 3vh;
+    }
+
+    &-item {
+      padding: 4vw 1vw;
+      max-width: 270px;
+      width: 100%;
+      background: #fff;
+      border-radius: 30px;
+      box-shadow: inset -1px 4px 13px -5px white, inset -1px -5px 5px grey, 2px 1px 12px 0px grey;
+      box-sizing: border-box;
+
+      &-photo img {
+        width: 8em;
+        border-radius: 50%;
+      }
+
+      &-name {
+        margin: 2vw 0 1vw;
+        font: 1.5em 'Inria Bold', serif;
+      }
+
+      &-post { font-size: 1.1em; }
+    }
+
+    &-button { background-color: $white !important; }
+  }
+
+  &__benefits {
+    position: relative;
+    background: left 100% / 100% 65% no-repeat url("/assets/images/about/benefits.svg");
+
+    .overlay {
+      position: absolute;
+      width: 100%;
+      height: 64%;
+      right: 0;
+      top: 36%;
+      background-color: rgba(252, 252, 252, 0.7);
+      backdrop-filter: blur(1.5px);
+    }
+
+    h2.header-2 { margin-top: 5vh; }
+
+    .accordion {
+      &__item {
+        &-top {
+          letter-spacing: normal;
+          text-transform: inherit;
+        }
+        &-text {
+          padding: 7vh 7vh 5vh;
+          line-height: 1.7;
+          text-align: justify;
+        }
+      }
+
+      label {
+        font-family: 'Inria', serif;
+
+        &::before,
+        &::after { top: 0; }
+      }
+    }
+  }
+
+  &__key-facts {
+    background: $main-gradient;
+
+    h2.header-2 { margin-top: 5vh; }
+
+    &-list {
+      margin: 0;
+      list-style-type: none;
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5vh;
+
+      &-img { margin-right: 2vw; }
+
+      img { width: 16vh; }
+
+      &-text { text-align: justify; }
+
+      &-title {
+        margin-bottom: 3vh;
+        font-size: 1.2em;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+
+        span { font-weight: bold;}
+      }
+
+      &-description { line-height: 1.6; }
+    }
+  }
+
+  &__testimonials {
+    background: center/cover no-repeat url('/assets/images/about/about-bg.jpeg');
+
+    &-title { margin-bottom: 5vh; }
+
+    .carousel__description {
+      margin-right: 6vh;
+      margin-left: 6vh;
+      -webkit-line-clamp: 9;
+    }
+
+    .button { margin-top: 5em; }
+  }
+
+  &__culture {
+    min-height: 100vh;
+    background: center/cover no-repeat url('/assets/images/about/team.jpeg');
+
+    .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    &-text { line-height: 1.6; }
+
+    &-title {
+      text-transform: uppercase;
+      font-size: 1.6em;
+      letter-spacing: 0.4em;
+      margin: 0 5vh;
+    }
+
+    &-description {
+      margin: 8vh 0 6vh;
+      font-size: 1.3em;
+      font-family: 'Inria Bold', serif;
+      text-align: justify;
+    }
+
+    &-button {
+      max-width: 25em;
+      background-color: $white !important;;
+    }
+  }
+}
+
+.about_us_info {
+  &__container {
+    width: 50%;
+    text-align: left;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vh;
+    font-size: 1.1em;
+    font-weight: bold;
+
+    img,
+    svg {
+      height: 10vh;
+      margin-right: 10px;
+    }
+  }
+
+  &__photo {
+    width: 85%;
+    margin-right: -20vw;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__items { display: flex; }
+}
+
+
+@media (max-width: 600px) {
+  .about {
+    .button {
+      width: auto;
+      margin-top: 0;
+    }
+
+    h2.header-2 { font-size: 1em; }
+
+    &__header,
+    &__description {
+      font-size: .9em;
+      line-height: 1.4;
+    }
+
+    &__header {
+      margin: 4.5vh auto 3vh;
+      max-width: 70vw;
+    }
+
+    .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.jpeg'); }
+
+    &__crew {
+      &-container { justify-content: center; }
+
+      &-item {
+        max-width: 55vw;
+        margin-bottom: 5vh;
+        padding: 10vw 5vw;
+      }
+    }
+
+    &__benefits {
+      .accordion__item-text {
+        padding: 5vh 4vh 4vh;
+        font-size: .8em;
+      }
+    }
+
+    &__key-facts {
+      h2.header-2 {
+        margin-right: 3vw;
+        margin-left: 3vw;
+      }
+
+      &-list {
+        padding-top: 0;
+        padding-inline-start: 0;
+      }
+
+      &-item {
+        flex-wrap: wrap;
+
+        &-img { margin: auto; }
+
+        svg { width: 18vh; }
+
+        &-title {
+          margin-bottom: 2vh;
+          font-size: 1em;
+          line-height: 1.6;
+          text-align: center;
+
+          span {
+            display: block;
+            font-size: 1.5em;
+          }
+        }
+
+        &-description {
+          font-size: .9em;
+        }
+      }
+    }
+
+    &__testimonials {
+      .description {
+        text-align: justify;
+        text-align-last: center;
+      }
+
+      .carousel__description {
+        margin-right: 3vh;
+        margin-left: 3vh;
+        -webkit-line-clamp: 7;
+      }
+    }
+
+    &__culture {
+      &-title {
+        margin: 0;
+        font-size: 1em;
+      }
+
+      &-description {
+        margin-top: 5vh;
+        font-size: .9em;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .about_us_info {
+    &__container { width: 100%; }
+
+    &__item { font-size: 0.9em; }
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .about {
+    &__benefits {
+      .accordion__item {
+        &-text { padding: 4vh 9vh 4vh; }
+
+        &-top { padding: 1em; }
+      }
+    }
+
+    &__key-facts {
+      &-item {
+        margin-bottom: 2vh;
+
+        &-img img { width: 13vh; }
+
+        &-title { margin-bottom: 2vh; }
+      }
+
+      h2.header-2 {
+        margin-bottom: 3vh;
+        margin-top: 3vh;
+      }
+    }
+
+    &__testimonials {
+      .carousel__description {
+        margin-right: 4vh;
+        margin-left: 4vh;
+        -webkit-line-clamp: 8;
+      }
+    }
+
+    &__culture {
+      min-height: 60vh;
+      max-height: 60vh;
+
+      .row { min-height: 60vh; }
+    }
+  }
+}

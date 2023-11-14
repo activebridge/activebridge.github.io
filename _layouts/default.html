@@ -8,20 +8,19 @@
 
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="stylesheet" href="/assets/main.css">
-    <script src="/assets/js/sevices.js"></script> <!--TODO: update to relative url from template-->
+    <script src="/assets/js/application.js"></script>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_css_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog">Blog</a>
-      <a href="/services">Services</a>
-    </nav>
+    {% include header.html %}
+
     <section>
       {{ content }}
     </section>
+
+    {% include footer.html %}
   </body>
 </html>

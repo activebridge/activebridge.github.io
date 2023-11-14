@@ -1,0 +1,32 @@
+navigation:
+  links:
+  - page: Reviews
+    link: /reviews
+  - page: FAQ
+    link: /faq
+  - page: Blog
+    link: /blog
+  social_icons:
+  - link: https://www.linkedin.com/company/active-bridge
+    icon: linkedin
+  - link: https://github.com/activebridge
+    icon: github
+  - link: https://www.facebook.com/ActiveBridgeTeam
+    icon: facebook
+  - link: https://www.instagram.com/active.bridge
+    icon: instagram
+  - link: https://twitter.com/activebridge
+    icon: twitter
+contact_info:
+  email: contact@active-bridge.com
+  phone_number: '+18888053503'
+  entities:
+  - entity: USA
+    name: Active Bridge, LLC
+    address: 4644 North 22nd Street
+    post: Phoenix, AZ 85016
+    country: United States
+  - entity: Ukraine
+    name: Active Bridge, LLC
+    address: Yevhena Kukhartsia, 8 Street
+    post: Cherkasy 18000
