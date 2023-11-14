@@ -1,0 +1,228 @@
+.privacy-policy {
+  &__top-container {
+    background: top 123px left 55px no-repeat url('/assets/images/privacy_policy/sheild-dynamic-premium.webp'),
+                right 40px bottom 36px no-repeat url('/assets/images/privacy_policy/lock-dynamic-premium.webp'),
+                linear-gradient(312deg, #5723B5 0%, #A49FEB 44.74%, #FBDF89 89.47%);
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 191px 30px 138px 30px;
+  }
+
+  &__personal-info {
+    background: linear-gradient(116deg, #A49FEB 0%, #FFF 100%);
+    box-shadow: 0px 0px 20px 0px rgba(87, 35, 181, 0.50);
+    padding: 87px 50px 53px 50px;
+   }
+
+   &__vendor-info {
+    background: linear-gradient(129deg, #FBDF89 0%, rgba(251, 223, 137, 0.00) 100%);
+    box-shadow: 0px 0px 20px 0px rgba(87, 35, 181, 0.50);
+    padding: 87px 50px 112px 50px;
+   }
+
+   &__security {
+    background: $titan_white;
+    box-shadow: 0px 0px 20px 0px rgba(87, 35, 181, 0.50);
+    padding: 55px 30px 84px 30px;
+   }
+
+  &__description {
+    color: $black_sea;
+    margin: 50px 0;
+  }
+}
+
+.info-about-you {
+  .title-3:not(.white-text) { text-align: start; }
+  .white-text { margin-bottom: 28px; }
+
+  &__card {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 47px;
+  }
+
+  &__info-wrapper {
+    padding: 17px 0;
+    margin-left: 45px;
+  }
+
+  &__icon {
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: $palianytsia;
+    width: 150px;
+    height: 150px;
+  }
+
+  &__description {
+    color: $white;
+    text-align: start;
+  }
+}
+
+.personal-info {
+  .title-3 { font-family: Inria Serif; }
+
+  &__list {
+    list-style-type:none;
+    max-width: 890px;
+    padding-top: 36px;
+    text-align: justify;
+  }
+
+  &__info-line {
+    color: $black_sea;
+    display: block;
+    position: relative;
+    padding-bottom: 32px;
+
+    &::before {
+      content: url('/assets/images/privacy_policy/Ruby\ 3.webp');
+      display: inline-block;
+      left: 0;
+      margin-left: calc( 32px * -1.2 );
+      mix-blend-mode: luminosity;
+      position: absolute;
+      top: 5px;
+      vertical-align: text-top;
+      width: 32px;
+    }
+
+    &--vendor-info{
+
+      &::before {
+        content: url('/assets/images/privacy_policy/sun-premium-2.webp');
+      }
+    }
+  }
+
+  &__info-line:last-child { padding-bottom: 0;}
+}
+
+.vendor-info {
+  .title-4 {
+    color: $black_sea;
+    font-family: Cera Pro;
+    margin-top: 31px;
+  }
+
+  &__description {
+    text-align: justify;
+    margin-bottom: 55px;
+  }
+}
+
+.security {
+  &__top-block {
+    background: top 50% left 0 no-repeat url('/assets/images/privacy_policy/sun-premium-2.webp'),
+                right 0 top 50% no-repeat url('/assets/images/privacy_policy/sun-premium-2.webp');
+    mix-blend-mode: luminosity;
+    position: relative;
+
+    img {
+      display: inline-block;
+      position: relative;
+      z-index: 3;
+    }
+
+    &::before, &::after {
+      content: '';
+      background-color: $black_sea;
+      display: inline-block;
+      height: 1px;
+      position: absolute;
+      top: 50%;
+      width: 300px;
+      z-index: 2;
+    }
+
+    &::before { left: 5%; }
+    &::after { right: 5%; }
+  }
+
+  .title-3 {
+    font-family: Inria Serif;
+    margin: 50px 0 30px 0;
+  }
+
+  &__description {
+    text-align: justify;
+
+    &:last-child {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 1300px) {
+  .privacy-policy {
+    &__top-container {
+      background: top 100px left 30px no-repeat url('/assets/images/privacy_policy/sheild-dynamic-premium.webp'),
+      right 40px bottom 36px no-repeat url('/assets/images/privacy_policy/lock-dynamic-premium.webp'),
+      linear-gradient(312deg, #5723B5 0%, #A49FEB 44.74%, #FBDF89 89.47%);
+      background-size: 150px, 150px, 100%, cover;
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .privacy-policy {
+    &__top-container {
+      background: linear-gradient(312deg, #5723B5 0%, #A49FEB 44.74%, #FBDF89 89.47%);
+    }
+  }
+
+  .security {
+    &__top-block {
+      &::before, &::after {
+        width: 30vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .privacy-policy {
+    &__top-container {
+      background: linear-gradient(312deg, #5723B5 0%, #A49FEB 44.74%, #FBDF89 89.47%);
+      padding: 149px 50px;
+    }
+
+    &__personal-info, &__vendor-info {
+      padding: 50px;
+    }
+  }
+
+  .info-about-you {
+    .title-3:not(.white-text) { text-align: center; }
+
+    &__card {
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-bottom: 33px;
+    }
+
+    &__icon {
+      width: 120px;
+      height: 120px;
+    }
+
+    &__info-wrapper {
+      margin-left: 0;
+    }
+  }
+
+  .security {
+    &__top-block {
+      img {
+        width: 150px;
+      }
+      &::before, &::after {
+        width: 20vw;
+      }
+    }
+  }
+}

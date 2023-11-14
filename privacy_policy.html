@@ -1,0 +1,64 @@
+---
+permalink: /privacy_policy.html
+layout: default
+title: Privacy Policy
+description: This is Privacy Policy
+---
+
+<div class="privacy-policy">
+  <section class="privacy-policy__top-container">
+    <div class="wrapper">
+      <h2 class="title-2">{{ site.data.privacy_policy.title }}</h2>
+      <p class="base-content privacy-policy__description">
+        {{ site.data.privacy_policy.description }}
+      </p>
+      <section class="info-about-you">
+        <h3 class="white-text title-3">{{ site.data.privacy_policy.info_about_you.title }}</h3>
+        {% for block in site.data.privacy_policy.info_about_you.blocks %}
+          <div class="info-about-you__card">
+            <div class="info-about-you__icon"></div>
+            <div class="info-about-you__info-wrapper">
+              <h3 class="title-3">{{ block.title }}</h3>
+              <p class="base-content info-about-you__description">{{ block.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </section>
+    </div>
+  </section>
+  <section class="privacy-policy__personal-info">
+    <div class="wrapper personal-info">
+      <h3 class="title-3">{{ site.data.privacy_policy.personal_info.title }}</h3>
+      <ul class="personal-info__list">
+        {% for line in site.data.privacy_policy.personal_info.lines %}
+          <li class="base-content personal-info__info-line"> {{ line.description }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <section class="privacy-policy__vendor-info ">
+    <div class="wrapper vendor-info">
+      <h3 class="title-3">{{ site.data.privacy_policy.vendor_info.title }}</h3>
+      <p class="base-content vendor-info__description"> {{ site.data.privacy_policy.vendor_info.description }}</p>
+      {% for block in site.data.privacy_policy.vendor_info.blocks %}
+        <h4 class="title-4">{{ block.title }}</h4>
+        <ul class="vendor-info__list personal-info__list">
+          {% for line in block.lines %}
+            <li class="base-content personal-info__info-line personal-info__info-line--vendor-info"> {{ line.description }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </section>
+  <section class="privacy-policy__security">
+    <div class="wrapper security">
+      <div class="security__top-block">
+        <img src="/assets/images/privacy_policy/locker-dynamic-premium-2.webp" alt="locker">
+      </div>
+      {% for block in site.data.privacy_policy.security.blocks %}
+      {% if block.title  %} <h3 class="title-3">{{ block.title }}</h3> {% endif %}
+        <p class="base-content security__description">{{ block.description }}</p>
+      {% endfor %}
+    </div>
+  </section>
+</div>
