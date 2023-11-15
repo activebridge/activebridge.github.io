@@ -1,0 +1,33 @@
+.cto-button {
+  color: $white;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 50px;
+  box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.15), 0px 4px 15px 0px rgba(0, 0, 0, 0.15) inset;
+  display: inline-block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 10px;
+  padding: 22px;
+  text-transform: uppercase;
+  outline: none;
+  max-width: 500px;
+
+  &:link { text-decoration: none; }
+  &:hover {
+    box-shadow: $violet-hover-shadow;
+    background: linear-gradient($white, $white) padding-box,
+                linear-gradient(to right, $main-violet, $main-blue) border-box;
+    border: 1px solid rgba(black, .1);
+    color: $black_sea;
+  }
+}
+
+@media (max-width: 767px) {
+  .cto-button {
+    font-size: 10px;
+    letter-spacing: 5px;
+    max-width: 290px;
+  }
+}
