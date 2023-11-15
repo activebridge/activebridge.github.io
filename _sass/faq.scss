@@ -18,6 +18,11 @@
     }
   }
 
+  &__table {
+    border: 1px solid $black_sea;
+    border-bottom: none;
+  }
+
   &__description {
     font-family: Inria Serif;
     font-size: 22px;
@@ -30,32 +35,18 @@
 
   details {
     user-select: none;
-    &:last-child{ border-bottom: 1px solid $black_sea; }
+    overflow: hidden;
 
-    &[open] {
-      animation-name: fadeInDown;
-      animation-duration: 0.5s;
-    }
-  }
-
-  @keyframes fadeInDown {
-
-    0% {
-      opacity: 0;
-      transform: translateY(-0.5em);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0);
+    &[open] + .faq__detail-description {
+      max-height: 800px;
+      border-bottom-color: $black_sea;
+      transition: max-height 500ms ease-out, border-bottom 0ms linear;
     }
   }
 
   &__summary {
     color: $black_sea;
     cursor: pointer;
-    border: 1px solid $black_sea;
-    border-bottom: none;
     font-family: 'Cera Regular';
     font-size: 18px;
     font-style: normal;
@@ -68,15 +59,19 @@
   }
 
   &__detail-description {
-    border: 1px solid $black_sea;
-    border-bottom: none;
-    padding: 21px 10px 33px 63px;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid $black_sea;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 500ms ease-out, border-bottom 0ms 500ms linear;
 
+    .base-content { margin: 21px 10px 33px 63px}
     p, li { text-align: justify; }
   }
   ul { margin: 0; }
 
-  &__botton-info {
+  &__bottom-info {
     background: linear-gradient(116deg, #5723B5 0%, #8CC9FC 100%);
     box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.25);
     padding: 26px 0 24px 0;
@@ -103,7 +98,7 @@
   .faq {
     &__description { margin-bottom: 51px; }
 
-    &__botton-info {
+    &__bottom-info {
       .wrapper {
         flex-direction: column;
       }
@@ -130,9 +125,12 @@
       padding: 12px 15px;
     }
 
+    &__detail-description {
+      .base-content { margin: 7px 14px 11px 15px;}
+    }
+
     &__table { z-index: 0;}
     &__description { font-size: 12px; }
-    &__detail-description { padding: 7px 14px 11px 15px; }
     &__gift { width: 150px; }
   }
 }
