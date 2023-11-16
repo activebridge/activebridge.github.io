@@ -22,7 +22,7 @@ industries:
   devs_work_on: What our developers worked on
   all:
   - title: InsurTech
-    icon: 'index/solutions/insurtech.png'
+    icon: 'index/solutions/insurtech.webp'
     items:
     - Cloud-based data storage
     - Customizable dashboards
@@ -31,7 +31,7 @@ industries:
     - Fast-responding system for processing users’ claims
     index: 1
   - title: Finance and Banking
-    icon: 'index/solutions/bank.png'
+    icon: 'index/solutions/bank.webp'
     items:
     - Fraud-prevention tools
     - Personalization tools
@@ -43,7 +43,7 @@ industries:
     - Customizable dashboards
     index: 2
   - title: Healthcare
-    icon: 'index/solutions/healthcare.png'
+    icon: 'index/solutions/healthcare.webp'
     items:
     - Cloud-based data storage
     - HIPAA-compliant secure messaging, forms, and mobile Rx orders
@@ -52,7 +52,7 @@ industries:
     - Multi-device synchronization
     index: 3
   - title: Logistic & Transportation
-    icon: 'index/solutions/logistic.png'
+    icon: 'index/solutions/logistic.webp'
     items:
     - Live status tracking
     - A CRM system
@@ -63,7 +63,7 @@ industries:
     - Reporting & Analytics tools
     index: 4
   - title: E-commerce & Marketplaces
-    icon: 'index/solutions/e-commerce.png'
+    icon: 'index/solutions/e-commerce.webp'
     items:
     - Cloud-based data storage
     - CRM development & integrations
@@ -75,7 +75,7 @@ industries:
     - Rating & review APIs
     index: 5
   - title: EdTech
-    icon: 'index/solutions/edtech.png'
+    icon: 'index/solutions/edtech.webp'
     items:
     - Cloud-based data storage
     - Data migration
@@ -85,7 +85,7 @@ industries:
     - Video streaming
     index: 6
   - title: FoodTech
-    icon: 'index/solutions/edtech.png'
+    icon: 'index/solutions/edtech.webp'
     items:
     - Delivery tracking
     - Scheduling tools
