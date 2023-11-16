@@ -1,0 +1,46 @@
+title: It is all about people you work with
+subtitle_1: Our success is not only due to the quality of our work; it's down to the people working at Active Bridge,
+            our approach to collaboration, and the way we treat our clients.
+description: At Active Bridge, we consider it’s vitally important that our team members feel they have a stake in the
+             company’s success and that their opinions and viewpoints matter. We view our team as indispensable, and
+             we take the time to discover what’s most important to them and to include those needs in the shaping of
+             the company’s future.
+subtitle_2: We are here to help you to make an impact through technology.
+ab_people:
+  title: Who are Active Bridge people
+  subtitle: The team of Ruby on Rails developers
+  description: with 9+ years of remote development experience for enterprise organizations and applications for
+               startups.
+important_things:
+  title: We’re working as remote dedicated teams, but always try to keep important things first
+  items:
+  - icon: important_thing_1.webp
+    title: Passion for ror engineering
+    description: Ruby on Rails and add-ones technologies
+  - icon: important_thing_2.webp
+    title: Challenging projects
+    description: Projects where it's worth a brainstorming session
+  - icon: important_thing_3.webp
+    title: Friendship and trust
+    description: Ping-pong and outdoor teambuildings
+  - icon: important_thing_4.webp
+    title: Education and growth
+    description: Mentorship and training courses
+  - icon: important_thing_5.webp
+    title: Community support
+    description: Conferences and open source contribution
+expertise:
+  title: Build a great product with our Ruby on Rails expertise
+  description: We are ready to take over the implementation of your idea starting with project designing over
+               development and testing up to product launch and beyond
+  items:
+  - title: Custom Ruby on Rails development services
+    icon: service_2.webp
+    description: We come to you with 9+ years of Ruby on Rails experience. Ruby is a dynamic, interpretable,
+                 high-level programming language. Rails is a framework created for rapid web application development
+                 and deployment. We’re able to create websites of any complexity.
+  - title: Mobile application development services
+    icon: service_3.webp
+    description: We provide cross-platform mobile application development services so you can reach your customers
+                 on their favorite devices.
+  button: See our services
