@@ -1,44 +1,52 @@
 .accordion {
   &__item {
-    position: relative;
-    margin: 3em 0;
+    position: sticky;
+    margin-bottom: 3em;
+    background-color: $white;
+    border-radius: 1em;
+    box-shadow: $main-shadow;
+    transition: all 0.3s;
+    user-select: none;
+    z-index: 1;
 
-    &:nth-child(4n+1) .accordion__item-top { background-color: $sky-ua; }
+    p {
+      padding: 1em 1.5em 1.5em;
+      text-align: justify;
+    }
 
-    &:nth-child(4n+2) .accordion__item-top { background-color: $palianytsia; }
+    &:nth-child(4n+1) summary { background-color: $sky-ua; }
 
-    &:nth-child(4n+3) .accordion__item-top { background-color: $buzok; }
+    &:nth-child(4n+2) summary { background-color: $palianytsia; }
 
-    &:nth-child(4n+4) .accordion__item-top { background-color: $kviten; }
+    &:nth-child(4n+3) summary { background-color: $buzok; }
 
-    &-top {
+    &:nth-child(4n+4) summary { background-color: $kviten; }
+
+    summary {
       position: relative;
-      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: .75em;
       border-radius: 1em;
       box-shadow: $main-shadow;
       color: $black;
+      list-style-type: none !important;
       letter-spacing: 0.4em;
       text-transform: uppercase;
 
-      span {
-        font: .7em 'Inria', serif;
-        text-transform: initial;
-        letter-spacing: normal;
-        padding-top: .75em;
+      &::before,
+      &::after {
+        position: absolute;
+        content: '▼';
+        color: $white;
+        font-size: 1.2em;
+        transition: transform 0.3s ease;
       }
-    }
 
-    &-bottom {
-      max-height: 0px;
-      margin-top: -1.2em;
-      background-color: white;
-      border-bottom-left-radius: 1em;
-      border-bottom-right-radius: 1em;
-      box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-      transition: all 0.3s;
-      box-shadow: $main-shadow;
+      &::before { right: 5%; }
+
+      &::after { left: 5%; }
     }
 
     &-customer {
@@ -74,41 +82,9 @@
     }
   }
 
-  label {
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-size: .9em;
-
-    &::before,
-    &::after {
-      position: absolute;
-      top: 15px;
-      content: "";
-      display: inline-block;
-      border: 8px solid transparent;
-      border-top: 15px solid white;
-      transition: all .3s;
-    }
-
-    &::before { right: 15px; }
-
-    &::after { left: 15px; }
-  }
-
-  input {
-    display: none;
-
-    &:checked ~ .accordion__item-top {
-      label::before,
-      label::after { transform: rotate(180deg); }
-    }
-
-    &:checked ~ .accordion__item-top ~ .accordion__item-bottom {
-      max-height: 500px;
-    }
+  details[open] summary::before,
+  details[open] summary::after, {
+    transform: rotate(180deg);
   }
 }
 
@@ -121,33 +97,13 @@
     &__item {
       margin-right: 0;
       margin-left: 0;
-
-      label {
-        font-size: .7em;
-
-        &::before,
-        &::after {
-          border-width: 5px;
-          border-top-width: 8px;
-        }
-      }
-
-      &-top {
-        letter-spacing: 0.3em;
-
-        span { font-size: .8em; }
-      }
-
+      
       &-text { font-size: 0.8em; }
 
       &-customer-name {
         p:first-child { font-size: 1em; }
 
         p:last-child { font-size: 0.8em; }
-      }
-
-      input:checked ~ .accordion__item-top ~ .accordion__item-bottom {
-        max-height: 550px;
       }
     }
   }

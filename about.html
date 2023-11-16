@@ -68,20 +68,15 @@ description: We are a contract development agency specializing in providing
     <div class="row">
       <div class="header-3">{{ site.data.about.benefits.title }}</div>
       <h2 class="header-2">{{ site.data.about.benefits.subtitle }}</h2>
-      <div class="about__vision-descriptionabout__description about__description-cera">
+      <div class="about__vision-description about__description about__description-cera">
         {{ site.data.about.benefits.description }}
       </div>
       <div class="accordion">
         {% for benefit in site.data.about.benefits.all %}
-          <div class="accordion__item">
-            <input type="checkbox" class="accordion__input" id="item-{{ benefit.index }}">
-            <h2 class="accordion__item-top">
-              <label for="item-{{ benefit.index }}">{{ benefit.title }}</label>
-            </h2>
-            <div class="accordion__item-bottom">
-              <div class="accordion__item-text">{{ benefit.description }}</div>
-            </div>
-          </div>
+          <details class="accordion__item">
+            <summary>{{ benefit.title }}</summary>
+            <p>{{ benefit.description }}</p>
+          </details>
         {% endfor %}
       </div>
     </div>
