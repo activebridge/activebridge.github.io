@@ -1,0 +1,83 @@
+---
+permalink: /about/team
+layout: default
+relative_css_url: /assets/css/team.css
+title: Our Team of Professional Rails Developers | Active Bridge
+description: Our remote full-stack developers drive our clients through the whole
+             process of building, launching, and scaling their solutions.
+             Contact us to see how we can help
+---
+
+<div class="container team">
+  <div class="team__main wrap">
+    <div class="row">
+      <div class="header-3 white-text">{{ site.data.team.title }}</div>
+      <div class="header-2 white-text">{{ site.data.team.subtitle_1 }}</div>
+      <div class="description justify white-text">{{ site.data.team.description }}</div>
+    </div>
+  </div>
+
+  <div class="team__help">
+    <div class="row">
+      <div class="header-2">{{ site.data.team.subtitle_2 }}</div>
+    </div>
+  </div>
+
+  <div class="team__people wrap">
+    <div class="row">
+      <h1 class="header-3">{{ site.data.team.ab_people.title }}</h1>
+      <h2 class="header-2">{{ site.data.team.ab_people.subtitle }}</h2>
+      <div class="description">{{ site.data.team.ab_people.description }}</div>
+    </div>
+  </div>
+
+  <div class="team__crew wrap">
+    <div class="row">
+      <div class="header-3">{{ site.data.about_us.crew.title }}</div>
+      {% include crew.html %}
+    </div>
+  </div>
+
+  <div class="team__important_things wrap">
+    <div class="row">
+      <h2 class="header-2">{{ site.data.team.important_things.title }}</h2>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.team.important_things.items %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/team/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="header-2">{{ item.title }}</div>
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="team__photo"></div>
+
+  <div class="team__expertise wrap development__cards">
+    <div class="row">
+      <div class="header-2">{{ site.data.team.expertise.title }}</div>
+      <div class="description">{{ site.data.team.expertise.description }}</div>
+      <div class="cards-container cards-container-2">
+        {% for item in site.data.team.expertise.items %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__icon">
+              <img src="/assets/images/team/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="card__description">{{ item.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="/services" class="button" id="team_expertise_button" target="_blank">
+        {{ site.data.team.expertise.button }}
+      </a>
+    </div>
+  </div>
+  {% include faq_bottom.html %}
+</div>
