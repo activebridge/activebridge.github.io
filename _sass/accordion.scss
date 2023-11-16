@@ -5,14 +5,8 @@
     background-color: $white;
     border-radius: 1em;
     box-shadow: $main-shadow;
-    transition: all 0.3s;
     user-select: none;
     z-index: 1;
-
-    p {
-      padding: 1em 1.5em 1.5em;
-      text-align: justify;
-    }
 
     &:nth-child(4n+1) summary { background-color: $sky-ua; }
 
@@ -22,69 +16,91 @@
 
     &:nth-child(4n+4) summary { background-color: $kviten; }
 
-    summary {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: .75em;
+    &-title {
       border-radius: 1em;
-      box-shadow: $main-shadow;
-      color: $black;
-      list-style-type: none !important;
-      letter-spacing: 0.4em;
-      text-transform: uppercase;
+      overflow: hidden;
 
-      &::before,
-      &::after {
-        position: absolute;
-        content: '▼';
-        color: $white;
-        font-size: 1.2em;
-        transition: transform 0.3s ease;
-      }
+      summary {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: .75em;
+        border-radius: 1em;
+        box-shadow: $main-shadow;
+        color: $black;
+        list-style-type: none !important;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
 
-      &::before { right: 5%; }
+        &:hover { cursor: pointer; }
 
-      &::after { left: 5%; }
-    }
-
-    &-customer {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 5vh 3vh 3vh;
-
-      &-name {
-        margin-left: 3vh;
-
-        p:first-child {
-          font-family: 'Inria Bold', serif;
+        &::before,
+        &::after {
+          position: absolute;
+          content: '▼';
+          color: $white;
           font-size: 1.2em;
+          transition: transform 0.3s ease;
         }
 
-        p:last-child {}
+        &::before { right: 5%; }
+
+        &::after { left: 5%; }
+      }
+
+      &[open] summary::before,
+      &[open] summary::after, {
+        transform: rotate(180deg);
+      }
+
+      &[open] + .accordion__item-content {
+        max-height: 800px;
+        transition: max-height .4s ease-in;
+      }
+
+      &-customer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh 3vh 3vh;
+
+        &-name {
+          margin-left: 3vh;
+
+          p:first-child {
+            font-family: 'Inria Bold', serif;
+            font-size: 1.2em;
+          }
+
+          p:last-child {}
+        }
+      }
+
+      &-photo {
+        img {
+          width: 85px;
+          height: 85px;
+          border-radius: 50%;
+        }
+      }
+
+      &-text {
+        padding: 0 5vh 4vh;
+        text-align: justify;
+        line-height: 1.6em;
       }
     }
 
-    &-photo {
-      img {
-        width: 85px;
-        height: 85px;
-        border-radius: 50%;
-      }
-    }
-
-    &-text {
-      padding: 0 5vh 4vh;
+    &-content {
+      box-sizing: border-box;
+      max-height: 0;
+      overflow: hidden;
       text-align: justify;
-      line-height: 1.6em;
-    }
-  }
+      transition: max-height .4s ease-out;
 
-  details[open] summary::before,
-  details[open] summary::after, {
-    transform: rotate(180deg);
+      p { padding: 1em 1.5em 1.5em; }
+    }
   }
 }
 
@@ -97,7 +113,7 @@
     &__item {
       margin-right: 0;
       margin-left: 0;
-      
+
       &-text { font-size: 0.8em; }
 
       &-customer-name {

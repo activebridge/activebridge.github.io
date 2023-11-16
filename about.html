@@ -73,10 +73,14 @@ description: We are a contract development agency specializing in providing
       </div>
       <div class="accordion">
         {% for benefit in site.data.about.benefits.all %}
-          <details class="accordion__item">
+        <div class="accordion__item">
+          <details class="accordion__item-title">
             <summary>{{ benefit.title }}</summary>
-            <p>{{ benefit.description }}</p>
           </details>
+          <div class="accordion__item-content">
+            <p>{{ benefit.description }}</p>
+          </div>
+        </div>
         {% endfor %}
       </div>
     </div>
