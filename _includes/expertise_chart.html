@@ -1,0 +1,26 @@
+<div class="chart-bar desktop-only">
+  {% for level in site.data.expertise.dev_levels %}
+    <div class="chart-bar__item" style="background-color: {{ level.color }}; width: {{ level.percentage }};">
+      {{ level.percentage }}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="pie-chart mobile-only">
+  <span class="arcitect">20%</span>
+  <span class="senior">30%</span>
+  <span class="middle">40%</span>
+  <span class="jumior">10%</span>
+</div>
+
+<div class="chart__items">
+  {% for level in site.data.expertise.dev_levels %}
+    <div class="chart__item">
+      <div class="chart__item-color" style="background-color: {{ level.color }}"></div>
+      <div class="chart__item-asterisk">
+        <div class="chart__item-title">{{ level.title }}</div>
+        <div class="chart__item-description">{{ level.description }}</div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
