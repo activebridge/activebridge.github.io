@@ -1,121 +1,153 @@
 ---
 permalink: /services
 layout: default
-relative_css_url: /assets/css/services.css
+title: Take benefit of Rapid Application Development Services | Active Bridge
+description: At Active Bridge, we follow RAD best practices to provide clients
+             with fast and reliable digital solutions keeping pace with
+             technology updates.
 ---
 
-<div class="top-container">
-  <h2>SERVICES</h2>
-  <h3>Picking the right tech stack, we help startupsand SMEs looking to solve their technical business challenges,
-    complex or routine</h3>
-  <figure>
-    <figcaption>The insatiable need to learn and grow is part of the fundamental nature of all human beings. Our team
-      accomplishes both by continually seeking out new and more efficient ways to provide custom application development
-      services at Active Bridge. We encourage our developers to constantly pursue new knowledge, whether it be taking
-      educational courses, attending conferences, or just sharing their knowledge around the office, or contributing to
-      open source. We believe that where there is growth, there is innovation, and that belief drives us forward.
-    </figcaption>
-    <img src="/assets/images/unsplash-min.jpg" alt="services" />
-  </figure>
-</div>
-<div class="services">
-  <h4>Web application development services</h4>
-  <p>We're motivated to scale your business, as we are more than just a web development service provider. We strive to
-    be your on-demand partner who's ready to cover all your technology needs bringing our experience in the development
-    of technically complex, ergonomic, and user-friendly applications.</p>
-  <section class="container">
-    <div id="carousel">
-      <figure>
-        <h5>Application development and integration</h5>
-        <div class="icon">
-          <img src="/assets/images/icon.svg" alt="icon">
-        </div>
-        <p class="desc">We have the experience, knowledge, and ability to perform enterprise application development and
-          APIs
-          integration</p>
-      </figure>
-      <figure>
-        <h5>Application development and integration</h5>
-        <div class="icon">
-          <img src="/assets/images/icon.svg" alt="icon">
-        </div>
-        <p class="desc">We have the experience, knowledge, and ability to perform enterprise application development and
-          APIs
-          integration</p>
-      </figure>
-      <figure>
-        <h5>Application development and integration</h5>
-        <div class="icon">
-          <img src="/assets/images/icon.svg" alt="icon">
-        </div>
-        <p class="desc">We have the experience, knowledge, and ability to perform enterprise application development and
-          APIs
-          integration</p>
-      </figure>
+<div class="container services">
+  <div class="info-container services__main wrap">
+    <div class="row">
+      <div class="header-3 white-text">{{ site.data.services.services }}</div>
+      <h1 class="header-5 white-text">{{ site.data.services.pick_right_stack }}</h1>
+      <div class="services__description-wrap">
+        <div class="description white-text">{{ site.data.services.learn_and_grow }}</div>
+        <img src="/assets/images/services/flower.webp" alt="Flower">
+      </div>
     </div>
-  </section>
-  <button>LEARN MORE</button>
-</div>
-<div class="services">
-  <p>Active Bridge's success is not only due to the quality of our developers' work; it's down to attitude, team
-    approach, and the way we treat our clients</p>
-  <h4 class="negotiation-title">Negotiation Approach</h4>
-  <div class="negotiation-content" id="motionSection">
-    <svg width="581" height="970" viewBox="0 0 581 970" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path
-        d="M2.50024 0C2.50024 20 19.0002 40 42.0002 40C65.0002 40 518.5 40 540 40C561.5 40 579.5 56.8002 579.5 80C579.5 103.2 579.5 410.5 579.5 430C579.5 449.5 564 470 540 470C516 470 64.5002 470 43.0002 470C21.5002 470 2.00012 486.5 2.00024 510C2.00037 533.5 2.00037 839.5 2.00024 860C2.00012 880.5 18.5 900 42.0002 900C65.5004 900 519 900 540 900C561 900 579.5 916.5 579.5 970"
-        stroke="#A49FEB" stroke-width="3" id="line" />
-    </svg>
+  </div>
 
-    <section>
-      <figure>
-        <img src="/assets/images/chat-min.png" alt="chat">
-      </figure>
-      <div class="content">
-        <h6>Initial Negotiations</h6>
-        <p>Our development company starts with the initial brief you give to us. During the introductory call, we
-          discuss
-          your project goal in detail. This is where you need to clearly communicate your background, priorities, goals,
-          and limitations.</p>
+  <div class="alabaster services__web-dev wrap">
+    <div class="overlay"></div>
+    <div class="row">
+      <h2 class="header-3">{{ site.data.services.web_services.title }}</h2>
+      <div class="description">{{ site.data.services.web_services.description }}</div>
+      <div class="carousel">
+        <input type="radio" name="service" id="solution-1-2" checked>
+        <input type="radio" name="service" id="solution-2-2">
+        <input type="radio" name="service" id="solution-3-2">
+        <div class="carousel__list services">
+          {% for service in site.data.services.web_services.all %}
+            <label class="carousel__item" for="solution-{{ service.index }}-2" id="card-{{ service.index }}-solution-2">
+              <div class="carousel__title services__title">{{ service.title }}</div>
+              <div class="carousel__logo services__logo">
+                <img src="/assets/images/services/web_dev/{{ service.icon }}" alt="Icon">
+              </div>
+              <div class="carousel__description solutions__description">
+                {{ service.description }}
+              </div>
+            </label>
+          {% endfor %}
+        </div>
       </div>
-    </section>
-    <section>
-      <figure>
-        <img src="/assets/images/pencil-min.png" alt="pencil">
-      </figure>
-      <div class="content">
-        <h6>Analyzing inquiries and preparing a proposal</h6>
-        <p>After the initial discussion, our remote developers prepare follow-up questions to clarify our understanding
-          of your project needs. Also, our dedicated team prepares a proposal, describing prospective technology,
-          budget, and time frames. If you request, we can negotiate an NDA</p>
+      <a id="more-web-services" class="button white-text violet-button", target="_blank" href="/services/web-development">
+        {{ site.data.services.learn_more }}
+      </a>
+    </div>
+  </div>
+
+  <div class="services__custom-ror-dev wrap">
+    <div class="row">
+      <h2 class="header-3 white-text">
+        {{ site.data.services.custom_ror_dev_services.title }}
+      </h2>
+      <div class="description">
+        {{ site.data.services.custom_ror_dev_services.description }}
       </div>
-    </section>
-    <section>
-      <figure>
-        <img src="/assets/images/file-min.png" alt="file">
-      </figure>
-      <div class="content">
-        <h6>Estimating and scheduling</h6>
-        <p>Its the right moment for sharing all the related documentation, such as technical specifications, business
-          use cases, wireframes, designer materials, and preliminary sketches that could be of use to the development
-          team. Having come to understand your requirements we provide a Statement of Work or some other document that
-          clearly describes prospective technology, budget, time frames, the tools that the full-stack developers use,
-          the roles and responsibilities of the team members involved</p>
+      <div class="carousel">
+        <input type="radio" name="ror-dev" id="solution-1-3" checked>
+        <input type="radio" name="ror-dev" id="solution-2-3">
+        <input type="radio" name="ror-dev" id="solution-3-3">
+        <div class="carousel__list services">
+          {% for element in site.data.services.custom_ror_dev_services.all %}
+            <label class="carousel__item" for="solution-{{ element.index }}-3" id="card-{{ element.index }}-solution-3">
+              <div class="carousel__title services__title">{{ element.title }}</div>
+              <div class="carousel__logo services__logo">
+                <img src="/assets/images/services/custom_ror_dev/{{ element.icon }}" alt="Icon">
+              </div>
+              <div class="carousel__description solutions__description">
+                {{ element.description }}
+              </div>
+            </label>
+          {% endfor %}
+        </div>
       </div>
-    </section>
-    <section>
-      <figure>
-        <img src="/assets/images/travel-min.png" alt="travel">
-      </figure>
-      <div class="content">
-        <h6>Sign the agreement and start the development process</h6>
-        <p>Our remote development teams follow the Agile project management methodology. For most projects, we use Scrum
-          and can cover all development roles. We divide the routine development tasks into 2-week long sprints. Also,
-          we provide daily stand-up meetings talking about the progress of the tasks, report roadblocks. You and your
-          in-house team can also take an active part in the discussion and be fully involved in the development process
-        </p>
+      <a id="more-ror-services" class="button white-text violet-button", target="_blank" href="/services/ruby-on-rails-development">
+        {{ site.data.services.learn_more }}
+      </a>
+    </div>
+  </div>
+
+  <div class="services__mobile-dev wrap">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.services.mobile_dev_services.title }}</h2>
+      <div class="description">{{ site.data.services.mobile_dev_services.description }}</div>
+      <div class="cards-container">
+        {% for item in site.data.services.mobile_dev_services.all %}
+          <div class="card">
+            <div class="card__title-2 purple-heart">{{ item.title }}</div>
+            <div class="card__icon">
+              <img src="assets/images/services/mobile_dev_services/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="card__description">{{ item.description }}</div>
+          </div>
+        {% endfor %}
       </div>
-    </section>
+      <a id="more-dev-services" class="button white-text violet-button", target="_blank" href="/services/mobile-app-development">
+        {{ site.data.services.learn_more }}
+      </a>
+    </div>
+  </div>
+
+  <div class="info-container services__engagement-models wrap">
+    <div class="row">
+      <div class="header-3 white-text">{{ site.data.services.engagement_models.title }}</div>
+      <div class="description white-text inria">
+        {{ site.data.services.engagement_models.description }}
+      </div>
+      <div class="cards-container">
+        {% for item in site.data.services.engagement_models.all %}
+          <div class="card">
+            <div class="card-content">
+              <div class="card__title-2 white-text">{{ item.title }}</div>
+              <div class="card__description white-text">{{ item.description }}</div>
+            </div>
+            <a id="engagement_model_{{ item.index }}" class="button white-text violet-button", target="_blank" href="#">
+              {{ site.data.services.learn_more }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <img src="assets/images/services/laptop-backpack.webp" alt="Laptop" class="services__engagement-models-img">
+    </div>
+  </div>
+
+  <div class="alabaster services__approaches wrap">
+    <div class="row">
+      <div class="header-2">{{ site.data.services.approaches.subtitle }}</div>
+      <div class="header-3">{{ site.data.services.approaches.title }}</div>
+      <div class="timeline">
+        {% for item in site.data.services.approaches.all %}
+          <div class="timeline-item">
+            <div class="timeline-item__icon">
+              <img src="assets/images/services/approach/approach_{{ item.index }}.webp" alt="Approach">
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__content-title inria">
+                {{ item.title}}
+              </div>
+              <div class="timeline-item__content-description">
+                {{ item.description}}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <a id="services-free-consultation" class="button", target="_blank" href="/contacts">
+        {{ site.data.services.approaches.button }}
+      </a>
+    </div>
   </div>
 </div>
-<button class="secondary">get free project consultation</button>

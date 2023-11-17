@@ -71,7 +71,7 @@ description: Active Bridge is your IT contracting partner providing full-stack
           {% endfor %}
         </div>
       </div>
-      <a id="index-read-testimonials" class="button white-text violet-button", target="_blank" href="#">
+      <a id="index-read-testimonials" class="button white-text violet-button", target="_blank" href="/reviews">
         {{ site.data.testimonials.button }}
       </a>
     </div>
@@ -171,7 +171,7 @@ description: Active Bridge is your IT contracting partner providing full-stack
           <input type="radio" name="solution" id="solution-3-1">
           <div class="carousel__list solutions">
             {% for solution in site.data.index.solutions %}
-              <label class="carousel__item" for="solution-{{ solution.index }}-1" id="card-{{ solution.index }}-solution">
+              <label class="carousel__item" for="solution-{{ solution.index }}-1" id="card-{{ solution.index }}-solution-1">
                 <div class="carousel__title solutions__title">{{ solution.title }}</div>
                 <div class="carousel__logo solutions__logo">
                   <img src="/assets/images/index/solutions/{{ solution.logo }}" alt="Logo">
