@@ -1,0 +1,119 @@
+---
+permalink: /expertise
+layout: default
+relative_css_url: /assets/css/expertise.css
+title: RoR App Development & Cloud Software Expertise | Active Bridge
+description: Enhancing Ruby on Rails with cutting edge technologies, for 9+ years
+             we've been providing web development solutions that help businesses
+             succeed.
+---
+
+<div class="container expertise">
+  <div class="alabaster expertise__main wrap">
+    <div class="row">
+      <div class="header-3">{{ site.data.expertise.main.title }}</div>
+      <h2 class="header-2">{{ site.data.expertise.main.subtitle }}</h2>
+      <div class="description justify">{{ site.data.expertise.main.description_1 }}</div>
+      <div class="chart-container">{% include expertise_chart.html %}</div>
+      <div class="description justify">{{ site.data.expertise.main.description_2 }}</div>
+    </div>
+  </div>
+
+  <div class="expertise__technologies wrap">
+    <div class="row">
+      <h2 class="header-2">{{ site.data.expertise.technologies.subtitle }}</h2>
+      <div class="header-3">{{ site.data.expertise.technologies.title }}</div>
+      <img class="desktop-only" src="/assets/images/web_development_services/technologies_d_table.svg" alt="Technologies">
+      <img class="mobile-only" src="/assets/images/web_development_services/technologies_m_table.svg" alt="Technologies">
+      <div class="description justify">{{ site.data.expertise.technologies.description }}</div>
+    </div>
+  </div>
+
+  <div class="alabaster expertise__industries wrap">
+    <div class="row">
+      <div class="header-3">{{ site.data.expertise.industries.projects }}</div>
+      <div class="header-2">{{ site.data.expertise.industries.subtitlen }}</div>
+      <div class="header-3">{{ site.data.expertise.industries.title }}</div>
+      <div class="carousel industries">
+        <input type="radio" name="industries" id="item-1-4" checked>
+        <input type="radio" name="industries" id="item-2-4">
+        <input type="radio" name="industries" id="item-3-4">
+        <input type="radio" name="industries" id="item-4-4">
+        <input type="radio" name="industries" id="item-5-4">
+        <input type="radio" name="industries" id="item-6-4">
+        <input type="radio" name="industries" id="item-7-4">
+        <div class="carousel__list">
+          {% for element in site.data.expertise.industries.all %}
+            <label class="carousel__item" for="item-{{ element.index }}-4" id="card-{{ element.index }}-4">
+              <div class="carousel__title industries__title">
+                {{ element.title }}
+              </div>
+              <div class="carousel__logo industries__logo">
+                <img src="/assets/images/{{ element.icon }}" alt="Logo">
+              </div>
+              <div class="carousel__subtitle">
+                {{ site.data.expertise.industries.devs_work_on }}
+              </div>
+              <ul class="carousel__description">
+                {% for item in element.items %}
+                  <li class="carousel__description-item">{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="expertise__solutions info-container wrap">
+    <div class="row">
+      <div class="header-2 white-text">{{ site.data.expertise.solutions.title }}</div>
+      <a href="/solutions" id="expertise-all-solutions" class="button white-text violet-button">
+        {{ site.data.expertise.solutions.button }}
+      </a>
+    </div>
+  </div>
+
+  <div class="expertise__testimonials wrap">
+    <div class="row">
+      <div class="header-2">{{ site.data.expertise.testimonials.title }}</div>
+      <div class="carousel">
+        <input type="radio" name="expertise-testimonials" id="item-1-3" checked>
+        <input type="radio" name="expertise-testimonials" id="item-2-3">
+        <input type="radio" name="expertise-testimonials" id="item-3-3">
+        <input type="radio" name="expertise-testimonials" id="item-4-3">
+        <input type="radio" name="expertise-testimonials" id="item-5-3">
+        <input type="radio" name="expertise-testimonials" id="item-6-3">
+        <input type="radio" name="expertise-testimonials" id="item-7-3">
+        <div class="carousel__list testimonials-carousel">
+          {% for item in site.data.testimonials.all %}
+            <label class="carousel__item" for="item-{{ item.index }}-3" id="card-{{ item.index }}-3">
+              <div class="carousel__image">
+                <img src="{{ item.image }}" alt="Logo">
+              </div>
+              <div class="carousel__logo {{ item.class }}">
+                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
+              </div>
+              <div class="carousel__description">
+                {{ item.description }}
+              </div>
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+      <a id="about-read-testimonials" class="button", target="_blank" href="/reviews">
+        {{ site.data.testimonials.button }}
+      </a>
+    </div>
+  </div>
+
+  <div class="expertise__tell-us wrap">
+    <div class="row">
+      <div class="header-2 white-text">{{ site.data.expertise.tell-us.title }}</div>
+      <a id="expertise-tell-us" class="button white-text" href="/contacts">
+        {{ site.data.expertise.tell-us.button }}
+      </a>
+    </div>
+  </div>
+</div>
