@@ -20,7 +20,7 @@
   }
 
   &__technologies {
-    background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.jpg');
+    background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
     box-shadow: 0px 0px 20px -3px grey;;
 
     .header-3 { font-size: 1.3em; }
@@ -114,7 +114,7 @@
   }
 
   &__testimonials {
-    background: center/cover no-repeat url('/assets/images/expertise/testimonials-bg.jpeg');
+    background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
 
     .carousel {
       padding-top: 2vh;
@@ -138,7 +138,7 @@
 
   &__tell-us {
     min-height: 85vh;
-    background: center/cover no-repeat url('/assets/images/expertise/tell-us.jpeg');
+    background: center/cover no-repeat url('/assets/images/expertise/tell-us.webp');
 
     .header-2 {
       font-family: 'Cera Regular', serif;
