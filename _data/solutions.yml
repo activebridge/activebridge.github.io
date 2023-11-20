@@ -163,6 +163,7 @@ staff_augmentation:
     - title: Recruiting
       description: The preparation stage is aimed at getting general information about your requirements to a candidate.
                     They complete a test task and pass interviews with you.
+      image: staff_augmentation_1
       processes:
         - item: Intro call
         - item: Discuss requirements for the candidate
@@ -171,7 +172,9 @@ staff_augmentation:
         - item: Sign agreement
     - title: Onboarding
       description: We help with setting up the environments, configuring daily stand-ups, reporting, time tracking, etc.
+      image: staff_augmentation_2
     - title: Ongoing work
       description: 'We focus on the motivation providing developers or dedicated team; make sure all agreement obligations
                     are met; and are available to support any time.'
+      image: staff_augmentation_1
   more_button: See our services
