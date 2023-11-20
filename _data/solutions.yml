@@ -1,0 +1,177 @@
+title: Custom technology solutions that help businesses grow
+subtitle: Leverage our programming expertise in building high-performance, interactive, user-friendly applications.
+description: Active Bridge tailors our embedded teams to our client’s specific demands, ensuring each client will
+              always have the right developers for the project at hand. Our team members treat the client’s team and
+              goals as their own and are as committed to creating a great product as an in-house employee.
+text: Fueled by a deep understanding of the business context, our experts use prove practices and their own vast
+      experience to produce readable, scalable, highly efficient code.
+approaches_title: Processes
+main:
+  all:
+    - text: projects
+      logo: solutions/about_us_purple_1
+    - text: years of average project duration
+      logo: solutions/about_us_purple_2
+    - text: years of remote development experience
+      logo: solutions/about_us_purple_3
+awards:
+  - image: award-1
+    link: https://clutch.co/profile/active-bridge?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews#reviews
+    alt: Active Bridge LLC, reviewed on Clutch.co
+  - image: award-2
+    link: https://www.expertise.com/az/phoenix/web-developers
+    alt: Top IT Service Company. Arizona, US
+  - image: award-3
+    link: https://www.expertise.com/az/phoenix/web-developers
+    alt: Best Web Developers in Phoenix, 2022
+  - image: award-3
+    link: https://selectedfirms.co/companies/web-development/usa
+    alt: Best Web Developers in Phoenix, 2022
+mobile_awards:
+  - image: award-1
+    link: https://clutch.co/profile/active-bridge?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews#reviews
+    alt: Active Bridge LLC, reviewed on Clutch.co
+  - image: award-2
+    link: https://www.expertise.com/az/phoenix/web-developers
+    alt: Top IT Service Company. Arizona, US
+industries:
+  title: Industries
+  all:
+  - title: Finance & Banking solutions
+    icon: industries_1
+    description: Active Bridge provides end-to-end <span class="blue-text">custom web development solutions</span>
+                  for non-financial businesses, fintech organizations, and banks. Our development team helps companies
+                  launch MVP fast and build high-performing <span class="blue-text">ruby on rails projects</span> that
+                  help clients automate operations, save valuable costs, and gain substantial financial benefits.
+    index: 1
+  - title: Healthcare & HIPPA HealthTech solutions
+    icon: industries_2
+    description: We deliver secure and HIPPA compliant healthcare <span class="blue-text">web development solutions</span>
+                  for hospitals, doctors, patients. Our team has expertise in encrypting sensitive information, configuring
+                  access rights in the database, and a firewall.<span> ERP, CRM, SCM, BPM, Billing systems.</span>
+    index: 2
+  - title: InsurTech solutions
+    icon: industries_3
+    description: Active Bridge’s industry-specific <span class="blue-text">Ruby on Rails development solutions</span> are
+                  powered by expertise gained during 10 years of providing programming services for insurance companies.
+                  Our expert team successfully resolves all insurance technical challenges including security, scalability,
+                  compliance, high load, and more.<span> Cloud-based software, SaaS platforms, CRM.</span>
+    index: 3
+  - title: E-commerce and Marketplace solutions
+    icon: industries_4
+    description: Our expert customer-centered app development team creates robust e-commerce web development and SaaS
+                  solutions, that help to streamline your business and increase productivity. We have project development
+                  experience in  B2B, B2C marketplace and DataCenters solutions that process data fast, handle a large number
+                  of integrations, and process payments in various currencies.<span> CRM, ERP.</span>
+    index: 4
+  - title: Logistic & Transportation solutions
+    icon: industries_5
+    description: For more than 5 years we’ve been creating <span class="blue-text">ruby on rails projects</span> and integrated
+                  solutions for companies working in the transportation and logistic industry. Our team has designed and
+                  developed logistics applications that can handle the full life cycle of a supply chain transaction and taxi
+                  solutions that are fast, scalable, and easy-to-use.<span> Web-based applications, iOS apps, Android apps.</span>
+    index: 5
+  - title: EdTech & E-learning solutions
+    icon: industries_6
+    description: Active Bridge provides ed-tech and e-learning solutions for educational institutions and companies of all
+                  sizes. Our team build applications with flawless back-end and simple front-end, that help educational
+                  organizations, enterprises, and startups to scale their products and get the highest production without
+                  troubles. <span>School management platforms, Virtual classrooms, Chatbots, Learning, and education platforms.</span>
+    index: 6
+  - title: Logistic & Transportation solutions
+    icon: industries_5
+    description: For more than 5 years we’ve been creating <span class="blue-text">ruby on rails projects</span> and integrated
+                  solutions for companies working in the transportation and logistic industry. Our team has designed and
+                  developed logistics applications that can handle the full life cycle of a supply chain transaction and taxi
+                  solutions that are fast, scalable, and easy-to-use.<span> Web-based applications, iOS apps, Android apps.</span>
+    index: 7
+  subtitle_1: These are just a few selected case studies.
+  subtitle_2: Our high-performance team uses a collaborative approach to deliver measurable results.
+  description: Through 9+ years we've been assisting in developing a variety of SaaS, Fintech, InsurTech, HIPPA compliance
+                applications, booking platforms, logistic systems, and CRMs for different types of businesses.
+  applications:
+    - title: HealthTech HIPPA Solution
+      description: a leading American <span class="blue-text">HIPAA-compliant encryption platform</span> protecting patients,
+                    healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and electronic
+                    patient health information (ePHI).
+      index: 1
+    - title: Insurtech SaaS platform
+      description: a mission-focused company serving healthcare service providers to digitally manage and dispatch
+                    <span class="blue-text">workers’ compensation bills</span> to employers.
+      index: 2
+    - title: E-commerce platform with CRM features
+      description: an intermediate between potential customers and suppliers of DC services around the United States, such as
+                    colocation, dedicated servers, cloud servers, managed hosting, IP transit, and other hosting services.
+      index: 3
+    - title: Taxi application with food delivery features
+      description: Electrotaxi company initiated the project to make an active contribution to the establishment and improvement
+                    of a local on-demand transportation system.
+      index: 4
+  more_button: Learn more
+project_development:
+  title: Project development approach
+  description: "Our project development process takes 4 major steps: preparation, project design, UI/UX and project
+                development, MVP/project launch."
+  approaches:
+    - title: Preparation
+      description: The preparation stage is aimed at getting general information about the project idea, goals,
+                    technical requirements. This process includes Zoom/GoogleMeet/Skype calls and rough project
+                    estimates.
+      image: project_development_1
+      processes:
+        - item: Intro call with a client
+        - item: Sign NDA (if needed)
+        - item: Getting project specifications
+        - item: Providing estimation
+        - item: Q&A call
+        - item: Sign contract
+    - title: Project Design
+      description: We gather, analyze, and specify requirements through project goals and requirements engineering
+                    processes. This stage is for solving initial stage tasks. We exchange with yout general
+                    information about product specifics, technologies, and team composition. Design project
+                    architecture and setting up the development environment. The client gets access to our
+                    communication and tracking tools.
+      image: project_development_1
+      processes:
+        - item: Creating precious estimates
+        - item: Composing dedicated team
+        - item: Setting up the development environment
+        - item: Set up first development sprint
+    - title: 'UI/UX design and project development'
+      description: During this stage, we create a final visual representation of your project ( or you can
+                    provide staff from your in-house designer) and the development team starts to implement it.
+      image: project_development_3
+      processes:
+        - item: Creating wire-frames
+        - item: Design clickable prototypes
+        - item:  UI design approval
+    - title: 'MVP/project launch'
+      description: We follow Agile methodologies of web development flow including Scrum. We test project
+                    functionality at every stage of the workflow.
+      image: project_development_4
+      processes:
+        - item: Creating wire-frames
+        - item: Design clickable prototypes
+        - item: UI design approval
+        - item: Agile project development
+staff_augmentation:
+  title: Staff augmentation approach
+  description: Active Bridge developers become an integrated part of your in-house development team for the duration of
+                the project. Our talented staff will immerse themselves in the project, adopt and maintain your company
+                culture, and make your goals their own, ensuring seamless integration.
+  approaches:
+    - title: Recruiting
+      description: The preparation stage is aimed at getting general information about your requirements to a candidate.
+                    They complete a test task and pass interviews with you.
+      processes:
+        - item: Intro call
+        - item: Discuss requirements for the candidate
+        - item: We select developers among our poll
+        - item: Interview
+        - item: Sign agreement
+    - title: Onboarding
+      description: We help with setting up the environments, configuring daily stand-ups, reporting, time tracking, etc.
+    - title: Ongoing work
+      description: 'We focus on the motivation providing developers or dedicated team; make sure all agreement obligations
+                    are met; and are available to support any time.'
+  more_button: See our services
