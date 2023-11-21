@@ -1,5 +1,6 @@
 .solutions {
   padding-bottom: 50px;
+
   .header-2 {
     font-size: 1.3em;
     line-height: 1.5;
@@ -58,11 +59,14 @@
   &__circle-background {
     background: radial-gradient(50% 50% at 50% 50%, #E9CDF4 19.79%, rgba(233, 205, 244, 0.10) 79.17%, rgba(233, 205, 244, 0.00) 100%);
     border-radius: 1000px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     margin: 80px auto 100px auto;
     max-width: 1000px;
+    max-height: 1000px;
 
-    .title-2 { margin: 100px 0 35px 0; }
+    .with-margin {
+      margin: 50px 0;
+    }
   }
 
   .timeline { margin-top: 5vh; }
@@ -171,40 +175,27 @@
       }
     }
 
-    .carousel__list.solutions {
-      .carousel {
-        &__list { height: 60vh; }
-
-        &__item {
-          box-sizing: border-box;
-          height: 60vh;
-          justify-content: space-between;
-          max-width: 335px;
-          padding: 3vh 1vh 6vh;
-
-        }
-
-        &__description {
-          margin-bottom: 0;
-          -webkit-line-clamp: initial;
-        }
-      }
-    }
+    .carousel__item { max-height: 435px; }
 
     .carousel__list.applications {
-      height: 55vh;
+      height: 45vh;
 
       .carousel__item {
         height: 55vh;
         justify-content: space-around;
         max-width: 335px;
+        padding-top: 10px;
         .carousel__title { padding: 0 4vh; }
 
         .carousel__button {
           .button {
             background: $main-gradient;
+            color: $white;
             margin-bottom: 30px;
-            &:hover { background: $white; }
+            &:hover {
+              color: $black_sea;
+              background: $white;
+            }
           }
         }
       }
@@ -308,6 +299,11 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+  }
+
+  .cto-button {
+    font-weight: 400;
+    padding: 22px 70px;
   }
 }
 

@@ -53,10 +53,10 @@ description: {{site.data.solutions.title }}
         <input type="radio" name="solutions-industry" id="item-5-2">
         <input type="radio" name="solutions-industry" id="item-6-2">
         <input type="radio" name="solutions-industry" id="item-7-2">
-        <div class="carousel__list solutions">
+        <div class="carousel__list applications">
           {% for item in site.data.solutions.industries.all %}
             <label class="carousel__item" for="item-{{ item.index }}-2" id="card-{{ item.index }}-2">
-              <div class="carousel__title services__title inria">{{ item.title }}</div>
+              <h3 class="title-3">{{ item.title }}</h3>
               <div class="carousel__image">
                 <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
               </div>
@@ -75,10 +75,10 @@ description: {{site.data.solutions.title }}
           <input type="radio" name="service" id="solution-2-2">
           <input type="radio" name="service" id="solution-3-2">
           <input type="radio" name="service" id="solution-4-2">
-          <div class="carousel__list solutions applications">
+          <div class="carousel__list applications">
             {% for service in site.data.solutions.industries.applications %}
               <label class="carousel__item" for="solution-{{ service.index }}-2" id="card-{{ service.index }}-solution-2">
-                <div class="carousel__title services__title inria">{{ service.title }}</div>
+                <h3 class="title-3">{{ service.title }}</h3>
                 <div class="carousel__description">{{ service.description }}</div>
                 <div class="carousel__button">
                   <a class="button" href="/">{{site.data.solutions.industries.more_button}}</a>
@@ -87,7 +87,7 @@ description: {{site.data.solutions.title }}
             {% endfor %}
           </div>
         </div>
-        <p class="title-3">{{site.data.solutions.industries.subtitle_2}}</p>
+        <p class="title-3 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
         <h2 class="title-2">{{site.data.solutions.project_development.title}}</h2>
         <p class="title-3">{{site.data.solutions.project_development.description}}</p>
       </div>
