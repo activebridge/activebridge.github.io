@@ -19,6 +19,7 @@
 @import "contacts";
 @import "services";
 @import "timeline";
+@import "solutions";
 
 @font-face {
   font-family: 'Cera Regular';
@@ -615,6 +616,7 @@ input#menu {
   margin: 0 auto;
   max-width: 930px;
   text-align: center;
+  padding: 0;
 }
 
 .base-content {
@@ -635,10 +637,9 @@ input#menu {
 }
 
 .title-3 {
-  font-family: Inria Serif;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 33px;
+  font-family: 'Inria Bold', serif;
+  font-size: 1.3em;
+  line-height: 1.5;
   letter-spacing: 0em;
   text-align: center;
 }

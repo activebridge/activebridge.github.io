@@ -1,0 +1,147 @@
+---
+permalink: /solutions.html
+layout: default
+title: Solutions
+description: {{site.data.solutions.title }}
+---
+
+<div class="solutions">
+  <section class="solutions__main">
+    <div class="wrapper" >
+      <h1 class="header-3">{{ site.data.solutions.title }}</h1>
+      <h2 class="header-2">{{ site.data.solutions.subtitle }}</h2>
+      <div class="description">{{ site.data.solutions.description }}</div>
+      <div class="solutions__about-us about-us">
+        <div class="about-us__info-wrapper">
+          {% for icon in site.data.solutions.main.all %}
+            <div class="about-us__info">
+              <img src= "/assets/images/{{ icon.logo }}.webp" alt="circle">
+              <p>{{icon.text}}</p>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="solutions__awards desktop-only">
+          {% for award in site.data.solutions.awards %}
+            <a href="{{ award.link }}" target="_blank">
+              <img class="" src="/assets/images/index/{{ award.image }}.webp" alt="{{ award.alt }}">
+            </a>
+          {% endfor %}
+        </div>
+        <div class="solutions__awards mobile-only">
+          {% for award in site.data.solutions.mobile_awards %}
+            <a href="{{ award.link }}" target="_blank">
+              <img class="" src="/assets/images/index/{{ award.image }}.webp" alt="{{ award.alt }}">
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="solutions__text wrap">
+    <div class="row">
+      <div class="header-2 white-text">{{site.data.solutions.text}}</div>
+    </div>
+  </div>
+  <section class="solutions__industries container">
+    <div class="wrapper row">
+      <h3 class="header-3">{{site.data.solutions.industries.title}}</h3>
+      <div class="carousel industries">
+        <input type="radio" name="solutions-industry" id="item-1-2" checked>
+        <input type="radio" name="solutions-industry" id="item-2-2">
+        <input type="radio" name="solutions-industry" id="item-3-2">
+        <input type="radio" name="solutions-industry" id="item-4-2">
+        <input type="radio" name="solutions-industry" id="item-5-2">
+        <input type="radio" name="solutions-industry" id="item-6-2">
+        <input type="radio" name="solutions-industry" id="item-7-2">
+        <div class="carousel__list applications">
+          {% for item in site.data.solutions.industries.all %}
+            <label class="carousel__item" for="item-{{ item.index }}-2" id="card-{{ item.index }}-2">
+              <h3 class="title-3">{{ item.title }}</h3>
+              <div class="carousel__image">
+                <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
+              </div>
+              <div class="carousel__description">{{ item.description }}</div>
+            </label>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="solutions__circle-background">
+      <div class="wrapper row">
+        <h3 class="title-3">{{site.data.solutions.industries.subtitle_1}}</h3>
+        <p class="base-content ">{{site.data.solutions.industries.description}}</p>
+        <div class="carousel">
+          <input type="radio" name="service" id="solution-1-2" checked>
+          <input type="radio" name="service" id="solution-2-2">
+          <input type="radio" name="service" id="solution-3-2">
+          <input type="radio" name="service" id="solution-4-2">
+          <div class="carousel__list applications">
+            {% for service in site.data.solutions.industries.applications %}
+              <label class="carousel__item" for="solution-{{ service.index }}-2" id="card-{{ service.index }}-solution-2">
+                <h3 class="title-3">{{ service.title }}</h3>
+                <div class="carousel__description">{{ service.description }}</div>
+                <div class="carousel__button">
+                  <a class="button" href="/">{{site.data.solutions.industries.more_button}}</a>
+                </div>
+              </label>
+            {% endfor %}
+          </div>
+        </div>
+        <p class="title-3 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
+        <h2 class="title-2">{{site.data.solutions.project_development.title}}</h2>
+        <p class="title-3">{{site.data.solutions.project_development.description}}</p>
+      </div>
+    </div>
+    <div class="solutions__project-development">
+      <div class="wrapper timeline">
+        {% for item in site.data.solutions.project_development.approaches %}
+        <div class="timeline-item">
+          <div class="timeline-item__icon">
+            <img src="/assets/images/solutions/{{item.image}}.webp" alt="Approach">
+          </div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__content-title inria">{{ item.title}}</div>
+            <div class="timeline-item__content-description">{{ item.description}}</div>
+          </div>
+          <div class="timeline__processes">
+            {% for process in item.processes%}
+              <div class="timeline__processes-item">
+                {{process.item}}
+                <div class="arrow">→</div>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+    <div class="solutions__staff-augmentation">
+      <div class="row wrapper">
+        <h3 class="title-2">{{ site.data.solutions.staff_augmentation.title }}</h3>
+        <p class="base-content">{{ site.data.solutions.staff_augmentation.description }}</p>
+        <div class="timeline wrapper">
+          {% for item in site.data.solutions.staff_augmentation.approaches %}
+            <div class="timeline-item">
+              <div class="timeline-item__icon">
+                <img src="/assets/images/solutions/{{ item.image }}.webp" alt="Approach">
+              </div>
+              <div class="timeline-item__content">
+                <div class="timeline-item__content-title inria">{{ item.title}}</div>
+                <div class="timeline-item__content-description">{{ item.description}}</div>
+              </div>
+              <div class="timeline__processes">
+                {% for process in item.processes%}
+                  <div class="timeline__processes-item">
+                    {{process.item}}
+                    <div class="arrow">→</div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <a class="cto-button" href="/services.html">{{ site.data.solutions.staff_augmentation.more_button }}</a>
+    </div>
+  </section>
+</div>
