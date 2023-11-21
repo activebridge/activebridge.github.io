@@ -67,6 +67,18 @@
     .with-margin {
       margin: 50px 0;
     }
+
+    .carousel__button {
+      .button {
+        background: $main-gradient;
+        color: $white;
+        margin-bottom: 30px;
+        &:hover {
+          color: $black_sea;
+          background: $white;
+        }
+      }
+    }
   }
 
   .timeline { margin-top: 5vh; }
@@ -186,18 +198,6 @@
         max-width: 335px;
         padding-top: 10px;
         .carousel__title { padding: 0 4vh; }
-
-        .carousel__button {
-          .button {
-            background: $main-gradient;
-            color: $white;
-            margin-bottom: 30px;
-            &:hover {
-              color: $black_sea;
-              background: $white;
-            }
-          }
-        }
       }
     }
   }
