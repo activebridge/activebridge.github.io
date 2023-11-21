@@ -131,7 +131,7 @@ project_development:
                     information about product specifics, technologies, and team composition. Design project
                     architecture and setting up the development environment. The client gets access to our
                     communication and tracking tools.
-      image: project_development_1
+      image: project_development_2
       processes:
         - item: Creating precious estimates
         - item: Composing dedicated team
@@ -176,5 +176,5 @@ staff_augmentation:
     - title: Ongoing work
       description: 'We focus on the motivation providing developers or dedicated team; make sure all agreement obligations
                     are met; and are available to support any time.'
-      image: staff_augmentation_1
+      image: staff_augmentation_3
   more_button: See our services
