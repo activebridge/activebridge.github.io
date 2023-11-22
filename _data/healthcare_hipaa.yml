@@ -1,0 +1,97 @@
+title: Healthcare web application development solutions
+description_1: For more than 5 years, we've been delivering custom application development solutions and programming
+                services for healthcare organizations, HealthTech startups, care providers, and medical ISVs.
+subtitle_1: Healthcare products we’ve been delivering
+description_2: We create functional healthcare applications in compliance with HIPAA and regulatory standards. Our
+                portfolio has complex SaaS healthcare platforms, patient and doctor scalable web/mobile apps, e-prescribing
+                modules, enterprise applications, billing systems, and more.
+subtitle_2: How we can help with custom healthcare app development
+help:
+  - title: Full-cycle assistance
+    icon: help_1
+    description: of medical project development, from cloud hosting and UX/UI design, through app development and QA,
+                  to technical delivery, security compliance, maintenance, and support.
+  - title: Rapid development
+    icon: help_2
+    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
+                  it into a solid, scalable, and reliable product
+  - title: Cross-platform solutions
+    icon: help_3
+    description: of custom healthcare apps development based on wide experience in complying with industry and market
+                  regulations
+case_study:
+  title: Case Study
+  subtitle: A HIPAA-compliant communication and clinical collaboration platform
+  top_info:
+    - item: "Contract type: <b>development team augmentation</b>"
+    - item: "Team size: <b>4</b>"
+    - item: "Period of collaboration: <b>2015 - ongoing</b>"
+    - item: "Client’s location: <b>Missouri, United States</b>"
+  bottom_info:
+    - title: "About the client:"
+      description: <b>Mediprocity</b> is a leading American HIPAA-compliant encryption platform protecting patients,
+                    healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and
+                    electronic patient health information (ePHI).
+    - title: "Challenge:"
+      description: The challenge was to build a software system that encrypted data transactions between entities and
+                    business associates licensed to practice or transfer sensitive patient health information within the
+                    United States. The core target was a fully reliable medical application and secure HIPAA-compliant
+                    cloud hosting environment available 24/7. One of the tasks was developing assets for healthcare
+                    professionals to manage and resolve prescription orders from mobile devices.
+    - title: "Technologies:"
+      description: Ruby on Rails, Grape, MySQL, Anycable, Redis, ActiveRecord, Sidekiq, Elasticsearch, Electron, Angular 11,
+                    Ionic 3, IOS, Android, Windows, MacOS, Docker, AWS
+solutions:
+  title: Solutions
+  all:
+    - title: User identification
+      description: When users create an account profile on Mediprocity’s new system, they generate an encryption key
+                    protecting all patient health information. That key can be updated using the “Super Admin” user-account
+                    feature. The admin panel is configured for both organizations and private individuals.
+      icon: solution_1
+      elements:
+        - item: an encrypted communication layer (SSL)
+        - item: role-based authentication and permissions management
+        - item: bruteforce application login detection and blocking of access for suspicious users
+    - title: Security message system
+      description: All-in-one secure messaging, forms, and RX Orders. Any transfer of text, documents, images, graphics,
+                    or any other type of information is encrypted and available only to the sender and the intended recipient
+                    on the Mediprocity system.
+      icon: solution_2
+      elements:
+        - item: secure SSL-based connection protocols for exchanging data between users and the server a strict password policy
+        - item: suspicious activity detection and prevention
+        - item: isolated database access that allows connections with role-based authentication
+    - title: Multi-platform compatibility
+      description: The system was developed as cloud-based software and mobile applications that can be installed on multiple
+                    operating systems, including Windows, Linux, MacOS, Android, and iOS.
+      icon: solution_3
+      elements:
+        - item: browser-based, iOS or Android app, the operating system installation
+        - item: notifications allow users to be alerted by email, SMS text, or the mobile push notifications
+        - item: fully integrated API or Widget into any portal or software
+
+
+    - title: Complex project architecture
+      description: The system is designed to handle scale user databases, transactions, and messages and store this information
+                    for ten years. The architecture is multifaceted not only in terms of technology, but also in terms of its
+                    use case, roles, development, and deployment.
+      icon: solution_4
+      elements:
+        - item: building a consistent architecture that’s scalable enough to allow for further project development
+        - item: making the system convenient for people with disabilities
+    - title: HIPAA system integration
+      description: The system is designed under the Health Insurance Portability and Accountability Act (HIPAA) which requires
+                    secure forms to be easily converted to PDF or loaded into a database. The system also provides the end client
+                    with a custom legal box, which allows the end client’s legal team to add custom terms and conditions for
+                    acceptance by their patients.
+      icon: solution_5
+      elements:
+        - item: securely sharing HL7 messages
+        - item: limiting the scope of data visibility for sensitive PII/PHI data
+        - item: implementing AWS as a 100% HIPAA-compliant infrastructure provider
+  button: See more projects
+idea:
+      button: Let’s discuss your project idea
+      text_1: In case you don’t know where to start your project, you can get in touch with our CTO.
+      text_2: We’ll set up a quick call to discuss how to make your project work.
