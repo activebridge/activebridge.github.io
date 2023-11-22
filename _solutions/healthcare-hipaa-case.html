@@ -1,0 +1,82 @@
+---
+permalink: /solutions/healthcare-hipaa-case.html
+layout: default
+title: HealthTech/HIPAA-compliant
+description: {{ site.data.healthcare_hipaa.description_1 }}
+---
+
+<section class="container healthcare_hipaa development solutions_cases">
+  <div class="healthcare_hipaa__main wrap">
+    <div class="row wrapper">
+      <h1 class="header-3">{{ site.data.healthcare_hipaa.title }}</h1>
+      <p class="description with-margin text-center">{{ site.data.healthcare_hipaa.description_1 }}</p>
+      <h2 class="header-2">{{ site.data.healthcare_hipaa.subtitle_1 }}</h2>
+      <p class="description with-margin text-center ">{{ site.data.healthcare_hipaa.description_2 }}</p>
+      <p class="header-3 small-text">{{ site.data.healthcare_hipaa.subtitle_2 }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.healthcare_hipaa.help %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/hipaa/{{ item.icon }}.webp" alt="circle">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="wrap solutions_cases__case_study healthcare_hipaa__case_study">
+    <div class="wrapper row">
+      <h2 class="header-3">{{ site.data.healthcare_hipaa.case_study.title }}</h2>
+      <p class="header-2">{{ site.data.healthcare_hipaa.case_study.subtitle }}</p>
+      <div class="solutions_cases__case_study_top">
+        <ul class="solutions_cases__case_study_list">
+          {% for element in site.data.healthcare_hipaa.case_study.top_info %}
+            <li class="solutions_cases__case_study_list_item">{{ element.item }}</li>
+          {% endfor %}
+        </ul>
+        <div class="solutions_cases__case_study_image">
+          <img src="/assets/images/hipaa/healthcare.webp" alt="">
+        </div>
+      </div>
+      <div class="solutions_cases__case_study_bottom">
+        <ul class="solutions_cases__case_study_bottom_list">
+          {% for element in site.data.healthcare_hipaa.case_study.bottom_info %}
+            <li>
+              <p class="header-2 with-margin">{{ element.title }}</p>
+              <p class="description">{{ element.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="healthcare_hipaa__solutions wrap">
+    <div class="row wrapper">
+      <h2 class="header-3 with-margin white-text">{{ site.data.healthcare_hipaa.solutions.title }}</h2>
+      <div class="list-with-images">
+        {% for element in site.data.healthcare_hipaa.solutions.all %}
+          <div class="list-with-images__item">
+            <div class=" list-with-images__item-icon big-img">
+              <img src="/assets/images/hipaa/{{ element.icon }}.webp" alt="">
+            </div>
+            <div class="list-with-images__item-text">
+              <h3 class="header-2 white-text without-margin">{{ element.title }}</h3>
+              <p class="description white-text without-margin">{{ element.description }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for item in element.elements %}
+                  <li class="list-with-images__item_element">{{ item.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="/solutions" class="button white-text">{{ site.data.healthcare_hipaa.solutions.button }}</a>
+    </div>
+  </div>
+  {% include solutions_bottom.html %}
+</section>
