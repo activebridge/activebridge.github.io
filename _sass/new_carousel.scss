@@ -1,0 +1,162 @@
+.carousel-scroll {
+  padding-top: 200px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 930px;
+
+  &__scroller {
+    align-items: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-flow: column;
+    height: 500px;
+    margin: 0 auto;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    width: 630px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__item {
+    background-color: inherit;
+    border-radius: 24px;
+    height: 340px;
+    margin: 0 40px;
+    position: relative;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    width: 277px;
+  }
+
+  &__animate-visibility {
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20), -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 20px;
+    height: 100%;
+    left: 50%;
+    margin-bottom: 0;
+    padding: 34px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transition: 1s;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}
+
+.carousel-scroll__item.in-view {
+  .animate-visibility {
+    height: 453px;
+    position: absolute;
+    transition: 1s;
+    width: 353px;
+    z-index: 2;
+
+    &__description {
+      font-size: 14px;
+      max-height: 180px;
+      overflow-y: scroll;
+    }
+  }
+}
+
+.previous-in-view {
+  .animate-visibility {
+    left: 120%;
+    top: 50%;
+  }
+}
+
+.next-in-view {
+  .animate-visibility {
+    left: -20%;
+    top: 50%;
+  }
+}
+
+.animate-visibility {
+  overflow-y: hidden;
+
+  &__description {
+    font-size: 10px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    overflow: hidden;
+    max-height: 85px;
+  }
+
+  &__image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 40%;
+    }
+  }
+}
+
+
+@media (max-width: 630px ) {
+  .carousel-scroll {
+    &__scroller {
+      height: 500px;
+      width: 320px;
+    }
+
+    &__item {
+      height: 234px;
+      margin: 0 10px;
+      width: 177px;
+    }
+
+    &__animate-visibility {
+      padding: 20px 15px 0 15px;
+    }
+  }
+
+  .carousel-scroll__item.in-view {
+    .animate-visibility {
+      height: 290px;
+      width: 220px;
+      z-index: 5;
+
+      &__description {
+        font-size: 10px;
+        max-height: 100px;
+      }
+    }
+  }
+
+  .previous-in-view {
+    .animate-visibility {
+      left: 120%;
+      top: 50%;
+    }
+  }
+
+  .next-in-view {
+    .animate-visibility {
+      left: -20%;
+      top: 50%;
+    }
+  }
+
+  .animate-visibility {
+    &__description {
+      font-size: 10px;
+      overflow-y: hidden;
+      max-height: 65px;
+    }
+  }
+}

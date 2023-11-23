@@ -1,0 +1,24 @@
+---
+permalink: /new_carousel.html
+layout: default
+title: Solutions
+description: {{site.data.solutions.title }}
+---
+
+<div class="carousel-scroll" >
+  <div class="carousel-scroll__scroller">
+    <div class="frame"></div>
+    {% for item in site.data.solutions.industries.all %}
+      <section class="gui-carousel--snap carousel-scroll__item">
+        <figure class="carousel-scroll__animate-visibility animate-visibility">
+          <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+          <div class="animate-visibility__image">
+            <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
+          </div>
+          <p class="animate-visibility__description">{{ item.description}}</p>
+        </figure>
+      </section>
+    {% endfor %}
+    <div class="frame"></div>
+  </div>
+</div>
