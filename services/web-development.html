@@ -33,7 +33,7 @@ description: Enhance your business processes leveraging our web application
       <div class="web_dev_services__list-wrap">
         <img src="/assets/images/web_development_services/branded_cloud.webp" alt="Cloud">
         <ul class="web_dev_services__list-text list_with_columns">
-          {% for card in site.data.web_dev_services.web_solutions.all %}
+          {% for item in site.data.web_dev_services.web_solutions.all %}
             <li class="web_dev_services__list-item">{{ item.item }}</li>
           {% endfor %}
         </ul>
@@ -150,7 +150,7 @@ description: Enhance your business processes leveraging our web application
     </div>
   </div>
 
-  <div class="web_dev_services__industries development__carousel wrap">
+  <div class="web_dev_services__industries development__carousel wrap flex-columns-center">
     <div class="carousel">
       <input type="radio" name="web_dev_industry" id="solution-1-6" checked>
       <input type="radio" name="web_dev_industry" id="solution-2-6">

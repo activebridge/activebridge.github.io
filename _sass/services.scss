@@ -151,13 +151,6 @@
     background: radial-gradient(circle, rgba(212,184,234,1) 0%, rgba(255,255,255,1) 100%);
   }
 
-  &__custom-ror-dev .row,
-  &__web-dev .row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   &__engagement-models {
     position: relative;
 
