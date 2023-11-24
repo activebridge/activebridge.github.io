@@ -1,10 +1,14 @@
 .web_dev_services {
   &__list {
-    .header-3 { margin-bottom: 5vh; }
+    .header-3 {
+      margin-bottom: 5vh;
+      font-size: 1.4em;
+    }
 
     &-wrap {
       display: flex;
       align-items: center;
+      padding-top: .5em;
 
       img {
         max-width: 250px;
@@ -13,7 +17,7 @@
     }
 
     &-text {
-      margin-top: 5vh;
+      margin: 0;
       padding-left: 8vw;
       font-size: 1.1em;
       text-align: justify;
