@@ -55,6 +55,7 @@
         flex-direction: column;
         justify-content: space-between;
         background: rgba($white, .4);
+        max-height: 500px;
 
         &__icon img {
           max-width: 90px;
@@ -68,9 +69,13 @@
           font-size: .9em;
           line-height: 1.4;
           text-align: justify;
+          margin: 55px 0;
         }
 
-        .button { color: $purple-heart; }
+        .button {
+          color: $purple-heart;
+          margin-top: 0;
+        }
       }
     }
 
@@ -222,8 +227,8 @@
 }
 
 @media screen and (min-width: 1550px) {
-  .development__cards .cards-container-2 .card {
-    padding-right: 2vw;
-    padding-left: 2vw;
+  .development__cards .cards-container-2 .card,
+  .development__cards .cards-container .card {
+    padding: 55px 40px;
   }
 }
