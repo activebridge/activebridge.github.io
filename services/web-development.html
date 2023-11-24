@@ -1,0 +1,174 @@
+---
+permalink: /services/web-development
+layout: default
+title: From MVP to Сomplete Product. Web Development Services | Active Bridge
+description: Enhance your business processes leveraging our web application
+             development services. We excel at crafting digital experiences that
+             both look and work impressive.
+---
+
+<div class="container web_dev_services development">
+  <div class="web_dev_services__main wrap">
+    <div class="header-2">{{ site.data.web_dev_services.title }}</div>
+    <div class="description">{{ site.data.web_dev_services.description }}</div>
+    <div class="web_dev_services__list">
+      <div class="header-3">{{ site.data.web_dev_services.expertise.title }}</div>
+      <div class="web_dev_services__list-wrap">
+        <img src="/assets/images/web_development_services/star.webp" alt="Star">
+        <ul class="web_dev_services__list-text">
+          {% for item in site.data.web_dev_services.expertise.all %}
+            <li class="web_dev_services__list-item">{{ item.item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="web_dev_services__web_solutions wrap">
+    <div class="header-2">{{ site.data.web_dev_services.web_solutions.title }}</div>
+    <div class="web_dev_services__list">
+      <div class="header-3">
+        {{ site.data.web_dev_services.web_solutions.subtitle_1 }}
+      </div>
+      <div class="web_dev_services__list-wrap">
+        <img src="/assets/images/web_development_services/branded_cloud.webp" alt="Cloud">
+        <ul class="web_dev_services__list-text list_with_columns">
+          {% for card in site.data.web_dev_services.web_solutions.all %}
+            <li class="web_dev_services__list-item">{{ item.item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="header-2">
+      {{ site.data.web_dev_services.web_solutions.subtitle_2 }}
+    </div>
+  </div>
+
+  <div class="web_dev_services__full_stack wrap">
+    <h1 class="header-3 white-text">
+      {{ site.data.web_dev_services.full_stack.title }}
+    </h1>
+    <div class="description">
+      {{ site.data.web_dev_services.full_stack.description_1 }}
+    </div>
+    <div class="description">
+      {{ site.data.web_dev_services.full_stack.description_2 }}
+    </div>
+    <ul class="web_dev_services__full_stack-list">
+      {% for item in site.data.web_dev_services.full_stack.all %}
+        <li class="web_dev_services__full_stack-list-item inria">
+          <span></span>
+          {{ item.item }}
+        </li>
+      {% endfor %}
+    </ul>
+    <div class="description">
+      {{ site.data.web_dev_services.full_stack.description_3 }}
+    </div>
+  </div>
+
+  <div class="web_dev_services__customized_approach wrap">
+    <h2 class="header-2">
+      {{ site.data.web_dev_services.customized_approach.title }}
+    </h2>
+    <div class="list-with-images">
+      {% for item in site.data.web_dev_services.customized_approach.all %}
+        <div class="list-with-images__item">
+          <div class="list-with-images__item-icon">
+            <img src="/assets/images/web_development_services/{{ item.icon }}" alt="Approach">
+          </div>
+          <div class="list-with-images__item-text">
+            <div class="header-2">{{ item.title }}</div>
+            <div class="description">{{ item.description }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="web_dev_services__technologies wrap">
+    <h2 class="header-2">{{ site.data.web_dev_services.technologies.title }}</h2>
+    <img class="desktop-only" src="/assets/images/web_development_services/technologies_d_table.svg" alt="Technologies">
+    <img class="mobile-only" src="/assets/images/web_development_services/technologies_m_table.svg" alt="Technologies">
+    <a href="/expertise" id="web_dev_technologies" class="button white-text violet-button">
+      {{ site.data.web_dev_services.technologies.button }}
+    </a>
+  </div>
+
+  <div class="web_dev_services__our_approach wrap">
+    <h2 class="header-2">{{ site.data.web_dev_services.our_approach.title }}</h2>
+    <div class="description">
+      {{ site.data.web_dev_services.our_approach.description_1 }}
+    </div>
+    <div class="description">
+      {{ site.data.web_dev_services.our_approach.description_2 }}
+    </div>
+  </div>
+
+  <div class="web_dev_services__solutions wrap">
+    <div class="header-2">{{ site.data.web_dev_services.solutions.title }}</div>
+    <div class="about_us_info__items">
+      <div class="about_us_info__container">
+        {% for item in site.data.web_dev_services.solutions.all %}
+          <div class="about_us_info__item">
+            <img src="/assets/images/{{ item.logo }}" alt="Logo">
+            {{ item.text }}
+          </div>
+        {% endfor %}
+      </div>
+      <div class="web_dev_services__solutions-awards development__awards">
+        {% for item in site.data.web_dev_services.solutions.awards %}
+          <img src="/assets/images/{{ item.logo }}" alt="">
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="web_dev_services__contract_approaches development__cards wrap">
+    <div class="header-3">
+      {{ site.data.web_dev_services.contract_approaches.title }}
+    </div>
+    <div class="header-2">
+      {{ site.data.web_dev_services.contract_approaches.description }}
+    </div>
+    <div class="cards-container">
+      {% for item in site.data.web_dev_services.contract_approaches.all %}
+        <div class="card">
+          <div class="card__title-2">{{ item.title }}</div>
+          <div class="card__description">{{ item.description }}</div>
+          <a href="/expertise" class="button" id="web_dev_contract_approaches">
+            {{ site.data.web_dev_services.button }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="development__offer">
+    <div class="header-2 white-text">
+      {{ site.data.web_dev_services.offer_text }}
+    </div>
+  </div>
+
+  <div class="web_dev_services__industries development__carousel wrap">
+    <div class="carousel">
+      <input type="radio" name="web_dev_industry" id="solution-1-6" checked>
+      <input type="radio" name="web_dev_industry" id="solution-2-6">
+      <input type="radio" name="web_dev_industry" id="solution-3-6">
+      <div class="carousel__list">
+        {% for industry in site.data.web_dev_services.industries.all %}
+          <label class="carousel__item" for="solution-{{ industry.index }}-6" id="card-{{ industry.index }}-solution-6">
+            <h2 class="carousel__title inria">{{ industry.title }}</h2>
+            <div class="carousel__description ">{{ industry.description }}</div>
+            <a href="/expertise" class="button white-text" id="web_dev_{{ item.index }}">
+              {{ site.data.web_dev_services.button }}
+            </a>
+          </label>
+        {% endfor %}
+      </div>
+    </div>
+    <a id="web_dev_button" class="button dev_services__carousel-btn", target="_blank" href="/contacts">
+      {{ site.data.services.approaches.button }}
+    </a>
+  </div>
+</div>
