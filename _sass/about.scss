@@ -166,12 +166,6 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
 
-    .row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
     &-title { margin-bottom: 5vh; }
 
     .carousel__description {
