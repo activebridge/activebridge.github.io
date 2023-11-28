@@ -1,4 +1,3 @@
-
 .carousel {
   width: 100%;
   max-width: 800px;
@@ -10,6 +9,7 @@
   align-items: center;
   padding-top: 6vh;
   transform-style: preserve-3d;
+  user-select: none;
 
   input[type=radio] { display: none; }
 
