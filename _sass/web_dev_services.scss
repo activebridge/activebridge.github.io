@@ -165,6 +165,8 @@
 @media screen and (max-width: 600px) {
   .web_dev_services {
     &__list {
+      .header-3 { font-size: 1.2em; }
+
       &-wrap {
         flex-wrap: wrap;
         justify-content: center;
@@ -180,6 +182,8 @@
           li:nth-last-child(-n+4) { margin-left: 2vh; }
         }
       }
+
+      img { margin-bottom: 30px; }
     }
 
     &__main {
@@ -189,12 +193,18 @@
       }
     }
 
-    &__web_solutions img { width: 55vw; }
+    &__web_solutions {
+      img { width: 55vw; }
+
+      .header-2:first-child { max-width: 100%; }
+    }
 
     &__full_stack {
       margin-top: -3vh;
       margin-bottom: -5vh;
       background-position: 77% 75%;
+
+      .header-3 { font-size: 1.2em; }
 
       &-list {
         padding-inline-start: 0;
@@ -204,7 +214,7 @@
           margin-top: 10vh;
           margin-bottom: 10vh;
 
-          span {
+          &::after {
             left: 50%;
             transform: translate(-50%);
             top: -8vh;
@@ -213,10 +223,19 @@
       }
     }
 
-    &__technologies svg.mobile-only  { max-width: 78vw; }
+    &__technologies {
+      img.mobile-only  { max-width: 78vw; }
+
+      .button { margin-top: 4vh; }
+    }
+
 
     &__solutions {
       .about_us_info__item { width: 45%; }
+    }
+
+    &__our_approach {
+      .header-2 { margin-bottom: 3vh; }
     }
   }
 }
