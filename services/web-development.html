@@ -106,11 +106,11 @@ description: Enhance your business processes leveraging our web application
 
   <div class="web_dev_services__our_approach wrap">
     <div class="row">
-      <h2 class="header-2">{{ site.data.web_dev_services.our_approach.title }}</h2>
-      <div class="description">
+      <h2 class="header-2 white-text">{{ site.data.web_dev_services.our_approach.title }}</h2>
+      <div class="description white-text">
         {{ site.data.web_dev_services.our_approach.description_1 }}
       </div>
-      <div class="description">
+      <div class="description white-text">
         {{ site.data.web_dev_services.our_approach.description_2 }}
       </div>
     </div>
@@ -176,7 +176,7 @@ description: Enhance your business processes leveraging our web application
         {% for industry in site.data.web_dev_services.industries.all %}
           <label class="carousel__item" for="solution-{{ industry.index }}-6" id="card-{{ industry.index }}-solution-6">
             <h2 class="carousel__title inria">{{ industry.title }}</h2>
-            <div class="carousel__description ">{{ industry.description }}</div>
+            <div class="carousel__description">{{ industry.description }}</div>
             <a href="/expertise" class="button white-text" id="web_dev_{{ item.index }}">
               {{ site.data.web_dev_services.button }}
             </a>
