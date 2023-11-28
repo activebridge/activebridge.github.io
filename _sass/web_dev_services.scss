@@ -8,6 +8,7 @@
     &-wrap {
       display: flex;
       align-items: center;
+      justify-content: center;
       padding-top: .5em;
 
       img {
@@ -18,7 +19,7 @@
 
     &-text {
       margin: 0;
-      padding-left: 8vw;
+      padding-left: 8em;
       font-size: 1.1em;
       text-align: justify;
     }
@@ -73,20 +74,21 @@
 
     &-list {
       list-style: none;
-      margin: 7vh 0;
-      padding-left: 7vw;
+      margin: 60px 0;
+      padding-left: 75px;
 
       &-item {
         position: relative;
-        margin-bottom: 2.5vh;
+        margin-bottom: 1.5em;
         color: $white;
         font-size: 1.1em;
         line-height: 1.8;
         text-align: justify;
 
-        span {
+        &::after {
+          content: "";
           position: absolute;
-          left: -7.5vw;
+          left: -75px;
           top: 50%;
           transform: translateY(-50%);
           width: 3em;
@@ -151,6 +153,8 @@
       img {
         margin-bottom: .5em;
         width: 10vh;
+        max-width: 150px;
+        max-height: 150px;
       }
     }
   }
