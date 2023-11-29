@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   function setCarousel (scroller_class) {
     const scroller = document.querySelector(scroller_class);
-    scroller.children[1].scrollIntoView(false)
+    scroller.scrollLeft += scroller.children[1].offsetWidth
 
     function updateSort(scroller) {
       let scrollWidth = scroller.scrollWidth;
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         scroller.prepend(items[items.length - 1]);
         scroller.scrollLeft = scrollLeft + items[items.length - 1].offsetWidth;
       }
-      if (scrollLeft + width == scrollWidth) {
+      if (scrollLeft + width >= scrollWidth) {
         scroller.append(items[0]);
         scroller.scrollLeft = scrollLeft - items[0].offsetWidth;
       }
