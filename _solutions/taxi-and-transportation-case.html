@@ -1,0 +1,171 @@
+---
+permalink: /solutions/taxi-and-transportation-case.html
+layout: default
+title: {{ site.data.taxi_and_transportation.title }}
+description: {{site.data.taxi_and_transportation.description_1 }}
+---
+
+<section class="container taxi_and_transportation development solutions_cases">
+  <div class="taxi_and_transportation__main">
+    <div class="row wrapper">
+      <h1 class="header-3 white-text">{{ site.data.taxi_and_transportation.title }}</h1>
+      <p class="header-2 white-text">{{ site.data.taxi_and_transportation.subtitle_1 }}</p>
+      <p class="description with-margin white-text">{{ site.data.taxi_and_transportation.description_1 }}</p>
+      <p class="description white-text">{{ site.data.taxi_and_transportation.description_2 }}</p>
+      <p class="header-2 white-text">{{ site.data.taxi_and_transportation.subtitle_2 }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.taxi_and_transportation.help %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/taxi_and_transportation/{{ item.icon }}.webp" alt="circle">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 white-text">{{ item.title }}</p>
+              <p class="description white-text">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="taxi_and_transportation__expertise development__cards">
+    <div class="row wrapper">
+      <p class="header-3 white-text">{{ site.data.taxi_and_transportation.expertise.title }}</p>
+      <div class="cards-container">
+        {% for item in site.data.taxi_and_transportation.expertise.all %}
+          <div class="card">
+            <h2 class="card__title-2 white-text">{{ item.title }}</h2>
+            <div class="card__icon">
+              <img src= "/assets/images/taxi_and_transportation/{{ item.icon }}.webp" alt="circle">
+            </div>
+            <p class="card__description white-text">{{ item.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="solutions_cases__case_study taxi_and_transportation__case_study ">
+    <div class="row wrapper">
+      <p class="header-3">{{ site.data.taxi_and_transportation.case_study.title }}</p>
+      <p class="header-2 with-margin">{{ site.data.taxi_and_transportation.case_study.subtitle}}</p>
+      <div class="solutions_cases__case_study_top">
+        <ul class="solutions_cases__case_study_list">
+          {% for element in site.data.taxi_and_transportation.case_study.top_info %}
+            <li class="solutions_cases__case_study_list_item">{{ element.item}}</li>
+          {% endfor %}
+        </ul>
+        <div class="solutions_cases__case_study_image">
+          <img src= "/assets/images/taxi_and_transportation/cablook_logo.webp" alt="circle">
+        </div>
+      </div>
+      <div class="solutions_cases__case_study_bottom">
+        <ul class="solutions_cases__case_study_bottom_list">
+          {% for item in site.data.taxi_and_transportation.case_study.bottom_info %}
+            <li class="solutions_cases__case_study_list_item">
+              <p class="header-2 with-margin">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="taxi_and_transportation__solutions">
+    <div class="row wrapper">
+      <p class="header-3">{{ site.data.taxi_and_transportation.solutions.title }}</p>
+      <p class="header-3 small-text">{{ site.data.taxi_and_transportation.case_study.solutions.subtitle_1 }}</p>
+      <p class="header-2 with-margin">{{ site.data.taxi_and_transportation.solutions.subtitle_2 }}</p>
+      <div class="horizontal_timeline">
+        {% for element in site.data.taxi_and_transportation.solutions.line %}
+          <div class="horizontal_timeline__item">
+            <div class="horizontal_timeline__item_icon big-img">
+              <img src= "/assets/images/taxi_and_transportation/{{element.icon}}.webp" alt="icon">
+            </div>
+            <div class="horizontal_timeline__item_text">{{ element.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <p class="description">{{ site.data.taxi_and_transportation.solutions.description }}</p>
+      <p class="header-3 small-text with-margin">{{ site.data.taxi_and_transportation.features }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.taxi_and_transportation.solutions.features %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon big-img">
+              <img src= "/assets/images/taxi_and_transportation/{{item.icon}}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 without-margin">{{ item.title }}</p>
+              <p class="description without-margin">{{ item.description }}</p>
+              <p class="header-2 purple-text">{{ site.data.taxi_and_transportation.features_title }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for element in item.elements %}
+                <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="taxi_and_transportation__security">
+    <div class="row wrapper">
+      <p class="header-2 white-text">{{ site.data.taxi_and_transportation.app_security.title }}</p>
+      <p class="description white-text">{{ site.data.taxi_and_transportation.app_security.description }}</p>
+    </div>
+  </div>
+  <div class="taxi_and_transportation__cross_platform_app">
+    <div class="row wrapper">
+      <p class="header-2 with-margin">{{ site.data.taxi_and_transportation.cross_platform_app.title }}</p>
+      <p class="description text-center">{{ site.data.taxi_and_transportation.cross_platform_app.description }}</p>
+      <p class="header-3 small-text with-margin">{{ site.data.taxi_and_transportation.features }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.taxi_and_transportation.cross_platform_app.features %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon big-img">
+              <img src= "/assets/images/taxi_and_transportation/{{item.icon}}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 without-margin">{{ item.title }}</p>
+              <p class="description without-margin">{{ item.description }}</p>
+              <p class="header-2 purple-text">{{ site.data.taxi_and_transportation.features_title }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for element in item.elements %}
+                <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="taxi_and_transportation__admin_panel">
+    <div class="row wrapper">
+      <p class="header-2 with-margin">{{ site.data.taxi_and_transportation.admin_panel.title }}</p>
+      <p class="description">{{ site.data.taxi_and_transportation.admin_panel.description }}</p>
+      <p class="header-3 small-text with-margin">{{ site.data.taxi_and_transportation.features }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.taxi_and_transportation.admin_panel.features %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon big-img">
+              <img src= "/assets/images/taxi_and_transportation/{{item.icon}}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 without-margin">{{ item.title }}</p>
+              <p class="description without-margin">{{ item.description }}</p>
+              <p class="header-2 purple-text">{{ site.data.taxi_and_transportation.features_title }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for element in item.elements %}
+                <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <a href="/solutions" class="button">{{ site.data.healthcare_hipaa.solutions.button }}</a>
+  </div>
+  {% include solutions_bottom.html %}
+</section>
