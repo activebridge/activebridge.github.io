@@ -1,0 +1,134 @@
+title:  Insurance application development solutions
+description:  The emerging sector of InsurTech products enables customers to handle insurance issues in a more holistic
+              and user-friendly way than ever before<br><br>Active Bridge dedicated developers create efficient solutions
+              for the insurance services industry based on security and the highest level of data integrity. Our remote
+              tech experts help companies automate manual operations and claim verification, reduce human errors, ensure
+              smooth customer experiences.
+solutions:
+  - icon: solution_1
+    title: Insurance industry expertise
+    description: Developing cloud software and applications for the insurance niche requires a certain level of experience
+                  from creators. Our team has 6 years of practice in this field, and we successfully launched InsurTech
+                  projects.
+  - icon: solution_2
+    title: Industry-relevant tech stack
+    description: We are tracking the changing InsurTech market dynamics and constantly replenishing our solutions with
+                  innovative technologies.
+  - icon: solution_3
+    title: Guarantees and confidentiality
+    description: We guarantee a high level of confidence, competitiveness, reliability, and scalability of our solutions.
+                  We always sign an NDA and assign specialists of various profiles, including those responsible for
+                  compliance with the project quality indicators.
+design_and_development:
+  title:  Insurance product design and development
+  description: "Our dedicated development teams successfully resolve security and compliance challenges of Insurtech
+                product development as well as scalability, high load, smooth integration with third-party services,
+                and more.<br><br>
+                <b>InsurTech product development services are handy for insurance companies,
+                agencies, brokerages, and reinsurers that:</b>"
+  all:
+    - item: provide life and health, property and casualty insurance services;
+    - item: provide workers claim compensation solutions;
+    - item: need to optimize internal workflows by automating routine tasks and enhancing them with data analytics;
+    - item: strive to provide an excellent customer experience.
+  help_title: How we can help with insurance product development process
+  help:
+    - icon: process_1
+      title: Full-cycle assistance
+      description: of InsurTeach project development, from cloud hosting and UX/UI design, through app development and
+                    QA, to technical delivery, security compliance, maintenance, and support.
+    - icon: process_2
+      title: Rapid development
+      description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
+                    it into a solid, scalable, and reliable product
+    - icon: process_3
+      title: Cross-platform solutions
+      description: of custom insurance product development based on wide experience in complying with industry and market
+                    regulations
+case_study:
+  title: Featured Case Study
+  subtitle: Workers’ compensation e-Billing management cloud-software
+  top_info:
+    - item: "Contract type: <b>development team augmentation</b>"
+    - item: "Team size: <b>6</b>"
+    - item: "Period of collaboration: <b>2015 - ongoing</b>"
+    - item: "Client’s location: <b>New York, United States</b>"
+  bottom_info:
+    - title: "About the client:"
+      description: DaisyBill is a mission-focused company serving healthcare service providers who digitally manage
+                    and dispatch workers’ compensation bills to employers. The company pioneered an innovative, data-driven
+                    service to help transform the complex workers’ compensation process. DaisyBill offers a range of Software
+                    as a Service (SaaS) subscriptions to help those who care for injured workers to get paid accurately,
+                    quickly, and without administrative burdens.
+    - title: "Challenge:"
+      description: To carry mentioned goal, DaisyBill was about building revenue cycle management (RCM) software to help
+                    healthcare service providers digitally manage and dispatch workers’ compensation bills to employers.
+                    More than any other kind of medical billing, workers’ compensation is complicated, time-consuming, and
+                    incredibly headache-inducing. So the main goal was to develop software that cut through the tangle of
+                    workers’ comp requirements and regulations and simplifies this process.
+    - title: "Solutions:"
+      description: A cloud-based insurance management platform that helps automate and facilitate a wide range of regular
+                    manual insurance tasks to make the life of healthcare service providers, employers and employees much
+                    easier. It is a feature-rich modular platform focused on insurance processes such as paperwork and document
+                    storing, billing workflows, billing statistics, verified bill delivery tracking, and more.
+    - title: "Technologies:"
+      description: Ruby on Rails, PostgreSQL, TFA, Selenium, REDIS
+features:
+  title: Features
+  all:
+    - title: Billing workflow automation
+      description: DaisyBill workers’ comp technology provides a workflow solution that makes it easy for an employer’s
+                    team to systematically manage bill submission and payer responses.
+      icon: feature_1
+    - title: Document management and verifying
+      description: Revenue cycle management cloud software also helps to store all sensitive documents securely in one
+                    place. This feature allows import and export functionality to simplify the user’s data handling
+                    process. The feature provides a comprehensive bill history, including an electronic receipt verifying
+                    the payer received both your bill and attached supporting medical records.
+      icon: feature_2
+    - title: Billing statistics and reports
+      description: The platform also provides inbuilt analytics capability, which generates custom reports on employers’
+                    information, patient records, procedure, and claims administration to comply with workers’ compensation
+                    guidelines.
+      icon: feature_3
+    - title: Validation of bills for compliance
+      description: Workers’ compensation bills software scrubs every bill and alerts users to any errors prior to
+                    submitting the bill.
+      icon: feature_4
+    - title: RFA delivery verification
+      description: RFA that was faxed from DaisyBill cloud-based insurance management software is retained and can
+                    be provided for the proof that proof the payer received the RFA.
+      icon: feature_5
+    - title: Tasks and friendly reminder emails
+      description: Task Dashboard replaces spreadsheets and sticky notes with organized, automated, tasks and
+                    friendly reminder emails. The Task Dashboard alerts the user’s team of what to do and when
+                    to do it.
+      icon: feature_6
+    - title: Free schedule calculator
+      description: DaisyBill’s Calculator is comprised of six separate Fee Schedules and five separate Calculators.
+                    Each Calculator references a specific Fee Schedule or Fee Schedules
+      icon: feature_7
+    - title: Built API
+      description: The software offers an API that lets businesses integrate DaisyBill with existing revenue cycle
+                    management software and export data into CSV and ANSI formats.
+      icon: feature_8
+full_circle:
+  title: What’s important in a full-circle insurance product development
+  all:
+    - icon: full_circle_1
+      title: User experience
+      description: InsurTech applications must look and feel friendly, unobtrusive, and reliable. Creating a user
+                    experience and interface that fulfills these demands requires both domain knowledge and software
+                    design artistry.
+    - icon: full_circle_2
+      title: Legal compliance
+      description: Each InsurTech product must be fully compliant with the existing laws and frequently updated in
+                    accordance with the new regulations.
+    - icon: full_circle_3
+      title: Cybersecurity
+      description: InsurTech product provides secure and reliable data storage, as well as infallible payment solutions.
+    - icon: full_circle_4
+      title: Cloud computing
+      description: Processing vast amounts of sensitive information requires robust technological solutions, such as
+                    the cloud. It has proven vital in InsurTech software development.
+  button: See more projects
