@@ -1,0 +1,120 @@
+---
+permalink: /solutions/insurtech-case.html
+layout: default
+title: Insurance application development solutions
+description: Active Bridge dedicated developers create efficient solutions for the
+             insurance services industry based on security and the highest level of data integrity.
+             Our remote tech experts help companies automate manual operations and claim verification,
+             reduce human errors, ensure smooth customer experiences.
+---
+
+<section class="container insurtech development solutions_cases">
+  <div class="insurtech__main">
+    <div class="row wrapper">
+      <h1 class="header-3">{{ site.data.insurtech.title }}</h1>
+      <p class="description with-margin">{{ site.data.insurtech.description }}</p>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.insurtech.solutions %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="insurtech__design_and_development">
+    <div class="row wrapper">
+      <h2 class="header-2">{{ site.data.insurtech.design_and_development.title }}</h2>
+      <p class="description">{{ site.data.insurtech.design_and_development.description }}</p>
+      <ul class=" personal-info__list">
+        {% for element in site.data.insurtech.design_and_development.all %}
+          <li class="personal-info__info-line personal-info__info-line--vendor-info">{{ element.item }}</li>
+        {% endfor %}
+      </ul>
+      <p class="header-3 small-text">{{ site.data.insurtech.design_and_development.help_title }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.insurtech.design_and_development.help %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="solutions_cases__case_study">
+    <div class="row wrapper">
+      <p class="header-3">{{ site.data.insurtech.case_study.title }}</p>
+      <h2 class="header-2 with-margin">{{ site.data.insurtech.case_study.subtitle }}</h2>
+      <div class="solutions_cases__case_study_top">
+        <ul class="solutions_cases__case_study_list">
+          {% for element in site.data.insurtech.case_study.top_info %}
+            <li class="solutions_cases__case_study_list_item">{{ element.item}}</li>
+          {% endfor %}
+        </ul>
+        <div class="solutions_cases__case_study_image">
+          <img src= "/assets/images/insurtech/card-cloud.webp" alt="image">
+        </div>
+      </div>
+      <div class="solutions_cases__case_study_bottom">
+        <ul class="solutions_cases__case_study_bottom_list">
+          {% for element in site.data.insurtech.case_study.bottom_info %}
+            <li>
+              <p class="header-2 with-margin">{{ element.title }}</p>
+              <p class="description">{{ element.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="insurtech__features">
+    <div class="row wrapper">
+      <p class="header-3 small-text">{{ site.data.insurtech.features.title }}</p>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.insurtech.features.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="insurtech__full_circle">
+    <div class="row wrapper">
+      <p class="header-2 with-margin white-text">{{ site.data.insurtech.full_circle.title }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.insurtech.full_circle.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 without-margin white-text">{{ item.title }}</p>
+              <p class="description without-margin white-text">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <a href="/solutions" class="button">{{ site.data.healthcare_hipaa.solutions.button }}</a>
+  </div>
+  {% include solutions_bottom.html %}
+</section>

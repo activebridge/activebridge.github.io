@@ -1,0 +1,136 @@
+.insurtech {
+  .header-2 { font-size: 1.25em; }
+
+  .header-3.small-text {
+    font-weight: 900;
+    letter-spacing: normal;
+    margin: 8vh 0;
+  }
+
+  .list-with-images.horizontal {
+    display: grid;
+    row-gap: 33px;
+
+    .list-with-images__item {
+      max-width: 100%;
+      .header-2 { margin-top: 2.5vh; }
+
+      .description {
+        margin-top: 2vh;
+        text-align: left;
+      }
+    }
+  }
+
+  &__main {
+    background-image: linear-gradient(to right top, $palianytsia, #EFF1F5, #EFF1F5, $palianytsia);
+    padding: 117px 0 104px 0;
+    .description.with-margin  { margin-bottom: 8vh; }
+
+    .list-with-images.horizontal {
+      grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+      grid-column-gap: 90px;
+      margin-top: 90px;
+      .list-with-images__item-icon img { box-shadow: none; }
+    }
+  }
+
+  &__design_and_development {
+    background-image: linear-gradient(-45deg, rgba($buzok, .5), #EFF1F5, #EFF1F5);
+    box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
+    padding: 90px 0 83px 0;
+
+    .description { margin-top: 5vh; }
+    .list-with-images__item-text .description { margin-top: 1vh; }
+    .header-3.small-text { margin: 58px 0 48px 0; }
+  }
+
+  .solutions_cases__case_study {
+    background-image: linear-gradient(rgba($buzok, .75), rgba($sky-ua, .75));
+    box-shadow: 0px 0px 20px 4px rgba($purple-heart, .05);
+    padding: 89px 0 95px 0;
+
+    .header-2.with-margin { margin-bottom: 20px;}
+  }
+
+  &__features {
+    background: no-repeat url('/assets/images/insurtech/cloud-1.webp'),
+                no-repeat url('/assets/images/insurtech/cloud-2.webp'),
+                linear-gradient(30deg, $kviten, $titan_white, $titan_white);
+    background-blend-mode: luminosity;
+    background-position: top 2% left 0, top 50% right 0, top 0 left 0;
+    padding: 100px 0 106px 0;
+    position: relative;
+
+    .header-3.small-text {
+      font-weight: 400;
+      margin: 0 0 6vh 0;
+    }
+
+    .list-with-images.horizontal {
+      grid-column-gap: 43px;
+      grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    }
+  }
+
+  &__full_circle {
+    background-image: linear-gradient(to left top, $black_sea, $main-violet, $kviten);
+    box-shadow: inset 0px 0px 20px 4px rgba($purple-heart, .25);
+    padding: 99px 0 95px 0;
+
+    .button {
+      background-color: white;
+      font-weight: 400;
+      &:hover { color: $main-violet !important; }
+    }
+    .list-with-images__item-icon img { box-shadow: none; }
+  }
+  .solutions_cases__idea { background-image: linear-gradient(to left, $main-violet, $buzok); }
+}
+
+@media (max-width: 930px) {
+  .insurtech {
+    &__features {
+      background: linear-gradient(30deg, $kviten, $titan_white, $titan_white);
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .insurtech {
+    .header-2 { font-size: .85em; }
+    .header-3.small-text { margin: 5vh 0; }
+    .list-with-images .list-with-images__item .header-2 { margin-top: 1.5vh; }
+
+    &__main {
+      background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5);
+      padding: 79px 0 73px 0;
+    }
+
+    &__design_and_development {
+      padding: 50px 0 27px 0;
+      .header-2 { margin-top: 0; }
+      .header-3.small-text { margin: 30px 0 11px 0; }
+
+      &-list-item {
+        font-size: .8em;
+        line-height: 1.5em;
+        margin-top: 2vh;
+      }
+    }
+    .solutions_cases__case_study {
+      padding: 60px 0 63px 0;
+      .header-2.with-margin { margin: 20px 0 0 0; }
+    }
+
+    &__features {
+      padding: 52px 0 51px 0;
+      .header-3.small-text { margin-top: 0; }
+      .list-with-images.horizontal .list-with-images__item { max-width: 100%; }
+    }
+
+    &__full_circle { padding: 45px 0 60px 0;}
+    .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
+  }
+}
