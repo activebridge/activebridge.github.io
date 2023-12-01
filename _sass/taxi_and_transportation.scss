@@ -1,0 +1,295 @@
+.taxi_and_transportation {
+  .list-with-images {
+    &__item {
+      margin-bottom: 80px;
+
+      &_element {
+        list-style: none;
+        margin-bottom: 10px;
+        padding: 0;
+        padding-left: 10px;
+        position: relative;
+
+        &::before {
+          background-color: white;
+          border-radius: 50%;
+          content: '';
+          height: 12px;
+          left: -18px;
+          position: absolute;
+          top: 12px;
+          transform: translateY(-50%);
+          vertical-align: text-top;
+          width: 12px;
+        }
+      }
+    }
+  }
+
+  .description.without-margin { margin-bottom: 30px; }
+
+  &__main {
+    background-image: linear-gradient(-30deg, $purple-heart, $black_sea);
+    padding: 117px 0 135px 0;
+    .description { margin-bottom: 5vh; }
+    .description.with-margin { margin-bottom: 2vh; }
+
+    .list-with-images {
+      margin: 5vh 0 0;
+      &__item { margin-bottom: 30px; }
+    }
+  }
+
+  &__expertise {
+    background-image: linear-gradient(135deg, $buzok, $purple-heart);
+    padding: 75px 0 105px 0;
+
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+      grid-column-gap: 15px;
+      row-gap: 15px;
+
+      .card {
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20), -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
+        box-sizing: border-box;
+        margin: 0;
+        min-width: 100%;
+        max-width: 100%;
+        max-height: 460px;
+        padding: 33px 22px;
+        width: 100%;
+
+        &__description {
+          margin: 23px 0;
+        }
+      }
+    }
+  }
+  &__case_study { padding: 89px 0 94px 0; }
+
+  &__solutions {
+    background-image: linear-gradient(-67deg, $buzok, $white, $white);
+    box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
+    padding: 90px 0;
+    .purple-text { color: $purple-heart; }
+
+    .list-with-images {
+      &__item {
+        &_element {
+          &::before { border: 1px solid #A49FEB; }
+        }
+      }
+    }
+  }
+
+  &__security {
+    background-color: rgba(#5723B540, .6);
+    box-shadow: 0px 0px 25px 4px rgba($black, .2 );
+    padding: 32px 0 27px 0;
+
+    .description {
+      margin-top: 1vh;
+      text-align: center;
+    }
+  }
+
+  &__cross_platform_app {
+    background-image: linear-gradient(35deg, $kviten, $titan_white, $titan_white);
+    box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
+    padding: 69px 0 92px 0;
+    .purple-text { color: $main-violet; }
+
+    .list-with-images {
+      &__item {
+        &_element {
+          &::before { border: 1px solid #AA30BE; }
+        }
+      }
+    }
+  }
+
+  &__admin_panel {
+    background-image: linear-gradient(35deg, $buzok, $kviten);
+    box-shadow: inset 0px 0px 25px 4px rgba($purple-heart, .4);
+    padding: 69px 0 119px 0;
+    .purple-text { color: $white;}
+
+    .button {
+      background-color: $white;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+
+    .list-with-images {
+      &__item {
+        &_element {
+          &::before { border: 1px solid #5723B5; }
+        }
+      }
+    }
+  }
+}
+
+.horizontal_timeline {
+  align-items: stretch;
+  display: flex;
+  justify-content: space-around;
+  margin: 10vh 0;
+  padding: 0 67px;
+  position: relative;
+
+  &::before,
+  &::after {
+    background: $purple-heart;
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 27%
+  }
+  &::before { left: 0; }
+  &::after { right: 0 }
+
+  &__item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 120px;
+    position: relative;
+
+    &::before,
+    &::after {
+      background: $purple-heart;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 95%;
+      height: 2px;
+      top: 30%;
+    }
+      &::before {
+        left: 75%;
+        width: 82%;
+       }
+      &::after { right: 75% }
+
+    &_icon {
+      align-items: center;
+      background-image: radial-gradient(circle, $white, $titan_white);
+      border-radius: 50%;
+      box-shadow: 0px 0px 12px 0px rgba($purple-heart, .15);
+      display: flex;
+      height: 6em;
+      justify-content: center;
+      margin-bottom: 22px;
+      width: 6em;
+      z-index: 2;
+
+      img {
+        max-width: 55px;
+        mix-blend-mode: luminosity;
+        position: relative;
+        width: 100%;
+      }
+    }
+
+    &_text {
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .taxi_and_transportation {
+    &__solutions{
+      .list-with-images__item {
+        flex-direction: column;
+        justify-content: center;
+
+        &-text {
+          width: 100%;
+          .header-2.without-margin { margin: 23px 0 14px 0;}
+        }
+
+        &-icon {
+          margin: 0 auto;
+
+          img {
+            margin-right: 0;
+            max-width: 120px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .taxi_and_transportation {
+    .list-with-images {
+      &__item { margin-bottom: 35px; }
+    }
+    &__main { padding: 92px 0 15px 0; }
+    &__expertise { padding: 60px 0 76px 0; }
+    &__case_study { padding: 60px 0 51px 0; }
+
+    &__solutions {
+      padding: 39px 0 8px 0;
+      .header-2.with-margin { margin-bottom: 50px;}
+    }
+
+    &__security {
+      padding: 16px 0 44px 0;
+      .description { text-align: justify; }
+    }
+    &__cross_platform_app { padding: 29px 0 21px 0; }
+    &__admin_panel { padding: 29px 0 61px 0; }
+  }
+
+  .horizontal_timeline {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 51px 0;
+
+    &::before {
+      content: '';
+      left: 46px;
+      top: 0;
+    }
+
+    &::after {
+      content: '';
+      left: 46px;
+      position: absolute;
+      top: 97%;
+    }
+
+    &__item {
+      align-items: center;
+      flex-direction: row;
+      justify-content: flex-start;
+      max-width: 100%;
+      min-width: 100%;
+      &:not(:last-child) { margin-bottom: 4vh; }
+
+      &::before,
+      &::after {
+        content: '';
+        height: 40px;
+        left: 50px;
+        width: 2px;
+      }
+      &::before { top: -50px; }
+      &::after { top: 100px; }
+      &_icon { margin-right: 1.5em; }
+      &_text { font-size: 12px;}
+    }
+  }
+}

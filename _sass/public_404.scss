@@ -40,7 +40,7 @@
 
 @media (max-width: 930px) {
   .public {
-    padding: 122px 25px 82px 25px;
+    padding: 122px 0 82px 0;
 
     &__image {
       max-width: 230px;
@@ -67,7 +67,6 @@
     line-height: 15px;
     margin: 0;
     text-align: justify;
-    padding: 0 20px;
    }
   }
 }

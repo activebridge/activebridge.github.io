@@ -24,7 +24,7 @@
 @import "solutions_cases";
 @import "healthcare_hipaa";
 @import 'web_dev_services';
-
+@import 'taxi_and_transportation';
 
 @font-face {
   font-family: 'Cera Regular';
@@ -623,10 +623,11 @@ input#menu {
 }
 
 .wrapper {
+  box-sizing: border-box;
   margin: 0 auto;
-  max-width: 930px;
+  max-width: 990px;
   text-align: center;
-  padding: 0;
+  padding: 0 30px;
 }
 
 .base-content {

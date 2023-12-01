@@ -4,7 +4,7 @@
                 linear-gradient(132deg, #FBDF89 8.4%, #A49FEB 52.42%, #8CC9FC 93.77%);
     background-blend-mode: luminosity;
     background-position: top 87px left 0, top 0 left 0;
-    padding: 191px 30px 113px 30px;
+    padding: 191px 0 113px 0;
     position: relative;
 
     &::after {
@@ -106,7 +106,7 @@
     &__main-content {
       background-position: top 107px left 0, top 0 left 0;
       background-size: 140px 140px, cover;
-      padding: 66px 50px 88px 50px;
+      padding: 66px 20px 88px 20px;
 
       &::after {
         bottom: -5%;
