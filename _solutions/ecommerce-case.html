@@ -1,0 +1,111 @@
+---
+permalink: /solutions/ecommerce-case.html
+layout: default
+title: Custom e-commerce web development solutions
+description: With more than 8 years of eCommerce development experience and extensive expertise
+             in building online software solutions that connect all parts of the E-commerce value chain,
+             Active Bridge's dedicated development teams help clients grow business and sell online.
+---
+
+<section class="container ecommerce development solutions_cases">
+  <div class="ecommerce__main development__cards">
+    <div class="row wrapper">
+      <h1 class="header-3 white-text">{{ site.data.e_commerce.title}}</h1>
+      <p class="description with-margin white-text">{{ site.data.e_commerce.description }}</p>
+      <div class="cards-container">
+        {% for item in site.data.e_commerce.cards%}
+          <div class="card">
+            <h2 class="card__title-2 white-text">{{ item.title }}</h2>
+            <div class="card__icon">
+              <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="card__description white-text">{{ item.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <p class="header-3 small-text white-text">{{ site.data.e_commerce.expertise_title }}</p>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.e_commerce.expertise %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 white-text">{{ item.title }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="ecommerce__help">
+    <div class="row wrapper">
+      <p class="header-3 small-text">{{ site.data.e_commerce.help_title }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.e_commerce.help%}
+        <div class="list-with-images__item">
+          <div class="list-with-images__item-icon">
+            <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
+          </div>
+          <div class="list-with-images__item-text">
+            <p class="header-2">{{ item.title }}</p>
+            <p class="description">{{ item.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="solutions_cases__case_study">
+    <div class="row wrapper">
+      <p class="header-3">{{ site.data.e_commerce.case_study.title }}</p>
+      <h2 class="header-2 with-margin mobile-margin">{{ site.data.e_commerce.case_study.subtitle }}</h2>
+      <div class="solutions_cases__case_study_top">
+        <ul class="solutions_cases__case_study_list">
+          {% for element in site.data.e_commerce.case_study.top_info %}
+            <li class="solutions_cases__case_study_list_item">{{ element.item}}</li>
+          {% endfor %}
+        </ul>
+        <div class="solutions_cases__case_study_image">
+          <img src= "/assets/images/ecommerce/ecommerce.webp" alt="image">
+        </div>
+      </div>
+      <div class="solutions_cases__case_study_bottom">
+        <ul class="solutions_cases__case_study_bottom_list">
+          {% for element in site.data.e_commerce.case_study.bottom_info %}
+            <li>
+              <p class="header-2 with-margin">{{ element.title }}</p>
+              <div class="description">{{ element.description }}</div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="ecommerce__project">
+    <div class="row wrapper">
+      <p class="header-3 small-text white-text">{{ site.data.e_commerce.project.title }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.e_commerce.project.info%}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 white-text">{{ item.title }}</p>
+              <p class="description white-text">{{ item.description }}</p>
+              <p class="header-2 purple-text">{{ site.data.e_commerce.project.features }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for element in item.elements %}
+                  <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="/solutions" class="button white-text">{{ site.data.healthcare_hipaa.solutions.button }}</a>
+    </div>
+  </div>
+  {% include solutions_bottom.html %}
+</section>
