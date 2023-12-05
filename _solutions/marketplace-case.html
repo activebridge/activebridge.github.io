@@ -1,0 +1,137 @@
+---
+permalink: /solutions/marketplace-case.html
+layout: default
+title: Custom marketplace development solutions
+description: Active Bridge's dedicated development teams have 5 years of experience in the development of
+             different types of marketplaces that generate real value for sellers and buyers by providing
+             them with tools for broad listing customization, efficient communication, order management,
+             and statistical dashboards.
+---
+
+<section class="container marketplace development solutions_cases">
+  <div class="marketplace__main">
+    <div class="row wrapper">
+      <h1 class="header-3 white-text">{{ site.data.marketplace.title}}</h1>
+      <p class="description with-margin white-text">{{ site.data.marketplace.description }}</p>
+      <div class="marketplace__b2b">
+        <div class="marketplace__b2b_img">
+          <img src= "/assets/images/marketplace/shopping_cart.webp" alt="card">
+        </div>
+        <div class="marketplace__b2b_text">
+          <h2 class="header-2 white-text">{{ site.data.marketplace.b2b.title }}</h2>
+          <p class="description white-text">{{ site.data.marketplace.b2b.description }}</p>
+        </div>
+      </div>
+      <p class="header-3 small-text white-text">{{ site.data.marketplace.some_features }}</p>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.marketplace.b2b.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/marketplace/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 white-text">{{ item.title }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="marketplace__b2c">
+    <div class="row wrapper">
+      <div class="marketplace__b2c_top">
+        <div class="marketplace__b2c_top_text">
+          <p class="header-2">{{ site.data.marketplace.b2c.title }}</p>
+          <p class="description">{{ site.data.marketplace.b2c.description }}</p>
+        </div>
+        <div class="marketplace__b2c_top_img">
+          <img src= "/assets/images/marketplace/payment-done.webp" alt="bill">
+        </div>
+      </div>
+      <p class="header-3 small-text white-text">{{ site.data.marketplace.some_features }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.marketplace.b2c.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/marketplace/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2 white-text">{{ item.title }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="marketplace__development">
+    <div class="row wrapper">
+      <p class="header-3 small-text">{{ site.data.marketplace.help_title }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.marketplace.help %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/marketplace/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="solutions_cases__case_study">
+    <div class="row wrapper">
+      <p class="header-3 white-text">{{ site.data.marketplace.case_study.title }}</p>
+      <h2 class="header-2 without-margin white-text">{{ site.data.marketplace.case_study.subtitle }}</h2>
+      <div class="solutions_cases__case_study_top">
+        <ul class="solutions_cases__case_study_list">
+          {% for element in site.data.marketplace.case_study.top_info %}
+            <li class="solutions_cases__case_study_list_item white-text">{{ element.item}}</li>
+          {% endfor %}
+        </ul>
+        <div class="solutions_cases__case_study_image">
+          <img src= "/assets/images/marketplace/cloud_server.webp" alt="image">
+        </div>
+      </div>
+      <div class="solutions_cases__case_study_bottom">
+        <ul class="solutions_cases__case_study_bottom_list">
+          {% for element in site.data.marketplace.case_study.bottom_info %}
+            <li>
+              <p class="header-2 with-margin white-text">{{ element.title }}</p>
+              <p class="description white-text">{{ element.description }}</p>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="marketplace__solutions">
+    <div class="row wrapper">
+      <p class="header-3 purple-text">{{ site.data.marketplace.solutions.title }}</p>
+      <p class="description">{{ site.data.marketplace.solutions.description }}</p>
+      <div class="list-with-images">
+        {% for item in site.data.marketplace.solutions.all%}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src= "/assets/images/marketplace/{{ item.icon }}.webp" alt="icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <p class="header-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
+              <p class="header-2 purple-text">{{ site.data.marketplace.solutions.functionality }}</p>
+              <ul class="list-with-images__item_elements">
+                {% for element in item.elements %}
+                  <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="/solutions" class="button">{{ site.data.healthcare_hipaa.solutions.button }}</a>
+    </div>
+  </div>
+  {% include solutions_bottom.html %}
+</section>
