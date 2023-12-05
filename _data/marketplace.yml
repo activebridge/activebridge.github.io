@@ -1,0 +1,123 @@
+title:  Custom marketplace development solutions
+description:  Active Bridge’s dedicated development teams have 5 years of experience in the development of different
+              types of marketplaces that generate real value for sellers and buyers by providing them with tools for
+              broad listing customization, efficient communication, order management, and statistical dashboards.<br><br>
+              We assist our clients in building successful, scalable, and high-quality  B2C, B2B, and C2C marketplace
+              applications that users enjoy.
+some_features: Some Features
+b2b:
+  title: B2B marketplace development
+  description: Our full-stack developers build B2B marketplaces. B2B wholesale platforms serve as a place connecting
+                wholesale suppliers with bulk buyers in different industries.
+  all:
+    - icon: b2b_1
+      title: CRM development & integrations
+    - icon: b2b_2
+      title: Detailed vendor description
+    - icon: b2b_3
+      title: Advanced filtering
+    - icon: b2b_4
+      title: Payment provider integrations
+    - icon: b2b_5
+      title: Multi-currency support
+    - icon: b2b_6
+      title: Automated refund tools
+    - icon: b2b_7
+      title: Analytical dashboards
+    - icon: b2b_8
+      title: Maps with advanced filtering
+b2c:
+  title: B2C marketplace development
+  description: We design and develop a B2C marketplace with outstanding UIs and wide functionality so that users
+                can enjoy the easiest purchasing experience.
+  all:
+    - icon: b2c_1
+      title: Authentication and authorization
+    - icon: b2c_2
+      title: Profile management (for sellers and buyers)
+    - icon: b2c_3
+      title: Secure payment gateway
+    - icon: b2c_4
+      title: Product listing
+    - icon: b2c_5
+      title: Order management
+    - icon: b2c_6
+      title: Booking system
+    - icon: b2c_7
+      title: Shopping cart
+    - icon: b2c_8
+      title: Messaging via chat
+    - icon: b2c_9
+      title: Wishlist/favorites list
+    - icon: b2c_10
+      title: Feedback and reviews
+help_title: How we can help with online marketplace app development
+help:
+  - icon: process_1
+    title: Full-cycle assistance
+    description: of B2B, B2C marketplace development, from cloud hosting and UX/UI design, through app development and
+                  QA, to technical delivery, security compliance, maintenance, and support.
+  - icon: process_2
+    title: Rapid development
+    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
+                  it into a solid, scalable, and reliable product
+  - icon: process_3
+    title: Cross-platform solutions
+    description: of custom  custom online marketplace development based on wide experience in complying with industry and
+                  market regulations
+case_study:
+  title: Case Study
+  subtitle: An online marketplace and data-center management software
+  top_info:
+    - item: "Contract type: <b>development team augmentation</b>"
+    - item: "Team size: <b>6</b>"
+    - item: "Period of collaboration: <b>2015 - ongoing</b>"
+    - item: "Client’s location: <b>New York, United States</b>"
+  bottom_info:
+    - title: "About the client:"
+      description: Upstack company acts as an intermediate between potential customers and suppliers of DC services around
+                    the United States, such as colocation, dedicated servers, cloud servers, managed hosting, IP transit,
+                    and other hosting services
+    - title: "Challenge:"
+      description:  The challenge was to build a platform that could service the data center marketplace that focuses on
+                    colocation and IP transit. This platform also had to cover other data center services such as wholesale
+                    space, dedicated servers, remote hands, internet exchanges, and more.<br><br>The vision of Upstack for
+                    the data center marketplace is for the web application to become the ultimate meeting place for providers
+                    and in-market buyers of data center services on a state scale, by processing as much data as possible
+                    and making it as easy as possible for the users to work with.
+    - title: "Technologies:"
+      description: Ruby on Rails / React / Sidekiq / Puma / Devise / PostgreSQL / Heroku
+solutions:
+  title: Solutions
+  description:  Our dedicated development team conducted a comprehensive analysis and came up with a solution that brings
+                maximum personalization to the data-center management software and online marketplace.<br><br> We’ve been
+                building an application that combines key features of classic and contest marketplaces. The platform lets data
+                center service providers and buyers get custom solutions by launching a complex search system.
+  functionality: Extended functionality
+  all:
+    - title: Scalable architecture and maintainability of the application
+      description: We built a fully operational platform providing vendors access to a large network of sellers with
+                    their own audiences. This SaaS platform accommodates growth seamlessly and efficiently. The platform
+                    is scalable and processes huge user traffic without disrupting the end-users.
+      icon: solution_1
+      elements:
+        - item: Set up continuous integration and continuous delivery to extend the functionality of the existing
+                data-center marketplace and make the platform more sustainable in the shortest time.
+        - item: Reduced the time required for testing.
+        - item: Extended existing platform functionality to boost customer growth.
+        - item: Redesigned the platform to promote brand awareness and attract more users.
+    - title: Convenient search and filters
+      description: Our dedicated team integrated a complex data-centers marketplace search that makes it possible to
+                    search using a variety of filters. The system makes the process of searching much more convenient
+                    and faster. Advanced filtering and search logic, based on multiple dynamically changed rules, perform
+                    the search for the objects of various types from the extending base of data-centers service providers.
+      icon: solution_2
+      elements:
+        - item: The search engine clarifies and analyzes a user’s requirements to identify the project goal and
+                provides a result page with selected vendors.
+        - item: Integrated Google Maps so users can easily find nearby data-center service providers.
+        - item: When a user requests a configuration about companies, he can get a response in the form of comparative
+                charts.
+        - item: The user gets to the price review page and sees all the price quotes sent to him by the selected
+                companies. A user can sort them, build charts and modalities, and export data to CSV.
+  button: See more projects
