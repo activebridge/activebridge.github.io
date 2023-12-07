@@ -1,0 +1,54 @@
+---
+permalink: /reviews
+layout: default
+title: Clients about Active Bridge
+description: Our clients say that we're a professional team with high-quality code,
+             competitive rates, and an efficient workflow
+---
+
+<section class="container reviews" id="container">
+  <div class="reviews__main-container">
+    <div class="wrapper">
+      <h1 class="header-3 white-text">{{ site.data.testimonials.title }}</h1>
+      <h2 class="header-2 white-text">{{ site.data.testimonials.subtitle }}</h2>
+      <div class="reviews__awards">
+        {% for award in site.data.reviews.awards%}
+          <a href="{{ award.link }}" target="_blank">
+            <img class="" src="/assets/images/index/{{ award.image }}.webp" alt="{{ award.alt }}">
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="reviews__testimonials-container">
+    <div class="wrapper">
+      <div class="overlay"></div>
+      <div class="accordion">
+        {% for item in site.data.testimonials.all %}
+        <div class="accordion__item">
+          <details class="accordion__item-title">
+            <summary>{{ item.company }}<span>{{ item.specialization }}</span></summary>
+          </details>
+          <div class="accordion__item-content">
+            <div class="accordion__item-customer">
+              <div class="accordion__item-photo"> <img src="{{ item.image }}" alt="photo"></div>
+              <div class="accordion__item-customer-name">
+                <p>{{ item.author }}</p>
+                <p>{{ item.post }}</p>
+              </div>
+            </div>
+            <p class="accordion__item-text">{{ item.description }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="reviews__tell-us">
+    <div class="wrapper">
+      <p class="header-5">{{ site.data.testimonials.tell-us.title }}</p>
+      <p class="description">{{ site.data.testimonials.tell-us.description }}</p>
+      <a href="/contacts" class="button white-text violet-button ">{{ site.data.testimonials.tell-us.button }}</a>
+    </div>
+  </div>
+</section>
