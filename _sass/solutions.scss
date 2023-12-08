@@ -14,10 +14,6 @@
     padding: 10vh 18vw;
   }
 
-  .timeline-item {
-    padding-bottom: 100px;
-  }
-
   &__main {
     background: linear-gradient(0deg, $white 50%, $azovstal 100%);
     padding: 177px 0 80px 0;
@@ -85,34 +81,17 @@
 
   .timeline-item {
     &:nth-child(even) {
-      .timeline__processes { padding-right: 5vh; }
+      .timeline__processes { padding-left: 7vh; }
     }
 
     &:nth-child(odd) {
-      .timeline__processes { padding-left: 5vh; }
-    }
-
-    &::before {
-      content: "";
-      width: 49%;
-    }
-
-    &:nth-child(odd) {
-      &::before {
-        left: 2vw;
-      }
-    }
-
-    &:nth-child(even) {
-      &::before {
-        right: 2vw;
-      }
+      .timeline__processes { padding-right: 7vh; }
     }
   }
 
   .timeline__processes {
     align-items: unset;
-    bottom: 0;
+    bottom: 13%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -321,7 +300,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .solutions {
     &__circle-background {
       border-radius: none;
@@ -385,24 +364,6 @@
     }
 
     .timeline-item {
-      &:nth-child(even),
-      &:nth-child(odd) {
-        &::before {
-          background-color: $buzok;
-          border: 0;
-          border-radius: 0;
-          height: 200px;
-          left: 50%;
-          top: 0;
-          width: 5px;
-        }
-
-        .timeline-item__icon {
-          margin-right: 0;
-          margin-left: 0;
-        }
-      }
-
       .timeline__processes {
         align-items: flex-start;
         flex-direction: column;
@@ -438,8 +399,7 @@
     }
 
     &__staff-augmentation {
-      .timeline-item:nth-child(even),
-      .timeline-item:nth-child(odd) {
+      .timeline-item__icon {
         &::before { background-color: $kviten; }
       }
     }
