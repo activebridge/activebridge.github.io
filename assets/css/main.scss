@@ -58,18 +58,14 @@ a:visited { color: $black; }
 ul, ol { margin-left: 0; }
 
 .top-section {
-  overflow: hidden;
-  width: 100%;
+  animation: fill 1s ease-out;
+  left: -10%;
   height: 100%;
-
-  svg {
-    animation: fill 1s ease-out;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 7%;
-    left: -9%;
-  }
+  position: absolute;
+  overflow: hidden;
+  top: 6vh;
+  width: 100%;
+  svg { width: 140vw; }
 }
 
 .white-text { color: $white !important; }
@@ -669,6 +665,15 @@ input#menu {
   text-align: center;
   text-transform: none;
 }
+
+@media (max-width: 1200px) {
+  .top-section {
+    left: -5%;
+    svg { width: 140vw; }
+  }
+}
+
+@media (max-width: 930px) { .main-svg { display: none;} }
 
 @media (max-width: 767px) {
   .title-2 {

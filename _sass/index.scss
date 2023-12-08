@@ -77,22 +77,12 @@ body {
 .index {
   &-home {
     position: relative;
+    z-index: 1;
 
     .row {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-    
-    &::after {
-      content: "";
-      position: absolute;
-      top: 7px;
-      left: -5px;
-      width: calc(100% + 3px);
-      height: 100px;
-      background-image: linear-gradient(to bottom, #333, transparent, transparent, transparent);
-      transform: rotate(2.1deg);
     }
 
     .carousel__description {
