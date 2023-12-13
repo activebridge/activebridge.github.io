@@ -8,12 +8,9 @@ document.addEventListener("DOMContentLoaded", function () {
     path.style.strokeDashoffset = pathLength;
 
     function scrollAnimation () {
-      let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop - container.offsetTop) / (container.scrollHeight - document.documentElement.clientHeight);
+      let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop - container.offsetTop + 200) / document.documentElement.clientHeight;
       let drawLength = pathLength * scrollPercentage;
-
-      if (document.documentElement.scrollTop >= container.offsetTop - 10 && pathLength >= drawLength) {
-        path.style.strokeDashoffset = pathLength - drawLength;
-      }
+      path.style.strokeDashoffset = pathLength - drawLength;
     }
 
     window.addEventListener('scroll', scrollAnimation);
