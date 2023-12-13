@@ -5,6 +5,7 @@ title: Take benefit of Rapid Application Development Services | Active Bridge
 description: At Active Bridge, we follow RAD best practices to provide clients
              with fast and reliable digital solutions keeping pace with
              technology updates.
+script: animation.js
 ---
 
 <div class="container services">
@@ -89,7 +90,7 @@ description: At Active Bridge, we follow RAD best practices to provide clients
           <div class="card">
             <div class="card__title-2 purple-heart">{{ item.title }}</div>
             <div class="card__icon">
-              <img src="assets/images/services/mobile_dev_services/{{ item.icon }}" alt="Icon">
+              <img src="/assets/images/services/mobile_dev_services/{{ item.icon }}" alt="Icon">
             </div>
             <div class="card__description">{{ item.description }}</div>
           </div>
@@ -120,34 +121,36 @@ description: At Active Bridge, we follow RAD best practices to provide clients
           </div>
         {% endfor %}
       </div>
-      <img src="assets/images/services/laptop-backpack.webp" alt="Laptop" class="services__engagement-models-img">
+      <img src="/assets/images/services/laptop-backpack.webp" alt="Laptop" class="services__engagement-models-img">
     </div>
   </div>
-
-  <div class="alabaster services__approaches wrap">
-    <div class="row">
+  <div class="alabaster services__approaches">
+    <div class="wrapper">
       <div class="header-2">{{ site.data.services.approaches.subtitle }}</div>
       <div class="header-3">{{ site.data.services.approaches.title }}</div>
-      <div class="timeline">
-        {% for item in site.data.services.approaches.all %}
-          <div class="timeline-item">
-            <div class="timeline-item__icon">
-              <img src="assets/images/services/approach/approach_{{ item.index }}.webp" alt="Approach">
+    </div>
+    <div class="wrapper timeline services-animated_cards animated-cards">
+      <svg class="desktop-svg" viewBox="0 0 578 1387" fill="none" preserveAspectRatio="xMidYMax meet">
+        <path class="services-animation-svg" d="M7.5 1L0.5 262.5C0.5 275.667 8.4 302 40 302C71.6 302 389.5 302 544.5 302C554.167 304.667 574.2 314.9 577 334.5C577 342.5 577 576.833 577 693C577 705.833 569.3 731.5 538.5 731.5C507.7 731.5 194.667 731.5 42 731.5C28.5 731.5 1.5 739.6 1.5 772C1.5 804.4 1.5 1019.5 1.5 1123C1.16667 1135 8.4 1159.2 40 1160C71.6 1160.8 390.167 1162.33 545.5 1163C556.333 1165.5 577.9 1175.4 577.5 1195C577.1 1214.6 577.333 1331.17 577.5 1387" stroke="#A49FEB" stroke-width="3"/>
+      </svg>
+      {% for item in site.data.services.approaches.all %}
+        <div class="timeline-item">
+          <div class="timeline-item__icon">
+            <img src="/assets/images/services/approach/approach_{{ item.index }}.webp" alt="Approach">
+          </div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__content-title inria">
+              {{ item.title}}
             </div>
-            <div class="timeline-item__content">
-              <div class="timeline-item__content-title inria">
-                {{ item.title}}
-              </div>
-              <div class="timeline-item__content-description">
-                {{ item.description}}
-              </div>
+            <div class="timeline-item__content-description">
+              {{ item.description}}
             </div>
           </div>
-        {% endfor %}
-      </div>
-      <a id="services-free-consultation" class="button", target="_blank" href="/contacts">
-        {{ site.data.services.approaches.button }}
-      </a>
+        </div>
+      {% endfor %}
     </div>
+    <a id="services-free-consultation" class="button", target="_blank" href="/contacts">
+      {{ site.data.services.approaches.button }}
+    </a>
   </div>
 </div>

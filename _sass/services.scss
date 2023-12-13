@@ -181,6 +181,7 @@
   }
 
   &__approaches {
+    padding: 120px 0;
     .header-2 {
       max-width: 100%;
       margin-top: 2.5em;
@@ -191,6 +192,7 @@
 
     .button { background: transparent; }
   }
+  .timeline-item { padding-bottom: 80px; }
 }
 
 @media (max-width: 768px) {
@@ -293,6 +295,7 @@
     &__engagement-models-img { bottom: -1em; }
 
     &__approaches {
+      padding: 65px 0 45px 0;
       .header-2 { font-size: 1em; }
     }
   }
