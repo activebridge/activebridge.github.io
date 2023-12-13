@@ -7,10 +7,11 @@ document.addEventListener("DOMContentLoaded", function () {
     path.style.strokeDasharray = pathLength + " " + pathLength;
     path.style.strokeDashoffset = pathLength;
 
-    function scrollAnimation (event) {
-      if (document.documentElement.scrollTop >= container.offsetTop) {
-        let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop - container.offsetTop) / (container.scrollHeight - document.documentElement.clientHeight);
-        let drawLength = pathLength * scrollPercentage;
+    function scrollAnimation () {
+      let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop - container.offsetTop) / (container.scrollHeight - document.documentElement.clientHeight);
+      let drawLength = pathLength * scrollPercentage;
+
+      if (document.documentElement.scrollTop >= container.offsetTop - 10 && pathLength >= drawLength) {
         path.style.strokeDashoffset = pathLength - drawLength;
       }
     }
@@ -20,8 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (document.querySelector('.solutions')) {
     initSnakeAnimation(".svg-path", ".solutions-first-animated-cards")
-    initSnakeAnimation(".second-svg-path", ".solutions-second-animated-cards") }
-  else{
+    initSnakeAnimation(".second-svg-path", ".solutions-second-animated-cards")
+  } else {
     initSnakeAnimation(".services-animation-svg", ".services-animated_cards")
     }
 });

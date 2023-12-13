@@ -1,5 +1,3 @@
-.mobile-svg { display: none; }
-
 .animated-cards {
   position: relative;
 
@@ -21,7 +19,7 @@
 
 .services-animated_cards {
   svg {
-    bottom: 9%;
+    bottom: 13%;
     width: 60%;
   }
 }
@@ -42,7 +40,6 @@
   .services-animated_cards {
     svg {
       width: 55%;
-      bottom: 7%;
     }
   }
 }
@@ -50,8 +47,7 @@
 @media (max-width: 930px) {
   .services-animated_cards {
     svg {
-      bottom: 11%;
-      width: 50%;
+      bottom: 160px;
     }
   }
 }
