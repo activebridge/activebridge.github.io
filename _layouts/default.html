@@ -8,12 +8,7 @@
 
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="stylesheet" href="/assets/main.css">
-    {% if page.script %}
-      <script src="/assets/js/{{ page.script }}"></script>
-    {% else%}
-      <script src="/assets/js/application.js"></script>
-    {% endif %}
-
+    <script src="/assets/js/{{ page.script | default: 'application.js' }}"></script>
 
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_css_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
