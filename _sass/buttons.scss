@@ -1,33 +1,95 @@
-.cto-button {
-  color: $white;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 50px;
-  box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.15), 0px 4px 15px 0px rgba(0, 0, 0, 0.15) inset;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 150%;
-  letter-spacing: 10px;
-  padding: 22px;
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top: 3vh;
   text-transform: uppercase;
-  outline: none;
-  max-width: 500px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  border-radius: 40px;
+  background: transparent;
+  box-shadow: $main-shadow;
   transition: all .3s ease;
+  border: 1px solid rgba(black, .1);
+  position: relative;
+  z-index: 1;
 
-  &:link { text-decoration: none; }
-  &:hover {
-    box-shadow: $violet-hover-shadow;
+  &::after {
+    content: "";
+    display: inline-block;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset -1px 4px 13px -5px white, inset -1px -5px 5px #9480a7, 2px 1px 12px 0px $main-violet;
     background: linear-gradient($white, $white) padding-box,
                 linear-gradient(to right, $main-violet, $main-blue) border-box;
     border: 1px solid rgba(black, .1);
-    color: $black_sea;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    z-index: -1;
+  }
+
+  &:hover {
+    &::after { opacity: 1; }
+  }
+
+  &:visited { color: black; }
+
+  &:active {
+    box-shadow: $active-shadow;
+  }
+}
+
+.violet-button {
+  border-color: transparent;
+  box-shadow: $violet-shadow;
+}
+
+.light-purple-button { box-shadow: $light-purple-shadow }
+
+.button.white-text {
+  &:hover { color: $main-violet !important; }
+}
+
+.faq__bottom-info {
+  .button.cto-button {
+    color: $white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 10px;
+    padding: 22px;
+    max-width: 500px;
+    &::after { border-radius: 50px; }
+    &:hover { color: $black_sea; }
+  }
+}
+
+.button.contacts__submit-btn {
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .button {
+    margin-top: 4vh;
+    font-size: .75em;
+    letter-spacing: .2em;
   }
 }
 
 @media (max-width: 767px) {
-  .cto-button {
-    font-size: 10px;
-    letter-spacing: 5px;
-    max-width: 290px;
+  .faq__bottom-info {
+    .button.cto-button {
+      font-size: 10px;
+      letter-spacing: 5px;
+      max-width: 290px;
+    }
   }
 }
