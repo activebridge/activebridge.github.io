@@ -8,7 +8,7 @@ description: At Active Bridge, we follow RAD best practices to provide clients
 script: animation.js
 ---
 
-<div class="container services">
+<div class="container services" data-script='["animation"]'>
   <div class="info-container services__main wrap">
     <div class="row">
       <div class="header-3 white-text">{{ site.data.services.services }}</div>
@@ -43,7 +43,7 @@ script: animation.js
           {% endfor %}
         </div>
       </div>
-      <a id="more-web-services" class="button white-text violet-button", target="_blank" href="/services/web-development">
+      <a id="more-web-services" class="button white-text violet-button" href="/services/web-development" data-link="transition">
         {{ site.data.services.learn_more }}
       </a>
     </div>
@@ -75,7 +75,7 @@ script: animation.js
           {% endfor %}
         </div>
       </div>
-      <a id="more-ror-services" class="button white-text violet-button", target="_blank" href="/services/ruby-on-rails-development">
+      <a id="more-ror-services" class="button white-text violet-button" href="/services/ruby-on-rails-development" data-link="transition">
         {{ site.data.services.learn_more }}
       </a>
     </div>
@@ -96,7 +96,7 @@ script: animation.js
           </div>
         {% endfor %}
       </div>
-      <a id="more-dev-services" class="button white-text violet-button", target="_blank" href="/services/mobile-app-development">
+      <a id="more-dev-services" class="button white-text violet-button" href="/services/mobile-app-development" data-link="transition">
         {{ site.data.services.learn_more }}
       </a>
     </div>
@@ -115,7 +115,7 @@ script: animation.js
               <div class="card__title-2 white-text">{{ item.title }}</div>
               <div class="card__description white-text">{{ item.description }}</div>
             </div>
-            <a id="engagement_model_{{ item.index }}" class="button white-text violet-button", target="_blank" href="#">
+            <a id="engagement_model_{{ item.index }}" class="button white-text violet-button" href="#" data-link="transition">
               {{ site.data.services.learn_more }}
             </a>
           </div>
@@ -149,7 +149,7 @@ script: animation.js
         </div>
       {% endfor %}
     </div>
-    <a id="services-free-consultation" class="button", target="_blank" href="/contacts">
+    <a id="services-free-consultation" class="button" href="/contacts" data-link="transition">
       {{ site.data.services.approaches.button }}
     </a>
   </div>

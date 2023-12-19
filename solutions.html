@@ -8,7 +8,7 @@ description: Fueled by a deep understanding of the business context, our tech
 script: animation.js
 ---
 
-<div class="solutions">
+<div class="solutions" data-script='["animation"]'>
   <section class="solutions__main">
     <div class="wrapper" >
       <h1 class="header-3">{{ site.data.solutions.title }}</h1>
@@ -84,7 +84,7 @@ script: animation.js
                 <h3 class="title-3">{{ service.title }}</h3>
                 <div class="carousel__description">{{ service.description }}</div>
                 <div class="carousel__button">
-                  <a class="button" href="/">{{site.data.solutions.industries.more_button}}</a>
+                  <a class="button" href="/" data-link="transition">{{site.data.solutions.industries.more_button}}</a>
                 </div>
               </label>
             {% endfor %}
@@ -150,7 +150,7 @@ script: animation.js
           </div>
         {% endfor %}
       </div>
-      <a class="button" href="/services.html">{{ site.data.solutions.staff_augmentation.more_button }}</a>
+      <a class="button" href="/services.html" data-link="transition">{{ site.data.solutions.staff_augmentation.more_button }}</a>
     </div>
   </section>
 </div>
