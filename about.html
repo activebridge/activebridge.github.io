@@ -47,7 +47,7 @@ description: We are a contract development agency specializing in providing
       </div>
       <div class="chart-container">
         {% include expertise_chart.html %}
-        <a class="button transition-link" href="/expertise" id="about-chart-container-button">{{ site.data.about.company_vision.button }}</a>
+        <a class="button" href="/expertise" id="about-chart-container-button" data-link="transition">{{ site.data.about.company_vision.button }}</a>
       </div>
     </div>
   </div>
@@ -57,7 +57,7 @@ description: We are a contract development agency specializing in providing
       <div class="about__description">{{ site.data.about.crew.description }}</div>
       <div class="header-3 white-text">{{ site.data.about.crew.title }}</div>
       {% include crew.html %}
-      <a class="button about__crew-button transition-link" id="about__crew-button" href="/about/team">
+      <a class="button about__crew-button" id="about__crew-button" href="/about/team" data-link="transition">
         {{ site.data.about.crew.button }}
       </a>
     </div>
@@ -138,7 +138,7 @@ description: We are a contract development agency specializing in providing
           {% endfor %}
         </div>
       </div>
-      <a id="about-read-testimonials" class="button transition-link", target="_blank" href="/reviews">
+      <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
         {{ site.data.testimonials.button }}
       </a>
     </div>
@@ -152,7 +152,7 @@ description: We are a contract development agency specializing in providing
           {{ site.data.about.culture.description }}
         </div>
       </div>
-      <a id="about-culture-button" class="button about__culture-button transition-link", target="_blank" href="/contacts">
+      <a id="about-culture-button" class="button about__culture-button" href="/contacts" data-link="transition">
         {{ site.data.about.culture.button }}
       </a>
     </div>

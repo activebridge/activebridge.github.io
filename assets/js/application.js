@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", initTransitionView);
 
 function initTransitionView() {
   if (screen.width > 700) {
-    const navbar_links = document.querySelectorAll(".transition-link")
+    const navbar_links = document.querySelectorAll('[data-link="transition"]')
     navbar_links.forEach((link) => {
       link.addEventListener('click', async (e) => {
         const url = e.target.href
