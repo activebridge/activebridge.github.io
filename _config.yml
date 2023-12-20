@@ -35,7 +35,20 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
+
 include: ['_solutions']
+collections:
+  engineering_posts:
+    output: true
+  business_growth_posts:
+    output: true
+  inside_ab_posts:
+    output: true
+  pm_team_management_posts:
+    output: true
+
+permalink: pretty
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

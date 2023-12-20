@@ -1,0 +1,25 @@
+title: Blog
+description: We launched this blog as a repository of helpful content shared by our experts and partners.
+             A collection of articles on Ruby on Rails and add-on technologies, Agile management methodology,
+             UX/UI, and web development best practices.
+articles:
+  title: A collection of articles
+  lines:
+      - description: Ruby on Rails and add-on technologies,
+      - description: Agile management methodology,
+      - description: UX/UI,
+      - description: Web development best practices.
+collections:
+  engineering_posts: Engineering
+  pm_team_management_posts: Pm & Team Management
+  business_growth_posts: Business & Growth
+  inside_ab_posts: Inside Ab
+navigation:
+  - title: Engineering
+    url: engineering_posts
+  - title: Pm & Team Management
+    url: pm_team_management_posts
+  - title: Business & Growth
+    url: business_growth_posts
+  - title: Inside Ab
+    url: inside_ab_posts
