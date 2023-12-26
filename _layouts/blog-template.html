@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="blog">
+  <div class="blog__main-block blog-main">
+    <div class="wrapper">
+      <h1 class="header-3">{{ site.data.blog.title }}</h2>
+      <h2 class="header-2">{{ site.data.blog.description }}</p>
+        <ul class="blog-main__articles">
+          <p class="header-3 small-text">{{ site.data.blog.articles.title }}</p>
+          {% for element in site.data.blog.articles.lines %}
+            <li>{{ element.description }}</li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="wrapper">
+      <div class="blog-main__navigation">
+        <p class="header-3">Categories:</p>
+        {% for link in site.data.blog.navigation %}
+          {% if link.url == page.collection-name %}
+            {% assign active-class = 'active' %}
+          {% else %}
+            {% assign active-class = '' %}
+          {% endif %}
+          <a class="{{active-class}}" href="/blog/{{link.url}}">{{link.title}}</a>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="wrapper">
+      {{ content }}
+    </div>
+</section>

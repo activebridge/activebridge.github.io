@@ -1,0 +1,215 @@
+.blog {
+  &__main-block {
+    background: linear-gradient(180deg, #CD9FEB 0%, #FFF 75.52%);
+    box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+    padding: 117px 0;
+
+    .header-3 { margin-bottom: 30px; }
+    .header-2 {
+      font-size: 1.3em;
+      line-height: 1.5;
+      max-width: 80%;
+    }
+  }
+}
+
+.blog-main {
+  &__articles {
+    background: no-repeat url('/assets/images/blog/yellow_sticker.webp');
+    background-position: top 50% right 0;
+    background-size: 30%;
+    padding: 50px 0;
+    text-align: left;
+
+    .header-3.small-text {
+      font-family: 'Cera Regular', serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: normal;
+    }
+
+    li {
+      font-family: 'Cera Regular', serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 150%
+    }
+  }
+
+  &__navigation {
+    align-items: center;
+    border-top: 1px solid $kviten;
+    border-bottom: 1px solid $kviten;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin-bottom: 70px;
+
+    a {
+      border: 1px solid black;
+      border-radius: 20px;
+      color: black;
+      font-size: 14px;
+      padding: 5px 20px;
+      outline: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.4s;
+
+      &:hover {
+        border: 1px solid $kviten;
+        color: $kviten;
+      }
+    }
+
+    a.active {
+      border: 1px solid $kviten;
+      color: $kviten;
+    }
+
+    .header-3 {
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+  grid-column-gap: 31px;
+  row-gap: 31px;
+
+  a {
+    color: black;
+    outline: none;
+    text-decoration: none;
+  }
+
+  &__post {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+
+    &:hover {
+      box-shadow: inset -1px 4px 13px -5px white, inset -1px -5px 5px #9480a7, 2px 1px 12px 0px $main-violet;
+      transition: .4s;
+      scale: 1.1;
+    }
+  }
+}
+
+.post {
+  &__link-block {
+    height: 30%;
+    padding-top: 10px;
+  }
+
+  &__title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  &__info-block {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: end;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
+  }
+
+  &__info-block-description {
+    color: $white;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    text-align: left;
+    z-index: 2;
+
+    &:last-child { padding-bottom: 5px; }
+    span { font-weight: 400; }
+  }
+
+  &__info-block-category {
+    bottom: 5%;
+    color: $kviten;
+    font-style: italic;
+    font-size: 12px;
+    position: absolute;
+    right: 5%;
+  }
+}
+
+.pagination {
+  margin-top: 50px;
+  &__page {
+    color: black;
+    font-size: 16px;
+    margin: 0 10px;
+  }
+
+  &__current-page {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .blog {
+    &__main-block {
+      background: linear-gradient(180deg, #CD9FEB 0%, #FFF 75.52%);
+      box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+      padding: 117px 0;
+
+      .header-2 {
+        font-size: 0.8em;
+        max-width: 90%;
+      }
+    }
+  }
+
+  .blog-main {
+    &__articles {
+      li { font-size: 0.8em; }
+
+      .header-3.small-text {
+        font-size: 1.2em;
+      }
+    }
+
+    &__navigation {
+      border-bottom: none;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      a,.header-3 {
+        font-size: 12px;
+        margin: 0 10px 10px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-main {
+    &__articles {
+      background: none;
+    }
+  }
+}
