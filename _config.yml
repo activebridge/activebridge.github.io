@@ -36,7 +36,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
+gems:
+  - jekyll-paginate-v2
+
 include: ['_solutions']
+
 collections:
   engineering_posts:
     output: true
@@ -48,6 +52,13 @@ collections:
     output: true
 
 permalink: pretty
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

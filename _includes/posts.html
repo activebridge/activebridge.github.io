@@ -1,53 +1,47 @@
 <div class="posts">
-  {% for post in site[{{collection-name}}] %}
+  {% for post in paginator.posts %}
     <a class="posts__post" href="{{ post.url }}">
       <div class="post__link-block">
         <p class="post__title">{{ post.title }}</p>
       </div>
       <div class="post__info-block">
-        <img src="/assets/images/blog/posts/{{collection-name}}/{{post.background}}.webp" alt="">
+        {% if post.background %}
+          <img src="/assets/images/blog/posts/{{post.collection}}/{{post.background}}.webp" alt="">
+        {% endif %}
         <div class="post__info-block-description">
           <p class="">Autor: <span>{{ post.autor }}</span></p>
           <p class="">Published: <span>{{ post.date | date: "%B %e, %Y" }}</span></p>
           <p class="">Time to read: <span>{{ post.time-to-read }}</span></p>
         </div>
-        <p class="post__info-block-category">{{site.data.blog.collections[collection-name]}}</p>
+        <p class="post__info-block-category">{{site.data.blog.collections[post.collection]}}</p>
       </div>
     </a>
   {% endfor %}
 </div>
 
-    <!-- {% for post in paginator.posts%}
-      <article class="post">
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-          <h1>{{ post.title }}</h1>
-          <div>
-            <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-          </div>
-        </a>
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a class="pagination__page" href="{{ paginator.previous_page_path | relative_url }}">&lt;</a>
+  {% else %}
+    <span class="pagination__page">&lt;</span>
+  {% endif %}
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      </article>
-    {% endfor %}
+  {% for page-num in (1..paginator.total_pages) %}
+    {% if page-num == paginator.page %}
+      <span class="pagination__current-page">{{ page-num }}</span>
+    {% elsif page-num == 1 %}
+      <a class="pagination__page" href="{{ site.paginate_path | prepend: page.collection-name | prepend: '/blog/' | replace: '/page:num', '' }}">{{ page-num }}</a>
+    {% else %}
+      <a class="pagination__page" href="{{ site.paginate_path | prepend: page.collection-name | prepend: '/blog/' | replace: '//', '/' | replace: ':num', page-num }}">{{ page-num }}</a>
+    {% endif %}
+  {% endfor %}
 
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="previous">
-          Previous
-        </a>
-      {% else %}
-        <span class="previous">Previous</span>
-      {% endif %}
-      <span class="page_number ">
-        Page: {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-      {% else %}
-        <span class="next ">Next</span>
-      {% endif %}
-    </div>
-  </div> -->
+  {% if paginator.next_page %}
+    <a class="pagination__page" href="{{ paginator.next_page_path | relative_url }}">&gt;</a>
+  {% else %}
+    <span class="pagination__page">&gt;</span>
+  {% endif %}
+</div>
+{% endif %}
+
