@@ -14,6 +14,8 @@
 }
 
 .blog-main {
+  &__header-description.active { view-transition-name: blog-header; }
+
   &__articles {
     background: no-repeat url('/assets/images/blog/yellow_sticker.webp');
     background-position: top 50% right 0;

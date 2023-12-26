@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<section class="blog">
+<section class="blog" data-script='["blog"]'>
   <div class="blog__main-block blog-main">
-    <div class="wrapper">
+    <div class="wrapper blog-main__header-description">
       <h1 class="header-3">{{ site.data.blog.title }}</h2>
       <h2 class="header-2">{{ site.data.blog.description }}</p>
         <ul class="blog-main__articles">
@@ -14,7 +14,7 @@ layout: default
           {% endfor %}
         </ul>
     </div>
-    <div class="wrapper">
+    <div class="wrapper blog-content">
       <div class="blog-main__navigation">
         <p class="header-3">Categories:</p>
         {% for link in site.data.blog.navigation %}
@@ -23,11 +23,10 @@ layout: default
           {% else %}
             {% assign active-class = '' %}
           {% endif %}
-          <a class="{{active-class}}" href="/blog/{{link.url}}">{{link.title}}</a>
+          <a class="{{active-class}}" href="/blog/{{link.url}}" data-link="blog-link">{{link.title}}</a>
         {% endfor %}
       </div>
-    </div>
-    <div class="wrapper">
       {{ content }}
     </div>
+  </div>
 </section>
