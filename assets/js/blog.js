@@ -32,9 +32,9 @@ async function switchToCollection(url, makeScroll) {
     mainContent.innerHTML = ''
     mainContent.appendChild(newContent.querySelector('.blog-content'));
 
-    if(makeScroll) { window.scrollTo(0, mainContent.offsetTop -100); }
+    if (makeScroll) { window.scrollTo(0, mainContent.offsetTop -100); }
 
-    window.history.replaceState({backButtonPresse : true}, '', url);
+    window.history.replaceState({ backButtonPresse: true }, '', url);
 
     initBlogPageListener();
   } catch (error) {
