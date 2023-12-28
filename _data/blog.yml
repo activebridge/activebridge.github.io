@@ -10,10 +10,10 @@ articles:
       - description: UX/UI,
       - description: Web development best practices.
 collections:
-  engineering_posts: Engineering
-  pm_team_management_posts: Pm & Team Management
-  business_growth_posts: Business & Growth
-  inside_ab_posts: Inside Ab
+  engineering: Engineering
+  pm_team_management: Pm & Team Management
+  business_growth: Business & Growth
+  inside_ab: Inside Ab
 navigation:
   - title: Engineering
     url: engineering_posts
