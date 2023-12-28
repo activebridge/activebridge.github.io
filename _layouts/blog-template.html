@@ -17,13 +17,10 @@ layout: default
     <div class="wrapper blog-content">
       <div class="blog-main__navigation">
         <p class="header-3">Categories:</p>
-        {% for link in site.data.blog.navigation %}
-          {% if link.url == page.collection-name %}
-            {% assign active-class = 'active' %}
-          {% else %}
-            {% assign active-class = '' %}
-          {% endif %}
-          <a class="{{active-class}}" href="/blog/{{link.url}}" data-link="blog-link">{{link.title}}</a>
+
+        {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+        {% for tag in all_tags %}
+          <a data-tag="{{ tag }}" data-link="blog-link">{{ tag }}</a>
         {% endfor %}
       </div>
       {{ content }}

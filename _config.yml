@@ -35,30 +35,12 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
-
-gems:
-  - jekyll-paginate-v2
+  - jekyll-paginate
 
 include: ['_solutions']
 
-collections:
-  engineering_posts:
-    output: true
-  business_growth_posts:
-    output: true
-  inside_ab_posts:
-    output: true
-  pm_team_management_posts:
-    output: true
-
-permalink: pretty
-pagination:
-  enabled: true
-  per_page: 9
-  permalink: '/page:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate_path: "/blog/page:num/"
+paginate: 9
 
 # Exclude from processing.
 # The following items will not be processed, by default.

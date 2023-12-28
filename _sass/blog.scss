@@ -14,7 +14,6 @@
 }
 
 .blog-main {
-  &__header-description.active { view-transition-name: blog-header; }
 
   &__articles {
     background: no-repeat url('/assets/images/blog/yellow_sticker.webp');
@@ -67,6 +66,14 @@
     a.active {
       border: 1px solid $kviten;
       color: $kviten;
+      position: relative;
+
+      &::before {
+        content: 'X';
+        display: block;
+        position: absolute;
+        right: 3%;
+      }
     }
 
     .header-3 {
@@ -88,6 +95,7 @@
     outline: none;
     text-decoration: none;
   }
+  &__post.hide { display: none; }
 
   &__post {
     border: 1px solid black;
