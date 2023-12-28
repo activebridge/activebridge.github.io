@@ -99,7 +99,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: $white;
-    // box-shadow: box-shadow: 0 0px 30px 2px $dusty-gray;;
+    view-transition-name: none;
     z-index: 3;
 
     .header-navbar {
