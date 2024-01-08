@@ -1,11 +1,13 @@
 <div class="about_us_info__items">
   <div class="about_us_info__container">
-    {% for item in site.data.index.about_us_items %}
+    <div class="about_us_info__container-items">
+      {% for item in site.data.index.about_us_items %}
       <div class="about_us_info__item white-text">
         <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
         {{ item.text }}
       </div>
     {% endfor %}
+    </div>
   </div>
 
   <div class="about_us_info__photo desktop-only">

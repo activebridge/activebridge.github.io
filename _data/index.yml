@@ -63,17 +63,17 @@ view_all_solutions: View all solutions
 solutions:
 - logo: healthcare.webp
   title: Healthcare & HIPPA HealthTech
-  description: Active Bridge provides end-to-end custom <div class="blue-text">web development solutions</div> for non-financial
+  description: Active Bridge provides end-to-end custom <span class="blue-text">web development solutions</span> for non-financial
                businesses, fintech organizations, and banks.
   index: 1
 - logo: bank.webp
   title: Finance & Banking
-  description: 'Active Bridge provides end-to-end <div class="blue-text">custom web development solutions</div> for non-financial
+  description: 'Active Bridge provides end-to-end <span class="blue-text">custom web development solutions</span> for non-financial
                 businesses, fintech organizations, and banks.'
   index: 2
 - logo: insurtech.webp
   title: InsurTech
-  description: Active Bridge’s industry-specific <div class="blue-text">Ruby on Rails development solutions</div> are powered
+  description: Active Bridge’s industry-specific <span class="blue-text">Ruby on Rails development solutions</span> are powered
                by expertise gained during 10 years of providing programming services for insurance companies.
   index: 3
 awards:
