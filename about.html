@@ -6,27 +6,32 @@ title: IT Staffing Firm, Remote Development Teams | Active Bridge
 description: We are a contract development agency specializing in providing
               on-demand full-stack engineers to help our clients and augment
               their in-house teams.
+script: carousel.js
 ---
 
-<div class="container about" id="container">
-  <div class="info-container wrap">
-    <div class="row">
-      <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
-      <h1 class="about__header">{{ site.data.about.header }}</h1>
-      <div class="about__description">{{ site.data.about.description }}</div>
-      <div class="about_us_info">
-        <div class="about_us_info__items">
-          <div class="about_us_info__container">
-            {% for item in site.data.index.about_us_items %}
-              <div class="about_us_info__item white-text">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-                {{ item.text }}
-              </div>
-            {% endfor %}
-          </div>
-          <div class="about_us_info__photo desktop-only">
-            <img src="/assets/images/about/about-bg-2.webp" alt="About us">
-          </div>
+<div class="container about" id="container" data-script='["carousel"]'>
+  <div class="info-container">
+    <div class="wrap">
+      <div class="row">
+        <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
+        <h1 class="about__header">{{ site.data.about.header }}</h1>
+        <div class="about__description">{{ site.data.about.description }}</div>
+      </div>
+    </div>
+    <div class="about_us_info">
+      <div class="about_us_info__items">
+        <div class="about_us_info__container">
+            <div class="about_us_info__container-items">
+              {% for item in site.data.index.about_us_items %}
+                <div class="about_us_info__item white-text">
+                  <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
+                  {{ item.text }}
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+        <div class="about_us_info__photo desktop-only">
+          <img src="/assets/images/about/about-bg-2.webp" alt="About us">
         </div>
       </div>
     </div>
@@ -106,41 +111,38 @@ description: We are a contract development agency specializing in providing
     </div>
   </div>
 
-  <div class="about__testimonials wrap">
-    <div class="row flex-columns-center">
+  <div class="about__testimonials">
+    <div class="wrapper">
       <div class="header-5 about__testimonials-title">
         {{ site.data.testimonials.help_startups }}
       </div>
       <div class="description">
         {{ site.data.testimonials.testimonials_description }}
       </div>
-      <div class="carousel">
-        <input type="radio" name="about-testimonials" id="item-1-2" checked>
-        <input type="radio" name="about-testimonials" id="item-2-2">
-        <input type="radio" name="about-testimonials" id="item-3-2">
-        <input type="radio" name="about-testimonials" id="item-4-2">
-        <input type="radio" name="about-testimonials" id="item-5-2">
-        <input type="radio" name="about-testimonials" id="item-6-2">
-        <input type="radio" name="about-testimonials" id="item-7-2">
-        <div class="carousel__list testimonials-carousel">
-          {% for item in site.data.testimonials.all %}
-            <label class="carousel__item" for="item-{{ item.index }}-2" id="card-{{ item.index }}-2">
-              <div class="carousel__image">
+    </div>
+      <div class="carousel-scroll" >
+        <div id="page-carousel" class="carousel-scroll__scroller">
+        {% for item in site.data.testimonials.all %}
+          <div class="carousel-scroll__item" data-scroll="item">
+            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+              <div class="animate-visibility__image">
                 <img src="{{ item.image }}" alt="Logo">
               </div>
-              <div class="carousel__logo {{ item.class }}">
+              <div class="animate-visibility__image">
                 <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
               </div>
-              <div class="carousel__description">
-                {{ item.description }}
-              </div>
-            </label>
-          {% endfor %}
+              <p class="animate-visibility__description">{{ item.description}}</p>
+            </div>
+          </div>
+        {% endfor %}
         </div>
       </div>
-      <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
-        {{ site.data.testimonials.button }}
-      </a>
+      <div class="wrapper">
+        <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
+          {{ site.data.testimonials.button }}
+        </a>
+      </div>
     </div>
   </div>
 
