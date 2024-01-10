@@ -165,6 +165,7 @@
 
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
+    padding: 150px 0 80px 0;
 
     &-title { margin-bottom: 5vh; }
 
@@ -334,6 +335,7 @@
     }
 
     &__testimonials {
+      padding: 60px 0;
       .description {
         text-align: justify;
         text-align-last: center;
