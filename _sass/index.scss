@@ -232,7 +232,7 @@ body {
   }
 
   &-about-us {
-    padding: 10vh 15vw;
+    padding: 10vh 0;
 
     &__description {
       margin: 4.5vh 0;
@@ -247,9 +247,13 @@ body {
   }
 
   &-solutions {
-    padding: 10vh 10vw;
-    background-image: url(asset_path('/assets/images/index/solutions-photo.jpg'));
-    background-size: cover;
+    padding: 10vh 0;
+    background: center/cover no-repeat url('/assets/images/index/solutions-photo.webp');
+
+    .animate-visibility__title.title-3 {
+      font-family: 'Cera Regular';
+      text-transform: uppercase;
+    }
 
     .blue-text {
       display: inline;
@@ -298,6 +302,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  .header-2 { max-width: 100%; }
 
   .index-solutions__items {
     margin: 7vh auto 0 auto;
@@ -481,32 +486,13 @@ body {
     }
 
     &-solutions {
-      padding: 1vh 5% 0 5%;
-
+      padding: 1vh 0 0 0;
       .header-2 { margin-top: 0; }
 
       .description {
         text-align: justify;
         text-align-last: center;
       }
-
-      .carousel {
-        &__list { height: 40vh; }
-
-        &__item { height: 40vh; }
-
-        &__description { margin: 1vh 3vh 3vh; }
-
-        .solutions__logo {
-          height: 10vh;
-
-          img {
-            height: 8vh;
-            width: 8vh;
-          }
-        }
-      }
-
       .button { margin-bottom: 0; }
     }
 
@@ -551,16 +537,12 @@ body {
     &-about-us__description,
     .description { font-size: 1.2em; }
 
-    &-testimonials__header { padding: 0 17%; }
-
     &-home {
       .carousel__description {
         margin-right: 3vh;
         margin-left: 3vh;
         -webkit-line-clamp: 7;
       }
-
-      .description { padding: 0 15%; }
     }
 
     &-technologies {
@@ -598,23 +580,6 @@ body {
       }
     }
 
-    &-solutions {
-      .carousel {
-        padding-bottom: 6vh;
-
-        .solutions__logo {
-          width: 8vh;
-          height: 9vh;
-
-          img { height: 7vh; }
-        }
-
-        &__description {
-          margin-right: 3em;
-          margin-left: 3em;
-        }
-      }
-    }
   }
 
   .info-container.index-home { padding-top: 8vh !important; }

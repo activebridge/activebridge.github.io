@@ -215,7 +215,12 @@
 .about_us_info {
   &__container {
     width: 50%;
-    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  &__container-items {
+    margin-right: 10%;
   }
 
   &__item {
@@ -233,8 +238,7 @@
   }
 
   &__photo {
-    width: 85%;
-    margin-right: -20vw;
+    width: 50%;
 
     img {
       width: 100%;

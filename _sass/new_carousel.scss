@@ -1,21 +1,19 @@
 .carousel-scroll{
   margin: 0 auto;
-  max-width: 930px;
-  padding-top: 100px;
+  max-width: 910px;
   position: relative;
 
   &__scroller {
+    background-color: inherit;
     display: grid;
     grid-auto-flow: column;
-    gap: 1rem;
-    height: 500px;
+    height: 550px;
     list-style-type: none;
     padding: 0;
     place-items: center;
-    overflow: auto;
+    overflow: scroll;
     margin: 0 auto;
-    scroll-snap-type: x mandatory;
-    width: 600px;
+    scroll-snap-type: x  mandatory;
 
     &::-webkit-scrollbar {
       display: none;
@@ -37,55 +35,63 @@
     background: $white;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20), -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
-    height: 435px;
+    background: #FFF;
+    box-shadow: -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
+    cursor: pointer;
+    height: 341px;
+    margin: 0 5px;
     padding: 20px;
     position: relative;
     overflow: hidden;
-    scale: 0.8;
-    width: 353px;
+    user-select: none;
+    width: 277px;
+    z-index: 1;
+  }
+
+  &__animate-visibility.with-opacity {
+    opacity: 0;
   }
 
   @keyframes scalify {
     50% {
-      scale: 1;
+      opacity: 1;
+      scale: 1.4;
+      z-index: 3;
     }
   }
 }
 
 .animate-visibility {
   overflow-y: hidden;
+  &__title.title-3 { font-size: 18px; }
 
   &__description {
-    display: inline-block;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 21px;
-    overflow: hidden;
-    max-height: 185px;
+    display: block;
+    font-size: 11px;
+    line-height: 15px;
+    max-height: 120px;
+    overflow-y: scroll;
     text-align: justify;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &__image {
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     img {
-      width: 120px;
+      width: 100px;
     }
   }
 }
 
 @media (max-width: 767px ) {
   .carousel-scroll {
-    &__scroller {
-      height: 290px;
-      width: 400px;
-    }
-
     &__animate-visibility {
       padding: 20px 15px 0 15px;
       width: 250px;
@@ -94,8 +100,10 @@
   }
 
   .animate-visibility {
+    &__title.title-3 { font-size: 12px; }
     &__description {
-      font-size: 10px;
+      display: block;
+      font-size: 9px;
       overflow-y: scroll;
       max-height: 100px;
     }
@@ -110,9 +118,7 @@
 
 @media (max-width: 470px ) {
   .carousel-scroll {
-    &__scroller {
-      width: 350px;
-    }
+    padding: 0 5px;
 
     &__animate-visibility {
       width: 220px;
