@@ -5,10 +5,10 @@ title: Take benefit of Rapid Application Development Services | Active Bridge
 description: At Active Bridge, we follow RAD best practices to provide clients
              with fast and reliable digital solutions keeping pace with
              technology updates.
-script: animation.js
+scripts: [animation, carousel]
 ---
 
-<div class="container services" data-script='["animation"]'>
+<div class="container services" data-script='["animation", "carousel"]'>
   <div class="info-container services__main wrap">
     <div class="row">
       <div class="header-3 white-text">{{ site.data.services.services }}</div>
@@ -20,61 +20,61 @@ script: animation.js
     </div>
   </div>
 
-  <div class="alabaster services__web-dev wrap">
+  <div class="alabaster services__web-dev">
     <div class="overlay"></div>
-    <div class="row flex-columns-center">
+    <div class="wrap">
       <h2 class="header-3">{{ site.data.services.web_services.title }}</h2>
       <div class="description">{{ site.data.services.web_services.description }}</div>
-      <div class="carousel">
-        <input type="radio" name="service" id="solution-1-2" checked>
-        <input type="radio" name="service" id="solution-2-2">
-        <input type="radio" name="service" id="solution-3-2">
-        <div class="carousel__list services">
-          {% for service in site.data.services.web_services.all %}
-            <label class="carousel__item" for="solution-{{ service.index }}-2" id="card-{{ service.index }}-solution-2">
-              <div class="carousel__title services__title">{{ service.title }}</div>
-              <div class="carousel__logo services__logo">
-                <img src="/assets/images/services/web_dev/{{ service.icon }}" alt="Icon">
+    </div>
+    <div class="carousel-background">
+      <div class="carousel-scroll" >
+        <div id="page-carousel" class="carousel-scroll__scroller">
+        {% for item in site.data.services.web_services.all %}
+          <div class="carousel-scroll__item" data-scroll="item">
+            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+              <div class="animate-visibility__image">
+                <img src="/assets/images/services/web_dev/{{ item.icon }}" alt="Logo">
               </div>
-              <div class="carousel__description solutions__description">
-                {{ service.description }}
-              </div>
-            </label>
-          {% endfor %}
+              <p class="animate-visibility__description text-center">{{ item.description }}</p>
+            </div>
+          </div>
+        {% endfor %}
         </div>
       </div>
+    </div>
+    <div class="wrapper">
       <a id="more-web-services" class="button white-text violet-button" href="/services/web-development" data-link="transition">
         {{ site.data.services.learn_more }}
       </a>
     </div>
   </div>
 
-  <div class="services__custom-ror-dev wrap">
-    <div class="row flex-columns-center">
+  <div class="services__custom-ror-dev">
+    <div class="wrap">
       <h2 class="header-3 white-text">
         {{ site.data.services.custom_ror_dev_services.title }}
       </h2>
       <div class="description white-text">
         {{ site.data.services.custom_ror_dev_services.description }}
       </div>
-      <div class="carousel">
-        <input type="radio" name="ror-dev" id="solution-1-3" checked>
-        <input type="radio" name="ror-dev" id="solution-2-3">
-        <input type="radio" name="ror-dev" id="solution-3-3">
-        <div class="carousel__list services">
-          {% for element in site.data.services.custom_ror_dev_services.all %}
-            <label class="carousel__item" for="solution-{{ element.index }}-3" id="card-{{ element.index }}-solution-3">
-              <div class="carousel__title services__title">{{ element.title }}</div>
-              <div class="carousel__logo services__logo">
-                <img src="/assets/images/services/custom_ror_dev/{{ element.icon }}" alt="Icon">
-              </div>
-              <div class="carousel__description solutions__description">
-                {{ element.description }}
-              </div>
-            </label>
-          {% endfor %}
+    </div>
+    <div class="carousel-scroll" >
+      <div id="page-carousel" class="carousel-scroll__scroller">
+      {% for item in site.data.services.custom_ror_dev_services.all %}
+        <div class="carousel-scroll__item" data-scroll="item">
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+            <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+            <div class="animate-visibility__image">
+              <img src="/assets/images/services/custom_ror_dev/{{ item.icon }}" alt="Logo">
+            </div>
+            <p class="animate-visibility__description text-center">{{ item.description }}</p>
+          </div>
         </div>
+      {% endfor %}
       </div>
+    </div>
+    <div class="wrapper">
       <a id="more-ror-services" class="button white-text violet-button" href="/services/ruby-on-rails-development" data-link="transition">
         {{ site.data.services.learn_more }}
       </a>

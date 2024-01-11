@@ -5,10 +5,10 @@ title: Succeed with our RoR Development Solutions | Active Bridge
 description: Fueled by a deep understanding of the business context, our tech
              experts produce reliable, scalable, highly efficient web app and
              cloud solutions. Check our cases
-script: animation.js
+scripts: [animation, carousel]
 ---
 
-<div class="solutions" data-script='["animation"]'>
+<div class="solutions" data-script='["animation", "carousel"]'>
   <section class="solutions__main">
     <div class="wrapper" >
       <h1 class="header-3">{{ site.data.solutions.title }}</h1>
@@ -48,48 +48,43 @@ script: animation.js
   <section class="solutions__industries container">
     <div class="wrapper row">
       <h3 class="header-3">{{site.data.solutions.industries.title}}</h3>
-      <div class="carousel industries">
-        <input type="radio" name="solutions-industry" id="item-1-2" checked>
-        <input type="radio" name="solutions-industry" id="item-2-2">
-        <input type="radio" name="solutions-industry" id="item-3-2">
-        <input type="radio" name="solutions-industry" id="item-4-2">
-        <input type="radio" name="solutions-industry" id="item-5-2">
-        <input type="radio" name="solutions-industry" id="item-6-2">
-        <input type="radio" name="solutions-industry" id="item-7-2">
-        <div class="carousel__list applications">
-          {% for item in site.data.solutions.industries.all %}
-            <label class="carousel__item" for="item-{{ item.index }}-2" id="card-{{ item.index }}-2">
-              <h3 class="title-3">{{ item.title }}</h3>
-              <div class="carousel__image">
-                <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
-              </div>
-              <div class="carousel__description">{{ item.description }}</div>
-            </label>
-          {% endfor %}
+    </div>
+    <div class="carousel-scroll" >
+      <div id="page-carousel" class="carousel-scroll__scroller">
+      {% for item in site.data.solutions.industries.all %}
+        <div class="carousel-scroll__item" data-scroll="item">
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+            <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+            <div class="animate-visibility__image">
+              <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
+            </div>
+            <p class="animate-visibility__description text-justify">{{ item.description }}</p>
+          </div>
         </div>
+      {% endfor %}
       </div>
     </div>
     <div class="solutions__circle-background">
-      <div class="wrapper row">
+      <div class="wrapper">
         <h3 class="title-3">{{site.data.solutions.industries.subtitle_1}}</h3>
         <p class="base-content ">{{site.data.solutions.industries.description}}</p>
-        <div class="carousel">
-          <input type="radio" name="service" id="solution-1-2" checked>
-          <input type="radio" name="service" id="solution-2-2">
-          <input type="radio" name="service" id="solution-3-2">
-          <input type="radio" name="service" id="solution-4-2">
-          <div class="carousel__list applications">
-            {% for service in site.data.solutions.industries.applications %}
-              <label class="carousel__item" for="solution-{{ service.index }}-2" id="card-{{ service.index }}-solution-2">
-                <h3 class="title-3">{{ service.title }}</h3>
-                <div class="carousel__description">{{ service.description }}</div>
-                <div class="carousel__button">
-                  <a class="button" href="/" data-link="transition">{{site.data.solutions.industries.more_button}}</a>
-                </div>
-              </label>
-            {% endfor %}
+      </div>
+      <div class="carousel-scroll" >
+        <div id="page-carousel" class="carousel-scroll__scroller">
+        {% for item in site.data.solutions.industries.applications %}
+          <div class="carousel-scroll__item" data-scroll="item">
+            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+              <p class="animate-visibility__description text-justify">{{ item.description }}</p>
+              <div class="animate-visibility__button">
+                <a class="button" href="{{ item.link }}" data-link="transition">{{site.data.solutions.industries.more_button}}</a>
+              </div>
+            </div>
           </div>
+        {% endfor %}
         </div>
+      </div>
+      <div class="wrapper ">
         <p class="title-3 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
         <h2 class="title-2">{{site.data.solutions.project_development.title}}</h2>
         <p class="title-3">{{site.data.solutions.project_development.description}}</p>

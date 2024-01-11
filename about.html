@@ -6,7 +6,7 @@ title: IT Staffing Firm, Remote Development Teams | Active Bridge
 description: We are a contract development agency specializing in providing
               on-demand full-stack engineers to help our clients and augment
               their in-house teams.
-script: carousel.js
+scripts: [carousel]
 ---
 
 <div class="container about" id="container" data-script='["carousel"]'>
@@ -120,29 +120,11 @@ script: carousel.js
         {{ site.data.testimonials.testimonials_description }}
       </div>
     </div>
-      <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
-        {% for item in site.data.testimonials.all %}
-          <div class="carousel-scroll__item" data-scroll="item">
-            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
-              <div class="animate-visibility__image">
-                <img src="{{ item.image }}" alt="Logo">
-              </div>
-              <div class="animate-visibility__image">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-              </div>
-              <p class="animate-visibility__description">{{ item.description}}</p>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-      </div>
-      <div class="wrapper">
-        <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
-          {{ site.data.testimonials.button }}
-        </a>
-      </div>
+    {% include testimonials_carousel.html %}
+    <div class="wrapper">
+      <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
+        {{ site.data.testimonials.button }}
+      </a>
     </div>
   </div>
 

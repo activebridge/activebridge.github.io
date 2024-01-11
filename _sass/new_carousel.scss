@@ -1,6 +1,6 @@
 .carousel-scroll{
   margin: 0 auto;
-  max-width: 910px;
+  max-width: 950px;
   position: relative;
 
   &__scroller {
@@ -38,7 +38,7 @@
     box-shadow: -2px -2px 12px 2px rgba(0, 0, 0, 0.25) inset;
     cursor: pointer;
     height: 341px;
-    margin: 0 5px;
+    margin: 0 15px;
     padding: 20px;
     position: relative;
     overflow: hidden;
@@ -48,7 +48,7 @@
   }
 
   &__animate-visibility.with-opacity {
-    opacity: 0;
+    opacity: 0.5;
   }
 
   @keyframes scalify {
@@ -63,6 +63,9 @@
 .animate-visibility {
   overflow-y: hidden;
   &__title.title-3 { font-size: 18px; }
+  .text-center { text-align: center; }
+  .text-justify { text-align: justify; }
+  .italic { font-style: italic; }
 
   &__description {
     display: block;
@@ -85,6 +88,35 @@
 
     img {
       width: 100px;
+    }
+  }
+
+  &__list {
+    font-size: 12px;
+    line-height: 1.5em;
+    list-style: inside;
+    max-height: 110px;
+    margin-top: 10px;
+    padding-left: 10px;
+    overflow-y: scroll;
+    text-align: left;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__button {
+    .button {
+      background: $main-gradient;
+      color: $white;
+      font-size: 11px;
+      padding: 10px 30px;
+
+      &:hover {
+        color: $black_sea;
+        background: $white;
+      }
     }
   }
 }
@@ -111,6 +143,10 @@
       img {
         width: 80px;
       }
+    }
+
+    &__list {
+      font-size: 10px;
     }
   }
 }
