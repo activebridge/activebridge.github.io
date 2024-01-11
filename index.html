@@ -49,24 +49,7 @@ script: carousel.js
           {{ site.data.testimonials.testimonials_description }}
         </div>
       </div>
-      <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
-        {% for item in site.data.testimonials.all %}
-          <div class="carousel-scroll__item" data-scroll="item">
-            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
-              <div class="animate-visibility__image">
-                <img src="{{ item.image }}" alt="Logo">
-              </div>
-              <div class="animate-visibility__image">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-              </div>
-              <p class="animate-visibility__description">{{ item.description}}</p>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-      </div>
+      {% include testimonials_carousel.html %}
     <a id="index-read-testimonials" class="button white-text violet-button" href="/reviews" data-link="transition">
       {{ site.data.testimonials.button }}
     </a>
@@ -163,7 +146,7 @@ script: carousel.js
       <div id="page-carousel" class="carousel-scroll__scroller">
       {% for item in site.data.index.solutions %}
         <div class="carousel-scroll__item" data-scroll="item">
-          <div class="carousel-scroll__animate-visibility animate-visibility">
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
             <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
             <div class="animate-visibility__image">
               <img src="/assets/images/index/solutions/{{ item.logo }}" alt="Logo">
