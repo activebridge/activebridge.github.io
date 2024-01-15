@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<section class="post-navigation">
+  <div class="wrapper">
+    <div class="blog-main__navigation">
+      <p class="header-3">Categories:</p>
+
+      {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
+      {% for tag in all_tags %}
+        {% if tag == page.tag %}
+          {% assign active-class = 'active' %}
+        {% else %}
+          {% assign active-class = '' %}
+        {% endif %}
+        <a class="{{ active-class }}" style="pointer-events:none">{{ site.data.blog.collections[tag] }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="post-breadcrumb">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><span aria-current="page">{{ page.title }}</span></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+<section class='post-content'>
+  <div class="post-content__left-block"></div>
+
+  <section class="post-content__main wrapper">{{ content }}</section>
+
+  <div class="post-content__right-block">
+    <div class="post-content__description post-description">
+      <p class="post-description__title">Autor:</p>
+      <p class="post-description__autor"><span>{{ page.autor }},</span><span>{{ page.autor-position }}</span></p>
+      <p class="post-description__title">Published: <span>{{ page.date | date: "%B %e, %Y" }}</span></p>
+      <p class="post-description__title">Time to read: <span>{{ page.time-to-read }}</span></p>
+    </div>
+    <div class="post-content__sticky-block">
+      <div class="post-content__navigation">
+        <p>Contents:</p>
+      </div>
+      <div class="post-content__share">
+        <p>Share:</p>
+        <div class="post-content__share-links">
+          <a href="{{ site.url }}{{ page.url }}" data-link="clone">
+            <img src="/assets/images/blog/share/clone.svg" alt="{{ clone.svg }}">
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
+            <img src="/assets/images/blog/share/facebook.svg" alt="{{ facebook.svg }}">
+          </a>
+          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" target="_blank">
+            <img src="/assets/images/blog/share/linkedin.svg" alt="{{ linkedin.svg }}">
+          </a>
+          <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank">
+            <img src="/assets/images/blog/share/twitter.svg" alt="{{ twitter.svg }}">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

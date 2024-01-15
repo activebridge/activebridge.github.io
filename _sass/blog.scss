@@ -14,7 +14,6 @@
 }
 
 .blog-main {
-
   &__articles {
     background: no-repeat url('/assets/images/blog/yellow_sticker.webp');
     background-position: top 50% right 0;
@@ -177,6 +176,193 @@
     font-size: 20px;
     font-weight: 600;
     margin: 0 10px;
+  }
+}
+
+.post-content {
+  background: linear-gradient(180deg, #CD9FEB 0%, #FFF 83.85%);
+  box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+  display: grid;
+  grid-template-columns: 1.2fr 3fr 1.2fr;
+  justify-content: center;
+  margin: 0;
+
+  .wrapper {
+    padding: 100px 30px;
+    text-align: left;
+  }
+  li { margin-left: 40px;}
+
+  h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: #2E2B33;
+    font-family: Inria Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  &__right-block {
+    border-left: 1px solid $purple-heart;
+    position: relative;
+    padding: 100px 0;
+  }
+
+  &__description {
+    border-bottom: 1px solid $purple-heart;
+    padding: 0 20px 50px 20px;
+  }
+
+  &__navigation {
+    border-bottom: 1px solid $purple-heart;
+    padding: 20px 0 50px 0;
+
+    p {
+      font-family: Inria Serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 20px;
+      padding-left: 20px;
+    }
+
+    a {
+      color: black;
+      display: inline-block;
+      font-size: 14px;
+      padding: 5px 0 5px 20px;
+      width: 95%;
+    }
+
+    a.active {
+      border-left: 2px solid $purple-heart;
+      border-top: 1px solid $purple-heart;
+      border-bottom: 1px solid $purple-heart;
+      color: $purple-heart;
+      font-weight: 600;
+    }
+  }
+
+  &__sticky-block {
+    position: sticky;
+    right: 0;
+    top: 90px;
+  }
+
+  &__share {
+    p {
+      font-family: Inria Serif;
+      font-size: 22px;
+      font-style: italic;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+      padding-left: 20px;
+
+      img {
+        filter: invert(17%) sepia(6%) saturate(8%) hue-rotate(9deg) brightness(101%) contrast(84%);
+        height: 25px;
+        width: 25px;
+
+        &:hover {
+          filter: invert(13%) sepia(94%) saturate(5163%) hue-rotate(263deg) brightness(73%) contrast(91%);
+        }
+      }
+    }
+  }
+
+  &__share-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.post-description {
+  &__title {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+    span {
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+
+  &__autor {
+    span {
+      &:first-child {
+        text-decoration: underline;
+      }
+
+      &:last-child {
+        display: block;
+        font-style: italic;
+        font-size: 12px;
+        margin-bottom: 5px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.post-breadcrumb {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    font-size: 14px;
+    font-style: italic;
+
+    a {
+      color: black;
+      text-decoration: none;
+      text-decoration: underline;
+    }
+  }
+
+  li:not(:last-child)::after {
+    display: inline-block;
+    margin: 0 .25rem;
+    content: ">";
+  }
+
+  li:last-child { color: $purple-heart}
+}
+
+.post-navigation {
+  margin-bottom: 20px;
+  padding-top: 65px;
+
+  .blog-main__navigation {
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 }
 
