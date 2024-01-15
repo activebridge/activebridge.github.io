@@ -31,17 +31,18 @@ layout: default
 <section class='post-content'>
   <div class="post-content__left-block"></div>
 
-  <section class="post-content__main wrapper">{{ content }}</section>
+  <section class="post-content__main wrapper">
+    <h1 class="header-3">{{ page.title }}</h1>
+    <div class="post-content__mobile">{% include post_info.html %}</div>
+
+    {{ content }}
+
+  </section>
 
   <div class="post-content__right-block">
-    <div class="post-content__description post-description">
-      <p class="post-description__title">Autor:</p>
-      <p class="post-description__autor"><span>{{ page.autor }},</span><span>{{ page.autor-position }}</span></p>
-      <p class="post-description__title">Published: <span>{{ page.date | date: "%B %e, %Y" }}</span></p>
-      <p class="post-description__title">Time to read: <span>{{ page.time-to-read }}</span></p>
-    </div>
+    <div class="post-content__desktop">{% include post_info.html %}</div>
     <div class="post-content__sticky-block">
-      <div class="post-content__navigation">
+      <div class="post-content__navigation post-content__desktop">
         <p>Contents:</p>
       </div>
       <div class="post-content__share">
