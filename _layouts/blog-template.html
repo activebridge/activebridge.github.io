@@ -20,7 +20,7 @@ layout: default
 
         {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
         {% for tag in all_tags %}
-          <a data-tag="{{ tag }}" data-link="blog-link">{{ tag }}</a>
+          <a data-tag="{{ tag }}" data-link="blog-link">{{ site.data.blog.collections[tag] }}</a>
         {% endfor %}
       </div>
       {{ content }}
