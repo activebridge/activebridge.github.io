@@ -6,7 +6,7 @@ autor-position: marketing director
 title: How Product and Sprint Backlogs Drive Working Functionality Early On
 date: "2023-01-10"
 time-to-read: 4 min
-tag: pm_team_management
+category: pm_team_management
 background: product-and-sprint-backlogs-cover
 ---
 

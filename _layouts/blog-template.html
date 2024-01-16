@@ -18,9 +18,14 @@ layout: default
       <div class="blog-main__navigation">
         <p class="header-3">Categories:</p>
 
-        {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
-        {% for tag in all_tags %}
-          <a data-tag="{{ tag }}" data-link="blog-link">{{ site.data.blog.collections[tag] }}</a>
+        {% for nav in site.data.blog.navigation %}
+          {% if nav.category == page.category %}
+              {% assign active-class = 'active' %}
+          {% else %}
+            {% assign active-class = '' %}
+          {% endif %}
+
+          <a class="{{active-class}}" data-link="blog-link" href="{{ nav.url }}">{{ nav.title }}</a>
         {% endfor %}
       </div>
       {{ content }}

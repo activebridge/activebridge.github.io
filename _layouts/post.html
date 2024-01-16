@@ -7,14 +7,14 @@ layout: default
     <div class="blog-main__navigation">
       <p class="header-3">Categories:</p>
 
-      {% assign all_tags = site.posts | map: 'tags' | join: ',' | split: ',' | uniq %}
-      {% for tag in all_tags %}
-        {% if tag == page.tag %}
+      {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq %}
+      {% for category in all_categories %}
+        {% if category == page.category %}
           {% assign active-class = 'active' %}
         {% else %}
           {% assign active-class = '' %}
         {% endif %}
-        <a class="{{ active-class }}" style="pointer-events:none">{{ site.data.blog.collections[tag] }}</a>
+        <a class="{{ active-class }}" style="pointer-events:none">{{ site.data.blog.categories[category] }}</a>
       {% endfor %}
     </div>
 
@@ -22,6 +22,7 @@ layout: default
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/blog">Blog</a></li>
+        <li><a href="/blog/{{page.category}}_posts">{{ site.data.blog.categories[page.category]}}</a></li>
         <li><span aria-current="page">{{ page.title }}</span></li>
       </ul>
     </nav>

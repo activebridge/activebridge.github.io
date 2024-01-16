@@ -9,17 +9,24 @@ articles:
       - description: Agile management methodology,
       - description: UX/UI,
       - description: Web development best practices.
-collections:
+categories:
   engineering: Engineering
   pm_team_management: Pm & Team Management
   business_growth: Business & Growth
   inside_ab: Inside Ab
 navigation:
+  - title: All
+    url: /blog
+    category: all
   - title: Engineering
-    url: engineering_posts
+    url: /blog/engineering_posts
+    category: engineering
   - title: Pm & Team Management
-    url: pm_team_management_posts
+    url: /blog/pm_team_management_posts
+    category: pm_team_management
   - title: Business & Growth
-    url: business_growth_posts
+    url: /blog/business_growth_posts
+    category: business_growth
   - title: Inside Ab
-    url: inside_ab_posts
+    url: /blog/inside_ab_posts
+    category: inside_ab
