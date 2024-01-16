@@ -1,0 +1,22 @@
+<div class="posts">
+  {% assign posts = site.posts | where: 'category', include.category %}
+
+ {% for post in posts%}
+   <a class="posts__post" href="{{ post.url }}">
+     <div class="post__link-block">
+       <p class="post__title">{{ post.title }}</p>
+     </div>
+     <div class="post__info-block">
+       {% if post.background %}
+         <img src="/assets/images/blog/posts/{{post.category}}/{{post.background}}.webp" alt="">
+       {% endif %}
+       <div class="post__info-block-description">
+         <p class="">Autor: <span>{{ post.autor }}</span></p>
+         <p class="">Published: <span>{{ post.date | date: "%B %e, %Y" }}</span></p>
+         <p class="">Time to read: <span>{{ post.time-to-read }}</span></p>
+       </div>
+       <p class="post__info-block-category">{{site.data.blog.categories[post.category]}}</p>
+     </div>
+   </a>
+ {% endfor %}
+</div>

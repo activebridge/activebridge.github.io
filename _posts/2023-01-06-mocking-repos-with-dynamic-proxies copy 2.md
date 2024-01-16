@@ -4,7 +4,7 @@ title: "Test inside_ab_post"
 date: "2023-01-10"
 autor: Admin
 time-to-read: 4 min
-tag: "inside_ab"
+category: "inside_ab"
 ---
 
 ## Test inside_ab_posts"
