@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="post-navigation">
+<section class="post-navigation" style="view-transition-name: post-navigation-block">
   <div class="wrapper">
     <div class="blog-main__navigation">
       <p class="header-3">Categories:</p>
@@ -20,16 +20,18 @@ layout: default
 
     <nav class="post-breadcrumb">
       <ul>
-        <li><a href="/" data-link="transition">Home</a></li>
-        <li><a href="/blog" data-link="transition">Blog</a></li>
-        <li><a href="/blog/{{page.category}}_posts" data-link="transition">{{ site.data.blog.categories[page.category]}}</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/blog/{{page.category}}_posts">{{ site.data.blog.categories[page.category]}}</a></li>
         <li><span aria-current="page">{{ page.title }}</span></li>
       </ul>
     </nav>
   </div>
 </section>
 
-<section class='post-content'>
+{% assign name = page.title | downcase | split: ' ' %}
+
+<section class='post-content' style="--name: {{ name }}">
   <div class="post-content__left-block"></div>
 
   <section class="post-content__main wrapper">
@@ -40,7 +42,7 @@ layout: default
 
   </section>
 
-  <div class="post-content__right-block">
+  <div class="post-content__right-block" style="view-transition-name: post-rigth-block">
     <div class="post-content__desktop">{% include post_info.html %}</div>
     <div class="post-content__sticky-block">
       <div class="post-content__navigation post-content__desktop">
