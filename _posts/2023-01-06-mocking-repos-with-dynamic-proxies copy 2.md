@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Test inside_ab_post"
+title: "Test inside ab post"
 date: "2023-01-10"
 autor: Admin
 time-to-read: 4 min
