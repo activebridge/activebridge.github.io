@@ -1,8 +1,9 @@
 <div class="posts">
   {% assign posts = site.posts | where: 'category', include.category %}
 
- {% for post in posts%}
-   <a class="posts__post" href="{{ post.url }}">
+ {% for post in posts %}
+   {% assign name = post.title | downcase | split: ' ' %}
+   <a class="posts__post" href="{{ post.url }}" style="--name: {{ name }}">
      <div class="post__link-block">
        <p class="post__title">{{ post.title }}</p>
      </div>

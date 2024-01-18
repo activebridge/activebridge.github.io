@@ -9,7 +9,8 @@ category: all
 ---
 <div class="posts">
   {% for post in paginator.posts %}
-    <a class="posts__post" href="{{ post.url }}">
+    {% assign name = post.title | downcase | split: ' ' %}
+    <a class="posts__post" href="{{ post.url }}" style="--name: {{ name }}">
       <div class="post__link-block">
         <p class="post__title">{{ post.title }}</p>
       </div>
