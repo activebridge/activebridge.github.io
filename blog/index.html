@@ -14,10 +14,7 @@ category: all
       <div class="post__link-block">
         <p class="post__title">{{ post.title }}</p>
       </div>
-      <div class="post__info-block">
-        {% if post.background %}
-          <img src="/assets/images/blog/posts/{{post.category}}/{{post.background}}.webp" alt="">
-        {% endif %}
+      <div class="post__info-block" style="--image: url('/assets/images/blog/posts/{{post.category}}/{{post.background}}.webp') ">
         <div class="post__info-block-description">
           <p class="">Autor: <span>{{ post.autor }}</span></p>
           <p class="">Published: <span>{{ post.date | date: "%B %e, %Y" }}</span></p>
