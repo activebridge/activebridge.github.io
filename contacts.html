@@ -8,11 +8,13 @@ description: Got an amazing project idea? Contact us and get a tech consultation
 
 <div class="contacts">
   <div class="wrapper">
-    <h2 class="title-2">{{ site.data.contacts.title }}</h2>
-    <h3 class="title-3">{{ site.data.contacts.sub_title }}</h3>
-    <p class="base-content contacts__description">
-      {{ site.data.contacts.description }}
-    </p>
+    <div style="view-transition-name: contacts;">
+      <h2 class="title-2">{{ site.data.contacts.title }}</h2>
+      <h3 class="title-3">{{ site.data.contacts.sub_title }}</h3>
+      <p class="base-content contacts__description">
+        {{ site.data.contacts.description }}
+      </p>
+    </div>
     <form class="contacts__form" action="mailto:katatsu12@gmail.com" method="get" enctype="text/plain">
       <div class="contacts__form-group">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>

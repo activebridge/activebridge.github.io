@@ -1,5 +1,5 @@
 ---
-permalink: /solutions.html
+permalink: /solutions
 layout: default
 title: Succeed with our RoR Development Solutions | Active Bridge
 description: Fueled by a deep understanding of the business context, our tech
@@ -10,10 +10,12 @@ scripts: [animation, carousel]
 
 <div class="solutions" data-script='["animation", "carousel"]'>
   <section class="solutions__main">
-    <div class="wrapper" >
-      <h1 class="header-3">{{ site.data.solutions.title }}</h1>
-      <h2 class="header-2">{{ site.data.solutions.subtitle }}</h2>
-      <div class="description">{{ site.data.solutions.description }}</div>
+    <div class="wrapper">
+      <div style="view-transition-name: solutions;">
+        <h1 class="header-3">{{ site.data.solutions.title }}</h1>
+        <h2 class="header-2">{{ site.data.solutions.subtitle }}</h2>
+        <div class="description">{{ site.data.solutions.description }}</div>
+      </div>
       <div class="solutions__about-us about-us">
         <div class="about-us__info-wrapper">
           {% for icon in site.data.solutions.main.all %}
@@ -77,7 +79,7 @@ scripts: [animation, carousel]
               <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
               <p class="animate-visibility__description text-justify">{{ item.description }}</p>
               <div class="animate-visibility__button">
-                <a class="button" href="{{ item.link }}" data-link="transition">{{site.data.solutions.industries.more_button}}</a>
+                <a class="button" href="{{ item.link }}">{{site.data.solutions.industries.more_button}}</a>
               </div>
             </div>
           </div>
@@ -145,7 +147,7 @@ scripts: [animation, carousel]
           </div>
         {% endfor %}
       </div>
-      <a class="button" href="/services.html" data-link="transition">{{ site.data.solutions.staff_augmentation.more_button }}</a>
+      <a class="button" href="/services" data-link="transition">{{ site.data.solutions.staff_augmentation.more_button }}</a>
     </div>
   </section>
 </div>
