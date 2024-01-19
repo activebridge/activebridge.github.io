@@ -3,13 +3,8 @@
   mix-blend-mode: normal;
 }
 
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation: none;
-}
-
 ::view-transition-group(*) {
-  animation-duration: .3s;
+  animation-duration: .5s;
 }
 
 @keyframes fade-in {
@@ -26,9 +21,8 @@
 
 @keyframes slide-from-bottom {
   from {
-    transform: translateY(-50px);
+    transform: translateY(-150px);
   }
-
 }
 
 ::view-transition-old(root) {
@@ -49,18 +43,6 @@
 .post-content {
   $name: var(--name);
   view-transition-name: $name;
-}
-
-@keyframes itemsLinkIn {
-  from {
-    opacity: 0;
-    transform: translateY(200px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 @keyframes appearFromTop {

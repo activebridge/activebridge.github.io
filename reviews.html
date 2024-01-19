@@ -7,10 +7,12 @@ description: Our clients say that we're a professional team with high-quality co
 ---
 
 <section class="container reviews" id="container">
-  <div class="reviews__main-container">
+  <div class="reviews__main-container" >
     <div class="wrapper">
-      <h1 class="header-3 white-text">{{ site.data.testimonials.title }}</h1>
-      <h2 class="header-2 white-text">{{ site.data.testimonials.subtitle }}</h2>
+      <div style="view-transition-name: reviews;">
+        <h1 class="header-3 white-text">{{ site.data.testimonials.title }}</h1>
+        <h2 class="header-2 white-text">{{ site.data.testimonials.subtitle }}</h2>
+      </div>
       <div class="reviews__awards">
         {% for award in site.data.reviews.awards%}
           <a href="{{ award.link }}" target="_blank">

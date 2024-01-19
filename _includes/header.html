@@ -18,21 +18,21 @@
     {% for link in site.data.navbar.links %}
       <li class="header-navbar__item">
         {% if link.items %}
-          <a href="{{ link.link }}" class="header-navbar__link"> {{ link.page }} </a>
+          <a href="{{ link.link }}" class="header-navbar__link" data-link="nav-link"> {{ link.page }} </a>
           <ul class="header-navbar__subitems">
             {% for subitem in link.items %}
               <li>
-                <a href="{{ subitem.link }}" class="header-navbar__sub-link"> {{ subitem.section }} </a>
+                <a href="{{ subitem.link }}" class="header-navbar__sub-link" data-link="nav-link"> {{ subitem.section }} </a>
               </li>
             {% endfor %}
           </ul>
         {% else %}
-          <a href="{{ link.link }}" class="header-navbar__link"> {{ link.page }} </a>
+          <a href="{{ link.link }}" class="header-navbar__link" data-link="nav-link"> {{ link.page }} </a>
         {% endif %}
       </li>
     {% endfor %}
 
-    <a href="/contacts" class="header-navbar__link header-navbar__link-contact desktop-only">contact us</a>
+    <a href="/contacts" class="header-navbar__link header-navbar__link-contact desktop-only" data-link="nav-link">contact us</a>
 
     <div class="mobile-only">
       <a href="/contacts" class="header-navbar__link header-navbar__link-contact">contact us</a>
