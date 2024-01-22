@@ -4,6 +4,7 @@ layout: default
 title: Contact us to Get Free Project Consultation | Active Bridge
 description: Got an amazing project idea? Contact us and get a tech consultation
              from an experienced full-stack solution specialist
+scripts: [contacts-form]
 ---
 
 <div class="contacts">
@@ -15,7 +16,8 @@ description: Got an amazing project idea? Contact us and get a tech consultation
         {{ site.data.contacts.description }}
       </p>
     </div>
-    <form class="contacts__form" action="mailto:katatsu12@gmail.com" method="get" enctype="text/plain">
+    <form class="contacts__form" id="contacts-form">
+
       <div class="contacts__form-group">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
         <select class="contacts__field contacts__field--select" name="subject" id="subject" required="true">
