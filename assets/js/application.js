@@ -7,32 +7,13 @@ function initTransitionView() {
     const transition_links = document.querySelectorAll('[data-link="transition"]')
 
     transition_links.forEach((link) => {
-      const name = link.href.split('/').filter(word => word !== '').pop()
-      link.style.setProperty("view-transition-name", name)
-    });
-
-    navbar_links.forEach((link) => {
-      link.addEventListener('click', async (e) => {
+      link.addEventListener('click', (e) => {
         e.preventDefault();
+        const name = e.target.href.split('/').filter(word => word !== '').pop()
+        link.style.setProperty("view-transition-name", name)
 
-        await performTransition(e, transition_links);
+        setTimeout(function() { window.location.href = e.target.href; });
       });
     });
-
-    async function performTransition(e, transition_links) {
-
-      function transitionPromise(links) {
-        return new Promise(resolve => {
-          links.forEach((link) => {
-            link.style.setProperty("view-transition-name", "")
-          });
-          setTimeout(resolve, 100);
-        });
-      }
-
-      await transitionPromise(transition_links);
-
-      window.location.href = e.target.href;
-    }
   }
 }
