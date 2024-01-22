@@ -35,15 +35,6 @@
     300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-from-bottom;
 }
 
-.posts__post {
-  $name: var(--name);
-  view-transition-name: $name;
-}
-
-.post-content {
-  $name: var(--name);
-  view-transition-name: $name;
-}
 
 @keyframes appearFromTop {
   from {
