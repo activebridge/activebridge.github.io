@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let linkName = document.createTextNode(header.innerHTML);
     const link = document.createElement('a');
     link.appendChild(linkName);
+    header.id = `_${header.id}`;
     link.href = '#' + header.id;
     navbar.appendChild(link)
   })
