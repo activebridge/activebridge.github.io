@@ -2,7 +2,7 @@
   {% assign posts = site.posts | where: 'category', include.category %}
 
  {% for post in posts %}
-   {% assign name = post.title | downcase | split: ' ' %}
+   {% assign name = post.post-id %}
    <a class="posts__post" href="{{ post.url }}" style="view-transition-name: {{ name }}">
      <div class="post__link-block">
        <p class="post__title">{{ post.title }}</p>
