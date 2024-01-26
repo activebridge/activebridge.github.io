@@ -1,0 +1,39 @@
+<div class="wrapper">
+  <div class="prev-next-posts-mob-title"><p>Read Also</p></div>
+  <div class="posts prev-next-posts">
+    {% assign current_index = -1 %}
+    {% assign posts_in_category = site.posts | where: 'categories', page.category %}
+    {% assign number_of_posts = posts_in_category | size %}
+
+    {% for post in posts_in_category %}
+      {% if post.url == page.url %}
+        {% assign current_index = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if current_index != -1 and number_of_posts > 1 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+      {% assign prev_post = posts_in_category[prev_index] %}
+      {% assign next_post = posts_in_category[next_index] %}
+
+      {% if number_of_posts == next_index%}
+        {% assign next_post = posts_in_category[0] %}
+      {% endif %}
+
+      {% if prev_post %}
+        {% assign name = '' %}
+        {% assign post = prev_post %}
+        {% include post_card.html%}
+      {% endif %}
+
+      <div class="prev-next-posts__read-also"><p>Read Also</p></div>
+
+      {% if next_post %}
+        {% assign name = '' %}
+        {% assign post = next_post %}
+        {% include post_card.html%}
+      {% endif %}
+    {% endif %}
+  </div>
+</div>

@@ -10,19 +10,8 @@ category: all
 <div class="posts">
   {% for post in paginator.posts %}
     {% assign name = post.post-id %}
-    <a class="posts__post" href="{{ post.url }}" style="view-transition-name: {{ name }}">
-      <div class="post__link-block">
-        <p class="post__title">{{ post.title }}</p>
-      </div>
-      <div class="post__info-block" style="--image: url('/assets/images/blog/posts/{{post.category}}/{{post.background}}.webp') ">
-        <div class="post__info-block-description">
-          <p class="">Autor: <span>{{ post.autor }}</span></p>
-          <p class="">Published: <span>{{ post.date | date: "%B %e, %Y" }}</span></p>
-          <p class="">Time to read: <span>{{ post.time-to-read }}</span></p>
-        </div>
-        <p class="post__info-block-category">{{site.data.blog.categories[post.category]}}</p>
-      </div>
-    </a>
+    {% assign post = post %}
+    {% include post_card.html%}
   {% endfor %}
 </div>
 
