@@ -35,12 +35,17 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 include: ['_solutions']
 
-paginate_path: "/blog/page:num/"
-paginate: 9
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
