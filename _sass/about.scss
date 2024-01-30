@@ -47,6 +47,7 @@
 
   &__crew {
     background: center/cover no-repeat url("/assets/images/about/crew.webp");
+    background-color: $gray;
 
     .about__description {
       padding: 5vh 0;
