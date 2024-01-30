@@ -45,15 +45,15 @@ about_us_description: Active Bridge is an IT company specializing in providing d
                       our clients in developing and maintaining websites and web-based systems, mobile applications, and software
                       products.
 about_us_items:
-- logo: about-us-8.svg
+- logo: "8"
   text: years of remote development
-- logo: about-us-10+.svg
+- logo: 10+
   text: years of Ruby on Rails experience
-- logo: about-us-2.6.svg
+- logo: "2.6"
   text: years average project duration
-- logo: about-us-40+.svg
+- logo: "40+"
   text: full-stack engineers
-- logo: about-us-90.svg
+- logo: "90%"
   text: senior/middle experience level
 more_about_us: Learn more about us
 build_great_product: Build a great product with our Ruby on Rails expertise

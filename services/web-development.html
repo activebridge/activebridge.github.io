@@ -123,8 +123,10 @@ description: Enhance your business processes leveraging our web application
         <div class="about_us_info__container">
           {% for item in site.data.web_dev_services.solutions.all %}
             <div class="about_us_info__item">
-              <img src="/assets/images/{{ item.logo }}" alt="Logo">
-              {{ item.text }}
+              <div class="about_us_info__item-image">
+                <p>{{ item.logo }}</p>
+              </div>
+              <p>{{ item.text }}</p>
             </div>
           {% endfor %}
         </div>

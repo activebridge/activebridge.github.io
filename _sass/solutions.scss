@@ -36,6 +36,13 @@
           width: 100px;
         }
       }
+      .about_us_info__item-image {
+        background: linear-gradient(135deg, $main-violet, $main-blue);
+        border-color: $kviten;
+        margin-bottom: 15px;
+        p { -webkit-text-fill-color: white; }
+      }
+
     }
   }
 

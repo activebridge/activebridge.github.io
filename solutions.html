@@ -20,8 +20,10 @@ scripts: [animation, carousel]
         <div class="about-us__info-wrapper">
           {% for icon in site.data.solutions.main.all %}
             <div class="about-us__info">
-              <img src= "/assets/images/{{ icon.logo }}.webp" alt="circle">
-              <p>{{icon.text}}</p>
+              <div class="about_us_info__item-image">
+                <p>{{ icon.logo }}</p>
+              </div>
+              <p>{{ icon.text }}</p>
             </div>
           {% endfor %}
         </div>

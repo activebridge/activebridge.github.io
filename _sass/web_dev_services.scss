@@ -149,13 +149,13 @@
       flex-direction: column;
       color: $purple-heart;
       text-align: center;
+    }
 
-      img {
-        margin-bottom: .5em;
-        width: 10vh;
-        max-width: 150px;
-        max-height: 150px;
-      }
+    .about_us_info__item-image {
+      background: linear-gradient(135deg, $main-violet, $main-blue);
+      border-color: $kviten;
+      margin-bottom: 10px;
+      p { -webkit-text-fill-color: white; }
     }
   }
 
