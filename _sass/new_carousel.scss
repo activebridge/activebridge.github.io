@@ -86,7 +86,7 @@
     justify-content: center;
     margin-bottom: 15px;
 
-    img {
+    img, svg {
       width: 100px;
     }
   }
@@ -140,7 +140,7 @@
     }
 
     &__image {
-      img {
+      img, svg {
         width: 80px;
       }
     }

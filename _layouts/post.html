@@ -51,18 +51,11 @@ layout: default
       <div class="post-content__share">
         <p>Share:</p>
         <div class="post-content__share-links">
-          <a href="{{ site.url }}{{ page.url }}" data-link="clone">
-            <img src="/assets/images/blog/share/clone.svg" alt="{{ clone.svg }}">
-          </a>
-          <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
-            <img src="/assets/images/blog/share/facebook.svg" alt="{{ facebook.svg }}">
-          </a>
-          <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}" target="_blank">
-            <img src="/assets/images/blog/share/linkedin.svg" alt="{{ linkedin.svg }}">
-          </a>
-          <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank">
-            <img src="/assets/images/blog/share/twitter.svg" alt="{{ twitter.svg }}">
-          </a>
+          {% for icon in site.data.post.navigation.social_icons %}
+            <a href="{{icon.link}}{{site.url}}{{page.url}}" data-link="{{icon.data-link}}">
+              {% include svgs/post/{{icon.icon}}.html %}
+            </a>
+          {% endfor %}
         </div>
       </div>
     </div>
