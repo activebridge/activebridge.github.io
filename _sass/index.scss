@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   padding-bottom: 7em;
   background: center/cover no-repeat url('/assets/images/index/background.webp');
+  background-color: $alabaster;
   line-height: 1.5;
   z-index: 1;
 
@@ -249,6 +250,7 @@ body {
   &-solutions {
     padding: 10vh 0;
     background: center/cover no-repeat url('/assets/images/index/solutions-photo.webp');
+    background-color: $light-grey;
 
     .animate-visibility__title.title-3 {
       font-family: 'Cera Regular';
