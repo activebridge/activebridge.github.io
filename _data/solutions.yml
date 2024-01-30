@@ -9,11 +9,11 @@ approaches_title: Processes
 main:
   all:
     - text: projects
-      logo: solutions/about_us_purple_1
+      logo: "40+"
     - text: years of average project duration
-      logo: solutions/about_us_purple_2
+      logo: "2+"
     - text: years of remote development experience
-      logo: solutions/about_us_purple_3
+      logo: "8+"
 awards:
   - image: award-1
     link: https://clutch.co/profile/active-bridge?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews#reviews

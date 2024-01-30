@@ -90,13 +90,13 @@ solutions:
   title: With a proven process and commitment to quality code, we help you to
          become a digital stand-out with the right web development solutions
   all:
-  - logo: web_development_services/solution_1.webp
+  - logo: "40+"
     text: full-stack engineers
-  - logo: web_development_services/solution_3.webp
+  - logo: "8+"
     text: years of remote development
-  - logo: web_development_services/solution_2.webp
+  - logo: "2+"
     text: years average project duration
-  - logo: web_development_services/solution_4.webp
+  - logo: "90%"
     text: senior/middle experience level
   awards:
   - logo: web_development_services/award-1.webp

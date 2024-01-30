@@ -230,11 +230,28 @@
     margin-bottom: 3vh;
     font-size: 1.1em;
     font-weight: bold;
+  }
 
-    img,
-    svg {
-      height: 10vh;
-      margin-right: 10px;
+  &__item-image {
+    align-items: center;
+    background-color: #fff;
+    border: 6px solid $pie-chart-border;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 100px;
+    justify-content: center;
+    margin-right: 10px;
+    width: 100px;
+
+    p {
+      background: linear-gradient(135deg, $main-violet, $main-blue);
+      background-clip: text;
+      font-family: 'Cera Regular';
+      font-size: 40px;
+      font-weight: 700;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
   }
 
@@ -364,8 +381,13 @@
 
   .about_us_info {
     &__container { width: 100%; }
-
     &__item { font-size: 0.9em; }
+    &__item-image {
+      border: 5px solid $silver;
+      height: 60px;
+      width: 60px;
+      p { font-size: 25px;}
+    }
   }
 }
 
