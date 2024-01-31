@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", initTransitionView);
 
 function initTransitionView() {
   if (screen.width > 748) {
-    const navbar_links = document.querySelectorAll('[data-link="nav-link"]')
+    setActiveNavLink();
     const transition_links = document.querySelectorAll('[data-link="transition"]')
 
     transition_links.forEach((link) => {
@@ -16,4 +16,15 @@ function initTransitionView() {
       });
     });
   }
+}
+
+function setActiveNavLink() {
+  const navbar_links = document.querySelectorAll('[data-link="nav-link"]');
+  const currentUrl = window.location.href;
+  navbar_links.forEach(function(link) {
+
+    if (currentUrl.includes(link.href)) {
+      link.classList.add("active");
+    }
+  });
 }
