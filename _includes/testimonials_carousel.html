@@ -8,7 +8,7 @@
           <img src="{{ item.image }}" alt="Logo">
         </div>
         <div class="animate-visibility__image">
-          <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
+          {% include svgs/testimonials/{{ item.logo }} %}
         </div>
         <p class="animate-visibility__description">{{ item.description}}</p>
       </div>

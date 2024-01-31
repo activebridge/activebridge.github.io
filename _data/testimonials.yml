@@ -35,7 +35,7 @@ button: Read all testimonials
 all:
 - company: DaisyBill
   specialization: InsurTech / Software company
-  logo: projects/daisybill.svg
+  logo: daisybill.html
   author: Ben Liscio
   image: https://i.imgur.com/eEQ7YxW.jpg
   post: Co-Founder
@@ -50,7 +50,7 @@ all:
   index: 1
 - company: Def Method
   specialization: Technology company
-  logo: projects/def_method.svg
+  logo: def_method.html
   author: Joseph Leo
   image: https://i.imgur.com/orRlQpS.jpg
   post: President / Partnership Director
@@ -63,7 +63,7 @@ all:
   index: 2
 - company: Modean Apps
   specialization: IT / Tech company
-  logo: projects/modean_apps.svg
+  logo: modean_apps.html
   author: Benjamin Sigidi
   image: https://i.imgur.com/YlApFGd.jpg
   post: Software Developer
@@ -73,7 +73,7 @@ all:
   index: 3
 - company: Preeline
   specialization: E-commerce company
-  logo: projects/preeline.svg
+  logo: preeline.html
   author: Julia Macalaster
   image: https://res.cloudinary.com/active-bridge/image/upload/c_fit,g_center,h_200,q_85,r_0,w_200/v1477382138/julia_xibee4.jpg
   post: COO, Co-Founder
@@ -87,7 +87,7 @@ all:
   index: 4
 - company: Freestak
   specialization: Marketing company
-  logo: projects/freestak.svg
+  logo: freestak.html
   author: Julie Freeman Kummer
   image: https://res.cloudinary.com/active-bridge/image/upload/c_crop,g_face,h_200,w_200/v1477380297/Julie_z78plm.jpg
   post: Co-founder and COO
@@ -104,7 +104,7 @@ all:
   index: 5
 - company: LifeLinker Inc
   specialization: Healthcare / IT company
-  logo: projects/life_linker.svg
+  logo: life_linker.html
   author: David Rowell
   image: https://i.imgur.com/vlvxXxn.jpg
   post: Founder/CEO
@@ -119,7 +119,7 @@ all:
   index: 6
 - company: My School Ed
   specialization: Tech Company
-  logo: projects/myschool.svg
+  logo: myschool.html
   author: Joseph Carpenter
   image: https://i.imgur.com/oMUiO6J.jpg
   post: Founder

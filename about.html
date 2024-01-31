@@ -101,7 +101,7 @@ scripts: [carousel]
         {% for fact in site.data.about.key_facts.all %}
           <li class="about__key-facts-item">
             <div class="about__key-facts-item-img">
-              <img src="/assets/images/{{ fact.image }}" alt="Img">
+              {% include svgs/about_us/{{ fact.image }}.html %}
             </div>
             <div class="about__key-facts-item-text white-text">
               <div class="about__key-facts-item-title">{{ fact.title }}</div>

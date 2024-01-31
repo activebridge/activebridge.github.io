@@ -1,0 +1,14 @@
+navigation:
+  social_icons:
+  - link: ''
+    icon: clone
+    data-link: clone
+  - link: 'https://www.facebook.com/sharer/sharer.php?u='
+    icon: facebook
+    data-link: ''
+  - link: https://www.linkedin.com/shareArticle?mini=true&url=
+    icon: linkedin
+    data-link: ''
+  - link: https://twitter.com/intent/tweet?url=
+    icon: twitter
+    data-link: ''
