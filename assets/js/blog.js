@@ -13,6 +13,11 @@ function initBlogPageListener() {
 
         e.preventDefault();
 
+        if (!document.startViewTransition) {
+          window.location.href = url;
+          return;
+        }
+
         document.startViewTransition(async () => {
           await switchToCollection(url, makeScroll);
         });
@@ -24,7 +29,6 @@ function initBlogPageListener() {
 async function switchToCollection(url, makeScroll) {
   try {
     const response = await fetch(url);
-
     if (!response.ok) { window.location.href = url; }
 
     const htmlContent = await response.text();

@@ -16,7 +16,7 @@ categories:
   inside_ab: Inside Ab
 navigation:
   - title: All
-    url: /blog
+    url: /blog/
     category: all
   - title: Engineering
     url: /blog/engineering_posts
