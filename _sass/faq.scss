@@ -32,9 +32,9 @@
     overflow: hidden;
 
     &[open] + .faq__detail-description {
-      max-height: 800px;
+      max-height: 600px;
       border-bottom-color: $black_sea;
-      transition: max-height 500ms ease-out, border-bottom 0ms linear;
+      transition: max-height 1000ms ease-out, border-bottom 0ms linear;
     }
   }
 
