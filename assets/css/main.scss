@@ -41,6 +41,20 @@
 }
 
 @font-face {
+  font-family: 'Cera-Bold';
+  src: url(/assets/fonts/Cera-Bold.otf);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera-Medium';
+  src: url(/assets/fonts/Cera-Medium.otf);
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Inria Bold';
   src: url(/assets/fonts/InriaSerif-Bold.ttf);
   font-weight: bold;
@@ -53,6 +67,7 @@ body {
   font-family: 'Cera Regular', serif;
   min-width: 390px;
 }
+details > summary::-webkit-details-marker { display: none; }
 
 a:hover { text-decoration: none !important; }
 
