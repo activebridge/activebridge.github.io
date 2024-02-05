@@ -27,6 +27,25 @@ function setCarousel(nodeElement) {
     scroller.scroll({ left: scroller.scrollLeft + scroller.children[1].offsetWidth, behavior: "smooth", });
   });
 
+
+  const updateScale = () => {
+    let items = scroller.querySelectorAll('[data-scroll="item"]');
+
+    items.forEach((item, index) => {
+      if (isElementUnderWindow(item)) {
+        item.classList.add('scaling-up');
+      } else {
+        item.classList.remove('scaling-up');
+      }
+    });
+  };
+
+  function isElementUnderWindow(element) {
+    const windowRect = scroller.parentElement.querySelector('.magnifying-overlay').getBoundingClientRect();
+    const elementRect = element.getBoundingClientRect();
+    return elementRect.left < windowRect.right && elementRect.right > windowRect.left;
+  }
+
   function updateSort(scroller) {
     let scrollWidth = scroller.scrollWidth;
     let scrollLeft = scroller.scrollLeft;
@@ -61,14 +80,15 @@ function setCarousel(nodeElement) {
   }
 
   let lastscroll;
+
   scroller.addEventListener("scroll", function() {
     let el = this;
 
-    if (lastscroll) {
-      clearTimeout(lastscroll);
-    }
+    clearTimeout(lastscroll);
     lastscroll = setTimeout(function() {
       updateSort(el);
+
+      if (!CSS.supports('animation-timeline: --item')) { updateScale(el); }
     }, 60);
   });
 
@@ -79,7 +99,6 @@ function setCarousel(nodeElement) {
 
     if (clickX > middle) {
       scroller.scroll({ left: scroller.scrollLeft + scroller.children[1].offsetWidth, behavior: "smooth", });
-
     } else {
       scroller.scroll({ left: scroller.scrollLeft - scroller.children[1].offsetWidth, behavior: "smooth", });
     }
