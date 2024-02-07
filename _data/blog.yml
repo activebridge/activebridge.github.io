@@ -19,14 +19,14 @@ navigation:
     url: /blog/
     category: all
   - title: Engineering
-    url: /blog/engineering_posts
+    url: /blog/engineering
     category: engineering
   - title: Pm & Team Management
-    url: /blog/pm_team_management_posts
+    url: /blog/pm_team_management
     category: pm_team_management
   - title: Business & Growth
-    url: /blog/business_growth_posts
+    url: /blog/business_growth
     category: business_growth
   - title: Inside Ab
-    url: /blog/inside_ab_posts
+    url: /blog/inside_ab
     category: inside_ab
