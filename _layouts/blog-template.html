@@ -29,6 +29,46 @@ layout: default
         {% endfor %}
       </div>
       {{ content }}
+
+      <div class="posts">
+        {% for post in paginator.posts %}
+            {% assign name = post.post-id %}
+            {% assign post = post %}
+            {% include post_card.html%}
+        {% endfor %}
+      </div>
+
+      {% if paginator.total_pages > 1 %}
+        {% if page.category == 'all' %}
+          {% assign category-name = '' %}
+        {% else %}
+          {% assign category-name = page.category %}
+        {% endif %}
+
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a class="pagination__page" href="{{ paginator.previous_page_path | relative_url }}" data-link="blog-link">&lt;</a>
+          {% else %}
+            <span class="pagination__page">&lt;</span>
+          {% endif %}
+
+          {% for page-num in (1..paginator.total_pages) %}
+            {% if page-num == paginator.page %}
+              <span class="pagination__current-page">{{ page-num }}</span>
+            {% elsif page-num == 1 %}
+              <a class="pagination__page" href="{{ site.paginate_path | prepend: category-name | prepend: '/blog/' | replace: '/page:num', '' }}" data-link="blog-link">{{ page-num }}</a>
+            {% else %}
+              <a class="pagination__page" href="{{ site.paginate_path | prepend: category-name | prepend: '/blog/' | replace: '//', '/' | replace: 'page:num', page-num }}" data-link="blog-link">{{ page-num }}</a>
+            {% endif %}
+          {% endfor %}
+
+          {% if paginator.next_page %}
+            <a class="pagination__page" href="{{ paginator.next_page_path | relative_url }}" data-link="blog-link">&gt;</a>
+          {% else %}
+            <span class="pagination__page">&gt;</span>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
