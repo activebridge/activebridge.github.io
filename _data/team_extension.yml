@@ -1,0 +1,165 @@
+title: Team Extension Engament model
+subtitle: Feel the flexibility of management by augmenting your in-house team with
+          our experts at the cost of offshore specialists
+specialists:
+- icon: experts_1.webp
+  description: of Computer Science Master’s degree talents
+- icon: experts_2.webp
+  description: of senior/middle Ruby on Rails, ReactJS engineers
+- icon: experts_3.webp
+  description: Certified English knowledge
+- icon: experts_4.webp
+  description: week to launch a dedicated team or <b>2-3 days</b> on a developer
+               onboarding
+team_as_service:
+  title: Professional Team  as a Service
+  subtitle: We strike the perfect balance between growing alongside our success
+            and keeping our team small enough to be highly flexible and agile.
+  list_title: Our dedicated development teams
+  all:
+  - item: have <b>9+ years of remote working experience</b> and delivering solutions
+          for global companies while being a part of Active Bridge’s R&D
+          department in Ukraine
+  - item: have a deep understanding of <b>OOP principles</b> and 9+ years of
+          web/cloud software engineering expertise, all programmers have a
+          <b>BS or MS in Computer Science</b>
+  - item: consist of professional web and mobile developers with development
+          experience in <b>Fintech, EdTech, Healthcare, Travel</b> and <b>Logistics, CRM</b>,
+          and <b>SaaS</b> products
+  - item: have <b>B2 - C2 certified English knowledge</b>, meaning our remote
+          developers can speak and understand English well
+  - item: are passionate about <b>Ruby on Rails</b> and add-ons technologies and
+          motivated to keep their skills sharp
+  description: 'Active Bridge provides IT staff augmentation services to help
+               companies augment their in-house teams and scale up their development
+               processes. Our dedicated teams of developers integrate seamlessly
+               with your engineering team, giving you flexible staffing solutions
+               to meet your project’s needs. We offer the following types of
+               collaboration: managed team extensions and dedicated developer teams.'
+extension:
+  title: Team Extension engagement model
+  description: Extending in-house IT teams with outside tech experts is the
+               right solution for companies that don’t have the time to spare
+               for recruiting and are going to hire remote developers temporarily.
+               With remote on-demand app development solutions, you’re no longer
+               limited to the specialists in your proximity. Take advantage of
+               all team extending opportunities.
+  subtitle: Extending in-house IT teams with outside experts is the perfect
+            solution for companies which
+  all:
+  - icon: team_1.webp
+    description: already have launched a long-term project and wish to enhance
+                 the existing team with needed technical expertise
+  - icon: team_2.webp
+    description: plan to develop a new product, but are limited to the technical
+                 specialists in their local area
+  - icon: team_3.webp
+    description: plan to hire a remote specialist to fulfill specific web
+                 development task requirements
+advantages:
+  title: Advantages
+  subtitle: business gets using managed team collaboration model
+  all:
+  - icon: advantage_1.webp
+    description: Engage flexible, qualified help when needed for a limited times
+  - icon: advantage_2.webp
+    description: More cost-efficient than hiring full-time employees
+  - icon: advantage_3.webp
+    description: No additional overhead or tax burden on in-house staff
+  - icon: advantage_4.webp
+    description: No recruiters to engage in costly and time-consuming interviewing
+  description: Our developers become an integrated part of your existing in-house
+               development team for the project duration. They will immerse
+               themselves in your project, adopt and maintain your company culture,
+               and make your team’s goals their own, ensuring seamless integration.
+dedicated_model:
+  title: The dedicated development team model
+  subtitle_1: Choosing to work with a dedicated development team, you get an
+              already formed group of developers and/or other tech specialists
+              engaged in your project exclusively. This team becomes a natural
+              extension of your internal team, you can manage a dedicated team
+              of developers as your full-time employees, even though they work
+              from our office and we provide them complete administrative support.
+  description: We provide a team of dedicated developers on a long-term basis
+               following your estimates. You may choose to manage the team from
+               your side or assign one of our Active Bridge project managers to
+               the job.
+  subtitle_2: Extending an in-house team with a dedicated web development team
+              is the perfect solution for companies that
+  all:
+  - icon: model_1.webp
+    description: have long-term projects with multiple tasks and aren’t going
+                 to deal with numerous organizational issues and expenses of
+                 hiring and onboarding new tech staff
+  - icon: model_2.png
+    description: are going to launch a new internal project and decrease risks
+                 to zero by handing over the development process to an experienced
+                 team
+  - icon: model_3.webp
+    description: are startups planning to build an MVP asap to present to
+                 potential investors
+benefits:
+  title: Key benefits
+  subtitle: of Dedicated Team engagement model
+  all:
+  - item: No additional overhead or tax burden required to bring on provided
+          dedicated development team in place of in-house staff
+  - item: The in-house management team can focus on business project tasks while
+          we handle the rest of the project development process
+  - item: A client can actively monitor how a project is being developed at any
+          stage to reach maximum proficiency and accuracy in terms of the desired
+          result
+  - item: Our dedicated ruby on rails development team is also flexible and
+          straightforward in terms of scope, time, and costs
+transparency: There’s complete transparency in terms of task statuses, achieved
+              results, and planned activities.
+process:
+  title: Onboarding process
+  all:
+  - icon: onboarding_1.webp
+    title: Collect requirements
+    description: During this stage, you outline your key goals, the required
+                 technologies, skills, and experience in the project’s domain, as
+                 well as the preferred development methodology and team size
+                 (team extension or dedicated development team model). We sign
+                 the NDA if you request.
+  - icon: onboarding_2.webp
+    title: Prescreening candidates
+    description: We conduct a thorough analysis of the request, select developers
+                 with the requested skills and expertise, and ensure if they
+                 have other soft skills matching your team and project. Our management
+                 team provides you with a list of candidates and engagement options
+                 meeting the project specification.
+  - icon: onboarding_3.webp
+    title: Interview
+    description: Once we find some qualified developers, we hand them over to you
+                 to conduct the interview and make a final decision. If we have
+                 unoccupied specialists in-house, the onboarding process takes
+                 2-3 days. In case we don’t have the proper tech talent, we do
+                 additional hires that can take around 1 month.
+  - icon: onboarding_4.webp
+    title: Signing the agreement and passing control
+    description: After the candidates have been interviewed and we have reached
+                 an agreement on the management processes (environment, schedule,
+                 accounting, communication, etc.), you have full control over
+                 the dedicated development team or augmented talents, their time,
+                 and work. We ensure the smooth workflow of the hired developers.
+services:
+  title: We can offer our expertise in developing custom applications and
+         cloud-based platforms for startups and SMB
+  all:
+  - title: Web application development services
+    icon: service_1.webp
+    description: We’re motivated to scale your business, as we are more than just
+                 a web development service provider.
+  - title: Custom Ruby on Rails development services
+    icon: service_2.webp
+    description: We come to you with 9+ years of Ruby on Rails experience. Ruby
+                 is a dynamic, interpretable, high-level programming language.
+                 Rails is a framework created for rapid web application
+                 development and deployment.
+  - title: Mobile application development services
+    icon: service_3.webp
+    description: We provide cross-platform mobile application development services
+                 so you can reach your customers on their favorite devices.
+  button: See our services
