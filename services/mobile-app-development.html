@@ -1,0 +1,208 @@
+---
+permalink: /services/mobile-app-development
+layout: default
+title: React Native Development Services | Active Bridge
+description: We build responsive mobile applications with rich features and solid
+             security helping businesses to stay lean and build agile.
+---
+
+<div class="container mob_dev_services development">
+  <div class="mob_dev_services__main wrap">
+    <div class="row">
+      <div class="header-3 white-text">{{ site.data.mob_dev_services.title }}</div>
+      <div class="header-2 with-margin">{{ site.data.mob_dev_services.subtitle }}</div>
+      <div class="description white-text">
+        {{ site.data.mob_dev_services.description }}
+      </div>
+      <div class="header-3">{{ site.data.mob_dev_services.industries_title }}</div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.mob_dev_services.industries %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Industry">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="header-2 white-text">{{ item.title }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="mob_dev_services__cross_platform wrap development__cards">
+    <div class="row">
+      <h1 class="header-3">{{ site.data.mob_dev_services.cross_platform.title }}</h1>
+      <div class="header-2">
+        {{ site.data.mob_dev_services.cross_platform.description }}
+      </div>
+      <div class="cards-container cards-container-2">
+        {% for item in site.data.mob_dev_services.cross_platform.all %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="card__description">{{ item.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.mob_dev_services.cross_platform.subtitle }}
+      </div>
+    </div>
+  </div>
+
+  <div class="mob_dev_services__react_native wrap">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.mob_dev_services.react_native.title }}</h2>
+      <div class="description with_margin">
+        {{ site.data.mob_dev_services.react_native.description }}
+      </div>
+      <div class="list-with-images">
+        {% for item in site.data.mob_dev_services.react_native.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="header-2">{{ item.title }}</div>
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="mob_dev_services__flutter wrap">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.mob_dev_services.flutter.title }}</h2>
+      <div class="description with_margin">
+        {{ site.data.mob_dev_services.flutter.description_1 }}
+      </div>
+      <div class="description with_margin-2">
+        {{ site.data.mob_dev_services.flutter.description_2 }}
+      </div>
+      <div class="list-with-images">
+        {% for item in site.data.mob_dev_services.flutter.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="header-2">{{ item.title }}</div>
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="mob_dev_services__ionic wrap">
+    <div class="row">
+      <h2 class="header-3 white-text">{{ site.data.mob_dev_services.ionic.title }}</h2>
+      <div class="description with_margin white-text">
+        {{ site.data.mob_dev_services.ionic.description }}
+      </div>
+      <div class="list-with-images">
+        {% for item in site.data.mob_dev_services.ionic.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="header-2 white-text">{{ item.title }}</div>
+              <div class="description white-text">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="mob_dev_services__approaches wrap">
+    <div class="row">
+      <div class="header-3">{{ site.data.mob_dev_services.approaches.title }}</div>
+      <div class="header-2">{{ site.data.mob_dev_services.approaches.subtitle }}</div>
+      <div class="timeline">
+        {% for item in site.data.mob_dev_services.approaches.all %}
+          <div class="timeline-item">
+            <div class="timeline-item__icon">
+              <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Approach">
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__content-title inria">{{ item.title }}</div>
+              <div class="timeline-item__content-description">
+                {{ item.description }}
+              </div>
+              {% if item.output %}
+                <div class="timeline-item__content-output">
+                  <div class="timeline-item__content-output-title">
+                    {{ site.data.mob_dev_services.approaches.output }}
+                  </div>
+                  <ul class="timeline-item__content-output-list">
+                    {% for el in item.output %}
+                      <li class="timeline-item__content-output-item">{{ el.text }}</li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="development__cards wrap">
+    <div class="row">
+      <div class="header-3">
+        {{ site.data.ror_dev_services.engagement_models.title }}
+      </div>
+      <div class="header-2">
+        {{ site.data.ror_dev_services.engagement_models.subtitle }}
+      </div>
+      <div class="cards-container">
+        {% for item in site.data.ror_dev_services.engagement_models.all %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__description">{{ item.description }}</div>
+            <a href="/expertise" class="button" id="mob_app_{{ item.index }}">
+              {{ site.data.web_dev_services.button }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="development__offer">
+    <div class="header-2 white-text">
+      {{ site.data.web_dev_services.offer_text }}
+    </div>
+  </div>
+
+  <div class="development__carousel wrap flex-columns-center">
+    <div class="carousel">
+      <input type="radio" name="industry" id="solution-1-5" checked>
+      <input type="radio" name="industry" id="solution-2-5">
+      <input type="radio" name="industry" id="solution-3-5">
+      <div class="carousel__list">
+        {% for industry in site.data.web_dev_services.industries.all %}
+          <label class="carousel__item" for="solution-{{ industry.index }}-5" id="card-{{ industry.index }}-solution-5">
+            <h2 class="carousel__title inria">{{ industry.title }}</h2>
+            <div class="carousel__description ">{{ industry.description }}</div>
+            <a href="/expertise" class="button white-text" id="mob_app_{{ item.index }}">
+              {{ site.data.web_dev_services.button }}
+            </a>
+          </label>
+        {% endfor %}
+      </div>
+    </div>
+    <a id="mob_app_dev_button" class="button dev_services__carousel-btn", target="_blank" href="/contacts">
+      {{ site.data.services.approaches.button }}
+    </a>
+  </div>
+</div>

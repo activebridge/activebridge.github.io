@@ -1,0 +1,193 @@
+---
+permalink: /services/dedicated-teams-cooperation
+layout: default
+title: Extend in-house IT Teams with Outside Tech Experts | Active Bridge
+description: Feel the flexibility of management by augmenting your in-house team
+             with our experts at the cost of offshore specialists. Hire on-demand
+             developers
+---
+
+<div class="container staff_augmentation_services development">
+  <div class="staff_augmentation_services__main">
+    <div class="row">
+      <div class="header-3 white-text">{{ site.data.team_extension.title }}</div>
+      <div class="header-2 with-margin">{{ site.data.team_extension.subtitle }}</div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.team_extension.specialists %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Specialist">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__team_as_service">
+    <div class="row">
+      <h1 class="header-3">{{ site.data.team_extension.team_as_service.title }}</h1>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.team_as_service.subtitle }}
+      </div>
+      <div class="header-3 blue">
+        {{ site.data.team_extension.team_as_service.list_title }}
+      </div>
+      <ul class="web_dev_services__full_stack-list">
+        {% for item in site.data.team_extension.team_as_service.all %}
+          <li class="web_dev_services__full_stack-list-item">
+            {{ item.item }}
+          </li>
+        {% endfor %}
+      </ul>
+      <div class="description">
+        {{ site.data.team_extension.team_as_service.description }}
+      </div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__extension wrap">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.team_extension.extension.title }}</h2>
+      <div class="description with-margin">
+        {{ site.data.team_extension.extension.description }}
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.extension.subtitle }}
+      </div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.team_extension.extension.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Extension">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__advantages wrap">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.team_extension.advantages.title }}</h2>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.advantages.subtitle }}
+      </div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.team_extension.advantages.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Advantage">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="header-2">{{ site.data.team_extension.advantages.description }}</div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__dedicated_model">
+    <div class="row">
+      <h2 class="header-3">{{ site.data.team_extension.dedicated_model.title }}</h2>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.dedicated_model.subtitle_1 }}
+      </div>
+      <div class="staff_augmentation_services__dedicated_model_description">
+        <div class="staff_augmentation_services__dedicated_model_description_icon">
+          <img src="/assets/images/team_extension/magic_trick.webp" alt="Magic Trick">
+        </div>
+        <div class="description">
+          {{ site.data.team_extension.dedicated_model.description }}
+        </div>
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.dedicated_model.subtitle_2 }}
+      </div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.dedicated_model.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Model">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__benefits wrap">
+    <div class="row">
+      <img src="/assets/images/team_extension/key.webp" alt="Key" class="absolute-img">
+      <div class="header-3">{{ site.data.team_extension.benefits.title }}</div>
+      <div class="header-2 with-margin">
+        {{ site.data.team_extension.benefits.subtitle }}
+      </div>
+      <ul class="web_dev_services__full_stack-list">
+        {% for item in site.data.team_extension.benefits.all %}
+          <li class="web_dev_services__full_stack-list-item">
+            {{ item.item }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__transparency">
+    <div class="header-2 white-text">
+      {{ site.data.team_extension.transparency }}
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__process wrap">
+    <div class="row">
+      <div class="header-3">{{ site.data.team_extension.process.title }}</div>
+      <div class="timeline">
+        {% for item in site.data.team_extension.process.all %}
+          <div class="timeline-item">
+            <div class="timeline-item__icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Process">
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__content-title inria">{{ item.title }}</div>
+              <div class="timeline-item__content-description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="staff_augmentation_services__services wrap development__cards">
+    <div class="row">
+      <div class="header-2">{{ site.data.team_extension.services.title }}</div>
+      <div class="cards-container cards-container-2">
+        {% for item in site.data.team_extension.services.all %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Service">
+            </div>
+            <div class="card__description">{{ item.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <a href="/services" id="team_extension_services_button" class="button" target="_blank">
+        {{ site.data.team_extension.services.button }}
+      </a>
+    </div>
+  </div>
+
+  {% include faq_bottom.html %}
+</div>
