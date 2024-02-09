@@ -24,7 +24,6 @@ header {
   margin-bottom: 0;
   display: inline-flex;
   list-style: none;
-
   &__item { position: relative; }
 
   &__subitems {
@@ -60,6 +59,53 @@ header {
       background: transparent;
       border: none;
     }
+  }
+}
+
+.navbar-bulb {
+  animation: appearTopSvg .5s ease-out;
+  top: -1%;
+  position: absolute;
+  height: 100%;
+  left: -45px;
+  z-index: 1;
+}
+
+.navbar-more-bulb {
+  animation: appearSvg 1s ease-out;
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+  z-index: 1;
+
+  &.touch-right {
+    transition: all .1s ease-in-out;
+    left: -5px;
+  }
+
+  &.touch-left {
+    transition: all .1s ease-in-out;
+    left: -20px;
+  }
+}
+
+@keyframes appearSvg {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes appearTopSvg {
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -105,18 +151,17 @@ header {
     .header-navbar {
       position: fixed;
       top: 0;
-      right: -90vw;
+      right: -89vw;
       width: 90vw;
       min-height: calc(100% + 60px);
       margin: 0;
       padding: 6vw 6vw 25vw;
       justify-content: space-between;
-      background: $main-gradient;
+      background: linear-gradient($main-violet, $main-blue);
       box-sizing: border-box;
-      opacity: 0;
       -webkit-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
-      z-index: 2;
+      z-index: 3;
 
       &__subitems {
         visibility: visible;
@@ -177,7 +222,10 @@ header {
     }
 
     .menu-icon {
-      position: relative;
+      animation: appearTopSvg 1s ease-out;
+      position: absolute;
+      top: 5%;
+      left: -55px;
       display: inline-block;
       padding: 28px 20px;
       cursor: pointer;
@@ -187,8 +235,8 @@ header {
         position: relative;
         display: block;
         height: 3px;
-        width: 30px;
-        background: $main-gradient;
+        width: 25px;
+        background: $white;
 
         &:before,
         &:after {
@@ -197,7 +245,7 @@ header {
           display: block;
           height: 100%;
           width: 100%;
-          background: $main-gradient;
+          background: $white;
         }
 
         &:before { top: 10px; }
@@ -206,19 +254,16 @@ header {
       }
     }
 
-    .menu-btn:checked ~ .header-navbar {
-      right: 0;
+    .header-navbar.show {
       display: flex;
       align-items: flex-start;
       flex-flow: column wrap;
       opacity: .9;
-      -webkit-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
+      -webkit-transition: all .6s ease-in-out;
+      transition: all .6s ease-in-out;
     }
 
-    .menu-btn:checked ~ .menu-icon { opacity: 0; }
-
-    .menu-btn:checked + .overlay {
+    .navbar-overlay.active {
       display: block;
       position: fixed;
       width: 100vw;
