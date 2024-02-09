@@ -60,7 +60,7 @@
   &__full_stack {
     background: center/cover no-repeat url('/assets/images/web_development_services/web_dev_bg.webp');
     margin-top: -2vh;
-    margin-bottom: -2vh;
+    margin-bottom: -25px;
 
     .header-3 {
       margin-bottom: 5vh;
@@ -127,7 +127,7 @@
 
   &__solutions {
     background-image: linear-gradient(to bottom, rgba($moon_raker, .5), $white);
-    box-shadow: inset -6px 12px 15px -12px #6b6897;
+    box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
     .header-2 {
       font-size: 1.3em;
