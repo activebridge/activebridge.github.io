@@ -3,11 +3,15 @@
     {% include svgs/logo.html %}
   </a>
   <input id="menu-btn" class="menu-btn" type="checkbox">
-  <div class="overlay"></div>
-  <label class="menu-icon" for="menu-btn">
-    <span class="navicon"></span>
-  </label>
+  <div class="navbar-overlay"></div>
+
   <ul class="header-navbar">
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+    {% include svgs/navbar/bulb.html %}
+    {% include svgs/navbar/more-bulb.html %}
+
     {% for link in site.data.navbar.links %}
       <li class="header-navbar__item">
         {% if link.items %}
