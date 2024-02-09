@@ -10,7 +10,7 @@ description: Our remote full-stack developers drive our clients through the whol
 
 <div class="container team">
   <div class="team__main wrap">
-    <div class="row">
+    <div class="row" style="view-transition-name: team;">
       <div class="header-3 white-text">{{ site.data.team.title }}</div>
       <div class="header-2 white-text">{{ site.data.team.subtitle_1 }}</div>
       <div class="description justify white-text">{{ site.data.team.description }}</div>
@@ -74,7 +74,7 @@ description: Our remote full-stack developers drive our clients through the whol
           </div>
         {% endfor %}
       </div>
-      <a href="/services" class="button" id="team_expertise_button" target="_blank">
+      <a href="/services" class="button" id="team_expertise_button" data-link="transition">
         {{ site.data.team.expertise.button }}
       </a>
     </div>

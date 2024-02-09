@@ -4,16 +4,20 @@ layout: default
 title: Contact us to Get Free Project Consultation | Active Bridge
 description: Got an amazing project idea? Contact us and get a tech consultation
              from an experienced full-stack solution specialist
+scripts: [contacts-form]
 ---
 
 <div class="contacts">
   <div class="wrapper">
-    <h2 class="title-2">{{ site.data.contacts.title }}</h2>
-    <h3 class="title-3">{{ site.data.contacts.sub_title }}</h3>
-    <p class="base-content contacts__description">
-      {{ site.data.contacts.description }}
-    </p>
-    <form class="contacts__form" action="mailto:katatsu12@gmail.com" method="get" enctype="text/plain">
+    <div style="view-transition-name: contacts;">
+      <h2 class="title-2">{{ site.data.contacts.title }}</h2>
+      <h3 class="title-3">{{ site.data.contacts.sub_title }}</h3>
+      <p class="base-content contacts__description">
+        {{ site.data.contacts.description }}
+      </p>
+    </div>
+    <form class="contacts__form" id="contacts-form">
+
       <div class="contacts__form-group">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
         <select class="contacts__field contacts__field--select" name="subject" id="subject" required="true">
@@ -30,7 +34,7 @@ description: Got an amazing project idea? Contact us and get a tech consultation
         <label class="contacts__form-label contacts__form-label" for="body">Provide the project details and your expectations in case of cooperating with our team</label>
         <textarea class="contacts__field" id="body" name="body" placeholder="Type here"></textarea>
       </div>
-      <a class="contacts__field contacts__to-faq" href="/faq">{{site.data.contacts.link_to_faq}}</a>
+      <a class="contacts__field contacts__to-faq" href="/faq" data-link="transition">{{site.data.contacts.link_to_faq}}</a>
       <div class="contacts__after-send after-send">
         <h3 class="title-3">{{site.data.contacts.form.description.title}}</h3>
         <ul class="after-send__list">
@@ -39,7 +43,7 @@ description: Got an amazing project idea? Contact us and get a tech consultation
           {% endfor %}
         </ul>
       </div>
-      <input class="button contacts__submit-btn" type="submit" id="send" value="Send" >
+      <button class="button contacts__submit-btn" type="submit" id="send" type="submit">Send</button>
     </form>
   </div>
 </div>

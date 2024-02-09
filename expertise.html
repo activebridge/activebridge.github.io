@@ -6,11 +6,12 @@ title: RoR App Development & Cloud Software Expertise | Active Bridge
 description: Enhancing Ruby on Rails with cutting edge technologies, for 9+ years
              we've been providing web development solutions that help businesses
              succeed.
+scripts: [carousel]
 ---
 
 <div class="container expertise">
   <div class="alabaster expertise__main wrap">
-    <div class="row">
+    <div class="row" style="view-transition-name: expertise;">
       <div class="header-3">{{ site.data.expertise.main.title }}</div>
       <h2 class="header-2">{{ site.data.expertise.main.subtitle }}</h2>
       <div class="description justify">{{ site.data.expertise.main.description_1 }}</div>
@@ -34,42 +35,34 @@ description: Enhancing Ruby on Rails with cutting edge technologies, for 9+ year
       <div class="header-3">{{ site.data.expertise.industries.projects }}</div>
       <div class="header-2">{{ site.data.expertise.industries.subtitlen }}</div>
       <div class="header-3">{{ site.data.expertise.industries.title }}</div>
-      <div class="carousel industries">
-        <input type="radio" name="industries" id="item-1-4" checked>
-        <input type="radio" name="industries" id="item-2-4">
-        <input type="radio" name="industries" id="item-3-4">
-        <input type="radio" name="industries" id="item-4-4">
-        <input type="radio" name="industries" id="item-5-4">
-        <input type="radio" name="industries" id="item-6-4">
-        <input type="radio" name="industries" id="item-7-4">
-        <div class="carousel__list">
-          {% for element in site.data.expertise.industries.all %}
-            <label class="carousel__item" for="item-{{ element.index }}-4" id="card-{{ element.index }}-4">
-              <div class="carousel__title industries__title">
-                {{ element.title }}
-              </div>
-              <div class="carousel__logo industries__logo">
-                <img src="/assets/images/{{ element.icon }}" alt="Logo">
-              </div>
-              <div class="carousel__subtitle">
-                {{ site.data.expertise.industries.devs_work_on }}
-              </div>
-              <ul class="carousel__description">
-                {% for item in element.items %}
-                  <li class="carousel__description-item">{{ item }}</li>
-                {% endfor %}
-              </ul>
-            </label>
-          {% endfor %}
+    </div>
+    <div class="carousel-scroll" >
+      <div id="page-carousel" class="carousel-scroll__scroller">
+      {% for element in site.data.expertise.industries.all %}
+        <div class="carousel-scroll__item" data-scroll="item">
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+            <h2 class="title-3 animate-visibility__title">{{ element.title }}</h2>
+            <div class="animate-visibility__image">
+              <img src="/assets/images/{{ element.icon }}" alt="Logo">
+            </div>
+            <p class="animate-visibility__description text-center italic">{{ site.data.expertise.industries.devs_work_on }}</p>
+            <ul class="animate-visibility__list">
+              {% for item in element.items %}
+                <li class="animate-visibility__list-item">{{ item }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
+      {% endfor %}
       </div>
+      <div class="magnifying-overlay"></div>
     </div>
   </div>
 
   <div class="expertise__solutions info-container wrap">
     <div class="row">
       <div class="header-2 white-text">{{ site.data.expertise.solutions.title }}</div>
-      <a href="/solutions" id="expertise-all-solutions" class="button white-text violet-button">
+      <a href="/solutions" id="expertise-all-solutions" class="button white-text violet-button" data-link="transition">
         {{ site.data.expertise.solutions.button }}
       </a>
     </div>
@@ -78,40 +71,17 @@ description: Enhancing Ruby on Rails with cutting edge technologies, for 9+ year
   <div class="expertise__testimonials wrap">
     <div class="row flex-columns-center">
       <div class="header-2">{{ site.data.expertise.testimonials.title }}</div>
-      <div class="carousel">
-        <input type="radio" name="expertise-testimonials" id="item-1-3" checked>
-        <input type="radio" name="expertise-testimonials" id="item-2-3">
-        <input type="radio" name="expertise-testimonials" id="item-3-3">
-        <input type="radio" name="expertise-testimonials" id="item-4-3">
-        <input type="radio" name="expertise-testimonials" id="item-5-3">
-        <input type="radio" name="expertise-testimonials" id="item-6-3">
-        <input type="radio" name="expertise-testimonials" id="item-7-3">
-        <div class="carousel__list testimonials-carousel">
-          {% for item in site.data.testimonials.all %}
-            <label class="carousel__item" for="item-{{ item.index }}-3" id="card-{{ item.index }}-3">
-              <div class="carousel__image">
-                <img src="{{ item.image }}" alt="Logo">
-              </div>
-              <div class="carousel__logo {{ item.class }}">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-              </div>
-              <div class="carousel__description">
-                {{ item.description }}
-              </div>
-            </label>
-          {% endfor %}
-        </div>
-      </div>
-      <a id="about-read-testimonials" class="button", target="_blank" href="/reviews">
-        {{ site.data.testimonials.button }}
-      </a>
     </div>
+    {% include testimonials_carousel.html %}
+    <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
+      {{ site.data.testimonials.button }}
+    </a>
   </div>
 
   <div class="expertise__tell-us wrap">
     <div class="row">
       <div class="header-2 white-text">{{ site.data.expertise.tell-us.title }}</div>
-      <a id="expertise-tell-us" class="button white-text" href="/contacts">
+      <a id="expertise-tell-us" class="button white-text" href="/contacts" data-link="transition">
         {{ site.data.expertise.tell-us.button }}
       </a>
     </div>

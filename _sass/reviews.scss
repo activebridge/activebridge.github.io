@@ -1,6 +1,7 @@
 .reviews {
   &__main-container {
     background: center/cover no-repeat url('/assets/images/reviews/reviews-main-bg.webp');
+    background-color: $black_sea;
     height: 100%;
     padding: 121px 0 36px 0;
 
@@ -45,9 +46,9 @@
 
   .accordion {
     summary {
+      font-family: 'Cera-Medium';
       flex-direction: column;
       font-size: 25px;
-      font-weight: 700;
 
       span {
         font-family: Inria Serif;

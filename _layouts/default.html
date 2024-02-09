@@ -4,19 +4,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <title>{{ page.title }}</title>
+    <meta name="view-transition" content="same-origin" />
 
+    <title>{{ page.title }}</title>
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="stylesheet" href="/assets/main.css">
     <script src="/assets/js/application.js"></script>
+
+    {% if page.scripts %}
+      {% for script in page.scripts %}
+        <script src="/assets/js/{{ script }}.js"></script>
+      {% endfor %}
+    {% endif %}
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_css_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
     {% include header.html %}
-
-    <section>
+    <section class="main-section">
       {{ content }}
     </section>
 

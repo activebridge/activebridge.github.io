@@ -31,7 +31,7 @@
       <div class="footer__navigation-social-icons desktop-only">
         {% for icon in site.data.footer.navigation.social_icons %}
           <a href="{{ icon.link }}">
-            <img src="/assets/images/social_icons/{{ icon.icon }}.svg" alt="{{ icon.icon }}">
+            {% include svgs/footer/{{icon.icon}}.html %}
           </a>
         {% endfor %}
       </div>
@@ -39,7 +39,7 @@
     <li class="footer__navigation-social-icons mobile-only">
       {% for icon in site.data.footer.navigation.social_icons %}
         <a href="{{ icon.link }}">
-          <img src="/assets/images/social_icons/{{ icon.icon }}.svg" alt="{{ icon.icon }}">
+          {% include svgs/footer/{{icon.icon}}.html %}
         </a>
       {% endfor %}
     </li>
@@ -50,7 +50,7 @@
         {{ site.data.footer.navigation.links[2].page }}
       </a>
       <div class="contact-info__contacts">
-        <a class="contact-info__item" href="email: {{ site.data.footer.contact_info.email }}">
+        <a class="contact-info__item" href="mailto: {{ site.data.footer.contact_info.email }}">
           {{ site.data.footer.contact_info.email }}
         </a>
         <a class="contact-info__item" href="tel: {{ site.data.footer.contact_info.phone_number }}">

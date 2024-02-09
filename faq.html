@@ -3,6 +3,7 @@ permalink: /faq.html
 layout: default
 title: FAQ | Active Bridge
 description: Check our FAQ, if you can't find the right one, feel free to contact us
+scripts: [details]
 ---
 
 <div class="faq">
@@ -10,7 +11,7 @@ description: Check our FAQ, if you can't find the right one, feel free to contac
     <div class="wrapper">
       <h2 class="title-2">{{site.data.faq.title}}</h2>
       <p class="faq__description title-3">{{site.data.faq.description}}</p>
-      <div class="faq__table">
+      <div class="faq__table" style="view-transition-name: faq;">
         {% for detail in site.data.faq.details %}
           <details class="">
             <summary class="faq__summary">{{ detail.question }}</summary>

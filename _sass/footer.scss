@@ -76,8 +76,7 @@
 
       &.bold {
         color: $black;
-        font-weight: 600;
-
+        font-family: 'Cera-Medium';
         &:hover { color: $main-violet; }
       }
     }
@@ -102,12 +101,12 @@
       a {
         padding-right: 10px;
 
-        img {
+        img, svg {
           width: 35px;
           margin: 0 6px 10px 0;
 
-          &:hover path {
-            fill: $black;
+          &:hover {
+            filter: invert(13%) sepia(94%) saturate(5163%) hue-rotate(263deg) brightness(73%) contrast(91%);
           }
         }
       }

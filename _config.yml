@@ -35,7 +35,19 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
+
 include: ['_solutions']
+
+pagination:
+  enabled: true
+  per_page: 9
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

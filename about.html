@@ -6,27 +6,34 @@ title: IT Staffing Firm, Remote Development Teams | Active Bridge
 description: We are a contract development agency specializing in providing
               on-demand full-stack engineers to help our clients and augment
               their in-house teams.
+scripts: [carousel, details]
 ---
 
 <div class="container about" id="container">
-  <div class="info-container wrap">
-    <div class="row">
-      <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
-      <h1 class="about__header">{{ site.data.about.header }}</h1>
-      <div class="about__description">{{ site.data.about.description }}</div>
-      <div class="about_us_info">
-        <div class="about_us_info__items">
-          <div class="about_us_info__container">
-            {% for item in site.data.index.about_us_items %}
-              <div class="about_us_info__item white-text">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-                {{ item.text }}
-              </div>
-            {% endfor %}
-          </div>
-          <div class="about_us_info__photo desktop-only">
-            <img src="/assets/images/about/about-bg-2.webp" alt="About us">
-          </div>
+  <div class="info-container">
+    <div class="wrap">
+      <div class="row" style="view-transition-name: about;">
+        <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
+        <h1 class="about__header">{{ site.data.about.header }}</h1>
+        <div class="about__description">{{ site.data.about.description }}</div>
+      </div>
+    </div>
+    <div class="about_us_info">
+      <div class="about_us_info__items">
+        <div class="about_us_info__container">
+            <div class="about_us_info__container-items">
+              {% for item in site.data.index.about_us_items %}
+                <div class="about_us_info__item white-text">
+                  <div class="about_us_info__item-image">
+                    <p>{{ item.logo }}</p>
+                  </div>
+                  <p>{{ item.text }}</p>
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+        <div class="about_us_info__photo desktop-only">
+          <img src="/assets/images/about/about-bg-2.webp" alt="About us">
         </div>
       </div>
     </div>
@@ -47,7 +54,7 @@ description: We are a contract development agency specializing in providing
       </div>
       <div class="chart-container">
         {% include expertise_chart.html %}
-        <a class="button" href="/expertise" id="about-chart-container-button">{{ site.data.about.company_vision.button }}</a>
+        <a class="button" href="/expertise" id="about-chart-container-button" data-link="transition">{{ site.data.about.company_vision.button }}</a>
       </div>
     </div>
   </div>
@@ -57,7 +64,7 @@ description: We are a contract development agency specializing in providing
       <div class="about__description">{{ site.data.about.crew.description }}</div>
       <div class="header-3 white-text">{{ site.data.about.crew.title }}</div>
       {% include crew.html %}
-      <a class="button about__crew-button" id="about__crew-button" href="/about/team">
+      <a class="button about__crew-button" id="about__crew-button" href="/about/team" data-link="transition">
         {{ site.data.about.crew.button }}
       </a>
     </div>
@@ -94,7 +101,7 @@ description: We are a contract development agency specializing in providing
         {% for fact in site.data.about.key_facts.all %}
           <li class="about__key-facts-item">
             <div class="about__key-facts-item-img">
-              <img src="/assets/images/{{ fact.image }}" alt="Img">
+              {% include svgs/about_us/{{ fact.image }}.html %}
             </div>
             <div class="about__key-facts-item-text white-text">
               <div class="about__key-facts-item-title">{{ fact.title }}</div>
@@ -106,39 +113,18 @@ description: We are a contract development agency specializing in providing
     </div>
   </div>
 
-  <div class="about__testimonials wrap">
-    <div class="row flex-columns-center">
+  <div class="about__testimonials">
+    <div class="wrapper">
       <div class="header-5 about__testimonials-title">
         {{ site.data.testimonials.help_startups }}
       </div>
       <div class="description">
         {{ site.data.testimonials.testimonials_description }}
       </div>
-      <div class="carousel">
-        <input type="radio" name="about-testimonials" id="item-1-2" checked>
-        <input type="radio" name="about-testimonials" id="item-2-2">
-        <input type="radio" name="about-testimonials" id="item-3-2">
-        <input type="radio" name="about-testimonials" id="item-4-2">
-        <input type="radio" name="about-testimonials" id="item-5-2">
-        <input type="radio" name="about-testimonials" id="item-6-2">
-        <input type="radio" name="about-testimonials" id="item-7-2">
-        <div class="carousel__list testimonials-carousel">
-          {% for item in site.data.testimonials.all %}
-            <label class="carousel__item" for="item-{{ item.index }}-2" id="card-{{ item.index }}-2">
-              <div class="carousel__image">
-                <img src="{{ item.image }}" alt="Logo">
-              </div>
-              <div class="carousel__logo {{ item.class }}">
-                <img src="/assets/images/index/{{ item.logo }}" alt="Logo">
-              </div>
-              <div class="carousel__description">
-                {{ item.description }}
-              </div>
-            </label>
-          {% endfor %}
-        </div>
-      </div>
-      <a id="about-read-testimonials" class="button", target="_blank" href="/reviews">
+    </div>
+    {% include testimonials_carousel.html %}
+    <div class="wrapper">
+      <a id="about-read-testimonials" class="button" href="/reviews" data-link="transition">
         {{ site.data.testimonials.button }}
       </a>
     </div>
@@ -152,7 +138,7 @@ description: We are a contract development agency specializing in providing
           {{ site.data.about.culture.description }}
         </div>
       </div>
-      <a id="about-culture-button" class="button about__culture-button", target="_blank" href="/contacts">
+      <a id="about-culture-button" class="button about__culture-button" href="/contacts" data-link="transition">
         {{ site.data.about.culture.button }}
       </a>
     </div>

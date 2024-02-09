@@ -81,19 +81,19 @@ key_facts:
   title: Key facts
   subtitle: about Active Bridge as team of dedicated Ruby on Rails developers
   all:
-  - image: about/key_facts_1.svg
+  - image: key_facts_1
     title: <span>9+</span> years of remote development experience
     description: "Since 2013 we’ve grown to a staff of 40+ talented development professionals who thrive on the cutting-edge of technology and embrace our clients’ mindsets to seamlessly integrate with their teams."
-  - image: about/key_facts_2.svg
+  - image: key_facts_2
     title: Huge dev stack
     description: On-demand developers with deep knowledge and significant experience in object-centric, document-centric languages, frameworks, DSMs platforms, and APIs.
-  - image: about/key_facts_3.svg
+  - image: key_facts_3
     title: Fluent communication
     description: Our remote full-stack developers have B2 - C2 certified English knowledge, meaning we can integrate easily into your teams and meetings without any worry of language barriers getting in the way.
-  - image: about/key_facts_4.svg
+  - image: key_facts_4
     title: Cost efficiency
     description: As an offshore IT company, by keeping our research, development, and tech support in Ukraine rather than at our U.S. location, we can keep costs down and provide our clients with better value for their development dollars.
-  - image: about/key_facts_5.svg
+  - image: key_facts_5
     title: <span>4</span> own social-responsible products
     description: We are active open source contributors as well as have our own products that we successfully launch that benefit the public. This is an uber-like app for local eco-taxi, an open platform for code refactoring ++
 culture:

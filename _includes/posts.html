@@ -1,0 +1,9 @@
+<div class="posts">
+  {% assign posts = site.posts | where: 'category', include.category %}
+
+  {% for post in posts %}
+    {% assign name = post.post-id %}
+    {% assign post = post %}
+    {% include post_card.html%}
+  {% endfor %}
+</div>

@@ -59,6 +59,7 @@
 
   &__full_stack {
     background: center/cover no-repeat url('/assets/images/web_development_services/web_dev_bg.webp');
+    background-color: $dark-purple;
     margin-top: -2vh;
     margin-bottom: -25px;
 
@@ -149,13 +150,13 @@
       flex-direction: column;
       color: $purple-heart;
       text-align: center;
+    }
 
-      img {
-        margin-bottom: .5em;
-        width: 10vh;
-        max-width: 150px;
-        max-height: 150px;
-      }
+    .about_us_info__item-image {
+      background: linear-gradient(135deg, $main-violet, $main-blue);
+      border-color: $kviten;
+      margin-bottom: 10px;
+      p { -webkit-text-fill-color: white; }
     }
   }
 

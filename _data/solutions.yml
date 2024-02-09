@@ -9,11 +9,11 @@ approaches_title: Processes
 main:
   all:
     - text: projects
-      logo: solutions/about_us_purple_1
+      logo: "40+"
     - text: years of average project duration
-      logo: solutions/about_us_purple_2
+      logo: "2+"
     - text: years of remote development experience
-      logo: solutions/about_us_purple_3
+      logo: "8+"
 awards:
   - image: award-1
     link: https://clutch.co/profile/active-bridge?utm_source=widget&utm_medium=1&utm_campaign=widget&utm_content=num_reviews#reviews
@@ -95,18 +95,22 @@ industries:
                     healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and electronic
                     patient health information (ePHI).
       index: 1
+      link: "/solutions/healthcare-hipaa-case"
     - title: Insurtech SaaS platform
       description: a mission-focused company serving healthcare service providers to digitally manage and dispatch
                     <span class="blue-text">workers’ compensation bills</span> to employers.
       index: 2
+      link: /solutions/insurtech-case
     - title: E-commerce platform with CRM features
       description: an intermediate between potential customers and suppliers of DC services around the United States, such as
                     colocation, dedicated servers, cloud servers, managed hosting, IP transit, and other hosting services.
       index: 3
+      link: /solutions/ecommerce-case
     - title: Taxi application with food delivery features
       description: Electrotaxi company initiated the project to make an active contribution to the establishment and improvement
                     of a local on-demand transportation system.
       index: 4
+      link: /solutions/taxi-and-transportation-case
   more_button: Learn more
 project_development:
   title: Project development approach

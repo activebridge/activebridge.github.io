@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<section class="post-navigation" style="view-transition-name: post-navigation-block">
+  <div class="wrapper">
+    <div class="blog-main__navigation">
+      <p class="header-3">Categories:</p>
+
+      {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq %}
+      {% for category in all_categories %}
+        {% if category == page.category %}
+          {% assign active-class = 'active' %}
+        {% else %}
+          {% assign active-class = '' %}
+        {% endif %}
+        <a class="{{ active-class }}" style="pointer-events:none">{{ site.data.blog.categories[category] }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="post-breadcrumb">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/blog/{{page.category}}/">{{ site.data.blog.categories[page.category]}}</a></li>
+        <li><span aria-current="page">{{ page.title }}</span></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+{% assign name = page.post-id %}
+
+<section class='post-content' style="view-transition-name: {{ name }}">
+  <div class="post-content__left-block"></div>
+
+  <section class="post-content__main wrapper">
+    <h1 class="header-3">{{ page.title }}</h1>
+    <div class="post-content__mobile">{% include post_info.html %}</div>
+
+    {{ content }}
+
+  </section>
+
+  <div class="post-content__right-block" style="view-transition-name: post-rigth-block">
+    <div class="post-content__desktop">{% include post_info.html %}</div>
+    <div class="post-content__sticky-block">
+      <div class="post-content__navigation post-content__desktop">
+        <p>Contents:</p>
+      </div>
+      <div class="post-content__share">
+        <p>Share:</p>
+        <div class="post-content__share-links">
+          {% for icon in site.data.post.navigation.social_icons %}
+            <a href="{{icon.link}}{{site.url}}{{page.url}}" data-link="{{icon.data-link}}">
+              {% include svgs/post/{{icon.icon}}.html %}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include post_prev_next_block.html %}
