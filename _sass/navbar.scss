@@ -154,7 +154,7 @@ header {
       &__link {
         display: block;
         padding: 2.5vw 1vw;
-        color: $white;
+        color: $white !important;
       }
 
       &__link-contact {
