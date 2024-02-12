@@ -30,6 +30,10 @@
 @import "marketplace";
 @import "ecommerce";
 @import "reviews";
+@import "ror_dev_services";
+@import "mob_dev_services";
+@import "staff_augmentation_services";
+@import "project_dev_services";
 @import "cards_snake_animation";
 @import "blog";
 
@@ -63,11 +67,7 @@
 
 p { margin: 0; }
 
-body {
-  font-family: 'Cera Regular', serif;
-  min-width: 390px;
-}
-details > summary::-webkit-details-marker { display: none; }
+body { font-family: 'Cera Regular', serif; }
 
 a:hover { text-decoration: none !important; }
 

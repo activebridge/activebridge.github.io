@@ -1,0 +1,186 @@
+title: Mobile application development
+subtitle: We build responsive mobile applications with rich features and solid
+          security.
+description: Our team has 5+ years of experience in <b>custom mobile applications
+             development</b> that spans such industries as healthcare, edtech,
+             taxi & transportation, travel and booking. Based on our technology
+             expertise, proactive approach, and agile methodology, we make sure
+             your investments are optimized at every step of the <b>mobile app
+             development process</b>.
+industries_title: "Industries:"
+industries:
+- title: Healthcare
+  icon: industry_1.webp
+- title: Edtech
+  icon: industry_2.webp
+- title: Taxi & Transportation
+  icon: industry_3.webp
+- title: Travel & Booking
+  icon: industry_4.webp
+cross_platform:
+  title: Cross-platform mobile app development services
+  description: our dedicated teams provide
+  all:
+  - title: React Native rapid development
+    icon: white_react.webp
+    description: Our cross-platform mobile technology engineers provide high-performing
+                 code that delivers app excellent engagement and conversions across
+                 iOS, Android, Web platforms.
+  - title: Flutter app development
+    icon: white_flutter.webp
+    description: Our <b>Flutter developers</b> provide effective, high-performing,
+                 high-fidelity iOS and Android solutions. We take all advantages
+                 of the technology like agile rapid development and easier
+                 testing process.
+  - title: Ionic development services
+    icon: white_ionic.webp
+    description: Our <b>Ionic developers build</b> customized applications, that
+                 run fast on all of the latest mobile devices, thanks to Ionic
+                 library of mobile-optimized UI components, gestures, and tools
+                 for building highly interactive apps
+  subtitle: Our experts build robust native applications or equally functional
+           cross-platform apps that users love.
+react_native:
+  title: React Native app development
+  description: Our <b>React Native Development company</b> delivers high-performance
+               and secure mobile applications. React Native is a JavaScript
+               framework for developing cross-platform applications. We don’t
+               build a web or a hybrid app, Active Bridge creates projects
+               identical to native iOS and Android ones with building components
+               and APIs. The result is a mobile UI with all features of the native
+               apps.
+  all:
+  - title: Rapid and cheap mobile app development
+    icon: react_native_1.webp
+    description: React Native makes it possible to use the same codebase for
+                 Android and iOS apps. That’s why <b>React Native development
+                 services</b> cost less and allow reducing development time by
+                 up to 30% compared to native Android/iOS projects.
+  - title: Custom interface design with UI/UX components
+    icon: react_native_2.webp
+    description: Leveraging React Native framework, developers create apps with
+                 an engaging user experience. React Native helps our engineers
+                 to build flawless UI/UX design with push animations, basic
+                 transitions, overrides, and gestures.
+  - title: Easy to update any changes in functionality
+    icon: react_native_3.webp
+    description: React Native intuitive modular architecture provides the ability
+                to update applications quickly. It’s profitable for businesses
+                to create stable, flexible applications that withstand AppStore
+                and PlayMarket requirements.
+flutter:
+  title: Flutter application development
+  description_1: Flutter is a mobile app software development kit (SDK) built by
+                Google for Android and iOS. It is a <b>cross-platform app
+                development tool</b>. Businesses use Flutter to fill the gap
+                between quality and productivity and to build apps for iOS and
+                Android without extra costs. It is one of the newest cross-platform
+                technologies our development team prefers to use.
+  description_2: What’s unique about Flutter, it makes it possible to build apps
+                 that look and work like native ones but without native components.
+  all:
+  - title: An app has the potential for further growth
+    icon: flutter_1.webp
+    description: Experienced <b>Flutter developers</b> design apps that will not
+                 only work on mobile devices but also on web browsers and desktops.
+                 That’s possible thanks to a single codebase.
+  - title: Fast coding and perfect UX
+    icon: flutter_2.webp
+    description: Flutter is built based on the principles of <b>modern development
+                 practices</b>. It means developers create mobile applications
+                 with <b>reach UI elements</b> in only several lines of code.
+                 The Flutter includes two ranges of widgets corresponding to
+                 Google’s design language (Material Design widgets) and Apple’s
+                 iOS design language.
+  - title: Better Native Performance
+    icon: flutter_3.webp
+    description: Flutter helps to rephrase the content to UI manually and can
+                 update factors in the state. So mobile developers can skip various
+                 needless actions to build <b>swift and flawless UI</b>. Also,
+                 Fluter makes the testing process <b>quicker and more efficient<b>.
+                 Engineers use a single test for both platforms.
+ionic:
+  title: Ionic <br> application development
+  description: Ionic is an open-source framework used for <b>hybrid mobile app
+              development. Hybrid apps</b> refer to mini websites operating
+              within a mobile app and possessing direct access to the primary
+              levels of the server. Focus on technology innovation nature, our
+              team of <b>Ionic developers</b> leverages Ionic navigation tools,
+              Ionic features, and Cordova plugins to develop <b>feature-rich
+              hybrid apps.</b>
+  all:
+  - title: Scalable user interfaces
+    icon: ionic_1.webp
+    description: <b>Ionic app developers</b> mix HTML5 and CSS3 and cross-fitting
+                 the same with JavaScript libraries to provide visually appealing
+                 UI, therefore drawing more customers to the site.
+  - title: Rapid development and space optimization
+    icon: ionic_2.webp
+    description: <p>Ionic framework focuses on agile languages and enables fast
+                 development at a low cost. Also, the Ionic development team
+                 designs space-optimized apps. This optimization enhances RAM
+                 and escalates the efficiency of a particular device.</p>
+                 <p>Our Ionic developers leverage the mobile SDK, plugins, themes,
+                 UI library, widgets, side menu, touch, and other elements to
+                 build robust hybrid apps.</p>
+approaches:
+  title: Cross-platform application development approach
+  subtitle: We assist you to build intuitive, easy-to-use applications that
+            attract and retain user attention.
+  output: "Output:"
+  all:
+  - title: Discovery stage.
+    icon: approach_1.webp
+    description: A client approaches us with an idea for a mobile app. We request
+                 a Terms of Reference (ToR), and if the customer doesn’t have
+                 one, we send a brief for developing a mobile app. The brief helps
+                 to prioritize the app’s goals and objectives. If required, we
+                 sign an NDA.
+  - title: Estimation stage
+    icon: approach_2.webp
+    description: A quick estimation takes from a few hours to a day and provides
+                 a rough idea of the labor involved. A detailed estimation takes
+                 from several days to a week, but it gives a precise idea of a result.
+    output:
+      - text: scope of tasks
+      - text: project budget
+  - title: Analysis and Planning stage
+    icon: approach_3.webp
+    description: Analytics is not always part of the mobile app development
+                 process. Analysts identify the requirements for a mobile application,
+                 build schemes of user interactions, design the basis of UI - wireframes.
+    output:
+    - text: functional requirements specification
+    - text: specification of non-functional requirements
+    - text: basis of graphic interface - wireframes
+    - text: project plan
+    - text: detailed budget
+  - title: Application design stage
+    icon: approach_4.webp
+    description: Some clients come with an out-of-the-box design. If the customer
+                 does not have a design, we generate the UI/UX from scratch. At
+                 this stage, the UI/UX designer provides static prototypes and,
+                 at the clients request, interactive application prototypes.
+    output:
+    - text: wireframes
+    - text: style guide
+    - text: mockups
+    - text: prototypes
+  - title: App development stage
+    icon: approach_5.webp
+    description: "This part includes the development of three integral parts:
+                 back-end/server technology, API(s) and the mobile app front-end."
+    output:
+    - text: test version of the application
+  - title: Testing and bug-fixing
+    icon: approach_6.webp
+    description: We perform quality assurance (QA) testing during the mobile app
+                 development process. It makes applications stable, usable, and
+                 secure.
+    output:
+    - text: user experience testing
+    - text: functional testing
+    - text: performance testing
+    - text: security testing
+  - title: Deployment & Support stage
+    icon: approach_7.webp

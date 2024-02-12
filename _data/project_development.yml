@@ -1,0 +1,109 @@
+title: Project development engagement model
+subtitle_1: Feel the flexibility of management by augmenting your in-house team with our experts at the cost of offshore specialists
+subtitle_2: Level of Customer Satisfaction
+subtitle_3: "The Project Development contract (Fixed Price) is associated with a pre-determined project cost. It is ideal to:"
+description_1: Creating outstanding <b>web application development solutions</b> involves blending years of experience gained from working on a
+               variety of projects across specific industries. Our <b>full-stack web application developers</b> have taken the digital services
+               to a high-level experience recognized by all our clients. Developers’ expertise is our main asset.
+description_2: Our customer-centric approach has enhanced great success since Active Bridge company’s establishment. Based on the Project Development
+               Engagement model, Active Bridge provides the full force of our web application development team to businesses in need of a complete
+               project management and development solution. We fully design, cost out, and implement the project from start to finish.
+level:
+- title: Innovation
+  icon: chart_1.svg
+- title: Quality
+  icon: chart_2.svg
+- title: Responsibility
+  icon: chart_3.svg
+- title: Price/Quality
+  icon: chart_4.svg
+- title: Willingness to Provide a Referral
+  icon: chart_5.svg
+contract:
+- icon: contract_1.webp
+  description: Companies launching their own product on the market with clearly fixed deadlines
+- icon: contract_2.webp
+  description: Early-stage startups with clear goals and expected results, but without a tech team
+- icon: contract_3.webp
+  description: Companies negotiated all the procedures beforehand and aren’t planning to change anything about the project in the process.
+key_benefits:
+  title: Key benefits of Project Development Contract
+  subtitle: Our neatly organized project development process allows us to deliver scalable reliable applications faster
+  all:
+  - icon: key_benefit_1.webp
+    description: No extra management
+  - icon: key_benefit_2.webp
+    description: Clear project goals
+  - icon: key_benefit_3.webp
+    description: No recruitment costs
+  - icon: key_benefit_4.webp
+    description: Fixed deadlines
+workflow:
+  title: Custom web application development workflow
+  tools: "Tools: "
+  client_gets_title: "Our client gets: "
+  all:
+  - icon: workflow_1.webp
+    title: Investigation and estimation
+    description: "This stage is mostly about communication: calls, online meetings, and raw estimates. We gather information on the client’s project
+                 goals, purposes, and features and identify the current and most suitable tech solutions."
+    client_gets:
+      - item: Application development consulting with CTO
+      - item: Ideas processing with the development team
+      - item: Approximate project estimates
+    tools: Google Meets, Skype, Confluence, Miro
+  - icon: workflow_2.webp
+    title: Planning and preparation stage
+    description: This stage is about solving the crucial initial stage tasks. Assigned to a project team leader contacts the client to get the
+                 information needed and clarifies details. We expect to get from the client information about product specifics and business model,
+                 in turn, we provide details about processes, technologies and team composition.
+    client_gets:
+      - item: Product Roadmap and Product Backlog with user stories
+      - item: Designed project architecture and set up the tools needed
+      - item: Scheduled first Development Sprint
+      - item: Final web development service agreement
+    tools: Jira, Confluence, Figma
+  - icon: workflow_3.webp
+    title: Web design and UI/UX engineering
+    description: During this stage referred to as web graphic/UI design, our web designer works out the user interface in a way that is visually
+                 appealing, accessible to all users, and on cross-functional platforms. The designer produces wireframes and mockups and creates a
+                 clickable prototype (Low-Fi or Hi-Fi) to validate UI solutions. Once the client confirms the prototype, the designer creates specifications
+                 for design implementation.
+    client_gets:
+      - item: Project wireframes
+      - item: Sketching and Low-Fi prototyping
+      - item: Clickable prototype (Low-Fi or Hi-Fi)
+      - item: Creating a design from the prototype
+    tools: Adobe Photoshop, Illustrator, Corel Draw, Sketch
+  - icon: workflow_4.webp
+    title: Full-stack web application development
+    description: By this stage, the web application development team has the information they need to build, test, and deliver project features. We follow
+                 Agile methodologies of web development flow based on the Scrum framework. The assigned development team follows user stories and achieves
+                 sprint goals delivering working solutions on time and within budget. Each sprint result is delivered and tested piece of the project.
+    client_gets:
+      - item: Hosting, setting up a development environment and database configuration
+      - item: Full-stack project development approach
+      - item: Daily or weekly reports on completed tasks
+    tools: GitHub, Trello, Basecamp, CodePen
+  - icon: workflow_5.webp
+    title: Testing and deployment
+    description: This stage’s objective is to clear out all remaining bugs and ensure that the project works well across devices. Assigned QA specialist performs
+                 automated and manual testing to assure code quality and user experience. Developers check whether the project has any security vulnerabilities or
+                 data breaches, and they deploy code to AWS or Heroku.
+    client_gets:
+      - item: Behavior (BDD) and Test-driven development (TDD) approach
+      - item: CI/CD practice to maintain delivery speed by checking code automatically and instantly before deployment.
+      - item: Manual QA and test automation services
+      - item: Security vulnerabilities check
+      - item: Project deployment to AWS/Heroku/Github
+    tools: Datadog, Sematext, Jira, Trello, Testrail, Charles, DDMC Android studio, Robot Framework
+  - icon: workflow_6.webp
+    title: Post-release support and maintenance
+    description: We launch the project, set up continuous integration and delivery to increase deployment capacity. The client and development team make sure that
+                 things go as smoothly as possible. At this stage, we establish the post-release technical and organizational collaboration process between the client’s
+                 in-house team and our web application design and development team.
+    client_gets:
+      - item: Access to source code and build files
+      - item: Technical consulting and implementing changes
+      - item: An agile project update process
+    tools:  AWS, Kubernetes, Docker

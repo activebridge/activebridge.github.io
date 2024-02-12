@@ -1,0 +1,139 @@
+---
+permalink: /services/project-development-cooperation
+layout: default
+title: Full-Stack Web Application Development | Active Bridge
+description: Our neatly organized web project development process allows us to
+             deliver scalable reliable applications faster.  Developers' expertise
+             is our main asset.
+---
+
+<div class="container project_dev_services development">
+  <div class="project_dev_services__main">
+    <div class="row">
+      <div class="header-3">{{ site.data.project_development.title }}</div>
+      <div class="header-2 with-margin">
+        {{ site.data.project_development.subtitle_1 }}
+      </div>
+      <div class="description">
+        {{ site.data.project_development.description_1 }}
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.project_development.subtitle_2 }}
+      </div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.project_development.level %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/project_development/{{ item.icon }}" alt="Level" class="w-100">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.title }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="description">
+        {{ site.data.project_development.description_2 }}
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.project_development.subtitle_3 }}
+      </div>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.project_development.contract %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/project_development/{{ item.icon }}" alt="Contract">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="project_dev_services__key_benefits wrap">
+    <div class="row">
+      <h1 class="header-3">{{ site.data.project_development.key_benefits.title }}</h1>
+      <div class="list-with-images horizontal">
+        {% for item in site.data.project_development.key_benefits.all %}
+          <div class="list-with-images__item">
+            <div class="list-with-images__item-icon">
+              <img src="/assets/images/project_development/{{ item.icon }}" alt="Key">
+            </div>
+            <div class="list-with-images__item-text">
+              <div class="description">{{ item.description }}</div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="header-2 with-margin">
+        {{ site.data.project_development.key_benefits.subtitle }}
+      </div>
+    </div>
+  </div>
+
+  <div class="project_dev_services__workflow wrap">
+    <div class="row">
+      <h2 class="header-3 white-text">
+        {{ site.data.project_development.workflow.title }}
+      </h2>
+      <div class="timeline">
+        {% for item in site.data.project_development.workflow.all %}
+          <div class="timeline-item">
+            <div class="timeline-item__icon">
+              <img src="/assets/images/project_development/{{ item.icon }}" alt="Workflow">
+            </div>
+            <div class="timeline-item__content">
+              <div class="timeline-item__content-title inria white-text">
+                {{ item.title }}
+              </div>
+              <div class="timeline-item__content-description white-text">
+                {{ item.description }}
+              </div>
+              <div class="timeline-item__content-output">
+                <div class="timeline-item__content-output-title">
+                  {{ site.data.project_development.workflow.client_gets_title }}
+                </div>
+                <ul class="timeline-item__content-output-list">
+                  {% for el in item.client_gets %}
+                    <li class="timeline-item__content-output-item">{{ el.item }}</li>
+                  {% endfor %}
+                </ul>
+                <div class="timeline-item__content-bottom white-text">
+                  <span class="inria">
+                    {{ site.data.project_development.workflow.tools }}
+                  </span>
+                  {{ item.tools }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="development__cards wrap flex-columns-center">
+    <div class="row flex-columns-center">
+      <div class="header-2">
+        {{ site.data.team_extension.services.title }}
+      </div>
+      <div class="cards-container cards-container-2">
+        {% for item in site.data.team_extension.services.all %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__icon">
+              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Service">
+            </div>
+            <div class="card__description">{{ item.description }}</div>
+          </div>
+        {% endfor %}
+      </div>
+      <a id="project_dev_button" class="button", target="_blank" href="/services" target="_blank">
+        {{ site.data.team_extension.services.button }}
+      </a>
+    </div>
+  </div>
+</div>

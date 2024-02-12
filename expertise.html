@@ -30,8 +30,8 @@ scripts: [carousel]
     </div>
   </div>
 
-  <div class="alabaster expertise__industries">
-    <div class="wrapper">
+  <div class="alabaster expertise__industries wrap">
+    <div class="row flex-columns-center">
       <div class="header-3">{{ site.data.expertise.industries.projects }}</div>
       <div class="header-2">{{ site.data.expertise.industries.subtitlen }}</div>
       <div class="header-3">{{ site.data.expertise.industries.title }}</div>
@@ -68,8 +68,8 @@ scripts: [carousel]
     </div>
   </div>
 
-  <div class="expertise__testimonials">
-    <div class="wrap">
+  <div class="expertise__testimonials wrap">
+    <div class="row flex-columns-center">
       <div class="header-2">{{ site.data.expertise.testimonials.title }}</div>
     </div>
     {% include testimonials_carousel.html %}

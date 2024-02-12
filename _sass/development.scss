@@ -91,7 +91,7 @@
         justify-content: flex-start;
 
         &__icon {
-          height: 13vh;
+          height: 115px;
           display: flex;
 
           img {
@@ -111,6 +111,7 @@
   &__offer {
     background: $main-gradient;
     padding: 6vh 18vw;
+    box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, .25);
 
     .header-2 {
       max-width: 75%;
@@ -177,6 +178,7 @@
         .card {
           min-width: 75vw;
           padding: 3vh 7vw;
+              height: 400px;
 
           &:not(:last-child) { margin-bottom: 3vh; }
 

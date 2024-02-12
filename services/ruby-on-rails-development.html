@@ -1,0 +1,159 @@
+---
+permalink: /services/ruby-on-rails-development
+layout: default
+title: Ruby on Rails Application Development Expertise | Active Bridge
+description: We drive our partners through creating robust, quick, and thorough
+             Rails apps for more than 10 years. We offer great input when it
+             comes to strategy, tech stack, and design.
+---
+
+<div class="container ror_dev_services development">
+  <div class="ror_dev_services__main wrap">
+    <div class="header-2">{{ site.data.ror_dev_services.title }}</div>
+    <div class="description">{{ site.data.ror_dev_services.description }}</div>
+    <img src="/assets/images/ror_development_services/diamond.webp" alt="Diamond">
+    <div class="header-2">{{ site.data.ror_dev_services.subtitle }}</div>
+  </div>
+
+  <div class="ror_dev_services__ror wrap">
+    <h1 class="header-3">{{ site.data.ror_dev_services.ror.title }}</h1>
+    <div class="list-with-images">
+      {% for item in site.data.ror_dev_services.ror.all %}
+        <div class="list-with-images__item">
+          <div class="list-with-images__item-icon">
+            <img src="/assets/images/ror_development_services/{{ item.icon }}" alt="RoR">
+          </div>
+          <div class="list-with-images__item-text">
+            <div class="header-2">{{ item.title }}</div>
+            <div class="description">{{ item.description }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ror_dev_services__reasons wrap">
+    <div class="header-2">{{ site.data.ror_dev_services.reasons.title }}</div>
+    <div class="description">
+      {{ site.data.ror_dev_services.reasons.description }}
+    </div>
+    <div class="extendable_cards">
+      {% for card in site.data.ror_dev_services.reasons.all %}
+        <div class="extendable_card-wrapper">
+          <div class="extendable_card transition">
+            <img src="/assets/images/ror_development_services/{{ card.icon }}" alt="Icon">
+            <div class="header-2">{{ card.title }}</div>
+            <div class="description">{{ card.description }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ror_dev_services__quality wrap">
+    <div class="header-3">{{ site.data.ror_dev_services.quality.title }}</div>
+    <div class="header-2">{{ site.data.ror_dev_services.quality.title }}</div>
+    <div class="description with_margin">
+      {{ site.data.ror_dev_services.quality.description_1 }}
+    </div>
+    <div class="header-2 white-text with-bg">
+      {{ site.data.ror_dev_services.quality.description_2 }}
+    </div>
+    <div class="development__awards">
+      {% for image in site.data.web_dev_services.solutions.awards %}
+        <img src="/assets/images/{{ image.logo }}" alt="Award">
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ror_dev_services__approaches wrap">
+    <div class="header-3">
+      {{ site.data.ror_dev_services.approaches.title }}
+    </div>
+    <div class="description with_margin">
+      {{ site.data.ror_dev_services.approaches.description }}
+    </div>
+    <div class="list-with-images">
+      {% for item in site.data.ror_dev_services.approaches.all %}
+        <div class="list-with-images__item">
+          <div class="list-with-images__item-icon">
+            <img src="/assets/images/ror_development_services/{{ item.icon }}" alt="Approach" class="ror_dev_services__approaches-img">
+          </div>
+          <div class="list-with-images__item-text">
+            <div class="header-2">{{ item.title }}</div>
+            {% if item.description %}
+              <div class="description">{{ item.description }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ror_dev_services__tools wrap">
+    <div class="header-3">{{ site.data.ror_dev_services.tools.title }}</div>
+    <div class="list-with-images horizontal">
+      {% for item in site.data.ror_dev_services.tools.all %}
+        <div class="list-with-images__item">
+          <div class="list-with-images__item-icon">
+            <img src="/assets/images/ror_development_services/{{ item.icon }}" alt="Approach" class="ror_dev_services__approaches-img">
+          </div>
+          <div class="list-with-images__item-text">
+            <div class="header-2">{{ item.title }}</div>
+            {% if item.description %}
+              <div class="description">{{ item.description }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="ror_dev_services__engagement development__cards wrap">
+    <div class="header-3">
+      {{ site.data.ror_dev_services.engagement_models.title }}
+    </div>
+    <div class="header-2">
+      {{ site.data.ror_dev_services.engagement_models.subtitle }}
+    </div>
+    <div class="cards-container">
+      {% for item in site.data.ror_dev_services.engagement_models.all %}
+        <div class="card">
+          <div class="card__title-2">{{ item.title }}</div>
+          <div class="card__description">{{ item.description }}</div>
+          <a href="/expertise" class="button">
+            {{ site.data.web_dev_services.button }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="development__offer">
+    <div class="header-2 white-text">
+      {{ site.data.web_dev_services.offer_text }}
+    </div>
+  </div>
+
+  <div class="development__carousel wrap">
+    <div class="carousel">
+      <input type="radio" name="ror" id="solution-1-4" checked>
+      <input type="radio" name="ror" id="solution-2-4">
+      <input type="radio" name="ror" id="solution-3-4">
+      <div class="carousel__list">
+        {% for industry in site.data.web_dev_services.industries.all %}
+          <label class="carousel__item" for="solution-{{ industry.index }}-4" id="card-{{ industry.index }}-solution-4">
+            <h2 class="carousel__title inria">{{ industry.title }}</h2>
+            <div class="carousel__description ">{{ industry.description }}</div>
+            <a href="/expertise" class="button white-text" id="ror_dev_{{ item.index }}">
+              {{ site.data.web_dev_services.button }}
+            </a>
+          </label>
+        {% endfor %}
+      </div>
+    </div>
+    <a id="ror_dev_button" class="button dev_services__carousel-btn", target="_blank" href="/contacts">
+      {{ site.data.services.approaches.button }}
+    </a>
+  </div>
+</div>
