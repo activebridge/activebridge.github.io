@@ -645,7 +645,7 @@ input#menu {
 
 @media (max-width: 930px) { .main-svg { display: none;} }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .title-2 {
     font-size: 18px;
     letter-spacing: 9px;
@@ -665,4 +665,5 @@ input#menu {
     font-size: 10px;
     line-height: 15px;
   }
+  .container { padding-top: 0; }
 }

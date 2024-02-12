@@ -2,7 +2,7 @@ if (document.readyState !== "loading") { initTransitionView() }
 document.addEventListener("DOMContentLoaded", initTransitionView);
 
 function initTransitionView() {
-  if (screen.width > 748) {
+  if (screen.width > 768) {
     setActiveNavLink();
     const transition_links = document.querySelectorAll('[data-link="transition"]')
 
