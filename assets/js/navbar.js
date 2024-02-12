@@ -30,7 +30,7 @@ function innitMobileNavbar() {
   drag.addEventListener('touchstart', function(event) {
     startX = event.touches[0].pageX;
     startY = event.touches[0].pageY;
-  });
+  }, { passive: true });
 
   drag.addEventListener('touchmove', function(event) {
     let moveX = event.touches[0].pageX;
@@ -52,7 +52,7 @@ function innitMobileNavbar() {
         }, 100);
       }
     }
-  });
+  }, { passive: true });
 
   drag.addEventListener('touchend', function(event) {
     dragSvg.classList.remove('touch-right', 'touch-left');
