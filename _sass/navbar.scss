@@ -142,11 +142,18 @@ header {
 
 @media (max-width: 748px) {
   header {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    background-color: $white;
+    background-color: inherit;
+    box-shadow: none;
     view-transition-name: none;
+    top: 0;
     z-index: 5;
+
+    a.logotype {
+      position:absolute;
+      top: 0;
+    }
 
     .header-navbar {
       position: fixed;
