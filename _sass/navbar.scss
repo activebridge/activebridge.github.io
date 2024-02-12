@@ -230,6 +230,7 @@ header {
       padding: 28px 20px;
       cursor: pointer;
       z-index: 3;
+      -webkit-tap-highlight-color: transparent;
 
       .navicon {
         position: relative;
