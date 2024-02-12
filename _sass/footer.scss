@@ -72,8 +72,6 @@
       white-space: nowrap;
       text-decoration: none;
 
-
-
       &.bold {
         color: $black;
         font-family: 'Cera-Medium';
@@ -82,15 +80,15 @@
     }
 
     &-sub-link {
-      color: rgba($scorpion, .5);
+      color: rgba($black, .8);
       text-decoration: none;
 
-      &:hover { color: $black; }
+      &:hover { color: $main-violet; }
     }
 
     &-copyright {
       font-size: 0.9em;
-      color: rgba($scorpion, .5);
+      color: rgba($black, .8);
     }
 
     &-social-icons {
@@ -129,7 +127,8 @@
     }
 
     &__item {
-      color: rgba($scorpion, .5);
+      color: $black;
+
       text-decoration: none;
       padding-bottom: 1.5vh;
     }
