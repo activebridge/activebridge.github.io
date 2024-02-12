@@ -223,7 +223,7 @@
 @media (max-width: 900px) {
   .solutions {
     &__main {
-      padding: 120px 0 40px 0;
+      padding: 55px 0 40px 0;
       .about-us {
         flex-direction: column;
         align-items: center;
@@ -234,7 +234,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .solutions {
     &__circle-background {
       border-radius: none;

@@ -315,6 +315,7 @@ body {
     background: $main-gradient;
   }
 }
+@media (max-width:768px) { .home-page-container { top: 0; } }
 
 @media (max-width: 600px) {
   .info-container.index-home { padding-top: 10vh; }

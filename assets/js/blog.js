@@ -2,7 +2,7 @@ if (document.readyState !== "loading") { initBlogPageListener() }
 document.addEventListener("DOMContentLoaded", initBlogPageListener);
 
 function initBlogPageListener() {
-  if (screen.width > 748) {
+  if (screen.width > 768) {
     const navbar_links = document.querySelectorAll('[data-link="blog-link"]')
     document.querySelector('.blog-main__header-description').classList.add('active');
 

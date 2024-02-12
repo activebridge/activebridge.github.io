@@ -74,7 +74,7 @@ header {
 .navbar-more-bulb {
   animation: appearSvg 1s ease-out;
   position: absolute;
-  left: -10px;
+  left: -15px;
   top: 50%;
   transform: translateY(-50%);
   height: 100%;
@@ -87,7 +87,7 @@ header {
 
   &.touch-left {
     transition: all .1s ease-in-out;
-    left: -20px;
+    left: -25px;
   }
 }
 
@@ -140,13 +140,20 @@ header {
   }
 }
 
-@media (max-width: 748px) {
+@media (max-width: 768px) {
   header {
-    position: fixed;
+    position: absolute;
     width: 100%;
-    background-color: $white;
+    background-color: inherit;
+    box-shadow: none;
     view-transition-name: none;
+    top: 0;
     z-index: 5;
+
+    a.logotype {
+      position:absolute;
+      top: 0;
+    }
 
     .header-navbar {
       position: fixed;
@@ -199,7 +206,10 @@ header {
       &__link {
         display: block;
         padding: 2.5vw 1vw;
-        color: $white;
+      }
+
+      &__item {
+        .header-navbar__link { color: $white; }
       }
 
       &__link-contact {
@@ -212,6 +222,7 @@ header {
       .mobile-only {
         margin-top: 10vw;
         padding-bottom: 5vh;
+        .header-navbar__link-contact { color: $white; }
       }
     }
 

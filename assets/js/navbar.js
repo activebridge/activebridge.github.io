@@ -9,7 +9,7 @@ function innitMobileNavbar() {
   const navButton = document.querySelector('.menu-icon');
   const closeMobileNavButton = document.querySelector('.menu-close-ico')
 
-  if (screen.width < 748) { drag.classList.add('show') }
+  if (screen.width < 768) { drag.classList.add('show') }
 
   closeMobileNavButton.addEventListener('click', () => {
     drag.style.right = '-89vw';
