@@ -3,11 +3,17 @@
     {% include svgs/logo.html %}
   </a>
   <input id="menu-btn" class="menu-btn" type="checkbox">
-  <div class="overlay"></div>
-  <label class="menu-icon" for="menu-btn">
-    <span class="navicon"></span>
-  </label>
+  <div class="navbar-overlay"></div>
+
   <ul class="header-navbar">
+    <li>
+      <label class="menu-icon" for="menu-btn">
+        <span class="navicon"></span>
+      </label>
+      {% include svgs/navbar/bulb.html %}
+      {% include svgs/navbar/more-bulb.html %}
+    </li>
+
     {% for link in site.data.navbar.links %}
       <li class="header-navbar__item">
         {% if link.items %}
@@ -24,14 +30,15 @@
         {% endif %}
       </li>
     {% endfor %}
+    <li class="header-navbar__link header-navbar__link-contact desktop-only">
+      <a href="/contacts"  data-link="nav-link">contact us</a>
+    </li>
 
-    <a href="/contacts" class="header-navbar__link header-navbar__link-contact desktop-only" data-link="nav-link">contact us</a>
-
-    <div class="mobile-only">
+    <li class="mobile-only">
       <a href="/contacts" class="header-navbar__link header-navbar__link-contact">contact us</a>
       <div class="header-navbar__close">
         <label for="menu-btn" class="menu-close-ico">⟶</label>
       </div>
-    </div>
+    </li>
   </ul>
 </header>

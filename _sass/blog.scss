@@ -471,7 +471,9 @@
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
+  .blog { &__main-block { padding: 60px 0; }}
+
   .prev-next-posts {
     grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
     &__read-also { display: none; }

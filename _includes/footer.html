@@ -30,7 +30,7 @@
       {% endfor %}
       <div class="footer__navigation-social-icons desktop-only">
         {% for icon in site.data.footer.navigation.social_icons %}
-          <a href="{{ icon.link }}">
+          <a href="{{ icon.link }}" aria-label="{{ icon.icon }}">
             {% include svgs/footer/{{icon.icon}}.html %}
           </a>
         {% endfor %}
@@ -38,7 +38,7 @@
     </li>
     <li class="footer__navigation-social-icons mobile-only">
       {% for icon in site.data.footer.navigation.social_icons %}
-        <a href="{{ icon.link }}">
+        <a href="{{ icon.link }}" aria-label="{{ icon.icon }}">
           {% include svgs/footer/{{icon.icon}}.html %}
         </a>
       {% endfor %}
