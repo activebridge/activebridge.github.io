@@ -7,10 +7,10 @@
         <div class="animate-visibility__image">
           <img src="{{ item.image }}" alt="Logo">
         </div>
-        <div class="animate-visibility__image">
+        <div class="animate-visibility__image without-margin">
           {% include svgs/testimonials/{{ item.logo }} %}
         </div>
-        <p class="animate-visibility__description">{{ item.description}}</p>
+        <div class="animate-visibility__description"><p>{{ item.description}}</p></div>
       </div>
     </div>
   {% endfor %}

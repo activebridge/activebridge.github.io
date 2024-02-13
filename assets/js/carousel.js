@@ -12,6 +12,32 @@ function setCarousel(nodeElement) {
   let copyOfItems = Array.from(items);
   let reverseNewItems = [...copyOfItems].reverse();
 
+  const setCarouselHeight = (items) => {
+    let tallestHeight = 0;
+
+    items.forEach((item) => {
+      let cardHeight = item.querySelector('.animate-visibility__description').textContent.length;
+      if (cardHeight > tallestHeight) {
+        tallestHeight = cardHeight;
+      }
+    });
+
+    let newHeight = 0;
+    switch(true) {
+      case(tallestHeight < 300):
+        newHeight = 500;
+        break;
+      case(tallestHeight < 500):
+        newHeight = 550;
+        break;
+      default:
+        newHeight = tallestHeight;
+        break;
+    }
+    scroller.setAttribute("style", `min-height: ${newHeight+ 'px'}`);
+  }
+  setCarouselHeight(items);
+
   const setElements = () => {
     copyOfItems.forEach((item) => {
       scroller.insertBefore(item.cloneNode(true), items[0]);
@@ -26,7 +52,6 @@ function setCarousel(nodeElement) {
   setTimeout(function() {
     scroller.scroll({ left: scroller.scrollLeft + scroller.children[1].offsetWidth, behavior: "smooth", });
   });
-
 
   const updateScale = () => {
     let items = scroller.querySelectorAll('[data-scroll="item"]');
