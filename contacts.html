@@ -16,9 +16,9 @@ scripts: [contacts-form]
         {{ site.data.contacts.description }}
       </p>
     </div>
-    <form class="contacts__form" id="contacts-form">
 
-      <div class="contacts__form-group">
+    <form class="contacts__form" id="contacts-form">
+      <div class="contacts__form-group contacts__form-select">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
         <select class="contacts__field contacts__field--select" name="subject" id="subject" required="true">
           {% for option in site.data.contacts.select.options %}
@@ -26,15 +26,19 @@ scripts: [contacts-form]
           {% endfor %}
         </select>
       </div>
+
       <div class="contacts__form-group">
         <label class="contacts__form-label" for="name"> Your Name*</label>
         <input class="contacts__field" type="name" name="name" id="name" placeholder="Alex Howard" required="true">
       </div>
+
       <div class="contacts__form-group">
         <label class="contacts__form-label contacts__form-label" for="body">Provide the project details and your expectations in case of cooperating with our team</label>
         <textarea class="contacts__field" id="body" name="body" placeholder="Type here"></textarea>
       </div>
+
       <a class="contacts__field contacts__to-faq" href="/faq" data-link="transition">{{site.data.contacts.link_to_faq}}</a>
+
       <div class="contacts__after-send after-send">
         <h3 class="title-3">{{site.data.contacts.form.description.title}}</h3>
         <ul class="after-send__list">
@@ -43,6 +47,7 @@ scripts: [contacts-form]
           {% endfor %}
         </ul>
       </div>
+
       <button class="button contacts__submit-btn" type="submit" id="send" type="submit">Send</button>
     </form>
   </div>
