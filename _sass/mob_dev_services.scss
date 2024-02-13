@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .mob_dev_services {
     .header-2 { font-size: 1em; }
 
@@ -87,5 +87,22 @@
     .development__cards .cards-container .card__description {
       margin: 20px 10px;
     }
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .mob_dev_services__main {
+    .list-with-images.horizontal {
+      .list-with-images__item-icon img { max-width: 135px; }
+    }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 875px) {
+  .mob_dev_services__main {
+    .list-with-images.horizontal {
+      justify-content: space-around;
+
+      .list-with-images__item { max-width: 30%; }
+    }
+  }
+}
   }
 }
