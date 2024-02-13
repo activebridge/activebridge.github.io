@@ -1,251 +1,204 @@
-.carousel {
-  width: 100%;
-  max-width: 800px;
-  max-height: 600px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 6vh;
-  transform-style: preserve-3d;
-  user-select: none;
+.carousel-scroll{
+  margin: 20px auto;
+  max-width: 950px;
+  position: relative;
 
-  input[type=radio] { display: none; }
-
-  &__list {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    max-height: 550px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  &__scroller {
+    background-color: inherit;
+    display: grid;
+    grid-auto-flow: column;
+    list-style-type: none;
+    padding: 0;
+    place-items: center;
+    overflow: scroll;
+    margin: 0 auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
   }
 
   &__item {
-    position: absolute;
-    width: 35vw;
-    max-width: 430px;
-    height: 70vh;
-    max-height: 530px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: $white;
-    border-radius: 24px;
-    cursor: pointer;
-    box-shadow: inset -4px -6px 10px grey, 2px 1px 12px 0px grey;
-    transition: all .3s ease-in;
+    view-timeline-name: --item;
+    view-timeline-axis: inline;
+    padding: 0;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    margin: 0;
+    min-height: 100px;
+    height: 70%;
   }
 
-  &__image {
-    width: 30%;
-    margin: 5vh 5vh 3vh;
+  .magnifying-overlay {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 4;
+  }
 
-    img {
-      width: 100%;
-      border-radius: 10px;
+  .carousel-scroll__item.scaling-up {
+    z-index: 3;
+
+    .animate-visibility {
+      animation: scaleUp 0.4s ease-in-out forwards;
+      transform: scale(1.4);
+      -webkit-transform: scale(1.4);}
+  }
+
+  @keyframes scaleUp {
+    from {
+      opacity: 0.5;
+      transform: scale(1);
+      -webkit-transform: scale(1)
+    }
+
+    to {
+      opacity: 1;
+      transform: scale(1.4);
+      -webkit-transform: scale(1.4);
     }
   }
+
+  &__animate-visibility {
+    animation: scalify ease-in-out;
+    animation-timeline: --item;
+    background: $white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: -2px -2px 12px 2px rgba(0, 0, 0, 0.25) inset;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0 15px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    user-select: none;
+    width: 277px;
+    z-index: 1;
+  }
+
+  &__animate-visibility.with-opacity {
+    opacity: 0.5;
+  }
+
+  @keyframes scalify {
+    50% {
+      opacity: 1;
+      scale: 1.4;
+      z-index: 3;
+    }
+  }
+}
+
+.animate-visibility {
+  overflow-y: hidden;
+  &__title.title-3 { font-size: 18px; }
+  .text-center { text-align: center; }
+  .text-justify { text-align: justify; }
+  .italic { font-style: italic; }
 
   &__description {
-    margin: 1vh 3vh 5vh;
-    display: -webkit-box;
-    font-size: .9em;
-    line-height: 1.8em;
-    overflow: hidden;
-    text-align: justify;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 7;
-  }
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    line-height: 15px;
+    height: 60%;
+    p { text-align: justify; }
 
-  .solutions,
-  .services {
-    &__title {
-      margin: 5vh 5vh 3vh;
-      letter-spacing: 0.3em;
-      line-height: 1.4em;
-      text-transform: uppercase;
-    }
-
-    &__logo {
-      display: flex;
-      justify-content: center;
-      width: 13vh;
-      height: 13vh;
-      margin: 0 auto 3vh;
-      border-radius: 6.5vh;
-      box-shadow: inset -3px -3px 7px -4px grey, 1px 1px 14px -2px grey;
-
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-
-  @for $number from 1 through 10 {
-    #item-1-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #solution-1-#{$number}:checked ~ .carousel__list #card-3-solution-#{$number},
-    #solution-2-#{$number}:checked ~ .carousel__list #card-1-solution-#{$number},
-    #solution-3-#{$number}:checked ~ .carousel__list #card-2-solution-#{$number} {
-      transform: translatex(-40%) scale(.9);
-      opacity: .4;
-      z-index: 0;
-    }
-
-    #item-1-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #solution-1-#{$number}:checked ~ .carousel__list #card-2-solution-#{$number},
-    #solution-2-#{$number}:checked ~ .carousel__list #card-3-solution-#{$number},
-    #solution-3-#{$number}:checked ~ .carousel__list #card-1-solution-#{$number} {
-      transform: translatex(40%) scale(.9);
-      opacity: .4;
-      z-index: 0;
-    }
-
-    #item-1-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #solution-1-#{$number}:checked ~ .carousel__list #card-1-solution-#{$number},
-    #solution-2-#{$number}:checked ~ .carousel__list #card-2-solution-#{$number},
-    #solution-3-#{$number}:checked ~ .carousel__list #card-3-solution-#{$number} {
-      transform: translatex(0) scale(1);
-      opacity: 1;
-      z-index: 1;
-    }
-
-    #item-1-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-1-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-1-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-1-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-2-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-3-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-4-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-5-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-    #item-6-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-    #item-7-#{$number}:checked ~ .carousel__list #card-3-#{$number} {
+    &::-webkit-scrollbar {
       display: none;
     }
   }
 
-  .testimonials-carousel {
-    .carousel__image { margin: 3vh 3vh 2vh; }
+  &__image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 
-    .carousel__logo {
-      img {
-        max-width: 80%;
-        height: 55px;
-      }
-
-      &.smaller_logo img { max-width: 60%; }
-
-      &.bigger_logo img { max-width: 100%; }
+    img, svg {
+      width: 100px;
     }
+  }
+  &__image.without-margin { margin-bottom: 0; }
+
+  &__list {
+    font-size: 12px;
+    line-height: 1.5em;
+    list-style: inside;
+    margin-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  &__button {
+    .button {
+      background: $main-gradient;
+      color: $white;
+      font-size: 11px;
+      margin-bottom: 20px;
+      padding: 10px 30px;
+
+      &:hover {
+        color: $black_sea;
+        background: $white;
+      }
+    }
+  }
+
+  .text-center.italic {
+    font-size: 11px;
+    line-height: 15px;
   }
 }
 
-@media (max-width: 600px) {
-  .carousel {
-    &__list {
-      margin: 0;
-      padding: 0;
-      height: 50vh;
+@media (max-width: 767px ) {
+  .carousel-scroll {
+    &__animate-visibility {
+      padding: 15px;
+      width: 250px;
     }
 
     &__item {
-      width: 60vw;
-      height: 42vh;
+      height: 60%;
     }
+  }
 
-    @for $number from 1 through 10 {
-      #item-1-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-      #item-2-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-      #item-3-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-      #item-4-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-      #item-5-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-      #item-6-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-      #item-7-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-      #solution-1-#{$number}:checked ~ .carousel__list #card-3-solution-#{$number},
-      #solution-2-#{$number}:checked ~ .carousel__list #card-1-solution-#{$number},
-      #solution-3-#{$number}:checked ~ .carousel__list #card-2-solution-#{$number} {
-        transform: translatex(-30%) scale(.8);
-      }
-
-      #item-1-#{$number}:checked ~ .carousel__list #card-2-#{$number},
-      #item-2-#{$number}:checked ~ .carousel__list #card-3-#{$number},
-      #item-3-#{$number}:checked ~ .carousel__list #card-4-#{$number},
-      #item-4-#{$number}:checked ~ .carousel__list #card-5-#{$number},
-      #item-5-#{$number}:checked ~ .carousel__list #card-6-#{$number},
-      #item-6-#{$number}:checked ~ .carousel__list #card-7-#{$number},
-      #item-7-#{$number}:checked ~ .carousel__list #card-1-#{$number},
-      #solution-1-#{$number}:checked ~ .carousel__list #card-2-solution-#{$number},
-      #solution-2-#{$number}:checked ~ .carousel__list #card-3-solution-#{$number},
-      #solution-3-#{$number}:checked ~ .carousel__list #card-1-solution-#{$number} {
-        transform: translatex(30%) scale(.8);
-      }
-    }
-
+  .animate-visibility {
+    &__title.title-3 { font-size: 12px; }
     &__description {
-      font-size: 0.7em;
-      -webkit-line-clamp: 6;
+      font-size: 9px;
     }
 
-    .solutions,
-    .services {
-      &__title { font-size: 1em; }
-
-      &__logo {
-        width: 8vh;
-        height: 8vh;
+    &__image {
+      img, svg {
+        width: 80px;
       }
     }
 
-    .testimonials-carousel {
-      .carousel__logo img { height: 40px; }
+    &__list {
+      font-size: 10px;
     }
   }
 }
 
-@media screen and (min-width: 1550px) {
-  .carousel {
-    &__image { margin: 3vh; }
+@media (max-width: 470px ) {
+  .carousel-scroll {
+    padding: 0 5px;
 
-    &__description { margin-bottom: 3vh; }
+    &__animate-visibility {
+      width: 220px;
+    }
   }
 }

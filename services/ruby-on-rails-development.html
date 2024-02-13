@@ -5,6 +5,7 @@ title: Ruby on Rails Application Development Expertise | Active Bridge
 description: We drive our partners through creating robust, quick, and thorough
              Rails apps for more than 10 years. We offer great input when it
              comes to strategy, tech stack, and design.
+scripts: [carousel]
 ---
 
 <div class="container ror_dev_services development">
@@ -129,31 +130,5 @@ description: We drive our partners through creating robust, quick, and thorough
     </div>
   </div>
 
-  <div class="development__offer">
-    <div class="header-2 white-text">
-      {{ site.data.web_dev_services.offer_text }}
-    </div>
-  </div>
-
-  <div class="development__carousel wrap">
-    <div class="carousel">
-      <input type="radio" name="ror" id="solution-1-4" checked>
-      <input type="radio" name="ror" id="solution-2-4">
-      <input type="radio" name="ror" id="solution-3-4">
-      <div class="carousel__list">
-        {% for industry in site.data.web_dev_services.industries.all %}
-          <label class="carousel__item" for="solution-{{ industry.index }}-4" id="card-{{ industry.index }}-solution-4">
-            <h2 class="carousel__title inria">{{ industry.title }}</h2>
-            <div class="carousel__description ">{{ industry.description }}</div>
-            <a href="/expertise" class="button white-text" id="ror_dev_{{ item.index }}">
-              {{ site.data.web_dev_services.button }}
-            </a>
-          </label>
-        {% endfor %}
-      </div>
-    </div>
-    <a id="ror_dev_button" class="button dev_services__carousel-btn", target="_blank" href="/contacts">
-      {{ site.data.services.approaches.button }}
-    </a>
-  </div>
+  {% include services_development_consultation.html %}
 </div>

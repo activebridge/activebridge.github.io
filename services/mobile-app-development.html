@@ -4,6 +4,7 @@ layout: default
 title: React Native Development Services | Active Bridge
 description: We build responsive mobile applications with rich features and solid
              security helping businesses to stay lean and build agile.
+scripts: [carousel]
 ---
 
 <div class="container mob_dev_services development">
@@ -178,31 +179,5 @@ description: We build responsive mobile applications with rich features and soli
     </div>
   </div>
 
-  <div class="development__offer">
-    <div class="header-2 white-text">
-      {{ site.data.web_dev_services.offer_text }}
-    </div>
-  </div>
-
-  <div class="development__carousel wrap flex-columns-center">
-    <div class="carousel">
-      <input type="radio" name="industry" id="solution-1-5" checked>
-      <input type="radio" name="industry" id="solution-2-5">
-      <input type="radio" name="industry" id="solution-3-5">
-      <div class="carousel__list">
-        {% for industry in site.data.web_dev_services.industries.all %}
-          <label class="carousel__item" for="solution-{{ industry.index }}-5" id="card-{{ industry.index }}-solution-5">
-            <h2 class="carousel__title inria">{{ industry.title }}</h2>
-            <div class="carousel__description ">{{ industry.description }}</div>
-            <a href="/expertise" class="button white-text" id="mob_app_{{ item.index }}">
-              {{ site.data.web_dev_services.button }}
-            </a>
-          </label>
-        {% endfor %}
-      </div>
-    </div>
-    <a id="mob_app_dev_button" class="button dev_services__carousel-btn", target="_blank" href="/contacts">
-      {{ site.data.services.approaches.button }}
-    </a>
-  </div>
+  {% include services_development_consultation.html %}
 </div>
