@@ -30,10 +30,10 @@ scripts: [carousel]
     </div>
   </div>
 
-  <div class="alabaster expertise__industries wrap">
-    <div class="row flex-columns-center">
+  <div class="alabaster expertise__industries">
+    <div class="wrapper">
       <div class="header-3">{{ site.data.expertise.industries.projects }}</div>
-      <div class="header-2">{{ site.data.expertise.industries.subtitlen }}</div>
+      <div class="header-2">{{ site.data.expertise.industries.subtitle }}</div>
       <div class="header-3">{{ site.data.expertise.industries.title }}</div>
     </div>
     <div class="carousel-scroll" >
@@ -45,12 +45,14 @@ scripts: [carousel]
             <div class="animate-visibility__image">
               <img src="/assets/images/{{ element.icon }}" alt="Logo">
             </div>
-            <p class="animate-visibility__description text-center italic">{{ site.data.expertise.industries.devs_work_on }}</p>
-            <ul class="animate-visibility__list">
-              {% for item in element.items %}
-                <li class="animate-visibility__list-item">{{ item }}</li>
-              {% endfor %}
-            </ul>
+            <p class="text-center italic">{{ site.data.expertise.industries.devs_work_on }}</p>
+            <div class="animate-visibility__description">
+              <ul class="animate-visibility__list">
+                {% for item in element.items %}
+                  <li class="animate-visibility__list-item">{{ item }}</li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
       {% endfor %}
@@ -68,8 +70,8 @@ scripts: [carousel]
     </div>
   </div>
 
-  <div class="expertise__testimonials wrap">
-    <div class="row flex-columns-center">
+  <div class="expertise__testimonials">
+    <div class="wrap">
       <div class="header-2">{{ site.data.expertise.testimonials.title }}</div>
     </div>
     {% include testimonials_carousel.html %}

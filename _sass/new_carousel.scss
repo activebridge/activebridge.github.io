@@ -1,5 +1,5 @@
 .carousel-scroll{
-  margin: 0 auto;
+  margin: 20px auto;
   max-width: 950px;
   position: relative;
 
@@ -7,7 +7,6 @@
     background-color: inherit;
     display: grid;
     grid-auto-flow: column;
-    height: 550px;
     list-style-type: none;
     padding: 0;
     place-items: center;
@@ -25,6 +24,8 @@
     scroll-snap-align: center;
     scroll-snap-stop: always;
     margin: 0;
+    min-height: 100px;
+    height: 70%;
   }
 
   .magnifying-overlay {
@@ -43,8 +44,8 @@
 
     .animate-visibility {
       animation: scaleUp 0.4s ease-in-out forwards;
-      transform: scale(1.5);
-      -webkit-transform: scale(1.5);}
+      transform: scale(1.4);
+      -webkit-transform: scale(1.4);}
   }
 
   @keyframes scaleUp {
@@ -56,8 +57,8 @@
 
     to {
       opacity: 1;
-      transform: scale(1.5);
-      -webkit-transform: scale(1.5);
+      transform: scale(1.4);
+      -webkit-transform: scale(1.4);
     }
   }
 
@@ -69,7 +70,10 @@
     box-sizing: border-box;
     box-shadow: -2px -2px 12px 2px rgba(0, 0, 0, 0.25) inset;
     cursor: pointer;
-    height: 341px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     margin: 0 15px;
     padding: 20px;
     position: relative;
@@ -100,12 +104,13 @@
   .italic { font-style: italic; }
 
   &__description {
-    display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     font-size: 11px;
     line-height: 15px;
-    max-height: 120px;
-    overflow-y: scroll;
-    text-align: justify;
+    height: 60%;
+    p { text-align: justify; }
 
     &::-webkit-scrollbar {
       display: none;
@@ -122,15 +127,14 @@
       width: 100px;
     }
   }
+  &__image.without-margin { margin-bottom: 0; }
 
   &__list {
     font-size: 12px;
     line-height: 1.5em;
     list-style: inside;
-    max-height: 110px;
     margin-top: 10px;
     padding-left: 10px;
-    overflow-y: scroll;
     text-align: left;
 
     &::-webkit-scrollbar {
@@ -151,24 +155,29 @@
       }
     }
   }
+
+  .text-center.italic {
+    font-size: 11px;
+    line-height: 15px;
+  }
 }
 
 @media (max-width: 767px ) {
   .carousel-scroll {
     &__animate-visibility {
-      padding: 20px 15px 0 15px;
+      padding: 15px 10px 10px 10px;
       width: 250px;
-      height: 290px;
+    }
+
+    &__item {
+      height: 60%;
     }
   }
 
   .animate-visibility {
     &__title.title-3 { font-size: 12px; }
     &__description {
-      display: block;
       font-size: 9px;
-      overflow-y: scroll;
-      max-height: 100px;
     }
 
     &__image {
