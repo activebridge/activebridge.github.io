@@ -213,7 +213,7 @@ body {
       &__title-2 {
         font-family: 'Inria Bold', serif;
         font-size: 1.4em;
-        color: #5723B5;
+        color: $purple-heart;
         line-height: 1.4em;
       }
 
@@ -259,7 +259,7 @@ body {
 
     .blue-text {
       display: inline;
-      color: $main-blue;
+      color: $purple-heart;
     }
 
     .button { margin-bottom: 5vh; }
@@ -514,7 +514,7 @@ body {
       .button  {
         background: $main-gradient;
         border-color: transparent;
-        box-shadow: inset 2px 7px 10px -5px #9c64d2, inset -4px -5px 16px #4c2b84;
+        box-shadow: $violet-shadow;
       }
     }
   }

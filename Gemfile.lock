@@ -12,6 +12,7 @@ GEM
     ffi (1.16.3)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.2-arm64-darwin)
+    google-protobuf (3.25.2-x86_64-darwin)
     google-protobuf (3.25.2-x86_64-linux)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
@@ -75,6 +76,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES

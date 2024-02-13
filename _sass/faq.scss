@@ -1,7 +1,7 @@
 .faq {
   &__main-content {
     background: no-repeat url('/assets/images/faq/Cloud-1.webp'),
-                linear-gradient(132deg, #FBDF89 8.4%, #A49FEB 52.42%, #8CC9FC 93.77%);
+                linear-gradient(132deg, $palianytsia 8.4%, $buzok 52.42%, $sky-ua 93.77%);
     background-blend-mode: luminosity;
     background-position: top 87px left 0, top 0 left 0;
     padding: 191px 0 113px 0;
@@ -66,7 +66,7 @@
   ul { margin: 0; }
 
   &__bottom-info {
-    background: linear-gradient(116deg, #5723B5 0%, #8CC9FC 100%);
+    background: linear-gradient(116deg, $purple-heart 0%, $sky-ua 100%);
     box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.25);
     padding: 26px 0 24px 0;
 

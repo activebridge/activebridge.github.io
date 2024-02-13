@@ -1,7 +1,7 @@
 .blog {
   &__main-block {
-    background: linear-gradient(180deg, #CD9FEB 0%, #FFF 75.52%);
-    box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+    background: linear-gradient(180deg, $kviten 0%, $white 75.52%);
+    box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
     padding: 117px 0;
 
     .header-3 { margin-bottom: 30px; }
@@ -98,7 +98,7 @@
     height: 250px;
 
     &:hover {
-      box-shadow: inset -1px 4px 13px -5px white, inset -1px -5px 5px #9480a7, 2px 1px 12px 0px $main-violet;
+      box-shadow: $violet-hover-shadow;
       transition: .4s;
       scale: 1.1;
     }
@@ -174,8 +174,8 @@
 }
 
 .post-content {
-  background: linear-gradient(180deg, #CD9FEB 0%, #FFF 83.85%);
-  box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+  background: linear-gradient(180deg, $kviten 0%, $white 83.85%);
+  box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
   display: grid;
   grid-template-columns: 1.2fr 3fr 1.2fr;
   justify-content: center;
@@ -194,7 +194,7 @@
   }
 
   h2 {
-    color: #2E2B33;
+    color: $black_sea;
     font-family: Inria Serif;
     font-size: 22px;
     font-style: normal;
@@ -413,8 +413,8 @@
 @media (max-width: 900px) {
   .blog {
     &__main-block {
-      background: linear-gradient(180deg, #CD9FEB 0%, #FFF 75.52%);
-      box-shadow: 0px 4px 25px 0px rgba(87, 35, 181, 0.25);
+      background: linear-gradient(180deg, $kviten 0%, $white 75.52%);
+      box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
       padding: 117px 0;
 
       .header-2 {

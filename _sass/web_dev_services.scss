@@ -153,10 +153,10 @@
     }
 
     .about_us_info__item-image {
-      background: linear-gradient(135deg, $main-violet, $main-blue);
+      background: linear-gradient(135deg, $main-violet, $purple-heart);
       border-color: $kviten;
       margin-bottom: 10px;
-      p { -webkit-text-fill-color: white; }
+      p { -webkit-text-fill-color: $white; }
     }
   }
 
