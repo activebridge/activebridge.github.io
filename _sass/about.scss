@@ -10,7 +10,7 @@
     font-size: 1.2em;
     line-height: 1.7em;
     text-align: center;
-    color: #fff;
+    color: $white;
   }
 
   &__header {
@@ -66,9 +66,9 @@
       padding: 4vw 1vw;
       max-width: 270px;
       width: 100%;
-      background: #fff;
+      background: $white;
       border-radius: 30px;
-      box-shadow: inset -1px 4px 13px -5px white, inset -1px -5px 5px grey, 2px 1px 12px 0px grey;
+      box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px grey;
       box-sizing: border-box;
 
       &-photo img {
@@ -235,7 +235,7 @@
 
   &__item-image {
     align-items: center;
-    background-color: #fff;
+    background-color: $white;
     border: 6px solid $pie-chart-border;
     border-radius: 50%;
     display: flex;
@@ -246,7 +246,7 @@
     width: 100px;
 
     p {
-      background: linear-gradient(135deg, $main-violet, $main-blue);
+      background: linear-gradient(135deg, $main-violet, $purple-heart);
       background-clip: text;
       font-family: 'Cera Regular';
       font-size: 40px;

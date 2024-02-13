@@ -11,7 +11,7 @@
         position: relative;
 
         &::before {
-          background-color: white;
+          background-color: $white;
           border-radius: 50%;
           content: '';
           height: 12px;
@@ -51,7 +51,7 @@
       row-gap: 15px;
 
       .card {
-        background: rgba(255, 255, 255, 0.05);
+        background: rgba($white, .05);
         box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20), -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
         box-sizing: border-box;
         margin: 0;
@@ -78,14 +78,14 @@
     .list-with-images {
       &__item {
         &_element {
-          &::before { border: 1px solid #A49FEB; }
+          &::before { border: 1px solid $buzok; }
         }
       }
     }
   }
 
   &__security {
-    background-color: rgba(#5723B540, .6);
+    background-color: rgba($purple-heart, .6);
     box-shadow: 0px 0px 25px 4px rgba($black, .2 );
     padding: 32px 0 27px 0;
 
@@ -104,7 +104,7 @@
     .list-with-images {
       &__item {
         &_element {
-          &::before { border: 1px solid #AA30BE; }
+          &::before { border: 1px solid $main-violet; }
         }
       }
     }
@@ -126,7 +126,7 @@
     .list-with-images {
       &__item {
         &_element {
-          &::before { border: 1px solid #5723B5; }
+          &::before { border: 1px solid $purple-heart; }
         }
       }
     }

@@ -113,8 +113,8 @@
           position: relative;
 
           &::before {
-            background-color: white;
-            border: 1px solid #A49FEB;
+            background-color: $white;
+            border: 1px solid $buzok;
             border-radius: 50%;
             content: '';
             height: 12px;

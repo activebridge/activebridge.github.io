@@ -28,7 +28,7 @@
 
       &__info {
         align-items: center;
-        color: $main-blue;
+        color: $purple-heart;
         display: flex;
 
         img {
@@ -37,10 +37,10 @@
         }
       }
       .about_us_info__item-image {
-        background: linear-gradient(135deg, $main-violet, $main-blue);
+        background: linear-gradient(135deg, $main-violet, $purple-heart);
         border-color: $kviten;
         margin-bottom: 15px;
-        p { -webkit-text-fill-color: white; }
+        p { -webkit-text-fill-color: $white; }
       }
 
     }
@@ -60,7 +60,7 @@
   }
 
   &__circle-background {
-    background: radial-gradient(50% 50% at 50% 50%, #E9CDF4 19.79%, rgba(233, 205, 244, 0.10) 79.17%, rgba(233, 205, 244, 0.00) 100%);
+    background: radial-gradient(50% 50% at 50% 50%, $moon_raker 19.79%, rgba(233, 205, 244, 0.10) 79.17%, rgba(233, 205, 244, 0.00) 100%);
     border-radius: 1100px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
     margin: 0 auto 100px auto;
@@ -99,7 +99,7 @@
 
     &-item {
       align-items: center;
-      color: $main-blue;
+      color: $purple-heart;
       display: flex;
       font-size: .7em;
       font-style: italic;
@@ -126,7 +126,7 @@
 
       &::before {
         content: '';
-        background-color: $main-blue;
+        background-color: $purple-heart;
         height: 1px;
         position: absolute;
         top: -1em;
@@ -136,7 +136,7 @@
       &::after {
         content: '';
         background-color: $white;
-        border: 1px solid $main-blue;
+        border: 1px solid $purple-heart;
         border-radius: 50%;
         height: 10px;
         position: absolute;
@@ -153,7 +153,7 @@
       margin-top: 3vh;
     }
 
-    .blue-text { color: $main-blue; }
+    .blue-text { color: $purple-heart; }
 
     .header-2 {
       margin: 5vh 0;
@@ -263,7 +263,7 @@
 
         &__info {
           align-items: center;
-          color: $main-blue;
+          color: $purple-heart;
           display: flex;
 
           img {

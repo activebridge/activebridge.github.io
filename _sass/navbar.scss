@@ -48,14 +48,14 @@ header {
   &__link-contact {
     margin: 0;
     padding: 0.6em 2.2em;
-    background: linear-gradient(#fff, #fff) padding-box,
-                linear-gradient(to right, $main-violet, $main-blue) border-box;
+    background: linear-gradient($white, $white) padding-box,
+                linear-gradient(to right, $main-violet, $purple-heart) border-box;
     border: 1px solid transparent;
     border-radius: 50px;
     transition: 0.3s;
 
     &.active {
-      box-shadow: inset 0px 0px 15px 1px rgba($main-violet, 0.3);
+      box-shadow: $violet-active-shadow;
       background: transparent;
       border: none;
     }
@@ -164,7 +164,7 @@ header {
       margin: 0;
       padding: 6vw 6vw 25vw;
       justify-content: space-between;
-      background: linear-gradient($main-violet, $main-blue);
+      background: linear-gradient($main-violet, $purple-heart);
       box-sizing: border-box;
       -webkit-transition: all .2s ease-in-out;
       transition: all .2s ease-in-out;
@@ -282,7 +282,7 @@ header {
       min-height: calc(100% + 50px);
       left: 0;
       top: 0;
-      background-color: rgba(255, 255, 255, .1);
+      background-color: rgba($white, .1);
       backdrop-filter: blur(4px);
       z-index: 1;
     }

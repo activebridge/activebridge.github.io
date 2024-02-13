@@ -1,6 +1,6 @@
 .mobile-size { display: none; }
 .public {
-  color: #2E2B33;
+  color: $black_sea;
   padding: 191px 0 90px 0;
 
   &__image {
@@ -29,10 +29,10 @@
 }
 
 .public-404 {
-  background-color: #C1C9D6;
+  background-color: $azovstal;
 
   a {
-    color: #2E2B33;
+    color: $black_sea;
     font-weight: 700;
     text-decoration-line: underline;
   }
