@@ -159,7 +159,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .development {
     &__awards img {
       width: 40%;
@@ -176,9 +176,10 @@
         flex-wrap: wrap;
 
         .card {
-          min-width: 75vw;
+          min-width: 75%;
+          max-width: 320px;
           padding: 3vh 7vw;
-              height: 400px;
+          height: 400px;
 
           &:not(:last-child) { margin-bottom: 3vh; }
 

@@ -78,8 +78,13 @@
     &__main .list-with-images.horizontal .list-with-images__item { max-width: 48%; }
 
     &__cross_platform {
-      .card__icon {
-        margin-top: 20px;
+      .card__icon { margin-top: 20px; }
+
+      &.development__cards {
+        .cards-container-2 .card {
+          min-width: 250px;
+          width: 100%;
+        }
       }
     }
 
@@ -87,6 +92,9 @@
     .development__cards .cards-container .card__description {
       margin: 20px 10px;
     }
+  }
+}
+
 @media screen and (min-width: 701px) and (max-width: 990px) {
   .mob_dev_services__main {
     .list-with-images.horizontal {
@@ -104,5 +112,35 @@
     }
   }
 }
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .mob_dev_services__cross_platform.development__cards {
+    .cards-container-2 {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 320px;
+        width: 100%;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .mob_dev_services__cross_platform.development__cards {
+    .cards-container-2 {
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .card {
+        max-width: 330px;
+        min-width: 40%;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
   }
 }
