@@ -10,15 +10,15 @@ description_2: Our customer-centric approach has enhanced great success since Ac
                project management and development solution. We fully design, cost out, and implement the project from start to finish.
 level:
 - title: Innovation
-  icon: chart_1.svg
+  icon: chart_1.html
 - title: Quality
-  icon: chart_2.svg
+  icon: chart_2.html
 - title: Responsibility
-  icon: chart_3.svg
+  icon: chart_3.html
 - title: Price/Quality
-  icon: chart_4.svg
+  icon: chart_4.html
 - title: Willingness to Provide a Referral
-  icon: chart_5.svg
+  icon: chart_5.html
 contract:
 - icon: contract_1.webp
   description: Companies launching their own product on the market with clearly fixed deadlines
