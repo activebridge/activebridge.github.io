@@ -5,6 +5,7 @@ title: Extend in-house IT Teams with Outside Tech Experts | Active Bridge
 description: Feel the flexibility of management by augmenting your in-house team
              with our experts at the cost of offshore specialists. Hire on-demand
              developers
+scripts: [animation]
 ---
 
 <div class="container staff_augmentation_services development">
@@ -150,22 +151,25 @@ description: Feel the flexibility of management by augmenting your in-house team
     </div>
   </div>
 
-  <div class="staff_augmentation_services__process wrap">
-    <div class="row">
+  <div class="staff_augmentation_services__process">
+    <div class="wrap">
       <div class="header-3">{{ site.data.team_extension.process.title }}</div>
-      <div class="timeline">
-        {% for item in site.data.team_extension.process.all %}
-          <div class="timeline-item">
-            <div class="timeline-item__icon">
-              <img src="/assets/images/team_extension/{{ item.icon }}" alt="Process">
-            </div>
-            <div class="timeline-item__content">
-              <div class="timeline-item__content-title inria">{{ item.title }}</div>
-              <div class="timeline-item__content-description">{{ item.description }}</div>
-            </div>
+    </div>
+    <div class="timeline wrapper animated-cards" id="snake-animation-block">
+      <svg class="desktop-svg" viewBox="0 0 888 1397" fill="none" preserveAspectRatio="none">
+        <path class="svg-path" d="M3.00001 0V123V209.5C3.50001 218.833 9.80001 237.5 31 237.5C52.2 237.5 584.833 237.5 848.5 237.5C861.167 236.667 886.5 243.1 886.5 275.5C886.5 307.9 886.5 566 886.5 691C883.833 700 874.7 718 859.5 718C844.3 718 303.167 718 34.5 718C25.5 717.333 6.70001 722.6 3.50001 749C0.300009 775.4 2.16668 1040.67 3.50001 1170C5.50001 1179.17 13.8 1197.5 31 1197.5C48.2 1197.5 587.5 1197.5 855 1197.5C865.5 1199.5 886.5 1208.6 886.5 1229V1314.5V1397" stroke="#8CC9FC" stroke-width="3"/>
+      </svg>
+      {% for item in site.data.team_extension.process.all %}
+        <div class="timeline-item">
+          <div class="timeline-item__icon">
+            <img src="/assets/images/team_extension/{{ item.icon }}" alt="Process">
           </div>
-        {% endfor %}
-      </div>
+          <div class="timeline-item__content">
+            <div class="timeline-item__content-title inria">{{ item.title }}</div>
+            <div class="timeline-item__content-description">{{ item.description }}</div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 
