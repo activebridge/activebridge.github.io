@@ -24,7 +24,7 @@ description: Our neatly organized web project development process allows us to
         {% for item in site.data.project_development.level %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
-              <img src="/assets/images/project_development/{{ item.icon }}" alt="Level" class="w-100">
+              {% include svgs/services/{{ item.icon }} %}
             </div>
             <div class="list-with-images__item-text">
               <div class="description">{{ item.title }}</div>

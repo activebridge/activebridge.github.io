@@ -97,7 +97,7 @@ flutter:
     description: Flutter helps to rephrase the content to UI manually and can
                  update factors in the state. So mobile developers can skip various
                  needless actions to build <b>swift and flawless UI</b>. Also,
-                 Fluter makes the testing process <b>quicker and more efficient<b>.
+                 Fluter makes the testing process <b>quicker and more efficient</b>.
                  Engineers use a single test for both platforms.
 ionic:
   title: Ionic <br> application development
