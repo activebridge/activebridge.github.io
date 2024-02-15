@@ -34,12 +34,12 @@
 
     &__icon {
       display: flex;
-      width: 350px;
-      height: 350px;
+      width: 250px;
+      height: 250px;
       position: relative;
 
       img {
-        max-width: 350px;
+        max-width: 250px;
         width: 100%;
         z-index: 1;
       }
@@ -89,16 +89,6 @@
   }
 }
 
-@media (max-width: 1000px) {
-  .timeline {
-    &-item {
-      &__icon {
-        width: 30vw;
-        height: 30vw;
-      }
-    }
-  }
-}
 
 @media (max-width: 930px) {
   .services .timeline-item, .timeline-item {
@@ -189,6 +179,17 @@
 
       .timeline-item__icon {
         justify-content: flex-start;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .timeline {
+    &-item {
+      &__icon {
+        width: 200px;
+        height: 200px;
       }
     }
   }
