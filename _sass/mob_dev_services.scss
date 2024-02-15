@@ -79,12 +79,13 @@
 
     &__cross_platform {
       .card__icon { margin-top: 20px; }
+    }
 
-      &.development__cards {
-        .cards-container-2 .card {
-          min-width: 250px;
-          width: 100%;
-        }
+    .development__cards {
+      .cards-container-2 .card,
+      .cards-container .card {
+        min-width: 250px;
+        width: 100%;
       }
     }
 
@@ -96,9 +97,26 @@
 }
 
 @media screen and (min-width: 701px) and (max-width: 990px) {
-  .mob_dev_services__main {
-    .list-with-images.horizontal {
-      .list-with-images__item-icon img { max-width: 135px; }
+  .mob_dev_services {
+    &__main {
+      .list-with-images.horizontal {
+        .list-with-images__item-icon img { max-width: 135px; }
+      }
+    }
+
+    .development__cards {
+      .cards-container-2,
+      .cards-container {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .card {
+          max-width: 330px;
+          width: 100%;
+
+          &:not(:last-child) { margin-bottom: 3vh; }
+        }
+      }
     }
   }
 }
@@ -114,32 +132,38 @@
 }
 
 @media screen and (min-width: 701px) and (max-width: 990px) {
-  .mob_dev_services__cross_platform.development__cards {
-    .cards-container-2 {
-      flex-wrap: wrap;
-      justify-content: center;
+  .mob_dev_services {
+    .development__cards {
+      .cards-container-2,
+      .cards-container {
+        flex-wrap: wrap;
+        justify-content: center;
 
-      .card {
-        max-width: 320px;
-        width: 100%;
+        .card {
+          max-width: 330px;
+          width: 100%;
 
-        &:not(:last-child) { margin-bottom: 3vh; }
+          &:not(:last-child) { margin-bottom: 3vh; }
+        }
       }
     }
   }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
-  .mob_dev_services__cross_platform.development__cards {
-    .cards-container-2 {
-      flex-wrap: wrap;
-      justify-content: space-around;
+  .mob_dev_services {
+    .development__cards {
+      .cards-container-2,
+      .cards-container {
+        flex-wrap: wrap;
+        justify-content: space-around;
 
-      .card {
-        max-width: 330px;
-        min-width: 40%;
+        .card {
+          max-width: 330px;
+          min-width: 40%;
 
-        &:not(:last-child) { margin-bottom: 3vh; }
+          &:not(:last-child) { margin-bottom: 3vh; }
+        }
       }
     }
   }
