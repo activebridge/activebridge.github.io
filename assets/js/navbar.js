@@ -9,17 +9,33 @@ function innitMobileNavbar() {
   const navButton = document.querySelector('.menu-icon');
   const closeMobileNavButton = document.querySelector('.menu-close-ico')
 
-  if (screen.width < 768) { drag.classList.add('show') }
+  if (screen.width < 1025) { drag.classList.add('show') }
 
   closeMobileNavButton.addEventListener('click', () => {
-    drag.style.right = '-89vw';
+    if (window.innerWidth >= 501 && window.innerWidth <= 660) {
+      drag.style.right = '-74vw';
+    } else if (window.innerWidth >= 661 && window.innerWidth <= 750) {
+      drag.style.right = '-49vw';
+    } else if (window.innerWidth >= 751 && window.innerWidth <= 1024) {
+      drag.style.right = '-42vw';
+    } else {
+      drag.style.right = '-89vw';
+    }
     overlay.classList.remove('active');
   });
 
   navButton.addEventListener('click', (e) => {
     const button = document.querySelector('#menu-btn')
     if (button.checked) {
-      drag.style.right = '-89vw';
+      if (window.innerWidth >= 501 && window.innerWidth <= 660) {
+        drag.style.right = '-74vw';
+      } else if (window.innerWidth >= 661 && window.innerWidth <= 750) {
+        drag.style.right = '-49vw';
+      } else if (window.innerWidth >= 751 && window.innerWidth <= 1024) {
+        drag.style.right = '-42vw';
+      } else {
+        drag.style.right = '-89vw';
+      }
       overlay.classList.remove('active');
     } else {
       drag.style.right = '0vw';
@@ -48,7 +64,15 @@ function innitMobileNavbar() {
         dragSvg.classList.add('touch-right');
         overlay.classList.remove('active')
         setTimeout(function() {
-          drag.style.right = '-89vw';
+          if (window.innerWidth >= 501 && window.innerWidth <= 660) {
+            drag.style.right = '-74vw';
+          } else if (window.innerWidth >= 661 && window.innerWidth <= 750) {
+            drag.style.right = '-49vw';
+          } else if (window.innerWidth >= 751 && window.innerWidth <= 1024) {
+            drag.style.right = '-42vw';
+          } else {
+            drag.style.right = '-89vw';
+          }
         }, 100);
       }
     }

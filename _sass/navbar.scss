@@ -207,7 +207,7 @@ header {
       }
 
       &__link {
-        display: block;
+        display: block !important;
         padding: 2.5vw 1vw;
       }
 
@@ -293,10 +293,37 @@ header {
 }
 
 
-@media screen and (min-width: 749px) and (max-width: 1024px) {
-  header .header-navbar__item { width: 65vw; }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    .header-navbar__item { width: 61vw; }
+
+    .menu-icon { top: calc(100vh / 16); }
+  }
 }
 
-@media screen and (min-width: 749px) and (max-width: 1024px) {
-  header .menu-icon { top: calc(100vh / 16); }
+@media screen and (min-width: 515px) and (max-width: 660px) {
+  header .header-navbar {
+    right: -74vw;
+    width: 75vw;
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 750px) {
+  header .header-navbar {
+    right: -49vw;
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px) {
+  header .header-navbar {
+    right: -42vw;
+    width: 43vw;
+  }
+}
+
+@media screen and (min-width: 661px) and (max-width: 1024px) {
+  header .header-navbar__subitems {
+    flex-direction: column;
+  }
 }
