@@ -2,8 +2,6 @@
   position: relative;
 
   svg {
-    bottom: 19%;
-    height: 100%;
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
@@ -11,22 +9,39 @@
   }
 }
 
-.solutions-first-animated-cards {
-  svg {
+.solutions__project-development, .staff_augmentation_services__process {
+  .desktop-svg {
     bottom: 19%;
+    height: 70%;
   }
 }
 
-.services-animated_cards {
-  svg {
-    bottom: 13%;
+.solutions__staff-augmentation {
+  .desktop-svg {
+    bottom: 16%;
+    height: 80%;
+  }
+}
+
+.services__approaches {
+  .desktop-svg {
+    height: 80%;
+    top: 5%;
     width: 60%;
   }
 }
 
-.solutions-second-animated-cards {
-  svg {
-    bottom: 13%;
+.mob_dev_services__approaches {
+  .desktop-svg{
+    height: 90%;
+    top: 2%;
+  }
+}
+
+.project_dev_services__workflow {
+  .desktop-svg{
+    height: 90%;
+    bottom: 8%;
   }
 }
 
@@ -37,25 +52,9 @@
     }
   }
 
-  .services-animated_cards {
-    svg {
+  .services__approaches {
+    .desktop-svg{
       width: 55%;
-    }
-  }
-}
-
-@media (max-width: 930px) {
-  .services-animated_cards {
-    svg {
-      bottom: 160px;
-    }
-  }
-}
-
-@media (max-width: 830px) {
-  .services-animated_cards {
-    svg {
-      bottom: 15%;
     }
   }
 }

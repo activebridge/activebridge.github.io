@@ -101,7 +101,7 @@
         font-size: .9em;
         font-style: italic;
         line-height: 1.4;
-        text-align: left;
+        text-align: right;
 
         span {
           font-size: 1.25em;
@@ -109,7 +109,7 @@
         }
       }
 
-      &:nth-child(2n) .timeline-item__content-bottom { text-align: right; }
+      &:nth-child(2n) .timeline-item__content-bottom { text-align: left; }
     }
   }
 
