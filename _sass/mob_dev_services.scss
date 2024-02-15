@@ -64,6 +64,8 @@
 
   &__approaches {
     .timeline-item:last-child:nth-child(odd)::before { bottom: 3em; }
+
+    .header-2 { margin: 6vh 0; }
   }
 }
 
