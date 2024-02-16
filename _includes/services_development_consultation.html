@@ -7,22 +7,7 @@
 </div>
 
 <div class="web_dev_services__industries">
-  <div class="carousel-scroll" >
-    <div id="page-carousel" class="carousel-scroll__scroller">
-      {% for item in site.data.web_dev_services.industries.all%}
-        <div class="carousel-scroll__item" data-scroll="item">
-          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-            <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
-            <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
-            <div class="animate-visibility__button">
-              <a class="button" href="{{ item.link }}">{{site.data.solutions.industries.more_button}}</a>
-            </div>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-    <div class="magnifying-overlay"></div>
-  </div>
+  {% include solutions_subpages_carousel.html %}
   <a id="web_dev_button" class="button dev_services__carousel-btn" href="/contacts" data-link="transition">
     {{ site.data.services.approaches.button }}
   </a>
