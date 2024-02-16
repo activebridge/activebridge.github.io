@@ -160,7 +160,17 @@
     }
   }
 
-  &__industries { padding: 10vh 0; }
+  &__industries {
+    padding: 10vh 0;
+  }
+
+  .web_dev_services__industries {
+    #web_dev_button {
+      color: white;
+      background: #A49FEB;
+      &:hover { color: black;}
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
