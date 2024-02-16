@@ -74,22 +74,7 @@ scripts: [animation, carousel]
         <h3 class="title-3">{{site.data.solutions.industries.subtitle_1}}</h3>
         <p class="base-content ">{{site.data.solutions.industries.description}}</p>
       </div>
-      <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
-        {% for item in site.data.solutions.industries.applications %}
-          <div class="carousel-scroll__item" data-scroll="item">
-            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-              <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
-              <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
-              <div class="animate-visibility__button">
-                <a class="button" href="{{ item.link }}">{{site.data.solutions.industries.more_button}}</a>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-        <div class="magnifying-overlay"></div>
-      </div>
+      {% include solutions_subpages_carousel.html %}
       <div class="wrapper ">
         <p class="title-3 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
         <h2 class="title-2">{{site.data.solutions.project_development.title}}</h2>
