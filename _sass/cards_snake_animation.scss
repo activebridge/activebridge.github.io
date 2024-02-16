@@ -1,7 +1,7 @@
 .animated-cards {
   position: relative;
 
-  svg {
+  .desktop-svg {
     left: 50%;
     position: absolute;
     transform: translateX(-50%);
@@ -47,7 +47,7 @@
 
 @media (max-width: 1000px) {
   .animated-cards{
-    svg {
+    .desktop-svg {
       width: 80%;
     }
   }

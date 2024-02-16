@@ -111,6 +111,14 @@
 
       &:nth-child(2n) .timeline-item__content-bottom { text-align: left; }
     }
+
+    .timeline-item.has-svg {
+      .project-dev-svg {
+        left: -130px;
+        position: absolute;
+        top: 60%;
+      }
+    }
   }
 
   .dev_services__cards .header-2 { margin: 2vh auto 8vh; }
@@ -173,6 +181,17 @@
     }
   }
 }
+
+@media (max-width: 767px ) {
+    .project_dev_services {
+      .timeline-item.has-svg {
+        .project-dev-svg {
+          position: static;
+          width: 150px;
+        }
+      }
+    }
+ }
 
 @media screen and (min-width: 1550px) {
   .project_dev_services {
