@@ -145,6 +145,7 @@
         .card {
           max-width: 330px;
           min-width: 40%;
+          margin: 0;
 
           &:not(:last-child) { margin-bottom: 3vh; }
         }
@@ -156,5 +157,15 @@
 @media screen and (max-width: 767px) {
   .mob_dev_services__approaches .timeline-item {
     padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .mob_dev_services__engagement-models.development__cards {
+    .cards-container-2 .card,
+    .cards-container .card {
+      min-width: 45%;
+      max-height: 535px;
+    }
   }
 }
