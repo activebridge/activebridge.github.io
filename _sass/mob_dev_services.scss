@@ -134,25 +134,6 @@
   }
 }
 
-@media screen and (min-width: 701px) and (max-width: 990px) {
-  .mob_dev_services {
-    .development__cards {
-      .cards-container-2,
-      .cards-container {
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .card {
-          max-width: 330px;
-          width: 100%;
-
-          &:not(:last-child) { margin-bottom: 3vh; }
-        }
-      }
-    }
-  }
-}
-
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   .mob_dev_services {
     .development__cards {
