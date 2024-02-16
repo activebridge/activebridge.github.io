@@ -119,10 +119,15 @@
     &:first-child {
       padding-top: 0 !important;
 
-      &::before {
-
-      }
+      // .timeline-item__content-description {
+      //
+      // }
     }
+
+    // .timeline-item__icon::before {
+    //   height: 100px;
+    //   top: 8.5em;
+    // }
 
     &__icon {
       width: 120px;
@@ -161,24 +166,24 @@
       }
     }
 
-    // &:nth-child(odd) {
-    //   flex-direction: column;
-    //
-    //   .timeline-item__content {
-    //     &-title { text-align: center; }
-    //
-    //     &-description {
-    //       text-align: justify;
-    //     }
-    //
-    //     &-output {
-    //       &-title { text-align: center; }
-    //
-    //       &-list {
-    //         text-align: center;
-    //       }
-    //     }
-    //   }
+    &:nth-child(odd) {
+      flex-direction: column;
+
+      .timeline-item__content {
+        &-title { text-align: center; }
+
+        &-description {
+          text-align: justify;
+        }
+
+        &-output {
+          &-title { text-align: center; }
+
+          &-list {
+            text-align: center;
+          }
+        }
+      }
 
       .timeline-item__icon {
         justify-content: flex-start;
@@ -187,7 +192,7 @@
 
     &:nth-child(2n) {
       .timeline-item__content{
-        // margin-left: 0;
+        margin-left: 0;
 
         &-title { text-align: center; }
 
@@ -196,11 +201,11 @@
         }
 
         &-output {
-          // &-title { text-align: left; }
+          &-title { text-align: left; }
 
           &-list {
-            // direction: initial;
-            // text-align: left;
+            direction: initial;
+            text-align: left;
           }
         }
       }
