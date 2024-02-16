@@ -120,22 +120,3 @@ contract_approaches:
                  development solution.
 offer_text: We can offer our expertise in developing custom applications and
             cloud-based platforms for startups and SMB
-industries:
-  all:
-  - title: HealthTech HIPPA Solution
-    description: a leading American <span class="blue-text">HIPAA-compliant
-                 encryption platform</span> protecting patients, healthcare
-                 providers, prescribers, pharmacists, and vendors by securing
-                 clinical communications and electronic patient health information
-                 (ePHI).
-    index: 1
-  - title: Insuretech SaaS platform
-    description: a mission-focused company serving healthcare service providers
-                 to digitally manage and dispatch <span class="blue-text">workers’
-                 compensation bills</span> to employers.
-    index: 2
-  - title: E-commerce platform with CRM features
-    description: an innovative company advocating sustainable consumption
-                 connecting influencers designing sustainable activewear, suppliers
-                 and factories sewing clothes with the end consumer.
-    index: 3
