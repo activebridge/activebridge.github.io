@@ -1,0 +1,14 @@
+<div class="blog-popular">
+  <div class="wrapper">
+    <h2 class="header-2">Most popular on the blog</h2>
+    <div class="posts">
+      {% assign popular_posts = site.posts | where: 'popular', true %}
+
+      {% for post in popular_posts %}
+        {% assign name = "" %}
+        {% assign post = post %}
+        {% include post_card.html%}
+      {% endfor %}
+    </div>
+  </div>
+</div>
