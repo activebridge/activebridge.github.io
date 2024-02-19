@@ -85,6 +85,7 @@ workflow:
       - item: Full-stack project development approach
       - item: Daily or weekly reports on completed tasks
     tools: GitHub, Trello, Basecamp, CodePen
+    class: has-svg
   - icon: workflow_5.webp
     title: Testing and deployment
     description: This stage’s objective is to clear out all remaining bugs and ensure that the project works well across devices. Assigned QA specialist performs
