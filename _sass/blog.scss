@@ -79,7 +79,7 @@
 
 .blog-popular {
   background-color: $main-lilac;
-  padding: 40px 0 60px 0;
+  padding: 40px 0 20px 0;
 
   .wrapper {
     .header-2 {
@@ -98,6 +98,7 @@
   grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
   grid-column-gap: 31px;
   row-gap: 31px;
+  margin-bottom: 40px;
 
   a {
     color: black;
@@ -175,7 +176,7 @@
 }
 
 .pagination {
-  margin: 40px 0;
+  margin: 0 0 40px 0;
   &__page {
     color: black;
     font-size: 16px;
