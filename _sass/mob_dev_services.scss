@@ -68,6 +68,10 @@
 
     .header-2 { margin: 6vh 0 0; }
   }
+
+  &__engagement-models {
+    .card { padding: 40px 35px; }
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -146,10 +150,15 @@
           max-width: 330px;
           min-width: 40%;
           margin: 0;
+          flex: 1;
 
           &:not(:last-child) { margin-bottom: 3vh; }
         }
       }
+    }
+
+    &__engagement-models.development__cards {
+      .cards-container .card:not(:last-child) { margin-bottom: 0; }
     }
   }
 }
@@ -166,6 +175,14 @@
     .cards-container .card {
       min-width: 45%;
       max-height: 535px;
+    }
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1070px) {
+  .mob_dev_services {
+    &__engagement-models.development__cards {
+      .cards-container .card { max-width: 305px; }
     }
   }
 }
