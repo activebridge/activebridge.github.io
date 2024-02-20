@@ -34,12 +34,12 @@
 
     &__icon {
       display: flex;
-      width: 250px;
-      height: 250px;
+      width: 350px;
+      height: 350px;
       position: relative;
 
       img {
-        max-width: 250px;
+        max-width: 350px;
         width: 100%;
         z-index: 1;
       }
@@ -84,6 +84,17 @@
           font-size: .85em;
           line-height: 1.5;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .timeline {
+    &-item {
+      &__icon {
+        width: 30vw;
+        height: 30vw;
       }
     }
   }
@@ -188,23 +199,9 @@
 
           &-list {
             direction: initial;
-            // padding-inline-start: 4%;
             text-align: left;
           }
-
-          // &-item { font-size: .7em; }
         }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .timeline {
-    &-item {
-      &__icon {
-        width: 200px;
-        height: 200px;
       }
     }
   }
