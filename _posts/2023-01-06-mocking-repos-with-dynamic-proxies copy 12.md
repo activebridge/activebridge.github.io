@@ -2,7 +2,7 @@
 layout: post
 title: "Third Enginnering post"
 date: "2023-01-06"
-autor: Admin
+author: Admin
 time-to-read: 4 min
 category: "engineering"
 background: "important-hipaa-cover"
