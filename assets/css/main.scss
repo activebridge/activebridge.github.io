@@ -525,13 +525,13 @@ input#menu {
 }
 
 .desktop-only  {
-  @media (max-width: 601px){
+  @media (max-width: 769px){
     display: none!important;
   }
 }
 
 .mobile-only {
-  @media (min-width: 600px){
+  @media (min-width: 768px){
     display: none!important;
   }
 }

@@ -100,6 +100,7 @@
   }
 }
 
+
 @media (max-width: 930px) {
   .services .timeline-item, .timeline-item {
     padding-bottom: 15vw;
@@ -122,73 +123,85 @@
 }
 
 @media screen and (max-width: 767px) {
-  .timeline-item {
-    flex-direction: column;
-    padding: 2em 0;
+  .timeline {
+    padding: 0 60px !important;
 
-    &:first-child::before {
-      height: 4em;
-      top: 8.5em;
-    }
-
-    &__icon {
-      width: 120px;
-      height: 120px;
-
-      &::before {
-        content: '';
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        width: 5px;
-        height: 200px;
-        background-color: $buzok;
-        border: 0;
-        border-radius: 0;
-      }
-    }
-
-    &__content {
-      width: 100%;
-
-      &-output {
-        &-title {
-          font-size: .8em;
-          text-align: left;
-        }
-
-        &-list {
-          direction: initial;
-          padding-inline-start: 4%;
-          text-align: left;
-        }
-
-        &-item { font-size: .7em; }
-      }
-    }
-
-    &:nth-child(odd) {
+    &-item {
       flex-direction: column;
+      padding: 2em 0;
 
-      .timeline-item__content {
-        &-title { text-align: center; }
+      &:first-of-type {
+        padding-top: 0;
 
-        &-description {
-          text-align: justify;
+        .timeline-item__icon::before {
+          height: 100px;
+          top: 100px;
         }
+      }
 
-        &-output {
+      &:last-of-type {
+        .timeline-item__icon::before {
+          height: 100px;
+          top: 25px;
+        }
+      }
+
+      &:nth-of-type(2n) {
+        flex-direction: column;
+
+        .timeline-item__content {
+          margin-left: 0;
+
           &-title { text-align: center; }
 
-          &-list {
-            text-align: center;
+          &-description {
+            text-align: justify;
+          }
+
+          &-output {
+            &-title { text-align: center; }
+
+            &-list {
+              direction: initial;
+              text-align: left;
+            }
           }
         }
       }
 
-      .timeline-item__icon {
-        justify-content: flex-start;
+      &__icon {
+        width: 120px;
+        height: 120px;
+
+        &::before {
+          content: '';
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          position: absolute;
+          width: 5px;
+          height: 170px;
+          background-color: $buzok;
+          border: 0;
+          border-radius: 0;
+        }
+      }
+
+      &__content {
+        max-width: 400px;
+        width: 100%;
+
+        &-output {
+          &-title {
+            font-size: .8em;
+            text-align: center;
+          }
+
+          &-list {
+            direction: initial;
+            text-align: left;
+          }
+        }
       }
     }
   }
