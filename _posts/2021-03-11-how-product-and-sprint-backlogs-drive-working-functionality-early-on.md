@@ -1,6 +1,6 @@
 ---
-autor: Admin
-autor-position: marketing director
+author: Admin
+author-position: marketing director
 background: product-and-sprint-backlogs-cover
 category: pm_team_management
 date: "2023-01-10"
