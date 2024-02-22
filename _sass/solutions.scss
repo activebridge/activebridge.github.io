@@ -234,7 +234,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .solutions {
     &__circle-background {
       border-radius: none;
@@ -243,6 +243,14 @@
 
     .timeline-item {
       padding-bottom: 20px;
+    }
+
+    .timeline-item:nth-child(even) {
+      .timeline__processes { padding-left: 0; }
+    }
+
+    .timeline-item:nth-child(odd) {
+      .timeline__processes { padding-right: 0; }
     }
 
     .header-2 { font-size: .9em; }
@@ -284,10 +292,11 @@
 
     .timeline-item {
       .timeline__processes {
+        max-width: 500px;
         align-items: flex-start;
         flex-direction: column;
         position: inherit;
-        margin: 5vh 0 0;
+        margin: 40px 0 0;
 
         &-item {
           color: $black;
@@ -323,4 +332,9 @@
       }
     }
   }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .solutions .timeline__processes { bottom: 7%; }
 }
