@@ -24,6 +24,7 @@ header {
   margin-bottom: 0;
   display: inline-flex;
   list-style: none;
+
   &__item { position: relative; }
 
   &__subitems {
@@ -31,7 +32,6 @@ header {
     list-style: none;
     visibility: hidden;
   }
-
 
   &__link {
     margin: 0 1.5vw;
@@ -109,7 +109,7 @@ header {
   }
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (min-width: 1025px) {
   .header-navbar {
     &__item:hover .header-navbar__subitems {
       min-width: 100%;
@@ -326,4 +326,8 @@ header {
   header .header-navbar__subitems {
     flex-direction: column;
   }
+}
+
+@media (max-width: 767px) {
+  .header-navbar__link-contact.desktop-only { display: none !important; }
 }

@@ -664,5 +664,8 @@ input#menu {
     font-size: 10px;
     line-height: 15px;
   }
+}
+
+@media (max-width: 1024px) {
   .container { padding-top: 0; }
 }
