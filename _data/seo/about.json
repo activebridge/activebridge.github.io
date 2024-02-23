@@ -1,0 +1,21 @@
+{
+  "@context": "http://schema.org",
+  "@type": "AboutPage",
+  "name": "Active Bridge",
+  "description": "Active Bridge is a contract development company that specializes in providing on-demand full-stack engineers to help our clients and augment their in-house teams.",
+  "image": "https://imgur.com/SUEWchJ",
+  "provider": "Active Bridge",
+  "about": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "logo": "https://imgur.com/SUEWchJ",
+      "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Phoenix",
+          "addressRegion": "AZ",
+          "postalCode": "85016",
+          "addressCountry": "US"
+      }
+  },
+  "url": "activebridge.org/about"
+}

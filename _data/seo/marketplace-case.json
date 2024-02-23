@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ItemPage",
+  "name": "Online Marketplace. SaaS Project",
+  "author": "Active Bridge",
+  "contributor": "Upstack",
+  "significantLink": "activebridge.org/solutions/marketplase-saas-development-solutions",
+  "description": "Cloud software development project example of an online marketplace and data-center management software.",
+  "datePublished": "2017-10-12"
+}
