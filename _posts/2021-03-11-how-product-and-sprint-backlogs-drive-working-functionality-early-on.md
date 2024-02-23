@@ -6,7 +6,8 @@ category: pm_team_management
 date: "2023-01-10"
 description: How Product and Sprint Backlogs Add Value to a Product
 layout: post
-title: How Product and Sprint Backlogs Drive Working Functionality Early On
+title: How Product and Sprint Backlogs
+post-title: How Product and Sprint Backlogs Drive Working Functionality Early On
 time-to-read: 4 min
 scripts: [post]
 post-id: what-do-you-know-about-digital-marketing-strategy
