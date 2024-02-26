@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ItemPage",
+  "name": "Uber Like Application Project Example",
+  "author": "Active Bridge",
+  "contributor": "CabLook Taxi",
+  "significantLink": "activebridge.org/solutions/taxi-and-transportation-development-solutions",
+  "description": "Cross-platform development project example of a custom booking taxi app for the local market.",
+  "datePublished": "2018-03-12"
+}

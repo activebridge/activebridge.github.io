@@ -1,0 +1,14 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Service",
+  "category": "Tech Services",
+  "provider": "Active Bridge",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "CA",
+                 "AU"
+  ],
+  "serviceType": "Ruby on Rails and add-ons technologies. InsurTech, EdTech, HealthTech, Banking/Finance, Logistic/Transportation domain expertise",
+  "description": "Thanks to 10+ years of expertise in Ruby on Rails development, we can offer input when it comes to delivering a quality app from early stages to a successful product."
+}

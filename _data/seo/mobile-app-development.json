@@ -1,0 +1,16 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Offer",
+  "name": "Web Application Development Services",
+  "category": "Tech Services",
+  "description": "Our experts build robust native applications or equally functional cross-platform apps that users love.",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "CA",
+                 "AU"
+  ],
+  "price": "30.00 - 60.00/hour",
+  "priceCurrency": "USD",
+  "seller": "Active Bridge"
+}

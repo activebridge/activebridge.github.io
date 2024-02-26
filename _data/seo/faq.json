@@ -1,0 +1,41 @@
+{
+  "@context": "http://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+      "@type": "Question",
+      "name": "Where is Active Bridge company located",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A business entity in the USA, Arizona.The R&D center in Ukraine, Cherkasy has full-time employees who are provided to customers on a contract basis."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is your average hourly rate or minimum project budget?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An average Junior’s developer rate is $25/h, an average Middle developer’s rate is $35/h, an average Senior’s rate is $45/h."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is your main expertise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our main expertise is developing web-based systems, web applications, cloud-based software, cross-platform applications, and PWA."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How can you prove that your company provides well-designed application solutions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can always ask for references about our work from our customers. And you can always check the ratings provided by independent sites, such as Clutch and Expertise."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What payment methods do you handle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text":"We support wire transfer payments to our US bank account."
+        }
+      }
+      ]
+  }

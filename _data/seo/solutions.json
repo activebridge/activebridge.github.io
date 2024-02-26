@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ProductCollection",
+  "name": "Project Examples",
+  "description": "Custom technology solutions that help businesses grow",
+  "creator": "Active Bridge LLC",
+  "brand": "Active Bridge",
+  "url": "activebridge.org/solutions",
+  "image": "https://imgur.com/SUEWchJ",
+  "review": [
+             {
+                "@type": "Review",
+                "author": "Julia Macalaster",
+                "datePublished": "2016",
+                "reviewBody": "Overall this is an absolutely amazing team to work with, composed of driven developers and bright minds. We feel so incredibly lucky to be working with them.",
+                "reviewRating": {
+                                  "@type": "Rating",
+                                  "bestRating": "5",
+                                  "ratingValue": "5"
+                }
+             }
+  ]
+}

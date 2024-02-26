@@ -1,0 +1,39 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Web, Cloud Software, Mobile Application Development Services",
+  "description": "Picking the right tech stack, Active Bridge help startups and SMEs looking to solve their technical business challenges, complex or routine.",
+  "priceRange": "$30.00 - $60.00",
+  "address": [
+              {
+                  "@type": "PostalAddress",
+                  "addressCountry": "US",
+                  "postalCode": "85016",
+                  "streetAddress": "3506 North 24th Street"
+              }
+  ],
+  "telephone": "+18888053503",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "CA",
+                 "AU"
+  ],
+  "award": [
+            "Top App Development Companies, 2020",
+            "Top B2B Companies Ukraine, 2018",
+            "Best Web Developers in Phoenix, 2020",
+            "Top Web & Software Development company, 2019",
+            "Top Firms Arizona, 2020"
+  ],
+  "contactPoint": [
+                   {
+                      "@type": "contactPoint",
+                      "contactType": "Customer services",
+                      "email": "contact@active-bridge.com",
+                      "telephone": "+18888053503",
+                      "url": "activebridge.org/services"
+                   }
+  ],
+  "image": "https://imgur.com/SUEWchJ"
+}

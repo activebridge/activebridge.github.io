@@ -1,0 +1,16 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Offer",
+  "name": "Web Application Development Services",
+  "category": "Tech Services",
+  "description": "From MVP to scalable web solutions, Active Bridge provides custom web development services and a transparent process",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "CA",
+                 "AU"
+  ],
+  "price": "30.00 - 60.00/hour",
+  "priceCurrency": "USD",
+  "seller": "Active Bridge"
+}
