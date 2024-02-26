@@ -53,3 +53,21 @@ To add a new post to your blog:
 * `layout`: It's crucial to use the exact layout specified for blog posts. Always use `layout: post` for blog posts to ensure your post is displayed correctly within the site's theme.
 * `scripts`: By default, use `[post]`. If your post requires additional specific JavaScript files, list them here without the `.js` extension. These files should be located in the `assets/js` directory. For example, to include a script named `example.js`, add it to the array like so: `scripts: [post, example]`. Follow the format shown in the example for proper script loading.
 * `popular`: An optional boolean value. If set to true, the post will be added to a "Popular Post" section on the website. If not needed, this setting can be omitted.
+
+
+### CEO
+
+#### To incorporate JSON-LD for SEO enhancement on each page:
+
+  * Create a JSON-LD file within the **_data/seo directory**, naming it appropriately, e.g., **file-name.json**.
+  * Reference this file in your page's Front Matter by adding its name (excluding the .json extension) to a json-ld field. For instance, for a homepage file named **home.html**, integrate it as follows
+
+  ```
+  ---
+  # Other development settings
+
+  json-ld: home
+  ---
+  ```
+
+#### To incorporate JSON-LD for SEO enhancement on each post:
