@@ -18,6 +18,9 @@ To add a new post to your blog:
   * Create a file in the **_posts** directory. The file name should follow the format: **YEAR-MONTH-DAY-title.md**.
   * Add a background image for the post in the **assets/images/blog/posts/<post.category-name>** directory in the format: **title.webp**. Use only the **webp** format for images to improve page load speed and efficiency.
 
+### Important
+  When adding text values to your post settings, especially if those texts include symbols, always enclose the text in quotation marks `""`. This practice ensures that the YAML parser correctly interprets the text as a single string value, preventing any parsing errors or unintended behavior.
+
 ### Post settings
   Each post begins with Front Matter, which is YAML code enclosed between triple-dashed lines. Here’s an example:
 
@@ -28,10 +31,10 @@ To add a new post to your blog:
   background: simple-way-to-create-public-pages-back
   category: engineering
   date: "2024-01-01"
-  description: Post short description
+  description: This is an example description of a blog post
   layout: post
   post-id: unobtrusive-scripting-adapter-file-uploader
-  title: Post title for SEO
+  title: Example Blog Post Title
   post-title: Post title
   time-to-read: 2 min
   scripts: [post]
@@ -55,7 +58,7 @@ To add a new post to your blog:
 * `popular`: An optional boolean value. If set to true, the post will be added to a "Popular Post" section on the website. If not needed, this setting can be omitted.
 
 
-### CEO
+### SEO
 
 #### To incorporate JSON-LD for SEO enhancement on each page:
 
@@ -71,3 +74,20 @@ To add a new post to your blog:
   ```
 
 #### To incorporate JSON-LD for SEO enhancement on each post:
+  * Add variables related to SEO in each post after the main settings. These will enhance your post's SEO by providing structured data.
+
+  ```
+  ---
+  ....
+  scripts: [post]
+  popular: true
+
+  # Only for SEO
+  author-url: "https://www.linkedin.com/in/autor"
+  date-modified: "2024-01-10"
+  article-body: This is the some main elements of the blog post
+  cover-image: "http://example.com/path/to/image.jpg"
+  ---
+  ```
+
+  These variables will be used in the main post SEO partial, located in **_includes/post_seo.html**, to dynamically generate JSON-LD structured data for each post.
