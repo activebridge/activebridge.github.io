@@ -1,0 +1,14 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Service",
+  "category": "Tech Services",
+  "provider": "Active Bridge",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "CA",
+                 "AU"
+  ],
+  "serviceType": "Tech Staff Augmentation",
+  "description": "TFeel the flexibility of management by augmenting your in-house team with our experts at the cost of offshore specialists"
+}

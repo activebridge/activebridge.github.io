@@ -1,0 +1,12 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ContactPage",
+  "name": "Active Bridge",
+  "description": "Web and Cloud Software Development Company",
+  "url": "activebridge.org/contacts",
+  "sameAs" : [
+              "https://github.com/activebridge",
+              "https://www.linkedin.com/company/active-bridge/",
+              "https://www.facebook.com/ActiveBridgeTeam"
+  ]
+}

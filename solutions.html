@@ -6,6 +6,7 @@ description: Fueled by a deep understanding of the business context, our tech
              experts produce reliable, scalable, highly efficient web app and
              cloud solutions. Check our cases
 scripts: [animation, carousel]
+json-ld: solutions
 ---
 
 <div class="solutions">
@@ -60,7 +61,7 @@ scripts: [animation, carousel]
           <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
             <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
             <div class="animate-visibility__image">
-              <img src="/assets/images/solutions/{{ item.icon }}.webp" alt="Logo">
+              {% include svgs/solutions/{{ item.icon }}.html %}
             </div>
             <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
           </div>

@@ -1,0 +1,16 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Offer",
+  "name": "Ruby on Rails Development Services",
+  "category": "Tech Services",
+  "description": "Our Ruby on Rails development team makes the most of the technologies and builds really effective business solutions that always work.",
+  "areaServed": [
+                 "US",
+                 "UK",
+                 "AU",
+                 "CA"
+  ],
+  "price": "30.00 - 100.00/hour",
+  "priceCurrency": "USD",
+  "seller": "Active Bridge"
+}

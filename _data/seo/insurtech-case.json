@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ItemPage",
+  "name": "InsurTech Cloud Software Project Exapmle",
+  "author": "Active Bridge",
+  "contributor": "DaisyBill",
+  "significantLink": "activebridge.org/solutions/insurtech-development-solutions",
+  "description": "Cloud-software project example of a workers compensation e-Billing management cloud-software",
+  "datePublished": "2011-10-11"
+}

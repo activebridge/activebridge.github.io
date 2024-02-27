@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Test business_growth_post"
+post-title: Post title
 date: "2023-01-10"
 author: Admin
 time-to-read: 4 min

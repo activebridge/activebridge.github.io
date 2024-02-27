@@ -1,0 +1,71 @@
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "itemReviewed": "ProfessionalService",
+  "name": "Active Bridge's development services",
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "17"
+  },
+  "review": [
+             {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Ben"
+                },
+                "reviewBody": "They bring excellent Agile and TDD software development practices to our team and are effective and efficient collaborators. "
+             },
+              {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Joseph"
+                },
+                "reviewBody": "Collaborating with their engineers has kept us delivering running, tested features in an Agile fashion across multiple countries and time zones."
+              },
+             {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "Julie"
+                },
+                "reviewBody": " The whole team were very responsive, organized and have great communication skills."
+             },
+             {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "David"
+                },
+                "reviewBody": "Their staff are as competent and productive as the three times more expensive people, and deliver more code per dollar than the three times less expensive people"
+             }
+  ],
+  "url": "activebridge.org/reviews",
+  "image": "https://imgur.com/SUEWchJ",
+  "telephone": "+18888053503",
+  "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3506 North 24th Street",
+      "addressLocality": "Phoenix",
+      "postalCode": "85016",
+      "addressCountry": "US"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "name": "About Active Bridge Team",
+  "description": "The team of Ruby on Rails developers with 8+ years of remote development experience for enterprise organizations and applications for startups.",
+  "about": {
+      "@type": "LocalBusiness",
+      "name": "Active Bridge",
+      "image": "https://imgur.com/SUEWchJ",
+      "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3506 North 24th Street",
+      "addressLocality": "Phoenix",
+      "addressRegion": "AZ",
+      "postalCode": " 85016",
+      "addressCountry": "US"
+    },
+    "url": "activebridge.org/about/team",
+    "telephone": "+18888053503",
+    "email": "contact@active-bridge.com"
+  }
+}

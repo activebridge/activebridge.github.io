@@ -1,0 +1,37 @@
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page.title }}",
+    "image": [
+      "{{ page.cover-image }}"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author }}",
+      "url": "{{ page.author-url }}"
+    },
+    "publisher": {
+      "@type": "LocalBusiness",
+      "name": "Active Bridge",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/images/active-bridge-logo.webp' | prepend: site.baseurl | prepend: site.url }}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressLocality": "Phoenix",
+        "addressRegion": "AZ",
+        "postalCode": "85016",
+        "streetAddress": "3506 North 24th Street"
+      },
+      "telephone": "+18888053503"
+    },
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "dateModified": "{{ page.date-modified | date: '%Y-%m-%d' }}",
+    "description": "{{ page.description }}",
+    "articleBody": "{{ page.article-body }}",
+    "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
+  }
+</script>

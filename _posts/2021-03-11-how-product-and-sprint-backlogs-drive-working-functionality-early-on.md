@@ -4,13 +4,20 @@ author-position: marketing director
 background: product-and-sprint-backlogs-cover
 category: pm_team_management
 date: "2023-01-10"
-description: How Product and Sprint Backlogs Add Value to a Product
 layout: post
-title: How Product and Sprint Backlogs Drive Working Functionality Early On
+post-title: How Product and Sprint Backlogs Drive Working Functionality Early On
 time-to-read: 4 min
 scripts: [post]
 post-id: what-do-you-know-about-digital-marketing-strategy
 popular: true
+
+# Only for SEO
+author-url: "link to author linkedin"
+title: How Product and Sprint Backlogs
+description: How Product and Sprint Backlogs Add Value to a Product
+date-modified: "2024-01-10"
+article-body: This is the some main elements of the blog post
+cover-image: "http://example.com/path/to/image.jpg"
 ---
 
 Agile project management has grown in popularity significantly over the last ten years, and with good reason. The use of short development cycles called "sprints" perfectly aligns with the fast-paced nature of business in the modern era. Additionally, the drive for better performance, efficiency, and results in a world where approximately [66% of development projects fail](https://www.tiempodev.com/blog/why-software-development-projects-fail/ ), makes agile management methods attractive to most businesses. 

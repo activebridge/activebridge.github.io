@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ItemPage",
+  "name": "Healthcare Web Application Development Project Example",
+  "author": "Active Bridge",
+  "contributor": "Mediprocity",
+  "significantLink": "activebridge.org/solutions/hippa-product-development-solutions",
+  "description": "Cross-platform development project example of a HIPAA-compliant communication and clinical collaboration platform.",
+  "datePublished": "2009-10-10"
+}

@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "ItemPage",
+  "name": "eCommerce Website Project",
+  "author": "Active Bridge",
+  "contributor": "SewSew You ltd",
+  "significantLink": "activebridge.org/solutions/custom-ecommerce-web-development",
+  "description": "Web development project example of a B2C eCommerce platform with optimized supply chain management and logistics for sustainable clothes brands.",
+  "datePublished": "2018-12-10"
+}

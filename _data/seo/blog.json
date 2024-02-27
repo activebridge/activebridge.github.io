@@ -1,0 +1,25 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Blog",
+  "name": "Active Bridge Insights: Ruby on Rails & Web Dev Innovation",
+  "url": "https://active bridge.org/blog",
+  "description": "Discover expert insights on Ruby on Rails, Agile, UX/UI, and web development. Elevate your project with our curated content designed for innovators and decision-makers.",
+  "publisher": {
+    "@type": "LocalBusiness",
+    "name": "Active Bridge",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://activebridge.org/path/to/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebSite",
+    "name": "Active Bridge Blog",
+    "url": "https://activebridge.org"
+  },
+  "author": {
+    "@type": "LocalBusiness",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org"
+  }
+}
