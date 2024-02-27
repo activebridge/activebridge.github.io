@@ -41,6 +41,8 @@
 
   &__cross_platform {
     background-image: linear-gradient($white, $palianytsia);
+
+    &.development__cards  .cards-container .card { padding: 6vh 3vw; }
   }
 
   &__react_native {
@@ -118,7 +120,7 @@
         justify-content: center;
 
         .card {
-          max-width: 330px;
+          max-width: 320px;
           width: 100%;
 
           &:not(:last-child) { margin-bottom: 3vh; }
@@ -147,7 +149,7 @@
         justify-content: space-around;
 
         .card {
-          max-width: 330px;
+          max-width: 320px;
           min-width: 40%;
           margin: 0;
           flex: 1;
@@ -173,7 +175,7 @@
   .mob_dev_services__engagement-models.development__cards {
     .cards-container-2 .card,
     .cards-container .card {
-      min-width: 45%;
+      min-width: 40%;
       max-height: 535px;
     }
   }

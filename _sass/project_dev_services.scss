@@ -127,6 +127,8 @@
     .cards-container {
       margin-bottom: 5vh;
       margin-top: 0;
+
+      .card { padding: 45px 35px; }
     }
 
     .button {
@@ -136,7 +138,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .project_dev_services {
     .header-2 { font-size: .85em; }
 
@@ -179,19 +181,79 @@
         }
       }
     }
+
+    .development__cards {
+      .cards-container-2 .card,
+      .cards-container .card {
+        min-width: 250px;
+        max-width: 300px;
+        width: 100%;
+        padding: 25px 20px;
+      }
+    }
+
+    .development__cards .cards-container-2 .card__description,
+    .development__cards .cards-container .card__description { margin: 20px 10px; }
   }
 }
 
 @media (max-width: 767px ) {
-    .project_dev_services {
-      .timeline-item.has-svg {
-        .project-dev-svg {
-          position: static;
-          width: 150px;
-        }
+  .project_dev_services {
+    .timeline-item.has-svg {
+      .project-dev-svg {
+        position: static;
+        width: 150px;
       }
     }
- }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .project_dev_services .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 330px;
+        width: 100%;
+        min-height: 400px;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .project_dev_services .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .card {
+        max-width: 330px;
+        min-width: 40%;
+        margin: 5px;
+        flex: 1;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .project_dev_services .development__cards {
+    .cards-container-2 .card,
+    .cards-container .card {
+      min-width: 40%;
+      max-height: 535px;
+    }
+  }
+}
 
 @media screen and (min-width: 1550px) {
   .project_dev_services {

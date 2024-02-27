@@ -185,9 +185,11 @@
       background-color: $white;
     }
   }
+
+  .development__cards .cards-container .card { padding: 45px 35px; }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .staff_augmentation_services {
     .header-2 { font-size: 1em; }
 
@@ -208,11 +210,10 @@
     .timeline-item:nth-child(even)::before,
     .timeline-item:nth-child(odd)::before { background-color: $sky-ua; }
 
-    &__main {
-      padding: 7vh 5vh 0;
-    }
+    &__main { padding: 7vh 5vh 0; }
 
-    &__main, &__advantages {
+    &__main,
+    &__advantages {
       .list-with-images.horizontal {
         .list-with-images__item {
           max-width: 45%;
@@ -245,6 +246,65 @@
     }
 
     &__benefits .absolute-img { display: none; }
+
+    .development__cards {
+      .cards-container-2 .card,
+      .cards-container .card {
+        min-width: 250px;
+        max-width: 300px;
+        width: 100%;
+      }
+    }
+
+    .development__cards .cards-container-2 .card__description,
+    .development__cards .cards-container .card__description { margin: 20px 10px; }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .staff_augmentation_services .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 330px;
+        width: 100%;
+        min-height: 400px;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .staff_augmentation_services .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .card {
+        max-width: 330px;
+        min-width: 40%;
+        margin: 5px;
+        flex: 1;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .staff_augmentation_services .development__cards {
+    .cards-container-2 .card,
+    .cards-container .card {
+      min-width: 40%;
+      max-height: 535px;
+    }
   }
 }
 

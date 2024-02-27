@@ -44,29 +44,25 @@
     background-image: linear-gradient(135deg, $buzok, $purple-heart);
     padding: 75px 0 105px 0;
 
-    .cards-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
-      grid-column-gap: 15px;
-      row-gap: 15px;
+    &.development__cards {
+      .cards-container,
+      .cards-container-2 {
+        .card {
+          background: rgba($white, .05);
+          box-shadow: inset -2px -2px 12px 0px rgba(black, .25), 0px 4px 20px 0 rgba(black, .2);
+          padding: 25px;
+          max-height: 515px;
 
-      .card {
-        background: rgba($white, .05);
-        box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.20), -2px -2px 12px 0px rgba(0, 0, 0, 0.25) inset;
-        box-sizing: border-box;
-        margin: 0;
-        min-width: 100%;
-        max-width: 100%;
-        max-height: 460px;
-        padding: 33px 22px;
-        width: 100%;
+          &__description { margin: auto 0; }
 
-        &__description {
-          margin: 23px 0;
+          &__title-2 { margin-bottom: 10px; }
+
+          &__icon img { mix-blend-mode: normal; }
         }
       }
     }
   }
+
   &__case_study { padding: 89px 0 94px 0; }
 
   &__solutions {
@@ -99,14 +95,11 @@
     background-image: linear-gradient(35deg, $kviten, $titan_white, $titan_white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
     padding: 69px 0 92px 0;
+
     .purple-text { color: $main-violet; }
 
     .list-with-images {
-      &__item {
-        &_element {
-          &::before { border: 1px solid $main-violet; }
-        }
-      }
+      &__item_element::before { border: 1px solid $main-violet; }
     }
   }
 
@@ -124,11 +117,7 @@
     }
 
     .list-with-images {
-      &__item {
-        &_element {
-          &::before { border: 1px solid $purple-heart; }
-        }
-      }
+      &__item_element::before { border: 1px solid $purple-heart; }
     }
   }
 }
@@ -171,11 +160,13 @@
       height: 2px;
       top: 30%;
     }
-      &::before {
-        left: 75%;
-        width: 82%;
-       }
-      &::after { right: 75% }
+
+    &::before {
+      left: 75%;
+      width: 82%;
+     }
+
+    &::after { right: 75% }
 
     &_icon {
       align-items: center;
@@ -291,6 +282,89 @@
       &::after { top: 100px; }
       &_icon { margin-right: 1.5em; }
       &_text { font-size: 12px;}
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .taxi_and_transportation {
+    .development__cards {
+      .cards-container-2 .card,
+      .cards-container .card {
+        min-width: 250px;
+        max-width: 300px;
+        width: 100%;
+        padding: 30px 25px;
+      }
+    }
+
+    .development__cards .cards-container-2 .card__description,
+    .development__cards .cards-container .card__description { margin: 20px 10px; }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .taxi_and_transportation .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 330px;
+        width: 100%;
+        min-height: 400px;
+        min-width: 300px;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+
+        &__description { margin: 20px 10px; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .taxi_and_transportation .development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .card {
+        max-width: 330px;
+        min-width: 40%;
+        margin: 5px;
+        flex: 1;
+
+        &:not(:last-child) { margin-bottom: 3vh; }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .taxi_and_transportation .development__cards {
+    .cards-container-2 .card,
+    .cards-container .card {
+      min-width: 40%;
+      max-height: 535px;
+    }
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .taxi_and_transportation {
+    .development__cards {
+      .header-2 {
+        max-width: 70%;
+        margin-top: 0;
+        margin-bottom: 100px;
+      }
+      .cards-container-2 .card {
+        max-width: 28%;
+        min-width: 28%;
+      }
     }
   }
 }

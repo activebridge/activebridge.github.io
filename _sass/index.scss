@@ -20,7 +20,6 @@ body {
 
 .home-page-container {
   position: relative;
-  top: 40px;
   min-height: 100vh;
   padding-bottom: 7em;
   background: center/cover no-repeat url('/assets/images/index/background.webp');
@@ -198,18 +197,7 @@ body {
 
     }
 
-    &__container {
-      display: flex;
-      justify-content: space-around;
-      margin: 5vh 0;
-      flex-wrap: wrap;
-    }
-
     .card {
-      min-width: 40%;
-      max-width: 40%;
-      box-sizing: border-box;
-
       &__title-2 {
         font-family: 'Inria Bold', serif;
         font-size: 1.4em;
@@ -227,9 +215,7 @@ body {
       }
     }
 
-    &__button {
-      width: 35%;
-    }
+    &__button { width: 35%; }
   }
 
   &-about-us {
@@ -315,10 +301,11 @@ body {
     background: $main-gradient;
   }
 }
+
 @media (max-width:768px) { .home-page-container { top: 0; } }
 
-@media (max-width: 600px) {
-  .info-container.index-home { padding-top: 10vh; }
+@media (max-width: 700px) {
+  // .info-container.index-home { padding-top: 10vh; }
 
   .home-page-container {
     display: flex;
@@ -461,22 +448,22 @@ body {
     }
 
     &-services {
-      &__container {
-        margin: 0;
+      &.development__cards {
+        .cards-container {
+          .card {
+            min-width: 300px;
+            height: auto;
+            margin: 0 10vw;
+            padding: 30px;;
 
-        .card {
-          min-width: 300px;
-          height: auto;
-          margin: 0 10vw;
-          padding: 5vh 10vw;
+            &:not(:last-child) { margin-bottom: 5vh; }
 
-          &:not(:last-child) { margin-bottom: 5vh; }
+            &__title-2 {font-size: 1.2em; }
 
-          &__title-2 {font-size: 1.2em; }
-
-          &__description {
-            font-size: 0.9em;
-            line-height: 1.8em;
+            &__description {
+              font-size: 0.9em;
+              line-height: 1.8em;
+            }
           }
         }
       }
@@ -485,7 +472,6 @@ body {
         width: 85%;
         margin-top: 7vh;
       }
-
     }
 
     &-solutions {
@@ -574,8 +560,6 @@ body {
     }
 
     &-services {
-      &__container { justify-content: space-around; }
-
       .card {
         max-width: 32%;
         min-width: 32%;
@@ -586,4 +570,25 @@ body {
   }
 
   .info-container.index-home { padding-top: 8vh !important; }
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .index-services.development__cards {
+    .cards-container-2,
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        max-width: 330px;
+        width: 100%;
+        padding: 50px 45px;
+
+        &:not(:last-child) { margin-bottom: 3vh }
+      }
+
+      .card__description { line-height: 2; }
+    }
+  }
 }

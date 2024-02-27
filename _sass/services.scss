@@ -20,10 +20,6 @@
     justify-content: space-around;
 
     .card {
-      max-width: 360px;
-      min-width: 350px;
-      height: auto;
-      margin: 0;
       padding: 4vh;
       box-sizing: border-box;
       background: rgba($white, .4);
@@ -33,11 +29,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 7em;
         margin-top: 3vh;
 
         img {
-          height: inherit;
           border-radius: 50%;
           box-shadow: inset -3px -3px 7px -4px grey, 1px 1px 14px -2px grey;
         }
@@ -47,7 +41,7 @@
 
       &__title-2 { font-size: 1.25em; }
 
-      .button { width: 50%; }
+      .button { width: 75%; }
     }
   }
 
@@ -134,15 +128,7 @@
     }
 
     .card {
-      position: relative;
-
-      &__description { padding-bottom: 6vw; }
-
       .button {
-        position: absolute;
-        bottom: 2em;
-        left: 0;
-        right: 0;
         margin-left: auto;
         margin-right: auto;
       }
@@ -151,6 +137,7 @@
 
   &__approaches {
     padding: 120px 0;
+
     .header-2 {
       max-width: 100%;
       margin-top: 2.5em;
@@ -161,16 +148,17 @@
 
     .button { background: transparent; }
   }
+
   .timeline-item { padding-bottom: 80px; }
 }
 
 @media (max-width: 768px) {
   .services {
     .animate-visibility__image { img { width: 80px; } }
+
     .header-3 { max-width: 90%; }
 
     .button {
-      margin-top: 0;
       margin-bottom: 0;
       width: 70%;
     }
@@ -190,45 +178,60 @@
       }
     }
 
-    .cards-container {
-      flex-wrap: wrap;
-
-      .card {
-        min-width: 90%;
-
-        &__title-2 {
-          font-size: 1em;
-          margin-left: 3vh;
-          margin-right: 3vh;
-        }
-
-        &__icon svg { height: 5vh }
-
-        &:first-child {
-          margin-bottom: 5vh;
-
-          .card__icon {
-            height: 9vh;
-
-            svg { height: 9vh; }
-          }
-        }
-
-        &__description {
-          font-size: .8em;
-          padding-right: 3vh;
-          padding-left: 3vh;
-        }
-
-        .button { position: sticky; }
-      }
-    }
-
     &__engagement-models-img { bottom: -1em; }
 
     &__approaches {
       padding: 65px 0 45px 0;
+
       .header-2 { font-size: 1em; }
+    }
+
+    &__mobile-dev.development__cards .cards-container,
+    &__engagement-models.development__cards .cards-container {
+      flex-wrap: wrap;
+
+      .card {
+        max-height: 415px;
+        height: auto;
+        width: 100%;
+        min-width: 275px;
+        justify-content: normal;
+
+        &__title-2 { font-size: 1em; }
+
+        &:first-child {
+          margin-bottom: 5vh;
+        }
+
+        &__icon {
+          width: 90px;
+          height: 90px;
+          margin: 20px auto;
+        }
+
+        &__description {
+          font-size: .8em;
+          margin: 0
+        }
+
+        .button {
+          font-size: 0.75em;
+          letter-spacing: 0.2em;
+        }
+      }
+    }
+
+    &__mobile-dev.development__cards .cards-container .card { max-width: 310px; }
+
+    &__engagement-models.development__cards .cards-container {
+      .card {
+        max-width: 290px;
+
+        &__description {
+          padding-bottom: 6vw;
+          padding-top: 6vw;
+        }
+      }
     }
   }
 }
@@ -236,6 +239,9 @@
 @media screen and (min-width: 1550px) {
   .services {
     .cards-container {
+      max-width: 1100px;
+      margin: 5vh auto;
+
       .card {
         max-width: 360px;
         min-width: 350px;
@@ -243,4 +249,52 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 500px) {
+  .services__mobile-dev.development__cards {
+    .cards-container {
+      .card {
+        width: 100%;
+        max-width: 275px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 990px) {
+  .services__mobile-dev.development__cards,
+  .services__engagement-models.development__cards {
+    .cards-container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .card {
+        width: 100%;
+        padding: 50px 45px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+        &:not(:last-child) { margin-bottom: 3vh }
+
+        &__description {
+          margin-right: -15px;
+          margin-left: -15px;
+        }
+      }
+    }
+  }
+
+  .services__mobile-dev.development__cards .card {  max-width: 310px; }
+
+  .services__engagement-models.development__cards .card { max-width: 290px; }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .services__mobile-dev,
+  .services__engagement-models {
+    .button { width: 75%; }
+  }
+
+
 }
