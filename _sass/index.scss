@@ -85,12 +85,6 @@ body {
       align-items: center;
     }
 
-    .carousel__description {
-      margin-right: 6vh;
-      margin-left: 6vh;
-      -webkit-line-clamp: 9;
-    }
-
     .button { margin-top: 5em; }
   }
 
@@ -215,7 +209,11 @@ body {
       }
     }
 
-    &__button { width: 35%; }
+    &__button {
+      max-width: 325px;
+      box-sizing: border-box;
+      width: 100%;
+    }
   }
 
   &-about-us {
@@ -568,25 +566,4 @@ body {
   }
 
   .info-container.index-home { padding-top: 8vh !important; }
-}
-
-
-@media screen and (min-width: 701px) and (max-width: 990px) {
-  .index-services.development__cards {
-    .cards-container-2,
-    .cards-container {
-      flex-wrap: wrap;
-      justify-content: center;
-
-      .card {
-        max-width: 330px;
-        width: 100%;
-        padding: 50px 45px;
-
-        &:not(:last-child) { margin-bottom: 3vh }
-      }
-
-      .card__description { line-height: 2; }
-    }
-  }
 }
