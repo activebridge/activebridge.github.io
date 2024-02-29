@@ -27,7 +27,7 @@
   .development__cards {
     .cards-container {
       justify-content: space-around;
-      
+
       .card {
         max-width: 300px;
         margin-right: 5px;
@@ -97,6 +97,12 @@
     &__cross_platform {
       .card__icon { margin-top: 20px; }
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mob_dev_services__approaches .timeline-item {
+    padding-bottom: 30px;
   }
 }
 
