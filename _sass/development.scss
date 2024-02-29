@@ -73,7 +73,9 @@
 
         .button {
           color: $purple-heart;
-          margin-top: 0;
+          width: 85%;
+          box-sizing: border-box;
+          margin: 0 auto;
         }
       }
     }

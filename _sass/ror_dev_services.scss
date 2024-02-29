@@ -155,9 +155,7 @@
   }
 
   .development__cards {
-    .cards-container .card {
-      min-width: 330px;
-    }
+    .cards-container .card { justify-content: space-between; }
   }
 }
 
@@ -223,22 +221,6 @@
 
         &__description { margin: 20px 10px; }
       }
-    }
-  }
-}
-
-@media screen and (min-width: 701px) and (max-width: 990px) {
-  .ror_dev_services .development__cards .cards-container {
-    flex-wrap: wrap;
-    justify-content: center;
-
-    .card {
-      max-width: 330px;
-      width: 100%;
-      padding: 40px;
-      min-width: 275px;
-
-      &:not(:last-child) { margin-bottom: 3vh; }
     }
   }
 }
