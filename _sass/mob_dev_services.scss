@@ -24,18 +24,6 @@
     }
   }
 
-  .development__cards {
-    .cards-container {
-      justify-content: space-around;
-
-      .card {
-        max-width: 300px;
-        margin-right: 5px;
-        margin-left: 5px;
-      }
-    }
-  }
-
   &__main {
     background-image: linear-gradient(-135deg, $medium_purple 28.4%, rgba($buzok, .7) 52.42%, $medium_purple 73.77%);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
@@ -51,7 +39,21 @@
     }
   }
 
-  &__cross_platform { background-image: linear-gradient($white, $palianytsia); }
+  &__cross_platform {
+    background-image: linear-gradient($white, $palianytsia);
+
+    &.development__cards {
+      .cards-container {
+        justify-content: space-around;
+
+        .card {
+          max-width: 300px;
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
 
   &__react_native {
     background-image: linear-gradient($sky-ua, $white);
@@ -80,7 +82,7 @@
   }
 
   &__engagement-models {
-    .card { padding: 40px 35px; }
+    .card { justify-content: space-between; }
   }
 }
 
