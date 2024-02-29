@@ -146,10 +146,7 @@ ul, ol { margin-left: 0; }
 }
 
 .card {
-  width: 25%;
-  min-width: 364px;
-  max-width: 350px;
-  padding: 6vh 3vw;
+  padding: 40px 30px;
   border-radius: 30px;
   background: $white;
   box-shadow: $main-shadow;
@@ -176,23 +173,7 @@ ul, ol { margin-left: 0; }
     }
   }
 
-  &__icon {
-    height: 15vh;
-
-    &.circled {
-      display: flex;
-      justify-content: center;
-      width: 15vh;
-      height: 15vh;
-      margin: 3vh auto;
-      border-radius: 7.5vh;
-      box-shadow: inset -3px -3px 7px -4px grey, 1px 1px 14px -2px grey;
-
-      svg {
-        width: 9vh;
-      }
-    }
-  }
+  &__icon { margin-top: 25px; }
 
   &__description {
     margin-top: 3vh;
@@ -206,10 +187,11 @@ ul, ol { margin-left: 0; }
   &-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 5vh 0;
 
     .card {
-      margin: 0 2vw;
+      margin: 0 2vw 25px;
     }
   }
 
@@ -536,7 +518,7 @@ input#menu {
   }
 }
 
-.wrap { padding: 8vh 18vw; }
+.wrap { padding: 8vh 0; }
 
 .row {
   box-sizing: border-box;
@@ -566,7 +548,7 @@ input#menu {
   .description.with-padding { padding: 0 8%; }
 }
 
-@media screen and (max-width: 600px) { .wrap { padding: 7vh 5vh; } }
+@media screen and (max-width: 700px) { .wrap { padding: 7vh 0; } }
 
 @media (max-width: 1550px) {
   .wrap {
