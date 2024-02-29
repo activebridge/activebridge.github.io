@@ -21,18 +21,18 @@ cross_platform:
   title: Cross-platform mobile app development services
   description: our dedicated teams provide
   all:
-  - title: React Native rapid development
+  - title: React Native<br> rapid development
     icon: white_react.webp
     description: Our cross-platform mobile technology engineers provide high-performing
                  code that delivers app excellent engagement and conversions across
                  iOS, Android, Web platforms.
-  - title: Flutter app development
+  - title: Flutter<br> app development
     icon: white_flutter.webp
     description: Our <b>Flutter developers</b> provide effective, high-performing,
                  high-fidelity iOS and Android solutions. We take all advantages
                  of the technology like agile rapid development and easier
                  testing process.
-  - title: Ionic development services
+  - title: Ionic<br> development services
     icon: white_ionic.webp
     description: Our <b>Ionic developers build</b> customized applications, that
                  run fast on all of the latest mobile devices, thanks to Ionic
