@@ -12,7 +12,9 @@
   }
 
   .button {
-    width: 30%;
+    box-sizing: border-box;
+    max-width: 300px;
+    width: 100%;
     background: $main-gradient;
   }
 
@@ -20,28 +22,14 @@
     justify-content: space-around;
 
     .card {
-      padding: 4vh;
-      box-sizing: border-box;
       background: rgba($white, .4);
       z-index: 1;
-
-      &__icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3vh;
-
-        img {
-          border-radius: 50%;
-          box-shadow: inset -3px -3px 7px -4px grey, 1px 1px 14px -2px grey;
-        }
-      }
 
       &__description { font-size: 1em; }
 
       &__title-2 { font-size: 1.25em; }
 
-      .button { width: 75%; }
+      .button { width: 85%; }
     }
   }
 
@@ -128,6 +116,8 @@
     }
 
     .card {
+      justify-content: space-between;
+      
       .button {
         margin-left: auto;
         margin-right: auto;
@@ -188,20 +178,12 @@
 
     &__mobile-dev.development__cards .cards-container,
     &__engagement-models.development__cards .cards-container {
-      flex-wrap: wrap;
-
       .card {
-        max-height: 415px;
-        height: auto;
         width: 100%;
         min-width: 275px;
         justify-content: normal;
 
         &__title-2 { font-size: 1em; }
-
-        &:first-child {
-          margin-bottom: 5vh;
-        }
 
         &__icon {
           width: 90px;
@@ -221,7 +203,7 @@
       }
     }
 
-    &__mobile-dev.development__cards .cards-container .card { max-width: 310px; }
+    &__mobile-dev.development__cards .cards-container .card { max-width: 300px; }
 
     &__engagement-models.development__cards .cards-container {
       .card {
@@ -251,50 +233,9 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .services__mobile-dev.development__cards {
-    .cards-container {
-      .card {
-        width: 100%;
-        max-width: 275px;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 701px) and (max-width: 990px) {
-  .services__mobile-dev.development__cards,
-  .services__engagement-models.development__cards {
-    .cards-container {
-      flex-wrap: wrap;
-      justify-content: center;
-
-      .card {
-        width: 100%;
-        padding: 50px 45px;
-        margin-right: 10px;
-        margin-left: 10px;
-
-        &:not(:last-child) { margin-bottom: 3vh }
-
-        &__description {
-          margin-right: -15px;
-          margin-left: -15px;
-        }
-      }
-    }
-  }
-
-  .services__mobile-dev.development__cards .card {  max-width: 310px; }
-
-  .services__engagement-models.development__cards .card { max-width: 290px; }
-}
-
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .services__mobile-dev,
   .services__engagement-models {
     .button { width: 75%; }
   }
-
-
 }
