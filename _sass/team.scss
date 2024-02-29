@@ -174,7 +174,6 @@
     }
 
     &__important_things {
-
       .header-2 {
         margin: 0 0 9vh;
       }
@@ -189,20 +188,6 @@
       .header-2 {
         margin-top: 0;
         margin-bottom: 2vh;
-      }
-
-      .cards-container-2 {
-        justify-content: space-around;
-        margin-right: 7vh;
-        margin-left: 7vh;
-
-
-         .card {
-           max-width: 350px;
-           min-width: 35%;
-
-           &__icon img { max-width: 110px; }
-         }
       }
     }
   }
