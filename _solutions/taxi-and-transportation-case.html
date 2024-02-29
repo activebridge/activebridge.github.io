@@ -31,9 +31,9 @@ json-ld: taxi-and-transportation-case
     </div>
   </div>
   <div class="taxi_and_transportation__expertise development__cards wrap">
-    <div class="row">
+    <div class="row wrapper">
       <p class="header-3 white-text">{{ site.data.taxi_and_transportation.expertise.title }}</p>
-      <div class="cards-container cards-container-2">
+      <div class="cards-container">
         {% for item in site.data.taxi_and_transportation.expertise.all %}
           <div class="card">
             <h2 class="card__title-2 white-text">{{ item.title }}</h2>
