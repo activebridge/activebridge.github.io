@@ -186,7 +186,17 @@
     }
   }
 
-  .development__cards .cards-container .card { padding: 45px 35px; }
+  .development__cards .cards-container {
+    justify-content: space-around;
+
+    .card {
+      max-width: 300px;
+      margin-right: 5px;
+      margin-left: 5px;
+
+      &__description { margin-bottom: 0; }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -246,80 +256,5 @@
     }
 
     &__benefits .absolute-img { display: none; }
-
-    .development__cards {
-      .cards-container-2 .card,
-      .cards-container .card {
-        min-width: 250px;
-        max-width: 300px;
-        width: 100%;
-      }
-    }
-
-    .development__cards .cards-container-2 .card__description,
-    .development__cards .cards-container .card__description { margin: 20px 10px; }
-  }
-}
-
-@media screen and (min-width: 701px) and (max-width: 990px) {
-  .staff_augmentation_services .development__cards {
-    .cards-container-2,
-    .cards-container {
-      flex-wrap: wrap;
-      justify-content: center;
-
-      .card {
-        max-width: 330px;
-        width: 100%;
-        min-height: 400px;
-
-        &:not(:last-child) { margin-bottom: 3vh; }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 991px) and (max-width: 1200px) {
-  .staff_augmentation_services .development__cards {
-    .cards-container-2,
-    .cards-container {
-      flex-wrap: wrap;
-      justify-content: space-around;
-
-      .card {
-        max-width: 330px;
-        min-width: 40%;
-        margin: 5px;
-        flex: 1;
-
-        &:not(:last-child) { margin-bottom: 3vh; }
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-  .staff_augmentation_services .development__cards {
-    .cards-container-2 .card,
-    .cards-container .card {
-      min-width: 40%;
-      max-height: 535px;
-    }
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .staff_augmentation_services {
-    .development__cards {
-      .header-2 {
-        max-width: 70%;
-        margin-top: 0;
-        margin-bottom: 100px;
-      }
-      .cards-container-2 .card {
-        max-width: 28%;
-        min-width: 28%;
-      }
-    }
   }
 }

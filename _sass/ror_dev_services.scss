@@ -113,8 +113,6 @@
     .description { margin-bottom: 3vh; }
 
     .header-2.white-text.with-bg {
-      margin-right: -18vw;
-      margin-left: -18vw;
       padding: 6vh 18vw;
       background: $main-gradient;
       font-size: 1.4em;
@@ -205,11 +203,6 @@
     &__quality {
       .header-2,
       .header-2.white-text.with-bg { font-size: 1.2em; }
-
-      .header-2.white-text.with-bg {
-        margin-right: -5vh;
-        margin-left: -5vh;
-      }
     }
 
     .development__cards .cards-container {
