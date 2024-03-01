@@ -72,11 +72,7 @@
     .purple-text { color: $purple-heart; }
 
     .list-with-images {
-      &__item {
-        &_element {
-          &::before { border: 1px solid $buzok; }
-        }
-      }
+      &__item_element::before { border: 1px solid $buzok; }
     }
   }
 
@@ -121,11 +117,7 @@
     }
 
     .list-with-images {
-      &__item {
-        &_element {
-          &::before { border: 1px solid $purple-heart; }
-        }
-      }
+      &__item_element::before { border: 1px solid $purple-heart; }
     }
   }
 }
@@ -147,7 +139,9 @@
     height: 10px;
     top: 27%
   }
+
   &::before { left: 0; }
+  
   &::after { right: 0 }
 
   &__item {
@@ -215,6 +209,7 @@
 
         &-text {
           width: 100%;
+
           .header-2.without-margin { margin: 23px 0 14px 0;}
         }
 
