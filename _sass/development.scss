@@ -48,62 +48,34 @@
       margin-bottom: 0;
 
       .card {
-        max-width: 33vw;
+        max-width: 330px;
         height: auto;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         background: rgba($white, .4);
         max-height: 500px;
 
         &__icon img {
-          max-width: 90px;
+          max-width: 110px;
           width: 100%;
           height: fit-content;
           margin: auto;
         }
 
         &__description {
-          margin: 5vh 0;
+          margin: 25px 0;
           font-size: .9em;
           line-height: 1.4;
           text-align: justify;
-          margin: 55px 0;
         }
 
         .button {
           color: $purple-heart;
-          margin-top: 0;
+          width: 85%;
+          box-sizing: border-box;
+          margin: 0 auto;
         }
-      }
-    }
-
-    .cards-container-2 {
-      justify-content: space-between;
-
-      .card {
-        max-width: 32%;
-        min-width: 32%;
-        height: auto;
-        margin: 0;
-        padding: 3vh 2.5vw;
-        justify-content: flex-start;
-
-        &__icon {
-          height: 115px;
-          display: flex;
-
-          img {
-            mix-blend-mode: luminosity;
-            box-shadow: 0px 4px 20px rgba(0, 0, 0, .2), inset -2px -2px 12px rgba(0, 0, 0, .25);
-            border-radius: 50%;
-          }
-        }
-
-        &__title-2 { height: 75px; }
-
-        &__description { margin: 1vh 0 0; }
       }
     }
   }
@@ -171,19 +143,13 @@
     &__cards {
       background-image: linear-gradient(to top, $buzok, $white);
 
-      .cards-container,
-      .cards-container-2 {
-        flex-wrap: wrap;
-
+      .cards-container {
         .card {
-          min-width: 75%;
-          max-width: 330px;
-          padding: 3vh 7vw;
-          height: 400px;
-
           &:not(:last-child) { margin-bottom: 3vh; }
 
-          &__description { margin: 45px 10px; }
+          &__description { margin: 30px 10px 15px; }
+
+          &__icon img { max-width: 90px; }
         }
       }
 
@@ -229,13 +195,10 @@
         line-height: 1.5;
       }
     }
-
-    .cards-container-2 { justify-content: center; }
   }
 }
 
 @media screen and (min-width: 1550px) {
-  .development__cards .cards-container-2 .card,
   .development__cards .cards-container .card {
     padding: 55px 40px;
   }

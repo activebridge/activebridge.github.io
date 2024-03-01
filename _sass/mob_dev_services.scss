@@ -41,6 +41,18 @@
 
   &__cross_platform {
     background-image: linear-gradient($white, $palianytsia);
+
+    &.development__cards {
+      .cards-container {
+        justify-content: space-around;
+
+        .card {
+          max-width: 300px;
+          margin-right: 5px;
+          margin-left: 5px;
+        }
+      }
+    }
   }
 
   &__react_native {
@@ -70,7 +82,7 @@
   }
 
   &__engagement-models {
-    .card { padding: 40px 35px; }
+    .card { justify-content: space-between; }
   }
 }
 
@@ -87,19 +99,12 @@
     &__cross_platform {
       .card__icon { margin-top: 20px; }
     }
+  }
+}
 
-    .development__cards {
-      .cards-container-2 .card,
-      .cards-container .card {
-        min-width: 250px;
-        width: 100%;
-      }
-    }
-
-    .development__cards .cards-container-2 .card__description,
-    .development__cards .cards-container .card__description {
-      margin: 20px 10px;
-    }
+@media screen and (max-width: 767px) {
+  .mob_dev_services__approaches .timeline-item {
+    padding-bottom: 30px;
   }
 }
 
@@ -108,21 +113,6 @@
     &__main {
       .list-with-images.horizontal {
         .list-with-images__item-icon img { max-width: 135px; }
-      }
-    }
-
-    .development__cards {
-      .cards-container-2,
-      .cards-container {
-        flex-wrap: wrap;
-        justify-content: center;
-
-        .card {
-          max-width: 330px;
-          width: 100%;
-
-          &:not(:last-child) { margin-bottom: 3vh; }
-        }
       }
     }
   }
@@ -134,55 +124,6 @@
       justify-content: space-around;
 
       .list-with-images__item { max-width: 30%; }
-    }
-  }
-}
-
-@media screen and (min-width: 991px) and (max-width: 1200px) {
-  .mob_dev_services {
-    .development__cards {
-      .cards-container-2,
-      .cards-container {
-        flex-wrap: wrap;
-        justify-content: space-around;
-
-        .card {
-          max-width: 330px;
-          min-width: 40%;
-          margin: 0;
-          flex: 1;
-
-          &:not(:last-child) { margin-bottom: 3vh; }
-        }
-      }
-    }
-
-    &__engagement-models.development__cards {
-      .cards-container .card:not(:last-child) { margin-bottom: 0; }
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .mob_dev_services__approaches .timeline-item {
-    padding-bottom: 30px;
-  }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1200px) {
-  .mob_dev_services__engagement-models.development__cards {
-    .cards-container-2 .card,
-    .cards-container .card {
-      min-width: 45%;
-      max-height: 535px;
-    }
-  }
-}
-
-@media screen and (min-width: 991px) and (max-width: 1070px) {
-  .mob_dev_services {
-    &__engagement-models.development__cards {
-      .cards-container .card { max-width: 305px; }
     }
   }
 }

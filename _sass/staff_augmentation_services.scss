@@ -185,9 +185,21 @@
       background-color: $white;
     }
   }
+
+  .development__cards .cards-container {
+    justify-content: space-around;
+
+    .card {
+      max-width: 300px;
+      margin-right: 5px;
+      margin-left: 5px;
+
+      &__description { margin-bottom: 0; }
+    }
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .staff_augmentation_services {
     .header-2 { font-size: 1em; }
 
@@ -208,11 +220,10 @@
     .timeline-item:nth-child(even)::before,
     .timeline-item:nth-child(odd)::before { background-color: $sky-ua; }
 
-    &__main {
-      padding: 7vh 5vh 0;
-    }
+    &__main { padding: 7vh 5vh 0; }
 
-    &__main, &__advantages {
+    &__main,
+    &__advantages {
       .list-with-images.horizontal {
         .list-with-images__item {
           max-width: 45%;
@@ -245,21 +256,5 @@
     }
 
     &__benefits .absolute-img { display: none; }
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .staff_augmentation_services {
-    .development__cards {
-      .header-2 {
-        max-width: 70%;
-        margin-top: 0;
-        margin-bottom: 100px;
-      }
-      .cards-container-2 .card {
-        max-width: 28%;
-        min-width: 28%;
-      }
-    }
   }
 }

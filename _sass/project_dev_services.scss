@@ -123,20 +123,20 @@
 
   .dev_services__cards .header-2 { margin: 2vh auto 8vh; }
 
-  .development__cards {
-    .cards-container {
-      margin-bottom: 5vh;
-      margin-top: 0;
-    }
+  .development__cards .cards-container {
+    justify-content: space-around;
 
-    .button {
-      padding-left: 40px;
-      padding-right: 40px;
+    .card {
+      max-width: 300px;
+      margin-right: 5px;
+      margin-left: 5px;
+
+      &__description { margin-bottom: 0; }
     }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .project_dev_services {
     .header-2 { font-size: .85em; }
 
@@ -183,15 +183,15 @@
 }
 
 @media (max-width: 767px ) {
-    .project_dev_services {
-      .timeline-item.has-svg {
-        .project-dev-svg {
-          position: static;
-          width: 150px;
-        }
+  .project_dev_services {
+    .timeline-item.has-svg {
+      .project-dev-svg {
+        position: static;
+        width: 150px;
       }
     }
- }
+  }
+}
 
 @media screen and (min-width: 1550px) {
   .project_dev_services {
@@ -212,10 +212,6 @@
         max-width: 70%;
         margin-top: 0;
         margin-bottom: 100px;
-      }
-      .cards-container-2 .card {
-        max-width: 28%;
-        min-width: 28%;
       }
     }
   }

@@ -112,22 +112,24 @@ json-ld: ruby-on-rails-development
   </div>
 
   <div class="ror_dev_services__engagement development__cards wrap">
-    <div class="header-3">
-      {{ site.data.ror_dev_services.engagement_models.title }}
-    </div>
-    <div class="header-2">
-      {{ site.data.ror_dev_services.engagement_models.subtitle }}
-    </div>
-    <div class="cards-container">
-      {% for item in site.data.ror_dev_services.engagement_models.all %}
-        <div class="card">
-          <div class="card__title-2">{{ item.title }}</div>
-          <div class="card__description">{{ item.description }}</div>
-          <a href="/expertise" class="button" data-link="transition">
-            {{ site.data.web_dev_services.button }}
-          </a>
-        </div>
-      {% endfor %}
+    <div class="row wrapper">
+      <div class="header-3">
+        {{ site.data.ror_dev_services.engagement_models.title }}
+      </div>
+      <div class="header-2">
+        {{ site.data.ror_dev_services.engagement_models.subtitle }}
+      </div>
+      <div class="cards-container">
+        {% for item in site.data.ror_dev_services.engagement_models.all %}
+          <div class="card">
+            <div class="card__title-2">{{ item.title }}</div>
+            <div class="card__description">{{ item.description }}</div>
+            <a href="/expertise" class="button" data-link="transition">
+              {{ site.data.web_dev_services.button }}
+            </a>
+          </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 

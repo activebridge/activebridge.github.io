@@ -61,10 +61,10 @@ json-ld: team
   <div class="team__photo"></div>
 
   <div class="team__expertise wrap development__cards">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-2">{{ site.data.team.expertise.title }}</div>
       <div class="description">{{ site.data.team.expertise.description }}</div>
-      <div class="cards-container cards-container-2">
+      <div class="cards-container">
         {% for item in site.data.team.expertise.items %}
           <div class="card">
             <div class="card__title-2">{{ item.title }}</div>

@@ -24,6 +24,7 @@ header {
   margin-bottom: 0;
   display: inline-flex;
   list-style: none;
+
   &__item { position: relative; }
 
   &__subitems {
@@ -31,7 +32,6 @@ header {
     list-style: none;
     visibility: hidden;
   }
-
 
   &__link {
     margin: 0 1.5vw;

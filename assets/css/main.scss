@@ -146,10 +146,7 @@ ul, ol { margin-left: 0; }
 }
 
 .card {
-  width: 25%;
-  min-width: 364px;
-  max-width: 350px;
-  padding: 6vh 3vw;
+  padding: 40px 30px;
   border-radius: 30px;
   background: $white;
   box-shadow: $main-shadow;
@@ -176,23 +173,7 @@ ul, ol { margin-left: 0; }
     }
   }
 
-  &__icon {
-    height: 15vh;
-
-    &.circled {
-      display: flex;
-      justify-content: center;
-      width: 15vh;
-      height: 15vh;
-      margin: 3vh auto;
-      border-radius: 7.5vh;
-      box-shadow: inset -3px -3px 7px -4px grey, 1px 1px 14px -2px grey;
-
-      svg {
-        width: 9vh;
-      }
-    }
-  }
+  &__icon { margin-top: 25px; }
 
   &__description {
     margin-top: 3vh;
@@ -206,11 +187,10 @@ ul, ol { margin-left: 0; }
   &-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin: 5vh 0;
 
-    .card {
-      margin: 0 2vw;
-    }
+    .card { margin: 0 2vw 25px; }
   }
 
   &-carousel {
@@ -536,7 +516,7 @@ input#menu {
   }
 }
 
-.wrap { padding: 8vh 18vw; }
+.wrap { padding: 8vh 0; }
 
 .row {
   box-sizing: border-box;
@@ -545,7 +525,7 @@ input#menu {
   margin: 0 auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .header-5 { font-size: 1em; }
 
   .header-3 { font-size: 1.2em; }
@@ -564,8 +544,6 @@ input#menu {
   }
 
   .description.with-padding { padding: 0 8%; }
-
-  .wrap { padding: 7vh 5vh; }
 }
 
 @media (max-width: 1550px) {
@@ -664,5 +642,8 @@ input#menu {
     font-size: 10px;
     line-height: 15px;
   }
+}
+
+@media (max-width: 1024px) {
   .container { padding-top: 0; }
 }
