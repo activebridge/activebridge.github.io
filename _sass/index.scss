@@ -80,12 +80,6 @@ body {
     position: relative;
     z-index: 1;
 
-    .row {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
     .carousel__description {
       margin-right: 6vh;
       margin-left: 6vh;
@@ -105,7 +99,7 @@ body {
 
   &-technologies {
     &__container {
-      padding: 8vh 18vw 0;
+      padding-top: 8vh;
       background: linear-gradient(135deg, $white, $main-lilac);
 
       .header-4  {
@@ -224,7 +218,7 @@ body {
   }
 
   &-about-us {
-    padding: 10vh 0;
+    padding: 8vh 0;
 
     &__description {
       margin: 4.5vh 0;
@@ -239,7 +233,7 @@ body {
   }
 
   &-solutions {
-    padding: 10vh 0;
+    padding: 8vh 0;
     background: center/cover no-repeat url('/assets/images/index/solutions-photo.webp');
     background-color: $light-grey;
 
@@ -295,6 +289,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   .header-2 { max-width: 100%; }
 
   .index-solutions__items {
@@ -310,8 +305,6 @@ body {
 @media (max-width:768px) { .home-page-container { top: 0; } }
 
 @media (max-width: 700px) {
-  .info-container.index-home { padding-top: 10vh; }
-  
   .home-page-container {
     display: flex;
     flex-direction: column;
@@ -385,8 +378,6 @@ body {
     }
 
     &-technologies {
-      &__container { padding: 7vh 5vh 0; }
-
       &__holder {
         height: 70vh;
         margin-top: 0;
@@ -466,7 +457,7 @@ body {
             &__title-2 { font-size: 1.2em; }
 
             &__description {
-              font-size: 0.9em;
+              font-size: 0.8em;
               line-height: 1.8em;
             }
           }
@@ -480,18 +471,19 @@ body {
     }
 
     &-solutions {
-      padding: 1vh 0 0 0;
       .header-2 { margin-top: 0; }
 
       .description {
         text-align: justify;
         text-align-last: center;
       }
+
       .button { margin-bottom: 0; }
     }
 
     &-about-us {
       &__description {
+        margin-bottom: 0;
         font-size: 0.9em;
         line-height: 1.8em;
       }
