@@ -37,11 +37,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   </head>
   <body>
-    {% include header.html %}
-    <section class="main-section">
-      {{ content }}
-    </section>
+    <div class="body-content">
+      <div class="body-content__main-section">
+        <section class="main-section">
+          {{ content }}
+        </section>
+        {% include footer.html %}
+      </div>
 
-    {% include footer.html %}
+      <div class="body-content__navigation">
+        <div class="body-content__navigation-links">
+          {% include header.html %}
+        </div>
+      </div>
+    </div>
   </body>
 </html>
