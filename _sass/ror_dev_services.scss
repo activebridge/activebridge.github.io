@@ -113,6 +113,8 @@
     .description { margin-bottom: 3vh; }
 
     .header-2.white-text.with-bg {
+      margin-right: -18vw;
+      margin-left: -18vw;
       padding: 6vh 18vw;
       background: $main-gradient;
       font-size: 1.4em;
@@ -150,6 +152,14 @@
   &__tools {
     background-image: linear-gradient(-45deg, rgba($kviten, .4), rgba($azovstal, .4));
     box-shadow: 4px 8px 15px 5px rgba(0, 0, 0, .09);
+  }
+
+  .web_dev_services__industries {
+    #web_dev_button {
+      color: white;
+      background: #A49FEB;
+      &:hover { color: black;}
+    }
   }
 
   .development__cards {
@@ -203,6 +213,11 @@
     &__quality {
       .header-2,
       .header-2.white-text.with-bg { font-size: 1.2em; }
+
+      .header-2.white-text.with-bg {
+        margin-right: -5vh;
+        margin-left: -5vh;
+      }
     }
 
     .development__cards .cards-container {

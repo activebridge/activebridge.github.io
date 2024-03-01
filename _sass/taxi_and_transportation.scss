@@ -99,7 +99,11 @@
     .purple-text { color: $main-violet; }
 
     .list-with-images {
-      &__item_element::before { border: 1px solid $main-violet; }
+      &__item {
+        &_element {
+          &::before { border: 1px solid $main-violet; }
+        }
+      }
     }
   }
 
@@ -117,7 +121,11 @@
     }
 
     .list-with-images {
-      &__item_element::before { border: 1px solid $purple-heart; }
+      &__item {
+        &_element {
+          &::before { border: 1px solid $purple-heart; }
+        }
+      }
     }
   }
 }
