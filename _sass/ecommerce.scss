@@ -23,7 +23,7 @@
       max-width: 410px;
       background: rgba($white, .05);
       box-shadow: inset -2px -2px 12px 0px rgba(black, .25), 0px 4px 20px 0 rgba(black, .2);
-      max-height: 520px;
+      max-height: max-content;
       margin: 5px;
 
       &__description { margin: 0; }
@@ -153,24 +153,6 @@
 
 @media screen and (max-width: 700px) {
   .ecommerce {
-    .development__cards .cards-container {
-      .card {
-        max-height: initial;
-        max-width: 370px;
-
-        &__icon {
-          height: 100px;
-          width: 100px;
-
-          img {
-            width: 70px;
-            height: 70px;
-            padding: 15px;
-          }
-        }
-      }
-    }
-
     .list-with-images.horizontal .list-with-images__item {
       &:nth-child(-n+2) {
         max-width: 100%;

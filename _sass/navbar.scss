@@ -109,7 +109,7 @@ header {
   }
 }
 
-@media (hover: hover) and (min-width: 1025px) {
+@media (hover: hover) {
   .header-navbar {
     &__item:hover .header-navbar__subitems {
       min-width: 100%;
@@ -326,8 +326,4 @@ header {
   header .header-navbar__subitems {
     flex-direction: column;
   }
-}
-
-@media (max-width: 767px) {
-  .header-navbar__link-contact.desktop-only { display: none !important; }
 }
