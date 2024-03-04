@@ -17,7 +17,6 @@ title: How Product and Sprint Backlogs
 description: How Product and Sprint Backlogs Add Value to a Product
 date-modified: "2024-01-10"
 article-body: This is the some main elements of the blog post
-cover-image: "http://example.com/path/to/image.jpg"
 ---
 
 Agile project management has grown in popularity significantly over the last ten years, and with good reason. The use of short development cycles called "sprints" perfectly aligns with the fast-paced nature of business in the modern era. Additionally, the drive for better performance, efficiency, and results in a world where approximately [66% of development projects fail](https://www.tiempodev.com/blog/why-software-development-projects-fail/ ), makes agile management methods attractive to most businesses. 
