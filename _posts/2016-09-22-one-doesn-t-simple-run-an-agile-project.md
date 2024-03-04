@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: one-doesn-t-simple-run-an-agile-project-back
 category: pm_team_management
 date: "2016-09-22"

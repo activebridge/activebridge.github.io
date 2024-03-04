@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: techreviewer-recognized-active-bridge-as-a-top-mobile-app-development-company-in-phoenix-back
 category: inside_ab
 date: "2022-01-26"

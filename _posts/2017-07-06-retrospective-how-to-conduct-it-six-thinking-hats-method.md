@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: retrospective-how-to-conduct-it-six-thinking-hats-method-back
 category: pm_team_management
 date: "2017-07-06"

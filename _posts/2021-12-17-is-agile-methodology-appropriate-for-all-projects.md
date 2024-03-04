@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: is-agile-methodology-appropriate-for-all-projects-back
 category: engineering
 date: "2021-12-17"

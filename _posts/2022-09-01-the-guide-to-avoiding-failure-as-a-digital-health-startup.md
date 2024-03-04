@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: the-guide-to-avoiding-failure-as-a-digital-health-startup-back
 category: engineering
 date: "2022-09-01"

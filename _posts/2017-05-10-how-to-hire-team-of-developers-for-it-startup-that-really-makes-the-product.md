@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-to-hire-team-of-developers-for-it-startup-that-really-makes-the-product-back
 category: pm_team_management
 date: "2017-05-10"

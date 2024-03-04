@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: the-ultimate-guide-to-the-product-development-process-back
 category: engineering
 date: "2022-06-29"

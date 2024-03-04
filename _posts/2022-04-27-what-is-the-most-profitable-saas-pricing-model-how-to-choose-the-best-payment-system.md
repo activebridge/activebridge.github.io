@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: what-is-the-most-profitable-saas-pricing-model-how-to-choose-the-best-payment-system-back
 category: engineering
 date: "2022-04-27"

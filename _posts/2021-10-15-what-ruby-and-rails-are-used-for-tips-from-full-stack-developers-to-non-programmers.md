@@ -1,6 +1,6 @@
 ---
-autor: Anton Zimin
-autor-position: Tech lead / Full - stack engineer
+author: Anton Zimin
+author-position: Tech lead / Full - stack engineer
 background: what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers-back
 category: engineering
 date: "2021-10-15"

@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: three-main-factors-influencing-on-bounce-rate-and-conversion-according-to-machine-learning-determination-back
 category: business_growth
 date: "2017-05-30"

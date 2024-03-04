@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: web-development-services-survey-back
 category: pm_team_management
 date: "2017-12-13"

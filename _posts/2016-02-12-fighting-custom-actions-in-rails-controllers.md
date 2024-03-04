@@ -1,6 +1,6 @@
 ---
-autor: Eugene Korpan
-autor-position:
+author: Eugene Korpan
+author-position:
 background: fighting-custom-actions-in-rails-controllers-back
 category: engineering
 date: "2016-02-12"

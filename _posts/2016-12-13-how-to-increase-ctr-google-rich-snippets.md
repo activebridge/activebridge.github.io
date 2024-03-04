@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-to-increase-ctr-google-rich-snippets-back
 category: business_growth
 date: "2016-12-13"

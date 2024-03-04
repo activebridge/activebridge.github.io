@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review-back
 category: engineering
 date: "2021-11-11"

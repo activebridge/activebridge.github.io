@@ -1,6 +1,6 @@
 ---
-autor: Viktor Shmigol
-autor-position: Lead Ruby on Rails developer
+author: Viktor Shmigol
+author-position: Lead Ruby on Rails developer
 background: what-is-the-best-strategy-for-encrypting-files-in-ruby-back
 category: engineering
 date: "2017-04-05"

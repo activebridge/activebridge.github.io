@@ -1,6 +1,6 @@
 ---
-autor: Viktor Shmigol
-autor-position: Lead Ruby on Rails developer
+author: Viktor Shmigol
+author-position: Lead Ruby on Rails developer
 background: solid-principles-in-ruby-back
 category: engineering
 date: "2016-01-28"

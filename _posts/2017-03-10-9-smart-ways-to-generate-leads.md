@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: 9-smart-ways-to-generate-leads-back
 category: business_growth
 date: "2017-03-10"

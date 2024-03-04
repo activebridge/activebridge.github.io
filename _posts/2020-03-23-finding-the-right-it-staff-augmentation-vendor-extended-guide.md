@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: finding-the-right-it-staff-augmentation-vendor-extended-guide-back
 category: pm_team_management
 date: "2020-03-23"

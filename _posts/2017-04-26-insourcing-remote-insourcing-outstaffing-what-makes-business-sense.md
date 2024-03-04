@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: insourcing-remote-insourcing-outstaffing-what-makes-business-sense-back
 category: pm_team_management
 date: "2017-04-26"

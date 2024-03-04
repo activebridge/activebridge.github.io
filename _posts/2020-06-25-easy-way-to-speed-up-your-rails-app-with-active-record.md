@@ -1,6 +1,6 @@
 ---
-autor: Sergiy Naumenko
-autor-position: Ruby on Rails engineer
+author: Sergiy Naumenko
+author-position: Ruby on Rails engineer
 background: easy-way-to-speed-up-your-rails-app-with-active-record-back
 category: engineering
 date: "2020-06-25"

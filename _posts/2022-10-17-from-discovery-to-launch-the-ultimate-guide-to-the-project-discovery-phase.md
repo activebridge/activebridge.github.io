@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery-phase-back
 category: engineering
 date: "2022-10-17"

@@ -1,6 +1,6 @@
 ---
-autor: Vitalii Kovtun
-autor-position: Full - stack developer
+author: Vitalii Kovtun
+author-position: Full - stack developer
 background: how-to-add-database-constraint-validation-for-table-back
 category: engineering
 date: "2016-10-07"

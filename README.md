@@ -83,7 +83,7 @@ To add a new post to your blog:
   popular: true
 
   # Only for SEO
-  author-url: "https://www.linkedin.com/in/autor"
+  author-url: "https://www.linkedin.com/in/author"
   date-modified: "2024-01-10"
   article-body: This is the some main elements of the blog post
   ---

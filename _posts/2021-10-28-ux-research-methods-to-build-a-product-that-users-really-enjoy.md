@@ -1,6 +1,6 @@
 ---
-autor: Lena Okunieva
-autor-position: Web Designer
+author: Lena Okunieva
+author-position: Web Designer
 background: ux-research-methods-to-build-a-product-that-users-really-enjoy-back
 category: engineering
 date: "2021-10-28"

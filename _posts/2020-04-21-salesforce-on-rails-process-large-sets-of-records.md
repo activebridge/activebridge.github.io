@@ -1,6 +1,6 @@
 ---
-autor: Alex Borodai
-autor-position: Full-stack developer
+author: Alex Borodai
+author-position: Full-stack developer
 background: salesforce-on-rails-process-large-sets-of-records-back
 category: engineering
 date: "2020-04-21"

@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: why-you-should-choose-react-js-with-rails-backend-for-your-web-app-back
 category: engineering
 date: "2022-01-20"

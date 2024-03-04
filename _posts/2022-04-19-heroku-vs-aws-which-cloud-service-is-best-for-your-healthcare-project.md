@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: heroku-vs-aws-which-cloud-service-is-best-for-your-healthcare-project-back
 category: engineering
 date: "2022-04-19"

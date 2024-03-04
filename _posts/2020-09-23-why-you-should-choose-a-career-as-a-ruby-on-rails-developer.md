@@ -1,6 +1,6 @@
 ---
-autor: Kate Naumenko
-autor-position: Ruby on Rails developer
+author: Kate Naumenko
+author-position: Ruby on Rails developer
 background: why-you-should-choose-a-career-as-a-ruby-on-rails-developer-back
 category: engineering
 date: "2020-09-23"

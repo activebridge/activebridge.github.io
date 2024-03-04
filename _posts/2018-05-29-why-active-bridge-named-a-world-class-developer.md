@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: why-active-bridge-named-a-world-class-developer-back
 category: business_growth
 date: "2018-05-29"

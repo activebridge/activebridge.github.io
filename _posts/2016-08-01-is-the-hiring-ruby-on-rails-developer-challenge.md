@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: is-the-hiring-ruby-on-rails-developer-challenge-back
 category: pm_team_management
 date: "2016-08-01"

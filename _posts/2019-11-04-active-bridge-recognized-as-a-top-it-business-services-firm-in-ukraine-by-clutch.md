@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: active-bridge-recognized-as-a-top-it-business-services-firm-in-ukraine-by-clutch-back
 category: pm_team_management
 date: "2019-11-04"

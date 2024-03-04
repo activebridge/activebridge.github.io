@@ -1,6 +1,6 @@
 ---
-autor: Max Serebryansky
-autor-position: Ruby on Rails developer
+author: Max Serebryansky
+author-position: Ruby on Rails developer
 background: how-to-build-uber-car-animation-using-mapbox-markers-back
 category: engineering
 date: "2019-02-25"

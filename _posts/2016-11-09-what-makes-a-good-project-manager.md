@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: what-makes-a-good-project-manager-back
 category: pm_team_management
 date: "2016-11-09"

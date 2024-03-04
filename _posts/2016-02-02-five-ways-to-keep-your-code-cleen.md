@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: five-ways-to-keep-your-code-cleen-back
 category: engineering
 date: "2016-02-02"

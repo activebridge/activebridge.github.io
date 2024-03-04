@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-agile-teams-fulfill-requirements-the-ultimate-agile-guide-back
 category: engineering
 date: "2022-09-24"

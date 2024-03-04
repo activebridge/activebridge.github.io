@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: website-development-and-promotion-tools-back
 category: business_growth
 date: "2017-09-18"

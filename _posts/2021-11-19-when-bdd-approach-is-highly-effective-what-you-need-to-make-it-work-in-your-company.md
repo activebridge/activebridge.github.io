@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company-back
 category: engineering
 date: "2021-11-19"

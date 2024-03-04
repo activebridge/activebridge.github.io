@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: active-bridge-achieved-a-noble-rank-as-a-top-web-development-company-of-2020-back
 category: engineering
 date: "2020-08-25"

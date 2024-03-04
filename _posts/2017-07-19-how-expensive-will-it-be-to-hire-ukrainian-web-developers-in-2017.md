@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-expensive-will-it-be-to-hire-ukrainian-web-developers-in-2017-back
 category: engineering
 date: "2017-07-19"

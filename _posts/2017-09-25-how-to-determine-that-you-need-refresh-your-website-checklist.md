@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-to-determine-that-you-need-refresh-your-website-checklist-back
 category: business_growth
 date: "2017-08-25"

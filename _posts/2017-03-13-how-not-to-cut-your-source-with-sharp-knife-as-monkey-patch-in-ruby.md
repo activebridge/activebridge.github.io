@@ -1,6 +1,6 @@
 ---
-autor: Igor Bilan
-autor-position:
+author: Igor Bilan
+author-position:
 background: how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby-back
 category: engineering
 date: "2017-03-13"

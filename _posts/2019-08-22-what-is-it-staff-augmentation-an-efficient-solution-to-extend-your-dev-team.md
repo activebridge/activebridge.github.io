@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-dev-team-back
 category: pm_team_management
 date: "2019-08-22"

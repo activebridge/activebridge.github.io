@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: mvc-pattern-quick-review-back
 category: engineering
 date: "2016-05-15"

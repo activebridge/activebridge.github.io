@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: most-10-recommended-ruby-programming-books-2017-back
 category: engineering
 date: "2017-10-16"

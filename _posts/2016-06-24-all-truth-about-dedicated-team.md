@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: all-truth-about-dedicated-team-back
 category: pm_team_management
 date: "2016-06-24"

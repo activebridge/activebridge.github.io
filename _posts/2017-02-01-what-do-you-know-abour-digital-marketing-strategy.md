@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: what-do-you-know-about-digital-marketing-strategy-back
 category: business_growth
 date: "2017-02-01"

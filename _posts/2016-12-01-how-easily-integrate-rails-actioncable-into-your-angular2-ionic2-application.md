@@ -1,6 +1,6 @@
 ---
-autor: Viktor Shmigol
-autor-position: Lead Ruby on Rails developer
+author: Viktor Shmigol
+author-position: Lead Ruby on Rails developer
 background: how-easily-integrate-rails-actioncable-into-your-angular2-ionic2-application-back
 category: engineering
 date: "2016-12-01"

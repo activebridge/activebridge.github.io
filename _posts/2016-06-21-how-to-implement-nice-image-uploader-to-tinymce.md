@@ -1,6 +1,6 @@
 ---
-autor: Oleg Voloshyn
-autor-position: Ruby on Rails engineer
+author: Oleg Voloshyn
+author-position: Ruby on Rails engineer
 background: how-to-implement-nice-image-uploader-to-tinymce-back
 category: engineering
 date: "2016-06-21"

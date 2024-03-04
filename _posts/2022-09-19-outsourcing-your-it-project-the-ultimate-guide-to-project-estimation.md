@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation-back
 category: engineering
 date: "2022-09-19"

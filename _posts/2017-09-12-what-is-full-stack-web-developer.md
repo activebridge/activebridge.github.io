@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: what-is-full-stack-web-developer-back
 category: engineering
 date: "2017-09-12"

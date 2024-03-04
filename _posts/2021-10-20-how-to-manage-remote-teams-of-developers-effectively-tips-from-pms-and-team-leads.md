@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-to-manage-remote-teams-of-developers-effectively-tips-from-pms-and-team-leads-back
 category: pm_team_management
 date: "2021-10-20"

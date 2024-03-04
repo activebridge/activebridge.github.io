@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: vitaly-rules-google-oo-read-more-to-learn-about-language-spam-and-how-to-stop-it-back
 category: business_growth
 date: "2016-12-15"

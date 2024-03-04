@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: what-do-experienced-developers-think-of-ruby-the-ultimate-ruby-guide-back
 category: engineering
 date: "2022-09-10"

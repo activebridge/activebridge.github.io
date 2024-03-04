@@ -1,6 +1,6 @@
 ---
-autor: Eugene Korpan
-autor-position:
+author: Eugene Korpan
+author-position:
 background: fighting-duplication-in-angularjs-controllers-back
 category: engineering
 date: "2016-01-27"

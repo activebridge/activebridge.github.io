@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: clutch-identifies-active-bridge-as-leading-provider-in-web-development-back
 category: engineering
 date: "2017-06-13"

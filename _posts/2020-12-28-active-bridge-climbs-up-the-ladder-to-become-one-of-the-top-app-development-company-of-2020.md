@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: active-bridge-climbs-up-the-ladder-to-become-one-of-the-top-app-development-company-of-2020-back
 category: pm_team_management
 date: "2020-12-28"

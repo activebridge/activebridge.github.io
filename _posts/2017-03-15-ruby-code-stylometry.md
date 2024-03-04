@@ -1,6 +1,6 @@
 ---
-autor: Alex Ovcharov
-autor-position:
+author: Alex Ovcharov
+author-position:
 background: ruby-code-stylometry-back
 category: engineering
 date: "2017-03-15"

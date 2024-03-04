@@ -1,6 +1,6 @@
 ---
-autor: Alexey Verbivskyy
-autor-position: Lead Ruby on Rails developer / Dev Ops
+author: Alexey Verbivskyy
+author-position: Lead Ruby on Rails developer / Dev Ops
 background: why-reactjs-is-considered-as-favored-front-end-technology-for-startups-back
 category: engineering
 date: "2022-05-15"

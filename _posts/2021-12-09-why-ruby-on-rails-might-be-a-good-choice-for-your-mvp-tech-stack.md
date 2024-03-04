@@ -1,6 +1,6 @@
 ---
-autor: Pavel Mihailovskiy
-autor-position: "Tech lead / Full - stack engineer"
+author: Pavel Mihailovskiy
+author-position: "Tech lead / Full - stack engineer"
 background: why-ruby-on-rails-might-be-a-good-choice-for-your-mvp-tech-stack-back
 category: engineering
 date: "2021-12-09"

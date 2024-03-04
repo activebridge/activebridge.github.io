@@ -1,6 +1,6 @@
 ---
-autor: Alex Motuzko
-autor-position: Ruby on Rails developer
+author: Alex Motuzko
+author-position: Ruby on Rails developer
 background: technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-powerful-car-rental-application-back
 category: engineering
 date: "2022-06-19"

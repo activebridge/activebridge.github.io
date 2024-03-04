@@ -1,6 +1,6 @@
 ---
-autor: Sergiy Naumenko
-autor-position: Ruby on Rails engineer
+author: Sergiy Naumenko
+author-position: Ruby on Rails engineer
 background: add-ssl-certificate-with-letsencrypt-back
 category: engineering
 date: "2016-02-25"

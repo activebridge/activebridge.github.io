@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: does-your-ecommerce-business-need-a-progressive-web-app-back
 category: business_growth
 date: "2022-04-07"

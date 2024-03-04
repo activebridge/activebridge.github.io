@@ -1,6 +1,6 @@
 ---
-autor: Andriy Pedan
-autor-position: Ruby on Rails developer
+author: Andriy Pedan
+author-position: Ruby on Rails developer
 background: telegram-case-study-how-to-create-a-taxi-booking-telegram-bot-with-ruby-on-rails-back
 category: engineering
 date: "2022-02-09"

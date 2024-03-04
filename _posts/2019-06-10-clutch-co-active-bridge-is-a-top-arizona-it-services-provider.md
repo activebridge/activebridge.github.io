@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: clutch-co-active-bridge-is-a-top-arizona-it-services-provider-back
 category: pm_team_management
 date: "2019-06-10"

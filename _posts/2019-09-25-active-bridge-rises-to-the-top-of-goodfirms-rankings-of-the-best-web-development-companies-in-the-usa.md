@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: active-bridge-rises-to-the-top-of-goodfirms-rankings-of-the-best-web-development-companies-in-the-usa-back
 category: engineering
 date: "2019-09-25"

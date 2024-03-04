@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: image-zoom-on-pure-css-back
 category: engineering
 date: "2016-12-21"

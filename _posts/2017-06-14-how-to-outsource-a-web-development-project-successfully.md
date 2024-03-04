@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: how-to-outsource-a-web-development-project-successfully-back
 category: pm_team_management
 date: "2017-06-14"

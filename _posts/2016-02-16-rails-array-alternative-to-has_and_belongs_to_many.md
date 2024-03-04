@@ -1,6 +1,6 @@
 ---
-autor: Alex Galushka
-autor-position: CEO / Tech lead and backend developer
+author: Alex Galushka
+author-position: CEO / Tech lead and backend developer
 background: rails-array-alternative-to-has_and_belongs_to_many-back
 category: engineering
 date: "2016-02-16"

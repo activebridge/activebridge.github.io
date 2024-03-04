@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: tools-to-project-management-a-web-projects-back
 category: pm_team_management
 date: "2017-11-20"

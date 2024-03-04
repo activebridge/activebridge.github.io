@@ -1,6 +1,6 @@
 ---
-autor: Dasha
-autor-position: marketing director
+author: Dasha
+author-position: marketing director
 background: node-js-vs-ruby-on-rails-back
 category: engineering
 date: "2017-09-26"
