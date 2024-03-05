@@ -13,7 +13,7 @@ json-ld: about
 <div class="container about" id="container">
   <div class="info-container">
     <div class="wrap">
-      <div class="row" style="view-transition-name: about;">
+      <div class="wrapper" style="view-transition-name: about;">
         <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
         <h1 class="about__header">{{ site.data.about.header }}</h1>
         <div class="about__description">{{ site.data.about.description }}</div>
@@ -41,7 +41,7 @@ json-ld: about
   </div>
 
   <div class="about__vision wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="about__vision-description about__description">
         {{ site.data.about.information.first }}
       </div>
@@ -61,7 +61,7 @@ json-ld: about
   </div>
 
   <div class="about__crew wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="about__description">{{ site.data.about.crew.description }}</div>
       <div class="header-3 white-text">{{ site.data.about.crew.title }}</div>
       {% include crew.html %}
@@ -73,7 +73,7 @@ json-ld: about
 
   <div class="about__benefits wrap">
     <div class="overlay"></div>
-    <div class="row">
+    <div class="wrapper">
       <div class="header-3">{{ site.data.about.benefits.title }}</div>
       <h2 class="header-2">{{ site.data.about.benefits.subtitle }}</h2>
       <div class="about__vision-description about__description about__description-cera">
@@ -95,7 +95,7 @@ json-ld: about
   </div>
 
   <div class="about__key-facts wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-3 white-text">{{ site.data.about.key_facts.title }}</div>
       <h2 class="header-2 white-text">{{ site.data.about.key_facts.subtitle }}</h2>
       <ul class="about__key-facts-list">
@@ -132,7 +132,7 @@ json-ld: about
   </div>
 
   <div class="about__culture wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="about__culture-text">
         <div class="about__culture-title"> {{ site.data.about.culture.title }} </div>
         <div class="about__culture-description">

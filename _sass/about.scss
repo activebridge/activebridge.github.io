@@ -1,8 +1,4 @@
 .about {
-  &.container { padding-top: 0; }
-
-  .wrap { padding-top: 10vh; }
-
   &__header,
   &__description {
     font-family: 'Inria', serif;
@@ -182,14 +178,6 @@
   &__culture {
     min-height: 100vh;
     background: center/cover no-repeat url('/assets/images/about/team.webp');
-
-    .row {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-      min-height: 100vh;
-    }
 
     &-text { line-height: 1.6; }
 
@@ -428,8 +416,6 @@
     &__culture {
       min-height: 60vh;
       max-height: 60vh;
-
-      .row { min-height: 60vh; }
     }
   }
 }
