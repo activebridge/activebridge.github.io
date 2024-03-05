@@ -8,12 +8,17 @@
     background-image: linear-gradient(135deg, $sky-ua, $white);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
+    &.wrap  { padding-top: 14vh; }
 
     .header-2:last-child { font-size: 1.3em; }
 
     .description { margin: 6vh 0; }
 
-    img { margin-bottom: 8vh; }
+    img {
+      max-width: 150px;
+      width: 100%;
+      margin-bottom: 50px;
+    }
   }
 
   &__ror {
@@ -41,21 +46,24 @@
     .extendable_cards {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
       position: relative;
       z-index: 1;
 
       .extendable_card-wrapper {
        position: relative;
        width: 30%;
-       min-height: 340px;
+       min-height: 365px;
+       min-width: 275px;
        margin-bottom: 4vh;
+       margin-right: 5px;
+       margin-left: 5px;
 
        .extendable_card {
          position: absolute;
          width: 100%;
          height: 100%;
-         padding: 2.5vh 2vw;
+         padding: 30px;
          background: rgba($white, .7);
          border-radius: 30px;
          box-shadow: $main-shadow;
@@ -74,7 +82,7 @@
          }
 
          .description {
-           margin: 2vh 0;
+           margin: 15px 0 0;
            font-size: .9em;
            line-height: 1.4em;
            display: -webkit-box;
@@ -109,17 +117,20 @@
       margin-top: 4vh;
       margin-bottom: 4vh;
     }
+  }
 
-    .description { margin-bottom: 3vh; }
+  &__quality-team {
+    background: $main-gradient;
+    box-shadow: 2px 2px 12px 0px rgba($purple-heart, .5);
 
-    .header-2.white-text.with-bg {
-      margin-right: -18vw;
-      margin-left: -18vw;
-      padding: 6vh 18vw;
-      background: $main-gradient;
-      font-size: 1.4em;
-      box-shadow: 2px 2px 12px 0px rgba($purple-heart, .5);
-    }
+    .header-2 { font-size: 1.4em; }
+  }
+
+  &__quality-awards {
+    background-image: linear-gradient(to left, $azovstal, $white);
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .25);
+
+    .development__awards { margin-top: 0; }
   }
 
   &__approaches {
@@ -152,6 +163,8 @@
   &__tools {
     background-image: linear-gradient(-45deg, rgba($kviten, .4), rgba($azovstal, .4));
     box-shadow: 4px 8px 15px 5px rgba(0, 0, 0, .09);
+
+    .list-with-images.horizontal { margin-bottom: 0; }
   }
 
   .development__cards {
@@ -173,17 +186,16 @@
     &__ror { background-image: linear-gradient($kviten, $white); }
 
     &__reasons {
-      .extendable_cards {
+      .extendable_cards .extendable_card-wrapper {
+        width: 100%;
+        max-width: 290px;
+
         .extendable_card {
           position: sticky;
           width: 100%;
           padding: 4.5vh;
 
           .description { -webkit-line-clamp: unset; }
-        }
-
-        .extendable_card-wrapper {
-          width: 100%;
         }
       }
     }

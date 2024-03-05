@@ -8,7 +8,7 @@ description: We certainly believe Active Bridge is a Ruby on Rails development
              scalable, smooth solutions for public websites and complex enterprise
              resource planning applications.
 ror:
-  title: Ruby on Rails web development services
+  title: Ruby on Rails <br> web development services
   all:
   - title: Ruby on Rails app development.
     icon: ror_dev_1.webp
@@ -99,7 +99,7 @@ quality:
                  technologies and builds really effective business solutions that
                  always work.
 approaches:
-  title: Our Ruby on Rails development approach
+  title: Our Ruby on Rails <br> development approach
   description: There’s no need to invest in your team of developers, collaboration
                with an external team is the cheaper option. Our dedicated teams
                are Agile, and the workflow is fully transparent. We share our

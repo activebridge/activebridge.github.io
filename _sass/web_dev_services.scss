@@ -171,6 +171,8 @@
     #web_dev_button {
       color: $white;
       background: $buzok;
+      max-width: 470px;
+      box-sizing: border-box;
 
       &:hover { color: black;}
     }
