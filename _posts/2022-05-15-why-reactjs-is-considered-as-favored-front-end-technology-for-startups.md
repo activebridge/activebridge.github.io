@@ -1,15 +1,21 @@
 ---
 author: Alexey Verbivskyy
-author-position: Lead Ruby on Rails developer / Dev Ops
+author-position: "Lead Ruby on Rails developer / Dev Ops"
 background: why-reactjs-is-considered-as-favored-front-end-technology-for-startups-back
 category: engineering
 date: "2022-05-15"
-description: Why Startups Should Focus on ReactJS front-end in 2022
 layout: post
 post-id: why-reactjs-is-considered-as-favored-front-end-technology-for-startups
-title: Why ReactJS is Considered as Favored Front-end Technology For Startups
+post-title: "Why ReactJS is Considered as Favored Front-end Technology For Startups"
 time-to-read: 7 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-05-15"
+description: "However, with tight budgets and a fiercely competitive landscape, every decision has to count - smaller
+              businesses and fledgling startups can't afford to make mistakes"
+title: "Why Startups Should Focus on ReactJS front-end in 2022"
 ---
 
 Startups are under intense pressure to keep pace with current advancements in technology, which often means migrating to newer platforms. However, with tight budgets and a fiercely competitive landscape, every decision has to count - smaller businesses and fledgling startups can't afford to make mistakes. Luckily, there is a solution. 

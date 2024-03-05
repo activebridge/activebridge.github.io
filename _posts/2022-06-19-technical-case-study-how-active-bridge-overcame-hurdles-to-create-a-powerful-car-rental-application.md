@@ -4,12 +4,17 @@ author-position: Ruby on Rails developer
 background: technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-powerful-car-rental-application-back
 category: engineering
 date: "2022-06-19"
-description: "Technical Case Study: Reaching the Max Limit for Ids in Postgres"
 layout: post
 post-id: technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-powerful-car-rental-application
-title: "Technical Case Study: How Active Bridge Overcame Hurdles To Create a Powerful Car Rental Application"
+post-title: "Technical Case Study: How Active Bridge Overcame Hurdles To Create a Powerful Car Rental Application"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-06-29"
+description: "At ActiveBridge, we're always happy to share our technical solutions with our readers"
+title: "Technical Case Study: Reaching the Max Limit for Ids in Postgres"
 ---
 
 Sometimes, the best way to see what a technical solution can do for you is to understand how it worked for others. At ActiveBridge, we're always happy to share our technical solutions with our readers. And that's why today, we'll dive into the issues we faced developing a car rental application for one of our customers. 

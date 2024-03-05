@@ -4,12 +4,17 @@ author-position: marketing director
 background: is-your-healthcare-application-hipaa-compliant-back
 category: engineering
 date: "2021-12-23"
-description: What features are required to a HIPAA-compliant application?
 layout: post
 post-id: is-your-healthcare-application-hipaa-compliant
-title: Why is it important to comply with HIPAA? HIPAA-compliant application features
+post-title: "Why is it important to comply with HIPAA? HIPAA-compliant application features"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-12-23"
+description: "Nearly 30 years later, HIPAA compliance is still a top priority for healthcare providers, and with good reason"
+title: "What features are required to a HIPAA-compliant application?"
 ---
 
 The Health Insurance Portability and Accountability Act (HIPAA) was enacted in 1996 and outlines **a set of standards for protecting certain health information**. Nearly 30 years later, HIPAA compliance is still a top priority for healthcare providers, and with good reason. Not only does HIPAA compliance protect the provider from hefty fines, but it also ensures that patient privacy, a top concern for many people today, is maintained to a high standard and that excellent patient care is always at the forefront. 

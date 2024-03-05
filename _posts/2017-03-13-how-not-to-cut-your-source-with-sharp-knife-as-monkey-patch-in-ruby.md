@@ -4,12 +4,18 @@ author-position:
 background: how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby-back
 category: engineering
 date: "2017-03-13"
-description: Monkey Patch a Complete Guide
 layout: post
 post-id: how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby
-title: How not to cut your source with sharp knife as Monkey Patch in Ruby
+post-title: "How not to cut your source with sharp knife as Monkey Patch in Ruby"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "It sounds extremely challenging. Being able to change the expected outcome of a method can cause all sorts of
+              weird behavior and difficult to track down bugs. Monkey Patch to help."
+title: "Monkey Patch a Complete Guide"
 ---
 
 One of the most powerful Ruby features is the ability to re-open any class and change it’s methods.

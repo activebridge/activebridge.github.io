@@ -4,12 +4,18 @@ author-position: marketing director
 background: what-makes-a-good-project-manager-back
 category: pm_team_management
 date: "2016-11-09"
-description: What Qualities Make a Good Project Manager?
 layout: post
 post-id: what-makes-a-good-project-manager
-title: What makes a good Project Manager
+post-title: "What makes a good Project Manager"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "I’ve taken  some information from my own notices, other our PMs told me. And as a result, we ended up with the
+              following"
+title: "What Qualities Make a Good Project Manager?"
 ---
 
 ![Project Management](https://i.imgur.com/QGz6Pg6.jpg)

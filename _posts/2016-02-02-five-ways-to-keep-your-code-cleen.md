@@ -1,15 +1,21 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: five-ways-to-keep-your-code-cleen-back
 category: engineering
 date: "2016-02-02"
-description: How to Keep Your Code Clean
 layout: post
 post-id: five-ways-to-keep-your-code-cleen
-title: 5 ways to keep your code clean
+post-title: "5 ways to keep your code clean"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Rails community's invented many gems what are constantly analyzing your code and they give you to know about
+             stuff what you should improve"
+title: "How to Keep Your Code Clean"
 ---
 
 Do you think your code clean, useful and readable? I’m sure you're wrong!

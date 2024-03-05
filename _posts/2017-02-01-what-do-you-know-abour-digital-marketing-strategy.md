@@ -4,12 +4,17 @@ author-position: marketing director
 background: what-do-you-know-about-digital-marketing-strategy-back
 category: business_growth
 date: "2017-02-01"
-description: Digital Marketing Strategy How to design a productive plan
 layout: post
 post-id: what-do-you-know-about-digital-marketing-strategy
-title: What do you know about digital marketing strategy?
+post-title: "What do you know about digital marketing strategy?"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Those that have changed under digital technology influence and those that have yet to change"
+title: "Digital Marketing Strategy. How to design a productive plan"
 ---
 
 Nowadays, the most popular opinion is there are two kinds of industries. Those that have changed under digital technology influence and those that have yet to change. Such deal is connected with the Internet expansion and penetration the same as mobilization. This phenomenon has reached levels that affect the rules of life and doing business. And this is true of most of the developed countries, however, post-soviet states have faced with this challenge.    

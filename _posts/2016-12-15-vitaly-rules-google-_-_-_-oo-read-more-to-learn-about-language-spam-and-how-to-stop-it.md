@@ -4,12 +4,17 @@ author-position: marketing director
 background: vitaly-rules-google-oo-read-more-to-learn-about-language-spam-and-how-to-stop-it-back
 category: business_growth
 date: "2016-12-15"
-description: What is this Vitaly Rules Google stuff?
 layout: post
 post-id: vitaly-rules-google-oo-read-more-to-learn-about-language-spam-and-how-to-stop-it
-title: Read more to learn about language spam and how to stop it
+post-title: "Read more to learn about language spam and how to stop it"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Hi, everyone and who’s faced with this 'Vitaly rules google'"
+title: "What is this Vitaly Rules Google stuff?"
 ---
 
 ## Vitaly rules google - Google Analytics Spam

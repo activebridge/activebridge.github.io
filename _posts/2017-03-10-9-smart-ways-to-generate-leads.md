@@ -4,12 +4,17 @@ author-position: marketing director
 background: 9-smart-ways-to-generate-leads-back
 category: business_growth
 date: "2017-03-10"
-description: Smart Ways to Generate New Leads for Your Business
 layout: post
 post-id: smart-ways-to-generate-leads
-title: 9 Smart Ways To Generate Leads
+post-title: "9 Smart Ways To Generate Leads"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: ""
+title: "9 Smart Ways to Generate New Leads for Your Business"
 ---
 
 ![Lead Generation](https://i.imgur.com/lcCAaaQ.png)

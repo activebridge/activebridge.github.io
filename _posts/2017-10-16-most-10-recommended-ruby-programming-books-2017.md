@@ -4,12 +4,18 @@ author-position: marketing director
 background: most-10-recommended-ruby-programming-books-2017-back
 category: engineering
 date: "2017-10-16"
-description: Best Ruby Programming Books to Read Any Time
 layout: post
 post-id: most-10-recommended-ruby-programming-books-2017
-title: 10 Most Recommended Ruby Programming Books 2017
+post-title: "10 Most Recommended Ruby Programming Books 2017"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "If you are looking for resources to learn Ruby, you found them here. These are not in any order because we’re
+              not what we would consider as ruby evangelists"
+title: "Best Ruby Programming Books to Read Any Time"
 ---
 
 Today we are going to tell you what our team recommends as top 10 Ruby books. If you are looking for resources to learn Ruby, you found them here. These are not in any order because we’re not what we would consider as ruby evangelists. But we spend all our days coding in Ruby, our team has great experience in Ruby on Rails, we talk with the community of Ruby developers.

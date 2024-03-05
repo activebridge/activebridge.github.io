@@ -1,15 +1,21 @@
 ---
 author: Vitalii Kovtun
-author-position: Full - stack developer
+author-position: "Full - stack developer"
 background: how-to-add-database-constraint-validation-for-table-back
 category: engineering
 date: "2016-10-07"
-description: Database Constraint Validation for Table
 layout: post
 post-id: how-to-add-database-constraint-validation-for-table
-title: How to add database constraint validation for table
+post-title: "How to add database constraint validation for table"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "This happens in services within subsequently full of users, which can simultaneously connect to the common
+              database and write two similar records at the same time"
+title: "Database Constraint Validation for Table"
 ---
 
 It is not a secret, that even having validations in **Ruby on Rails application** models through checking the uniqueness, two separate, but identical objects, can be saved to the database. This happens in services within subsequently full of users, which can simultaneously connect to the common database and write two similar records at the same time. Then validation at the application level definitely fails and the creation of the object is successfully performed. When that happens, there are problems persist with core functionality and consequences may summon a disaster.

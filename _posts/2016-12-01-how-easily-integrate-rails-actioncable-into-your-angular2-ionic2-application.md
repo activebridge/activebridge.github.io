@@ -4,12 +4,18 @@ author-position: Lead Ruby on Rails developer
 background: how-easily-integrate-rails-actioncable-into-your-angular2-ionic2-application-back
 category: engineering
 date: "2016-12-01"
-description: Guide to Integrate Rails' Actionable into your Angular2
 layout: post
 post-id: how-easily-integrate-rails-actioncable-into-your-angular2-ionic2-application
-title: How easily integrate Rails' ActionCable into your Angular2/ionic2 application
+post-title: "How easily integrate Rails' ActionCable into your Angular2/ionic2 application"
 time-to-read: 9 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "It allows you to write real-time functionality with Ruby style according to the rest Rails application
+              functionality"
+title: "Guide to Integrate Rails' Actionable into your Angular2"
 ---
 
 **ActionСable** is easily integrated WebSockets with the Rails application parts. It allows you to write real-time functionality with Ruby style according to the rest Rails application functionality, at the same time being productive and scalable. It is a full stack, including the client framework in JavaScript and server-side framework in Ruby. You get access to the models, written with Active Record or other ORM.

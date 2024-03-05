@@ -4,12 +4,18 @@ author-position: Web Designer
 background: ux-research-methods-to-build-a-product-that-users-really-enjoy-back
 category: engineering
 date: "2021-10-28"
-description: UX Research Methods to Create Customer-Driven Products
 layout: post
 post-id: ux-research-methods-to-build-a-product-that-users-really-enjoy
-title: UX research methods to build a product that users really enjoy
+post-title: "UX research methods to build a product that users really enjoy"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-10-28"
+description: "This article will introduce some of the most lucrative research methods used to inform designers on how they
+              can improve the experience and usability of their products"
+title: "UX Research Methods to Create Customer-Driven Products"
 ---
 
 An **informed and detailed UX approach** is a vital step in the product design process. UX research helps designers figure out **how users interact with your product** and how **to build a seamless user experience**. 

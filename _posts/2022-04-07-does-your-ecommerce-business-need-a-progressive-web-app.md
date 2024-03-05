@@ -4,12 +4,17 @@ author-position: marketing director
 background: does-your-ecommerce-business-need-a-progressive-web-app-back
 category: business_growth
 date: "2022-04-07"
-description: Why PWA is a powerful tool for eCommerce projects
 layout: post
 post-id: does-your-ecommerce-business-need-a-progressive-web-app
-title: Does Your Ecommerce Business Need a Progressive Web App?
+post-title: "Does Your Ecommerce Business Need a Progressive Web App?"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-04-07"
+description: "Part of the reason PWAs have become so widespread is down to the rising number of smartphone users"
+title: "Why PWA is a powerful tool for eCommerce projects"
 ---
 
 In recent years, progressive web application (PWA) technology has skyrocketed in popularity. Part of the reason PWAs have become so widespread is down to the rising number of smartphone users. As of 2022, the number of smartphone users worldwide is an eye-watering $6.648 Billion, or[ 83.89% of the world's population]( https://www.bankmycell.com/blog/how-many-phones-are-in-the-world). And as we progress further into the 2020s, this number will only continue to soar. 

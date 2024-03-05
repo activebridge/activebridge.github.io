@@ -4,12 +4,18 @@ author-position:
 background: ruby-code-stylometry-back
 category: engineering
 date: "2017-03-15"
-description: Reasons why the one could resort to code stylometry
 layout: post
 post-id: ruby-code-stylometry
-title: How to Provide Developer Code Writing De-anonymization
+post-title: "How to Provide Developer Code Writing De-anonymization"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "A lot of customers complain that outstaffing agencies frequently replace the interviewed developer to another
+              one"
+title: "Reasons why the one could resort to code stylometry"
 ---
 
 A little while ago we’ve discussed topical issues in our agency meeting. The agenda was about the setup of developers. A lot of customers complain that outstaffing agencies frequently replace the interviewed developer to another one. 

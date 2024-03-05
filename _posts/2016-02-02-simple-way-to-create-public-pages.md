@@ -1,15 +1,21 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: simple-way-to-create-public-pages-back
 category: engineering
 date: "2016-02-02"
-description: How to Create Public Pages. Ruby
 layout: post
 post-id: simple-way-to-create-public-pages
-title: Simple way to create public pages
+post-title: "Simple way to create public pages"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "So, it's generally understood, they are used when there is no need for dynamic info or pulling from the
+              database"
+title: "How to Create Public Pages. Ruby"
 ---
 
 Have you ever heard about public pages in Ruby? And what does it mean? So, it's generally understood, they are used when there is no need for dynamic info or pulling from the database.  

@@ -4,12 +4,17 @@ author-position: marketing director
 background: extreme-programming-principals-for-web-development-back
 category: pm_team_management
 date: "2017-05-23"
-description: How to Use Extreme Programming to Achieve Success
 layout: post
 post-id: extreme-programming-principals-for-web-development
-title: Extreme Programming Principals that We Use to Achieve Success
+post-title: "Extreme Programming Principals that We Use to Achieve Success"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The authors of the methodology are Kent Beck, Ward Cunningham, Martin Fowler and others"
+title: "How to Use Extreme Programming to Achieve Success"
 ---
 
 ## Extreme Programming

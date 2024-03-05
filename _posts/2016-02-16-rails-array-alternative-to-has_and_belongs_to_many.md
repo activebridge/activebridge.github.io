@@ -1,15 +1,20 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: rails-array-alternative-to-has_and_belongs_to_many-back
 category: engineering
 date: "2016-02-16"
-description: Custom actions in rails controllers. How to Escape
 layout: post
 post-id: rails-array-alternative-to-has_and_belongs_to_many
-title: Rails array alternative to has_and_belongs_to_many
+post-title: "Rails array alternative to has_and_belongs_to_many"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The classic way is to implement 'has_and_belongs_to_many' association and two additional tables"
+title: "Custom actions in rails controllers. How to Escape"
 ---
 
 We have the `Post` model and Post model can have many categories. The classic way is to implement `has_and_belongs_to_many` association and two additional tables. If you need some advanced functionality then you should go with `has_many through` association. But if you need just to save several categories for the post we will do the alternative way: through one array column in `posts` table. Ok let us start.

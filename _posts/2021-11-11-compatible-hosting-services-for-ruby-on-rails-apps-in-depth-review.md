@@ -1,15 +1,21 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review-back
 category: engineering
 date: "2021-11-11"
-description: Top 4 Compatible Hosting Services for Ruby on Rails Apps
 layout: post
 post-id: compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review
-title: "Compatible Hosting Services for Ruby on Rails Apps: In-Depth Review"
+post-title: "Compatible Hosting Services for Ruby on Rails Apps: In-Depth Review"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-12-01"
+description: "Powered by the productive and forward-thinking programming language Ruby, Ruby on Rails is one of the
+              fastest-growing web application frameworks right now"
+title: "Top 4 Compatible Hosting Services for Ruby on Rails Apps"
 ---
 
 Meta: Looking for a hosting service for your Ruby on Rails applications? Here are four fantastic choices for compatible hosting providers as recommended by our engineers with over 10 years of experience in Ruby development.

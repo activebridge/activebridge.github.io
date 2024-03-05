@@ -4,15 +4,18 @@ author-position: marketing director
 background: what-is-full-stack-web-developer-back
 category: engineering
 date: "2017-09-12"
-description: What is full-stack web developer. Skills, Stack, Knowledge
 layout: post
 post-id: what-is-full-stack-web-developer
-title: Can't Make Out What is Full-Stack Web Developer? Read it
+post-title: "Can't Make Out What is Full-Stack Web Developer? Read it"
 time-to-read: 4 min
 scripts: [post]
----
 
-# Can't Make Out What is Full-Stack Web Developer? Read it
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Actually, what is a full-stack web developer, with work experience and what skills he should apply?"
+title: "What is full-stack web developer. Skills, Stack, Knowledge"
+---
 
 From time to time interesting theme about the full-stack developer job had been coming up. Actually, what is a full-stack web developer, with work experience and what skills he should apply? What technology he should use. Now it’s clear what’s full-stack web developer. He has to write an uncommon application by himself. This means applying the frontend, backend, BDD, project architecture decisions. However, there are some unsolved issues. Let’s deep into the term of “full-stack” and consider how our team interprets the [job functions](https://active-bridge.com/services) of our full-stack engineers. 
 

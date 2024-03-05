@@ -4,12 +4,18 @@ author-position: marketing director
 background: why-you-should-choose-react-js-with-rails-backend-for-your-web-app-back
 category: engineering
 date: "2022-01-20"
-description: Does ReactJS Front-end Pair Well with Ruby on Rails Back-end?
 layout: post
 post-id: why-you-should-choose-react-js-with-rails-backend-for-your-web-app
-title: Why You Should Choose React.js With Rails Backend for Your Web App
+post-title: "Why You Should Choose React.js With Rails Backend for Your Web App"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-01-20"
+description: "It offers next-level simplicity and flexibility and has resulted in some of the most engaging and efficient
+              web apps we use every day"
+title: "Does ReactJS Front-end Pair Well with Ruby on Rails Back-end?"
 ---
 
 React.js is one of the most popular frameworks out there, and with good reason. It offers next-level simplicity and flexibility and has resulted in some of the most engaging and efficient web apps we use every day. It's even been dubbed the future of web development!

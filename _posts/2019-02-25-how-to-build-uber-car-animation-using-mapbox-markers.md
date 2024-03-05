@@ -4,12 +4,18 @@ author-position: Ruby on Rails developer
 background: how-to-build-uber-car-animation-using-mapbox-markers-back
 category: engineering
 date: "2019-02-25"
-description: Tips to Build Uber Car Animation Features in Your App
 layout: post
 post-id: how-to-build-uber-car-animation-using-mapbox-markers
-title: How to Build Uber Car Animation Using Mapbox Markers
+post-title: "How to Build Uber Car Animation Using Mapbox Markers"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "On-demand mobile applications are currently attracting a lot of interest at both the customers and developers
+              levels"
+title: "Tips to Build Uber Car Animation Features in Your App"
 ---
 
 As a full-stack developer, every time I see state-of-the-art features in mobile applications, I always try to figure out their core and implement in my work. On-demand mobile applications are currently attracting a lot of interest at both the customers and developers levels. Nowadays Uber app is one of the most popular mobile applications, that’s gained more attention. Because of its user experience and development solutions.  Every local business wants an Uber-like taxi app or its clone.  

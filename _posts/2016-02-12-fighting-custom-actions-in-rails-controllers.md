@@ -4,12 +4,18 @@ author-position:
 background: fighting-custom-actions-in-rails-controllers-back
 category: engineering
 date: "2016-02-12"
-description: FIGHTING CUSTOM ACTIONS IN RAILS CONTROLLERS
 layout: post
 post-id: fighting-custom-actions-in-rails-controllers
-title: FIGHTING CUSTOM ACTIONS IN RAILS CONTROLLERS
+post-title: "FIGHTING CUSTOM ACTIONS IN RAILS CONTROLLERSC"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Here I'm going to describe my thoughts about custom actions, why people use them, why I hate them and how to
+              deal with them"
+title: "Custom Rails Controllers Actions"
 ---
 
 By now I have never seen a rails project which doesn't have custom actions in rails controllers. And that makes me upset.

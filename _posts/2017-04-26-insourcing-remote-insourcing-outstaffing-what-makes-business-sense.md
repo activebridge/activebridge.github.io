@@ -4,12 +4,18 @@ author-position: marketing director
 background: insourcing-remote-insourcing-outstaffing-what-makes-business-sense-back
 category: pm_team_management
 date: "2017-04-26"
-description: Outsourcing, remote-insourcing Insights
 layout: post
 post-id: insourcing-remote-insourcing-outstaffing-what-makes-business-sense
-title: "Insourcing, Remote - Insourcing, Outstaffing: what makes business sense"
+post-title: "Insourcing, Remote - Insourcing, Outstaffing: what makes business sense"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "I would like to tell a few words about Outsourcing because it’s the common form of cooperation between
+              different remote companies"
+title: "Outsourcing, remote-insourcing Insights"
 ---
 
 Before we start figuring out what’s remote - insourcing is. I would like to tell a few words about Outsourcing because it’s the common form of cooperation between different remote companies.  [Outsourcing](https://en.wikipedia.org/wiki/Outsourcing) has become a business buzzword over the last 15 years. As always, however, there are proponents and opponents of this concept. Proponents are sure outsourcing reduces costs, makes companies more competitive, and promotes economic growth worldwide.  One of the benefits of outsourcing is that there’s no long-term commitment. The two firms will negotiate a contract, and when the work is done it’s done, and a new contract can either be negotiated or not. Those against outsourcing say it hurts local workers. In certain ways, both are right.  

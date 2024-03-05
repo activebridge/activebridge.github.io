@@ -4,12 +4,17 @@ author-position: Ruby on Rails engineer
 background: add-ssl-certificate-with-letsencrypt-back
 category: engineering
 date: "2016-02-25"
-description: Guide to Add SSL Certificate with Letsencrypt
 layout: post
 post-id: add-ssl-certificate-with-letsencrypt
-title: Add ssl certificate with letsencrypt
+post-title: "Add ssl certificate with letsencrypt"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "I am facing with secure data transaction settings. Often, it connects with new web and search engines issues"
+title: "Guide to Add SSL Certificate with Letsencrypt"
 ---
 
 What do you know about SSL? As a web developer, I am facing with secure data transaction settings. Often, it connects with new web and search engines issues.

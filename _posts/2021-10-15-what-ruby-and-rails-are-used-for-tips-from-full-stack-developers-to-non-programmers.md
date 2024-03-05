@@ -1,15 +1,20 @@
 ---
 author: Anton Zimin
-author-position: Tech lead / Full - stack engineer
+author-position: "Tech lead / Full - stack engineer"
 background: what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers-back
 category: engineering
 date: "2021-10-15"
-description: Projects Ruby on Rails is better for? Tips from a RoR Tech Lead
 layout: post
 post-id: what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers
-title: What Ruby and Rails are used for. Tips from full-stack developers to non-programmers
+post-title: "What Ruby and Rails are used for. Tips from full-stack developers to non-programmers"
 time-to-read: 6 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-10-21"
+description: "There are numerous choices for back-end development, including Python, Java, PHP, Ruby, and many more"
+title: "Projects Ruby on Rails is better for? Tips from a RoR Tech Lead"
 ---
 
 Choosing the appropriate technology stack is critical when creating a new project. There are numerous choices for back-end development, including Python, Java, PHP, Ruby, and many more. In general, the correct stack is dependent upon your project complexity. Not every technology has the same advantages in all cases. So how do you choose the best one for your project?

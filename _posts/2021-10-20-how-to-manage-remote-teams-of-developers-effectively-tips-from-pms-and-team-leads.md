@@ -4,12 +4,17 @@ author-position: marketing director
 background: how-to-manage-remote-teams-of-developers-effectively-tips-from-pms-and-team-leads-back
 category: pm_team_management
 date: "2021-10-20"
-description: How to keep remote dev teams engaged? Effective practices from Team Leads
 layout: post
 post-id: how-to-manage-remote-teams-of-developers-effectively-tips-from-pms-and-team-leads
-title: "How To Manage Remote Teams of Developers Effectively: Tips From PMS and Team Leads"
+post-title: "How To Manage Remote Teams of Developers Effectively: Tips From PMS and Team Leads"
 time-to-read: 6 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-10-21"
+description: "While it's undoubtedly true that remote working was on the rise in the pre-pandemic world"
+title: "How to keep remote dev teams engaged? Effective practices from Team Leads"
 ---
 
 The COVID-19 pandemic has fundamentally and permanently changed the way we work. While it's undoubtedly true that remote working was on the rise in the pre-pandemic world, the unique pressures of the last year have accelerated the move towards remote teams. Today, we live in a world where 16% of companies are [100% remote]( https://findstack.com/remote-work-statistics/ ).

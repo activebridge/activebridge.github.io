@@ -4,12 +4,17 @@ author-position: marketing director
 background: when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company-back
 category: engineering
 date: "2021-11-19"
-description: What Is BDD? And in What Situations Is It Highly Effective?
 layout: post
 post-id: when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company
-title: When BDD Approach is Highly Effective. What you need to make it Work in Your Company
+post-title: "When BDD Approach is Highly Effective. What you need to make it Work in Your Company"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-11-19"
+description: "Why? Because software development is often plagued by overwork and wasted time and resources"
+title: "What Is BDD? And in What Situations Is It Highly Effective?"
 ---
 
 It should come as no surprise that the overarching goal of development methodologies is to make the development process smoother and produce products that add value to the business. However, it doesn't always work out this way in practice. Why? Because software development is often plagued by overwork and wasted time and resources. Communication between software engineers and business professionals is often strained, with technical teams misunderstanding what the business truly needs and the business side misinterpreting the capabilities of the engineers. As Dan North, the originator of Behavior Driven Development (BDD), outlines, the result is often a frustrated 

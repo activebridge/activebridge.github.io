@@ -3,13 +3,18 @@ author: Dasha
 author-position: marketing director
 background: how-agile-teams-fulfill-requirements-the-ultimate-agile-guide-back
 category: engineering
-date: "2022-09-24"
-description: The Best Practices to Fulfill Requirements in Agile Projects
+date: "2022-05-24"
 layout: post
 post-id: how-agile-teams-fulfill-requirements-the-ultimate-agile-guide
-title: How Agile Teams Fulfill Requirements – The Ultimate Agile Guide
+post-title: "How Agile Teams Fulfill Requirements – The Ultimate Agile Guide"
 time-to-read: 8 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-05-24"
+description: "For example, the number of people using computers (powered by software)"
+title: "The Best Practices to Fulfill Requirements in Agile Projects"
 ---
 
 Everywhere you look, you're surrounded by software. For example, the number of people using computers (powered by software)[ in 2008 stood at 1 billion globally]( https://fortyseven47.com/blog/5-reasons-why-software-development-is-important/). Fast forward to 2022, and [there are 7.26 billion smartphone users](https://www.bankmycell.com/blog/how-many-phones-are-in-the-world ) worldwide. And more computers mean an increased demand for software development. 

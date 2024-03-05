@@ -4,12 +4,18 @@ author-position: Ruby on Rails developer
 background: why-you-should-choose-a-career-as-a-ruby-on-rails-developer-back
 category: engineering
 date: "2020-09-23"
-description: The Reasons I chose a career Ruby on Rails Developer
 layout: post
 post-id: why-you-should-choose-a-career-as-a-ruby-on-rails-developer
-title: Why You Should Choose a Career as a Ruby on Rails Developer
+post-title: "Why You Should Choose a Career as a Ruby on Rails Developer"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-09-23"
+description: "In this article, learn why our junior developer Katya chose the information technology career and what she
+              finds interesting and rewarding about Ruby on Rails"
+title: "The Reasons I chose a career Ruby on Rails Developer"
 ---
 
 Active Bridge specializes in Ruby on Rails web and software development. Ruby beginners regularly participate in internships to gain experience in our company. Recently, we have noticed a stable interest in RoR technology. 

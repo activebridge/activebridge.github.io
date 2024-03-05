@@ -4,12 +4,18 @@ author-position: marketing director
 background: node-js-vs-ruby-on-rails-back
 category: engineering
 date: "2017-09-26"
-description: Ruby on Rails vs NodeJS. What to Choose
 layout: post
 post-id: node-js-vs-ruby-on-rails
-title: Node JS vs Ruby on Rails. Which is the best for web development
+post-title: "Node JS vs Ruby on Rails. Which is the best for web development"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The main reason I write this article is that our team constantly being asked which language or which framework
+              is best to learn"
+title: "Ruby on Rails vs NodeJS. What to Choose"
 ---
 
 Hi, guys, in this article we’re going to compare Node.js versus Ruby on Rails for web development. The main reason I write this article is that our team constantly being asked which language or which framework is best to learn. Anyway, we never give a simple answer because they aren't the clear-cut answer. So I think the next best thing is to look at all facts and statistics. We’re going to take a look at some of the advantages and some of the disadvantages of both Nod.js and Ruby on Rails for server-side technologies. Before we begin I make a couple of points. So we can already hear the critics saying how are you going to compare Node.js that is a runtime to Ruby on Rails that is a framework. I get the argument what I compare are the two server-side technologies and web stacks. Now let’s get clear what’s better to learn right now and what’s better to implement for a business. I’m not saying to compare straight up features of Ruby on Rails to Nod.js. If it makes you feel better to replace Node.js with something like Express or some other node based frameworks. Anyway, we compare back-end structures and stacks, not the individual technology. Our team worked with both technologies and some of us like both technologies. I’m not promoting over the other. It’s also important to understand what works for us may not work for you and vice versa. Also, you should remember that everyone’s brain is different. There is no cookie cutter answer for this question.

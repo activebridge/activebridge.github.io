@@ -1,15 +1,20 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: image-zoom-on-pure-css-back
 category: engineering
 date: "2016-12-21"
-description: Image Zoom on Pure CSS
 layout: post
 post-id: image-zoom-on-pure-css
-title: How to zoom image with pure JavaScript
+post-title: "How to zoom image with pure JavaScript"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "I believe that every shopping website has ability zoom the product image."
+title: "Image Zoom on Pure CSS"
 ---
 
 When you are building an e-commerce website, especially a showcase, a website gallery, a template selling website ..., you always need many good images for using and giving your visitors/customers the detailed view of your images (or your product).

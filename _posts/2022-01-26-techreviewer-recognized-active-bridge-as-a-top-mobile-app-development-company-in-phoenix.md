@@ -4,12 +4,17 @@ author-position: marketing director
 background: techreviewer-recognized-active-bridge-as-a-top-mobile-app-development-company-in-phoenix-back
 category: inside_ab
 date: "2022-01-26"
-description: Active Bridge Recognized as a Top App Development Company in Phoenix, 2022
 layout: post
 post-id: techreviewer-recognized-active-bridge-as-a-top-mobile-app-development-company-in-phoenix
-title: Techreviewer recognized Active Bridge as a Top Mobile App Development Company in Phoenix
+post-title: "Techreviewer recognized Active Bridge as a Top Mobile App Development Company in Phoenix"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-01-26"
+description: "The team compiled the review list of leaders based on the expertise, experience, quality of services"
+title: "Active Bridge Recognized as a Top App Development Company in Phoenix, 2022"
 ---
 
 Active Bridge has been named one of the top app developers in Phoenix by Techreviewer.co. The team compiled the review list of leaders based on the expertise, experience, quality of services, and reliability of the development companies. Techreviewer collected information about our services and client reviews to make an assessment. According to their research, we hold the third position among 100 mobile app development companies in the state.

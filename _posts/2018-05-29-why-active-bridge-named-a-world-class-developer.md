@@ -4,12 +4,17 @@ author-position: marketing director
 background: why-active-bridge-named-a-world-class-developer-back
 category: business_growth
 date: "2018-05-29"
-description: Active Bridge is a leading B2B company by Clutch.co
 layout: post
 post-id: why-active-bridge-named-a-world-class-developer
-title: Why Active Bridge Named a World Class Developer
+post-title: "Why Active Bridge Named a World Class Developer"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Today the platform lists 7000 agencies, 11000 client reviews, and 50 survey reports"
+title: "Active Bridge is a leading B2B company by Clutch.co"
 ---
 
 ![Active Bridge, full-stack development company](https://i.imgur.com/kDaEhQR.png)

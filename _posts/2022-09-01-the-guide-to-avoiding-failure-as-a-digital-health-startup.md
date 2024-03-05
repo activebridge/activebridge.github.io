@@ -4,12 +4,17 @@ author-position: marketing director
 background: the-guide-to-avoiding-failure-as-a-digital-health-startup-back
 category: engineering
 date: "2022-09-01"
-description: The Guide to Avoiding Failure as a Medical Startup
 layout: post
 post-id: the-guide-to-avoiding-failure-as-a-digital-health-startup
-title: The Guide to Avoiding Failure as a Digital Health Startup
+post-title: "The Guide to Avoiding Failure as a Digital Health Startup"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-09-01"
+description: "Studies show that an eye-watering 90% of startups close within the first year"
+title: "The Guide to Avoiding Failure as a Medical Startup"
 ---
 
 It's a brutal world out there for startups, and MedTech startups are no exception. Studies show that an eye-watering 90% of startups close within the first year. And of these, 42% close due to lack of demand, and 17% fail because the final product isn't simple or user-friendly enough. However, we believe that most failures can be avoided from the outset. With this in mind, let’s dive into the popularity of digital medicine products, what to consider when launching a medical startup, how to attract investment, and what to avoid when planning your next project. 

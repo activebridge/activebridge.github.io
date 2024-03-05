@@ -4,12 +4,18 @@ author-position: marketing director
 background: heroku-vs-aws-which-cloud-service-is-best-for-your-healthcare-project-back
 category: engineering
 date: "2022-04-19"
-description: Cloud Hosting Service for a Healthcare Project. Heroku or AWS?
 layout: post
 post-id: heroku-vs-aws-which-cloud-service-is-best-for-your-healthcare-project
-title: "Heroku vs AWS: Which Cloud Service Is Best for Your Healthcare Project?"
+post-title: "Heroku vs AWS: Which Cloud Service Is Best for Your Healthcare Project?"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-04-19"
+description: "Today, cloud services are in high demand, but with so many options on the market, healthcare providers often
+              struggle to find the one that best suits their needs"
+title: "Cloud Hosting Service for a Healthcare Project. Heroku or AWS?"
 ---
 
 The healthcare cloud computing market was valued at an impressive $23,749.33 million in 2020 but is expected to soar to an eye-watering [$52,303.35 million by 2026](https://www.businesswire.com/news/home/20220131005627/en/The-Global-Healthcare-Cloud-Computing-Market-is-Projected-to-Reach-52303.35-Million-by-2026-at-a-CAGR-of-14.12---ResearchAndMarkets.com). Today, cloud services are in high demand, but with so many options on the market, healthcare providers often struggle to find the one that best suits their needs. With this in mind, today, we will compare two popular cloud services, Heroku and Amazon Web Services (AWS). We'll dive into their pros and cons, use cases, and more, so you can choose a solution that best fits your healthcare project. Let's get started!

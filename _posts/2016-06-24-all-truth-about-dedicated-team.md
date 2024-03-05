@@ -4,12 +4,18 @@ author-position: marketing director
 background: all-truth-about-dedicated-team-back
 category: pm_team_management
 date: "2016-06-24"
-description: Dedicated Team of Developers. What is Dedicated Team Model?
 layout: post
 post-id: all-truth-about-dedicated-team
-title: All Truth about Dedicated Team
+post-title: "All Truth about Dedicated Team"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "You begin looking for specialists who’ll get this project into the life. And the first question you face with
+              who should develop my idea"
+title: "Dedicated Team of Developers. What is Dedicated Team Model?"
 ---
 
 You have a great idea and want to share it with a lot of people. You begin looking for specialists who’ll get this project into the life. And the first question you face with who should develop my idea. Today I would like telling you all truth about such kind of web development model as Dedicated Team.

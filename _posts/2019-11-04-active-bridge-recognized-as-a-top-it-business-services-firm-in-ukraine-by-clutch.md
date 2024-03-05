@@ -4,12 +4,18 @@ author-position: marketing director
 background: active-bridge-recognized-as-a-top-it-business-services-firm-in-ukraine-by-clutch-back
 category: pm_team_management
 date: "2019-11-04"
-description: Clutch Recognition | Active Bridge, Top IT & Business Services Firm in Ukraine
 layout: post
 post-id: active-bridge-recognized-as-a-top-it-business-services-firm-in-ukraine-by-clutch
-title: Active Bridge Recognized as a Top IT & Business Services Firm in Ukraine by Clutch
+post-title: "Active Bridge Recognized as a Top IT & Business Services Firm in Ukraine by Clutch"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "We provide senior-level developers to help you augment your in-house teams; we provide solutions like team
+              extensions"
+title: "Clutch Recognition | Active Bridge, Top IT & Business Services Firm in Ukraine"
 ---
 
 We, at Active Bridge, aren’t your typical[ IT staff augmentation company](https://activebridge.org/blog/what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-dev-team); we make sure to fully immerse our team into the culture of our clients so projects go smoothly and no obstacles arise. 

@@ -4,12 +4,18 @@ author-position: marketing director
 background: how-to-hire-team-of-developers-for-it-startup-that-really-makes-the-product-back
 category: pm_team_management
 date: "2017-05-10"
-description: How to Hire a Dedicated Team of Developers for Your Project
 layout: post
 post-id: how-to-hire-team-of-developers-for-it-startup-that-really-makes-the-product
-title: How to hire the team of developers for your IT-startup, that really makes the product
+post-title: "How to hire the team of developers for your IT-startup, that really makes the product"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "You have a thoughtful idea, vision, clear understanding of the goal, a few first potential investors, and even
+              a budget"
+title: "How to Hire a Dedicated Team of Developers for Your Project"
 ---
 
 Now, you’ve decided to give the world a new product or service. You have a thoughtful idea, vision, clear understanding of the goal, a few first potential investors, and even a budget. For now to complete the team remains a subject. 

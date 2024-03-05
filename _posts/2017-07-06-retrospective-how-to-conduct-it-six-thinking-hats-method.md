@@ -4,12 +4,18 @@ author-position: marketing director
 background: retrospective-how-to-conduct-it-six-thinking-hats-method-back
 category: pm_team_management
 date: "2017-07-06"
-description: Most Popular Way to run a Productive Retrospective
 layout: post
 post-id: retrospective-how-to-conduct-it-six-thinking-hats-method
-title: Retrospective. How to conduct it? Six Thinking Hats Method
+post-title: "Retrospective. How to conduct it? Six Thinking Hats Method"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "This is a regular meeting where the team discusses their workflow and make changes to improve current work
+              process"
+title: "Most Popular Way to run a Productive Retrospective"
 ---
 
 Holding retrospectives is the activity each agile team conducts in order to solve its problems. What is a [retrospective](https://en.wikipedia.org/wiki/Retrospective)? This is a regular meeting where the team discusses their workflow and make changes to improve current work process.

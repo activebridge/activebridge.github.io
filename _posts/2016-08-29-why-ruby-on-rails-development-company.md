@@ -4,12 +4,18 @@ author-position: marketing director
 background: why-ruby-on-rails-development-company-back
 category: pm_team_management
 date: "2016-08-29"
-description: Why is It Worth to Hire Ruby on Rails Development Company
 layout: post
 post-id: why-ruby-on-rails-development-company
-title: Why Ruby on Rails development company
+post-title: "Why Ruby on Rails development company"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Ruby on Rails and PHP is culture vs chaos. PHP lets building your bike with the different parts of other
+              bikes and don’t guide by any 'Bike Tutorial'"
+title: "Why is It Worth to Hire Ruby on Rails Development Company"
 ---
 
 ## Why ruby on rails development

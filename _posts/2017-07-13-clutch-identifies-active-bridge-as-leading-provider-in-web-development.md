@@ -3,13 +3,18 @@ author: Dasha
 author-position: marketing director
 background: clutch-identifies-active-bridge-as-leading-provider-in-web-development-back
 category: engineering
-date: "2017-06-13"
-description: Active Bridge is a Leading Web Service Provider
+date: "2017-07-13"
 layout: post
 post-id: clutch-identifies-active-bridge-as-leading-provider-in-web-development
-title: Clutch Identifies Active Bridge as Leading Provider in Web Development
+post-title: "Clutch Identifies Active Bridge as Leading Provider in Web Development"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Ruby on Rails is our expertise and is what drives the vision for our company"
+title: "Active Bridge is a Leading Web Service Provider"
 ---
 
 # Clutch Identifies Active Bridge as Leading Provider in Web Development

@@ -4,12 +4,18 @@ author-position: marketing director
 background: clutch-co-active-bridge-is-a-top-arizona-it-services-provider-back
 category: pm_team_management
 date: "2019-06-10"
-description: "Active Bridge named TOP Arizona IT Service Provider | Clutch.co"
 layout: post
 post-id: clutch-co-active-bridge-is-a-top-arizona-it-services-provider
-title: "Clutch.co: Active Bridge is a Top Arizona IT Services Provider"
+post-title: "Clutch.co: Active Bridge is a Top Arizona IT Services Provider"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "We are thrilled to share that Clutch.co has identified us as a top B2B company in Arizona under IT and
+              business services"
+title: "Active Bridge named TOP Arizona IT Service Provider | Clutch.co"
 ---
 
 As an IT company that assists our clients in scaling their projects and augmenting their in-house teams, Active Bridge understands the importance of offering **[on-demand](https://www.forbes.com/sites/shephyken/2018/07/15/customer-experience-is-the-new-brand/#3863b4517f52)**, innovative technologies. We are thrilled to share that Clutch.co has identified us as a top B2B company in Arizona under IT and business services! 

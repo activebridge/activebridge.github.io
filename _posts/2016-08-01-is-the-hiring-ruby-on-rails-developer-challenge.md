@@ -4,12 +4,18 @@ author-position: marketing director
 background: is-the-hiring-ruby-on-rails-developer-challenge-back
 category: pm_team_management
 date: "2016-08-01"
-description: How to Find and Hire Professional RoR Developer
 layout: post
 post-id: is-the-hiring-ruby-on-rails-developer-challenge
-title: Is the hiring of Ruby on Rails developer a challenge?
+post-title: "Is the hiring of Ruby on Rails developer a challenge?"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Certainly, every of them has it’s advantages and disadvantages depending on several factors: from program
+              language they use to company location"
+title: "How to Find and Hire Professional RoR Developer"
 ---
 
 It’s well known there are a lot of web development companies and specialists around the world. And they all specialize in different program languages and frameworks. Certainly, every of them has it’s advantages and disadvantages depending on several factors: from program language they use to company location. To get high-quality product an entrepreneur, CEO, HR takes decisions to hire web developer according to company needs and requirements.

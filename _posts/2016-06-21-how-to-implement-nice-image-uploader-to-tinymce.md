@@ -4,12 +4,17 @@ author-position: Ruby on Rails engineer
 background: how-to-implement-nice-image-uploader-to-tinymce-back
 category: engineering
 date: "2016-06-21"
-description: Implement Nice Image Uploader to Tinymce
 layout: post
 post-id: how-to-implement-nice-image-uploader-to-tinymce
-title: How to implement nice image uploader to TinyMCE
+post-title: "How to implement nice image uploader to TinyMCE"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The text editor has earned its popularity due to the following factors"
+title: "Implement Nice Image Uploader to Tinymce"
 ---
 
 Nowadays, TinyMCE is considered to be one of the most popular text editors for HTML.

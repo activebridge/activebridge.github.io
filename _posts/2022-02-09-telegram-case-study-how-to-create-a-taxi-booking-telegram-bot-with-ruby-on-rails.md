@@ -4,12 +4,17 @@ author-position: Ruby on Rails developer
 background: telegram-case-study-how-to-create-a-taxi-booking-telegram-bot-with-ruby-on-rails-back
 category: engineering
 date: "2022-02-09"
-description: "Telegram Bot With Ruby on Rails: Taxi Booking Case"
 layout: post
 post-id: telegram-case-study-how-to-create-a-taxi-booking-telegram-bot-with-ruby-on-rails
-title: Telegram Case Study - How To Create a Taxi Booking Telegram Bot With Ruby on Rails
+post-title: "Telegram Case Study - How To Create a Taxi Booking Telegram Bot With Ruby on Rails"
 time-to-read: 6 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-02-09"
+description: "It's famous for its robust privacy and security, message delivery speed, and rich communication features"
+title: "Telegram Bot With Ruby on Rails: Taxi Booking Case"
 ---
 
 Telegram occupies a unique place in the social media landscape. It's famous for its robust privacy and security, message delivery speed, and rich communication features. However, we're not here to advertise Telegram but rather to highlight a case study of how the platform supports engaging chatbots. 

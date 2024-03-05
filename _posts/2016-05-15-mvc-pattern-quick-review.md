@@ -7,9 +7,15 @@ date: "2016-05-15"
 description: MVC Quick Review
 layout: post
 post-id: mvc-pattern-quick-review
-title: MVC pattern. Quick review
+post-title: "MVC pattern. Quick review"
 time-to-read: 3 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "What is Ruby on Rails, answer is clear. A framework based on Ruby realizes MVC template"
+title: "MVC Quick Review"
 ---
 
 This article I would like devoting to my understanding of architectural pattern for Rails framework. What is Ruby on Rails, answer is clear. A framework based on Ruby realizes **MVC** template. 

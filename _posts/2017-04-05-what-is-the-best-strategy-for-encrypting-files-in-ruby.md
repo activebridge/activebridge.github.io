@@ -4,12 +4,18 @@ author-position: Lead Ruby on Rails developer
 background: what-is-the-best-strategy-for-encrypting-files-in-ruby-back
 category: engineering
 date: "2017-04-05"
-description: Encryption. Ruby practice
 layout: post
 post-id: what-is-the-best-strategy-for-encrypting-files-in-ruby
-title: What is the best strategy for encrypting files in Ruby
+post-title: "What is the best strategy for encrypting files in Ruby"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "However, now, along with information society foundation cryptography’s became one of the main tools providing
+              confidentiality, authorization, electronic payments"
+title: "Encryption. Ruby practice"
 ---
 
 ## Symmetric encryption in Ruby

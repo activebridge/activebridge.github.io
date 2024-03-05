@@ -4,12 +4,18 @@ author-position: marketing director
 background: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery-phase-back
 category: engineering
 date: "2022-10-17"
-description: The Ultimate Guide to the Project Discovery Phase
 layout: post
 post-id: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery-phase
-title: From Discovery To Launch – The Ultimate Guide to the Project Discovery Phase
+post-title: "From Discovery To Launch – The Ultimate Guide to the Project Discovery Phase"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-10-17"
+description: "But where do you start? Before you jump in, it's essential to understand the problem that needs to be solved,
+              figure  out the requirements and deliverables, do comprehensive research, and set appropriate milestones"
+title: "The Ultimate Guide to the Project Discovery Phase"
 ---
 
 So, you have an idea for an exciting new software product that will hugely impact your business. But where do you start? Before you jump in, it's essential to understand the problem that needs to be solved, figure out the requirements and deliverables, do comprehensive research, and set appropriate milestones. These tasks and more are discovery phase activities. The project discovery phase is vital for a successful and high-quality end product. 

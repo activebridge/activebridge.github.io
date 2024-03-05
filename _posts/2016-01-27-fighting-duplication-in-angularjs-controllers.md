@@ -4,12 +4,17 @@ author-position:
 background: fighting-duplication-in-angularjs-controllers-back
 category: engineering
 date: "2016-01-27"
-description: How to fight with code duplication in Angular controllers
 layout: post
 post-id: fighting-duplication-in-angularjs-controllers
-title: Fighting duplication in AngularJS controllers
+post-title: "Fighting duplication in AngularJS controllers"
 time-to-read: 4 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "In this article I would like to discuss code duplication in AngularJS controllers"
+title: "How to fight with code duplication in Angular controllers"
 ---
 
 There are not so many challenges you face when working with AngularJS framework. In this article I would like to discuss code duplication in AngularJS controllers. Duplication is not something new but with AngularJS I saw some approaches that I didn’t like but those are widely used.

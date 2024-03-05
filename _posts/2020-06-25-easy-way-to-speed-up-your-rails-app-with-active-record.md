@@ -4,12 +4,18 @@ author-position: Ruby on Rails engineer
 background: easy-way-to-speed-up-your-rails-app-with-active-record-back
 category: engineering
 date: "2020-06-25"
-description: How to Optimize Performance in Rails. Active Record Tips
 layout: post
 post-id: easy-way-to-speed-up-your-rails-app-with-active-record
-title: Easy Way to Speed Up Your Rails App with Active Record
+post-title: "Easy Way to Speed Up Your Rails App with Active Record"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-06-25"
+description: "It allows us to create scalable and highly performance applications. This technology has many advantages, you
+              can see more"
+title: "How to Optimize Performance in Rails. Active Record Tips"
 ---
 
 The technology I work with is **Ruby on Rails**. It allows us to create scalable and highly performance applications. This technology has many advantages, you can see more[ here](https://activebridge.org/blog/node-js-vs-ruby-on-rails). However, in the Ruby community developers share different performance issues. Some programmers refer to slow Rails performance. I wouldn't agree. There are many factors affecting the performance of your web application. Some are environmental, some are related with your code, while some others are related with your skills.

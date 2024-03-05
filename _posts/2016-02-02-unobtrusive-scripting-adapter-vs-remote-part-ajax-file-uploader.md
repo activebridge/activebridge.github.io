@@ -1,15 +1,20 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: simple-way-to-create-public-pages-back
 category: engineering
 date: "2016-02-02"
-description: A definitive guide to Rails’ unobtrusive JavaScript adapter
 layout: post
 post-id: unobtrusive-scripting-adapter-vs-remote-part-ajax-file-uploader
-title: Unobtrusive scripting adapter vs Remotipart
+post-title: "Unobtrusive scripting adapter vs Remotipart"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Many of web applications require an easy and common way to upload different type data"
+title: "A definitive guide to Rails’ unobtrusive JavaScript adapter"
 ---
 
 In this short instruction, I would like to share how to use AJAX file upload in Ruby on Rails. Many of web applications require an easy and common way to upload different type data. To solve this issue, Rails has nice Unobtrusive scripting adapter. It takes care of remote forms and links to your application. But in fact, I actually think, there is one point it can not handle: the AJAX file upload. It is the provide the routes.rb:

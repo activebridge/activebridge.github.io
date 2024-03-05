@@ -4,12 +4,18 @@ author-position: marketing director
 background: remote-teams-management-back
 category: pm_team_management
 date: "2017-11-01"
-description: How to Manage a Remote Team Effectively
 layout: post
 post-id: remote-teams-management
-title: Tips For Managing Remote Teams You Need to Know
+post-title: "Tips For Managing Remote Teams You Need to Know"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The truth is remote teams have been around for a long time but we are constantly looking for ways to manage
+              those teams more effectively"
+title: "How to Manage a Remote Team Effectively"
 ---
 
 Today we are talking about three new tips to manage remote teams. The truth is remote teams have been around for a long time but we are constantly looking for ways to manage those teams more effectively. 

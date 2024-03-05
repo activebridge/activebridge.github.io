@@ -1,15 +1,21 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: what-is-the-most-profitable-saas-pricing-model-how-to-choose-the-best-payment-system-back
 category: engineering
 date: "2022-04-27"
-description: Top 4 Payment Gateways for SaaS. Online Payment Processing)
 layout: post
 post-id: what-is-the-most-profitable-saas-pricing-model-how-to-choose-the-best-payment-system
-title: What Is the Most Profitable SaaS Pricing Model? How To Choose the Best Payment System
+post-title: "What Is the Most Profitable SaaS Pricing Model? How To Choose the Best Payment System"
 time-to-read: 7 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-04-27"
+description: "A recent survey found that a whopping 38% of companies are running almost entirely on SaaS, and 80% of
+              companies plan only to use SaaS systems by 2025"
+title: "Top 4 Payment Gateways for SaaS. Online Payment Processing)"
 ---
 
 There's no question that Software as a Service (SaaS) is booming right now. A recent survey found that a whopping 38% of companies are running almost entirely on SaaS, and 80% of companies plan only to use SaaS systems by 2025. And if you still need convincing, [SaaS spending across companies of all sizes will reach an eye-watering $500 billion by 2023](https://devsquad.com/blog/saas-statistics/). 

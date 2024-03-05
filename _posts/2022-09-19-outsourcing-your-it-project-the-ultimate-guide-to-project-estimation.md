@@ -1,15 +1,21 @@
 ---
 author: Alex Galushka
-author-position: CEO / Tech lead and backend developer
+author-position: "CEO / Tech lead and backend developer"
 background: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation-back
 category: engineering
 date: "2022-09-19"
-description: The Ultimate Guide to Project Estimation 2022
 layout: post
 post-id: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation
-title: Outsourcing Your IT Project? The Ultimate Guide to Project Estimation
+post-title: "Outsourcing Your IT Project? The Ultimate Guide to Project Estimation"
 time-to-read: 9 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-09-21"
+description: "Taking a deliberate approach to your discovery phase activities can better position you to get an accurate
+              cost estimate for your project"
+title: "The Ultimate Guide to Project Estimation 2022"
 ---
 
 Are you currently in the project discovery phase and considering working with an external software development provider? Then, you're in the right place. Taking a deliberate approach to your discovery phase activities can better position you to get an accurate cost estimate for your project. 

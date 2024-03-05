@@ -3,13 +3,18 @@ author: Viktor Shmigol
 author-position: Lead Ruby on Rails developer
 background: solid-principles-in-ruby-back
 category: engineering
-date: "2016-01-28"
-description: What are Solid Principals in Ruby
+date: "2016-02-28"
 layout: post
 post-id: solid-principles-in-ruby
-title: SOLID Principles in Ruby
+post-title: "SOLID Principles in Ruby"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "So there is the decision of its issue. SOLID principles are a godsend for ruby on rails developers"
+title: "What are Solid Principals in Ruby"
 ---
 
 Every developer would like to write an awesome application, find easy and perfect ways to create clean and useful code. Anyway, everyone's convinced it’s not easy. So there is the decision of its issue. SOLID principles are a godsend for ruby on rails developers. SOLID means five principles applied correctly help you to apply the right code.

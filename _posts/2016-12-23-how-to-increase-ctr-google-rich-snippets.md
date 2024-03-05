@@ -3,13 +3,19 @@ author: Dasha
 author-position: marketing director
 background: how-to-increase-ctr-google-rich-snippets-back
 category: business_growth
-date: "2016-12-13"
-description: Do Reach Snippets Help SEO
+date: "2016-12-23"
 layout: post
 post-id: how-to-increase-ctr-google-rich-snippets
-title: How to increase CTR? Google Rich Snippets
+post-title: How to increase CTR? Google Rich Snippets
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "Summaries are good: making an introduction that gives an explicit answer makes your content more visible to
+              Google and plus"
+title: "Do Reach Snippets Help SEO"
 ---
 
 ![Imgur](https://i.imgur.com/PlDZ6DK.png)

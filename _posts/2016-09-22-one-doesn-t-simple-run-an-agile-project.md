@@ -4,12 +4,18 @@ author-position: marketing director
 background: one-doesn-t-simple-run-an-agile-project-back
 category: pm_team_management
 date: "2016-09-22"
-description: How to Run an Agile Project Successfully
 layout: post
 post-id: one-doesn-t-simple-run-an-agile-project
-title: ONE DOESN'T SIMPLE RUN AN AGILE PROJECT
+post-title: "ONE DOESN'T SIMPLE RUN AN AGILE PROJECT"
 time-to-read: 2 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The uncertainty and constant changes make project management greatly complicated. Often, neither the team nor
+              the customer doesn’t know what should be the final product"
+title: "How to Run an Agile Project Successfully"
 ---
 
 > That is, while there is value in the items on the right, we value the items on the left more

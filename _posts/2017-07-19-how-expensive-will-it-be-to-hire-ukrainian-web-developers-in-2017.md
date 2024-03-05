@@ -4,12 +4,18 @@ author-position: marketing director
 background: how-expensive-will-it-be-to-hire-ukrainian-web-developers-in-2017-back
 category: engineering
 date: "2017-07-19"
-description: How to Hire Professional Web Developers in Ukraine
 layout: post
 post-id: how-expensive-will-it-be-to-hire-ukrainian-web-developers-in-2017
-title: How Expensive Will It Be to Hire Ukrainian Web Developers in 2017?
+post-title: "How Expensive Will It Be to Hire Ukrainian Web Developers in 2017?"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The cost to build a website can vary quite dramatically, depending on the web design and technology that you
+              choose. Most websites are larger and more complicated"
+title: "How to Hire Professional Web Developers in Ukraine"
 ---
 
 Find a good web app developer today isn’t easy. Especially if you don’t know what specific skills and experience he should have. The cost to build a website can vary quite dramatically, depending on the web design and technology that you choose. Most websites are larger and more complicated. So, they require more time and additional skills to build them. It is handy to know what things you should think about when planning your website and how this can help you when you brief your potential web developer.

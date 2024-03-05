@@ -4,12 +4,17 @@ author-position: Full-stack developer
 background: salesforce-on-rails-process-large-sets-of-records-back
 category: engineering
 date: "2020-04-21"
-description: "Bulk API: Process large sets of records from Rails app to Salesforce"
 layout: post
 post-id: salesforce-on-rails-process-large-sets-of-records
-title: Salesforce on Rails. Process large sets of records
+post-title: "Salesforce on Rails. Process large sets of records"
 time-to-read: 6 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-06-25"
+description: "We are Ruby on Rails developers"
+title: "Bulk API: Process large sets of records from Rails app to Salesforce"
 ---
 
 authors: **Alex Borodai, Vlad Tupytskyi**

@@ -4,12 +4,18 @@ author-position: marketing director
 background: is-agile-methodology-appropriate-for-all-projects-back
 category: engineering
 date: "2021-12-17"
-description: The Secret Behind Agile's Success. Where is Agile Used For?
 layout: post
 post-id: is-agile-methodology-appropriate-for-all-projects
-title: Is Agile Methodology Appropriate for All Projects?
+post-title: "s Agile Methodology Appropriate for All Projects?"
 time-to-read: 6 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2021-12-17"
+description: "Companies adopt agile methodologies to increase team performance, boost project versatility, encourage the
+              diversity of ideas"
+title: "The Secret Behind Agile's Success. Where is Agile Used For?"
 ---
 
 There are a seemingly endless number of tools and methodologies to pick from when it comes to software project management. However, **not all methodologies are appropriate for all projects**. 

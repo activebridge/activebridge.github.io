@@ -4,12 +4,18 @@ author-position: marketing director
 background: three-main-factors-influencing-on-bounce-rate-and-conversion-according-to-machine-learning-determination-back
 category: business_growth
 date: "2017-05-30"
-description: Understanding Bounce Rate to Improve It
 layout: post
 post-id: three-main-factors-influencing-on-bounce-rate-and-conversion-according-to-machine-learning-determination
-title: Three Main Factors Influencing on Bounce Rate and Conversion
+post-title: "Three Main Factors Influencing on Bounce Rate and Conversion"
 time-to-read: 5 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2020-02-25"
+description: "The goal of machine learning is to determine what interrelations between different indicators will be detected
+              by artificial intelligence"
+title: "Understanding Bounce Rate to Improve It"
 ---
 
 [SOASTA](https://www.soasta.com/)  provides a number of services for analytics and site testing. The company's specialists used huge arrays of data collected by their analytics system. The goal of machine learning is to determine what interrelations between different indicators will be detected by artificial intelligence. Tammy Everts from Soasta and Pat Minnan from Google have presented the results at the Velocity 2016 conference, that was held in New York in September 2016.

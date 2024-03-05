@@ -3,13 +3,19 @@ author: Dasha
 author-position: marketing director
 background: what-do-experienced-developers-think-of-ruby-the-ultimate-ruby-guide-back
 category: engineering
-date: "2022-09-10"
-description: Ruby's Features, Scope, Perspectives. The Ultimate Ruby Guide
+date: "2022-05-10"
 layout: post
 post-id: what-do-experienced-developers-think-of-ruby-the-ultimate-ruby-guide
-title: What Do Experienced Developers Think of Ruby? The Ultimate Ruby Guide
+post-title: "What Do Experienced Developers Think of Ruby? The Ultimate Ruby Guide"
 time-to-read: 8 min
 scripts: [post]
+
+author-url: ""
+article-body: ""
+date-modified: "2022-05-23"
+description: "Ruby is an excellent choice as a popular, general-purpose programming language connected to one of the most
+              popular web frameworks (Ruby on Rails)"
+title: "Ruby's Features, Scope, Perspectives. The Ultimate Ruby Guide"
 ---
 
 With so many programming languages out there, it can often be challenging to determine which one is right for your tech project. Ruby is an excellent choice as a popular, general-purpose programming language connected to one of the most popular web frameworks (Ruby on Rails). It's one of the most popular programming languages globally and [powers many web apps you likely use frequently](https://insights.daffodilsw.com/blog/10-popular-web-apps-that-are-built-using-ruby-on-rails), like Airbnb, SoundCloud, Hulu, Shopify, Goodreads, and Github. 
