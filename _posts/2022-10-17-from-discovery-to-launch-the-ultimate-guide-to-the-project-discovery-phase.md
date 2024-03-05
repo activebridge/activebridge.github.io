@@ -7,6 +7,7 @@ date: "2022-10-17"
 layout: post
 post-id: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery-phase
 post-title: "From Discovery To Launch – The Ultimate Guide to the Project Discovery Phase"
+popular: true
 time-to-read: 2 min
 scripts: [post]
 

@@ -7,6 +7,7 @@ date: "2022-09-19"
 layout: post
 post-id: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation
 post-title: "Outsourcing Your IT Project? The Ultimate Guide to Project Estimation"
+popular: true
 time-to-read: 9 min
 scripts: [post]
 
