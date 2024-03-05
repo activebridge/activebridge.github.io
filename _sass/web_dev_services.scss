@@ -121,7 +121,10 @@
     background: $main-gradient;
     box-shadow: 0px 0px 20px -3px #6b6897;
 
-    .header-2 { margin-bottom: 8vh; }
+    .header-2 {
+      margin-bottom: 6vh;
+      margin-top: 0;
+    }
 
     .description:not(:last-child) { margin-bottom: 1.5em; }
   }
