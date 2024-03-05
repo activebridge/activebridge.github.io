@@ -45,7 +45,7 @@ To add a new post to your blog:
   ```
 
 #### Details About Post Settings:
-* `background`: Specify the background image's name without its format, located in the `assets/images/blog/posts/<post.category-name>` directory.
+* `background`: Specify the background image's name without its format, located in the `assets/images/blog/posts/<post.category-name>` directory. It will be used as the background image for the post card and for the SEO cover-image meta tag.
 * `category`: Choose one of the predefined categories, such as `engineering`, `business_growth`, `pm_team_management`, or `inside_ab`.
 * `post-id`: Assign a unique identifier to your post, formatted as shown in the example.
 * `time-to-read`: An estimate of how long it will take to read the blog post, usually given in minutes.
@@ -86,7 +86,6 @@ To add a new post to your blog:
   author-url: "https://www.linkedin.com/in/autor"
   date-modified: "2024-01-10"
   article-body: This is the some main elements of the blog post
-  cover-image: "http://example.com/path/to/image.jpg"
   ---
   ```
 
