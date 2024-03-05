@@ -217,8 +217,8 @@
 
     .list-with-images.horizontal .list-with-images__item { margin-bottom: 3vh; }
 
-    .timeline-item:nth-child(even)::before,
-    .timeline-item:nth-child(odd)::before { background-color: $sky-ua; }
+    .timeline-item__icon:nth-child(even)::before,
+    .timeline-item__icon:nth-child(odd)::before { background-color: $sky-ua; }
 
     &__main { padding: 7vh 5vh 0; }
 
