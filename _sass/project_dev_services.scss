@@ -159,9 +159,6 @@
       .list-with-images__item-icon img { max-width: 80px; }
     }
 
-    .timeline-item:nth-child(even)::before,
-    .timeline-item:nth-child(odd)::before { background-color: $main-violet; }
-
     .timeline-item {
       &:nth-child(2n) .timeline-item__content-bottom { text-align: initial; }
 
@@ -192,6 +189,8 @@
         width: 150px;
       }
     }
+
+    .timeline-item__icon::before { background-color: $main-violet; }
   }
 }
 
