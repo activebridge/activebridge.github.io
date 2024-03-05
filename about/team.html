@@ -11,7 +11,7 @@ json-ld: team
 
 <div class="container team">
   <div class="team__main wrap">
-    <div class="row" style="view-transition-name: team;">
+    <div class="wrapper" style="view-transition-name: team;">
       <div class="header-3 white-text">{{ site.data.team.title }}</div>
       <div class="header-2 white-text">{{ site.data.team.subtitle_1 }}</div>
       <div class="description justify white-text">{{ site.data.team.description }}</div>
@@ -19,13 +19,13 @@ json-ld: team
   </div>
 
   <div class="team__help">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-2">{{ site.data.team.subtitle_2 }}</div>
     </div>
   </div>
 
   <div class="team__people wrap">
-    <div class="row">
+    <div class="wrapper">
       <h1 class="header-3">{{ site.data.team.ab_people.title }}</h1>
       <h2 class="header-2">{{ site.data.team.ab_people.subtitle }}</h2>
       <div class="description">{{ site.data.team.ab_people.description }}</div>
@@ -33,14 +33,14 @@ json-ld: team
   </div>
 
   <div class="team__crew wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-3">{{ site.data.about_us.crew.title }}</div>
       {% include crew.html %}
     </div>
   </div>
 
   <div class="team__important_things wrap">
-    <div class="row">
+    <div class="wrapper">
       <h2 class="header-2">{{ site.data.team.important_things.title }}</h2>
       <div class="list-with-images horizontal">
         {% for item in site.data.team.important_things.items %}
