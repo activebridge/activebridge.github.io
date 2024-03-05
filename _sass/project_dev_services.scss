@@ -16,7 +16,7 @@
   }
 
   &__main {
-    padding: 8vh 18vw 5vh;
+    padding: 14vh 0 6vh;
     background-image: linear-gradient($palianytsia, $white, $white, $buzok);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .25);
 
@@ -123,15 +123,21 @@
 
   .dev_services__cards .header-2 { margin: 2vh auto 8vh; }
 
-  .development__cards .cards-container {
-    justify-content: space-around;
+  .development__cards  {
+    background-image: linear-gradient($kviten, $white);
 
-    .card {
-      max-width: 300px;
-      margin-right: 5px;
-      margin-left: 5px;
+    .header-2 { margin: 0 0 2vh; }
 
-      &__description { margin-bottom: 0; }
+    .cards-container {
+      justify-content: space-around;
+
+      .card {
+        max-width: 300px;
+        margin-right: 5px;
+        margin-left: 5px;
+
+        &__description { margin-bottom: 0; }
+      }
     }
   }
 }
@@ -140,21 +146,17 @@
   .project_dev_services {
     .header-2 { font-size: .85em; }
 
-    &__main {
-      padding: 7vh 5vh;
+    &__main .list-with-images.horizontal:not(:last-child) {
+      .list-with-images__item,
+      .list-with-images__item:nth-child(-n+2) {
+        width: 45%;
+        max-width: 45%;
+        align-items: center;
 
-      .list-with-images.horizontal:not(:last-child) {
-        .list-with-images__item,
-        .list-with-images__item:nth-child(-n+2) {
-          width: 45%;
-          max-width: 45%;
-          align-items: center;
-
-          &:last-child { margin: auto; }
-        }
-
-        .list-with-images__item-icon img { max-width: 80px; }
+        &:last-child { margin: auto; }
       }
+
+      .list-with-images__item-icon img { max-width: 80px; }
     }
 
     .timeline-item:nth-child(even)::before,
