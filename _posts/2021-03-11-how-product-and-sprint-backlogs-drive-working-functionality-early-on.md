@@ -133,7 +133,7 @@ To work effectively with the Sprint Backlog, the team must regularly monitor cur
 
 By now, you're all clued up on how to implement Product and Sprint Backlogs! You have the tools you need to follow agile methodology principles in a way that drives results. And you should be able to plan a dynamic and robust development project successfully. 
 
-Not done learning? If you want to learn more about agile project management tools, read ["What is BDD, and when does this approach really work?"](https://activebridge.org/blog/when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company)
+Not done learning? If you want to learn more about agile project management tools, read ["What is BDD, and when does this approach really work?"]({% post_url 2021-11-19-when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company %})
 
 When creating a Product Backlog and Sprint Backlog, it's crucial to have the right team and the right tools. If you have questions about building a Scrum team and agile development methodology, our team can help.
 

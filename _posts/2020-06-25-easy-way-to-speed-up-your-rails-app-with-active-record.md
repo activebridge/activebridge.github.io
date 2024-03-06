@@ -18,7 +18,7 @@ description: "It allows us to create scalable and highly performance application
 title: "How to Optimize Performance in Rails. Active Record Tips"
 ---
 
-The technology I work with is **Ruby on Rails**. It allows us to create scalable and highly performance applications. This technology has many advantages, you can see more[ here](https://activebridge.org/blog/node-js-vs-ruby-on-rails). However, in the Ruby community developers share different performance issues. Some programmers refer to slow Rails performance. I wouldn't agree. There are many factors affecting the performance of your web application. Some are environmental, some are related with your code, while some others are related with your skills.
+The technology I work with is **Ruby on Rails**. It allows us to create scalable and highly performance applications. This technology has many advantages, you can see more [here]({% post_url 2017-09-26-node-js-vs-ruby-on-rails %}). However, in the Ruby community developers share different performance issues. Some programmers refer to slow Rails performance. I wouldn't agree. There are many factors affecting the performance of your web application. Some are environmental, some are related with your code, while some others are related with your skills.
 
 One possible reason for slow performance may be due to Active Record. **That’s why you have to understand how Active Record works to prevent calling unneeded queries, and don't waste memory for storing unnecessary information.** In this post we are going to look into pretty simple script examples to speed up queries and save time.
 
@@ -160,4 +160,4 @@ When your app grows in size and complexity, and you ignore unnecessary SQL, it c
 
 ActiveRecord is a powerful tool, but we need to be aware of how it works internally to avoid database access in unnecessary cases.
 
-**If you have any questions about increasing Rails application performance or you are interested in developing your own highly-scalable app** - [contact us.](https://activebridge.org/contact)
+**If you have any questions about increasing Rails application performance or you are interested in developing your own highly-scalable app** - [contact us.](/contacts)

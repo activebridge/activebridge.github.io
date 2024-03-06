@@ -144,4 +144,4 @@ There we have, that was four proven hosting providers for Ruby on Rails applicat
 
 We have introduced some of the best hosting options for Ruby on Rails hosting according to Active Bridge's expert experience in Rails development.
 
-Not sure where to start with Ruby on Rails development? [Get in touch with](https://activebridge.org/contact) us today to learn about our web application development services or to learn from our industry experts.
+Not sure where to start with Ruby on Rails development? [Get in touch with](/contacts) us today to learn about our web application development services or to learn from our industry experts.

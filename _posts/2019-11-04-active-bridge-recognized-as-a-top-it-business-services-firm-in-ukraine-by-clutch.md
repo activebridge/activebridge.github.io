@@ -18,7 +18,7 @@ description: "We provide senior-level developers to help you augment your in-hou
 title: "Clutch Recognition | Active Bridge, Top IT & Business Services Firm in Ukraine"
 ---
 
-We, at Active Bridge, aren’t your typical[ IT staff augmentation company](https://activebridge.org/blog/what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-dev-team); we make sure to fully immerse our team into the culture of our clients so projects go smoothly and no obstacles arise. 
+We, at Active Bridge, aren’t your typical [IT staff augmentation company]({% post_url 2019-08-22-what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-dev-team %}); we make sure to fully immerse our team into the culture of our clients so projects go smoothly and no obstacles arise. 
 We provide senior-level developers to help you augment your in-house teams; we provide solutions like team extensions, dedicated developer teams, and project-model contracts.
 
 Our efficient customer service is why Clutch [recently announced](https://clutch.co/ua/web-developers) that we have been recognized as a top IT & Business services firm in Ukraine.
@@ -29,6 +29,6 @@ We thank everyone who was involved in making this happen; our team, our clients,
 
 > “Being recognized by Clutch in multiple countries is meaningful to our company. For us implementing a client-centric strategy involves more than treating the customer right; it also includes an organizational shift whereby the internal culture shifts from local to global customer-centered. And, Clutch connecting us with fit businesses that help to grow our company makes us prosperous in our strategy.” - CEO, Active Bridge
 
-If you need additional support, [contact us](https://activebridge.org/contact) and we’ll figure out the best solution for your company!
+If you need additional support, [contact us](/contacts.html) and we’ll figure out the best solution for your company!
 
 ![Award 2019. Active Bridge is TOP B2B  IT Company](https://i.imgur.com/fFk0HSH.png)

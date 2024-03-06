@@ -31,7 +31,7 @@ That's what we're going to be diving into today. We'll discuss project evaluatio
 
 Let's go back in time. Up until 2011, if you were embarking on a new software development project, you probably used the Waterfall methodology in your project planning. Waterfall demands that all software project specifications are defined upfront, which is very helpful for the project estimation process. 
 
-However, today,[ most software development teams are using Agile methodologies](https://activebridge.org/blog/is-agile-methodology-appropriate-for-all-projects) like Kanban, Scrum, Extreme Programming, Lean Development, Feature-Driven Development, and Crystal. Agile's philosophy is rooted in flexible product development, emphasizing the value of iterating quickly and regularly to satisfy customers. It allows companies to become more adaptive, optimize processes, and avoid overburdening the development team. In Agile, the main success criteria is a working product. 
+However, today,[ most software development teams are using Agile methodologies]({% post_url 2021-12-17-is-agile-methodology-appropriate-for-all-projects %} like Kanban, Scrum, Extreme Programming, Lean Development, Feature-Driven Development, and Crystal. Agile's philosophy is rooted in flexible product development, emphasizing the value of iterating quickly and regularly to satisfy customers. It allows companies to become more adaptive, optimize processes, and avoid overburdening the development team. In Agile, the main success criteria is a working product. 
 
 Agile's focus on productivity has led to many gains, which is why most companies today prefer Agile over traditional project development methodologies. But this comes at a cost. Namely, Agile complicates things from a planning perspective. 
 

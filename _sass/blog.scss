@@ -198,6 +198,12 @@
   justify-content: center;
   margin: 0;
   &__mobile { display: none; }
+  &__main {
+    a {
+      color: $post-links;
+      &:visited { color: $post-links }
+    }
+  }
 
   .wrapper {
     padding: 100px 30px;

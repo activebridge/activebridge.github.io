@@ -162,7 +162,7 @@ AWS itself doesn't guarantee HIPAA compliance, but it offers services that pave 
 
 However, simply using AWS isn't enough to ensure compliance. Essentially it's about how you apply your knowledge of AWS technologies that makes or breaks your HIPAA compliance. For more information about using AWS to process and store medical information, [read this white paper](https://docs.aws.amazon.com/whitepapers/latest/architecting-hipaa-security-and-compliance-on-aws/welcome.html) which includes a list of AWS' HIPAA-eligible' cloud services that you could use with PHI. 
 
-If you want to read more about AWS features, we have good news. AWS engineers have written documentation with basic practices for proper and painless cloud hosting. You can [find it here](https://activebridge.org/blog/compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review). 
+If you want to read more about AWS features, we have good news. AWS engineers have written documentation with basic practices for proper and painless cloud hosting. You can [find it here]({% post_url 2021-11-11-compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review %}). 
 
 ## Heroku vs. Amazon: The Verdict
 
@@ -192,4 +192,4 @@ If you want to quickly prototype your healthcare web application with limited de
 
 Our experts have been working with these cloud solutions for almost ten years. If you still have doubts about which platform to use, how to integrate cloud services, and how to migrate from one platform to another, our team can help answer your questions.
 
-If you are wondering what hosting providers are popular in 2022 - you can[ read about them here](https://activebridge.org/blog/compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review). 
+If you are wondering what hosting providers are popular in 2022 - you can[ read about them here]({% post_url 2021-11-11-compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review %}).

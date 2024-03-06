@@ -62,7 +62,7 @@ But what exactly does web development backend technology entail? Put simply, any
 
 There are a variety of server-side languages available depending on the complexity of your project and your organization's needs. At Active Bridge, we use a server-side programming language called Ruby. A Ruby on Rails backend has numerous benefits for projects of varying complexity, including excellent support for data validation, libraries for authentication and user management, and more. 
 
-But what about hosting services? Active Bridge uses cloud providers to host our web applications. We primarily use AWS for hosting web projects due to its flexibility, reliability, and security. However, also use alternative hosting services when it's more appropriate for the project. Some examples of AWS alternatives we use include Heroku, Digital Ocean, and EngineYard. If you want a more comprehensive overview of the hosting services we use, you can[ compare the options here](https://activebridge.org/blog/compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review). 
+But what about hosting services? Active Bridge uses cloud providers to host our web applications. We primarily use AWS for hosting web projects due to its flexibility, reliability, and security. However, also use alternative hosting services when it's more appropriate for the project. Some examples of AWS alternatives we use include Heroku, Digital Ocean, and EngineYard. If you want a more comprehensive overview of the hosting services we use, you can [compare the options here]({% post_url 2021-11-11-compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review %}).
 
 Lastly, our specialists do more than simply set up the server. They also set up continuous integration and continuous deployment pipelines from scratch.
 
@@ -135,7 +135,7 @@ Ruby also contributes to better UX because the framework is "tuned" to developin
 
 * **Task Schedulers** - React with Rails is excellent for developing apps in the personal time management space, including note-taking, collaboration, and task distribution apps.
 
-If you want a more comprehensive overview of what types of projects are best suited to Ruby on Rails, you can read more [here](https://activebridge.org/blog/what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers).
+If you want a more comprehensive overview of what types of projects are best suited to Ruby on Rails, you can read more [here]({% post_url 2021-10-15-what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers %}).
 
 ## Final Thoughts
 

@@ -6,7 +6,7 @@ category: engineering
 date: "2021-12-17"
 layout: post
 post-id: is-agile-methodology-appropriate-for-all-projects
-post-title: "s Agile Methodology Appropriate for All Projects?"
+post-title: "Is Agile Methodology Appropriate for All Projects?"
 time-to-read: 6 min
 scripts: [post]
 

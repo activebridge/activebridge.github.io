@@ -26,7 +26,7 @@ However, Insourcing has its downsides. It’s probably, you may need to increase
 
 ### What’s decision?
 
-**Remote - Insourcing.** There are two related business models such as Dedicated Team and [Outstaffing](https://active-bridge.com/services). **Remote - Insourcing** is a business model that allows their customers to have dedicated teams or employees working as a true extension of their in-house staff. Insourced companies train teams on client’s company, corporate culture, processes, objectives, plans and key criteria for the new department success. 
+**Remote - Insourcing.** There are two related business models such as Dedicated Team and [Outstaffing](/services). **Remote - Insourcing** is a business model that allows their customers to have dedicated teams or employees working as a true extension of their in-house staff. Insourced companies train teams on client’s company, corporate culture, processes, objectives, plans and key criteria for the new department success. 
 
 In other words, the contractor provides support of ongoing process in whole. Remote in-sourcing enables to be built for a client, with full transparency. So everybody knows exactly who is working on which parts of which projects at any given time – but importantly the ‘remote factor’ means that costs can always be kept to a minimum. 
 

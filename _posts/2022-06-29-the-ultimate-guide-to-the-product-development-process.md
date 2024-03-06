@@ -83,7 +83,7 @@ The output of your specification should be system logic and user mechanics detai
 
 ### Project Development Estimation
 
-In this step, you look for a vendor and analyze the estimates they provide (you can [read how to find a vendor here](https://activebridge.org/blog/finding-the-right-it-staff-augmentation-vendor-extended-guide). Potential vendors estimate project costs and time frames based on the specifications. 
+In this step, you look for a vendor and analyze the estimates they provide you can [read how to find a vendor here]({% post_url 2020-03-23-finding-the-right-it-staff-augmentation-vendor-extended-guide%}). Potential vendors estimate project costs and time frames based on the specifications. 
 
 At this stage, look for a vendor and analyze the estimates they provide. Potential vendors estimate the project based on the specifications. The document you get back describes the application development plan in the following easy-to-understand way:
 
@@ -141,7 +141,7 @@ A technical writer does the documentation for the development of various program
 
 This is the setup phase. It includes knowledge transfer from the product owner, sales department, and business analyst to the project development team. Documentation is reviewed as part of the knowledge exchange, and the teams set up the development process. 
 
-Then, the project manager and the product owner compile the project backlog. You can read about [what the project backlog is and how to compile it correctly here](https://activebridge.org/blog/how-product-and-sprint-backlogs-drive-working-functionality-early-on).
+Then, the project manager and the product owner compile the project backlog. You can read about [what the project backlog is and how to compile it correctly here]({% post_url 2021-03-11-how-product-and-sprint-backlogs-drive-working-functionality-early-on %}).
 
 Next, the project manager and product owner (and sometimes the team lead) organize the team. They set up the development environment, establish communication links, connect third-party services, determine development methods, and plan the first sprint.
 
@@ -158,7 +158,7 @@ The goal of the prototyping step is to create an application design that works m
 
 The development stage is where the actual product is created, tested, and deployed. The development methodology you choose will vary depending on what specific product you're making. For example, you might choose a different development methodology for creating an eCommerce app vs. a SaaS platform, CRM, or ERP. 
 
-In project management, there are classical and flexible methodologies (gradual processes vs. short iterations) to choose from. However, it's critical to remember that while all methodologies help us prioritize tasks and minimize losses, they're not a silver bullet. At Active Bridge, we adhere to Agile development methodology and the agile product development process and manage processes according to Scrum framework guidelines. You can read more[ about Agile here](https://activebridge.org/blog/is-agile-methodology-appropriate-for-all-projects). 
+In project management, there are classical and flexible methodologies (gradual processes vs. short iterations) to choose from. However, it's critical to remember that while all methodologies help us prioritize tasks and minimize losses, they're not a silver bullet. At Active Bridge, we adhere to Agile development methodology and the agile product development process and manage processes according to Scrum framework guidelines. You can read more[ about Agile here]({% post_url 2021-12-17-is-agile-methodology-appropriate-for-all-projects %}). 
 
 ![`Scram Process Overview | Active Bridge`](https://i.imgur.com/TsB3aiF.png)
 

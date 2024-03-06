@@ -116,6 +116,6 @@ The ideology of Ruby on Rails involves using **[Test Driven Development (TDD)](h
 ## Summary
 Creating an MVP is a pivotal part of product development to minimize the risk of failure. There are several considerations to make when planning your MVP strategy, and choosing the right technology must be a priority. While there are many options on the market, **Ruby on Rails has features that perfectly align with the MVP development best practices**. 
 
-If you'd like to learn more what projects Ruby on Rails suits best, read here "[WHAT RUBY AND RAILS ARE USED FOR. TIPS FROM FULL-STACK DEVELOPERS TO NON-PROGRAMMERS](https://activebridge.org/blog/what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers)".
+If you'd like to learn more what projects Ruby on Rails suits best, read here "[WHAT RUBY AND RAILS ARE USED FOR. TIPS FROM FULL-STACK DEVELOPERS TO NON-PROGRAMMERS]({% post_url 2021-10-15-what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers %})".
 
 Let's talk about it and understand which technology suits your business best.

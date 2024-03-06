@@ -234,4 +234,4 @@ def trip
 
 ## Final Thoughts
 
-If your company is interested in developing a taxi booking app or any other chatbot to serve your customers better, you can check out some ways to do that[ here](https://activebridge.org/blog/how-to-build-uber-car-animation-using-mapbox-markers-76a9aa42-82b5-4a3d-bd65-c96cf2b9d0cf). Alternatively, you can email us for more information on chatbot solutions. Our dedicated specialists are always ready to help!
+If your company is interested in developing a taxi booking app or any other chatbot to serve your customers better, you can check out some ways to do that[ here]({% post_url 2019-02-25-how-to-build-uber-car-animation-using-mapbox-markers%}). Alternatively, you can email us for more information on chatbot solutions. Our dedicated specialists are always ready to help!

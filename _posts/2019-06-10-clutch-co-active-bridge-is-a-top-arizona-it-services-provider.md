@@ -24,7 +24,7 @@ As an IT company that assists our clients in scaling their projects and augmenti
 
 Clutch is a B2B ratings and reviews platform located in Washington, DC. In their latest **report** that we were named in, their dedicated analyst evaluated B2B companies across the United States based on their ability to deliver high-quality work to their clients, their attentive customer service, and their impressive portfolios of diverse projects and clientele. 
 
-> For three years we have been cooperating with Clutch marketplace. Our company appreciates this cooperation it yields fruits, **[CEO Alex Galushka](https://activebridge.org/team)** said. Thanks to Clutch managers' advice and company maintenance, Active Bridge has gained popular Clutch awards.  For us to be featured as a leader on Clutch means to get an expert review of business professionals. It inspires and makes us achieve new goals. Thank you Clutch team. 
+> For three years we have been cooperating with Clutch marketplace. Our company appreciates this cooperation it yields fruits, [CEO Alex Galushka](/about/team) said. Thanks to Clutch managers' advice and company maintenance, Active Bridge has gained popular Clutch awards.  For us to be featured as a leader on Clutch means to get an expert review of business professionals. It inspires and makes us achieve new goals. Thank you Clutch team. 
 
 Clutch’s review process is thorough and transparent, and we’re appreciative of our clients for taking the time to leave a review. As a result, we’ve been able to maintain a nearly perfect **4.7-star rating**, as well as continue to be recognized by Clutch.
 

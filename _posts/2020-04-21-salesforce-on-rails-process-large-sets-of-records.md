@@ -19,7 +19,7 @@ title: "Bulk API: Process large sets of records from Rails app to Salesforce"
 
 authors: **Alex Borodai, Vlad Tupytskyi**
 
-Salesforce is one of the biggest Customer Relationship Management solutions on the market. We are [Ruby on Rails developers](https://activebridge.org/team), and with the ever-increasing popularity of Salesforce, we are often asked how to integrate Salesforce with [Ruby on Rails applications](https://activebridge.org/portfolio).
+Salesforce is one of the biggest Customer Relationship Management solutions on the market. We are [Ruby on Rails developers](/about/team), and with the ever-increasing popularity of Salesforce, we are often asked how to integrate Salesforce with [Ruby on Rails applications](/about).
 
 One of our recent projects was integrating a Rails app with Salesforce CRM. The main challenge was to create the necessary integration conditions so that it would be possible to query, process, update and insert large sets of records from the Rails app to Salesforce. While we were solving this issue, we discovered a major lack of relevant information. Most of the articles we found provided outdated solutions, and many of the related questions on Stack Overflow remain unanswered.
 

@@ -79,7 +79,7 @@ Ruby works best when paired with its famous sibling, Ruby on Rails. When the lan
 
 Ruby and RoR are also loved by startups due to their unique ability to allow developers to deploy a prototype project in rapid time and instantly see its strengths and weaknesses. 
 
-You can learn more about where to use Ruby on Rails by [reading our blog post on the topic here](https://activebridge.org/blog/what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers).
+You can learn more about where to use Ruby on Rails by [reading our blog post on the topic here]({% post_url 2021-10-15-what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers %}).
 
 ![`what's Ruby for | Active Bridge`](https://i.imgur.com/J6N6qZA.png)
 

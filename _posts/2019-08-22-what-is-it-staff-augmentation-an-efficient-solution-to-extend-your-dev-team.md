@@ -35,7 +35,7 @@ The beginning of the 21st century is associated with the active growth of teleco
 
 ## Staff augmentation firm
 
-I’m going to talk about it-staff augmentation process and benefits based on our company example ([Active Bridge](https://activebridge.org/) has been providing [it-staff augmentation services](https://activebridge.org/how-we-work) for more than six years.).** IT staff augmentation firm** is a kind of go-between for the employer and the employee. Unlike it-recruiting companies, all employees of the staff augmentation firm are hired employees and work for the firm on an ongoing basis (A client selects candidates from the pull of IT vendor employees.). *The activity of the firm and its employees are governed by an employment contract and existing legislation*. So a customer applying to the staff-augmentation company for additional human resources establishes legal relations with an IT vendor, not with IT vendor’s developers (employees). The staff augmentation company is responsible for all the hidden work of recruiting staff, checking data, and paying salaries. But the customer is still responsible for the project launch and promotion.
+I’m going to talk about it-staff augmentation process and benefits based on our company example ([Active Bridge](/index) has been providing [it-staff augmentation services](/services) for more than six years.).IT staff augmentation firm is a kind of go-between for the employer and the employee. Unlike it-recruiting companies, all employees of the staff augmentation firm are hired employees and work for the firm on an ongoing basis (A client selects candidates from the pull of IT vendor employees.). *The activity of the firm and its employees are governed by an employment contract and existing legislation*. So a customer applying to the staff-augmentation company for additional human resources establishes legal relations with an IT vendor, not with IT vendor’s developers (employees). The staff augmentation company is responsible for all the hidden work of recruiting staff, checking data, and paying salaries. But the customer is still responsible for the project launch and promotion.
 
 
 ## Staff augmentation benefits
@@ -46,13 +46,13 @@ Our team experience makes it clear a staff augmentation tactic is a win-win. Bot
 > The first and main purpose of the cooperation with an it-contractor was saving my time. This cooperation relieved my company from excessive financial expenses and time expenses on hiring new employees and retraining the staff. (Alex G., CEO/Founder CabLook Taxi)
 
 * **Financial gain**
-> Their staff are as competent and productive as the three times more expensive people and deliver more code per dollar than the three times less expensive people. No infrastructure investment, no additional costs on having employees. ([David R., Founder/CEO](https://activebridge.org/portfolio#testimonial-lifelinker-inc) at Lifelinker)
+> Their staff are as competent and productive as the three times more expensive people and deliver more code per dollar than the three times less expensive people. No infrastructure investment, no additional costs on having employees. ([David R., Founder/CEO](/reviews.html) at Lifelinker)
 
 * **No geographical limitations**
-> Active Bridge drives our remote engineering team at Def Method. Collaborating with their engineers has kept us delivering and running tested features in an Agile fashion across multiple countries and time zones. ([Joseph L., President/Partnership Director](https://activebridge.org/portfolio#testimonial-def-method) at Def Method)
+> Active Bridge drives our remote engineering team at Def Method. Collaborating with their engineers has kept us delivering and running tested features in an Agile fashion across multiple countries and time zones. ([Joseph L., President/Partnership Director](/reviews.html) at Def Method)
 
 * **High-quality and full integration**
-> They bring excellent Agile and TDD software development practices to our team and are effective and efficient collaborators. They are very experienced running software projects but equally proficient in adapting to our internal processes. ([Ben L., Co-founder](https://activebridge.org/portfolio#testimonial-daisybill) DaisyBill)
+> They bring excellent Agile and TDD software development practices to our team and are effective and efficient collaborators. They are very experienced running software projects but equally proficient in adapting to our internal processes. ([Ben L., Co-founder](/reviews.html) DaisyBill)
 
 
 ## It staff augmentation process

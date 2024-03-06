@@ -69,7 +69,7 @@ It should come as no surprise that when working on medical technology, you need 
 
 * Terms of post-release support: You will likely need to debug or fix the finished product post-launch. How long can the developers provide support, and what will it cost?
 
-You can read more about the stages of product development [here](https://activebridge.org/blog/the-ultimate-guide-to-the-product-development-process).
+You can read more about the stages of product development [here]({% post_url 2022-06-29-the-ultimate-guide-to-the-product-development-process %}).
 
 #### Product Testing
 

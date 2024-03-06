@@ -43,7 +43,7 @@ Okay, so you like the sound of agile, but how do you transform into an agile tea
 
 * Focus on ensuring that each stage is guaranteed to bring something new to the product.
 
-* Familiarize yourself with the Agile Manifesto and its core values and principles. You can read[ more about the Agile Manifesto here](https://activebridge.org/blog/is-agile-methodology-appropriate-for-all-projects). 
+* Familiarize yourself with the Agile Manifesto and its core values and principles. You can read[ more about the Agile Manifesto here]({% post_url 2021-12-17-is-agile-methodology-appropriate-for-all-projects %}). 
 
 
 ## The Scrum Framework
@@ -68,7 +68,7 @@ In Scrum, team members perform tasks as they appear on the product backlog. A pr
 
 User stories describe the required functionality from the perspective of a user, for example, "**As a** (user), **I want** (function), **So that** (purpose)." This is essentially the **'who?', 'what?' and 'why?'** of the change.
 
-You can read more about[ how to plan the product backlog](https://activebridge.org/blog/how-product-and-sprint-backlogs-drive-working-functionality-early-on) and what you should pay attention to.
+You can read more about[ how to plan the product backlog]({% post_url 2021-03-11-how-product-and-sprint-backlogs-drive-working-functionality-early-on %}) and what you should pay attention to.
 
 One common question tends to crop up here: "how detailed do the tasks need to be and who evaluates them?". Luckily, there's a straightforward answer to this question. Task content should be detailed and elaborate enough so that the Product Owner is confident that performing these tasks will bring value to the users and the team and estimate the labor involved during the planning stage. Task assessment is vital in deciding what ultimately ends up in each Sprint and what doesn't. 
 
