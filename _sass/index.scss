@@ -79,13 +79,6 @@ body {
   &-home {
     position: relative;
     z-index: 1;
-
-    .carousel__description {
-      margin-right: 6vh;
-      margin-left: 6vh;
-      -webkit-line-clamp: 9;
-    }
-
     .button { margin-top: 5em; }
   }
 
@@ -248,40 +241,7 @@ body {
     }
 
     .button { margin-bottom: 5vh; }
-
     .description { margin-top: 5vh; }
-
-    .carousel {
-      padding-bottom: 6vh;
-
-      &__list {
-        height: 50vh;
-        max-height: 450px;
-      }
-
-      &__item {
-        max-width: 350px;
-        height: 50vh;
-        max-height: 420px;
-      }
-
-      &__description {
-        margin-right: 5vh;
-        margin-left: 5vh;
-      }
-
-      .solutions__logo {
-        width: 11vh;
-        height: 13vh;
-        margin-bottom: 0;
-        box-shadow: none;
-
-        img {
-          height: 11vh;
-          max-width: 100%;
-        }
-      }
-    }
   }
 }
 
@@ -363,17 +323,6 @@ body {
         text-align: justify;
         text-align-last: center;
       }
-
-      .carousel {
-        &__list { height: 45vh; }
-
-        &__description {
-          margin-right: 5vw;
-          margin-left: 5vw;
-          -webkit-line-clamp: 7;
-        }
-      }
-
       .button { margin-top: 3em; }
     }
 
@@ -520,14 +469,6 @@ body {
 
     &-about-us__description,
     .description { font-size: 1.2em; }
-
-    &-home {
-      .carousel__description {
-        margin-right: 3vh;
-        margin-left: 3vh;
-        -webkit-line-clamp: 7;
-      }
-    }
 
     &-technologies {
       .header-3 {

@@ -163,15 +163,7 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding: 150px 0 80px 0;
-
     &-title { margin-bottom: 5vh; }
-
-    .carousel__description {
-      margin-right: 6vh;
-      margin-left: 6vh;
-      -webkit-line-clamp: 9;
-    }
-
     .button { margin-top: 5em; }
   }
 
@@ -346,12 +338,6 @@
         text-align: justify;
         text-align-last: center;
       }
-
-      .carousel__description {
-        margin-right: 3vh;
-        margin-left: 3vh;
-        -webkit-line-clamp: 7;
-      }
     }
 
     &__culture {
@@ -402,14 +388,6 @@
       h2.header-2 {
         margin-bottom: 3vh;
         margin-top: 3vh;
-      }
-    }
-
-    &__testimonials {
-      .carousel__description {
-        margin-right: 4vh;
-        margin-left: 4vh;
-        -webkit-line-clamp: 8;
       }
     }
 
