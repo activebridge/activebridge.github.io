@@ -40,7 +40,7 @@ json-ld: home
     </div>
   </div>
 
-  <div class="info-container index-home">
+  <div class="info-container index-home wrap">
       <div class="wrapper">
         <div class="header-5 index-testimonials__header white-text">
           {{ site.data.testimonials.help_startups }}
@@ -56,7 +56,7 @@ json-ld: home
   </div>
 
   <div class="index-technologies__container">
-    <div class="row">
+    <div class="wrapper">
       <div class="index-technologies">
         <h2 class="header-3">{{ site.data.index.our_vision }}</h2>
         <h3 class="header-4">{{ site.data.index.care_about_your_projects }}</h3>
@@ -126,8 +126,8 @@ json-ld: home
     </div>
   </div>
 
-  <div class="index-about-us-info mobile-only">
-    <div class="row">
+  <div class="index-about-us-info mobile-only wrap">
+    <div class="wrapper">
       <div class="about_us_info">
         {% include about_us_info.html %}
         <a id="index-more-about-us-mob", class="button white-text violet-button", target="_blank" href="/about">

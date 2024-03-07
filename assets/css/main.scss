@@ -136,10 +136,6 @@ ul, ol { margin-left: 0; }
     padding: 5vh 20% 0 20%;
   }
 
-  &.index-home {
-    padding-top: 14vh;
-  }
-
   &.alabaster {
     background: $alabaster;
   }
@@ -517,13 +513,6 @@ input#menu {
 }
 
 .wrap { padding: 8vh 0; }
-
-.row {
-  box-sizing: border-box;
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-}
 
 @media (max-width: 768px) {
   .header-5 { font-size: 1em; }

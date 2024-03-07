@@ -86,16 +86,17 @@
   }
 
   &__idea {
-    .wrapper { padding: 0; }
-
     align-items: center;
     background-image: linear-gradient(135deg, $purple-heart, $sky-ua);
     display: flex;
     justify-content: space-between;
-    padding: 5vh 18vw;
+    padding-bottom: 5vh;
+    padding-top: 3vh;
 
-    .row {
+    .wrapper {
+      padding: 0;
       display: flex;
+      align-items: center;
       justify-content: space-between;
     }
 
@@ -144,8 +145,6 @@
     &__idea {
       flex-wrap: wrap;
       padding: 1vh 5vh 5vh;
-
-      .row { flex-wrap: wrap; }
 
       &_img {
         width: 100%;

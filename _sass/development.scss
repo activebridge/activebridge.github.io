@@ -26,10 +26,13 @@
   &__awards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 5vh;
 
-    img { width: 17%; }
+    img {
+      width: 100%;
+      max-width: 150px;
+    }
   }
 
   &__cards {
@@ -82,7 +85,7 @@
 
   &__offer {
     background: $main-gradient;
-    padding: 6vh 18vw;
+    padding: 7vh 0;
     box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, .25);
 
     .header-2 {
@@ -98,12 +101,13 @@
     &__awards img {
       width: 40%;
       padding-bottom: 3vh;
-
-      &:last-child { margin: 0 auto; }
     }
 
     &__cards {
       background-image: linear-gradient(to top, $buzok, $white);
+
+      .header-2,
+      .card__title-2 { font-size: 18px; }
 
       .cards-container {
         .card {

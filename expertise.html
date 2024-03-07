@@ -3,7 +3,7 @@ permalink: /expertise
 layout: default
 relative_css_url: /assets/css/expertise.css
 title: RoR App Development & Cloud Software Expertise | Active Bridge
-description: Enhancing Ruby on Rails with cutting edge technologies, for 9+ years
+description: Enhancing Ruby on Rails with cutting edge technologies, for 10+ years
              we've been providing web development solutions that help businesses
              succeed.
 scripts: [carousel]
@@ -12,7 +12,7 @@ json-ld: expertise
 
 <div class="container expertise">
   <div class="alabaster expertise__main wrap">
-    <div class="row" style="view-transition-name: expertise;">
+    <div class="wrapper" style="view-transition-name: expertise;">
       <div class="header-3">{{ site.data.expertise.main.title }}</div>
       <h2 class="header-2">{{ site.data.expertise.main.subtitle }}</h2>
       <div class="description justify">{{ site.data.expertise.main.description_1 }}</div>
@@ -22,7 +22,7 @@ json-ld: expertise
   </div>
 
   <div class="expertise__technologies wrap">
-    <div class="row">
+    <div class="wrapper">
       <h2 class="header-2">{{ site.data.expertise.technologies.subtitle }}</h2>
       <div class="header-3">{{ site.data.expertise.technologies.title }}</div>
       <img class="desktop-only" src="/assets/images/web_development_services/technologies_d_table.svg" alt="Technologies">
@@ -63,7 +63,7 @@ json-ld: expertise
   </div>
 
   <div class="expertise__solutions info-container wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-2 white-text">{{ site.data.expertise.solutions.title }}</div>
       <a href="/solutions" id="expertise-all-solutions" class="button white-text violet-button" data-link="transition">
         {{ site.data.expertise.solutions.button }}
@@ -72,7 +72,7 @@ json-ld: expertise
   </div>
 
   <div class="expertise__testimonials">
-    <div class="wrap">
+    <div class="wrapper">
       <div class="header-2">{{ site.data.expertise.testimonials.title }}</div>
     </div>
     {% include testimonials_carousel.html %}
@@ -82,7 +82,7 @@ json-ld: expertise
   </div>
 
   <div class="expertise__tell-us wrap">
-    <div class="row">
+    <div class="wrapper">
       <div class="header-2 white-text">{{ site.data.expertise.tell-us.title }}</div>
       <a id="expertise-tell-us" class="button white-text" href="/contacts" data-link="transition">
         {{ site.data.expertise.tell-us.button }}

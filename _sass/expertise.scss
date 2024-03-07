@@ -52,8 +52,11 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding-bottom: 60px;
-    .wrap {
-      padding-bottom: 0;
+
+    .wrapper {
+      padding-top: 8vh;
+      
+      .header-2 { margin-top: 0; }
     }
   }
 

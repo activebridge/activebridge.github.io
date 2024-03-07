@@ -16,9 +16,10 @@
 
   &__main {
     background: linear-gradient(0deg, $white 50%, $azovstal 100%);
-    padding: 177px 0 80px 0;
+    padding: 7vh;
 
     .header-2 { max-width: 75%; }
+
     .description { margin: 6vh 0; }
 
     .about-us {
@@ -211,12 +212,6 @@
       width: 45%;
       margin-top: 0;
     }
-  }
-
-  .row {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
   }
 }
 
