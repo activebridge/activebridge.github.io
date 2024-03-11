@@ -257,6 +257,9 @@
   &__items { display: flex; }
 }
 
+@media (max-width: 768px) {
+ .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
+}
 
 @media (max-width: 600px) {
   .about {
@@ -264,9 +267,7 @@
       width: auto;
       margin-top: 0;
     }
-
     h2.header-2 { font-size: 1em; }
-
     &__header,
     &__description {
       font-size: .9em;
@@ -276,10 +277,6 @@
     &__header {
       margin: 4.5vh auto 3vh;
       max-width: 70vw;
-    }
-
-    .info-container:first-child {
-      background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp');
     }
 
     &__crew {
