@@ -8,6 +8,7 @@
     display: grid;
     grid-auto-flow: column;
     list-style-type: none;
+    height: 550px;
     padding: 0;
     place-items: center;
     overflow: scroll;
@@ -25,7 +26,7 @@
     scroll-snap-stop: always;
     margin: 0;
     min-height: 100px;
-    height: 70%;
+    height: 350px;
   }
 
   .magnifying-overlay {
@@ -75,7 +76,7 @@
     justify-content: space-between;
     height: 100%;
     margin: 0 15px;
-    padding: 20px;
+    padding: 18px;
     position: relative;
     overflow: hidden;
     user-select: none;
@@ -109,7 +110,7 @@
     justify-content: center;
     font-size: 11px;
     line-height: 15px;
-    height: 60%;
+    height: 70%;
     p { text-align: justify; }
 
     &::-webkit-scrollbar {
@@ -124,14 +125,14 @@
     margin-bottom: 15px;
 
     img, svg {
-      width: 100px;
+      width: 90px;
     }
   }
   &__image.without-margin { margin-bottom: 0; }
 
   &__list {
     font-size: 12px;
-    line-height: 1.5em;
+    line-height: 1.4em;
     list-style: inside;
     margin-top: 10px;
     padding-left: 10px;
@@ -163,6 +164,17 @@
   }
 }
 
+.animate-visibility.testimonials {
+  .animate-visibility__description{
+    p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 9;
+    }
+  }
+}
+
 @media (max-width: 767px ) {
   .carousel-scroll {
     &__animate-visibility {
@@ -170,25 +182,32 @@
       width: 250px;
     }
 
-    &__item {
-      height: 60%;
-    }
+    &__item { height: 290px; }
   }
 
   .animate-visibility {
     &__title.title-3 { font-size: 12px; }
     &__description {
       font-size: 9px;
+      line-height: 14px;
     }
 
     &__image {
+      margin-bottom: 10px;
+
       img, svg {
-        width: 80px;
+        width: 70px;
       }
     }
 
     &__list {
       font-size: 10px;
+    }
+  }
+
+  .animate-visibility.testimonials {
+    .animate-visibility__description{
+      p { -webkit-line-clamp: 5; }
     }
   }
 }
