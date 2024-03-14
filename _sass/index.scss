@@ -46,6 +46,8 @@ body {
     width: 100%;
     z-index: 1;
   }
+
+  .button { background: rgba($white, .4); }
 }
 
 .awards-img {
@@ -70,8 +72,6 @@ body {
       animation: slide-top 0.6s ease;
       animation-iteration-count: 1;
     }
-
-    img { width: 90%; }
   }
 }
 
@@ -79,7 +79,8 @@ body {
   &-home {
     position: relative;
     z-index: 1;
-    .button { margin-top: 5em; }
+
+    .button { box-shadow: 2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0 rgba($dark_black, .15); }
   }
 
   &-testimonials {
@@ -156,7 +157,10 @@ body {
         margin-left: -5vw;
         background: linear-gradient(to top, $main-lilac 34%, transparent 100%);
 
-        .button { margin: 0 3vw 5vh; }
+        .button {
+          margin: 0 3vw 5vh;
+          max-width: 500px;
+        }
       }
 
       &::-webkit-scrollbar {
@@ -182,7 +186,6 @@ body {
     .header-5 {
       max-width: 65%;
       margin: 0 auto 4vh;
-
     }
 
     .card {
@@ -202,12 +205,6 @@ body {
         font-size: 1em;
       }
     }
-
-    &__button {
-      max-width: 325px;
-      box-sizing: border-box;
-      width: 100%;
-    }
   }
 
   &-about-us {
@@ -222,7 +219,7 @@ body {
       color: $white;
     }
 
-    .button { margin-top: 3em; }
+    .button { box-shadow: 2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0 rgba($dark_black, .15); }
   }
 
   &-solutions {
@@ -240,8 +237,9 @@ body {
       color: $purple-heart;
     }
 
-    .button { margin-bottom: 5vh; }
     .description { margin-top: 5vh; }
+
+    .button { background: $main-gradient; }
   }
 }
 
@@ -262,7 +260,7 @@ body {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .home-page-container {
     display: flex;
     flex-direction: column;
@@ -308,9 +306,17 @@ body {
         width: 26%;
         margin-top: 1em;
       }
+
+      img {
+        max-width: 125px;
+        width: 90%;
+      }
     }
 
-    .button { order: 5; }
+    .button {
+      order: 5;
+      background-color: rgba($white, .75);
+    }
   }
 
   .index {
@@ -322,6 +328,7 @@ body {
         text-align: justify;
         text-align-last: center;
       }
+
       .button { margin-top: 3em; }
     }
 
@@ -369,6 +376,8 @@ body {
             border-color: transparent;
             box-shadow: $violet-shadow;
             color: $white;
+
+            &:hover { color: $main-violet; }
           }
         }
 
@@ -404,11 +413,6 @@ body {
             }
           }
         }
-      }
-
-      &__button {
-        width: 85%;
-        margin-top: 7vh;
       }
     }
 

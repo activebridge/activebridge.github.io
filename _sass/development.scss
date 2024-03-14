@@ -31,7 +31,7 @@
 
     img {
       width: 100%;
-      max-width: 150px;
+      max-width: 140px;
     }
   }
 
@@ -74,10 +74,11 @@
         }
 
         .button {
-          color: $purple-heart;
-          width: 85%;
-          box-sizing: border-box;
+          max-width: 200px;
+          height: 50px;
           margin: 0 auto;
+          color: $purple-heart;
+          font-size: 13px;
         }
       }
     }
@@ -99,8 +100,9 @@
 @media screen and (max-width: 700px) {
   .development {
     &__awards img {
-      width: 40%;
       padding-bottom: 3vh;
+      margin-right: 10px;
+      margin-left: 10px;
     }
 
     &__cards {
@@ -116,6 +118,8 @@
           &__description { margin: 30px 10px 15px; }
 
           &__icon img { max-width: 90px; }
+
+          .button { font-size: 11px; }
         }
       }
 

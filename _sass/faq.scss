@@ -93,10 +93,14 @@
     &__description { margin-bottom: 51px; }
 
     &__bottom-info {
-      .wrapper {
-        flex-direction: column;
+      .wrapper { flex-direction: column; }
+
+      .button {
+        margin-top: 0;
+        margin-bottom: 2em;
       }
     }
+
     &__gift { margin-bottom: 24px; }
   }
 }

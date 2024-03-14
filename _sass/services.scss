@@ -1,5 +1,6 @@
 .services {
-  .animate-visibility__image { img { width: 120px; } }
+  .animate-visibility__image img { width: 120px; }
+
   .header-3 {
     max-width: 75%;
     margin: auto;
@@ -11,12 +12,7 @@
     text-align-last: center;
   }
 
-  .button {
-    box-sizing: border-box;
-    max-width: 300px;
-    width: 100%;
-    background: $main-gradient;
-  }
+  .button { background: $main-gradient; }
 
   .cards-container {
     justify-content: space-around;
@@ -63,6 +59,12 @@
     }
   }
 
+  &__web-dev,
+  &__custom-ror-dev,
+  &__approaches {
+    .button { margin-top: 0; }
+  }
+
   &__web-dev {
     position: relative;
     padding-bottom: 60px;
@@ -72,13 +74,14 @@
       padding-top: 8vh;
       padding-bottom: 0;
       z-index: 2;
+
+      &:last-child { padding-top: 0; }
     }
 
     .carousel-background {
       background: no-repeat url('/assets/images/about/benefits.svg');
       background-size: 90%;
       background-position: center;
-      padding: 50px 0;
     }
 
     .overlay {
@@ -147,11 +150,6 @@
 
     .header-3 { max-width: 90%; }
 
-    .button {
-      margin-bottom: 0;
-      width: 70%;
-    }
-
     &__main {
       min-height: 100%;
 
@@ -180,7 +178,6 @@
       .card {
         width: 100%;
         min-width: 275px;
-        justify-content: normal;
 
         &__title-2 { font-size: 1em; }
 
@@ -226,12 +223,5 @@
         padding: 3vh;
       }
     }
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .services__mobile-dev,
-  .services__engagement-models {
-    .button { width: 75%; }
   }
 }

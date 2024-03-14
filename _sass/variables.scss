@@ -23,12 +23,13 @@ $silver:                  #C5C5C5;
 $sky-ua:                  #8cc9fc;
 $titan_white:             #F4F3FF;
 $white:                   #fff;
+$dark_black:              #000;
 
 $main-gradient:        linear-gradient(135deg, $main-violet, $purple-heart);
 
 $active-shadow:        inset 2px 2px 5px grey, inset -2px -2px 5px $white;
 $violet-shadow:        inset 2px 7px 10px -5px #9c64d2, inset -4px -5px 16px #4c2b84;
-$light-purple-shadow:  inset -1px 4px 13px -5px $white, inset -1px -5px 5px $deep_amethyst, 2px 1px 12px 0px $deep_amethyst;
+$light-purple-shadow:  2px 2px 18px 2px rgba(0, 0, 0, .15), inset 0px 4px 15px 0 rgba(0, 0, 0, .15);
 $main-shadow:          0px 4px 20px rgba(0, 0, 0, 0.2), inset -2px -2px 12px rgba(0, 0, 0, 0.25);
 $violet-hover-shadow:  inset -1px 4px 13px -5px $white, inset -1px -5px 5px $deep_amethyst, 2px 1px 12px 0px $main-violet;
 $violet-active-shadow: inset 0px 0px 15px 1px rgba($main-violet, 0.3);

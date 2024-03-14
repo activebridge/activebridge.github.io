@@ -91,7 +91,3 @@ solutions:
         - item: limiting the scope of data visibility for sensitive PII/PHI data
         - item: implementing AWS as a 100% HIPAA-compliant infrastructure provider
   button: See more projects
-idea:
-      button: Let’s discuss your project idea
-      text_1: In case you don’t know where to start your project, you can get in touch with our CTO.
-      text_2: We’ll set up a quick call to discuss how to make your project work.
