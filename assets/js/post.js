@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   scrollToElement();
   copyLink();
+  setShareLinks();
 
   window.addEventListener('scroll', () => {
     const observer = new IntersectionObserver(entries => {
@@ -48,17 +49,54 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function copyLink () {
+    const modal = document.querySelector(".modal");
+    const closeButton = document.querySelector(".modal__close");
+
     document.querySelector('[data-link="clone"]').addEventListener('click', async (e) => {
       e.preventDefault();
 
       try {
         const url = e.target.closest('a').getAttribute('href');
         await navigator.clipboard.writeText(url);
-        alert('Link copied: ' + url);
+        const message = 'Link copied: ' + url;
+        addModalMessage (message, modal)
       } catch (error) {
-        alert('Please try again');
+        const message = 'Please try again';
+        addModalMessage (message, modal)
       }
     });
+    closeButton.addEventListener("click", () => { toggleModal(modal) });
   }
 });
 
+function toggleModal (modal) {
+  modal.classList.toggle("show-modal");
+}
+
+function addModalMessage (message, modal) {
+  modal.querySelector('.modal__message').textContent = message;
+  toggleModal(modal);
+}
+
+function setShareLinks(){
+  let links = document.querySelectorAll('[data-link="share"]');
+
+  links.forEach((link) => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const width = 800;
+      const height = 600;
+      const left = (window.screen.width / 2) - (width / 2);
+      const top = (window.screen.height / 2) - (height / 2);
+
+      window.open(this.getAttribute('href'), '', [
+        'scrollbars=yes',
+        'width=' + width,
+        'height=' + height,
+        'top=' + top,
+        'left=' + left,
+      ]);
+    });
+  });
+}

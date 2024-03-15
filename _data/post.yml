@@ -5,10 +5,10 @@ navigation:
     data-link: clone
   - link: 'https://www.facebook.com/sharer/sharer.php?u='
     icon: facebook
-    data-link: ''
+    data-link: 'share'
   - link: https://www.linkedin.com/shareArticle?mini=true&url=
     icon: linkedin
-    data-link: ''
+    data-link: 'share'
   - link: https://twitter.com/intent/tweet?url=
     icon: twitter
-    data-link: ''
+    data-link: 'share'
