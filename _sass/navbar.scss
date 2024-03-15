@@ -117,6 +117,8 @@ header {
       border-radius: 1em;
       visibility: visible;
       padding-inline-start: 0;
+      -webkit-transition: all .5s;
+      transition: all .5s;
 
       .header-navbar__sub-link {
         display: block;
