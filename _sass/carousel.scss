@@ -46,7 +46,8 @@
     .animate-visibility {
       animation: scaleUp 0.4s ease-in-out forwards;
       transform: scale(1.4);
-      -webkit-transform: scale(1.4);}
+      -webkit-transform: scale(1.4);
+    }
   }
 
   @keyframes scaleUp {
@@ -145,11 +146,14 @@
 
   &__button {
     .button {
+      max-width: 200px;
+      height: 50px;
+      margin-bottom: 20px;
+      padding: 10px 30px;
       background: $main-gradient;
       color: $white;
       font-size: 11px;
-      margin-bottom: 20px;
-      padding: 10px 30px;
+      scale: 0.72;
 
       &:hover {
         color: $black_sea;

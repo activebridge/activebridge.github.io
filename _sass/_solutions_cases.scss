@@ -1,6 +1,8 @@
 .solutions_cases {
-  .header-2 { font-size: 1.25em; }
+  .header-2 { font-size: 18px; }
+
   .text-center { text-align: center; }
+
   .button { padding: 2vh 3vw; }
 
   .list-with-images.horizontal {
@@ -90,14 +92,12 @@
     background-image: linear-gradient(135deg, $purple-heart, $sky-ua);
     display: flex;
     justify-content: space-between;
-    padding-bottom: 5vh;
-    padding-top: 3vh;
 
     .wrapper {
-      padding: 0;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
 
     &_img {
@@ -125,11 +125,8 @@
     }
 
     .button {
-      border-color: transparent;
-      box-shadow: 2px 2px 18px 2px rgba($black, .15), inset 0px 4px 15px rgba($black, .15);
       margin-bottom: 5vh;
-      max-width: 70%;
-      padding: 2vh 3vw;
+      max-width: 500px;
     }
   }
 }
@@ -146,6 +143,8 @@
       flex-wrap: wrap;
       padding: 1vh 5vh 5vh;
 
+      &.wrap { padding-top: 3vh; }
+
       &_img {
         width: 100%;
 
@@ -154,17 +153,18 @@
 
       &_text { width: 100%; }
 
-      .button {
-        margin: 0 auto 3vh;
-        max-width: 85%;
-      }
+      .button { margin: 0 auto 3vh;}
 
-      p { font-size: .8em; }
+      p {
+        font-size: .8em;
+        max-width: 550px;
+        margin: auto;
+      }
     }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .solutions_cases {
     .button { width: 90%;}
 

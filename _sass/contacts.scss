@@ -36,6 +36,7 @@
   &__submit-btn {
    width: 480px;
    height: 80px;
+   border: none;
   }
 
   &__form-group {
@@ -83,8 +84,7 @@
     display: inline-block;
     max-height: 30px;
     margin-top: 20px;
-    font-style: italic;
-    line-height: 2;
+    font: italic 14px/2 'Cera Regular', serif;
     text-align: center;
   }
 

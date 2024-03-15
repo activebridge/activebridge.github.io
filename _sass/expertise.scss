@@ -55,7 +55,7 @@
 
     .wrapper {
       padding-top: 8vh;
-      
+
       .header-2 { margin-top: 0; }
     }
   }
@@ -140,11 +140,7 @@
     }
   }
 
-  .button {
-    margin-top: 6vh;
-    background: linear-gradient($white, $white) padding-box,
-                linear-gradient(to right, $main-violet, $purple-heart) border-box;
-  }
+  .button { margin-top: 6vh; }
 
   .pie-chart {
     position: relative;
@@ -174,7 +170,7 @@
         left: 20%;
       }
 
-      &.jumior {
+      &.junior {
         top: 12%;
         left: 31%;
       }
@@ -209,7 +205,7 @@
   .card__description { line-height: 1.6em; }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .chart-container {
     width: calc(100% - 10vw);
     margin: 4vh 0;

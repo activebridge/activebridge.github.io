@@ -163,13 +163,18 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding: 150px 0 80px 0;
+
     &-title { margin-bottom: 5vh; }
-    .button { margin-top: 5em; }
   }
 
   &__culture {
     min-height: 100vh;
     background: center/cover no-repeat url('/assets/images/about/team.webp');
+
+    .wrapper {
+      position: relative;
+      min-height: 100vh;
+    }
 
     &-text { line-height: 1.6; }
 
@@ -188,8 +193,12 @@
     }
 
     &-button {
-      max-width: 25em;
-      background-color: $white !important;;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      min-width: 500px;
+      background-color: rgba($white, .85) !important;
+      transform: translate(-50%, -50%);
     }
   }
 }
@@ -253,13 +262,12 @@
  .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .about {
-    .button {
-      width: auto;
-      margin-top: 0;
-    }
+    .button { margin-top: 0; }
+
     h2.header-2 { font-size: 1em; }
+
     &__header,
     &__description {
       font-size: .9em;
@@ -323,9 +331,7 @@
           }
         }
 
-        &-description {
-          font-size: .9em;
-        }
+        &-description { font-size: .9em; }
       }
     }
 
@@ -348,6 +354,8 @@
         font-size: .9em;
         line-height: 1.4;
       }
+
+      &-button { min-width: 300px; }
     }
   }
 
