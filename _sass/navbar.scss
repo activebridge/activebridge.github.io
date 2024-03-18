@@ -12,8 +12,14 @@ header {
   #menu-btn { display: none; }
 
   a.logotype {
+    height: 40px;
+    width: 40px;
     padding: 10px;
-    svg { width: 40px; }
+
+    svg {
+      width: 40px;
+      &:active { transform: scale(0.9); }
+    }
   }
 }
 
@@ -189,7 +195,11 @@ header {
         position: static;
         padding-left: 20px;
         visibility: visible;
-        li { position: relative; }
+
+        li {
+          position: relative;
+          &:active { transform: scale(0.9); }
+        }
 
         .header-navbar__sub-link {
           color: $white;
@@ -216,6 +226,7 @@ header {
         font-size: 15px;
         margin: 0;
         padding: 10px 2vw;
+        &:active { transform: scale(0.9); }
       }
       &__item { .header-navbar__link { color: $white; } }
 

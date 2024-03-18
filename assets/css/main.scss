@@ -66,7 +66,10 @@
 
 p { margin: 0; }
 
-body { font-family: 'Cera Regular', serif; }
+body {
+  font-family: 'Cera Regular', serif;
+  -webkit-tap-highlight-color: transparent;
+}
 
 a:hover { text-decoration: none !important; }
 
