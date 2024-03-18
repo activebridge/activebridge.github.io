@@ -187,13 +187,13 @@ header {
         color: $white;
         display: block;
         position: static;
-        padding-left: 40px;
+        padding-left: 20px;
         visibility: visible;
         li { position: relative; }
 
         .header-navbar__sub-link {
           color: $white;
-          font-size: 12px;
+          font-size: 13px;
           letter-spacing: 0.1em;
           position: relative;
           text-decoration: none;
@@ -226,7 +226,6 @@ header {
         border: 1px solid $white;
         text-align: center;
         width: 80%;
-        margin-top: auto;
         a { color: $white; }
       }
     }
@@ -239,13 +238,12 @@ header {
     }
 
     .menu-icon {
-      animation: appearTopSvg 1s ease-out;
       cursor: pointer;
       display: inline-block;
-      left: -55px;
+      left: -50px;
       padding: 28px 20px;
       position: absolute;
-      top: 40px;
+      top: 43px;
       z-index: 3;
       -webkit-tap-highlight-color: transparent;
 
@@ -253,7 +251,7 @@ header {
         position: relative;
         display: block;
         height: 3px;
-        width: 25px;
+        width: 23px;
         background: $white;
 
         &:before,
