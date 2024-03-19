@@ -25,11 +25,10 @@ function setCarousel(nodeElement) {
 
   setTimeout(function() {
     scroller.scroll({ left: scroller.scrollLeft + scroller.children[1].offsetWidth, behavior: "smooth", });
-  });
+  }, 50);
 
   const updateScale = () => {
     let items = scroller.querySelectorAll('[data-scroll="item"]');
-
     items.forEach((item, index) => {
       if (isElementUnderWindow(item)) {
         item.classList.add('scaling-up');
@@ -87,7 +86,7 @@ function setCarousel(nodeElement) {
     lastscroll = setTimeout(function() {
       updateSort(el);
 
-      if (!CSS.supports('animation-timeline: --item')) { updateScale(el); }
+      if (!CSS.supports('animation-timeline: --item')) { updateScale(); }
     }, 60);
   });
 
