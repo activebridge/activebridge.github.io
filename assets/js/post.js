@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   scrollToElement();
   copyLink();
+  setShareLinks();
 
   window.addEventListener('scroll', () => {
     const observer = new IntersectionObserver(entries => {
@@ -51,14 +52,31 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector('[data-link="clone"]').addEventListener('click', async (e) => {
       e.preventDefault();
 
-      try {
-        const url = e.target.closest('a').getAttribute('href');
-        await navigator.clipboard.writeText(url);
-        alert('Link copied: ' + url);
-      } catch (error) {
-        alert('Please try again');
-      }
+      const url = e.target.closest('a').getAttribute('href');
+      navigator.clipboard.writeText(url);
     });
   }
 });
 
+function setShareLinks(){
+  let links = document.querySelectorAll('[data-link="share"]');
+
+  links.forEach((link) => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+
+      const width = 800;
+      const height = 600;
+      const left = (window.screen.width / 2) - (width / 2);
+      const top = (window.screen.height / 2) - (height / 2);
+
+      window.open(this.getAttribute('href'), '', [
+        'scrollbars=yes',
+        'width=' + width,
+        'height=' + height,
+        'top=' + top,
+        'left=' + left,
+      ]);
+    });
+  });
+}
