@@ -28,7 +28,6 @@
     background: radial-gradient(circle, rgba($palianytsia, 1) 0%, var(--white) 60%);
     box-shadow: inset 0px 12px 15px -7px $moon_raker;
     transition: all 1s ease-out;
-    // filter: var(--filter-invert);
 
     & * {
      transition: all 1s ease-out;
