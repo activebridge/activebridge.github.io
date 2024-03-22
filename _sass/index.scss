@@ -97,9 +97,7 @@
   }
 
   &-technologies {
-    &__container {
-      background: linear-gradient(135deg, var(--white), var(--lilac-sea));
-    }
+    &__container { background: linear-gradient(135deg, var(--white), var(--lilac-sea)); }
 
     &__holder {
       background: no-repeat url('/assets/images/index/technologies_photo.webp');
