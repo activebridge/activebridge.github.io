@@ -12,7 +12,7 @@
     width: 30%;
     background: rgba($white, .5);
     border-radius: 30px;
-    box-shadow: inset -2px 2px 12px 0px rgba(#000, .2), 0px 4px 20px 0 rgba(#000, .15);
+    box-shadow: $main-shadow;
     box-sizing: border-box;
 
     &-photo img {
@@ -38,7 +38,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .crew {
     &__item {
       padding: 8vw 5vw;

@@ -38,7 +38,8 @@
         background-color: $black;
       }
 
-      &:nth-child(1), &:nth-child(2) {
+      &:nth-child(1),
+      &:nth-child(2) {
         &:before { height: 50%; }
       }
 
@@ -51,7 +52,8 @@
       flex-direction: column;
       padding: 0 2% 2%;
 
-      &:after, &:before {
+      &:after,
+      &:before {
         content: '';
         height: 50%;
         width: 1px;
@@ -128,7 +130,6 @@
 
     &__item {
       color: $black;
-
       text-decoration: none;
       padding-bottom: 1.5vh;
     }

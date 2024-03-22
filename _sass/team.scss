@@ -1,6 +1,5 @@
 .team {
   .header-2 {
-    font-size: 1.25em;
     max-width: 100%;
     margin-top: 7vh;
     margin-bottom: 7vh;
@@ -15,7 +14,7 @@
   &__help {
     padding: 3vh 18vw;
     background-color: $sky-ua;
-    box-shadow: inset 0px 2px 20px 0px rgba(0, 0, 0, .1), 0px 0px 12px 0px rgba(0, 0, 0, .5);
+    box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
 
     .header-2 { margin: 0; }
   }
@@ -95,7 +94,7 @@
 
   &__crew {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 20px 0px rgba($dark_black, .25);
   }
 
   &__important_things {
@@ -131,17 +130,17 @@
   &__photo {
     height: 80vh;
     background: center/cover no-repeat url('/assets/images/team/team.webp');
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .25);
+    box-shadow: 0px 0px 20px 0px rgba($dark_black, .25);
   }
 
   &__expertise {
-    background-image: linear-gradient(to bottom, $kviten, $white, $white);
-
     .button { margin-top: 3.5em; }
 
-    .header-2 { margin-top: 0; }
+    &.development__cards {
+      background-image: linear-gradient(to bottom, $kviten, $white);
 
-    .description { margin-bottom: 4.5em; }
+      .header-2 { margin: 0 0 4.5vh; }
+    }
   }
 }
 
@@ -189,9 +188,8 @@
     }
 
     &__important_things {
-      .header-2 {
-        margin: 0 0 9vh;
-      }
+      .header-2 { margin: 0 0 9vh; }
+
       .list-with-images.horizontal .list-with-images__item {
         margin-top: .5vh;
 

@@ -12,7 +12,7 @@ json-ld: web-development
 <div class="container web_dev_services development">
   <div class="web_dev_services__main wrap">
     <div class="wrapper" style="view-transition-name: web-development;">
-      <div class="header-2">{{ site.data.web_dev_services.title }}</div>
+      <div class="header-2 large-header">{{ site.data.web_dev_services.title }}</div>
       <div class="description">{{ site.data.web_dev_services.description }}</div>
       <div class="web_dev_services__list">
         <div class="header-3">{{ site.data.web_dev_services.expertise.title }}</div>
@@ -63,7 +63,7 @@ json-ld: web-development
       </div>
       <ul class="web_dev_services__full_stack-list">
         {% for item in site.data.web_dev_services.full_stack.all %}
-          <li class="web_dev_services__full_stack-list-item inria">
+          <li class="web_dev_services__full_stack-list-item inria-regular">
             {{ item.item }}
           </li>
         {% endfor %}

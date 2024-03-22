@@ -10,7 +10,9 @@
         max-width: 37%;
         width: 37%;
       }
+
       &:first-child { margin-left: 13%; }
+
       &:nth-child(2) {margin-right: 13%; }
     }
   }
@@ -22,7 +24,7 @@
     .card {
       max-width: 410px;
       background: rgba($white, .05);
-      box-shadow: inset -2px -2px 12px 0px rgba(black, .25), 0px 4px 20px 0 rgba(black, .2);
+      box-shadow: $main-shadow;
       max-height: max-content;
       margin: 5px;
 
@@ -33,7 +35,7 @@
       &__icon {
         background-color: $white;
         border-radius: 50%;
-        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2), inset -2px -2px 12px rgba(0, 0, 0, 0.25);
+        box-shadow: $main-shadow;
         display: flex;
         height: 125px;
         margin: 0 auto 20px auto;
@@ -52,6 +54,7 @@
   &__help {
     background: $titan_white;
     padding: 72px 0 79px 0;
+
     .header-3.small-text { margin-top: 0; }
   }
 
@@ -59,66 +62,26 @@
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .25);
     padding: 89px 0 93px 0;
 
-    .description {
-      ul {
-        li {
-          display: block;
-          margin: 0 0 30px 40px;
-          position: relative;
-
-          &::before {
-            content: url('/assets/images/privacy_policy/sun-premium-2.webp');
-            display: inline-block;
-            left: 0;
-            margin-left: calc( 32px * -1.2 );
-            mix-blend-mode: luminosity;
-            position: absolute;
-            top: 5px;
-            vertical-align: text-top;
-            width: 32px;
-          }
-        }
-      }
-    }
+    &_image img { max-width: 250px; }
   }
 
   &__project {
     background-image: linear-gradient(to top left, $purple-heart, $black_sea);
-    box-shadow: inset 3px -4px 20px 0px  rgba(black, .25);
+    box-shadow: $light-purple-shadow;
     padding: 106px 0 92px 0;
+
     .purple-text { color: $buzok; }
 
     .list-with-images {
       &__item {
         margin-bottom: 80px;
-
-        &_element {
-          list-style: none;
-          margin-bottom: 10px;
-          padding: 0;
-          padding-left: 10px;
-          position: relative;
-
-          &::before {
-            background-color: $white;
-            border: 1px solid $buzok;
-            border-radius: 50%;
-            content: '';
-            height: 12px;
-            left: -18px;
-            position: absolute;
-            top: 14px;
-            transform: translateY(-50%);
-            vertical-align: text-top;
-            width: 12px;
-          }
-        }
+        align-items: flex-start;
       }
     }
 
     .button {
       border-color: transparent;
-      box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.15), inset 0px 4px 15px rgba(0, 0, 0, 0.15);
+      box-shadow: $light-purple-shadow;
       color: $white;
       font-weight: 400;
       margin-top: 0;
@@ -126,47 +89,31 @@
   }
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 659px) {
   .ecommerce {
-    &__main {
-      .list-with-images.horizontal {
-        display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
-        grid-column-gap: 50px;
-      }
-
-      .list-with-images.horizontal .list-with-images__item {
-        margin-top: 0;
-        max-width: 100%;
-
-        &:nth-child(-n+2) {
-          max-width: 100%;
-          width: 100%;
-        }
-
-        &:first-child { margin-left: 0; }
-        &:nth-child(2) {margin-right: 0; }
-      }
-     }
+    .list-with-images.horizontal .list-with-images__item {
+      &:first-child,
+      &:nth-child(2) { margin: 1vh 0; }
+    }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .ecommerce {
     .list-with-images.horizontal .list-with-images__item {
+      max-width: 200px;
+
       &:nth-child(-n+2) {
-        max-width: 100%;
+        max-width: 200px;
         width: 100%;
       }
-
-      &:first-child { margin-left: 0; }
-
-      &:nth-child(2) {margin-right: 0; }
     }
 
     .solutions_cases__case_study {
       box-shadow: inset 0px 14px 25px -15px rgba($purple-heart, .25);
       padding: 60px 0 42px 0;
+
+      &_image img { max-width: 140px; }
     }
 
     &__main {
@@ -181,9 +128,11 @@
       padding: 60px 0 56px 0;
 
       .list-with-images {
-        &__item { margin-bottom: 40px; }
+        &__item {
+          margin-bottom: 40px;
 
-        &__item-text { margin-top: 23px; }
+          &-text { margin-top: 23px; }
+        }
       }
     }
 

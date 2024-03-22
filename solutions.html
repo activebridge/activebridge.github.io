@@ -17,17 +17,20 @@ json-ld: solutions
         <h2 class="header-2">{{ site.data.solutions.subtitle }}</h2>
         <div class="description">{{ site.data.solutions.description }}</div>
       </div>
-      <div class="solutions__about-us about-us">
-        <div class="about-us__info-wrapper">
-          {% for icon in site.data.solutions.main.all %}
-            <div class="about-us__info">
-              <div class="about_us_info__item-image">
-                <p>{{ icon.logo }}</p>
-              </div>
-              <p>{{ icon.text }}</p>
+      <div class="solutions__about-us about_us_info">
+        <div class="about_us_info__items">
+          <div class="about_us_info__container">
+            <div class="about_us_info__container-items">
+              {% for item in site.data.solutions.main.all %}
+                <div class="about_us_info__item">
+                  <div class="about_us_info__item-image">
+                    <p>{{ item.logo }}</p>
+                  </div>
+                  <p>{{ item.text }}</p>
+                </div>
+              {% endfor %}
             </div>
-          {% endfor %}
-        </div>
+          </div>
         <div class="solutions__awards desktop-only">
           {% for award in site.data.solutions.awards %}
             <a href="{{ award.link }}" target="_blank">
@@ -59,7 +62,7 @@ json-ld: solutions
       {% for item in site.data.solutions.industries.all %}
         <div class="carousel-scroll__item" data-scroll="item">
           <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-            <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+            <h2 class="header-2 animate-visibility__title">{{ item.title }}</h2>
             <div class="animate-visibility__image">
               {% include svgs/solutions/{{ item.icon }}.html %}
             </div>
@@ -72,14 +75,14 @@ json-ld: solutions
     </div>
     <div class="solutions__circle-background">
       <div class="wrapper">
-        <h3 class="title-3">{{site.data.solutions.industries.subtitle_1}}</h3>
-        <p class="base-content ">{{site.data.solutions.industries.description}}</p>
+        <h3 class="header-2">{{site.data.solutions.industries.subtitle_1}}</h3>
+        <p class="description">{{site.data.solutions.industries.description}}</p>
       </div>
       {% include solutions_subpages_carousel.html %}
       <div class="wrapper ">
-        <p class="title-3 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
-        <h2 class="title-2">{{site.data.solutions.project_development.title}}</h2>
-        <p class="title-3">{{site.data.solutions.project_development.description}}</p>
+        <p class="header-2 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
+        <h2 class="header-3">{{site.data.solutions.project_development.title}}</h2>
+        <p class="header-2">{{site.data.solutions.project_development.description}}</p>
       </div>
     </div>
     <div class="solutions__project-development">
@@ -110,8 +113,8 @@ json-ld: solutions
     </div>
     <div class="solutions__staff-augmentation">
       <div class="wrapper">
-        <h3 class="title-2">{{ site.data.solutions.staff_augmentation.title }}</h3>
-        <p class="base-content">{{ site.data.solutions.staff_augmentation.description }}</p>
+        <h3 class="header-3">{{ site.data.solutions.staff_augmentation.title }}</h3>
+        <p class="header-2">{{ site.data.solutions.staff_augmentation.description }}</p>
       </div>
       <div class="wrapper timeline animated-cards" id="snake-animation-block">
         <svg class="desktop-svg" viewBox="0 0 889 1299" fill="none" preserveAspectRatio="none">

@@ -79,13 +79,16 @@
       margin-top: 33px;
 
       &-name {
-        p { padding: 0 6px; }
+        p {
+          padding: 0 6px;
 
-        p:first-child {
-          font-family: 'Inria Bold', serif;
-          font-size: 22px;
+          &:first-child {
+            font-family: 'Inria Bold', serif;
+            font-size: 22px;
+          }
+
+          &:last-child { font-size: 18px; }
         }
-        p:last-child { font-size: 18px; }
       }
     }
 
@@ -98,9 +101,7 @@
       }
     }
 
-    &-text {
-      line-height: 29px;
-    }
+    &-text { line-height: 29px; }
   }
 }
 

@@ -44,7 +44,7 @@
 
     .button {
       border-color: transparent;
-      box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.15), inset 0px 4px 15px rgba(0, 0, 0, 0.15);
+      box-shadow: $light-purple-shadow;
     }
   }
 }
@@ -57,6 +57,7 @@
     }
 
     &__case_study { padding: 60px 0 40px 0}
+    
     &__solutions { padding: 40px 0 61px 0;}
   }
 

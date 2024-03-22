@@ -42,13 +42,9 @@
   .public {
     padding: 122px 0 82px 0;
 
-    &__image {
-      max-width: 230px;
-    }
+    &__image { max-width: 230px; }
 
-    &__bottom-description {
-      margin: 0;
-    }
+    &__bottom-description { margin: 0; }
 
     &__description {
       font-size: 12px;
@@ -62,11 +58,11 @@
   .mobile-size { display: inline-block; }
 
   .public {
-   &__bottom-description {
+    &__bottom-description {
     font-size: 10px;
     line-height: 15px;
     margin: 0;
     text-align: justify;
-   }
+    }
   }
 }

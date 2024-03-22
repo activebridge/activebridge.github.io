@@ -39,20 +39,20 @@ industries:
   all:
   - title: Finance & Banking solutions
     icon: industries_1
-    description: Active Bridge provides end-to-end <span class="blue-text">custom web development solutions</span>
+    description: Active Bridge provides end-to-end <span class="purple-text">custom web development solutions</span>
                   for non-financial businesses, fintech organizations, and banks. Our development team helps companies
-                  launch MVP fast and build high-performing <span class="blue-text">ruby on rails projects</span> that
+                  launch MVP fast and build high-performing <span class="purple-text">ruby on rails projects</span> that
                   help clients automate operations, save valuable costs, and gain substantial financial benefits.
     index: 1
   - title: Healthcare & HIPPA HealthTech solutions
     icon: industries_2
-    description: We deliver secure and HIPPA compliant healthcare <span class="blue-text">web development solutions</span>
+    description: We deliver secure and HIPPA compliant healthcare <span class="purple-text">web development solutions</span>
                   for hospitals, doctors, patients. Our team has expertise in encrypting sensitive information, configuring
                   access rights in the database, and a firewall.<span> ERP, CRM, SCM, BPM, Billing systems.</span>
     index: 2
   - title: InsurTech solutions
     icon: industries_3
-    description: Active Bridge’s industry-specific <span class="blue-text">Ruby on Rails development solutions</span> are
+    description: Active Bridge’s industry-specific <span class="purple-text">Ruby on Rails development solutions</span> are
                   powered by expertise gained during 10 years of providing programming services for insurance companies.
                   Our expert team successfully resolves all insurance technical challenges including security, scalability,
                   compliance, high load, and more.<span> Cloud-based software, SaaS platforms, CRM.</span>
@@ -66,7 +66,7 @@ industries:
     index: 4
   - title: Logistic & Transportation solutions
     icon: industries_5
-    description: For more than 5 years we’ve been creating <span class="blue-text">ruby on rails projects</span> and integrated
+    description: For more than 5 years we’ve been creating <span class="purple-text">ruby on rails projects</span> and integrated
                   solutions for companies working in the transportation and logistic industry. Our team has designed and
                   developed logistics applications that can handle the full life cycle of a supply chain transaction and taxi
                   solutions that are fast, scalable, and easy-to-use.<span> Web-based applications, iOS apps, Android apps.</span>
@@ -84,14 +84,14 @@ industries:
                 applications, booking platforms, logistic systems, and CRMs for different types of businesses.
   applications:
     - title: HealthTech HIPPA Solution
-      description: a leading American <span class="blue-text">HIPAA-compliant encryption platform</span> protecting patients,
+      description: a leading American <span class="purple-text">HIPAA-compliant encryption platform</span> protecting patients,
                     healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and electronic
                     patient health information (ePHI).
       index: 1
       link: "/solutions/healthcare-hipaa-case"
     - title: Insurtech SaaS platform
       description: a mission-focused company serving healthcare service providers to digitally manage and dispatch
-                    <span class="blue-text">workers’ compensation bills</span> to employers.
+                    <span class="purple-text">workers’ compensation bills</span> to employers.
       index: 2
       link: /solutions/insurtech-case
     - title: E-commerce platform with CRM features

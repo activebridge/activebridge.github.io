@@ -15,23 +15,23 @@ json-ld: about
     <div class="wrap">
       <div class="wrapper" style="view-transition-name: about;">
         <h1 class="header-3 white-text">{{ site.data.about.about }}</h1>
-        <h1 class="about__header">{{ site.data.about.header }}</h1>
-        <div class="about__description">{{ site.data.about.description }}</div>
+        <h1 class="about__header white-text">{{ site.data.about.header }}</h1>
+        <div class="about__description white-text">{{ site.data.about.description }}</div>
       </div>
     </div>
     <div class="about_us_info">
       <div class="about_us_info__items">
         <div class="about_us_info__container">
-            <div class="about_us_info__container-items">
-              {% for item in site.data.index.about_us_items %}
-                <div class="about_us_info__item white-text">
-                  <div class="about_us_info__item-image">
-                    <p>{{ item.logo }}</p>
-                  </div>
-                  <p>{{ item.text }}</p>
+          <div class="about_us_info__container-items">
+            {% for item in site.data.index.about_us_items %}
+              <div class="about_us_info__item white-text">
+                <div class="about_us_info__item-image">
+                  <p>{{ item.logo }}</p>
                 </div>
-              {% endfor %}
-            </div>
+                <p>{{ item.text }}</p>
+              </div>
+            {% endfor %}
+          </div>
         </div>
         <div class="about_us_info__photo desktop-only">
           <img src="/assets/images/about/about-bg-2.webp" alt="About us">
@@ -48,7 +48,7 @@ json-ld: about
       <div class="about__vision-description about__description">
         {{ site.data.about.information.second }}
       </div>
-      <h2 class="header-3">{{ site.data.about.company_vision.titlet }}</h2>
+      <h2 class="header-3">{{ site.data.about.company_vision.title }}</h2>
       <h2 class="header-2">{{ site.data.about.company_vision.subtitle }}</h2>
       <div class="about__vision-description about__description about__description-cera">
         {{ site.data.about.company_vision.description }}
@@ -62,7 +62,7 @@ json-ld: about
 
   <div class="about__crew wrap">
     <div class="wrapper">
-      <div class="about__description">{{ site.data.about.crew.description }}</div>
+      <div class="about__description white-text">{{ site.data.about.crew.description }}</div>
       <div class="header-3 white-text">{{ site.data.about.crew.title }}</div>
       {% include crew.html %}
       <a class="button about__crew-button" id="about__crew-button" href="/about/team" data-link="transition">

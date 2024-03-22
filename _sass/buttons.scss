@@ -12,14 +12,12 @@
   border-radius: 56px;
   box-sizing: border-box;
   box-shadow: $main-shadow;
-  color: $dark_black;
   font-family: 'Cera-Medium';
   font-size: 16px;
   letter-spacing: 0.5em;
   text-decoration: none;
   text-transform: uppercase;
   transition: all .3s ease;
-
   z-index: 1;
 
   &::after {
@@ -40,8 +38,6 @@
   }
 
   &:hover::after { opacity: 1; }
-
-  &:visited { color: $dark_black; }
 
   &:active { box-shadow: $active-shadow; }
 }

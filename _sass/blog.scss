@@ -5,6 +5,7 @@
     padding-top: 117px;
 
     .header-3 { margin-bottom: 30px; }
+
     .header-2 {
       font-size: 1.3em;
       line-height: 1.5;
@@ -47,9 +48,9 @@
     margin-bottom: 70px;
 
     a {
-      border: 1px solid black;
+      border: 1px solid $black;
       border-radius: 20px;
-      color: black;
+      color: $black;
       font-size: 14px;
       padding: 5px 20px;
       outline: none;
@@ -87,9 +88,7 @@
       text-transform: uppercase;
     }
 
-    .posts {
-      padding-top: 30px;
-    }
+    .posts { padding-top: 30px; }
   }
 }
 
@@ -101,14 +100,15 @@
   margin-bottom: 40px;
 
   a {
-    color: black;
+    color: $black;
     outline: none;
     text-decoration: none;
   }
+
   &__post.hide { display: none; }
 
   &__post {
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -140,15 +140,15 @@
     background-size: cover;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: inset 0px -105px 36px -43px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -105px 36px -43px rgba($dark_black, 0.75);
     display: flex;
     flex-direction: column;
     height: 70%;
     justify-content: end;
     overflow: hidden;
     position: relative;
-    -webkit-box-shadow: inset 0px -105px 36px -43px rgba(0,0,0,0.75);
-    -moz-box-shadow: inset 0px -105px 36px -43px rgba(0,0,0,0.75);
+    -webkit-box-shadow: inset 0px -105px 36px -43px rgba($dark_black, 0.75);
+    -moz-box-shadow: inset 0px -105px 36px -43px rgba($dark_black, 0.75);
   }
 
   &__info-block-description {
@@ -162,6 +162,7 @@
     z-index: 2;
 
     &:last-child { padding-bottom: 5px; }
+
     span { font-family: 'Cera Regular'; }
   }
 
@@ -177,8 +178,9 @@
 
 .pagination {
   margin: 0 0 40px 0;
+
   &__page {
-    color: black;
+    color: $black;
     font-size: 16px;
     margin: 0 10px;
   }
@@ -197,12 +199,14 @@
   grid-template-columns: 1.2fr 3fr 1.2fr;
   justify-content: center;
   margin: 0;
+
   &__mobile { display: none; }
 
   .wrapper {
     padding: 100px 30px;
     text-align: left;
   }
+
   li { margin-left: 40px;}
 
   h1 {
@@ -250,7 +254,7 @@
     }
 
     a {
-      color: black;
+      color: $black;
       display: inline-block;
       font-size: 14px;
       padding: 5px 0 5px 20px;
@@ -319,9 +323,7 @@
 
   &__author {
     span {
-      &:first-child {
-        text-decoration: underline;
-      }
+      &:first-child { text-decoration: underline; }
 
       &:last-child {
         display: block;
@@ -348,7 +350,7 @@
     font-style: italic;
 
     a {
-      color: black;
+      color: $black;
       text-decoration: none;
       text-decoration: underline;
     }
@@ -415,13 +417,13 @@
       }
 
       &:before{
-          left: -50px;
-          transform: rotate(135deg)
+        left: -50px;
+        transform: rotate(135deg)
       }
 
       &:after{
-          right: -50px;
-          transform: rotate(-45deg)
+        right: -50px;
+        transform: rotate(-45deg)
       }
     }
   }
@@ -455,7 +457,7 @@
       flex-wrap: wrap;
       justify-content: flex-start;
 
-      a,.header-3 {
+      a, .header-3 {
         font-size: 12px;
         margin: 0 10px 10px 0;
       }
@@ -464,7 +466,9 @@
 
   .post-content {
     display: block;
+
     &__desktop { display: none;}
+
     &__mobile { display: block; }
   }
 
@@ -481,9 +485,8 @@
 
     &__author {
       display: inline;
-      span {
-        &:last-child { display: inline; }
-      }
+
+      span:last-child { display: inline; }
     }
   }
 }
@@ -502,7 +505,7 @@
     height: 0;
     border-left: 5px solid transparent;
     border-right: 5px solid transparent;
-    border-bottom: 5px solid rgba(0,0,0,.72);
+    border-bottom: 5px solid rgba($black, .72);
   }
 
   &:after {
@@ -514,17 +517,19 @@
     left: -20px;
     width: 114px;
     height: 36px;
-    color: #fff;
+    color: $white;
     font-size: 10px;
     line-height: 36px;
     text-align: center;
-    background: rgba(0,0,0,.72);
+    background: rgba($black, .72);
     border-radius: 3px;
   }
+
   &:hover { &:before, &:after { display: block; } }
 
   &:active, &:focus {
     outline: none;
+    
     &:after { content: 'Copied!'; }
   }
 }

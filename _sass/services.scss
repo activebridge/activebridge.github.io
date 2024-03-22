@@ -101,7 +101,7 @@
   }
 
   &__mobile-dev {
-    background: radial-gradient(circle, rgba(212,184,234,1) 0%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba($main-lilac, 1) 0%, rgba($white, 1) 100%);
   }
 
   &__engagement-models {
@@ -215,13 +215,9 @@
 }
 
 @media screen and (min-width: 1550px) {
-  .services {
-    .cards-container {
-      .card {
-        max-width: 360px;
-        min-width: 350px;
-        padding: 3vh;
-      }
-    }
+  .services .cards-container .card {
+    max-width: 360px;
+    min-width: 350px;
+    padding: 3vh;
   }
 }
