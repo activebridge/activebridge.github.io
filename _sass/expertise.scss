@@ -1,7 +1,7 @@
 .expertise {
   &__technologies {
     background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
-    box-shadow: 0px 0px 20px -3px grey;;
+    box-shadow: 0px 0px 20px -3px grey;
     img { margin: 5vh 0; }
   }
   &__industries { padding: 80px 0; }
@@ -32,7 +32,7 @@
   margin: 6vh 0;
   padding: 6vh 6vw;
   border-radius: 20px;
-  background: $white;
+  background: var(--white);
   box-shadow: $main-shadow;
 
   .chart-bar {
@@ -69,6 +69,7 @@
       }
 
       &-asterisk {
+        color: var(--black);
         margin-left: 2vw;
         margin-top: 2vh;
         display: flex;

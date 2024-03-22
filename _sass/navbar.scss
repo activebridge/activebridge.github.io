@@ -5,7 +5,7 @@ header {
   position: fixed;
   z-index: 5;
   width: 100%;
-  background-color: $white;
+  background-color: var(--white);
   box-shadow: 0px 4px 4px 0px rgba(#000, .25);
   view-transition-name: header;
 
@@ -39,7 +39,7 @@ header {
 
   &__link {
     margin: 0 1.5vw;
-    color: $black;
+    color: var(--black);
     font-size: 0.8em;
     text-transform: uppercase;
     text-decoration: none;
@@ -53,7 +53,7 @@ header {
     display: block;
     margin: 0;
     padding: 0.7em 2.2em;
-    background: linear-gradient($white, $white) padding-box,
+    background: linear-gradient(var(--white), var(--white)) padding-box,
                 linear-gradient(to right, $main-violet, $purple-heart) border-box;
     border: 1px solid transparent;
     border-radius: 50px;

@@ -45,7 +45,7 @@
       height: 60%;
       right: 0;
       top: 40%;
-      background-color: rgba(252, 252, 252, 0.7);
+      background-color: var(--rgba-white);
       backdrop-filter: blur(1.5px);
     }
 
@@ -153,7 +153,7 @@
 
   &__item-image {
     align-items: center;
-    background-color: $white;
+    background-color: var(--white);
     border: 6px solid $pie-chart-border;
     border-radius: 50%;
     display: flex;

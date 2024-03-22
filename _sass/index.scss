@@ -14,13 +14,18 @@
   }
 
   .description {
+    color: $dark_black;
     position: inherit;
     max-width: 700px;
     width: 100%;
     z-index: 1;
   }
 
-  .button { background: rgba($white, .4); }
+  .button {
+    background: rgba(var(--rgba-white), .4);
+    color: $dark_black;
+    &:hover { color: var(--black); }
+  }
 }
 
 .awards-img {
@@ -65,7 +70,7 @@
   &-technologies {
     &__container {
       padding-top: 8vh;
-      background: linear-gradient(135deg, $white, $main-lilac);
+      background: linear-gradient(135deg, var(--white), $main-lilac);
     }
 
     &__holder {
@@ -86,7 +91,7 @@
       margin-left: auto;
       width: 50%;
       overflow: hidden;
-      background: linear-gradient(135deg, #EBDEF5, $main-lilac);
+      background: linear-gradient(135deg, #EBDEF5, var(--white));
       border-top: 1px solid rgba($dark_black, .2);
       border-bottom: 1px solid rgba($dark_black, .2);
 

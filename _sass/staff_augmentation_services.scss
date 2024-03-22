@@ -100,10 +100,9 @@
   }
 
   &__dedicated_model {
-    background-image: linear-gradient(30deg, #C685D7 0%, $white 82%);
+    background-image: linear-gradient(30deg, #C685D7 0%, var(--white) 82%);
     box-shadow: inset 0px 12px 15px -7px rgba($purple-heart, 0.25), 0 4px 4px 0 rgba(0, 0, 0, .25);
     padding-top: 8vh;
-
     .header-3 + .header-2.with-margin { text-align: justify; }
 
     &_description {
@@ -172,8 +171,7 @@
   }
 
   &__services {
-    background-image: linear-gradient($white, $sky-ua);
-    box-shadow: 0 4px 25px 0 rgba($purple-heart, .25);
+    background-image: linear-gradient(var(--white), $sky-ua);
 
     .header-2 {
       max-width: 70%;

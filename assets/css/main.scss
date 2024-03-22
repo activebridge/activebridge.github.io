@@ -77,11 +77,12 @@ body {
   color: $black;
   font-family: 'Cera Regular', serif;
   -webkit-tap-highlight-color: transparent;
+  background-color: var(--white);
 }
 
 a:hover { text-decoration: none !important; }
 
-a:visited { color: $black; }
+a:visited { color: var(--black); }
 
 ul, ol { margin-left: 0; }
 

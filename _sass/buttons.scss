@@ -12,6 +12,7 @@
   border-radius: 56px;
   box-sizing: border-box;
   box-shadow: $main-shadow;
+  color: var(--black);
   font-family: 'Cera-Medium';
   font-size: 16px;
   letter-spacing: 0.5em;
@@ -29,7 +30,7 @@
     width: 100%;
     height: 100%;
     box-shadow: $violet-hover-shadow;
-    background: linear-gradient($white, $white) padding-box,
+    background: linear-gradient(var(--white), var(--white)) padding-box,
                 linear-gradient(to right, $main-violet, $purple-heart) border-box;
     opacity: 0;
     -webkit-transition: all .3s ease-in-out;
@@ -38,7 +39,7 @@
   }
 
   &:hover::after { opacity: 1; }
-
+  &:visited { color: var(--black); }
   &:active { box-shadow: $active-shadow; }
 }
 
@@ -52,14 +53,14 @@
   .button {
     height: 100px;
     max-width: 500px;
-    color: $white;
+    color: var(--white);
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 10px;
     padding: 22px;
     margin-top: 0;
 
-    &:hover { color: $black_sea; }
+    &:hover { color: var(--black); }
   }
 }
 

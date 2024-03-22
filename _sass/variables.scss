@@ -26,12 +26,37 @@ $titan_white:             #F4F3FF;
 $white:                   #fff;
 $post-links:              #2a7ae2;
 $ocean_light:             #e0effd;
+$dark-theme-white:        #fff;
+$dark-theme-black:        #000;
+
+$rgba-white:              255,255,255;
+$rgba-black:              0,0,0,1;
 
 $main-gradient:        linear-gradient(135deg, $main-violet, $purple-heart);
 
-$active-shadow:        inset 2px 2px 5px grey, inset -2px -2px 5px $white;
+$active-shadow:        inset 2px 2px 5px grey, inset -2px -2px 5px var(--white);
 $violet-shadow:        inset 2px 7px 10px -5px #9c64d2, inset -4px -5px 16px #4c2b84;
 $light-purple-shadow:  2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0px rgba($dark_black, .15);
 $main-shadow:          0px 4px 20px 0px rgba($dark_black, .2), inset -2px -2px 12px 0px rgba($dark_black, .25);
-$violet-hover-shadow:  inset -1px 4px 13px -5px $white, inset -1px -5px 5px $deep_amethyst, 2px 1px 12px 0px $main-violet;
+$violet-hover-shadow:  inset -1px 4px 13px -5px var(--white), inset -1px -5px 5px $deep_amethyst, 2px 1px 12px 0px $main-violet;
 $violet-active-shadow: inset 0px 0px 15px 1px rgba($main-violet, .3);
+
+:root {
+  --filter-invert: invert(0);
+  --white: #{$white};
+  --black: #{$dark_black};
+  --rgba-white: #{$rgba-white};
+  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --filter-invert: invert(1) hue-rotate(180deg);
+    --white: #{$dark_black};
+    --black: #{$white};
+    --rgba-white: #{$rgba-black};
+  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
+  .dark-background-dark-content { background-color: $black_sea; }
+  }
+}
