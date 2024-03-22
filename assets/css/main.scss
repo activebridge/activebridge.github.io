@@ -69,11 +69,12 @@ p { margin: 0; }
 body {
   font-family: 'Cera Regular', serif;
   -webkit-tap-highlight-color: transparent;
+  background-color: var(--white);
 }
 
 a:hover { text-decoration: none !important; }
 
-a:visited { color: $black; }
+a:visited { color: var(--black); }
 
 ul, ol { margin-left: 0; }
 
@@ -116,7 +117,7 @@ ul, ol { margin-left: 0; }
 
 .header-4 {
   font-size: 1.2em;
-  color: $black;
+  color: $black;;
 }
 
 .header-5 {

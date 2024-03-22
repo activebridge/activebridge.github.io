@@ -2,7 +2,7 @@
   &__item {
     position: sticky;
     margin-bottom: 3em;
-    background-color: $white;
+    background-color: var(--white);
     border-radius: 1em;
     box-shadow: $main-shadow;
     user-select: none;
@@ -68,7 +68,10 @@
       text-align: justify;
       transition: max-height .4s ease-out;
 
-      p { padding: 1em 1.5em 1.5em; }
+      p {
+        color: var(--black);
+        padding: 1em 1.5em 1.5em;
+      }
     }
 
 

@@ -36,7 +36,7 @@
   }
 
   &__cards {
-    background: radial-gradient(circle, rgba($buzok, 1) 0%, rgba($white, 1) 60%);
+    background: radial-gradient(circle, rgba($buzok, 1) 0%, rgba(var(--rgba-white)) 60%);
     box-shadow: inset -6px 12px 15px -7px $moon_raker;
 
     .header-2,

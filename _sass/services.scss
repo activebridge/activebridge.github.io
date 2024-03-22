@@ -101,7 +101,7 @@
   }
 
   &__mobile-dev {
-    background: radial-gradient(circle, rgba(212,184,234,1) 0%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(212,184,234,1) 0%, rgba(var(--rgba-white)) 100%);
   }
 
   &__engagement-models {

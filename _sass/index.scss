@@ -41,13 +41,18 @@ body {
   }
 
   .description {
+    color: $dark_black;
     position: inherit;
     max-width: 520px;
     width: 100%;
     z-index: 1;
   }
 
-  .button { background: rgba($white, .4); }
+  .button {
+    background: rgba(var(--rgba-white), .4);
+    color: $dark_black;
+    &:hover { color: var(--black); }
+  }
 }
 
 .awards-img {
@@ -94,7 +99,7 @@ body {
   &-technologies {
     &__container {
       padding-top: 8vh;
-      background: linear-gradient(135deg, $white, $main-lilac);
+      background: linear-gradient(135deg, var(--white), $main-lilac);
 
       .header-4  {
         margin: 7vh 0 4vh 0;
@@ -139,7 +144,7 @@ body {
       height: calc(100% - 10vw);
       padding: 5vw;
       overflow: hidden;
-      background: linear-gradient(135deg, #EBDEF5, $main-lilac);
+      background: linear-gradient(135deg, #EBDEF5, var(--white));
       border-top: 1px solid rgba(0, 0, 0, 0.2);
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 

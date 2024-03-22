@@ -26,7 +26,6 @@
   &__vision {
     &-description {
       margin-bottom: 3em;
-      color: $black;
       text-align: justify;
     }
   }
@@ -93,7 +92,7 @@
       height: 60%;
       right: 0;
       top: 40%;
-      background-color: rgba(252, 252, 252, 0.7);
+      background-color: var(--rgba-white);
       backdrop-filter: blur(1.5px);
     }
 
@@ -163,7 +162,6 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding: 150px 0 80px 0;
-
     &-title { margin-bottom: 5vh; }
   }
 
@@ -224,7 +222,7 @@
 
   &__item-image {
     align-items: center;
-    background-color: $white;
+    background-color: var(--white);
     border: 6px solid $pie-chart-border;
     border-radius: 50%;
     display: flex;
