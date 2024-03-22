@@ -180,7 +180,7 @@
 
   &__item-image {
     align-items: center;
-    background-color: $white;
+    background-color: var(--white);
     border: 6px solid $pie-chart-border;
     border-radius: 50%;
     display: flex;
