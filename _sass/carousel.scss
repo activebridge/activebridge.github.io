@@ -15,6 +15,7 @@
     margin: 0 auto;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+
     &::-webkit-scrollbar { display: none; }
   }
 
@@ -70,7 +71,7 @@
     background: $white;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: -2px -2px 12px 2px rgba(0, 0, 0, 0.25) inset;
+    box-shadow: -2px -2px 12px 2px rgba($dark_black, .25) inset;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -85,9 +86,7 @@
     z-index: 1;
   }
 
-  &__animate-visibility.with-opacity {
-    opacity: 0.5;
-  }
+  &__animate-visibility.with-opacity { opacity: 0.5; }
 
   @keyframes scalify {
     50% {
@@ -100,9 +99,9 @@
 
 .animate-visibility {
   overflow-y: hidden;
-  &__title.title-3 { font-size: 18px; }
-  .text-center { text-align: center; }
-  .text-justify { text-align: justify; }
+
+  &__title.header-2 { font-size: 18px; }
+
   .italic { font-style: italic; }
 
   &__description {
@@ -112,11 +111,10 @@
     font-size: 11px;
     line-height: 15px;
     height: 70%;
+
     p { text-align: justify; }
 
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    &::-webkit-scrollbar { display: none; }
   }
 
   &__image {
@@ -125,10 +123,9 @@
     justify-content: center;
     margin-bottom: 15px;
 
-    img, svg {
-      width: 90px;
-    }
+    img, svg { width: 90px; }
   }
+
   &__image.without-margin { margin-bottom: 0; }
 
   &__list {
@@ -139,9 +136,7 @@
     padding-left: 10px;
     text-align: left;
 
-    &::-webkit-scrollbar {
-      display: none;
-    }
+    &::-webkit-scrollbar { display: none; }
   }
 
   &__button {
@@ -190,7 +185,8 @@
   }
 
   .animate-visibility {
-    &__title.title-3 { font-size: 12px; }
+    &__title.header-2 { font-size: 12px; }
+
     &__description {
       font-size: 9px;
       line-height: 14px;
@@ -199,18 +195,14 @@
     &__image {
       margin-bottom: 10px;
 
-      img, svg {
-        width: 70px;
-      }
+      img, svg { width: 70px; }
     }
 
-    &__list {
-      font-size: 10px;
-    }
+    &__list { font-size: 10px; }
   }
 
   .animate-visibility.testimonials {
-    .animate-visibility__description{
+    .animate-visibility__description {
       p { -webkit-line-clamp: 5; }
     }
   }
@@ -220,8 +212,6 @@
   .carousel-scroll {
     padding: 0 5px;
 
-    &__animate-visibility {
-      width: 220px;
-    }
+    &__animate-visibility { width: 220px; }
   }
 }

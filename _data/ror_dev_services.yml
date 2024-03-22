@@ -44,44 +44,44 @@ reasons:
   - title: Ruby
     description: Ruby is a dynamic, interpreted, open-source programming language
                  with a focus on simplicity and productivity and utilizes metaprogramming
-                 to create <span class="blue-text">fully-functional applications<span>.
+                 to create <span class="purple-text">fully-functional applications<span>.
     icon: reason_1.webp
   - title: Ruby on rails
     description: Ruby on Rails is a fully functional, multi-level framework based
                  on the Model-View-Controller architecture. It enables building
-                 <span class="blue-text">database-driven web apps</span>,
-                 their <span class="blue-text">fast deployment, and ongoing
+                 <span class="purple-text">database-driven web apps</span>,
+                 their <span class="purple-text">fast deployment, and ongoing
                  support</span>.
     icon: reason_2.webp
   - title: Infrastructure
     description: Ruby on Rails is much faster than the vast majority of modern
-                 technologies. Engineers use it for the <span class="blue-text">
+                 technologies. Engineers use it for the <span class="purple-text">
                  cost-effective cand rapid development</span> of MVPs. Rails
                  Model-View-Controller system makes modularity and extensibility
                  of an app. So developers can extend any app with new features.
-                 In addition, we use <span class="blue-text">Agile web
+                 In addition, we use <span class="purple-text">Agile web
                  development methodology</span>, ready-to-use ruby on rails
                  development tools, and an ecosystem to work productively.
     icon: reason_3.webp
   - title: Api integration
     description: Ruby on Rails API integration is one of the best development
-                 tools. It makes development <span class="blue-text">far quicker
+                 tools. It makes development <span class="purple-text">far quicker
                  and more cost-effective</span>. Developers can easily change
                  codes and files, control API building, code is clear, concise,
                  and easy to maintain.
     icon: reason_4.webp
   - title: Scalability
     description: The architecture of the Ruby on Rails entire server system
-                 <span class="blue-text">enhances project scalability</span>.
+                 <span class="purple-text">enhances project scalability</span>.
                  Whether you have a simple website or cloud-based software system,
                  it can work flawlessly based on this reliable technology. The
-                 framework works with the <span class="blue-text">raised load
+                 framework works with the <span class="purple-text">raised load
                  and saves time</span> on the deployment process.
     icon: reason_5.webp
   - title: Security
     description: Ruby on Rails web application development includes everything
-                 needed to <span class="blue-text">secure the project</span>.
-                 Rails has <span class="blue-text"> built-in support</span> to
+                 needed to <span class="purple-text">secure the project</span>.
+                 Rails has <span class="purple-text"> built-in support</span> to
                  help developers avoid common security issues like XSS and SQL
                  injection. We use Ruby security gems and assessment services
                  to prevent attacks and business logic vulnerabilities.
@@ -89,10 +89,10 @@ reasons:
 quality:
   title: Code quality
   subtitle: Ruby on Rails code quality and review
-  description_1: Our <span class="blue-text">remote developers</span> focus on
+  description_1: Our <span class="purple-text">remote developers</span> focus on
                  code quality and testing, ensuring project robustness and
                  third-party code. We provide ongoing integration tests and the
-                 CI server presence. So it’s possible to launch <span class="blue-text">
+                 CI server presence. So it’s possible to launch <span class="purple-text">
                  ready-to-use products relatively fast</span>, without compromising
                  the final quality.
   description_2: Our <b>Ruby on Rails development team</b> makes the most of the
@@ -173,7 +173,7 @@ engagement_models:
   all:
   - title: Staff Augmentation (+Workflow)
     description: Do you need web developers with a specific skillset for
-                 short-term tasks? <span class="blue-text">Staff augmentation</span>
+                 short-term tasks? <span class="purple-text">Staff augmentation</span>
                  is a remote engagement model that allows you to extend your
                  in-house team with professionals that work on your project
                  full-time at the vendor’s office

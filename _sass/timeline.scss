@@ -13,9 +13,7 @@
       .timeline-item__content {
         &-title { text-align: right; }
 
-        &-description {
-          text-align: right;
-        }
+        &-description { text-align: right; }
 
         &-output {
           &-title { text-align: right; }
@@ -27,9 +25,7 @@
         }
       }
 
-      .timeline-item__icon {
-        justify-content: flex-start;
-      }
+      .timeline-item__icon { justify-content: flex-start; }
     }
 
     &__icon {
@@ -49,7 +45,7 @@
       width: 50%;
 
       &-title {
-        font-size: 1.25em;
+        font-size: 22px;
         text-align: left;
         margin-bottom: 4vh;
       }
@@ -154,9 +150,7 @@
 
           &-title { text-align: center; }
 
-          &-description {
-            text-align: justify;
-          }
+          &-description { text-align: justify; }
 
           &-output {
             &-title { text-align: center; }

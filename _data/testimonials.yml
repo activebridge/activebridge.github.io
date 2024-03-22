@@ -9,12 +9,12 @@ solutions:
   all:
   - title: HealthTech HIPPA Solution
     image: healthcare.webp
-    description: a leading American <div class="blue-text">HIPAA-compliant encryption platform</div> protecting patients, healthcare
+    description: a leading American <div class="purple-text">HIPAA-compliant encryption platform</div> protecting patients, healthcare
                  providers, prescribers, pharmacists, and vendors by securing clinical communications and electronic patient health
                  information (ePHI).
   - title: Insuretech SaaS platform
     image: insurtech.webp
-    description: a mission-focused company serving healthcare service providers to digitally manage and dispatch <div class="blue-text">workers’
+    description: a mission-focused company serving healthcare service providers to digitally manage and dispatch <div class="purple-text">workers’
                  compensation bills</div> to employers.
   - title: E-commerce platform with CRM features
     image: e-commerce.webp

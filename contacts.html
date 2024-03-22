@@ -11,9 +11,9 @@ json-ld: contacts
 <div class="contacts">
   <div class="wrapper">
     <div style="view-transition-name: contacts;">
-      <h2 class="title-2">{{ site.data.contacts.title }}</h2>
-      <h3 class="title-3">{{ site.data.contacts.sub_title }}</h3>
-      <p class="base-content contacts__description">
+      <h2 class="header-3">{{ site.data.contacts.title }}</h2>
+      <h3 class="header-2">{{ site.data.contacts.sub_title }}</h3>
+      <p class="description contacts__description">
         {{ site.data.contacts.description }}
       </p>
     </div>
@@ -41,10 +41,10 @@ json-ld: contacts
       <a class="contacts__field contacts__to-faq" href="/faq" data-link="transition">{{site.data.contacts.link_to_faq}}</a>
 
       <div class="contacts__after-send after-send">
-        <h3 class="title-3">{{site.data.contacts.form.description.title}}</h3>
+        <h3 class="header-2">{{site.data.contacts.form.description.title}}</h3>
         <ul class="after-send__list">
           {% for line in site.data.contacts.form.description.lines %}
-            <li class="base-content"> {{ line.description }}</li>
+            <li class="description"> {{ line.description }}</li>
           {% endfor %}
         </ul>
       </div>

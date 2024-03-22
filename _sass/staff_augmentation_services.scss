@@ -1,5 +1,5 @@
 .staff_augmentation_services {
-  .header-2 { font-size: 1.25em; }
+  .header-2 { font-size: 22px; }
 
   .header-3 {
     max-width: 70%;
@@ -25,7 +25,7 @@
 
     &-item {
       color: $black;
-      font-size: .9em;
+      font-size: 14px;
 
       &::after {
         width: 2em;
@@ -143,7 +143,7 @@
       padding-left: 8vw;
 
       &-item {
-        font-size: 1em;
+        font-size: 18px;
 
         &::after {
           width: 4em;
@@ -205,6 +205,8 @@
 
     .header-3 { max-width: 100%; }
 
+    .description { font-size: .8em; }
+
     .web_dev_services__full_stack-list {
       padding-left: 0;
       font-size: .8em;
@@ -233,9 +235,7 @@
       }
     }
 
-    &__team_as_service {
-      .header-3.blue { font-size: .85em; }
-    }
+    &__team_as_service .header-3.blue { font-size: .85em; }
 
     &__transparency .header-2 { max-width: 100%; }
 
@@ -253,6 +253,10 @@
       }
     }
 
-    &__benefits .absolute-img { display: none; }
+    &__benefits {
+      .web_dev_services__full_stack-list-item { font-size: .8em; }
+
+      .absolute-img { display: none; }
+    }
   }
 }

@@ -23,9 +23,7 @@
     border-bottom: none;
   }
 
-  &__description {
-    margin-bottom: 32px;
-  }
+  &__description { margin-bottom: 32px!important; }
 
   details {
     user-select: none;
@@ -60,9 +58,11 @@
     overflow: hidden;
     transition: max-height 500ms ease-out, border-bottom 0ms 500ms linear;
 
-    .base-content { margin: 21px 10px 33px 63px}
+    .description { margin: 21px 10px 33px 63px}
+
     p, li { text-align: justify; }
   }
+
   ul { margin: 0; }
 
   &__bottom-info {
@@ -76,15 +76,14 @@
       justify-content: space-around;
     }
   }
+  
   &__gift { mix-blend-mode: luminosity; }
 }
 
 @media (max-width: 1440px) {
-  .faq {
-    &__table {
-      position: relative;
-      z-index: 2;
-    }
+  .faq__table {
+    position: relative;
+    z-index: 2;
   }
 }
 
@@ -123,12 +122,12 @@
       padding: 12px 15px;
     }
 
-    &__detail-description {
-      .base-content { margin: 7px 14px 11px 15px;}
-    }
+    &__detail-description .description { margin: 7px 14px 11px 15px;}
 
     &__table { z-index: 0;}
+
     &__description { font-size: 12px; }
+
     &__gift { width: 150px; }
   }
 }

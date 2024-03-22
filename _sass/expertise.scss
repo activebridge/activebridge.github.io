@@ -4,15 +4,16 @@
   .header-2 {
     max-width: 85%;
     margin: 5vh auto;
-    font-size: 1.5em;
+    font-size: 22px;
     line-height: 1.5;
   }
 
-  .description { margin-bottom: 10vh; }
+  .description {
+    margin-bottom: 10vh;
+    font-size: 16px;
+  }
 
   &__main {
-    .header-2 { font-size: 1em; }
-
     .description {
       margin-top: 5vh;
       margin-bottom: 5vh;
@@ -34,7 +35,9 @@
 
   &__industries {
     padding: 80px 0;
+
     .header-3:first-child { font-size: 1.8em; }
+
     .header-3 { font-size: 1.3em; }
   }
 
@@ -44,9 +47,18 @@
     .header-2 { max-width: 100%; }
   }
 
-  &__solutions .header-2 {
-    margin-top: 0;
-    margin-bottom: 0;
+  &__solutions {
+    &.wrap {
+      padding-top: 5vh;
+      padding-bottom: 5vh;
+    }
+
+    .header-2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .button { margin-top: 30px; }
   }
 
   &__testimonials {
@@ -90,6 +102,7 @@
       padding: 3vh 1vw;
       font-size: 1.3em;
       box-shadow: inset -7px -7px 11px -6px #8f8f8f;
+      font-family: 'Cera-Bold', serif;
 
       &:first-child { border-radius: 1.2em 0 0 1.2em; }
 
@@ -202,6 +215,7 @@
       text-overflow: ellipsis;
     }
   }
+
   .card__description { line-height: 1.6em; }
 }
 
@@ -215,9 +229,7 @@
       width: 100%;
       justify-content: space-around;
 
-      &:nth-child(2n) {
-        justify-content: space-around;
-      }
+      &:nth-child(2n) { justify-content: space-around; }
 
       &-color {
         width: 35px;
@@ -256,6 +268,9 @@
     }
 
     .header-2 { font-size: 1em; }
+
+    .description { font-size: .8em; }
+
     &__main .description { margin-bottom: 0; }
 
     &__technologies img {
@@ -265,16 +280,17 @@
 
     &__industries {
       padding: 60px 0;
+
       .header-3:first-child { font-size: 1.5em; }
     }
+
     &__solutions .header-2 { margin: 0 auto;}
 
-    &__testimonials {
-      .header-2 { margin-top: 0; }
-    }
+    &__testimonials  .header-2 { margin-top: 0; }
 
     &__tell-us {
       min-height: 50vh;
+      
       .header-2 { margin: 0 auto; }
     }
   }

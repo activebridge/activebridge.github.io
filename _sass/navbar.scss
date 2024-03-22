@@ -153,6 +153,7 @@ header {
      font-size: 10px;
      margin: 0 5px;
     }
+
     &__subitems { font-size: 15px; }
   }
 }
@@ -226,8 +227,10 @@ header {
         font-size: 15px;
         margin: 0;
         padding: 10px 2vw;
+
         &:active { transform: scale(0.9); }
       }
+
       &__item { .header-navbar__link { color: $white; } }
 
       &__link-contact {
@@ -237,6 +240,7 @@ header {
         border: 1px solid $white;
         text-align: center;
         width: 80%;
+
         a { color: $white; }
       }
     }
@@ -245,6 +249,7 @@ header {
       padding-top: 2vw;
       color: $white;
       font-size: 1.5em;
+
       .menu-close-ico { cursor: pointer;}
     }
 
@@ -274,7 +279,9 @@ header {
           width: 100%;
           background: $white;
         }
+
         &:before { top: 10px; }
+
         &:after { top: -10px; }
       }
     }
@@ -297,5 +304,7 @@ header {
       z-index: 1;
     }
   }
-  .navbar-bulb, .navbar-more-bulb { display: block; }
+
+  .navbar-bulb,
+  .navbar-more-bulb { display: block; }
 }

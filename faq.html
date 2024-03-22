@@ -10,8 +10,8 @@ json-ld: faq
 <div class="faq">
   <section class="faq__main-content">
     <div class="wrapper">
-      <h2 class="title-2">{{site.data.faq.title}}</h2>
-      <p class="faq__description title-3">{{site.data.faq.description}}</p>
+      <h2 class="header-3">{{site.data.faq.title}}</h2>
+      <p class="faq__description header-2">{{site.data.faq.description}}</p>
       <div class="faq__table" style="view-transition-name: faq;">
         {% for detail in site.data.faq.details %}
           <details class="">
@@ -21,11 +21,11 @@ json-ld: faq
             {% if detail.answer_list  %}
               {% for answer in detail.answer_list %}
                 <ul class="">
-                  <li class="base-content">{{answer.item}}</li>
+                  <li class="description">{{answer.item}}</li>
                 </ul>
               {% endfor %}
             {% else %}
-              <p class="base-content">{{ detail.answer }}</p>
+              <p class="description">{{ detail.answer }}</p>
             {% endif %}
           </div>
         {% endfor %}

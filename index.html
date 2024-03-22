@@ -60,11 +60,11 @@ json-ld: home
       <div class="index-technologies">
         <h2 class="header-3">{{ site.data.index.our_vision }}</h2>
         <h3 class="header-4">{{ site.data.index.care_about_your_projects }}</h3>
-        <div class="description justify index-technologies__description">
+        <div class="description text-justify index-technologies__description">
           {{ site.data.index.dedicated_developers }}
         </div>
         <h2 class="header-4">{{ site.data.index.core_technology }}</h2>
-        <div class="description justify index-technologies__description">
+        <div class="description text-justify index-technologies__description">
           {{ site.data.index.technologies_knowledge }}
         </div>
         <div class="header-3">{{ site.data.index.featured_technologies }}</div>
@@ -146,7 +146,7 @@ json-ld: home
       {% for item in site.data.index.solutions %}
         <div class="carousel-scroll__item" data-scroll="item">
           <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-            <h2 class="title-3 animate-visibility__title">{{ item.title }}</h2>
+            <h2 class="header-2 animate-visibility__title">{{ item.title }}</h2>
             <div class="animate-visibility__image without-margin">
               <img src="/assets/images/index/solutions/{{ item.logo }}" alt="Logo">
             </div>

@@ -1,23 +1,3 @@
-@keyframes slide-top {
-  0% {
-    margin-top: 0;
-  }
-
-  50% {
-    margin-top: -15px;
-    margin-bottom: 15px;
-  }
-
-  100% {
-    margin-top: 0;
-  }
-}
-
-body {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
 .home-page-container {
   position: relative;
   top: 40px;
@@ -42,7 +22,7 @@ body {
 
   .description {
     position: inherit;
-    max-width: 520px;
+    max-width: 700px;
     width: 100%;
     z-index: 1;
   }
@@ -76,19 +56,19 @@ body {
 }
 
 .index {
+  .description { font-size: 20px; }
+
   &-home {
     position: relative;
     z-index: 1;
 
-    .button { box-shadow: 2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0 rgba($dark_black, .15); }
+    .button { box-shadow: $light-purple-shadow; }
   }
 
-  &-testimonials {
-    &__header {
-      margin-bottom: 5vh;
-      padding: 0 2vw;
-      font-size: 1.7em;
-    }
+  &-testimonials__header {
+    margin-bottom: 5vh;
+    padding: 0 2vw;
+    font-size: 1.7em;
   }
 
   &-technologies {
@@ -99,6 +79,7 @@ body {
       .header-4  {
         margin: 7vh 0 4vh 0;
         padding: 0 5%;
+        font-family: 'Cera-Bold', serif;
       }
     }
 
@@ -123,14 +104,13 @@ body {
     }
 
     &__description {
-      text-align: justify;
-      font-family: 'Inria Bold', serif;
       padding: 0 !important;
+      font-family: 'Inria', serif;
+      font-size: 20px;
+      text-align: justify;
     }
 
-    &__title {
-      margin: 6vh 0 3vh 0;
-    }
+    &__title { margin: 6vh 0 3vh 0; }
 
     &__items {
       position: absolute;
@@ -140,8 +120,8 @@ body {
       padding: 5vw;
       overflow: hidden;
       background: linear-gradient(135deg, #EBDEF5, $main-lilac);
-      border-top: 1px solid rgba(0, 0, 0, 0.2);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      border-top: 1px solid rgba($dark_black, .2);
+      border-bottom: 1px solid rgba($dark_black, .2);
 
       img { width: 100%; }
 
@@ -163,9 +143,7 @@ body {
         }
       }
 
-      &::-webkit-scrollbar {
-        display: none;
-      }
+      &::-webkit-scrollbar { display: none; }
     }
 
     &__icon {
@@ -173,13 +151,11 @@ body {
       height: 40px;
     }
 
-    .header-3:last-child {
-      margin-top: 7vh;
-    }
+    .header-3:last-child { margin-top: 7vh; }
   }
 
   &-services {
-    background: $main-lilac;
+    background-color: $main-lilac;
 
     .header-3 { margin: 5vh; }
 
@@ -192,7 +168,6 @@ body {
       &__title-2 {
         font-family: 'Inria Bold', serif;
         font-size: 1.4em;
-        color: $purple-heart;
         line-height: 1.4em;
       }
 
@@ -219,7 +194,7 @@ body {
       color: $white;
     }
 
-    .button { box-shadow: 2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0 rgba($dark_black, .15); }
+    .button { box-shadow: $light-purple-shadow; }
   }
 
   &-solutions {
@@ -227,15 +202,12 @@ body {
     background: center/cover no-repeat url('/assets/images/index/solutions-photo.webp');
     background-color: $light-grey;
 
-    .animate-visibility__title.title-3 {
+    .animate-visibility__title.header-2 {
       font-family: 'Cera Regular';
       text-transform: uppercase;
     }
 
-    .blue-text {
-      display: inline;
-      color: $purple-heart;
-    }
+    .purple-text { display: inline; }
 
     .description { margin-top: 5vh; }
 
@@ -250,9 +222,7 @@ body {
 
   .header-2 { max-width: 100%; }
 
-  .index-solutions__items {
-    margin: 7vh auto 0 auto;
-  }
+  .index-solutions__items { margin: 7vh auto 0 auto; }
 
   .index-solutions__button {
     margin-top: 1vh;
@@ -320,8 +290,10 @@ body {
   }
 
   .index {
+    .description { font-size: 14px; }
+
     &-home {
-      .index-testimonials__header { padding: 0 10%; }
+      .index-testimonials__header { padding: 0 10px; }
 
       .description.with-padding {
         font-size: .75em;
@@ -386,8 +358,8 @@ body {
           position: relative;
           margin: 0 auto;
           max-width: 340px;
-          -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%, black 100%);
-          mask-image: linear-gradient(to top, transparent 0%, black 50%, black 100%);
+          -webkit-mask-image: linear-gradient(to top, transparent 0%, $dark_black 50%, $dark_black 100%);
+          mask-image: linear-gradient(to top, transparent 0%, $dark_black 50%, $dark_black 100%);
 
           &::before {
             content: "";
@@ -506,10 +478,6 @@ body {
     &-technologies__container .header-4 {
       margin: 5vh 0 2.5vh 0;
       padding: 0 15%;
-    }
-
-    table.technologies {
-      tr td svg { height: 3vh; }
     }
 
     &-services {

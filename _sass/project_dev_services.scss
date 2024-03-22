@@ -1,6 +1,6 @@
 .project_dev_services {
   .header-2 {
-    font-size: 1.25em;
+    font-size: 22px;
     max-width: 80%;
   }
 
@@ -145,7 +145,7 @@
 
 @media screen and (max-width: 700px) {
   .project_dev_services {
-    .header-2 { font-size: .85em; }
+    .header-2 { font-size: 1em; }
 
     &__main .list-with-images.horizontal:not(:last-child) {
       .list-with-images__item,

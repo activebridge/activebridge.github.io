@@ -9,7 +9,7 @@ testimonials_description: Each client’s business, problems, and ideas require 
                           our passion for Ruby on Rails and add-ones technologies and our expertise in development
                           enable us to identify and execute the right solutions for each unique customer need.
 read_testimonials: Read all testimonials
-our_vision: 'Our vision: professional team as a service'
+our_vision: 'Our vision:<br> professional team as a service'
 care_about_your_projects: We care about your project, users, profit, and growth. We are ready to fill the technology
                           gap in your business and share our expertise.
 dedicated_developers: Active Bridge provides dedicated full-stack developers to help our clients scale their projects
@@ -63,17 +63,17 @@ view_all_solutions: View all solutions
 solutions:
 - logo: healthcare.webp
   title: Healthcare & HIPPA HealthTech
-  description: Active Bridge provides end-to-end custom <span class="blue-text">web development solutions</span> for non-financial
+  description: Active Bridge provides end-to-end custom <span class="purple-text">web development solutions</span> for non-financial
                businesses, fintech organizations, and banks.
   index: 1
 - logo: bank.webp
   title: Finance & Banking
-  description: 'Active Bridge provides end-to-end <span class="blue-text">custom web development solutions</span> for non-financial
+  description: 'Active Bridge provides end-to-end <span class="purple-text">custom web development solutions</span> for non-financial
                 businesses, fintech organizations, and banks.'
   index: 2
 - logo: insurtech.webp
   title: InsurTech
-  description: Active Bridge’s industry-specific <span class="blue-text">Ruby on Rails development solutions</span> are powered
+  description: Active Bridge’s industry-specific <span class="purple-text">Ruby on Rails development solutions</span> are powered
                by expertise gained during 10 years of providing programming services for insurance companies.
   index: 3
 awards:

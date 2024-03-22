@@ -1,17 +1,18 @@
 .development {
-  .blue-text { color: $purple-heart; }
-
   .header-2 {
     max-width: 100%;
     line-height: 1.5;
   }
 
-  .description { text-align: justify; }
+  .large-header { font-size: 30px; }
+
+  .description {
+    text-align: justify;
+    font-size: 18px;
+  }
 
   .list-with-images {
     margin: 8vh 0;
-
-    .header-2 { font-size: 1.25em; }
 
     &__item {
       margin-bottom: 3vh;
@@ -68,7 +69,7 @@
 
         &__description {
           margin: 25px 0;
-          font-size: .9em;
+          font-size: 16px;
           line-height: 1.4;
           text-align: justify;
         }
@@ -109,13 +110,16 @@
       background-image: linear-gradient(to top, $buzok, $white);
 
       .header-2,
-      .card__title-2 { font-size: 18px; }
+      .card__title-2 { font-size: 16px; }
 
       .cards-container {
         .card {
           &:not(:last-child) { margin-bottom: 3vh; }
 
-          &__description { margin: 30px 10px 15px; }
+          &__description {
+            margin: 30px 10px 15px;
+            font-size: 12px;
+          }
 
           &__icon img { max-width: 90px; }
 
@@ -144,5 +148,13 @@
 @media screen and (min-width: 1550px) {
   .development__cards .cards-container .card {
     padding: 55px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .development {
+    .large-header { font-size: 18px; }
+
+    .description { font-size: .8em }
   }
 }

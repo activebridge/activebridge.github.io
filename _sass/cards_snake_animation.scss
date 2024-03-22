@@ -9,7 +9,8 @@
   }
 }
 
-.solutions__project-development, .staff_augmentation_services__process {
+.solutions__project-development,
+.staff_augmentation_services__process {
   .desktop-svg {
     bottom: 19%;
     height: 70%;
@@ -32,30 +33,26 @@
 }
 
 .mob_dev_services__approaches {
-  .desktop-svg{
+  .desktop-svg {
     height: 90%;
     top: 2%;
   }
 }
 
 .project_dev_services__workflow {
-  .desktop-svg{
+  .desktop-svg {
     height: 90%;
     bottom: 8%;
   }
 }
 
 @media (max-width: 1000px) {
-  .animated-cards{
-    .desktop-svg {
-      width: 80%;
-    }
+  .animated-cards {
+    .desktop-svg { width: 80%; }
   }
 
   .services__approaches {
-    .desktop-svg{
-      width: 55%;
-    }
+    .desktop-svg { width: 55%; }
   }
 }
 

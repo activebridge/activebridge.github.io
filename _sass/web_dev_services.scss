@@ -20,7 +20,7 @@
     &-text {
       margin: 0;
       padding-left: 8em;
-      font-size: 1.1em;
+      font-size: 18px;
       text-align: justify;
     }
 
@@ -82,7 +82,7 @@
         position: relative;
         margin-bottom: 1.5em;
         color: $white;
-        font-size: 1.1em;
+        font-size: 18px;
         line-height: 1.8;
         text-align: justify;
 
@@ -159,6 +159,7 @@
       background: linear-gradient(135deg, $main-violet, $purple-heart);
       border-color: $kviten;
       margin-bottom: 10px;
+
       p { -webkit-text-fill-color: $white; }
     }
   }
@@ -174,7 +175,7 @@
       max-width: 470px;
       box-sizing: border-box;
 
-      &:hover { color: black;}
+      &:hover { color: $black;}
     }
   }
 
@@ -189,6 +190,8 @@
 
 @media screen and (max-width: 700px) {
   .web_dev_services {
+    .header-2 { font-size: 18px; }
+
     &__list {
       .header-3 { font-size: 1.2em; }
 
@@ -199,7 +202,7 @@
 
       &-text {
         padding-inline-start: 1em;
-        font-size: 0.9em;
+        font-size: .8em;
 
         &.list_with_columns {
           columns: 2;
@@ -235,7 +238,7 @@
         padding-inline-start: 0;
 
         &-item {
-          font-size: .9em;
+          font-size: .8em;
           margin-top: 10vh;
           margin-bottom: 10vh;
 
@@ -254,13 +257,9 @@
       .button { margin-top: 4vh; }
     }
 
-    &__solutions {
-      .about_us_info__item { width: 45%; }
-    }
+    &__solutions .about_us_info__item { width: 45%; }
 
-    &__our_approach {
-      .header-2 { margin-bottom: 3vh; }
-    }
+    &__our_approach .header-2 { margin-bottom: 3vh; }
 
     &__industries #web_dev_button { max-width: 300px; }
   }
