@@ -12,6 +12,7 @@
 
   .description {
     margin: 0 auto;
+    color: $dark_black;
     position: inherit;
     max-width: 700px;
     width: 100%;
@@ -22,6 +23,7 @@
   .button {
     background: rgba(var(--rgba-white), .4);
     color: $dark_black;
+
     &:hover { color: var(--black); }
   }
 }
