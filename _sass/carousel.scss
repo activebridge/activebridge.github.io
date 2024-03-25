@@ -100,7 +100,13 @@
 .animate-visibility {
   overflow-y: hidden;
 
-  &__title.header-2 { font-size: 18px; }
+  &__title {
+    font-family: 'Inria Bold', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 
   .italic { font-style: italic; }
 
@@ -185,7 +191,7 @@
   }
 
   .animate-visibility {
-    &__title.header-2 { font-size: 12px; }
+    &__title { font-size: 12px; }
 
     &__description {
       font-size: 9px;
