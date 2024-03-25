@@ -1,9 +1,11 @@
 <div class="carousel-scroll" >
   <div id="page-carousel" class="carousel-scroll__scroller">
+    <div class="frame"></div>
+    <div class="frame"></div>
     {% for item in site.data.solutions.industries.applications %}
       <div class="carousel-scroll__item" data-scroll="item">
         <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-          <h2 class="header-2 animate-visibility__title">{{ item.title }}</h2>
+          <h2 class="animate-visibility__title">{{ item.title }}</h2>
           <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
           <div class="animate-visibility__button">
             <a class="button" href="{{ item.link }}">{{site.data.solutions.industries.more_button}}</a>
@@ -11,6 +13,8 @@
         </div>
       </div>
     {% endfor %}
+    <div class="frame"></div>
+    <div class="frame"></div>
   </div>
   <div class="magnifying-overlay"></div>
 </div>
