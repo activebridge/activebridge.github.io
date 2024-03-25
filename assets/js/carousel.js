@@ -21,74 +21,9 @@ function setCarousel(nodeElement) {
     })
   }
   setElements();
-  items.length <= 6 && (setElements(), setElements());
+  items.length <= 6 && (setElements(), setElements(), setElements());
 
-  setTimeout(function() {
-    scroller.scroll({ left: scroller.scrollLeft + scroller.children[1].offsetWidth, behavior: "smooth", });
-  }, 50);
-
-  const updateScale = () => {
-    let items = scroller.querySelectorAll('[data-scroll="item"]');
-    items.forEach((item, index) => {
-      if (isElementUnderWindow(item)) {
-        item.classList.add('scaling-up');
-      } else {
-        item.classList.remove('scaling-up');
-      }
-    });
-  };
-
-  function isElementUnderWindow(element) {
-    const windowRect = scroller.parentElement.querySelector('.magnifying-overlay').getBoundingClientRect();
-    const elementRect = element.getBoundingClientRect();
-    return elementRect.left < windowRect.right && elementRect.right > windowRect.left;
-  }
-
-  function updateSort(scroller) {
-    let scrollWidth = scroller.scrollWidth;
-    let scrollLeft = scroller.scrollLeft;
-    let width = scroller.offsetWidth;
-    let items = scroller.querySelectorAll('[data-scroll="item"]');
-
-    if (scrollLeft <= items[0].offsetWidth*4){
-      scroller.style.overflow = 'hidden';
-
-      copyOfItems.forEach((item) => {
-        scroller.insertBefore(item.cloneNode(true), items[0]);
-        scroller.removeChild(scroller.children[scroller.children.length -1]);
-      })
-
-      setTimeout(function() {
-        scroller.style.overflow = 'scroll';
-      });
-    }
-
-    if (scrollLeft + width >= scrollWidth - items[0].offsetWidth*4) {
-      scroller.style.overflow = 'hidden';
-
-      reverseNewItems.forEach((item) => {
-        scroller.insertBefore(item.cloneNode(true), items[items.length-1].nextSibling);
-        scroller.removeChild(scroller.children[1]);
-      })
-
-      setTimeout(function() {
-        scroller.style.overflow = 'scroll';
-      });
-    }
-  }
-
-  let lastscroll;
-
-  scroller.addEventListener("scroll", function() {
-    let el = this;
-
-    clearTimeout(lastscroll);
-    lastscroll = setTimeout(function() {
-      updateSort(el);
-
-      if (!CSS.supports('animation-timeline: --item')) { updateScale(); }
-    }, 60);
-  });
+  scroller.scrollLeft = 2000;
 
   scroller.addEventListener("click", event => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -101,5 +36,53 @@ function setCarousel(nodeElement) {
       scroller.scroll({ left: scroller.scrollLeft - scroller.children[1].offsetWidth, behavior: "smooth", });
     }
   });
-  updateSort(scroller);
+
+  const addFrameElements = () => {
+    let items = Array.from(scroller.querySelectorAll('[data-scroll="item"]'));
+    scroller.firstElementChild.appendChild(items[items.length - 2].cloneNode(true));
+    scroller.children[1].appendChild(items[items.length - 1].cloneNode(true));
+    scroller.children[scroller.children.length -2].appendChild(items[0].cloneNode(true));
+    scroller.lastElementChild.appendChild(items[1].cloneNode(true));
+  }
+  addFrameElements();
+
+  function checkElementUnderWindow() {
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        entry.target.classList.toggle('scaling-up', entry.isIntersecting);
+      })
+    }, {
+      root: scroller,
+      rootMargin: "-100px",
+      threshold: 1,
+    })
+    Array.from(scroller.children).forEach(div => observer.observe(div));
+  }
+  if (!CSS.supports('animation-timeline: --item')) { checkElementUnderWindow(); }
+
+  const setHiddden = () => { scroller.style.overflow = 'hidden'; };
+  const setScroll = () => { scroller.style.overflow = 'scroll'; };
+
+  function observeElements() {
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && entry.target === scroller.children[scroller.children.length-1] && entry.isIntersecting) {
+          setHiddden();
+          scroller.children[1].scrollIntoView({ behavior: "instant", block: "nearest", inline: "nearest" });
+          setTimeout(function() { setScroll() }, 100);
+        } else if (entry.isIntersecting && entry.target === scroller.firstElementChild) {
+          setHiddden();
+          scroller.children[scroller.children.length-3].scrollIntoView({ behavior: "instant", block: "nearest", inline: "nearest" });
+          setTimeout(function() { setScroll() }, 100);
+        }
+      })
+    }, {
+      root: null,
+      rootMargin: "-50px",
+      threshold: 0.2,
+    })
+    Array.from(scroller.children).forEach(div => observer.observe(div));
+  }
+
+  observeElements();
 }

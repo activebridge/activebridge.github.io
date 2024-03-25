@@ -1,19 +1,23 @@
 <div class="carousel-scroll" >
   <div id="page-carousel" class="carousel-scroll__scroller">
-  {% for item in site.data.testimonials.all %}
-    <div class="carousel-scroll__item" data-scroll="item">
-      <div class="carousel-scroll__animate-visibility animate-visibility with-opacity testimonials">
-        <h2 class="header-2 animate-visibility__title">{{ item.title }}</h2>
-        <div class="animate-visibility__image">
-          <img src="{{ item.image }}" alt="Logo">
+    <div class="frame"></div>
+    <div class="frame"></div>
+    {% for item in site.data.testimonials.all %}
+      <div class="carousel-scroll__item" data-scroll="item">
+        <div class="carousel-scroll__animate-visibility animate-visibility with-opacity testimonials">
+          <h2 class="header-2 animate-visibility__title">{{ item.title }}</h2>
+          <div class="animate-visibility__image">
+            <img src="{{ item.image }}" alt="Logo">
+          </div>
+          <div class="animate-visibility__image without-margin">
+            {% include svgs/testimonials/{{ item.logo }} %}
+          </div>
+          <div class="animate-visibility__description"><p>{{ item.description}}</p></div>
         </div>
-        <div class="animate-visibility__image without-margin">
-          {% include svgs/testimonials/{{ item.logo }} %}
-        </div>
-        <div class="animate-visibility__description"><p>{{ item.description}}</p></div>
       </div>
-    </div>
-  {% endfor %}
+    {% endfor %}
+    <div class="frame"></div>
+    <div class="frame"></div>
   </div>
   <div class="magnifying-overlay"></div>
 </div>
