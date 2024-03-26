@@ -194,27 +194,3 @@
     .timeline-item__icon::before { background-color: $main-violet; }
   }
 }
-
-@media screen and (min-width: 1550px) {
-  .project_dev_services {
-    &__key_benefits {
-      .list-with-images.horizontal {
-        max-width: 1000px;
-        margin: 5vh auto auto;
-      }
-
-      .header-2.with-margin {
-        max-width: 70%;
-        margin-top: 0
-      }
-    }
-
-    .development__cards {
-      .header-2 {
-        max-width: 70%;
-        margin-top: 0;
-        margin-bottom: 100px;
-      }
-    }
-  }
-}

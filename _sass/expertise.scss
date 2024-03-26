@@ -295,18 +295,3 @@
     }
   }
 }
-
-@media screen and (min-width: 1550px) {
-  .chart-container {
-    .chart-bar__item { padding: 2vh 1vw; }
-
-    .chart__item-color {
-      width: 65px;
-      height: 65px;
-    }
-  }
-
-  .expertise {
-    &__tell-us { min-height: 60vh; }
-  }
-}

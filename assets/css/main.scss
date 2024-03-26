@@ -219,13 +219,6 @@ ul, ol { margin-left: 0; }
 
 .wrap { padding: 8vh 0; }
 
-@media (max-width: 1550px) {
-  .wrap {
-    padding-top: 7vh;
-    padding-bottom: 7vh;
-  }
-}
-
 @keyframes fill {
   0% {
     width: 0%;
