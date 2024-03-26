@@ -148,7 +148,7 @@
   }
 }
 
-@media (max-width: 890px) {
+@media (max-width: 930px) {
   .footer {
     .contact-info {
       padding: 4vh 5% 10vh 5%;
@@ -218,12 +218,5 @@
         text-align: center;
       }
     }
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 890px) {
-  .footer__navigation-copyright.desktop-only  {
-    display: block !important;
-    margin: auto;
   }
 }

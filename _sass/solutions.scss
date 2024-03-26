@@ -204,7 +204,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   .solutions {
     &__main {
       padding: 55px 0 40px 0;
@@ -315,8 +315,4 @@
 
     &__staff-augmentation .timeline-item__icon::before { background-color: $kviten; }
   }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-  .solutions .timeline_processes { bottom: 7%; }
 }

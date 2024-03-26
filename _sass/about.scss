@@ -238,11 +238,9 @@
   &__items { display: flex; }
 }
 
-@media (max-width: 768px) {
- .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
-}
-
 @media (max-width: 767px) {
+ .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
+
   .about {
     .button { margin-top: 0; }
 

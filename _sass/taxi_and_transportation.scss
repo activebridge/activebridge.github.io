@@ -178,8 +178,22 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .taxi_and_transportation {
+    .list-with-images__item { margin-bottom: 35px; }
+
+    &__main { padding: 92px 0 15px 0; }
+
+    &__expertise { padding: 60px 0 76px 0; }
+
+    &__case_study { padding: 60px 0 51px 0; }
+
+    &__solutions {
+      padding: 39px 0 8px 0;
+
+      .header-2.with-margin { margin-bottom: 50px;}
+    }
+
     &__solutions .list-with-images__item {
       flex-direction: column;
       justify-content: center;
@@ -198,24 +212,6 @@
           max-width: 120px;
         }
       }
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .taxi_and_transportation {
-    .list-with-images__item { margin-bottom: 35px; }
-
-    &__main { padding: 92px 0 15px 0; }
-
-    &__expertise { padding: 60px 0 76px 0; }
-
-    &__case_study { padding: 60px 0 51px 0; }
-
-    &__solutions {
-      padding: 39px 0 8px 0;
-
-      .header-2.with-margin { margin-bottom: 50px;}
     }
 
     &__security {

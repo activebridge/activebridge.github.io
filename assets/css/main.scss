@@ -205,8 +205,8 @@ ul, ol { margin-left: 0; }
   &.index { padding: 0; }
 }
 
-.desktop-only  {
-  @media (max-width: 769px){
+.desktop-only {
+  @media (max-width: 767px){
     display: none!important;
   }
 }
@@ -259,9 +259,12 @@ b { font-family: "Cera-Bold", serif; }
   }
 }
 
-@media (max-width: 930px) { .main-svg { display: none;} }
+@media (max-width: 930px) {
+  .container { padding-top: 0; }
+  .main-svg { display: none;}
+}
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .body-content {
     display: flex;
     flex-direction: row;
@@ -322,8 +325,4 @@ b { font-family: "Cera-Bold", serif; }
   }
 
   .description.with-padding { padding: 0 8%; }
-}
-
-@media (max-width: 1024px) {
-  .container { padding-top: 0; }
 }
