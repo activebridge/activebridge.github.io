@@ -2,7 +2,7 @@
   <div class="prev-next-posts-mob-title"><p>Read Also</p></div>
   <div class="posts prev-next-posts">
     {% assign current_index = -1 %}
-    {% assign posts_in_category = site.posts | where: 'categories', page.category %}
+    {% assign posts_in_category = site.posts | where: "categories", page.category | where_exp: "item", "item.hidden != true"%}
     {% assign number_of_posts = posts_in_category | size %}
 
     {% for post in posts_in_category %}

@@ -1,22 +1,22 @@
 ---
-author: Admin
-author-position: marketing director
+author: Alexey Verbivskyy
+author-position: "Lead Ruby on Rails developer / Dev Ops"
 background: product-and-sprint-backlogs-cover
 category: pm_team_management
-date: "2023-01-10"
+date: "2021-11-24"
 layout: post
-post-title: How Product and Sprint Backlogs Drive Working Functionality Early On
+post-id: what-do-you-know-about-digital-marketing-strategy
+post-title: "How Product and Sprint Backlogs Drive Working Functionality Early On"
+popular: true
 time-to-read: 4 min
 scripts: [post]
-post-id: what-do-you-know-about-digital-marketing-strategy
-popular: true
 
-# Only for SEO
-author-url: "link to author linkedin"
-title: How Product and Sprint Backlogs
-description: How Product and Sprint Backlogs Add Value to a Product
-date-modified: "2024-01-10"
-article-body: This is the some main elements of the blog post
+author-url: ""
+article-body: ""
+date-modified: "2021-11-24"
+description: "The use of short development cycles called \"sprints\" perfectly aligns with the fast-paced nature of business
+             in the modern era"
+title: "How Product and Sprint Backlogs Add Value to a Product"
 ---
 
 Agile project management has grown in popularity significantly over the last ten years, and with good reason. The use of short development cycles called "sprints" perfectly aligns with the fast-paced nature of business in the modern era. Additionally, the drive for better performance, efficiency, and results in a world where approximately [66% of development projects fail](https://www.tiempodev.com/blog/why-software-development-projects-fail/ ), makes agile management methods attractive to most businesses. 
@@ -133,7 +133,7 @@ To work effectively with the Sprint Backlog, the team must regularly monitor cur
 
 By now, you're all clued up on how to implement Product and Sprint Backlogs! You have the tools you need to follow agile methodology principles in a way that drives results. And you should be able to plan a dynamic and robust development project successfully. 
 
-Not done learning? If you want to learn more about agile project management tools, read ["What is BDD, and when does this approach really work?"](https://activebridge.org/blog/when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company)
+Not done learning? If you want to learn more about agile project management tools, read ["What is BDD, and when does this approach really work?"]({% post_url 2021-11-19-when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company %})
 
 When creating a Product Backlog and Sprint Backlog, it's crucial to have the right team and the right tools. If you have questions about building a Scrum team and agile development methodology, our team can help.
 
