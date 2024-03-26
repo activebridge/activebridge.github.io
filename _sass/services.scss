@@ -20,9 +20,10 @@
     .card {
       background: rgba($white, .4);
       z-index: 1;
-
+      max-width: 353px;
+      min-width: 350px;
+      padding: 3vh;
       &__description { font-size: 1em; }
-
       &__title-2 { font-size: 1.25em; }
     }
   }
@@ -211,13 +212,5 @@
         }
       }
     }
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .services .cards-container .card {
-    max-width: 360px;
-    min-width: 350px;
-    padding: 3vh;
   }
 }

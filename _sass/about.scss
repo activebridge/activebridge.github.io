@@ -238,11 +238,9 @@
   &__items { display: flex; }
 }
 
-@media (max-width: 768px) {
- .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
-}
-
 @media (max-width: 767px) {
+ .info-container:first-child { background: left 0%/250% 100% no-repeat url('/assets/images/about/about-bg-2.webp'); }
+
   .about {
     .button { margin-top: 0; }
 
@@ -351,40 +349,6 @@
       width: 60px;
 
       p { font-size: 25px;}
-    }
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .about {
-    &__benefits {
-      .accordion__item {
-        &-text { padding: 4vh 9vh 4vh; }
-
-        &-top { padding: 1em; }
-      }
-    }
-
-    &__key-facts {
-      &-item {
-        margin-bottom: 2vh;
-
-        &-img svg { width: 13vh; }
-
-        &-title { margin-bottom: 2vh; }
-      }
-
-      h2.header-2 {
-        margin-bottom: 3vh;
-        margin-top: 3vh;
-      }
-    }
-
-    &__culture {
-      min-height: 60vh;
-      max-height: 60vh;
-
-      .wrapper { min-height: 60vh; }
     }
   }
 }

@@ -429,7 +429,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   .blog {
     &__main-block {
       background: linear-gradient(180deg, $kviten 0%, $white 75.52%);
@@ -534,7 +534,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .blog { &__main-block { padding-top: 60px; }}
 
   .prev-next-posts {

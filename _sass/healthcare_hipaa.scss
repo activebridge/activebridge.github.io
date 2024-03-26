@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .healthcare_hipaa {
     &__main {
       background: linear-gradient($sky-ua, rgba($sky-ua, .5), $white);

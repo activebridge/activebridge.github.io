@@ -114,7 +114,7 @@ header {
   }
 }
 
-@media (min-width: 769px) and (hover: hover) {
+@media (min-width: 768px) and (hover: hover) {
   .header-navbar {
     &__item:hover .header-navbar__subitems {
       min-width: 100%;
@@ -158,7 +158,7 @@ header {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   header {
     background-color: inherit;
     box-shadow: none;

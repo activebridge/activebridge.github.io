@@ -52,7 +52,7 @@
       margin-bottom: 0;
 
       .card {
-        max-width: 330px;
+        max-width: 353px;
         height: auto;
         box-sizing: border-box;
         display: flex;
@@ -98,7 +98,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .development {
     &__awards img {
       padding-bottom: 3vh;
@@ -142,12 +142,6 @@
         line-height: 1.5;
       }
     }
-  }
-}
-
-@media screen and (min-width: 1550px) {
-  .development__cards .cards-container .card {
-    padding: 55px 40px;
   }
 }
 
