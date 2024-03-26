@@ -5,6 +5,7 @@ background: how-easily-integrate-rails-actioncable-into-your-angular2-ionic2-app
 category: engineering
 date: "2016-12-01"
 layout: post
+permalink: blog/:title
 post-id: how-easily-integrate-rails-actioncable-into-your-angular2-ionic2-application
 post-title: "How easily integrate Rails' ActionCable into your Angular2/ionic2 application"
 time-to-read: 9 min

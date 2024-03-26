@@ -5,6 +5,7 @@ background: clutch-co-active-bridge-is-a-top-arizona-it-services-provider-back
 category: pm_team_management
 date: "2019-06-10"
 layout: post
+permalink: blog/:title
 post-id: clutch-co-active-bridge-is-a-top-arizona-it-services-provider
 post-title: "Clutch.co: Active Bridge is a Top Arizona IT Services Provider"
 time-to-read: 2 min

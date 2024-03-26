@@ -5,6 +5,7 @@ background: what-is-the-most-profitable-saas-pricing-model-how-to-choose-the-bes
 category: engineering
 date: "2022-04-27"
 layout: post
+permalink: blog/:title
 post-id: what-is-the-most-profitable-saas-pricing-model-how-to-choose-the-best-payment-system
 post-title: "What Is the Most Profitable SaaS Pricing Model? How To Choose the Best Payment System"
 time-to-read: 7 min

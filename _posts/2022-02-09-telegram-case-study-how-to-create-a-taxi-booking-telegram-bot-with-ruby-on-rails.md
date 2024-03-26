@@ -5,6 +5,7 @@ background: telegram-case-study-how-to-create-a-taxi-booking-telegram-bot-with-r
 category: engineering
 date: "2022-02-09"
 layout: post
+permalink: blog/:title
 post-id: telegram-case-study-how-to-create-a-taxi-booking-telegram-bot-with-ruby-on-rails
 post-title: "Telegram Case Study - How To Create a Taxi Booking Telegram Bot With Ruby on Rails"
 time-to-read: 6 min

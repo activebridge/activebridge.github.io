@@ -5,6 +5,7 @@ background: how-to-manage-remote-teams-of-developers-effectively-tips-from-pms-a
 category: pm_team_management
 date: "2021-10-20"
 layout: post
+permalink: blog/:title
 post-id: how-to-manage-remote-teams-of-developers-effectively-tips-from-pms-and-team-leads
 post-title: "How To Manage Remote Teams of Developers Effectively: Tips From PMS and Team Leads"
 time-to-read: 6 min

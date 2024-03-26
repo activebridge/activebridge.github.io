@@ -5,6 +5,7 @@ background: how-expensive-will-it-be-to-hire-ukrainian-web-developers-in-2017-ba
 category: engineering
 date: "2017-07-19"
 layout: post
+permalink: blog/:title
 post-id: how-expensive-will-it-be-to-hire-ukrainian-web-developers-in-2017
 post-title: "How Expensive Will It Be to Hire Ukrainian Web Developers in 2017?"
 time-to-read: 5 min

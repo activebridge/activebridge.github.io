@@ -5,6 +5,7 @@ background: what-do-you-know-about-digital-marketing-strategy-back
 category: business_growth
 date: "2017-02-01"
 layout: post
+permalink: blog/:title
 post-id: what-do-you-know-about-digital-marketing-strategy
 post-title: "What do you know about digital marketing strategy?"
 time-to-read: 4 min

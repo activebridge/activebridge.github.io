@@ -5,6 +5,7 @@ background: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery
 category: engineering
 date: "2022-10-17"
 layout: post
+permalink: blog/:title
 post-id: from-discovery-to-launch-the-ultimate-guide-to-the-project-discovery-phase
 post-title: "From Discovery To Launch – The Ultimate Guide to the Project Discovery Phase"
 popular: true

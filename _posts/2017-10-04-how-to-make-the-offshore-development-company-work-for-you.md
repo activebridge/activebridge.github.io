@@ -5,6 +5,7 @@ background: how-to-make-the-offshore-development-company-work-for-you-back
 category: pm_team_management
 date: "2017-10-04"
 layout: post
+permalink: blog/:title
 post-id: how-to-make-the-offshore-development-company-work-for-you
 post-title: "How to Make the Offshore Development Company Work for You"
 time-to-read: 2 min

@@ -5,6 +5,7 @@ background: three-main-factors-influencing-on-bounce-rate-and-conversion-accordi
 category: business_growth
 date: "2017-05-30"
 layout: post
+permalink: blog/:title
 post-id: three-main-factors-influencing-on-bounce-rate-and-conversion-according-to-machine-learning-determination
 post-title: "Three Main Factors Influencing on Bounce Rate and Conversion"
 time-to-read: 5 min

@@ -5,6 +5,7 @@ background: web-development-services-survey-back
 category: pm_team_management
 date: "2017-12-13"
 layout: post
+permalink: blog/:title
 post-id: web-development-services-survey
 post-title: "Active Bridge Team's Survey. Web Development Services"
 time-to-read: 5 min

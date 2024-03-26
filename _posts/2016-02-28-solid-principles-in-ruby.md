@@ -5,6 +5,7 @@ background: solid-principles-in-ruby-back
 category: engineering
 date: "2016-02-28"
 layout: post
+permalink: blog/:title
 post-id: solid-principles-in-ruby
 post-title: "SOLID Principles in Ruby"
 time-to-read: 5 min

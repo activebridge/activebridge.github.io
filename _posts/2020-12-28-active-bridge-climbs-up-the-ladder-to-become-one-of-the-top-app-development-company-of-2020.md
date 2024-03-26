@@ -5,6 +5,7 @@ background: active-bridge-climbs-up-the-ladder-to-become-one-of-the-top-app-deve
 category: pm_team_management
 date: "2020-12-28"
 layout: post
+permalink: blog/:title
 post-id: active-bridge-climbs-up-the-ladder-to-become-one-of-the-top-app-development-company-of-2020
 post-title: "Active Bridge climbs up the ladder to become one of the Top App Development Company of 2020"
 time-to-read: 2 min

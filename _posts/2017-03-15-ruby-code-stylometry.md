@@ -5,6 +5,7 @@ background: ruby-code-stylometry-back
 category: engineering
 date: "2017-03-15"
 layout: post
+permalink: blog/:title
 post-id: ruby-code-stylometry
 post-title: "How to Provide Developer Code Writing De-anonymization"
 time-to-read: 2 min

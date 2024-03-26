@@ -5,6 +5,7 @@ background: why-active-bridge-named-a-world-class-developer-back
 category: business_growth
 date: "2018-05-29"
 layout: post
+permalink: blog/:title
 post-id: why-active-bridge-named-a-world-class-developer
 post-title: "Why Active Bridge Named a World Class Developer"
 time-to-read: 2 min

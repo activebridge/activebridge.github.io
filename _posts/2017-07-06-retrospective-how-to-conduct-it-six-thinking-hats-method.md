@@ -5,6 +5,7 @@ background: retrospective-how-to-conduct-it-six-thinking-hats-method-back
 category: pm_team_management
 date: "2017-07-06"
 layout: post
+permalink: blog/:title
 post-id: retrospective-how-to-conduct-it-six-thinking-hats-method
 post-title: "Retrospective. How to conduct it? Six Thinking Hats Method"
 time-to-read: 2 min

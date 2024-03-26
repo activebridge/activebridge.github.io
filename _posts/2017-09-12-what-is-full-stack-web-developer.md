@@ -5,6 +5,7 @@ background: what-is-full-stack-web-developer-back
 category: engineering
 date: "2017-09-12"
 layout: post
+permalink: blog/:title
 post-id: what-is-full-stack-web-developer
 post-title: "Can't Make Out What is Full-Stack Web Developer? Read it"
 time-to-read: 4 min

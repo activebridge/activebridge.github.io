@@ -5,6 +5,7 @@ background: ux-research-methods-to-build-a-product-that-users-really-enjoy-back
 category: engineering
 date: "2021-10-28"
 layout: post
+permalink: blog/:title
 post-id: ux-research-methods-to-build-a-product-that-users-really-enjoy
 post-title: "UX research methods to build a product that users really enjoy"
 time-to-read: 4 min

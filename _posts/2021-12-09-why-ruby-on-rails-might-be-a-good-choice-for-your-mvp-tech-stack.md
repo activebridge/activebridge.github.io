@@ -5,6 +5,7 @@ background: why-ruby-on-rails-might-be-a-good-choice-for-your-mvp-tech-stack-bac
 category: engineering
 date: "2021-12-09"
 layout: post
+permalink: blog/:title
 post-id: why-ruby-on-rails-might-be-a-good-choice-for-your-mvp-tech-stack
 post-title: "Why Ruby on Rails might be a good choice for your MVP tech stack"
 time-to-read: 7 min

@@ -5,6 +5,7 @@ background: technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-
 category: engineering
 date: "2022-06-19"
 layout: post
+permalink: blog/:title
 post-id: technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-powerful-car-rental-application
 post-title: "Technical Case Study: How Active Bridge Overcame Hurdles To Create a Powerful Car Rental Application"
 time-to-read: 4 min

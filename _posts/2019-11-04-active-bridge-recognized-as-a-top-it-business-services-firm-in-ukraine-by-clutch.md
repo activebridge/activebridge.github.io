@@ -5,6 +5,7 @@ background: active-bridge-recognized-as-a-top-it-business-services-firm-in-ukrai
 category: pm_team_management
 date: "2019-11-04"
 layout: post
+permalink: blog/:title
 post-id: active-bridge-recognized-as-a-top-it-business-services-firm-in-ukraine-by-clutch
 post-title: "Active Bridge Recognized as a Top IT & Business Services Firm in Ukraine by Clutch"
 time-to-read: 2 min

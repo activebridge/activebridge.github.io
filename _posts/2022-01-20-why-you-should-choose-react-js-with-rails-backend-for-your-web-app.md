@@ -5,6 +5,7 @@ background: why-you-should-choose-react-js-with-rails-backend-for-your-web-app-b
 category: engineering
 date: "2022-01-20"
 layout: post
+permalink: blog/:title
 post-id: why-you-should-choose-react-js-with-rails-backend-for-your-web-app
 post-title: "Why You Should Choose React.js With Rails Backend for Your Web App"
 time-to-read: 5 min

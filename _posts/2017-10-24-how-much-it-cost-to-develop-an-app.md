@@ -5,6 +5,7 @@ background: how-much-it-cost-to-develop-an-app-back
 category: pm_team_management
 date: "2017-10-24"
 layout: post
+permalink: blog/:title
 post-id: how-much-it-cost-to-develop-an-app
 post-title: "Three steps to get clear app estimation"
 time-to-read: 2 min

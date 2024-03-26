@@ -5,6 +5,7 @@ background: clutch-identifies-active-bridge-as-leading-provider-in-web-developme
 category: engineering
 date: "2017-07-13"
 layout: post
+permalink: blog/:title
 post-id: clutch-identifies-active-bridge-as-leading-provider-in-web-development
 post-title: "Clutch Identifies Active Bridge as Leading Provider in Web Development"
 time-to-read: 2 min

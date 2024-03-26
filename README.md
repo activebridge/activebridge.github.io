@@ -33,6 +33,7 @@ To add a new post to your blog:
   date: "2024-01-01"
   description: This is an example description of a blog post
   layout: post
+  permalink: blog/:title
   post-id: unobtrusive-scripting-adapter-file-uploader
   title: Example Blog Post Title
   post-title: Post title
@@ -48,6 +49,7 @@ To add a new post to your blog:
 #### Details About Post Settings:
 * `background`: Specify the background image's name without its format, located in the `assets/images/blog/posts/<post.category-name>` directory. It will be used as the background image for the post card and for the SEO cover-image meta tag.
 * `category`: Choose one of the predefined categories, such as `engineering`, `business_growth`, `pm_team_management`, or `inside_ab`.
+* `permalink:`: Customizes the post's URL. The placeholder `:title` is replaced by the post's filename, stripped of its date (YYYY-MM-DD) prefix, to form the final URL.
 * `post-id`: Assign a unique identifier to your post, formatted as shown in the example.
 * `time-to-read`: An estimate of how long it will take to read the blog post, usually given in minutes.
 * `date`: The publication date of the blog post. It's important for sorting posts and should match the date in the post's filename.

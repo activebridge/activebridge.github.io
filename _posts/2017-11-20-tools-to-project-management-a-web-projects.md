@@ -5,6 +5,7 @@ background: tools-to-project-management-a-web-projects-back
 category: pm_team_management
 date: "2017-11-20"
 layout: post
+permalink: blog/:title
 post-id: tools-to-project-management-a-web-projects
 post-title: "Are You Using These Easy Tools to Manage a Typical Web Project?"
 time-to-read: 3 min

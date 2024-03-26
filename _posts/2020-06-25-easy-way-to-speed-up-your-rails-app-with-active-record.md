@@ -5,6 +5,7 @@ background: easy-way-to-speed-up-your-rails-app-with-active-record-back
 category: engineering
 date: "2020-06-25"
 layout: post
+permalink: blog/:title
 post-id: easy-way-to-speed-up-your-rails-app-with-active-record
 post-title: "Easy Way to Speed Up Your Rails App with Active Record"
 time-to-read: 5 min

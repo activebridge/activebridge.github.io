@@ -5,6 +5,7 @@ background: how-to-implement-nice-image-uploader-to-tinymce-back
 category: engineering
 date: "2016-06-21"
 layout: post
+permalink: blog/:title
 post-id: how-to-implement-nice-image-uploader-to-tinymce
 post-title: "How to implement nice image uploader to TinyMCE"
 time-to-read: 2 min

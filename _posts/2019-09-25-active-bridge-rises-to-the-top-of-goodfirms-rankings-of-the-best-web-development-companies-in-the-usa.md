@@ -5,6 +5,7 @@ background: active-bridge-rises-to-the-top-of-goodfirms-rankings-of-the-best-web
 category: engineering
 date: "2019-09-25"
 layout: post
+permalink: blog/:title
 post-id: active-bridge-rises-to-the-top-of-goodfirms-rankings-of-the-best-web-development-companies-in-the-usa
 post-title: "Active Bridge Rises to the Top of GoodFirms Rankings of the Best Web Development Companies in the USA"
 time-to-read: 2 min

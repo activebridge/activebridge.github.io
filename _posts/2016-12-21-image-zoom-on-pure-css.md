@@ -5,6 +5,7 @@ background: image-zoom-on-pure-css-back
 category: engineering
 date: "2016-12-21"
 layout: post
+permalink: blog/:title
 post-id: image-zoom-on-pure-css
 post-title: "How to zoom image with pure JavaScript"
 time-to-read: 3 min

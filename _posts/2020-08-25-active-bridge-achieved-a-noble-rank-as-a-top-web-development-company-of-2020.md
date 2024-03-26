@@ -5,6 +5,7 @@ background: active-bridge-achieved-a-noble-rank-as-a-top-web-development-company
 category: engineering
 date: "2020-08-25"
 layout: post
+permalink: blog/:title
 post-id: active-bridge-achieved-a-noble-rank-as-a-top-web-development-company-of-2020
 post-title: "Active Bridge achieved a noble rank as a top web development company of 2020"
 time-to-read: 2 min

@@ -5,6 +5,7 @@ background: how-agile-teams-fulfill-requirements-the-ultimate-agile-guide-back
 category: engineering
 date: "2022-05-24"
 layout: post
+permalink: blog/:title
 post-id: how-agile-teams-fulfill-requirements-the-ultimate-agile-guide
 post-title: "How Agile Teams Fulfill Requirements – The Ultimate Agile Guide"
 time-to-read: 8 min

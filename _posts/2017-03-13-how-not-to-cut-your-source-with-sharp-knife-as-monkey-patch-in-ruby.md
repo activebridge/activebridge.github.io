@@ -5,6 +5,7 @@ background: how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby-
 category: engineering
 date: "2017-03-13"
 layout: post
+permalink: blog/:title
 post-id: how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby
 post-title: "How not to cut your source with sharp knife as Monkey Patch in Ruby"
 time-to-read: 4 min

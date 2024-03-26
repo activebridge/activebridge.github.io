@@ -5,6 +5,7 @@ background: what-makes-a-good-project-manager-back
 category: pm_team_management
 date: "2016-11-09"
 layout: post
+permalink: blog/:title
 post-id: what-makes-a-good-project-manager
 post-title: "What makes a good Project Manager"
 time-to-read: 3 min

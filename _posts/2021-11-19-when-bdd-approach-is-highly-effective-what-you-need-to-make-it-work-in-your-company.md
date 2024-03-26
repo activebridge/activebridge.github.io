@@ -5,6 +5,7 @@ background: when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-
 category: engineering
 date: "2021-11-19"
 layout: post
+permalink: blog/:title
 post-id: when-bdd-approach-is-highly-effective-what-you-need-to-make-it-work-in-your-company
 post-title: "When BDD Approach is Highly Effective. What you need to make it Work in Your Company"
 time-to-read: 4 min

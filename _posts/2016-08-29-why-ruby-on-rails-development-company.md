@@ -5,6 +5,7 @@ background: why-ruby-on-rails-development-company-back
 category: pm_team_management
 date: "2016-08-29"
 layout: post
+permalink: blog/:title
 post-id: why-ruby-on-rails-development-company
 post-title: "Why Ruby on Rails development company"
 time-to-read: 2 min
