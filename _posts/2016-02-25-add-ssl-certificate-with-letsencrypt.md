@@ -9,6 +9,7 @@ post-id: add-ssl-certificate-with-letsencrypt
 post-title: "Add ssl certificate with letsencrypt"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

@@ -9,6 +9,7 @@ post-id: five-ways-to-keep-your-code-cleen
 post-title: "5 ways to keep your code clean"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

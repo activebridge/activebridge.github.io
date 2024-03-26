@@ -9,6 +9,7 @@ post-id: all-truth-about-dedicated-team
 post-title: "All Truth about Dedicated Team"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

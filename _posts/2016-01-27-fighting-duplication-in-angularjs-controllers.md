@@ -9,6 +9,7 @@ post-id: fighting-duplication-in-angularjs-controllers
 post-title: "Fighting duplication in AngularJS controllers"
 time-to-read: 4 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

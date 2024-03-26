@@ -9,6 +9,7 @@ post-id: how-to-add-database-constraint-validation-for-table
 post-title: "How to add database constraint validation for table"
 time-to-read: 5 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

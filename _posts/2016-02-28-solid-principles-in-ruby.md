@@ -9,6 +9,7 @@ post-id: solid-principles-in-ruby
 post-title: "SOLID Principles in Ruby"
 time-to-read: 5 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

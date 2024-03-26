@@ -9,6 +9,7 @@ post-id: rails-array-alternative-to-has_and_belongs_to_many
 post-title: "Rails array alternative to has_and_belongs_to_many"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

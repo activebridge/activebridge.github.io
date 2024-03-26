@@ -9,6 +9,7 @@ post-id: fighting-custom-actions-in-rails-controllers
 post-title: "FIGHTING CUSTOM ACTIONS IN RAILS CONTROLLERSC"
 time-to-read: 4 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

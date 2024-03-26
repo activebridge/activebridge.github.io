@@ -10,6 +10,7 @@ post-id: mvc-pattern-quick-review
 post-title: "MVC pattern. Quick review"
 time-to-read: 3 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

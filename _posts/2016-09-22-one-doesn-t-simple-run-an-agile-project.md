@@ -9,6 +9,7 @@ post-id: one-doesn-t-simple-run-an-agile-project
 post-title: "ONE DOESN'T SIMPLE RUN AN AGILE PROJECT"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

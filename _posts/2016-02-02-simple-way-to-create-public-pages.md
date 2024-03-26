@@ -9,6 +9,7 @@ post-id: simple-way-to-create-public-pages
 post-title: "Simple way to create public pages"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

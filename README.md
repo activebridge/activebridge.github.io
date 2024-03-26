@@ -39,6 +39,7 @@ To add a new post to your blog:
   time-to-read: 2 min
   scripts: [post]
   popular: true
+  hidden: true
   ---
 
   Content
@@ -56,6 +57,7 @@ To add a new post to your blog:
 * `layout`: It's crucial to use the exact layout specified for blog posts. Always use `layout: post` for blog posts to ensure your post is displayed correctly within the site's theme.
 * `scripts`: By default, use `[post]`. If your post requires additional specific JavaScript files, list them here without the `.js` extension. These files should be located in the `assets/js` directory. For example, to include a script named `example.js`, add it to the array like so: `scripts: [post, example]`. Follow the format shown in the example for proper script loading.
 * `popular`: An optional boolean value. If set to true, the post will be added to a "Popular Post" section on the website. If not needed, this setting can be omitted.
+* `hidden`: An optional boolean value. If set to true, the post will not show. If not needed, this setting can be omitted.
 
 
 ### SEO

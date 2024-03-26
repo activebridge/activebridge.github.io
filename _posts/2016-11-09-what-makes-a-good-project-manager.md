@@ -9,6 +9,7 @@ post-id: what-makes-a-good-project-manager
 post-title: "What makes a good Project Manager"
 time-to-read: 3 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

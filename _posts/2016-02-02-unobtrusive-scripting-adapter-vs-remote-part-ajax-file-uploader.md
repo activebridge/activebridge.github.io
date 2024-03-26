@@ -9,6 +9,7 @@ post-id: unobtrusive-scripting-adapter-vs-remote-part-ajax-file-uploader
 post-title: "Unobtrusive scripting adapter vs Remotipart"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

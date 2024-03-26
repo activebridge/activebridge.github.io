@@ -9,6 +9,7 @@ post-id: how-to-implement-nice-image-uploader-to-tinymce
 post-title: "How to implement nice image uploader to TinyMCE"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""

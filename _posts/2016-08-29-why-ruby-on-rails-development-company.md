@@ -9,6 +9,7 @@ post-id: why-ruby-on-rails-development-company
 post-title: "Why Ruby on Rails development company"
 time-to-read: 2 min
 scripts: [post]
+hidden: true
 
 author-url: ""
 article-body: ""
