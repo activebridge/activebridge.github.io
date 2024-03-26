@@ -5,6 +5,7 @@ background: the-guide-to-avoiding-failure-as-a-digital-health-startup-back
 category: engineering
 date: "2022-09-01"
 layout: post
+permalink: blog/:title
 post-id: the-guide-to-avoiding-failure-as-a-digital-health-startup
 post-title: "The Guide to Avoiding Failure as a Digital Health Startup"
 time-to-read: 2 min

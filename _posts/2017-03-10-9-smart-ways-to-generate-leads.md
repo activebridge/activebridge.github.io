@@ -5,6 +5,7 @@ background: 9-smart-ways-to-generate-leads-back
 category: business_growth
 date: "2017-03-10"
 layout: post
+permalink: blog/:title
 post-id: smart-ways-to-generate-leads
 post-title: "9 Smart Ways To Generate Leads"
 time-to-read: 3 min

@@ -5,6 +5,7 @@ background: why-you-should-choose-a-career-as-a-ruby-on-rails-developer-back
 category: engineering
 date: "2020-09-23"
 layout: post
+permalink: blog/:title
 post-id: why-you-should-choose-a-career-as-a-ruby-on-rails-developer
 post-title: "Why You Should Choose a Career as a Ruby on Rails Developer"
 time-to-read: 4 min

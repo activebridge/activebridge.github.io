@@ -5,6 +5,7 @@ background: add-ssl-certificate-with-letsencrypt-back
 category: engineering
 date: "2016-02-25"
 layout: post
+permalink: blog/:title
 post-id: add-ssl-certificate-with-letsencrypt
 post-title: "Add ssl certificate with letsencrypt"
 time-to-read: 2 min

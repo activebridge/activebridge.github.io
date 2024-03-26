@@ -5,6 +5,7 @@ background: fighting-custom-actions-in-rails-controllers-back
 category: engineering
 date: "2016-02-12"
 layout: post
+permalink: blog/:title
 post-id: fighting-custom-actions-in-rails-controllers
 post-title: "FIGHTING CUSTOM ACTIONS IN RAILS CONTROLLERSC"
 time-to-read: 4 min

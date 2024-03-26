@@ -5,6 +5,7 @@ background: vitaly-rules-google-oo-read-more-to-learn-about-language-spam-and-ho
 category: business_growth
 date: "2016-12-15"
 layout: post
+permalink: blog/:title
 post-id: vitaly-rules-google-oo-read-more-to-learn-about-language-spam-and-how-to-stop-it
 post-title: "Read more to learn about language spam and how to stop it"
 time-to-read: 3 min

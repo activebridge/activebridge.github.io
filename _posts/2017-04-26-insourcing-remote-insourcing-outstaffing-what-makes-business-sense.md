@@ -5,6 +5,7 @@ background: insourcing-remote-insourcing-outstaffing-what-makes-business-sense-b
 category: pm_team_management
 date: "2017-04-26"
 layout: post
+permalink: blog/:title
 post-id: insourcing-remote-insourcing-outstaffing-what-makes-business-sense
 post-title: "Insourcing, Remote - Insourcing, Outstaffing: what makes business sense"
 time-to-read: 2 min

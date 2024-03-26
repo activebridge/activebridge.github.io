@@ -5,6 +5,7 @@ background: is-your-healthcare-application-hipaa-compliant-back
 category: engineering
 date: "2021-12-23"
 layout: post
+permalink: blog/:title
 post-id: is-your-healthcare-application-hipaa-compliant
 post-title: "Why is it important to comply with HIPAA? HIPAA-compliant application features"
 time-to-read: 5 min

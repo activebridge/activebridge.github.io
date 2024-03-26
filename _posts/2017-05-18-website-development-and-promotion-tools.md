@@ -5,6 +5,7 @@ background: website-development-and-promotion-tools-back
 category: business_growth
 date: "2017-05-18"
 layout: post
+permalink: blog/:title
 post-id: website-development-and-promotion-tools
 post-title: "10 fresh tools that will be useful for website promotion"
 time-to-read: 2 min

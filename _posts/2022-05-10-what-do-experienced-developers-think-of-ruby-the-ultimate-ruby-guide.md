@@ -5,6 +5,7 @@ background: what-do-experienced-developers-think-of-ruby-the-ultimate-ruby-guide
 category: engineering
 date: "2022-05-10"
 layout: post
+permalink: blog/:title
 post-id: what-do-experienced-developers-think-of-ruby-the-ultimate-ruby-guide
 post-title: "What Do Experienced Developers Think of Ruby? The Ultimate Ruby Guide"
 time-to-read: 8 min

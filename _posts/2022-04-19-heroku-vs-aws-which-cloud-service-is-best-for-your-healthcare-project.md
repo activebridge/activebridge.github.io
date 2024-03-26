@@ -5,6 +5,7 @@ background: heroku-vs-aws-which-cloud-service-is-best-for-your-healthcare-projec
 category: engineering
 date: "2022-04-19"
 layout: post
+permalink: blog/:title
 post-id: heroku-vs-aws-which-cloud-service-is-best-for-your-healthcare-project
 post-title: "Heroku vs AWS: Which Cloud Service Is Best for Your Healthcare Project?"
 time-to-read: 4 min

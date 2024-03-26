@@ -5,6 +5,7 @@ background: finding-the-right-it-staff-augmentation-vendor-extended-guide-back
 category: pm_team_management
 date: "2020-03-23"
 layout: post
+permalink: blog/:title
 post-id: finding-the-right-it-staff-augmentation-vendor-extended-guide
 post-title: "Finding the Right IT Staff Augmentation Vendor. Extended guide"
 time-to-read: 9 min

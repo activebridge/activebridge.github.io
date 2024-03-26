@@ -5,6 +5,7 @@ background: extreme-programming-principals-for-web-development-back
 category: pm_team_management
 date: "2017-05-23"
 layout: post
+permalink: blog/:title
 post-id: extreme-programming-principals-for-web-development
 post-title: "Extreme Programming Principals that We Use to Achieve Success"
 time-to-read: 2 min

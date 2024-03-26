@@ -5,6 +5,7 @@ background: product-and-sprint-backlogs-cover
 category: pm_team_management
 date: "2021-11-24"
 layout: post
+permalink: blog/:title
 post-id: what-do-you-know-about-digital-marketing-strategy
 post-title: "How Product and Sprint Backlogs Drive Working Functionality Early On"
 popular: true

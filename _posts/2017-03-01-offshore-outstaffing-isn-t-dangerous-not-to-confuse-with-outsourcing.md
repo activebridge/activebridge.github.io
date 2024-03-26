@@ -5,6 +5,7 @@ background: offshore-outstaffing-isn-t-dangerous-not-to-confuse-with-outsourcing
 category: pm_team_management
 date: "2017-03-01"
 layout: post
+permalink: blog/:title
 post-id: offshore-outstaffing-isn-t-dangerous-not-to-confuse-with-outsourcing
 post-title: "Offshore Outstaffing isn't dangerous...not to confuse with outsourcing"
 time-to-read: 3 min

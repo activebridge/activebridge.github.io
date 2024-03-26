@@ -5,6 +5,7 @@ background: how-to-outsource-a-web-development-project-successfully-back
 category: pm_team_management
 date: "2017-06-14"
 layout: post
+permalink: blog/:title
 post-id: how-to-outsource-a-web-development-project-successfully
 post-title: "How to Outsource a Web Development Project Successfully"
 time-to-read: 2 min

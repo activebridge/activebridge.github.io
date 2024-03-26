@@ -5,6 +5,7 @@ background: is-the-hiring-ruby-on-rails-developer-challenge-back
 category: pm_team_management
 date: "2016-08-01"
 layout: post
+permalink: blog/:title
 post-id: is-the-hiring-ruby-on-rails-developer-challenge
 post-title: "Is the hiring of Ruby on Rails developer a challenge?"
 time-to-read: 2 min

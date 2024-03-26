@@ -5,6 +5,7 @@ background: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation
 category: engineering
 date: "2022-09-19"
 layout: post
+permalink: blog/:title
 post-id: outsourcing-your-it-project-the-ultimate-guide-to-project-estimation
 post-title: "Outsourcing Your IT Project? The Ultimate Guide to Project Estimation"
 popular: true

@@ -5,6 +5,7 @@ background: how-to-determine-that-you-need-refresh-your-website-checklist-back
 category: business_growth
 date: "2017-08-25"
 layout: post
+permalink: blog/:title
 post-id: how-to-determine-that-you-need-refresh-your-website-checklist
 post-title: "How to Determine That You Need a Website Refresh. Checklist"
 time-to-read: 2 min

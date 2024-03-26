@@ -5,6 +5,7 @@ background: salesforce-on-rails-process-large-sets-of-records-back
 category: engineering
 date: "2020-04-21"
 layout: post
+permalink: blog/:title
 post-id: salesforce-on-rails-process-large-sets-of-records
 post-title: "Salesforce on Rails. Process large sets of records"
 time-to-read: 6 min

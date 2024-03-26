@@ -5,6 +5,7 @@ background: the-ultimate-guide-to-the-product-development-process-back
 category: engineering
 date: "2022-06-29"
 layout: post
+permalink: blog/:title
 post-id: the-ultimate-guide-to-the-product-development-process
 post-title: "The Ultimate Guide to the Product Development Process"
 time-to-read: 8 min

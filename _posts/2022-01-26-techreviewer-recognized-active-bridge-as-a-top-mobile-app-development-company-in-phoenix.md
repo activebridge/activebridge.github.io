@@ -5,6 +5,7 @@ background: techreviewer-recognized-active-bridge-as-a-top-mobile-app-developmen
 category: inside_ab
 date: "2022-01-26"
 layout: post
+permalink: blog/:title
 post-id: techreviewer-recognized-active-bridge-as-a-top-mobile-app-development-company-in-phoenix
 post-title: "Techreviewer recognized Active Bridge as a Top Mobile App Development Company in Phoenix"
 time-to-read: 2 min

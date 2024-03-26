@@ -5,6 +5,7 @@ background: most-10-recommended-ruby-programming-books-2017-back
 category: engineering
 date: "2017-10-16"
 layout: post
+permalink: blog/:title
 post-id: most-10-recommended-ruby-programming-books-2017
 post-title: "10 Most Recommended Ruby Programming Books 2017"
 time-to-read: 3 min

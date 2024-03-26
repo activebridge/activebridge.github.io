@@ -5,6 +5,7 @@ background: node-js-vs-ruby-on-rails-back
 category: engineering
 date: "2017-09-26"
 layout: post
+permalink: blog/:title
 post-id: node-js-vs-ruby-on-rails
 post-title: "Node JS vs Ruby on Rails. Which is the best for web development"
 time-to-read: 5 min

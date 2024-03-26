@@ -5,6 +5,7 @@ background: how-to-increase-ctr-google-rich-snippets-back
 category: business_growth
 date: "2016-12-23"
 layout: post
+permalink: blog/:title
 post-id: how-to-increase-ctr-google-rich-snippets
 post-title: How to increase CTR? Google Rich Snippets
 time-to-read: 2 min

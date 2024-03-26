@@ -5,6 +5,7 @@ background: compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review-b
 category: engineering
 date: "2021-11-11"
 layout: post
+permalink: blog/:title
 post-id: compatible-hosting-services-for-ruby-on-rails-apps-in-depth-review
 post-title: "Compatible Hosting Services for Ruby on Rails Apps: In-Depth Review"
 time-to-read: 2 min

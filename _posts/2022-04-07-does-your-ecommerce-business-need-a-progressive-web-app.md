@@ -5,6 +5,7 @@ background: does-your-ecommerce-business-need-a-progressive-web-app-back
 category: business_growth
 date: "2022-04-07"
 layout: post
+permalink: blog/:title
 post-id: does-your-ecommerce-business-need-a-progressive-web-app
 post-title: "Does Your Ecommerce Business Need a Progressive Web App?"
 time-to-read: 2 min

@@ -5,6 +5,7 @@ background: how-to-build-uber-car-animation-using-mapbox-markers-back
 category: engineering
 date: "2019-02-25"
 layout: post
+permalink: blog/:title
 post-id: how-to-build-uber-car-animation-using-mapbox-markers
 post-title: "How to Build Uber Car Animation Using Mapbox Markers"
 time-to-read: 2 min

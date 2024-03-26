@@ -5,6 +5,7 @@ background: remote-teams-management-back
 category: pm_team_management
 date: "2017-11-01"
 layout: post
+permalink: blog/:title
 post-id: remote-teams-management
 post-title: "Tips For Managing Remote Teams You Need to Know"
 time-to-read: 2 min

@@ -5,6 +5,7 @@ background: simple-way-to-create-public-pages-back
 category: engineering
 date: "2016-02-02"
 layout: post
+permalink: blog/:title
 post-id: simple-way-to-create-public-pages
 post-title: "Simple way to create public pages"
 time-to-read: 2 min

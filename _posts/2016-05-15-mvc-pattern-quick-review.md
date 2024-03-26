@@ -6,6 +6,7 @@ category: engineering
 date: "2016-05-15"
 description: MVC Quick Review
 layout: post
+permalink: blog/:title
 post-id: mvc-pattern-quick-review
 post-title: "MVC pattern. Quick review"
 time-to-read: 3 min

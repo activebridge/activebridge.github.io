@@ -5,6 +5,7 @@ background: how-to-add-database-constraint-validation-for-table-back
 category: engineering
 date: "2016-10-07"
 layout: post
+permalink: blog/:title
 post-id: how-to-add-database-constraint-validation-for-table
 post-title: "How to add database constraint validation for table"
 time-to-read: 5 min

@@ -5,6 +5,7 @@ background: simple-way-to-create-public-pages-back
 category: engineering
 date: "2016-02-02"
 layout: post
+permalink: blog/:title
 post-id: unobtrusive-scripting-adapter-vs-remote-part-ajax-file-uploader
 post-title: "Unobtrusive scripting adapter vs Remotipart"
 time-to-read: 2 min

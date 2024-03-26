@@ -5,6 +5,7 @@ background: why-reactjs-is-considered-as-favored-front-end-technology-for-startu
 category: engineering
 date: "2022-05-15"
 layout: post
+permalink: blog/:title
 post-id: why-reactjs-is-considered-as-favored-front-end-technology-for-startups
 post-title: "Why ReactJS is Considered as Favored Front-end Technology For Startups"
 time-to-read: 7 min

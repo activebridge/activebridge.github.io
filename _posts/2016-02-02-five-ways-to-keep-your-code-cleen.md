@@ -5,6 +5,7 @@ background: five-ways-to-keep-your-code-cleen-back
 category: engineering
 date: "2016-02-02"
 layout: post
+permalink: blog/:title
 post-id: five-ways-to-keep-your-code-cleen
 post-title: "5 ways to keep your code clean"
 time-to-read: 2 min

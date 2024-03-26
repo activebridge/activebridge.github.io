@@ -5,6 +5,7 @@ background: rails-array-alternative-to-has_and_belongs_to_many-back
 category: engineering
 date: "2016-02-16"
 layout: post
+permalink: blog/:title
 post-id: rails-array-alternative-to-has_and_belongs_to_many
 post-title: "Rails array alternative to has_and_belongs_to_many"
 time-to-read: 2 min

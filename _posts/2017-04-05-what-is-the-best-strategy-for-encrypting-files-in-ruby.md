@@ -5,6 +5,7 @@ background: what-is-the-best-strategy-for-encrypting-files-in-ruby-back
 category: engineering
 date: "2017-04-05"
 layout: post
+permalink: blog/:title
 post-id: what-is-the-best-strategy-for-encrypting-files-in-ruby
 post-title: "What is the best strategy for encrypting files in Ruby"
 time-to-read: 2 min

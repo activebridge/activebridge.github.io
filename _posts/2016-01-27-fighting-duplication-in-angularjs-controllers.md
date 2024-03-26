@@ -5,6 +5,7 @@ background: fighting-duplication-in-angularjs-controllers-back
 category: engineering
 date: "2016-01-27"
 layout: post
+permalink: blog/:title
 post-id: fighting-duplication-in-angularjs-controllers
 post-title: "Fighting duplication in AngularJS controllers"
 time-to-read: 4 min

@@ -5,6 +5,7 @@ background: what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-d
 category: pm_team_management
 date: "2019-08-22"
 layout: post
+permalink: blog/:title
 post-id: what-is-it-staff-augmentation-an-efficient-solution-to-extend-your-dev-team
 post-title: "What is It Staff Augmentation? An Efficient Solution to Extend Your Dev Team"
 time-to-read: 5 min

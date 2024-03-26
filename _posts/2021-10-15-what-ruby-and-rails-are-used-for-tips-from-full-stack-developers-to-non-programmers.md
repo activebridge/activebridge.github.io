@@ -5,6 +5,7 @@ background: what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-
 category: engineering
 date: "2021-10-15"
 layout: post
+permalink: blog/:title
 post-id: what-ruby-and-rails-are-used-for-tips-from-full-stack-developers-to-non-programmers
 post-title: "What Ruby and Rails are used for. Tips from full-stack developers to non-programmers"
 time-to-read: 6 min

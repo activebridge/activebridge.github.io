@@ -5,6 +5,7 @@ background: all-truth-about-dedicated-team-back
 category: pm_team_management
 date: "2016-06-24"
 layout: post
+permalink: blog/:title
 post-id: all-truth-about-dedicated-team
 post-title: "All Truth about Dedicated Team"
 time-to-read: 2 min
