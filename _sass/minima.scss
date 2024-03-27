@@ -1,0 +1,48 @@
+/*!
+ * Customized Minima Theme Styles
+ * =======================================================
+ * NOTE: This stylesheet has been modified to fit the specific design needs of our website.
+ * We are not using the default Minima styles provided by the theme.
+ * It's important to be cautious when updating the theme to ensure these customizations are preserved.
+ * =======================================================
+ */
+
+@font-face {
+  font-family: 'Cera Regular';
+  src: url(/assets/fonts/Cera.woff2);
+  font-weight: normal;
+  font-display: swap;
+}
+
+$brand-color: black;
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cera Regular', serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover {
+    color: $brand-color;
+    text-decoration: none;
+  }
+  &:visited { color: $brand-color; }
+}

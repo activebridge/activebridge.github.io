@@ -50,8 +50,9 @@ header {
   }
 
   &__link-contact {
+    display: block;
     margin: 0;
-    padding: 0.6em 2.2em;
+    padding: 0.7em 2.2em;
     background: linear-gradient($white, $white) padding-box,
                 linear-gradient(to right, $main-violet, $purple-heart) border-box;
     border: 1px solid transparent;
@@ -227,6 +228,7 @@ header {
         font-size: 15px;
         margin: 0;
         padding: 10px 2vw;
+        width: 80%;
 
         &:active { transform: scale(0.9); }
       }
@@ -235,13 +237,19 @@ header {
 
       &__link-contact {
         align-self: center;
+        color: $white;
         padding: 15px;
         background: transparent;
         border: 1px solid $white;
         text-align: center;
-        width: 80%;
+        width: 100%;
 
-        a { color: $white; }
+        &:visited { color: $white; }
+        &.active {
+          background: transparent;
+          border: 1px solid $white;
+          box-shadow: none;
+        }
       }
     }
 

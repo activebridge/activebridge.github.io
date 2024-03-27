@@ -69,6 +69,7 @@ p { margin: 0; }
 body {
   color: $black;
   font-family: 'Cera Regular', serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 a:hover { text-decoration: none !important; }
