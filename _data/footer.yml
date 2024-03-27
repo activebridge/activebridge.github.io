@@ -6,6 +6,8 @@ navigation:
     link: /faq
   - page: Blog
     link: /blog
+  - page: Privacy Policy
+    link: /privacy_policy
   social_icons:
   - link: https://www.linkedin.com/company/active-bridge
     icon: linkedin
