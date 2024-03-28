@@ -5,7 +5,7 @@
   "description": "Active Bridge helps clients to build a qualitative web products thanks to our niche RoR expertise and 90% senior/middle developers on our board.",
   "url": "https://activebridge.org/",
   "image": "https://imgur.com/SUEWchJ",
-  "email": "contact@active-bridge.com",
+  "email": "contact@activebridge.org",
   "telephone": "+18888053503",
   "address": [
               {
@@ -48,7 +48,7 @@
           "@type" : "ContactPoint",
           "contactType": "customer service",
           "telephone": "+18888053503",
-          "email": "contact@active-bridge.com",
+          "email": "contact@activebridge.org",
           "url": "https://activebridge.org/"
       }
   ],

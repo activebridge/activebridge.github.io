@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", sendEmail);
 function sendEmail() {
   document.getElementById("contacts-form").addEventListener('submit', (e) => {
     const formData = new FormData(e.target);
-    let mailtoLink = 'mailto:contact@active-bridge.com?';
+    let mailtoLink = 'mailto:contact@activebridge.org?';
 
     for (let [key, value] of formData.entries()) {
       mailtoLink += encodeURIComponent(key) + '=' + encodeURIComponent(value) + '&';
