@@ -1,7 +1,7 @@
 title:  Custom marketplace development solutions
-description:  Active Bridge’s dedicated development teams have 5 years of experience in the development of different
-              types of marketplaces that generate real value for sellers and buyers by providing them with tools for
-              broad listing customization, efficient communication, order management, and statistical dashboards.<br><br>
+description:  Active Bridge's dedicated development teams have 5 years of experience in developing various types of marketplaces that
+              deliver real value to sellers and buyers through broad listing customization tools, efficient communication, order
+              management features, and statistical dashboards.<br><br>
               We assist our clients in building successful, scalable, and high-quality  B2C, B2B, and C2C marketplace
               applications that users enjoy.
 some_features: Some Features
@@ -79,12 +79,12 @@ case_study:
                     the United States, such as colocation, dedicated servers, cloud servers, managed hosting, IP transit,
                     and other hosting services
     - title: "Challenge:"
-      description:  The challenge was to build a platform that could service the data center marketplace that focuses on
-                    colocation and IP transit. This platform also had to cover other data center services such as wholesale
-                    space, dedicated servers, remote hands, internet exchanges, and more.<br><br>The vision of Upstack for
-                    the data center marketplace is for the web application to become the ultimate meeting place for providers
-                    and in-market buyers of data center services on a state scale, by processing as much data as possible
-                    and making it as easy as possible for the users to work with.
+      description:  Our task was to develop a platform tailored to serve the data center marketplace, emphasizing colocation and IP transit.
+                    Additionally, the platform needed to encompass various other data center services, including wholesale space,
+                    dedicated servers, remote hands, and internet exchanges.<br><br>Upstack envisioned the data center marketplace
+                    web application as the premier destination for providers and in-market buyers of data center services statewide.
+                    The goal was to streamline data processing and user interactions, making it effortless for users to navigate and
+                    access a wide range of services.
     - title: "Technologies:"
       description: Ruby on Rails / React / Sidekiq / Puma / Devise / PostgreSQL / Heroku
 solutions:
@@ -96,9 +96,9 @@ solutions:
   functionality: Extended functionality
   all:
     - title: Scalable architecture and maintainability of the application
-      description: We built a fully operational platform providing vendors access to a large network of sellers with
-                    their own audiences. This SaaS platform accommodates growth seamlessly and efficiently. The platform
-                    is scalable and processes huge user traffic without disrupting the end-users.
+      description: We constructed a fully functional platform that grants vendors access to a vast network of sellers, each with
+                   its own audience. This Software as a Service (SaaS) platform seamlessly and efficiently accommodates growth.
+                   It is designed to be scalable and capable of handling substantial user traffic without causing disruptions for end-users.
       icon: solution_1
       elements:
         - item: Set up continuous integration and continuous delivery to extend the functionality of the existing
@@ -107,10 +107,10 @@ solutions:
         - item: Extended existing platform functionality to boost customer growth.
         - item: Redesigned the platform to promote brand awareness and attract more users.
     - title: Convenient search and filters
-      description: Our dedicated team integrated a complex data-centers marketplace search that makes it possible to
-                    search using a variety of filters. The system makes the process of searching much more convenient
-                    and faster. Advanced filtering and search logic, based on multiple dynamically changed rules, perform
-                    the search for the objects of various types from the extending base of data-centers service providers.
+      description: Our dedicated team implemented a sophisticated search feature for the data center marketplace, allowing users
+                   to search using a variety of filters. This system significantly enhances the search process, making it more convenient
+                   and faster. It employs advanced filtering and search logic, which dynamically adapts to changing rules, enabling users
+                   to find objects of various types from the expanding database of data center service providers.
       icon: solution_2
       elements:
         - item: The search engine clarifies and analyzes a user’s requirements to identify the project goal and
@@ -120,4 +120,22 @@ solutions:
                 charts.
         - item: The user gets to the price review page and sees all the price quotes sent to him by the selected
                 companies. A user can sort them, build charts and modalities, and export data to CSV.
+    - title: Internal custom CRM system
+      description: Our team developed an internal custom CRM system to empower marketplace vendors and clients with a comprehensive order
+                   and data center management tool. This system enables management of every step, from order submission to feedback and
+                   rating adjustments.
+      icon: solution_3
+      elements:
+        - item: Easy manageable, well-organized, separated mailing subsystem for sending email notifications.
+        - item: A functional vendor portal is where companies get and manage their requests. Companies see only their quotes and notifications.
+        - item: Users and vendors have access to a full-fledged digital analytics tool to get a detailed overview of their quotes, requests,
+                data-centers marketplace SERP and data on earnings and expenses.
+    - title: Chatbots
+      description: Chatbots communicate with users via the Upstack marketplace interface. Staying always online,
+                  they provide customers with speedy solutions and answers.
+      icon: solution_4
+      elements:
+        - item: Offer customer support.
+        - item: Send users navigation and workflow recommendations.
+        - item: Completed searching process.
   button: See more projects
