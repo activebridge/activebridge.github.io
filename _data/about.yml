@@ -3,9 +3,9 @@ header: We’re not just coders – we’re product strategists.
 description: Everything we do is based on Agile methodology principles, UX best practices, and honed
               development processes. We’ll assist you in building products that people enjoy.
 information:
-  first: Active Bridge is a contract development company that specializes in providing on-demand
-         full-stack engineers to help our clients and augment their in-house teams. Since 2013,
-         our remote web developers have successfully assisted partners in the building and maintenance
+  first: Active Bridge, a leading contract development firm, specializes in supplying on-demand full-stack engineers
+         to help our clients and augment their in-house teams. Since 2013,
+         our expert remote web developers have empowered partners in the building and maintenance
          of websites, cloud-based software as well as PWA and native mobile applications.
   second: We started out as a small team of tech talents with a passion for  Ruby on Rails and
           an unstoppable drive to provide effective web solutions for partners from the United
@@ -16,7 +16,7 @@ company_vision:
   subtitle: Professional team as a service
   description: We effort to provide our customers with the most effective development solutions
                possible. Each client’s business, problems, and ideas require a customized approach.
-               It is possible due to our 9 years of experience working remotely, our passion for
+               It is possible due to our 10 years of experience working remotely, our passion for
                sustainable technologies, driven staff, and our worked-out practice of creating the
                conditions for efficient collaboration.
   button: Discover our expertise
@@ -82,8 +82,8 @@ key_facts:
   subtitle: about Active Bridge as team of dedicated Ruby on Rails developers
   all:
   - image: key_facts_1
-    title: <span>9+</span> years of remote development experience
-    description: "Since 2013 we’ve grown to a staff of 40+ talented development professionals who thrive on the cutting-edge of technology and embrace our clients’ mindsets to seamlessly integrate with their teams."
+    title: <span>10+</span> years of remote development experience
+    description: "Growing since 2013, our team of over 40 development professionals who thrive on the cutting-edge of technology and embrace our clients’ mindsets to seamlessly integrate with their teams."
   - image: key_facts_2
     title: Huge dev stack
     description: On-demand developers with deep knowledge and significant experience in object-centric, document-centric languages, frameworks, DSMs platforms, and APIs.
@@ -92,14 +92,14 @@ key_facts:
     description: Our remote full-stack developers have B2 - C2 certified English knowledge, meaning we can integrate easily into your teams and meetings without any worry of language barriers getting in the way.
   - image: key_facts_4
     title: Cost efficiency
-    description: As an offshore IT company, by keeping our research, development, and tech support in Ukraine rather than at our U.S. location, we can keep costs down and provide our clients with better value for their development dollars.
+    description: To enhance our offshore IT services' affordability, Active Bridge maintains research, development, and technical support operations in Ukraine. This strategic choice, enables us to offer superior value, allowing our clients to optimize their development budgets without compromising quality.
   - image: key_facts_5
     title: <span>4</span> own social-responsible products
-    description: We are active open source contributors as well as have our own products that we successfully launch that benefit the public. This is an uber-like app for local eco-taxi, an open platform for code refactoring ++
+    description: Active Bridge actively contributes to open source projects and develops proprietary products that make a positive impact on the community. Our portfolio includes an innovative eco-friendly taxi application, akin to Uber, designed for local eco-taxi services, and a comprehensive open platform dedicated to code refactoring.
 culture:
   title: A culture of quality and collaboration
-  description: At Active Bridge, our passion for sustainable technologies and our expertise in web development
-               enable us to identify and execute the right solutions for each unique customer need. We value the
+  description: Active Bridge's passion for sustainable technologies drives us to identify and
+               execute the right solutions for each unique customer need. We value the
                trust our clients put in us to help them meet their needs and build their products, and we are
                motivated by the pursuit of their successes as if they were our own.
   button: Get free project consultation with our CTO
