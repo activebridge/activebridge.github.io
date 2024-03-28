@@ -1,19 +1,17 @@
 main:
   title: Expertise
-  subtitle: Thanks to ten years of expertise in Ruby on Rails development, we can offer input when it comes to delivering a quality app
-            from early stages to a successful product.
+  subtitle: With over a decade of Ruby on Rails development expertise, we excel in guiding quality app development from conception to success.
   description_1: Innovation is at the heart of all success in the technology sector, and it’s essential that we constantly look for new ways
-               to keep our web application and cloud software development solutions, operations, and services at the cutting edge. Our team
-               maintains ongoing processes that foster innovation and keep our skills and expertise at the forefront of the industry, both
-               internally and on the client-side.
-  description_2: Our teams’ great advantage is 90% of the skillful full-stack developers have an in-depth knowledge of object-oriented
-                 programming and working background with projects based on complicated database systems like CRMs, data-centers, marketplaces,
-                 and analytical platforms.
+               to keep our web application and cloud software development solutions, operations, and services at the cutting edge. We foster
+               innovation through continuous improvement, ensuring our skills remain industry-leading for our clients.
+  description_2: An advantage of our team is that 90% of our adept full-stack developers possess deep knowledge of object-oriented
+                 programming and experience with complex database systems, including CRM, data centers, marketplaces, and analytical
+                 platforms.
 technologies:
   subtitle: Our core technology is Ruby on Rails, we see a lot of potential in it, especially mixing ROR with React, Angular, and other add-ons.
   title: Technologies
-  description: We’ve been providing startups, small and medium-sized enterprises (SMEs) in both North America and Eastern Europe with custom
-               web application development services for 8+ years. We are used to working remotely, so we know that the key to making things
+  description: For over 10 years, we've delivered custom web application development services to startups and SMEs across North America
+               and Eastern Europe. We are used to working remotely, so we know that the key to making things
                happen is good communication and an industry-focused development approach.
 industries:
   projects: "<b>40+</b> Projects"
