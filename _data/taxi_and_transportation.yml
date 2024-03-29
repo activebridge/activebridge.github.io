@@ -12,9 +12,9 @@ features: Features
 features_title: Extended features
 help:
   - icon: help_1
-    title: Full-cycle assistance
-    description: of transportation project development, from cloud hosting and UX/UI design, through app development
-                  and QA, to technical delivery, security compliance, maintenance, and support.
+    title: We offer full-cycle assistance
+    description: for transportation project development, covering cloud hosting and UX/UI design, through app development and QA,
+                 to technical delivery, security compliance, maintenance, and support.
   - icon: help_2
     title: Rapid development
     description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
