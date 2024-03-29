@@ -1,40 +1,39 @@
 active_bridge: Active Bridge
 professional_team: Professional team as a service
-teams_expertise: With Active Bridge team's expertise, you can build scalable and robust applications
-                 easier, enter the market faster, and transform into digital enterprise smoother
-free_consultation: Get a free consultation
-help_startups: We're ready to help startups and SME's that are looking for a truster partner assisting in solving
-               their technological bussiness challenges, complex or routine
-testimonials_description: Each client’s business, problems, and ideas require a unique approach. At Active Bridge,
-                          our passion for Ruby on Rails and add-ones technologies and our expertise in development
-                          enable us to identify and execute the right solutions for each unique customer need.
+teams_expertise: Leverage Active Bridge's expertise to build scalable applications, enter the market quickly, and smoothly
+                 transition into a digital enterprise.
+free_consultation: Get Your Free Consultation Today
+help_startups: We're here to assist startups and SMEs in overcoming both complex and routine technological challenges,
+               serving as your trusted partner.
+testimonials_description: Unique business challenges demand bespoke solutions. At Active Bridge, our expertise in Ruby on Rails and
+                          complementary technologies enables us to tailor and execute solutions that precisely meet each client's specific
+                          needs. Specializing in Ruby on Rails, we offer custom web and mobile application development, IT staff augmentation,
+                          and cloud solutions tailored to your unique business needs.
 read_testimonials: Read all testimonials
 our_vision: 'Our vision:<br> professional team as a service'
 care_about_your_projects: We care about your project, users, profit, and growth. We are ready to fill the technology
                           gap in your business and share our expertise.
-dedicated_developers: Active Bridge provides dedicated full-stack developers to help our clients scale their projects
-                      and augment their in-house teams. Our team integrate directly with the customer's existing business
-                      processes, offering them productive development and expertise in innovative technologies on-demand,
-                      whenever they need it.
+dedicated_developers: Active Bridge offers dedicated full-stack developers to scale projects and enhance in-house capabilities.
+                      Our teams seamlessly integrate with your business processes, delivering expert development and innovative
+                      technology solutions on demand.
 core_technology: Ruby on Rails is our core technology
 technologies_knowledge: but our team has extensive knowledge in other technologies compatible with Rails and needed to provide
                         custom web and mobile apps, online marketplaces, CRM, ERP, and cloud-based software solutions.
 featured_technologies: Featured technologies
 expert_web_services: We provide expert web, cloud-base engineering and consultancy services
 embedded_teams: Active Bridge tailors our embedded teams to our clients’ specific demands, ensuring each client will always have
-                the right developers for the project at hand. Our team members treat the client’s team and goals as their own
-                and are as committed to creating a great product as any in-house employee.
+                the right developers for the project at hand. Partner with Active Bridge for bespoke technology solutions that drive growth.
+                Our agile, expert teams integrate seamlessly into your projects, delivering excellence from conception to completion.
 our_services: Our services
 services:
 - title: Custom Ruby on Rails development services
-  description: We come to you with <b>9+ years</b> of Ruby on Rails experience. Ruby is a dynamic, interpretable, high-level programming
+  description: We come to you with <b>10+ years</b> of Ruby on Rails experience. Ruby is a dynamic, interpretable, high-level programming
                language. Rails is a framework created for rapid web application development and deployment. We're able to create
                websites of any complexity.
 - title: Mobile application development services
-  description: We provide cross-platform mobile application development services so you can reach your customers on their favorite
-               devices. There is no need to build separate apps for IOS, Android, and Windows, cross-platform apps run smoothly on
-               multiple devices and platforms. We help your business reduce upgrade costs, time-to-market, and reach more users
-               without losing quality.
+  description: Our cross-platform mobile development services enable you to engage customers across their preferred devices without
+               the need for separate iOS, Android, and Windows apps. Benefit from reduced upgrade costs, faster time-to-market, and
+               broader reach, all while maintaining quality.
 learn_more: Learn more about our expertise
 view_services: View our services
 our_company: Our company
@@ -45,7 +44,7 @@ about_us_description: Active Bridge is an IT company specializing in providing d
                       our clients in developing and maintaining websites and web-based systems, mobile applications, and software
                       products.
 about_us_items:
-- logo: "8"
+- logo: "10"
   text: years of remote development
 - logo: 10+
   text: years of Ruby on Rails experience

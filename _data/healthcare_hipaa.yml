@@ -1,10 +1,10 @@
 title: Healthcare web application development solutions
-description_1: For more than 5 years, we've been delivering custom application development solutions and programming
-                services for healthcare organizations, HealthTech startups, care providers, and medical ISVs.
+description_1: For over 8 years, we've provided custom application development solutions and programming services
+               to healthcare organizations, HealthTech startups, care providers, and medical ISVs.
 subtitle_1: Healthcare products we’ve been delivering
-description_2: We create functional healthcare applications in compliance with HIPAA and regulatory standards. Our
-                portfolio has complex SaaS healthcare platforms, patient and doctor scalable web/mobile apps, e-prescribing
-                modules, enterprise applications, billing systems, and more.
+description_2: We specialize in creating functional healthcare applications that comply with HIPAA and regulatory standards.
+               Our portfolio includes complex SaaS healthcare platforms, scalable web/mobile apps for patients and doctors,
+               e-prescribing modules, enterprise applications, billing systems, and more.
 subtitle_2: How we can help with custom healthcare app development
 help:
   - title: Full-cycle assistance
@@ -33,11 +33,10 @@ case_study:
                     healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and
                     electronic patient health information (ePHI).
     - title: "Challenge:"
-      description: The challenge was to build a software system that encrypted data transactions between entities and
-                    business associates licensed to practice or transfer sensitive patient health information within the
-                    United States. The core target was a fully reliable medical application and secure HIPAA-compliant
-                    cloud hosting environment available 24/7. One of the tasks was developing assets for healthcare
-                    professionals to manage and resolve prescription orders from mobile devices.
+      description: Our task was to develop a software system that encrypted data transactions between entities licensed to handle
+                   sensitive patient health information within the United States. We aimed to create a reliable medical application
+                   and a secure HIPAA-compliant cloud hosting environment available 24/7. Additionally, we needed to develop assets
+                   for healthcare professionals to manage and resolve prescription orders from mobile devices.
     - title: "Technologies:"
       description: Ruby on Rails, Grape, MySQL, Anycable, Redis, ActiveRecord, Sidekiq, Elasticsearch, Electron, Angular 11,
                     Ionic 3, IOS, Android, Windows, MacOS, Docker, AWS

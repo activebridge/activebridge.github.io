@@ -1,10 +1,10 @@
 title: Custom technology solutions that help businesses grow
 subtitle: Leverage our programming expertise in building high-performance, interactive, user-friendly applications.
-description: Active Bridge tailors our embedded teams to our client’s specific demands, ensuring each client will
-              always have the right developers for the project at hand. Our team members treat the client’s team and
-              goals as their own and are as committed to creating a great product as an in-house employee.
-text: Fueled by a deep understanding of the business context, our experts use prove practices and their own vast
-      experience to produce readable, scalable, highly efficient code.
+description: Active Bridge customizes our teams to meet each client's unique needs, ensuring the perfect fit of developers
+             for every project. Our team members treat the client’s team and goals as their own and are as committed to
+             creating a great product as an in-house employee.
+text: Fueled by a deep understanding of business contexts, our experts utilize proven practices and their extensive experience
+      to produce readable, scalable, and highly efficient code.
 approaches_title: Processes
 main:
   all:
@@ -39,10 +39,10 @@ industries:
   all:
   - title: Finance & Banking solutions
     icon: industries_1
-    description: Active Bridge provides end-to-end <span class="purple-text">custom web development solutions</span>
-                  for non-financial businesses, fintech organizations, and banks. Our development team helps companies
-                  launch MVP fast and build high-performing <span class="purple-text">ruby on rails projects</span> that
-                  help clients automate operations, save valuable costs, and gain substantial financial benefits.
+    description: Active Bridge delivers <span class="purple-text">comprehensive web development solutions</span>,
+                 enabling non-financial businesses, fintech, and banks to quickly launch MVPs and develop efficient
+                 <span class="purple-text">Ruby on Rails projects</span> for operational automation, cost savings,
+                 and significant financial advantages.
     index: 1
   - title: Healthcare & HIPPA HealthTech solutions
     icon: industries_2

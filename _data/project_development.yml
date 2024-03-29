@@ -2,12 +2,12 @@ title: Project development engagement model
 subtitle_1: Feel the flexibility of management by augmenting your in-house team with our experts at the cost of offshore specialists
 subtitle_2: Level of Customer Satisfaction
 subtitle_3: "The Project Development contract (Fixed Price) is associated with a pre-determined project cost. It is ideal to:"
-description_1: Creating outstanding <b>web application development solutions</b> involves blending years of experience gained from working on a
-               variety of projects across specific industries. Our <b>full-stack web application developers</b> have taken the digital services
-               to a high-level experience recognized by all our clients. Developers’ expertise is our main asset.
-description_2: Our customer-centric approach has enhanced great success since Active Bridge company’s establishment. Based on the Project Development
-               Engagement model, Active Bridge provides the full force of our web application development team to businesses in need of a complete
-               project management and development solution. We fully design, cost out, and implement the project from start to finish.
+description_1: Our full-stack developers leverage years of industry-specific experience to create outstanding web application solutions,
+               bringing high-level digital services that have earned recognition from our clients. <b>Our main asset is our developers'
+               expertise.</b>
+description_2: Since our establishment, Active Bridge's customer-centric approach has driven our success. Our Project Development
+               Engagement model offers businesses comprehensive project management and development solutions, from initial design
+               to final implementation, fully tailored to your needs.
 level:
 - title: Innovation
   icon: chart_1.html
@@ -54,9 +54,9 @@ workflow:
     tools: Google Meets, Skype, Confluence, Miro
   - icon: workflow_2.webp
     title: Planning and preparation stage
-    description: This stage is about solving the crucial initial stage tasks. Assigned to a project team leader contacts the client to get the
-                 information needed and clarifies details. We expect to get from the client information about product specifics and business model,
-                 in turn, we provide details about processes, technologies and team composition.
+    description: In this critical initial stage, the assigned project team leader reaches out to the client to gather necessary
+                 information and clarify details. We aim to understand your product's specifics and business model comprehensively.
+                 In return, we offer insights into our processes, technologies, and the composition of the team dedicated to your project
     client_gets:
       - item: Product Roadmap and Product Backlog with user stories
       - item: Designed project architecture and set up the tools needed
@@ -65,10 +65,10 @@ workflow:
     tools: Jira, Confluence, Figma
   - icon: workflow_3.webp
     title: Web design and UI/UX engineering
-    description: During this stage referred to as web graphic/UI design, our web designer works out the user interface in a way that is visually
-                 appealing, accessible to all users, and on cross-functional platforms. The designer produces wireframes and mockups and creates a
-                 clickable prototype (Low-Fi or Hi-Fi) to validate UI solutions. Once the client confirms the prototype, the designer creates specifications
-                 for design implementation.
+    description: In the web graphic/UI design stage, our designers craft user interfaces that are not only visually attractive but
+                 also accessible and functional across platforms. Beginning with wireframes and mockups, we then develop a clickable
+                 prototype (Low-Fi or Hi-Fi) to refine and validate UI solutions. Following client approval of the prototype, we proceed
+                 to create detailed specifications for the design's implementation.
     client_gets:
       - item: Project wireframes
       - item: Sketching and Low-Fi prototyping
@@ -77,9 +77,10 @@ workflow:
     tools: Adobe Photoshop, Illustrator, Corel Draw, Sketch
   - icon: workflow_4.webp
     title: Full-stack web application development
-    description: By this stage, the web application development team has the information they need to build, test, and deliver project features. We follow
-                 Agile methodologies of web development flow based on the Scrum framework. The assigned development team follows user stories and achieves
-                 sprint goals delivering working solutions on time and within budget. Each sprint result is delivered and tested piece of the project.
+    description: At this stage, our web application development team is equipped to build, test, and deliver project features effectively.
+                 Adhering to Agile methodologies and the Scrum framework, our team diligently follows user stories and meets sprint goals,
+                 ensuring solutions are delivered on schedule and within budget. Each sprint culminates in a delivered and tested segment
+                 of the project, demonstrating tangible progress.
     client_gets:
       - item: Hosting, setting up a development environment and database configuration
       - item: Full-stack project development approach
@@ -88,9 +89,10 @@ workflow:
     class: has-svg
   - icon: workflow_5.webp
     title: Testing and deployment
-    description: This stage’s objective is to clear out all remaining bugs and ensure that the project works well across devices. Assigned QA specialist performs
-                 automated and manual testing to assure code quality and user experience. Developers check whether the project has any security vulnerabilities or
-                 data breaches, and they deploy code to AWS or Heroku.
+    description: The goal of this stage is to eliminate any lingering bugs and guarantee optimal performance across all devices.
+                 Our QA specialists conduct comprehensive automated and manual tests to ensure the highest standards of code quality
+                 and user experience. Simultaneously, developers assess the project for security vulnerabilities or potential data
+                 breaches before deploying the code to platforms like AWS or Heroku.
     client_gets:
       - item: Behavior (BDD) and Test-driven development (TDD) approach
       - item: CI/CD practice to maintain delivery speed by checking code automatically and instantly before deployment.
