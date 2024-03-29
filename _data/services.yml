@@ -8,9 +8,8 @@ learn_and_grow: The insatiable need to learn and grow is part of the fundamental
                 and that belief drives us forward.
 web_services:
   title: Web application development services
-  description: We’re motivated to scale your business, as we are more than just a web development service provider.
-                      We strive to be your on-demand partner who’s ready to cover all your technology needs bringing our
-                      experience in the development of technically complex, ergonomic, and user-friendly applications.
+  description: Beyond web development, we aim to be your comprehensive technology partner, scaling your business with our
+               expertise in creating complex, intuitive, and user-friendly applications.
   all:
   - title: Full-stack expertise
     icon: full_stack_expertise.webp
@@ -28,10 +27,10 @@ web_services:
     index: 3
 learn_more: Learn more
 custom_ror_dev_services:
-  title: Custom Ruby on Rails services
-  description: We come to you with 10+ years of Ruby on Rails experience. Ruby is a dynamic, interpretable,
-               high-level programming language. Rails is a framework created for rapid web application
-               development and deployment. We're able to create websites of any complexity.
+  title: Custom Ruby on Rails development services
+  description: We come to you with 10+ years of Ruby on Rails experience. Ruby is a dynamic, interpretable, high-level programming
+               language. Rails is a framework created for rapid web application development and deployment. We're able to create
+               websites of any complexity.
   all:
   - title: Ruby on Rails Migrations
     icon: ror_migrations.webp
@@ -50,9 +49,8 @@ custom_ror_dev_services:
     index: 3
 mobile_dev_services:
   title: Mobile application development services
-  description: We provide cross-platform mobile application development services so you can reach your customers on their
-               favorite devices. There is no need to build separate apps for IOS, Android, and Windows, cross-platform apps
-               run smoothly on multiple devices and platforms. We help your business to reduce upgrade costs, time-to-market,
+  description: Our cross-platform mobile development services ensure your application is accessible on all major devices—iOS, Android,
+               and Windows—without the need for separate apps. We help your business to reduce upgrade costs, time-to-market,
                and to reach more users without loss of quality
   all:
   - title: Launching an application on various platforms
@@ -66,8 +64,7 @@ mobile_dev_services:
                  from the dev team all the way to sales and marketing.
 engagement_models:
   title: Flexible and client-oriented engagement models
-  description: No matter what engagement model you choose to cooperate with Active Bridge, you get an effective
-               and productive application development process either way.
+  description: Active Bridge guarantees a productive and efficient development process across all engagement models, ensuring client satisfaction.
   all:
   - title: Project Outsourcing (+Workflow)
     description: Do you have an idea, but your development resource is limit? We're here to help. From MVP to scalable web applications,
@@ -85,8 +82,8 @@ approaches:
             and the way we treat our clients.
   all:
   - title: Initial Negotiations
-    description: Our development company starts with the initial brief you give to us. During the introductory call, we discuss your
-                 project goal in detail. This is where you need to clearly communicate your background, priorities, goals, and limitations.
+    description: Our process begins with your initial brief, followed by an in-depth discussion of your project's goals,
+                 background, priorities, and constraints during the introductory call.
     index: 1
   - title: Analyzing inquiries and preparing a proposal
     description: After the initial discussion, our remote developers prepare follow-up questions to clarify our understanding of your
