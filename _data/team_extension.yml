@@ -1,6 +1,5 @@
 title: Team Extension Engament model
-subtitle: Feel the flexibility of management by augmenting your in-house team with
-          our experts at the cost of offshore specialists
+subtitle: Experience management flexibility by augmenting your in-house team with our experts, offering offshore specialist rates.
 specialists:
 - icon: experts_1.webp
   description: of Computer Science Master’s degree talents
@@ -17,10 +16,9 @@ team_as_service:
             and keeping our team small enough to be highly flexible and agile.
   list_title: Our dedicated development teams
   all:
-  - item: have <b>9+ years of remote working experience</b> and delivering solutions
-          for global companies while being a part of Active Bridge’s R&D
-          department in Ukraine
-  - item: have a deep understanding of <b>OOP principles</b> and 9+ years of
+  - item: with over <b>10 years of remote work experience,</b> our dedicated development
+          teams deliver solutions for global companies as part of Active Bridge's R&D department in Ukraine
+  - item: have a deep understanding of <b>OOP principles</b> and 10+ years of
           web/cloud software engineering expertise, all programmers have a
           <b>BS or MS in Computer Science</b>
   - item: consist of professional web and mobile developers with development
@@ -38,12 +36,9 @@ team_as_service:
                collaboration: managed team extensions and dedicated developer teams.'
 extension:
   title: Team Extension engagement model
-  description: Extending in-house IT teams with outside tech experts is the
-               right solution for companies that don’t have the time to spare
-               for recruiting and are going to hire remote developers temporarily.
-               With remote on-demand app development solutions, you’re no longer
-               limited to the specialists in your proximity. Take advantage of
-               all team extending opportunities.
+  description: For companies lacking time for recruitment, extending in-house IT teams with our tech experts offers
+               a timely solution for hiring remote developers temporarily. With remote on-demand app development solutions,
+               you’re no longer limited to the specialists in your proximity. Take advantage of all team extending opportunities.
   subtitle: Extending in-house IT teams with outside experts is the perfect
             solution for companies which
   all:
