@@ -1,6 +1,6 @@
 .blog {
   &__main-block {
-    background: linear-gradient(180deg, $kviten 0%, $white 75.52%);
+    background: linear-gradient(180deg, $kviten 0%, $white 30%);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
     padding-top: 117px;
 
@@ -193,7 +193,7 @@
 }
 
 .post-content {
-  background: linear-gradient(180deg, $kviten 0%, $white 83.85%);
+  background: linear-gradient(180deg, $kviten 0%, $white 15%);
   box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
   display: grid;
   grid-template-columns: 1.2fr 3fr 1.2fr;
@@ -206,34 +206,53 @@
       color: $post-links;
       &:visited { color: $post-links }
     }
+
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+    img {margin: 20px 0;}
   }
 
   .wrapper {
     padding: 100px 30px;
     text-align: left;
   }
+  ul { margin: 20px 0; }
 
-  li { margin-left: 40px;}
+  li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0 0 40px;
+  }
 
   h1 {
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 40px;
   }
 
   h2 {
     color: $black_sea;
-    font-family: Inria Serif;
-    font-size: 22px;
+    font-family: 'Inria Serif';
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
   h3 {
+    font-family: 'Cera-Bold';
+    font-size: 22px;
+    font-style: normal;
+    margin: 20px 0;
+  }
+
+  h4 {
+    font-family: 'Cera Regular';
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    margin-top: 20px;
   }
 
   &__right-block {
@@ -313,6 +332,7 @@
     display: flex;
     justify-content: space-around;
   }
+  &__read-also-block { background: linear-gradient(180deg, $kviten 0%, $ocean_light 50%); }
 }
 
 .post-description {
@@ -399,6 +419,7 @@
   padding: 40px 0;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
+  margin-bottom: 0;
   justify-content: center;
 
   &__read-also {
@@ -549,6 +570,13 @@
     &__read-also { display: none; }
   }
   .prev-next-posts-mob-title { display: inline-block; }
+
+  .post-content {
+    .header-3 { font-size: 24px; }
+    h2 { font-size: 22px }
+    h3 { font-size: 20px }
+    h4,p { font-size: 18px }
+  }
 }
 
 @media (max-width: 480px) {
