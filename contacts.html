@@ -38,8 +38,8 @@ json-ld: contacts
         <textarea class="contacts__field" id="body" name="body" placeholder="Type here"></textarea>
       </div>
 
+      <button class="button contacts__submit-btn" type="submit" id="send" type="submit">Send</button>
       <a class="contacts__field contacts__to-faq" href="/faq" data-link="transition">{{site.data.contacts.link_to_faq}}</a>
-
       <div class="contacts__after-send after-send">
         <h3 class="header-2">{{site.data.contacts.form.description.title}}</h3>
         <ul class="after-send__list">
@@ -48,8 +48,6 @@ json-ld: contacts
           {% endfor %}
         </ul>
       </div>
-
-      <button class="button contacts__submit-btn" type="submit" id="send" type="submit">Send</button>
     </form>
   </div>
 </div>
