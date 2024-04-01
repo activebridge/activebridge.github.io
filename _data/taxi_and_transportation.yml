@@ -55,13 +55,13 @@ case_study:
                     of a local on-demand transportation system. The product is a complete web and mobile-based solution
                     covering all the modern features passengers, drivers, and managers need.
     - title: "Challenge:"
-      description: <p>It became clear that the local market needed a taxi service provider which bases its service on
+      description:  It became clear that the local market needed a taxi service provider which bases its service on
                     a fundamentally new technological approach with an emphasis on the eco component of the business.
-                    Developing a taxi service was a part of the solution.</p><p>The app’s primary goal is booking secure
+                    Developing a taxi service was a part of the solution.<br><br>The app’s primary goal is booking secure
                     individual and carpooling rides of taxi company's vehicles. CabLook Taxi aimed at building a cross-platform
                     application for the tech-friendly public. By developing applications for drivers and passengers,
                     the company planned to expand it with add-ons such as food delivery features, corporate travel, and
-                    shuttle service. The app is a powerful web-based management system and a functional taxi booking solution.</p>
+                    shuttle service. The app is a powerful web-based management system and a functional taxi booking solution.
     - title: "Technologies:"
       description: Ruby on Rails / PostgreSQL / React Native / IOS / Android
 solutions:

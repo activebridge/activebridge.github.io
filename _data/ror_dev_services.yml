@@ -55,7 +55,7 @@ reasons:
   - title: Infrastructure
     description: Ruby on Rails is much faster than the vast majority of modern
                  technologies. Engineers use it for the <span class="purple-text">
-                 cost-effective cand rapid development</span> of MVPs. Rails
+                 cost-effective and rapid development</span> of MVPs. Rails
                  Model-View-Controller system makes modularity and extensibility
                  of an app. So developers can extend any app with new features.
                  In addition, we use <span class="purple-text">Agile web
@@ -106,59 +106,60 @@ approaches:
                because we believe in sharing our knowledge and building trust.
                The client gets access to our communication and tracking tools.
   all:
-  - title: Product backlog.
+  - title: Product backlog
     description: We provide a list of product development requirements structured
                  by priority level. The list items are User stories describing
                  project features needed for further development.
     icon: approach_1.webp
-  - title: Planning.
+  - title: Planning
     description: This phase consists of processes related to planning and
                  estimating tasks, which include Approve, Estimate, and Commit
                  User Stories,Create Tasks, Estimate Tasks, and Create Sprint
                  Backlogs.
     icon: approach_2.webp
-  - title: Iterations.
+  - title: Iterations
     description: The iteration includes a 10-day sprint. In the course of the
                  sprint, there are daily meetings on a regular basis. The team
                  discusses tasks done and undone analysis, reviews resources,
                  and plans a new sprint.
     icon: approach_3.webp
-  - title: Demo and Review.
+  - title: Demo and Review
     description: The team prepares a review describing the current sprint's
                  goals, objectives, and accomplishments. Based on the review
                  and demonstration, a customer suggests what developers should
                  change in the next iteration.
     icon: approach_4.webp
-  - title: Retrospective.
+  - title: Retrospective
     description: Its main goal is to determine how to improve the development
                  process in the next sprint to avoid challenges and work more
                  efficiently.
     icon: approach_5.webp
-  - title: Release.
+  - title: Release
+    description: We handle all technical aspects of deployment, including configuration, setup, and distribution to app stores or other platforms.
     icon: approach_6.webp
 tools:
   title: Tools
   all:
   - icon: tools_1.webp
-    title: Trello or Jira.
+    title: Trello or Jira
     description: Customized project management tools designed for Agile teams.
   - icon: tools_2.webp
     title: Github.
     description: Git repository hosting service. We use Git as our default
                  distributed version control system.
   - icon: tools_3.webp
-    title: Circle CI.
+    title: Circle CI
     description: We use it as the default continuous integration tool. Circle
                  CI enables to automate deploy to the production of software
                  with any complexity. (security checks are performed each time
                  in CircleCI)
   - icon: tools_4.webp
-    title: CodeClimate.
+    title: CodeClimate
     description: Automatic code quality checks. We use it to measure various
                  metrics such as simplicity and code coverage as well as a link
                  in the continuous integration process.
   - icon: tools_5.webp
-    title: Staging.
+    title: Staging
     description: Environment for testing. We use a staging environment to test
                  codes, builds, and updates to ensure quality under a production-like
                  environment before application deployment.

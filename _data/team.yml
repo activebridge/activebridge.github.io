@@ -41,6 +41,8 @@ expertise:
   - title: Mobile application development services
     icon: service_3.webp
     description: We provide cross-platform mobile application development services so you can reach your customers
-                 on their favorite devices.
-  button: See our services
+                 on their favorite devices. There is no need to build separate apps for IOS, Android, and Windows,
+                 cross-platform apps run smoothly on multiple devices and platforms. We help your business reduce upgrade costs,
+                 time-to-market, and reach more users without losing quality.
+  button: Learn more about our services
 cto_button: Get free project consultation

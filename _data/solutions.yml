@@ -22,9 +22,6 @@ awards:
     link: https://www.expertise.com/az/phoenix/web-developers
     alt: Top IT Service Company. Arizona, US
   - image: award-3
-    link: https://www.expertise.com/az/phoenix/web-developers
-    alt: Best Web Developers in Phoenix, 2022
-  - image: award-3
     link: https://selectedfirms.co/companies/web-development/usa
     alt: Best Web Developers in Phoenix, 2022
 mobile_awards:
@@ -80,7 +77,7 @@ industries:
     index: 6
   subtitle_1: These are just a few selected case studies.
   subtitle_2: Our high-performance team uses a collaborative approach to deliver measurable results.
-  description: Through 9+ years we've been assisting in developing a variety of SaaS, Fintech, InsurTech, HIPPA compliance
+  description: Through 10+ years we've been assisting in developing a variety of SaaS, Fintech, InsurTech, HIPPA compliance
                 applications, booking platforms, logistic systems, and CRMs for different types of businesses.
   applications:
     - title: HealthTech HIPPA Solution
@@ -174,7 +171,7 @@ staff_augmentation:
       description: 'We focus on the motivation providing developers or dedicated team; make sure all agreement obligations
                     are met; and are available to support any time.'
       image: staff_augmentation_3
-  more_button: See our services
+  more_button: Learn more about our services
 idea:
   button: Let’s discuss your project idea
   description: In case you don’t know where to start your project, you can get in touch with
