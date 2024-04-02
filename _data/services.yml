@@ -71,11 +71,13 @@ engagement_models:
                  we provide full-cycle development and a transparent process including project planning, application development, QA,
                  and others, depending on the agreement.
     index: 1
+    link: /services/project-development-cooperation
   - title: Staff Augmentation (+Workflow)
     description: Do you need web developers with a specific skillset for short-term tasks? Staff augmentation is a remote engagement
                  model that allows you to extend your in-house team with professionals that work on your project full-time at the
                  vendor's office.
     index: 2
+    link: /services/dedicated-teams-cooperation
 approaches:
   title: Negotiation Approach
   subtitle: Active Bridge’s success is not only due to the quality of our developers’ work; it's down to attitude, team approach,

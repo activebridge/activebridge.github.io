@@ -146,7 +146,7 @@ json-ld: ruby-on-rails-development
           <div class="card">
             <div class="card__title-2">{{ item.title }}</div>
             <div class="card__description">{{ item.description }}</div>
-            <a href="/expertise" class="button" data-link="transition">
+            <a href="{{ item.link }}" class="button" data-link="transition">
               {{ site.data.web_dev_services.button }}
             </a>
           </div>
