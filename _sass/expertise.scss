@@ -18,6 +18,11 @@
       margin-top: 5vh;
       margin-bottom: 5vh;
     }
+
+    .wrapper {
+      h1 { margin-bottom: 0;}
+      h2 { margin-top: 10px; }
+    }
   }
 
   &__technologies {

@@ -9,23 +9,23 @@ description: We are confident in our identity as a leading Ruby on Rails develop
 ror:
   title: Ruby on Rails <br> web development services
   all:
-  - title: Ruby on Rails app development.
+  - title: Ruby on Rails app development
     icon: ror_dev_1.webp
     description: Leveraging Ruby on Rails technology, we provide rapid application
                  development to help you launch a prototype (MVP) fast. All RoR
                  apps have scalable web architectures so the project can manage
                  more user requests per minute in the future.
-  - title: E-commerce and marketplace development.
+  - title: E-commerce and marketplace development
     icon: ror_dev_2.webp
     description: Our <b>full-stack Ruby on Rails developers</b> design
                  high-performative B2B, B2C marketplace solutions and e-commerce
                  platforms with outstanding UIs and extensive functionality.
-  - title: Ruby on Rails migration.
+  - title: Ruby on Rails migration
     icon: ror_dev_3.webp
     description: If you consider your project technology outdated, our developers
                  upgrade your old application by migrating it to Ruby on Rails
                  delivering efficient, robust, portable, and maintainable code.
-  - title: Ruby on Rails code maintenance and support.
+  - title: Ruby on Rails code maintenance and support
     icon: ror_dev_4.webp
     description: We maintain the integrity of our code and provide regular
                  updates. The <b>agile web development process</b> includes
@@ -144,7 +144,7 @@ tools:
     title: Trello or Jira
     description: Customized project management tools designed for Agile teams.
   - icon: tools_2.webp
-    title: Github.
+    title: Github
     description: Git repository hosting service. We use Git as our default
                  distributed version control system.
   - icon: tools_3.webp
