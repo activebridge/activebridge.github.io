@@ -183,3 +183,7 @@ approaches:
     - text: security testing
   - title: Deployment & Support stage
     icon: approach_7.webp
+    description: "Our team handles the technical aspects of deployment, configuration, setup, and distribution to app stores
+                  or other platforms during the Deployment & Support stage. We ensure a seamless launch and provide ongoing support
+                  to address post-launch issues.Output: Deployed application across desired platforms Ongoing support and maintenance
+                  services Continuous monitoring and updates for optimal performance."

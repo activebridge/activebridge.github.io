@@ -1,6 +1,8 @@
 main:
   title: Expertise
-  subtitle: With over a decade of Ruby on Rails development expertise, we excel in guiding quality app development from conception to success.
+  first_title: Ruby on Rails custom development solutions
+  subtitle: Thanks to ten years of expertise in Ruby on Rails development, we can offer input when it comes to delivering a quality app
+            from early stages to a successful product.
   description_1: Innovation is at the heart of all success in the technology sector, and it’s essential that we constantly look for new ways
                to keep our web application and cloud software development solutions, operations, and services at the cutting edge. We foster
                innovation through continuous improvement, ensuring our skills remain industry-leading for our clients.

@@ -37,9 +37,10 @@
   }
 
   &__submit-btn {
-   width: 480px;
-   height: 80px;
+   height: 60px;
    border: none;
+   max-width: 600px;
+   min-width: 320px
   }
 
   &__form-group {
@@ -136,7 +137,6 @@
     }
 
     &__submit-btn {
-      height: 50px;
       width: 300px;
      }
 

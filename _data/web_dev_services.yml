@@ -54,20 +54,20 @@ full_stack:
 customized_approach:
   title: <b>Web development service company</b> with a customized approach
   all:
-  - title: Technology expertise.
+  - title: Technology expertise
     description: In-depth technology stack knowledge allows us to pay more
                  attention to agile web development services and quality assurance
     icon: approach_1.webp
-  - title: On-boarding best practices.
+  - title: On-boarding best practices
     description: Our clients highly value the company’s ability to compose
                  sustainable dedicated teams for productive cooperation.
     icon: approach_2.webp
-  - title: Transparency and communication.
+  - title: Transparency and communication
     description: As soon as we sign a contract you get access to all the tools
                  we use as well as to every team member at every step of the
                  agile development process.
     icon: approach_3.webp
-  - title: Focus on an industry.
+  - title: Focus on an industry
     description: Before we start a project development, we investigate your
                  domain and business specifics.
     icon: approach_4.webp

@@ -8,7 +8,7 @@
     text-align: center;
   }
 
-  &__header {
+  h1 {
     margin-top: 4.5vh;
     margin-bottom: 0;
   }
@@ -43,6 +43,23 @@
   &__crew {
     background: center/cover no-repeat url("/assets/images/about/crew.webp");
     background-color: $gray;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      backdrop-filter: blur(8px);
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+    }
 
     .about__description {
       padding: 5vh 0;
@@ -59,7 +76,7 @@
 
     .crew__item {
       background-color: rgba($white, .75);
-      box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px grey;
+      box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px $black;
     }
 
     &-button { background-color: $white !important; }
@@ -132,7 +149,7 @@
       &-title {
         margin-bottom: 3vh;
         font-size: 1.2em;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.2em;
         text-transform: uppercase;
 
         span { font-weight: bold;}

@@ -95,10 +95,27 @@
   }
 
   &__custom-ror-dev {
-    background: center/cover no-repeat url('/assets/images/services/ror_dev_bg.webp');
     background-color: $black_sea;
     padding-bottom: 60px;
     padding-top: 8vh;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: center/cover no-repeat url('/assets/images/services/ror_dev_bg.webp');
+      background-size: cover;
+      filter: blur(8px);
+    }
+
+    .wrapper {
+      position: relative;
+      z-index: 1;
+    }
   }
 
   &__mobile-dev {
