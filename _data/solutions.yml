@@ -172,6 +172,10 @@ staff_augmentation:
                     are met; and are available to support any time.'
       image: staff_augmentation_3
   more_button: Learn more about our services
+build-test-product:
+  title: Build, test, and launch your product
+  description: With an experienced full-stack development team
+  button: How can we help you?
 idea:
   button: Let’s discuss your project idea
   description: In case you don’t know where to start your project, you can get in touch with

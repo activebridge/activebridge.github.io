@@ -1,6 +1,4 @@
 .solutions {
-  padding-bottom: 50px;
-
   .header-2 {
     line-height: 1.5;
     max-width: 100%;
@@ -201,6 +199,11 @@
       width: 45%;
       margin-top: 0;
     }
+  }
+
+  &__build-test-product {
+    background: $main-gradient;
+    .header-3 { letter-spacing: 0.2em; }
   }
 }
 
