@@ -146,5 +146,34 @@ json-ld: solutions
       </div>
       <a class="button" href="/services" data-link="transition">{{ site.data.solutions.staff_augmentation.more_button }}</a>
     </div>
+    <div class="solutions__build-test-product wrap">
+      <div class="wrapper">
+        <h3 class="header-3 white-text">{{ site.data.solutions.build-test-product.title }}</h3>
+        <p class="header-2 white-text">{{ site.data.solutions.build-test-product.description }}</p>
+      </div>
+      <div class="carousel-scroll" >
+        <div id="page-carousel" class="carousel-scroll__scroller">
+          <div class="frame"></div>
+          <div class="frame"></div>
+          {% for item in site.data.team_extension.services.all %}
+            <div class="carousel-scroll__item" data-scroll="item">
+              <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+                <h2 class="animate-visibility__title">{{ item.title }}</h2>
+                <div class="animate-visibility__image">
+                  <img src="/assets/images/team_extension/{{ item.icon }}" alt="Service">
+                </div>
+                <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
+              </div>
+            </div>
+          {% endfor %}
+          <div class="frame"></div>
+          <div class="frame"></div>
+        </div>
+        <div class="magnifying-overlay"></div>
+      </div>
+      <div class="wrapper">
+        <a class="button white-text violet-button" href="/contacts" data-link="transition">{{ site.data.solutions.build-test-product.button }}</a>
+      </div>
+    </div>
   </section>
 </div>

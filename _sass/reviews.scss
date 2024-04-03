@@ -63,6 +63,12 @@
       &-text { margin: 12px 63px 8px 63px; }
     }
   }
+  &__solutions { background: $main-gradient; }
+
+  &__expertise {
+    background: none;
+    .header-2 { max-width: 100%; }
+  }
 
   &__tell-us {
     background: left 0 top 100% no-repeat url('/assets/images/contacts/BGT-1x1-1.webp');

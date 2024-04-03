@@ -5,7 +5,7 @@ title: Check out What Clients Say About Active Bridge's Solutions
 description: Our clients stay with us, they value our professionalism,
              high-quality code, competitive rates, and efficient workflow.
              In fact, we’re still working with our first client from 2013.
-scripts: [details]
+scripts: [details, carousel]
 json-ld: reviews
 ---
 
@@ -47,6 +47,41 @@ json-ld: reviews
         </div>
         {% endfor %}
       </div>
+    </div>
+  </div>
+  <div class="reviews__solutions wrap">
+    <div class="wrapper">
+      <h2 class="header-5 white-text">{{ site.data.testimonials.solutions.description }}</h2>
+    </div>
+    <div class="carousel-scroll" >
+      <div id="page-carousel" class="carousel-scroll__scroller">
+        <div class="frame"></div>
+        <div class="frame"></div>
+        {% for item in site.data.testimonials.solutions.all %}
+          <div class="carousel-scroll__item" data-scroll="item">
+            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
+              <h2 class="animate-visibility__title">{{ item.title }}</h2>
+              <div class="animate-visibility__image">
+                {% include svgs/solutions/{{ item.image }}.html %}
+              </div>
+              <div class="animate-visibility__description text-justify"><p>{{ item.description }}</p></div>
+            </div>
+          </div>
+        {% endfor %}
+        <div class="frame"></div>
+        <div class="frame"></div>
+      </div>
+      <div class="magnifying-overlay"></div>
+    </div>
+    <div class="wrapper">
+      <a class="button white-text violet-button" href="/solutions" data-link="transition">{{ site.data.testimonials.solutions.button }}</a>
+    </div>
+  </div>
+  <div class="reviews__expertise wrap development__cards">
+    <div class="wrapper">
+      <div class="header-3">{{ site.data.team.expertise.title }}</div>
+      <div class="header-2">{{ site.data.team.expertise.description }}</div>
+      {% include dev_expertise_cards.html %}
     </div>
   </div>
   <div class="reviews__tell-us">

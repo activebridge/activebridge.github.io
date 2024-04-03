@@ -65,20 +65,7 @@ type: team
     <div class="wrapper">
       <div class="header-2">{{ site.data.team.expertise.title }}</div>
       <div class="description">{{ site.data.team.expertise.description }}</div>
-      <div class="cards-container">
-        {% for item in site.data.team.expertise.items %}
-          <div class="card">
-            <div class="card__title-2">{{ item.title }}</div>
-            <div class="card__icon">
-              <img src="/assets/images/team/{{ item.icon }}" alt="Icon">
-            </div>
-            <div class="card__description">{{ item.description }}</div>
-          </div>
-        {% endfor %}
-      </div>
-      <a href="/services" class="button" id="team_expertise_button" data-link="transition">
-        {{ site.data.team.expertise.button }}
-      </a>
+      {% include dev_expertise_cards.html %}
     </div>
   </div>
   {% include faq_bottom.html %}
