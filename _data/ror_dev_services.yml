@@ -178,6 +178,7 @@ engagement_models:
                  in-house team with professionals that work on your project
                  full-time at the vendor’s office
     index: 1
+    link: /services/dedicated-teams-cooperation
   - title: Project Outsourcing (+Workflow)
     description: Do you have an idea, but your development resource is limited?
                  We’re here to help. From MVP to scalable web applications, we
@@ -185,3 +186,4 @@ engagement_models:
                  project planning, application development, QA, and others,
                  depending on the agreement.
     index: 2
+    link: /services/project-development-cooperation
