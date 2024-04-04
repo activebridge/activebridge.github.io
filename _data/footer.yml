@@ -20,7 +20,6 @@ navigation:
   - link: https://twitter.com/activebridge
     icon: twitter
 contact_info:
-  email: contact@activebridge.org
   phone_number: '+18888053503'
   entities:
   - entity: USA
