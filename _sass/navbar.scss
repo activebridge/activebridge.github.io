@@ -117,27 +117,31 @@ header {
 
 @media (min-width: 768px) and (hover: hover) {
   .header-navbar {
-    &__item:hover .header-navbar__subitems {
+    .header-navbar__subitems {
       min-width: 100%;
-      padding: 20px 0;
-      background-color: $white;
-      border-radius: 1em;
-      visibility: visible;
-      padding-inline-start: 0;
-      -webkit-transition: all .5s;
-      transition: all .5s;
+      opacity: 0;
+      transition: all .5s ease-in-out;
+      visibility: hidden;
+      -webkit-transition: all .5s ease-in-out;
 
       .header-navbar__sub-link {
+        color: $black;
         display: block;
         padding: 10px 20px;
-        color: $black;
         font-size: 0.7em;
         letter-spacing: 0.1em;
         text-decoration: none;
         text-transform: uppercase;
-
-        &:hover { color: $main-violet; }
       }
+    }
+
+    &__item:hover .header-navbar__subitems {
+      background-color: $white;
+      border-radius: 1em;
+      opacity: 1;
+      padding: 20px 0;
+      visibility: visible;
+      .header-navbar__sub-link:hover { color: $main-violet; }
     }
 
     &__link:hover { color: $main-violet; }
