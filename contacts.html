@@ -18,7 +18,8 @@ json-ld: contacts
       </p>
     </div>
 
-    <form class="contacts__form" id="contacts-form">
+    <form class="contacts__form" id="contactsForm">
+      <input type="hidden" id="contact-email" name="contactEmail" value="{{ site.email }}">
       <div class="contacts__form-group contacts__form-select">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
         <select class="contacts__field contacts__field--select" name="subject" id="subject" required="true">
