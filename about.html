@@ -83,7 +83,7 @@ json-ld: about
         {% for benefit in site.data.about.benefits.all %}
         <div class="accordion__item">
           <details class="accordion__item-title">
-            <summary>{{ benefit.title }}</summary>
+            <summary><span>{{ benefit.title }}</span></summary>
           </details>
           <div class="accordion__item-content">
             <p>{{ benefit.description }}</p>
