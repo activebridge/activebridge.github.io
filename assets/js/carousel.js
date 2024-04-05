@@ -1,4 +1,3 @@
-if (document.readyState !== "loading") { initCarousels() }
 document.addEventListener("DOMContentLoaded", initCarousels );
 
 function initCarousels() {

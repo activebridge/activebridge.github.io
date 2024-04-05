@@ -25,12 +25,12 @@
     <link rel="stylesheet" href="/assets/main.css">
     {% if page.layout == "post" %}<link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}"/>{% endif %}
 
-    <script src="/assets/js/application.js" async></script>
-    <script src="/assets/js/navbar.js" async></script>
+    <script src="/assets/js/application.js" defer></script>
+    <script src="/assets/js/navbar.js" defer></script>
 
     {% if page.scripts %}
       {% for script in page.scripts %}
-        <script src="/assets/js/{{ script }}.js" async></script>
+        <script src="/assets/js/{{ script }}.js" defer></script>
       {% endfor %}
     {% endif %}
 
