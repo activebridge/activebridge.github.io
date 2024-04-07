@@ -37,7 +37,7 @@ all:
   specialization: InsurTech / Software company
   logo: daisybill.html
   author: Ben Liscio
-  image: DaisyBill.webp
+  image: https://i.imgur.com/eEQ7YxW.jpg
   post: Co-Founder
   description:
     We initially engaged with Active Bridge in 2014 while re-structuring our product and engineering team.
@@ -52,7 +52,7 @@ all:
   specialization: Technology company
   logo: def_method.html
   author: Joseph Leo
-  image: Def_Method.webp
+  image: https://i.imgur.com/orRlQpS.jpg
   post: President / Partnership Director
   description:
     Active Bridge drives our remote engineering team at Def Method.
@@ -65,7 +65,7 @@ all:
   specialization: IT / Tech company
   logo: modean_apps.html
   author: Benjamin Sigidi
-  image: Modean_Apps.webp
+  image: https://i.imgur.com/YlApFGd.jpg
   post: Software Developer
   description:
     Awesome team. Full stack development. Happy to work with these guys any day.
@@ -75,7 +75,7 @@ all:
   specialization: E-commerce company
   logo: preeline.html
   author: Julia Macalaster
-  image: Preeline.webp
+  image: https://res.cloudinary.com/active-bridge/image/upload/c_fit,g_center,h_200,q_85,r_0,w_200/v1477382138/julia_xibee4.jpg
   post: COO, Co-Founder
   description:
     We worked with Active Bridge as a young startup to build out our first MVP and subsequent updated products.
@@ -89,7 +89,7 @@ all:
   specialization: Marketing company
   logo: freestak.html
   author: Julie Freeman Kummer
-  image: Freestak.webp
+  image: https://res.cloudinary.com/active-bridge/image/upload/c_crop,g_face,h_200,w_200/v1477380297/Julie_z78plm.jpg
   post: Co-founder and COO
   description:
     We’ve been working with Active Bridge since August 2015.
@@ -106,7 +106,7 @@ all:
   specialization: Healthcare / IT company
   logo: life_linker.html
   author: David Rowell
-  image: LifeLinker_Inc.webp
+  image: https://i.imgur.com/vlvxXxn.jpg
   post: Founder/CEO
   description:
     After previously hiring contract developers in countries ranging from the US and Canada, to Vietnam and India,
@@ -121,7 +121,7 @@ all:
   specialization: Tech Company
   logo: myschool.html
   author: Joseph Carpenter
-  image: My_School_Ed.webp
+  image: https://i.imgur.com/oMUiO6J.jpg
   post: Founder
   description:
     If anyone needs a kickass website company, these are your guys! I have used many other companies with nothing
