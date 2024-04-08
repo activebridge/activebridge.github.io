@@ -10,16 +10,14 @@
     "logo": {
       "@type": "ImageObject",
       "url": "https://activebridge.org/path/to/logo.png"
+    },
+    "address": {
+                  "@type":"PostalAddress",
+                  "addressCountry":"US",
+                  "postalCode":"85016",
+                  "addressRegion": "AZ",
+                  "addressLocality": "Phoenix",
+                  "streetAddress":"3506 North 24th Street"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebSite",
-    "name": "Active Bridge Blog",
-    "url": "https://activebridge.org"
-  },
-  "author": {
-    "@type": "LocalBusiness",
-    "name": "Active Bridge",
-    "url": "https://activebridge.org"
   }
 }
