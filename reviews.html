@@ -36,7 +36,9 @@ json-ld: reviews
           </details>
           <div class="accordion__item-content">
             <div class="accordion__item-customer">
-              <div class="accordion__item-photo"> <img src="{{ item.image }}" alt="photo"></div>
+              <div class="accordion__item-photo">
+                <img src="/assets/images/carousel/{{ item.image }}" alt="photo">
+              </div>
               <div class="accordion__item-customer-name">
                 <p>{{ item.author }}</p>
                 <p>{{ item.post }}</p>
