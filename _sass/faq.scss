@@ -30,10 +30,12 @@
     overflow: hidden;
 
     &[open] + .faq__detail-description {
-      max-height: 600px;
       border-bottom-color: $black_sea;
       transition: max-height 1000ms ease-out, border-bottom 0ms linear;
     }
+    &[open] + .faq__detail-description.small { max-height: 300px }
+    &[open] + .faq__detail-description.normal { max-height: 450px }
+    &[open] + .faq__detail-description.large { max-height: 800px }
   }
 
   &__summary {
@@ -62,8 +64,7 @@
 
     p, li { text-align: justify; }
   }
-
-  ul { margin: 0; }
+  ul { margin: 0 0 0 10px; }
 
   &__bottom-info {
     background: linear-gradient(116deg, $purple-heart 0%, $sky-ua 100%);
@@ -109,7 +110,7 @@
     &__main-content {
       background-position: top 107px left 0, top 0 left 0;
       background-size: 140px 140px, cover;
-      padding: 66px 20px 88px 20px;
+      padding: 66px 0 88px 0;
 
       &::after {
         bottom: -5%;

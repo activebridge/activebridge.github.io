@@ -17,7 +17,7 @@ json-ld: faq
           <details class="">
             <summary class="faq__summary">{{ detail.question }}</summary>
           </details>
-          <div class="faq__detail-description">
+          <div class="faq__detail-description {{ detail.size }}">
             {% if detail.answer_list  %}
               {% for answer in detail.answer_list %}
                 <ul class="">
