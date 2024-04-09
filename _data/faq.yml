@@ -8,6 +8,7 @@ details:
             employees who are provided to customers on a contract basis. The relations of the staff members of the
             center with the company are regulated by the legislation of Ukraine. The company in its turn bears full
             responsibility for the work of its regular employees to the customer.
+    size: normal
   - question: How can you prove that your company provides well-designed application solutions?
     answer: We have been serving the U.S., Canadian and European markets for 10 years. During this time we have
             helped launch successful projects, such as Knock Knock City, Foundersuite, SplitPayments, and many
@@ -15,16 +16,19 @@ details:
             who want to take their business to the next level. So many of our clients make business with us today.
             You can always ask for references about our work from our customers. And you can always check the ratings
             provided by independent sites, such as Clutch and Expertise.
+    size: normal
   - question: What is your average hourly rate or minimum project budget?
     answer: Our average rate depends on the developers’ level of expertise. Rates vary depending on the developer's
             experience, soft skills and hard skills they have. An average Junior’s developer rate is $25/h, an average
             Middle developer’s rate is $35/h, an average Senior’s rate is $45/h.<br>
             We work on fix price cooperation model. The minimum project budget, in this case, is $30.000.
+    size: normal
   - question: What is your main expertise?
     answer: Our main expertise is developing web-based systems, web applications, cloud-based software, cross-platform
             applications, and PWA. All our developers have a Bachelor’s or Master’s degree in computer science, have deep
             knowledge in OOP, and build great projects utilizing Ruby on Rails, React JS, React Native, Angular JS, and
             add-ones technologies.
+    size: normal
   - question: What data and materials do you expect a client provides to proceed with project development?
     answer: We start with an introductory call with a client to clarify a client’s needs and expectations and obtain the
             main project details to ascertain the possibility of future cooperation. We provide all the necessary information
@@ -32,6 +36,7 @@ details:
             We sign a non-disclosure agreement at the customer’s request and ask them to share with us the up-to-date
             information about their project. That might include a brief project overview, technical specifications, a mock-up,
             a list of main features, and any other details a client feels it is necessary to share.
+    size: normal
   - question: What does your project development process look like?
     answer_list:
       - item: We start with an introductory call to clarify project details and a client’s needs and expectations.
@@ -45,6 +50,7 @@ details:
               requests, we add those as tasks to the backlog to prioritize and estimate them once again.
       - item: We build your product iteration by iteration, and provide you with a working piece of functionality at the end of
               each sprint. All the project-related documentation is stored in a closed Read me file on Github.
+    size: large
   - question: What do the project control processes look like for your clients?
     answer_list:
       - item: "No matter what kind of cooperation model a client chooses - Staff Augmentation or Project Development - they get full
@@ -55,13 +61,16 @@ details:
               domain access, project management tools."
       - item: product and sprint backlogs, regular daily meetings, retrospective, sprint reporting, timelog reports for billing.
       - item: continuous-integration and code reviews
+    size: large
   - question: What type of project-related documents and developments does a client own?
     answer: A client has access to a Github private repository as soon as the project development process starts. Also, a client gets
             all the IP rights and becomes the sole owner of everything created during the project (such as code, designs, etc.).
+    size: small
   - question: What payment methods do you handle?
     answer: We mostly work with a Time and Materials contract, but there are some cases we accept Fixed Price payment contracts. We
             charge per person working on the project, according to our hourly rates. We support wire transfer payments to our US
             bank account. We provide invoices once or twice a month based on the time reports we provide. The time reports include
             team members’ names all the tasks they solved, hours spent on each task. Time reports are reviewed and approved by the
             client before bill payments.
+    size: normal
 button: Get free consultation with our CTO
