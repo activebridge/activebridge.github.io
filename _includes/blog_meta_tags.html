@@ -1,0 +1,25 @@
+{% if page.layout == "blog-template" and paginator.page > 1 %}
+  {% assign page_index = " - page " | append: paginator.page %}
+{% else %}
+  {% assign page_index = "" %}
+{% endif %}
+
+{% if page.layout == "blog-template" and paginator %}
+  {% if page.category != "all" %}
+    {% assign page_category = "/" | append: page.category %}
+  {% else %}
+    {% assign page_category = "" %}
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+      <link rel="prev" href="{{ site.baseurl }}/blog{{ page_category }}/">
+    {% else %}
+      <link rel="prev" href="{{ site.baseurl }}/blog{{ page_category }}/{{ paginator.previous_page }}">
+    {% endif %}
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <link rel="next" href="{{ site.baseurl }}/blog{{ page_category }}/{{ paginator.next_page }}">
+  {% endif %}
+{% endif %}
