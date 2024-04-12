@@ -61,7 +61,7 @@ redirect_from:
       <h3 class="header-3">{{site.data.solutions.industries.title}}</h3>
     </div>
     <div class="carousel-scroll" >
-      <div id="page-carousel" class="carousel-scroll__scroller">
+      <div class="carousel-scroll__scroller" data-scroll="scroller">
         <div class="frame"></div>
         <div class="frame"></div>
         {% for item in site.data.solutions.industries.all %}
@@ -93,7 +93,7 @@ redirect_from:
       </div>
     </div>
     <div class="solutions__project-development">
-      <div class="wrapper timeline animated-cards" id="snake-animation-block">
+      <div class="wrapper timeline animated-cards" data-animation="snake">
         <svg class="desktop-svg" viewBox="0 0 888 1397" fill="none" preserveAspectRatio="none">
           <path class="svg-path" d="M3.00001 0V123V209.5C3.50001 218.833 9.80001 237.5 31 237.5C52.2 237.5 584.833 237.5 848.5 237.5C861.167 236.667 886.5 243.1 886.5 275.5C886.5 307.9 886.5 566 886.5 691C883.833 700 874.7 718 859.5 718C844.3 718 303.167 718 34.5 718C25.5 717.333 6.70001 722.6 3.50001 749C0.300009 775.4 2.16668 1040.67 3.50001 1170C5.50001 1179.17 13.8 1197.5 31 1197.5C48.2 1197.5 587.5 1197.5 855 1197.5C865.5 1199.5 886.5 1208.6 886.5 1229V1314.5V1397" stroke="#A49FEB" stroke-width="3"/>
         </svg>
@@ -123,7 +123,7 @@ redirect_from:
         <h3 class="header-3">{{ site.data.solutions.staff_augmentation.title }}</h3>
         <p class="header-2">{{ site.data.solutions.staff_augmentation.description }}</p>
       </div>
-      <div class="wrapper timeline animated-cards" id="snake-animation-block">
+      <div class="wrapper timeline animated-cards" data-animation="snake">
         <svg class="desktop-svg" viewBox="0 0 889 1299" fill="none" preserveAspectRatio="none">
           <path class="svg-path" d="M5.5 345V278.5M5.5 278.5L4 415.5C4.33333 424.167 17.6 440.1 38 440.5C58.4 440.9 594.5 440.667 860 440.5C871.5 441 887 450.1 887 476.5C887 502.9 887 766.833 887 895.5C886.5 904 880.4 921.3 860 922.5C839.6 923.7 301.167 923 34.5 922.5C24.6667 922.167 4.8 927.8 4 953C3.2 978.2 2.66667 1017.83 2.5 1034.5L5.5 1150V1255.5L2.5 1298.5M5.5 278.5V161.5L2.5 53V0"  stroke="#CD9FEB" stroke-width="3"/>
         </svg>
@@ -155,7 +155,7 @@ redirect_from:
         <p class="header-2 white-text">{{ site.data.solutions.build-test-product.description }}</p>
       </div>
       <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
+        <div class="carousel-scroll__scroller" data-scroll="scroller">
           <div class="frame"></div>
           <div class="frame"></div>
           {% for item in site.data.team_extension.services.all %}

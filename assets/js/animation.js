@@ -18,9 +18,9 @@ function initSnakeAnimation (path, container) {
 }
 
 function connectAnimationToPage () {
-  animatioBlocks = document.querySelectorAll('#snake-animation-block')
+  animatioBlocks = document.querySelectorAll('[data-animation="snake"]')
 
-  animatioBlocks .forEach((element) => {
+  animatioBlocks.forEach((element) => {
     const svg = element.querySelector('.svg-path')
     initSnakeAnimation(svg, element)
   })
