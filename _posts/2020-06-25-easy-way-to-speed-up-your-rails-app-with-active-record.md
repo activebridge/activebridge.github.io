@@ -27,7 +27,7 @@ One possible reason for slow performance may be due to Active Record. **That’s
 
 So, **Active Record is Rails’ default Object Relational Mapper (ORM).** It is used to interact with a database of applications by generating and executing Structured Query Language (SQL). Active Record is much more powerful than just simple CRUD actions on individual records.
 
-	Querying with ActiveRecord (where, save, etc...) is easy and fast enough. However we can meet the case when a page with simple content takes a second or more to come back from the server. And it's getting complicated with Timeout errors coming back from nginx.
+Querying with ActiveRecord (where, save, etc...) is easy and fast enough. However we can meet the case when a page with simple content takes a second or more to come back from the server. And it's getting complicated with Timeout errors coming back from nginx.
 
 Developers can fix the issues using caching. Although that adds some troubles: expiration, nesting partials, and bugs that only reproduce in production. It seems you don’t need this headache, right?
 
@@ -49,9 +49,9 @@ Starting with Rails 4: pluck has become smarter and allows you to take more comp
 User.all.pluck(:id, :created_at)
    (1.7ms)  SELECT "users"."id", "users"."created_at" FROM "users"
  => [[166, Mon, 07 Mar 2016 12:34:32 GMT +00:00], [178, Wed, 03 Aug 2016 14:02:43 BST +01:00], [210, Sun, 05 Mar 2017 18:08:25 GMT +00:00], [204, Tue, 07 Feb 2017 08:46:46 GMT +00:00], [159, Sun, 21 Feb 2016 19:46:18 GMT +00:00]]
- ```
+```
 
- The documentation does not say that pluck can also accept SQL. This will allow you to use it in more complex cases, when, for example, you need to select a value from 2 tables. In principle pluck and so it is able, but only if the column having unique for 2 columns the name is chosen. Moreover, there probably will be necessary to carry out any transformations in the course of sampling and we can make them with SQL:
+The documentation does not say that pluck can also accept SQL. This will allow you to use it in more complex cases, when, for example, you need to select a value from 2 tables. In principle pluck and so it is able, but only if the column having unique for 2 columns the name is chosen. Moreover, there probably will be necessary to carry out any transformations in the course of sampling and we can make them with SQL:
 
 ```rails
 User.pluck(<<-PLUCK)
@@ -59,7 +59,7 @@ UPPER(first_name)
 PLUCK
 (3.2ms)  SELECT UPPER(first_name) FROM "users"
  => ["OLIVIER", "VDFVFD", "DANIEL", "ANNA", "SDGDSZG"]
- ```
+```
 
 **What do you need to remember when using a pluck:**
 
@@ -72,7 +72,8 @@ User.distinct.pluck (:first_name)
 ```
 
 faster than
-```ruby User.pluck(:first_name).uniq.
+```ruby
+User.pluck(:first_name).uniq.
 ```
 
 *  For simple transformations or to resolve a conflict in a column name - you can pass the request by string:
@@ -89,7 +90,7 @@ The select Method is another way to limit the attributes selected from your data
 User.select(:id, :created_at)
 User Load (2.7ms)  SELECT "users"."id", "users"."created_at" FROM "users"
  => #<ActiveRecord::Relation [#<User id: 166, created_at: "2016-03-07 12:34:32">, #<User id: 178, created_at: "2016-08-03 13:02:43">, …]
- ```
+```
 
 ## Grab all the data at once in ActiveRecord
 
@@ -112,7 +113,7 @@ You’re trying to find 5 users along with their profiles, and you’re doing 6 
   <tr>
     <td><%= user.name %></td>
     <td><%= user.profile.age %></td>
-		```
+```
 You don’t need to hit the database N+1 times. You want to hit it at most twice: once for the users you’re trying to find, and once for all of the profiles associated with all of those users. This is called “eager loading” and you can do it really easily with .includes:
 
 ```ruby
