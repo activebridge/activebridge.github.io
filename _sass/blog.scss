@@ -333,6 +333,16 @@
     justify-content: space-around;
   }
   &__read-also-block { background: linear-gradient(180deg, $kviten 0%, $ocean_light 50%); }
+
+  pre {
+    background-color: $titan_white;
+    display: block;
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: 20px 30px;
+    white-space: pre-wrap;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 .post-description {
