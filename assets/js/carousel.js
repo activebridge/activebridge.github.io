@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", initCarousels );
 
 function initCarousels() {
-  carousels = document.querySelectorAll('#page-carousel')
+  carousels = document.querySelectorAll('[data-scroll="scroller"]')
+  console.log(carousels)
   carousels.forEach((element) => {setCarousel(element)})
 }
 

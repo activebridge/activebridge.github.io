@@ -30,7 +30,7 @@ json-ld: services
     </div>
     <div class="carousel-background">
       <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
+        <div class="carousel-scroll__scroller" data-scroll="scroller">
           <div class="frame"></div>
           <div class="frame"></div>
           {% for item in site.data.services.web_services.all %}
@@ -67,7 +67,7 @@ json-ld: services
       </div>
     </div>
     <div class="carousel-scroll" >
-      <div id="page-carousel" class="carousel-scroll__scroller">
+      <div class="carousel-scroll__scroller" data-scroll="scroller">
         <div class="frame"></div>
         <div class="frame"></div>
         {% for item in site.data.services.custom_ror_dev_services.all %}

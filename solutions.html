@@ -61,7 +61,7 @@ redirect_from:
       <h3 class="header-3">{{site.data.solutions.industries.title}}</h3>
     </div>
     <div class="carousel-scroll" >
-      <div id="page-carousel" class="carousel-scroll__scroller">
+      <div class="carousel-scroll__scroller" data-scroll="scroller">
         <div class="frame"></div>
         <div class="frame"></div>
         {% for item in site.data.solutions.industries.all %}
@@ -155,7 +155,7 @@ redirect_from:
         <p class="header-2 white-text">{{ site.data.solutions.build-test-product.description }}</p>
       </div>
       <div class="carousel-scroll" >
-        <div id="page-carousel" class="carousel-scroll__scroller">
+        <div class="carousel-scroll__scroller" data-scroll="scroller">
           <div class="frame"></div>
           <div class="frame"></div>
           {% for item in site.data.team_extension.services.all %}
