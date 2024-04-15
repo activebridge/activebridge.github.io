@@ -44,7 +44,7 @@ json-ld: home
 
   <div class="info-container index-home wrap">
       <div class="wrapper">
-        <div class="header-5 index-testimonials__header white-text">
+        <div class="header-2 index-testimonials__header white-text">
           {{ site.data.index.help_startups }}
         </div>
         <div class="description white-text">
@@ -87,7 +87,7 @@ json-ld: home
 
   <div class="index-services development__cards wrap">
     <div class="wrapper">
-      <h2 class="header-5">{{ site.data.index.expert_web_services }}</h2>
+      <h2 class="header-2">{{ site.data.index.expert_web_services }}</h2>
       <div class="description justify-center">
         {{ site.data.index.embedded_teams }}
       </div>
@@ -97,7 +97,7 @@ json-ld: home
       <div class="cards-container">
         {% for service in site.data.index.services %}
           <div class="card">
-            <div class="card__title-2 purple-heart"> {{ service.title }} </div>
+            <div class="card__title-2 purple-text"> {{ service.title }} </div>
             <div class="card__description index-services__item-description">
               {{ service.description }}
             </div>
@@ -110,10 +110,10 @@ json-ld: home
     </div>
   </div>
 
-  <div class="info-container index-about-us">
+  <div class="info-container index-about-us wrap">
     <div class="wrapper">
       <div class="header-3 white-text">{{ site.data.index.our_company }}</div>
-      <div class="index-about-us__description">{{ site.data.index.about_us_description }}</div>
+      <div class="description index-about-us__description white-text">{{ site.data.index.about_us_description }}</div>
     </div>
     <div class="about_us_info desktop-only">
       {% include about_us_info.html %}
@@ -134,7 +134,7 @@ json-ld: home
     </div>
   </div>
 
-  <div class="index-solutions">
+  <div class="index-solutions wrap">
     <div class="wrapper index-solutions__holder">
       <h2 class="header-2">{{ site.data.index.build_great_product }}</h2>
       <div class="description">{{ site.data.index.help_businesses }}</div>

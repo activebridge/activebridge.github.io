@@ -82,7 +82,7 @@ key_facts:
   subtitle: about Active Bridge as the team of dedicated Ruby on Rails developers
   all:
   - image: key_facts_1
-    title: <span>10+</span> years of remote development experience
+    title: <b>10+</b> years of remote development experience
     description: "Growing since 2013, our team of over 40 development professionals who thrive on the cutting-edge of technology and embrace our clients’ mindsets to seamlessly integrate with their teams."
   - image: key_facts_2
     title: Huge dev stack
@@ -94,7 +94,7 @@ key_facts:
     title: Cost efficiency
     description: To enhance our offshore IT services' affordability, Active Bridge maintains research, development, and technical support operations in Ukraine. This strategic choice, enables us to offer superior value, allowing our clients to optimize their development budgets without compromising quality.
   - image: key_facts_5
-    title: <span>4</span> own social-responsible products
+    title: <b>4</b> own social-responsible products
     description: Active Bridge actively contributes to open source projects and develops proprietary products that make a positive impact on the community. Our portfolio includes an innovative eco-friendly taxi application, akin to Uber, designed for local eco-taxi services, and a comprehensive open platform dedicated to code refactoring.
 culture:
   title: A culture of quality and collaboration

@@ -11,10 +11,10 @@ json-ld: services
 ---
 
 <div class="container services">
-  <div class="info-container services__main wrap">
+  <div class="services__main wrap">
     <div class="wrapper">
       <div class="header-3 white-text">{{ site.data.services.services }}</div>
-      <h1 class="header-5 white-text">{{ site.data.services.pick_right_stack }}</h1>
+      <h1 class="header-2 white-text">{{ site.data.services.pick_right_stack }}</h1>
       <div class="services__description-wrap" style="view-transition-name: services;">
         <div class="description white-text">{{ site.data.services.learn_and_grow }}</div>
         <img src="/assets/images/services/flower.webp" alt="Flower">
@@ -22,7 +22,7 @@ json-ld: services
     </div>
   </div>
 
-  <div class="alabaster services__web-dev">
+  <div class="alabaster services__web-dev wrap">
     <div class="overlay"></div>
     <div class="wrapper">
       <h2 class="header-3">{{ site.data.services.web_services.title }}</h2>
@@ -57,7 +57,7 @@ json-ld: services
     </div>
   </div>
 
-  <div class="services__custom-ror-dev">
+  <div class="services__custom-ror-dev wrap">
     <div class="wrapper">
       <h2 class="header-3 white-text">
         {{ site.data.services.custom_ror_dev_services.title }}
@@ -100,7 +100,7 @@ json-ld: services
       <div class="cards-container">
         {% for item in site.data.services.mobile_dev_services.all %}
           <div class="card">
-            <div class="card__title-2 purple-heart">{{ item.title }}</div>
+            <div class="card__title-2 purple-text">{{ item.title }}</div>
             <div class="card__icon">
               <img src="/assets/images/services/mobile_dev_services/{{ item.icon }}" alt="Icon">
             </div>
@@ -114,10 +114,10 @@ json-ld: services
     </div>
   </div>
 
-  <div class="info-container services__engagement-models development__cards wrap">
+  <div class="services__engagement-models development__cards wrap">
     <div class="wrapper">
       <div class="header-3 white-text">{{ site.data.services.engagement_models.title }}</div>
-      <div class="description white-text inria">
+      <div class="header-2 white-text">
         {{ site.data.services.engagement_models.description }}
       </div>
       <div class="cards-container">
@@ -137,7 +137,7 @@ json-ld: services
     </div>
   </div>
 
-  <div class="alabaster services__approaches">
+  <div class="alabaster services__approaches wrap">
     <div class="wrapper">
       <div class="header-2">{{ site.data.services.approaches.subtitle }}</div>
       <div class="header-3">{{ site.data.services.approaches.title }}</div>

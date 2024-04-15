@@ -1,18 +1,21 @@
 .team {
-  .header-2 {
-    max-width: 100%;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
-  }
+  .header-2 { line-height: 1.8; }
 
   &__main {
     background: center/cover no-repeat url('/assets/images/team/team-bg.webp');
     background-color: $dusty-silver;
     height: 75vh;
+
+    .header-3 {
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .header-2 { margin: 60px 0; }
   }
 
   &__help {
-    padding: 3vh 18vw;
+    padding: 25px 0;
     background-color: $sky-ua;
     box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
 
@@ -95,23 +98,27 @@
   &__crew {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     box-shadow: 0px 0px 20px 0px rgba($dark_black, .25);
+
+    .crew { margin-bottom: 0; }
   }
 
   &__important_things {
     background-image: linear-gradient(to right top, $palianytsia, transparent, transparent, $palianytsia);
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .25);
 
-    .header-2 { margin: 0 0 7vh; }
+    &.wrap { padding-bottom: 35px; }
+
+    .header-2 { margin-bottom: 40px; }
 
     .list-with-images.horizontal {
       .list-with-images__item {
         margin-top: 2.5vh;
         align-items: center;
 
-        .header-2 { margin: 2.5vh 0;}
+        .header-2 { margin: 20px 0;}
 
         .description {
-          max-width: 15em;
+          max-width: 250px;
           width: 100%;
         }
 
@@ -133,40 +140,30 @@
     box-shadow: 0px 0px 20px 0px rgba($dark_black, .25);
   }
 
-  &__expertise {
-    .button { margin-top: 3.5em; }
+  &__expertise.development__cards {
+    background-image: linear-gradient(to bottom, $kviten, $white);
 
-    &.development__cards {
-      background-image: linear-gradient(to bottom, $kviten, $white);
+    .cards-container .card__description { margin-top: 25px; }
 
-      .header-2 { margin: 0 0 4.5vh; }
-    }
+    .header-2 { margin-top: 0; }
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .team {
-    .header-2 {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
-      font-size: 0.85em;
-      line-height: 1.5;
-    }
-
     &__main {
       height: 550px;
       background-position: 55% top;
       background-size: 250% 115%;
 
-      .description { line-height: 1.5; }
+      &.wrap { padding-top: 100px; }
+
+      .wrapper { max-width: 650px; }
+
+      .header-2 { margin: 40px 0; }
     }
 
-    &__help {
-      padding-right: 12vw;
-      padding-left: 12vw;
-
-      .header-2 { margin: 0; }
-    }
+    &__help .header-2 { margin: 0; }
 
     &__people {
       .wrapper::after { display: none }
@@ -227,10 +224,13 @@
     &__expertise {
       .header-2 { margin-top: 0; }
 
-      .button {
-        padding-right: 10vw;
-        padding-left: 10vw;
-      }
+      &.development__cards .cards-container { margin-bottom: 0; }
+
+      .button { margin-top: 30px; }
     }
   }
+}
+
+@media screen and (max-width: 480px) {
+  .team__main .header-2 { margin: 30px 0; }
 }

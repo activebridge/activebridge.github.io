@@ -104,8 +104,8 @@ industries:
   more_button: Learn more
 project_development:
   title: Project development approach
-  description: "Our project development process takes 4 major steps: preparation, project design, UI/UX and project
-                development, MVP/project launch."
+  description: "Our project development process takes 4 major steps: <span>preparation, project design, UI/UX and project
+                development, MVP/project launch.</span>"
   approaches:
     - title: Preparation
       description: The preparation stage is aimed at getting general information about the project idea, goals,

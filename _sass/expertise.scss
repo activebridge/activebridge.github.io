@@ -1,26 +1,19 @@
 .expertise {
-  .header-3 { margin-top: 2vh; }
-
-  .header-2 {
-    max-width: 85%;
-    margin: 5vh auto;
-    font-size: 22px;
-    line-height: 1.5;
-  }
-
-  .description {
-    margin-bottom: 10vh;
-    font-size: 16px;
-  }
+  .header-2 { line-height: 1.6; }
 
   &__main {
     .description {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
+      margin: 40px 0;
+
+      &:last-child { margin-bottom: 0; }
     }
 
     .wrapper {
-      h1 { margin-bottom: 0;}
+      h1 {
+        margin-bottom: 0;
+        margin-top: 40px;
+      }
+
       h2 { margin-top: 10px; }
     }
   }
@@ -29,38 +22,29 @@
     background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
     box-shadow: 0px 0px 20px -3px grey;;
 
-    .header-3 { font-size: 1.3em; }
+    .header-3 {
+      margin-top: 40px;
+      font-size: 20px;
+    }
 
-    .header-2 { margin-top: 1vh; }
-
-    img { margin: 5vh 0; }
-
-    .description { margin-bottom: 3vh; }
+    img { margin: 40px 0; }
   }
 
   &__industries {
-    padding: 80px 0;
+    .header-3:last-child { font-size: 20px; }
 
-    .header-3:first-child { font-size: 1.8em; }
-
-    .header-3 { font-size: 1.3em; }
-  }
-
-  &__main,
-  &__solutions,
-  &__testimonials {
-    .header-2 { max-width: 100%; }
+    .header-2 {
+      margin-top: 35px;
+      margin-bottom: 35px;
+    }
   }
 
   &__solutions {
+    background: $main-gradient;
+    
     &.wrap {
-      padding-top: 5vh;
-      padding-bottom: 5vh;
-    }
-
-    .header-2 {
-      margin-top: 0;
-      margin-bottom: 0;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     .button { margin-top: 30px; }
@@ -70,11 +54,7 @@
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding-bottom: 60px;
 
-    .wrapper {
-      padding-top: 8vh;
-
-      .header-2 { margin-top: 0; }
-    }
+    .header-2 { margin-top: 0; }
   }
 
   &__tell-us {
@@ -93,9 +73,8 @@
 }
 
 .chart-container {
-  width: calc(100% - 12vw);
-  margin: 6vh 0;
-  padding: 6vh 6vw;
+  margin-top: 50px;
+  padding: 50px 65px;
   border-radius: 20px;
   background: $white;
   box-shadow: $main-shadow;
@@ -224,7 +203,7 @@
   .card__description { line-height: 1.6em; }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .chart-container {
     width: calc(100% - 10vw);
     margin: 4vh 0;
@@ -239,6 +218,7 @@
       &-color {
         width: 35px;
         height: 35px;
+        border-radius: 10px;
       }
 
       &-title { font-size: 1em; }
@@ -248,6 +228,11 @@
   }
 
   .expertise {
+    .wrap:first-child {
+      padding-top: 100px;
+      padding-bottom: 40px;
+    }
+
     &-cards {
       margin-bottom: 0;
 
@@ -295,7 +280,7 @@
 
     &__tell-us {
       min-height: 50vh;
-      
+
       .header-2 { margin: 0 auto; }
     }
   }

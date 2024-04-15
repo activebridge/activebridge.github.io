@@ -8,11 +8,11 @@ scripts: [details]
 json-ld: faq
 ---
 
-<div class="faq">
-  <section class="faq__main-content">
+<div class="faq container">
+  <section class="faq__main-content wrap">
     <div class="wrapper">
       <p class="header-3">{{site.data.faq.title}}</p>
-      <h1 class="faq__description header-2">{{site.data.faq.description}}</h1>
+      <h1 class="header-2">{{site.data.faq.description}}</h1>
       <div class="faq__table" style="view-transition-name: faq;">
         {% for detail in site.data.faq.details %}
           <details class="">

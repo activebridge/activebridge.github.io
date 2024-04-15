@@ -46,6 +46,23 @@
       margin: 0 0 6vh 0;
     }
 
+    .web_dev_services__full_stack-list {
+      padding-left: 45px;
+
+      &-item {
+        color: $black;
+
+        &::after {
+          left: -45px;
+          top: 0;
+          width: 22px;
+          height: 22px;
+          background: center/cover no-repeat url('/assets/images/privacy_policy/sun.webp');
+          transform: translateY(50%);
+        }
+      }
+    }
+
     .list-with-images.horizontal .list-with-images__item {
       max-width: 23%;
       margin-right: 7px;
@@ -84,6 +101,11 @@
     .header-3.small-text { margin: 5vh 0; }
 
     .list-with-images .list-with-images__item .header-2 { margin-top: 1.5vh; }
+
+    .web_dev_services__full_stack-list-item {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
 
     &__main {
       background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5);

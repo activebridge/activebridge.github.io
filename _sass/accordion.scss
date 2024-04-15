@@ -8,6 +8,8 @@
     user-select: none;
     z-index: 1;
 
+    &:last-child { margin-bottom: 0; }
+
     &:nth-child(4n+1) summary { background-color: $sky-ua; }
 
     &:nth-child(4n+2) summary { background-color: $palianytsia; }

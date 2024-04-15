@@ -2,41 +2,49 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 4.5vh 0 3vh;
+  margin: 40px 0 50px;
 
   &__item {
-    padding: 4vw 1vw;
-    margin: 2vh 10px;
+    padding: 50px;
+    margin: 20px 7px;
     max-width: 270px;
     min-width: 220px;
-    width: 30%;
+    width: 100%;
     background: rgba($white, .5);
     border-radius: 30px;
     box-shadow: $main-shadow;
     box-sizing: border-box;
 
     &-photo img {
-      width: 8em;
+      width: 150px;
       border-radius: 50%;
+      box-shadow: 0 4px 4px 0 rgba($dark_black, .25);
     }
 
     &-name {
-      margin: 2vw 0 1vw;
-      font: 1.5em 'Inria Bold', serif;
+      margin: 25px 0 20px;
+      font: 22px 'Inria Bold', serif;
     }
 
-    &-post { font-size: 1.1em; }
+    &-post { font-size: 18px; }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .crew {
+    margin-top: 30px;
+
     &__item {
-      padding: 8vw 5vw;
+      width: 30%;
 
-      &-name { font-size: 1em; }
+      &-photo img { width: 100px; }
 
-      &-post { font-size: .9em; }
+      &-name {
+        margin: 15px 0 10px;
+        font-size: 14px;
+      }
+
+      &-post { font-size: 12px; }
     }
   }
 }

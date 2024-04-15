@@ -4,9 +4,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 2px 10px 10px rgba(23, 19, 43, 0.10);
-  padding: 191px 0;
+  padding: 160px 0;
 
-  .header-2 { margin: 5vh 0; }
+  .header-2 { margin: 40px 0; }
 
   &__field {
     border: none;
@@ -92,9 +92,7 @@
     text-align: center;
   }
 
-  &__description { margin-bottom: 23px; }
-
-  .header-2 { margin: 40px 0; }
+  &__description { margin-bottom: 40px; }
 
   textarea {
     max-width: 600px;
@@ -120,7 +118,9 @@
 @media (max-width: 767px) {
   .contacts {
     min-height: 1000px;
-    padding: 73px 0;
+    padding: 100px 0 50px;
+
+    .header-2 { margin: 30px 0; }
 
     &__form-group { max-width: 300px; }
 
@@ -148,18 +148,9 @@
 
   .after-send {
     &__list {
-      margin: 0 auto;
+      margin: 0 auto 175px;
       max-width: 300px;
       padding-left: 0;
     }
-  }
-}
-
-@media (max-width: 480px) {
-  .contacts {
-    background: url('/assets/images/contacts/BGT-1x1Mob-1.webp');
-    background-position: left 0 top 70%;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }

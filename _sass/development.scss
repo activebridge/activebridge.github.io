@@ -42,14 +42,14 @@
 
     .header-2,
     .card__title-2  {
-      font-size: 1.25em;
+      font-size: 22px;
       line-height: 1.6;
     }
 
-    .header-2 { margin: 6vh 0 8vh; }
+    .header-2 { margin: 40px 0; }
 
     .cards-container {
-      margin-bottom: 0;
+      margin: 65px 0;
 
       .card {
         max-width: 353px;
@@ -68,7 +68,7 @@
         }
 
         &__description {
-          font-size: 16px;
+          font-size: 14px;
           line-height: 1.4;
           text-align: justify;
         }
@@ -113,7 +113,7 @@
 
       .cards-container {
         .card {
-          &:not(:last-child) { margin-bottom: 3vh; }
+          &:not(:last-child) { margin-bottom: 30px; }
 
           &__description {
             margin: 30px 10px 15px;
@@ -126,7 +126,7 @@
         }
       }
 
-      .header-2 { margin: 3vh 0 4vh; }
+      // .header-2 { margin: 3vh 0 4vh; }
     }
 
     &__offer .header-2 { max-width: 100%; }

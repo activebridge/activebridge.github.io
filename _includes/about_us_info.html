@@ -13,6 +13,10 @@
   </div>
 
   <div class="about_us_info__photo desktop-only">
-    <img src="/assets/images/index/about_us_photo.webp" alt="About us">
+    {% if page.type == 'about' %}
+      <img src="/assets/images/about/about-bg-2.webp" alt="About us">
+    {% else %}
+      <img src="/assets/images/index/about_us_photo.webp" alt="About us">
+    {% endif %}
   </div>
 </div>

@@ -9,35 +9,21 @@ description: We are a contract development agency specializing in providing
              their in-house teams.
 scripts: [carousel, details]
 json-ld: about
+type: about
 ---
 
 <div class="container about" id="container">
-  <div class="info-container">
-    <div class="wrap">
-      <div class="wrapper" style="view-transition-name: about;">
-        <p class="header-3 white-text">{{ site.data.about.about }}</p>
-        <h1 class="header-2 about__header white-text">{{ site.data.about.header }}</h1>
-        <p class="about__description white-text header-2">{{ site.data.about.description }}</p>
-      </div>
+  <div class="about__main wrap">
+    <div class="wrapper" style="view-transition-name: about;">
+      <p class="header-3 white-text">{{ site.data.about.about }}</p>
+      <h1 class="header-2 about__header white-text">{{ site.data.about.header }}</h1>
+      <p class="about__description white-text">{{ site.data.about.description }}</p>
     </div>
-    <div class="about_us_info">
-      <div class="about_us_info__items">
-        <div class="about_us_info__container">
-          <div class="about_us_info__container-items">
-            {% for item in site.data.index.about_us_items %}
-              <div class="about_us_info__item white-text">
-                <div class="about_us_info__item-image">
-                  <p>{{ item.logo }}</p>
-                </div>
-                <p>{{ item.text }}</p>
-              </div>
-            {% endfor %}
-          </div>
-        </div>
-        <div class="about_us_info__photo desktop-only">
-          <img src="/assets/images/about/about-bg-2.webp" alt="About us">
-        </div>
-      </div>
+    <div class="about_us_info mobile-only">
+      {% include about_us_info.html %}
+    </div>
+    <div class="about_us_info desktop-only">
+      {% include about_us_info.html %}
     </div>
   </div>
 
@@ -77,9 +63,6 @@ json-ld: about
     <div class="wrapper">
       <div class="header-3">{{ site.data.about.benefits.title }}</div>
       <h2 class="header-2">{{ site.data.about.benefits.subtitle }}</h2>
-      <div class="about__vision-description about__description about__description-cera">
-        {{ site.data.about.benefits.description }}
-      </div>
       <div class="accordion">
         {% for benefit in site.data.about.benefits.all %}
         <div class="accordion__item">
@@ -115,9 +98,9 @@ json-ld: about
     </div>
   </div>
 
-  <div class="about__testimonials">
+  <div class="about__testimonials wrap">
     <div class="wrapper">
-      <div class="header-5 about__testimonials-title">
+      <div class="header-2">
         {{ site.data.testimonials.help_startups }}
       </div>
       <div class="description">
@@ -135,8 +118,8 @@ json-ld: about
   <div class="about__culture wrap">
     <div class="wrapper">
       <div class="about__culture-text">
-        <div class="about__culture-title"> {{ site.data.about.culture.title }} </div>
-        <div class="about__culture-description">
+        <div class="header-3"> {{ site.data.about.culture.title }} </div>
+        <div class="header-2">
           {{ site.data.about.culture.description }}
         </div>
       </div>
