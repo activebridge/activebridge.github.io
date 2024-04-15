@@ -7,22 +7,8 @@ function initCarousels() {
 
 function setCarousel(nodeElement) {
   const scroller = nodeElement
-  let items = scroller.querySelectorAll('[data-scroll="item"]');
-  let copyOfItems = Array.from(items);
-  let reverseNewItems = [...copyOfItems].reverse();
-
-  const setElements = () => {
-    copyOfItems.forEach((item) => {
-      scroller.insertBefore(item.cloneNode(true), items[0]);
-    })
-    reverseNewItems.forEach((item) => {
-      scroller.insertBefore(item.cloneNode(true), items[items.length-1].nextSibling);
-    })
-  }
-  setElements();
-  items.length <= 6 && (setElements(), setElements(), setElements());
-
-  scroller.scrollLeft = 2000;
+  scroller.innerHTML = scroller.innerHTML + scroller.innerHTML
+  scroller.scrollLeft = 1700;
 
   scroller.addEventListener("click", event => {
     const rect = event.currentTarget.getBoundingClientRect();
@@ -36,18 +22,10 @@ function setCarousel(nodeElement) {
     }
   });
 
-  const addFrameElements = () => {
-    let items = Array.from(scroller.querySelectorAll('[data-scroll="item"]'));
-    scroller.firstElementChild.appendChild(items[items.length - 2].cloneNode(true));
-    scroller.children[1].appendChild(items[items.length - 1].cloneNode(true));
-    scroller.children[scroller.children.length -2].appendChild(items[0].cloneNode(true));
-    scroller.lastElementChild.appendChild(items[1].cloneNode(true));
-  }
-  addFrameElements();
-
   function checkElementUnderWindow() {
     let observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
+        console.log(entry.target.getBoundingClientRect())
         entry.target.classList.toggle('scaling-up', entry.isIntersecting);
       })
     }, {
@@ -57,31 +35,37 @@ function setCarousel(nodeElement) {
     })
     Array.from(scroller.children).forEach(div => observer.observe(div));
   }
-  if (!CSS.supports('animation-timeline: --item')) { checkElementUnderWindow(); }
+  checkElementUnderWindow()
+}
 
-  const setHiddden = () => { scroller.style.overflow = 'hidden'; };
-  const setScroll = () => { scroller.style.overflow = 'scroll'; };
+function loop({ target, target: { scrollLeft, scrollWidth, offsetWidth } }) {
+  const progress = scrollLeft / (scrollWidth - offsetWidth) * 100
+  if (window.scrollProgress === progress) return
+  // target.style.scrollSnapType = 'none'
+  clearTimeout(window.scrollSnapTimeout)
+  window.scrollSnapTimeout = setTimeout(() => {
+    // target.scrollTo({ left: 1000, behavior: 'smooth' })
+  }, 100)
 
-  function observeElements() {
-    let observer = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting && entry.target === scroller.children[scroller.children.length-1] && entry.isIntersecting) {
-          setHiddden();
-          scroller.children[1].scrollIntoView({ behavior: "instant", block: "nearest", inline: "nearest" });
-          setTimeout(function() { setScroll() }, 100);
-        } else if (entry.isIntersecting && entry.target === scroller.firstElementChild) {
-          setHiddden();
-          scroller.children[scroller.children.length-3].scrollIntoView({ behavior: "instant", block: "nearest", inline: "nearest" });
-          setTimeout(function() { setScroll() }, 100);
-        }
-      })
-    }, {
-      root: null,
-      rootMargin: "-50px",
-      threshold: 0.2,
-    })
-    Array.from(scroller.children).forEach(div => observer.observe(div));
+  const isForward = (window.scrollProgress <= progress)
+  window.scrollProgress = progress;
+
+  [...target.children].map(e => {
+    const toCenter = Math.abs(window.outerWidth / 2 - e.getBoundingClientRect().left - e.getBoundingClientRect().width / 2)
+    const toCenter2 = (window.outerWidth / 2 - e.getBoundingClientRect().left - e.getBoundingClientRect().width / 2)
+    const viewport = toCenter / offsetWidth * 100
+    const viewport2 = toCenter2 / offsetWidth * 100
+    e.style.setProperty('--viewport', viewport)
+    e.style.setProperty('--viewport2', viewport2)
+  })
+  target.style.setProperty('--scroll', Math.floor(progress))
+  if (offsetWidth + scrollLeft >= scrollWidth - offsetWidth && isForward) {
+    target.scrollLeft = scrollLeft - scrollWidth / 2
+    window.scrollProgress = 0
+    return
   }
-
-  observeElements();
+  if (scrollLeft <= offsetWidth && !isForward) {
+    target.scrollLeft = scrollLeft + scrollWidth / 2
+    window.scrollProgress = 100
+  }
 }
