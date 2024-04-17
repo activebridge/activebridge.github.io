@@ -16,8 +16,11 @@
   .index-header {
     position: inherit;
     margin-bottom: 1em;
-    font-size: 2.5em;
+    font-size: 45px;
     z-index: 1;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .description {
@@ -56,8 +59,6 @@
 }
 
 .index {
-  .description { font-size: 20px; }
-
   &-home {
     position: relative;
     z-index: 1;
@@ -75,12 +76,6 @@
     &__container {
       padding-top: 8vh;
       background: linear-gradient(135deg, $white, $main-lilac);
-
-      .header-4  {
-        margin: 7vh 0 4vh 0;
-        padding: 0 5%;
-        font-family: 'Cera-Bold', serif;
-      }
     }
 
     &__holder {
@@ -91,14 +86,6 @@
       width: 100%;
       margin-top: 4vh;
     }
-
-    &__description {
-      padding: 0 !important;
-      font-family: 'Inria', serif;
-      font-size: 20px;
-      text-align: justify;
-    }
-    &__title { margin: 6vh 0 3vh 0; }
 
     &__items {
       flex-direction: column;
@@ -142,19 +129,10 @@
       width: 40px;
       height: 40px;
     }
-
-    .header-3:last-child { margin-top: 7vh; }
   }
 
   &-services {
     background-color: $main-lilac;
-
-    .header-3 { margin: 5vh; }
-
-    .header-5 {
-      max-width: 65%;
-      margin: 0 auto 4vh;
-    }
 
     .card {
       &__title-2 {
@@ -177,15 +155,6 @@
   &-about-us {
     padding: 8vh 0;
 
-    &__description {
-      margin: 4.5vh 0;
-      font-family: 'Inria', serif;
-      font-size: 1.2em;
-      line-height: 1.7em;
-      text-align: justify;
-      color: $white;
-    }
-
     .button { box-shadow: $light-purple-shadow; }
   }
 
@@ -198,11 +167,7 @@
       font-family: 'Cera Regular';
       text-transform: uppercase;
     }
-
     .purple-text { display: inline; }
-
-    .description { margin-top: 5vh; }
-
     .button { background: $main-gradient; }
   }
 }
@@ -211,9 +176,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  .header-2 { max-width: 100%; }
-
   .index-solutions__items { margin: 7vh auto 0 auto; }
 
   .index-solutions__button {
@@ -232,8 +194,7 @@
     top: 0;
 
     .index-header {
-      margin: 0 0 1em .5em;
-      font-size: 1.5em;
+      font-size: 25px;
       order: 2;
     }
 
@@ -243,12 +204,10 @@
       order: 1;
     }
 
-    .header-2 {
-      font-size: 1em;
+    .block-inria-title {
+      font-size: 15px;
       order: 3;
-      margin: 0;
     }
-
     .description { display: none; }
 
     .awards-img {
@@ -282,11 +241,8 @@
   }
 
   .index {
-    .description { font-size: 14px; }
 
     &-home {
-      .index-testimonials__header { padding: 0 10px; }
-
       .description.with-padding {
         font-size: .75em;
         text-align: justify;
@@ -300,17 +256,6 @@
       &__holder {
         background-size: cover;
         margin-top: 2vh;
-      }
-
-      .header-3 {
-        line-height: 1.8;
-        &:last-child { margin-top: 4vh; }
-      }
-
-      .header-4 {
-        margin-top: 3vh;
-        font-size: .9em;
-        line-height: 1.8;
       }
 
       &__items {
@@ -396,22 +341,12 @@
     }
 
     &-solutions {
-      .header-2 { margin-top: 0; }
-
       .description {
         text-align: justify;
         text-align-last: center;
       }
 
       .button { margin-bottom: 0; }
-    }
-
-    &-about-us {
-      &__description {
-        margin-bottom: 0;
-        font-size: 0.9em;
-        line-height: 1.8em;
-      }
     }
 
     &-about-us-info {
