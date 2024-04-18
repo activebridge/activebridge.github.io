@@ -36,7 +36,7 @@ json-ld: privacy_policy
       <img src="/assets/images/privacy_policy/lock.webp" alt="Lock" class="absolute-icon">
     </div>
   </section>
-  <section class="privacy-policy__personal-info">
+  <section class="privacy-policy__personal-info wrap">
     <div class="wrapper personal-info">
       <h3 class="header-2">{{ site.data.privacy_policy.personal_info.title }}</h3>
       <ul class="web_dev_services__full_stack-list">
@@ -46,15 +46,15 @@ json-ld: privacy_policy
       </ul>
     </div>
   </section>
-  <section class="privacy-policy__vendor-info ">
-    <div class="wrapper vendor-info">
+  <section class="privacy-policy__vendor-info wrap">
+    <div class="wrapper">
       <h3 class="header-2">{{ site.data.privacy_policy.vendor_info.title }}</h3>
-      <p class="description vendor-info__description"> {{ site.data.privacy_policy.vendor_info.description }}</p>
+      <p class="description privacy-policy__description"> {{ site.data.privacy_policy.vendor_info.description }}</p>
       {% for block in site.data.privacy_policy.vendor_info.blocks %}
         <h4 class="header-2">{{ block.title }}</h4>
         <ul class="web_dev_services__full_stack-list">
           {% for line in block.lines %}
-            <li class="description web_dev_services__full_stack-list-item">{{ line.description }}</li>
+            <li class="web_dev_services__full_stack-list-item">{{ line.description }}</li>
           {% endfor %}
         </ul>
       {% endfor %}
