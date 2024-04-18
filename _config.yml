@@ -48,6 +48,10 @@ pagination:
   sort_field: 'date'
   sort_reverse: true
 
+google:
+  tag_manager:
+    container_id: GTM-PH7L55P
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
