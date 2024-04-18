@@ -4,16 +4,16 @@
   &__item {
     display: flex;
     align-items: center;
-    margin-bottom: 5vh;
+    margin-bottom: 35px;
 
     &-icon img {
       max-width: 150px;
-      margin-right: 4vh;
+      margin-right: 35px;
     }
 
     .header-2 {
       font-size: 22px;
-      margin: 1.5vh 0 1vh;
+      margin: 10px 0;
       text-align: left;
     }
 
@@ -72,9 +72,10 @@
     flex-wrap: wrap;
     max-width: 400px;
     margin: auto;
+    margin-bottom: 50px;
 
     &-icon {
-      margin: 0 auto;
+      margin: 0 auto 20px;
 
       img {
         max-width: 120px;
@@ -85,23 +86,22 @@
     .header-2  {
       text-align: center;
       font-size: 14px;
+      margin-top: 0;
     }
 
-    .description { font-size: .8em; }
+    .description { font-size: 12px; }
   }
 
   .list-with-images.horizontal {
+    justify-content: space-around;
+
     .list-with-images__item {
       max-width: 400px;
       width: 100%;
 
-      .description { font-size: .8em; }
+      &-icon img { margin-right: 0; }
+
+      .description { font-size: 12px; }
     }
   }
-}
-
-@media screen and (max-width: 767px) {
-  .list-with-images.horizontal { justify-content: space-around; }
-
-  .list-with-images__item-icon img { margin-right: 0; }
 }

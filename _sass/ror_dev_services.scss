@@ -8,11 +8,7 @@
     background-image: linear-gradient(135deg, $sky-ua, $white);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
-    &.wrap  { padding-top: 14vh; }
-
-    .header-2:last-child { font-size: 1.3em; }
-
-    .description { margin: 6vh 0; }
+    .description { margin: 60px 0 50px;}
 
     img {
       max-width: 150px;
@@ -28,7 +24,7 @@
     .list-with-images {
       margin-bottom: 0;
 
-      &__item { margin-bottom: 5vh; }
+      &__item:last-child { margin-bottom: 0; }
     }
   }
 
@@ -37,11 +33,13 @@
     box-shadow: inset 0px 12px 15px -7px $moon_raker;
     transition: all 1s ease-out;
 
+    &.wrap { padding-bottom: 35px; }
+
     & * {
      transition: all 1s ease-out;
     }
 
-    .description { margin: 6vh 0; }
+    .description { margin: 40px 0 70px; }
 
     .extendable_cards {
       display: flex;
@@ -51,7 +49,7 @@
       z-index: 1;
 
       .extendable_card-wrapper {
-        margin-bottom: 4vh;
+        margin-bottom: 45px;
         margin-left: 5px;
         margin-right: 5px;
         min-height: 350px;
@@ -112,19 +110,21 @@
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .25);
 
     .header-2 {
-      margin-top: 4vh;
-      margin-bottom: 4vh;
+      margin-top: 30px;
+      margin-bottom: 30px;
     }
   }
 
   &__quality-team {
+    padding: 40px 0;
     background: $main-gradient;
     box-shadow: 2px 2px 12px 0px rgba($purple-heart, .5);
 
-    .header-2 { font-size: 1.4em; }
+    // .header-2 { font-size: 1.4em; }
   }
 
   &__quality-awards {
+    padding: 60px 0;
     background-image: linear-gradient(to left, $azovstal, $white);
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, .25);
 
@@ -132,7 +132,7 @@
   }
 
   &__approaches {
-    background-image: linear-gradient(-135deg, $sky-ua, $white);
+    background-image: linear-gradient(to left, $sky-ua, $white);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
     .list-with-images__item:not(:first-child) {
@@ -143,41 +143,67 @@
           content: '';
           position: absolute;
           width: 5px;
-          height: 10vh;
+          height: 100px;
           background-color: $sky-ua;
-          top: -7vh;
+          top: -75px;
           right: 50%;
         }
 
         img { margin-right: 0; }
       }
 
-      .list-with-images__item-text { margin-left: 4vh; }
+      .list-with-images__item-text { margin-left: 40px; }
     }
 
-    .description.with_margin { margin-top: 6vh; }
+    .description.with_margin { margin-top: 40px; }
+
+    .list-with-images {
+      margin-bottom: 0;
+
+      &__item:last-child { margin-bottom: 0; }
+    }
   }
 
   &__tools {
     background-image: linear-gradient(-45deg, rgba($kviten, .4), rgba($azovstal, .4));
     box-shadow: 4px 8px 15px 5px rgba(0, 0, 0, .09);
 
-    .list-with-images.horizontal { margin-bottom: 0; }
+    &.wrap { padding-bottom: 45px; }
+
+    .list-with-images.horizontal {
+      margin-bottom: 0;
+
+      .list-with-images__item .description { font-size: 14px; }
+    }
   }
 
   .development__cards {
-    .cards-container .card { justify-content: space-between; }
+    &.wrap { padding-bottom: 60px; }
+
+    .cards-container {
+      margin-bottom: 0;
+
+      .card {
+        justify-content: space-between;
+
+        &__description { margin: 30px 0; }
+
+        .button { margin-top: 50px; }
+      }
+    }
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .ror_dev_services {
+    .wrap:first-child { padding-top: 100px; }
+
     &__main {
-      .header-2:last-child { font-size: 1em; }
+      .description { margin: 30px 0; }
 
       img {
-        margin-bottom: 0;
-        max-width: 150px;
+        margin-bottom: 30px;
+        max-width: 85px;
       }
     }
 
@@ -229,6 +255,7 @@
         width: 100%;
         height: 100%;
         max-height: 415px;
+        max-width: 310px;
 
         &__description { margin: 20px 10px; }
       }
