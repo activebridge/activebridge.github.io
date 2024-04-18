@@ -1,6 +1,7 @@
 ---
 ---
 @import "variables";
+@import "utility";
 @import "view_transitions";
 @import "buttons";
 @import "navbar";
@@ -64,6 +65,12 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Inria Regular';
+  src: url(/assets/fonts/InriaSerif-Regular.woff2);
+  font-display: swap;
+}
+
 p { margin: 0; }
 
 body {
@@ -91,12 +98,29 @@ ul, ol { margin-left: 0; }
 
 .white-text { color: $white !important; }
 
-.header-1 {
+// new block titles, changes to reduce the difference of styles, use clear class names
+.block-cera-title {
+  font-family: "Cera Regular", serif;
+  font-size: 30px;
+  letter-spacing: 0.4em;
+  text-align: center;
   text-transform: uppercase;
-  font-size: 2em;
-  letter-spacing: 0.6em;
+  margin-bottom: 60px;
 }
 
+.block-inria-title {
+  font-family: "Inria Bold", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.message {
+  font-size: 22px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+
+// will remove the old ones after adding new ones everywhere
 .header-2 {
   margin: 0 auto;
   font-family: 'Inria Bold', serif;
@@ -120,8 +144,6 @@ ul, ol { margin-left: 0; }
 }
 
 .inria { font-family: 'Inria Bold', serif; }
-
-.inria-regular { font-family: 'Inria', serif; }
 
 .info-container {
   background: $main-gradient;
@@ -189,7 +211,6 @@ ul, ol { margin-left: 0; }
   }
 
   &.with-padding { padding: 0 25%; }
-
   &.with-margin { margin: 2.5em auto; }
 }
 
@@ -321,9 +342,21 @@ b { font-family: "Cera-Bold", serif; }
   }
 
   .description {
-    font-size: 0.8em;
+    font-size: 14px;
     color: $black;
   }
 
   .description.with-padding { padding: 0 8%; }
+
+  .block-inria-title,.block-cera-title {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .block-cera-title { margin-bottom: 40px; }
+
+  .message {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
 }
