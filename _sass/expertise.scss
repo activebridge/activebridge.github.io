@@ -1,94 +1,29 @@
 .expertise {
-  .header-3 { margin-top: 2vh; }
-
-  .header-2 {
-    max-width: 85%;
-    margin: 5vh auto;
-    font-size: 22px;
-    line-height: 1.5;
-  }
-
-  .description {
-    margin-bottom: 10vh;
-    font-size: 16px;
-  }
-
-  &__main {
-    .description {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
-    }
-
-    .wrapper {
-      h1 { margin-bottom: 0;}
-      h2 { margin-top: 10px; }
-    }
-  }
-
   &__technologies {
     background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
     box-shadow: 0px 0px 20px -3px grey;;
-
-    .header-3 { font-size: 1.3em; }
-
-    .header-2 { margin-top: 1vh; }
-
     img { margin: 5vh 0; }
-
-    .description { margin-bottom: 3vh; }
   }
-
-  &__industries {
-    padding: 80px 0;
-
-    .header-3:first-child { font-size: 1.8em; }
-
-    .header-3 { font-size: 1.3em; }
-  }
-
-  &__main,
-  &__solutions,
-  &__testimonials {
-    .header-2 { max-width: 100%; }
-  }
+  &__industries { padding: 80px 0; }
 
   &__solutions {
     &.wrap {
       padding-top: 5vh;
       padding-bottom: 5vh;
     }
-
-    .header-2 {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
     .button { margin-top: 30px; }
   }
 
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding-bottom: 60px;
-
-    .wrapper {
-      padding-top: 8vh;
-
-      .header-2 { margin-top: 0; }
-    }
+    .wrapper { padding-top: 8vh; }
   }
 
   &__tell-us {
     min-height: 85vh;
     background: center/cover no-repeat url('/assets/images/expertise/tell-us.webp');
     background-color: $dark-violet;
-
-    .header-2 {
-      font-family: 'Cera Regular', serif;
-      font-size: 1.8em;
-      letter-spacing: 0.5em;
-      line-height: 1.6;
-      text-transform: uppercase;
-    }
   }
 }
 
@@ -108,9 +43,7 @@
       font-size: 1.3em;
       box-shadow: inset -7px -7px 11px -6px #8f8f8f;
       font-family: 'Cera-Bold', serif;
-
       &:first-child { border-radius: 1.2em 0 0 1.2em; }
-
       &:last-child { border-radius: 0 1.2em 1.2em 0; }
     }
   }
@@ -157,7 +90,6 @@
       &:nth-child(2n) { justify-content: flex-end; }
     }
   }
-
   .button { margin-top: 6vh; }
 
   .pie-chart {
@@ -220,7 +152,6 @@
       text-overflow: ellipsis;
     }
   }
-
   .card__description { line-height: 1.6em; }
 }
 
@@ -233,16 +164,13 @@
     .chart__item {
       width: 100%;
       justify-content: space-around;
-
       &:nth-child(2n) { justify-content: space-around; }
 
       &-color {
         width: 35px;
         height: 35px;
       }
-
       &-title { font-size: 1em; }
-
       &-description { font-size: .9em; }
     }
   }
@@ -256,7 +184,6 @@
         height: auto;
         margin: 0 10vw;
         padding: 4vh 2vw;
-
         &:not(:last-child) { margin-bottom: 5vh; }
 
         &__title-2 {
@@ -272,31 +199,11 @@
       }
     }
 
-    .header-2 { font-size: 1em; }
-
-    .description { font-size: .8em; }
-
-    &__main .description { margin-bottom: 0; }
-
     &__technologies img {
       margin-right: -15px;
       margin-left: -15px;
     }
-
-    &__industries {
-      padding: 60px 0;
-
-      .header-3:first-child { font-size: 1.5em; }
-    }
-
-    &__solutions .header-2 { margin: 0 auto;}
-
-    &__testimonials  .header-2 { margin-top: 0; }
-
-    &__tell-us {
-      min-height: 50vh;
-      
-      .header-2 { margin: 0 auto; }
-    }
+    &__industries { padding: 60px 0; }
+    &__tell-us { min-height: 50vh; }
   }
 }
