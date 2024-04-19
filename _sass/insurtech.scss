@@ -20,10 +20,34 @@
     padding: 90px 0 83px 0;
 
     .description { margin-top: 5vh; }
-
     .list-with-images__item-text .description { margin-top: 1vh; }
-
     .header-3.small-text { margin: 58px 0 48px 0; }
+
+    .personal-info {
+      &__list {
+        list-style-type:none;
+        padding: 36px 0 0 40px;
+        text-align: justify;
+      }
+
+      &__info-line {
+        display: block;
+        font-size: 18px;
+        position: relative;
+        padding-bottom: 32px;
+        &::before {
+          content: url('/assets/images/privacy_policy/sun.webp');
+          display: inline-block;
+          left: 0;
+          margin-left: calc( 32px * -1.2 );
+          mix-blend-mode: luminosity;
+          position: absolute;
+          top: 5px;
+          vertical-align: text-top;
+          width: 32px;
+        }
+      }
+    }
   }
 
   .solutions_cases__case_study {
@@ -115,5 +139,6 @@
     &__full_circle { padding: 45px 0 60px 0;}
 
     .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
+    .personal-info { &__info-line { font-size: 12px; } }
   }
 }
