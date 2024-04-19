@@ -15,9 +15,9 @@ json-ld: about
   <div class="info-container">
     <div class="wrap">
       <div class="wrapper" style="view-transition-name: about;">
-        <p class="header-3 white-text">{{ site.data.about.about }}</p>
-        <h1 class="header-2 about__header white-text">{{ site.data.about.header }}</h1>
-        <p class="about__description white-text header-2">{{ site.data.about.description }}</p>
+        <p class="page-title white-text">{{ site.data.about.about }}</p>
+        <h1 class="block-inria-title white-text">{{ site.data.about.header }}</h1>
+        <p class="white-text inria-regular message mb-0">{{ site.data.about.description }}</p>
       </div>
     </div>
     <div class="about_us_info">
@@ -43,17 +43,11 @@ json-ld: about
 
   <div class="about__vision wrap">
     <div class="wrapper">
-      <div class="about__vision-description about__description">
-        {{ site.data.about.information.first }}
-      </div>
-      <div class="about__vision-description about__description">
-        {{ site.data.about.information.second }}
-      </div>
-      <h2 class="header-3">{{ site.data.about.company_vision.title }}</h2>
-      <h2 class="header-2">{{ site.data.about.company_vision.subtitle }}</h2>
-      <div class="about__vision-description about__description about__description-cera">
-        {{ site.data.about.company_vision.description }}
-      </div>
+      <p class="description text-justify mb-4 inria-regular"> {{ site.data.about.information.first }}</p>
+      <p class="description text-justify mb-4 inria-regular">{{ site.data.about.information.second }}</p>
+      <h2 class="block-cera-title">{{ site.data.about.company_vision.title }}</h2>
+      <p class="message inria-bold">{{ site.data.about.company_vision.subtitle }}</p>
+      <p class="description text-justify">{{ site.data.about.company_vision.description }}</p>
       <div class="chart-container">
         {% include expertise_chart.html %}
         <a class="button" href="/expertise" id="about-chart-container-button" data-link="transition">{{ site.data.about.company_vision.button }}</a>
@@ -63,8 +57,8 @@ json-ld: about
 
   <div class="about__crew wrap">
     <div class="wrapper">
-      <div class="about__description white-text">{{ site.data.about.crew.description }}</div>
-      <div class="header-3 white-text">{{ site.data.about.crew.title }}</div>
+      <p class="description white-text text-justify inria-regular mb-4">{{ site.data.about.crew.description }}</p>
+      <p class="block-cera-title white-text mb-0">{{ site.data.about.crew.title }}</p>
       {% include crew.html %}
       <a class="button about__crew-button" id="about__crew-button" href="/about/team" data-link="transition">
         {{ site.data.about.crew.button }}
@@ -75,11 +69,9 @@ json-ld: about
   <div class="about__benefits wrap">
     <div class="overlay"></div>
     <div class="wrapper">
-      <div class="header-3">{{ site.data.about.benefits.title }}</div>
-      <h2 class="header-2">{{ site.data.about.benefits.subtitle }}</h2>
-      <div class="about__vision-description about__description about__description-cera">
-        {{ site.data.about.benefits.description }}
-      </div>
+      <p class="block-cera-title">{{ site.data.about.benefits.title }}</p>
+      <h2 class="message inria-bold">{{ site.data.about.benefits.subtitle }}</h2>
+      <p class="description text-justify mb-4">{{ site.data.about.benefits.description }}</p>
       <div class="accordion">
         {% for benefit in site.data.about.benefits.all %}
         <div class="accordion__item">
@@ -97,8 +89,8 @@ json-ld: about
 
   <div class="about__key-facts wrap">
     <div class="wrapper">
-      <div class="header-3 white-text">{{ site.data.about.key_facts.title }}</div>
-      <h2 class="header-2 white-text">{{ site.data.about.key_facts.subtitle }}</h2>
+      <p class="block-cera-title white-text">{{ site.data.about.key_facts.title }}</p>
+      <h2 class="message white-text inria-bold">{{ site.data.about.key_facts.subtitle }}</h2>
       <ul class="about__key-facts-list">
         {% for fact in site.data.about.key_facts.all %}
           <li class="about__key-facts-item">
@@ -106,8 +98,8 @@ json-ld: about
               {% include svgs/about_us/{{ fact.image }}.html %}
             </div>
             <div class="about__key-facts-item-text white-text">
-              <div class="about__key-facts-item-title">{{ fact.title }}</div>
-              <div class="about__key-facts-item-description">{{ fact.description }}</div>
+              <p class="about__key-facts-item-title">{{ fact.title }}</p>
+              <p class="about__key-facts-item-description">{{ fact.description }}</p>
             </div>
           </li>
         {% endfor %}
@@ -117,12 +109,8 @@ json-ld: about
 
   <div class="about__testimonials">
     <div class="wrapper">
-      <div class="header-5 about__testimonials-title">
-        {{ site.data.testimonials.help_startups }}
-      </div>
-      <div class="description">
-        {{ site.data.testimonials.testimonials_description }}
-      </div>
+      <p class="block-inria-title">{{ site.data.testimonials.help_startups }}</p>
+      <p class="description">{{ site.data.testimonials.testimonials_description }}</p>
     </div>
     {% include testimonials_carousel.html %}
     <div class="wrapper">
@@ -135,10 +123,8 @@ json-ld: about
   <div class="about__culture wrap">
     <div class="wrapper">
       <div class="about__culture-text">
-        <div class="about__culture-title"> {{ site.data.about.culture.title }} </div>
-        <div class="about__culture-description">
-          {{ site.data.about.culture.description }}
-        </div>
+        <p class="block-cera-title"> {{ site.data.about.culture.title }}</p>
+        <p class="description text-justify inria-bold">{{ site.data.about.culture.description }}</p>
       </div>
       <a id="about-culture-button" class="button about__culture-button" href="/contacts" data-link="transition">
         {{ site.data.about.culture.button }}

@@ -1,45 +1,4 @@
 .about {
-  &__header,
-  &__description {
-    font-family: 'Inria', serif;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 1.7em;
-    text-align: center;
-  }
-
-  h1 {
-    margin-top: 4.5vh;
-    margin-bottom: 0;
-  }
-
-  &__description {
-    margin-bottom: 4.5vh;
-
-    &-cera {
-      font-family: 'Cera Regular', serif;
-      font-size: 1em;
-    }
-  }
-
-  &__vision {
-    .header-3 { margin-bottom: 4vh;  }
-
-    &-description {
-      margin-bottom: 3em;
-      text-align: justify;
-    }
-  }
-
-  &__vision,
-  &__benefits,
-  &__key-facts {
-    h2.header-2 {
-      margin-bottom: 5vh;
-      max-width: 100%;
-    }
-  }
-
   &__crew {
     background: center/cover no-repeat url("/assets/images/about/crew.webp");
     background-color: $gray;
@@ -59,12 +18,6 @@
     .wrapper {
       position: relative;
       z-index: 1;
-    }
-
-    .about__description {
-      padding: 5vh 0;
-      text-align: justify;
-      margin-bottom: 0;
     }
 
     &-container {
@@ -96,8 +49,6 @@
       backdrop-filter: blur(1.5px);
     }
 
-    h2.header-2 { margin-top: 5vh; }
-
     .accordion {
       &__item {
         &-top {
@@ -122,8 +73,6 @@
 
   &__key-facts {
     background: $main-gradient;
-
-    h2.header-2 { margin-top: 5vh; }
 
     &-list {
       margin: 0;
@@ -162,8 +111,6 @@
   &__testimonials {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding: 150px 0 80px 0;
-
-    &-title { margin-bottom: 5vh; }
   }
 
   &__culture {
@@ -174,22 +121,7 @@
       position: relative;
       min-height: 100vh;
     }
-
     &-text { line-height: 1.6; }
-
-    &-title {
-      text-transform: uppercase;
-      font-size: 1.6em;
-      letter-spacing: 0.4em;
-      margin: 0 5vh;
-    }
-
-    &-description {
-      margin: 8vh 0 6vh;
-      font-size: 1.3em;
-      font-family: 'Inria Bold', serif;
-      text-align: justify;
-    }
 
     &-button {
       position: absolute;
@@ -260,18 +192,6 @@
 
   .about {
     .button { margin-top: 0; }
-    .header-2 { font-size: 1em; }
-
-    &__header,
-    &__description {
-      font-size: .9em;
-      line-height: 1.4;
-    }
-
-    &__header {
-      margin: 4.5vh auto 3vh;
-      max-width: 70vw;
-    }
 
     &__crew {
       &-container { justify-content: center; }
@@ -296,10 +216,6 @@
     }
 
     &__key-facts {
-      h2.header-2 {
-        margin-right: 3vw;
-        margin-left: 3vw;
-      }
 
       &-list {
         padding-top: 0;
@@ -328,30 +244,9 @@
         &-description { font-size: .9em; }
       }
     }
+    &__testimonials { padding: 60px 0; }
 
-    &__testimonials {
-      padding: 60px 0;
-
-      .description {
-        text-align: justify;
-        text-align-last: center;
-      }
-    }
-
-    &__culture {
-      &-title {
-        margin: 0;
-        font-size: 1em;
-      }
-
-      &-description {
-        margin-top: 5vh;
-        font-size: .9em;
-        line-height: 1.4;
-      }
-
-      &-button { min-width: 300px; }
-    }
+    &__culture-button { min-width: 300px; }
   }
 
   .about_us_info {
@@ -363,8 +258,7 @@
       border: 5px solid $silver;
       height: 60px;
       width: 60px;
-
-      p { font-size: 25px;}
+      p { font-size: 25px; }
     }
   }
 }
