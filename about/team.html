@@ -1,7 +1,6 @@
 ---
 permalink: /about/team
 layout: default
-relative_css_url: /assets/css/team.css
 title: Our Team of Professional Rails Developers | Active Bridge
 description: Our remote full-stack developers drive our clients through the whole
              process of building, launching, and scaling their solutions.
@@ -15,37 +14,38 @@ redirect_from:
 
 <div class="container team">
   <div class="team__main wrap">
-    <div class="wrapper" style="view-transition-name: team;">
-      <div class="header-3 white-text">{{ site.data.team.title }}</div>
-      <div class="header-2 white-text">{{ site.data.team.subtitle_1 }}</div>
-      <div class="description text-justify white-text">{{ site.data.team.description }}</div>
+    <div class="wrapper white-text" style="view-transition-name: team;">
+      <p class="page-title">{{ site.data.team.page-title}}</p>
+      <p class="block-inria-title white-text">{{ site.data.team.title }}</p>
+      <p class="message white-text inria-regular">{{ site.data.team.subtitle_1 }}</p>
+      <p class="description text-justify white-text">{{ site.data.team.description }}</p>
     </div>
   </div>
 
   <div class="team__help">
     <div class="wrapper">
-      <div class="header-2">{{ site.data.team.subtitle_2 }}</div>
+      <p class="message inria-bold mb-0">{{ site.data.team.subtitle_2 }}</p>
     </div>
   </div>
 
   <div class="team__people wrap">
     <div class="wrapper">
-      <h1 class="header-3">{{ site.data.team.ab_people.title }}</h1>
-      <h2 class="header-2">{{ site.data.team.ab_people.subtitle }}</h2>
-      <div class="description">{{ site.data.team.ab_people.description }}</div>
+      <h1 class="block-cera-title">{{ site.data.team.ab_people.title }}</h1>
+      <h2 class="message inria-bold mb-4">{{ site.data.team.ab_people.subtitle }}</h2>
+      <p class="description">{{ site.data.team.ab_people.description }}</p>
     </div>
   </div>
 
   <div class="team__crew wrap">
     <div class="wrapper">
-      <div class="header-3">{{ site.data.about.crew.title }}</div>
+      <p class="block-cera-title mb-0">{{ site.data.about.crew.title }}</p>
       {% include crew.html %}
     </div>
   </div>
 
   <div class="team__important_things wrap">
     <div class="wrapper">
-      <h2 class="header-2">{{ site.data.team.important_things.title }}</h2>
+      <h2 class="message inria-bold">{{ site.data.team.important_things.title }}</h2>
       <div class="list-with-images horizontal">
         {% for item in site.data.team.important_things.items %}
           <div class="list-with-images__item">
@@ -53,8 +53,8 @@ redirect_from:
               <img src="/assets/images/team/{{ item.icon }}" alt="Icon">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2">{{ item.title }}</div>
-              <div class="description">{{ item.description }}</div>
+              <p class="message inria-bold mb-0 mt-2">{{ item.title }}</p>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -66,8 +66,8 @@ redirect_from:
 
   <div class="team__expertise wrap development__cards">
     <div class="wrapper">
-      <div class="header-2">{{ site.data.team.expertise.title }}</div>
-      <div class="description">{{ site.data.team.expertise.description }}</div>
+      <p class="message inria-bold">{{ site.data.team.expertise.title }}</p>
+      <p class="description">{{ site.data.team.expertise.description }}</p>
       {% include dev_expertise_cards.html %}
     </div>
   </div>
