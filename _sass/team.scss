@@ -1,10 +1,4 @@
 .team {
-  .header-2 {
-    max-width: 100%;
-    margin-top: 7vh;
-    margin-bottom: 7vh;
-  }
-
   &__main {
     background: center/cover no-repeat url('/assets/images/team/team-bg.webp');
     background-color: $dusty-silver;
@@ -15,8 +9,6 @@
     padding: 3vh 18vw;
     background-color: $sky-ua;
     box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
-
-    .header-2 { margin: 0; }
   }
 
   &__people {
@@ -47,10 +39,8 @@
       }
     }
 
-    .header-2 {
+    .message {
       position: relative;
-      margin-top: 40px;
-      margin-bottom: 25px;
 
       &::before {
         width: 47px;
@@ -61,21 +51,15 @@
         transform: rotate(-20deg);
       }
     }
+    .description { max-width: 90%; }
 
-    .description  {
-      max-width: 800px;
-      margin: 0 65px;
-    }
-
-    .header-3 {
+    .block-cera-title {
       position: relative;
-      max-width: 825px;
-      margin: auto 52px;
 
       &::before {
         width: 100px;
         height: 100px;
-        left: -4em;
+        left: -15%;
         top: 0.5em;
         filter: blur(2px);
         transform: rotate(-55deg);
@@ -85,7 +69,7 @@
         width: 47px;
         height: 50px;
         top: -1em;
-        right: -40px;
+        right: -3%;
         transform: rotate(20deg);
         filter: blur(1px);
       }
@@ -101,14 +85,16 @@
     background-image: linear-gradient(to right top, $palianytsia, transparent, transparent, $palianytsia);
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .25);
 
-    .header-2 { margin: 0 0 7vh; }
-
     .list-with-images.horizontal {
       .list-with-images__item {
         margin-top: 2.5vh;
         align-items: center;
 
-        .header-2 { margin: 2.5vh 0;}
+        &-text {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
 
         .description {
           max-width: 15em;
@@ -121,7 +107,6 @@
         }
 
         &:first-child { margin-left: 13%; }
-
         &:nth-child(2) { margin-right: 13%; }
       }
     }
@@ -138,70 +123,47 @@
 
     &.development__cards {
       background-image: linear-gradient(to bottom, $kviten, $white);
-
-      .header-2 { margin: 0 0 4.5vh; }
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .team {
-    .header-2 {
-      margin-top: 5vh;
-      margin-bottom: 5vh;
-      font-size: 0.85em;
-      line-height: 1.5;
-    }
-
     &__main {
-      height: 550px;
+      height: 600px;
       background-position: 55% top;
       background-size: 250% 115%;
-
-      .description { line-height: 1.5; }
     }
 
     &__help {
       padding-right: 12vw;
       padding-left: 12vw;
-
-      .header-2 { margin: 0; }
     }
 
     &__people {
       .wrapper::after { display: none }
+      .block-cera-title { &::before,&::after { display: none; } }
 
-      .header-3 {
-        margin: 0;
-
-        &::before,
-        &::after { display: none; }
-      }
-
-      .header-2 {
+      .message {
         &::before {
           width: 35px;
           height: 33px;
-          left: -4em;
-          top: -2.5em;
+          left: -10%;
         }
 
         &::after {
           width: 55px;
           height: 55px;
-          top: -2em;
-          right: -4em;
+          top: 50%;
+          right: -5%;
           filter: blur(1px);
           transform: rotate(30deg);
         }
       }
-
-      .description { margin: 0; }
+      .description { max-width: 100%; }
     }
 
     &__important_things {
-      .header-2 { margin-top: 3vh; }
-
       .list-with-images.horizontal {
         .list-with-images__item {
           &:first-child { margin-left: 0; }
@@ -214,19 +176,12 @@
           }
 
           &:last-child { margin-bottom: 0; }
-
-          .header-2 { margin-bottom: 1vh; }
-
-          .description { max-width: 100%; }
         }
       }
     }
-
     &__photo { height: 190px; }
 
     &__expertise {
-      .header-2 { margin-top: 0; }
-
       .button {
         padding-right: 10vw;
         padding-left: 10vw;

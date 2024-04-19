@@ -98,7 +98,7 @@ ul, ol { margin-left: 0; }
 
 .white-text { color: $white !important; }
 
-// new block titles, changes to reduce the difference of styles, use clear class names
+// TODO: new block titles, changes to reduce the difference of styles, use clear class names
 .page-title {
   position: inherit;
   margin-bottom: 50px;
@@ -131,7 +131,7 @@ ul, ol { margin-left: 0; }
   margin-bottom: 40px;
 }
 
-// will remove the old ones after adding new ones everywhere
+// TODO: will remove the old ones after adding new ones everywhere
 .header-2 {
   margin: 0 auto;
   font-family: 'Inria Bold', serif;
