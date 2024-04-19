@@ -4,14 +4,21 @@
   &__main {
     background-image: linear-gradient(135deg, $black_sea, $sky-ua);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 137px 0 55px 0;
+
+    &.wrap { padding-bottom: 45px; }
+
+    .header-3.small-text { margin-top: 25px; }
+
+    .description.with-margin { margin-bottom: 25px; }
 
     .list-with-images.horizontal {
       justify-content: space-around;
+      margin-top: 0;
+      margin-bottom: 0;
 
       .list-with-images__item {
         max-width: 200px;
-        margin: 0 7px 3vh;
+        margin: 0 7px 15px;
 
         &-icon img { box-shadow: none; }
       }
@@ -28,6 +35,7 @@
 
       img {
         max-width: 250px;
+        width: 100%;
         mix-blend-mode: luminosity;
       }
     }
@@ -35,28 +43,30 @@
     &_text {
       text-align: justify;
       width: 65%;
-      .header-2 { margin-bottom: 2vh; }
+
+      .header-2 { margin-bottom: 30px; }
     }
   }
 
   &__b2c {
     background-image: linear-gradient(135deg, $azovstal, $black_sea);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 70px 0 100px 0;
 
-    .header-2 { margin-bottom: 2vh; }
+    &.wrap { padding-bottom: 45px; }
+
+    .header-2 { margin-bottom: 30px; }
 
     .description {
       max-width: 95%;
       text-align: right;
     }
 
-    .list-with-images { columns: 2; }
-
-    .header-3.small-text {
-      font-weight: 900;
-      margin-top: 5vh;
+    .list-with-images {
+      margin-bottom: 0;
+      columns: 2;
     }
+
+    .header-3.small-text { margin-top: 20px; }
 
     &_top {
       align-items: center;
@@ -72,29 +82,36 @@
   &__development {
     background-color: $titan_white;
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .2);
-    padding: 72px 0 67px 0;
 
-    .header-3.small-text {
-      margin-top: 0;
-      font-weight: 900;
+    .header-3.small-text { margin-top: 0; }
+
+    .list-with-images {
+      margin-bottom: 0;
+
+      &__item:last-child { margin-bottom: 0; }
     }
   }
 
   .solutions_cases__case_study {
     background-image: linear-gradient(to right, $black_sea, $palianytsia);
-    padding: 89px 0 93px 0;
+
+    &_top { padding-top: 30px; }
 
     &_image img { max-width: 250px; }
   }
 
   &__solutions {
     background-image: linear-gradient(to top, $white,  $white, $palianytsia);
-    padding: 90px 0 94px 0;
 
     .list-with-images {
       &__item {
-        margin-bottom: 80px;
+        margin-top: 65px;
         align-items: flex-start;
+
+        .header-2.purple-text {
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
       }
     }
 
@@ -105,8 +122,6 @@
 
       &:hover { color: $main-violet !important; }
     }
-    
-    .header-3 { margin-bottom: 5vh; }
   }
 
   .solutions_cases__idea {
@@ -123,26 +138,56 @@
     .list-with-images__item .header-2 { text-align: center; }
 
     &__main {
-      padding: 79px 0 34px 0;
+      &.wrap {
+        padding-top: 100px;
+        padding-bottom: 30px;
+      }
 
-      .header-3.small-text { margin-top: 5vh; }
+      .header-3.small-text {
+        margin-top: 40px;
+        margin-bottom: 20px;
+      }
 
-      .list-with-images.horizontal .list-with-images__item { max-width: 140px; }
+      .list-with-images.horizontal .list-with-images__item {
+        max-width: 140px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__b2b {
+      flex-wrap: wrap;
+
+      &_img {
+        width: 100%;
+        margin-bottom: 10px;
+
+        img { max-width: 120px; }
+      }
+
+      &_text {
+        width: 100%;
+
+        .header-2 { text-align: center; }
+      }
     }
 
     &__b2c {
-      padding: 60px 0 39px 0;
-
       .description { text-align: justify; }
+
+      .header-3.small-text.white-text {
+        margin-top: 25px;
+        margin-bottom: 20px;
+        color: $black !important;
+      }
 
       &_top {
         flex-wrap: wrap;
 
         &_img {
-          margin-top: 22px;
+          margin-top: 25px;
           width: 100%;
 
-          img { max-width: 120px; }
+          img { max-width: 100px; padding-left: 15px;}
         }
 
         &_text { width: 100%; }
@@ -155,20 +200,33 @@
 
         &__item {
           width: 47%;
-          flex-direction: column
+          margin-top: 0;
+          flex-direction: column;
+          margin-bottom: 20px;
+
+          &-text .header-2 { margin-bottom: 0; }
         }
       }
     }
 
-    &__development { padding: 50px 0; }
+    .solutions_cases__case_study {
+      &_top { padding-top: 0; }
 
-    .solutions_cases__case_study { padding: 60px 0; }
+      &_image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        img { max-width: 120px; }
+      }
+    }
 
     &__solutions {
-      padding: 48px 0 60px 0;
-
       .list-with-images__item {
-        margin-bottom: 36px;
+        margin-top: 35px;
+
+        .header-2.purple-text { margin-top: 20px; }
+
+        .description { text-align: center; }
       }
     }
 

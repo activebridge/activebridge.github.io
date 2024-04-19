@@ -1,16 +1,22 @@
 .taxi_and_transportation {
   .list-with-images {
+    margin-bottom: 0;
+
     &__item {
-      margin-bottom: 80px;
+      margin-bottom: 65px;
       align-items: flex-start;
+
+      .header-2.purple-text {
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
     }
   }
-
-  .description.without-margin { margin-bottom: 30px; }
 
   .development__cards {
     .cards-container {
       justify-content: space-around;
+      margin-bottom: 0;
 
       .card {
         max-width: 300px;
@@ -21,54 +27,73 @@
 
         &__title-2 { margin-bottom: 10px; }
 
-        &__icon img { mix-blend-mode: normal; }
+        &__icon {
+          margin-top: 10px;
 
-        &__description { font-size: 14px; }
+          img {
+            max-width: 100px;
+            mix-blend-mode: normal;
+          }
+        }
+
+        &__description {
+          margin-top: 20px;
+          font-size: 14px;
+        }
       }
     }
   }
 
   &__main {
     background-image: linear-gradient(-30deg, $purple-heart, $black_sea);
-    padding: 117px 0 135px 0;
 
-    .header-3 { margin-bottom: 35px; }
+    &.wrap { padding-bottom: 45px; }
 
-    .description { margin-bottom: 5vh; }
-
-    .description.with-margin { margin-bottom: 2vh; }
-
-    .list-with-images {
-      margin: 5vh 0 0;
-
-      &__item { margin-bottom: 30px; }
+    .description.with-margin {
+      margin-top: 80px;
+      margin-bottom: 80px;
     }
+
+    .list-with-images__item { margin-bottom: 35px; }
   }
 
-  &__expertise {
-    background-image: linear-gradient(135deg, $buzok, $purple-heart);
-    padding: 75px 0 105px 0;
-  }
+  &__expertise { background-image: linear-gradient(135deg, $buzok, $purple-heart); }
 
-  &__case_study { padding: 89px 0 94px 0; }
+  .solutions_cases__case_study {
+    &_top { padding-top: 50px; }
+
+    &_image img { max-width: 200px; }
+  }
 
   &__solutions {
     background-image: linear-gradient(-67deg, $buzok, $white, $white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
-    padding: 90px 0;
 
-    .list-with-images {
-      &__item_element::before { border: 1px solid $buzok; }
+    .header-3 { margin-bottom: 30px; }
+
+    .header-3.small-text {
+      margin-top: 30px;
+      font-family: "Cera Regular", serif;
     }
+
+    .header-3.small-text.with-margin { margin-top: 40px; }
+
+    .list-with-images__item {
+      &:last-child { margin-bottom: 0; }
+
+      &_element::before { border: 1px solid $buzok; }
+    }
+
+    .header-2.with-margin { margin-top: 50px; }
   }
 
   &__security {
     background-color: rgba($purple-heart, .6);
     box-shadow: 0px 0px 25px 4px rgba($black, .2 );
-    padding: 32px 0 27px 0;
+    padding: 30px 0 50px;
 
     .description {
-      margin-top: 1vh;
+      margin-top: 25px;
       text-align: center;
     }
   }
@@ -76,17 +101,25 @@
   &__cross_platform_app {
     background-image: linear-gradient(35deg, $kviten, $titan_white, $titan_white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
-    padding: 69px 0 92px 0;
+
+    .description.text-center { margin-top: 40px; }
 
     .purple-text { color: $main-violet; }
 
-    .list-with-images__item_element::before { border: 1px solid $main-violet; }
+    .header-3.small-text { font-family: "Cera Regular", serif; }
+
+    .list-with-images__item {
+      &:last-child { margin-bottom: 0; }
+
+      &_element::before { border: 1px solid $main-violet; }
+    }
   }
 
   &__admin_panel {
     background-image: linear-gradient(35deg, $buzok, $kviten);
     box-shadow: inset 0px 0px 25px 4px rgba($purple-heart, .4);
-    padding: 69px 0 119px 0;
+
+    .header-3.small-text { font-family: "Cera Regular", serif; }
 
     .button {
       background-color: $white;
@@ -96,6 +129,8 @@
       &:hover { color: $main-violet !important; }
     }
 
+    .description.text-center { margin-top: 40px; }
+
     .list-with-images__item_element::before { border: 1px solid $purple-heart; }
   }
 }
@@ -104,7 +139,7 @@
   align-items: stretch;
   display: flex;
   justify-content: space-around;
-  margin: 10vh 0;
+  margin: 70px 0 75px;
   padding: 0 67px;
   position: relative;
 
@@ -126,7 +161,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     max-width: 120px;
     position: relative;
 
@@ -169,10 +203,9 @@
     }
 
     &_text {
+      font-family: "Cera-Bold", serif;
       font-size: 15px;
       font-style: normal;
-      font-weight: 700;
-      line-height: 150%;
       text-align: center;
     }
   }
@@ -182,32 +215,56 @@
   .taxi_and_transportation {
     .list-with-images__item { margin-bottom: 35px; }
 
-    &__main { padding: 92px 0 15px 0; }
-
-    &__expertise { padding: 60px 0 76px 0; }
-
-    &__case_study { padding: 60px 0 51px 0; }
-
-    &__solutions {
-      padding: 39px 0 8px 0;
-
-      .header-2.with-margin { margin-bottom: 50px;}
-    }
-
-    &__solutions .list-with-images__item {
-      flex-direction: column;
-      justify-content: center;
-
-      &-text {
-        width: 100%;
-
-        .header-2.without-margin { margin: 23px 0 14px 0;}
+    &__main {
+      .description.with-margin {
+        margin-top: 65px;
+        margin-bottom: 65px;
       }
 
-      &-icon {
-        margin: 0 auto;
+      .list-with-images { margin-top: 65px; }
 
-        img {
+      &.wrap { padding-bottom: 15px; }
+    }
+
+    .development__cards {
+      &.wrap { padding-bottom: 15px; }
+
+      .cards-container {
+        margin-top: 50px;
+
+        .card__description { font-size: 12px; }
+      }
+    }
+
+    .solutions_cases__case_study {
+      &_top { padding-top: 0; }
+      &_image {
+        margin-top: 20px;
+        transform: scaleX(1);
+
+        img { max-width: 120px; }
+      }
+    }
+
+    &__solutions {
+      .header-3 { margin-bottom: 15px; }
+
+      .header-3.small-text { margin: 15px 0; }
+
+      .header-3.small-text.with-margin { margin-bottom: 35px; }
+
+      .header-2.with-margin {
+        margin-top: 25px;
+        margin-bottom: 50px;
+      }
+
+      .list-with-images__item {
+        flex-direction: column;
+        justify-content: center;
+
+        &-text { width: 100%; }
+
+        &-icon img {
           margin-right: 0;
           max-width: 120px;
         }
@@ -215,14 +272,10 @@
     }
 
     &__security {
-      padding: 16px 0 44px 0;
+      padding-top: 45px;
 
       .description { text-align: justify; }
     }
-
-    &__cross_platform_app { padding: 29px 0 21px 0; }
-
-    &__admin_panel { padding: 29px 0 61px 0; }
   }
 
   .horizontal_timeline {

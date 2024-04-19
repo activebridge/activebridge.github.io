@@ -1,32 +1,38 @@
 .ecommerce {
-  .header-3.small-text { font-weight: 900; }
-
   &__main {
     background-image: linear-gradient(135deg, $black_sea, $main-violet);
-    padding: 137px 0 55px 0;
 
-    .list-with-images.horizontal .list-with-images__item {
-      &:nth-child(-n+2) {
-        max-width: 37%;
-        width: 37%;
+    &.wrap { padding-bottom: 45px; }
+
+    .list-with-images.horizontal {
+      margin-top: 0;
+      margin-bottom: 0;
+
+      .list-with-images__item {
+        &:nth-child(-n+2) {
+          max-width: 37%;
+          width: 37%;
+        }
+
+        &:first-child { margin-left: 13%; }
+
+        &:nth-child(2) {margin-right: 13%; }
       }
-
-      &:first-child { margin-left: 13%; }
-
-      &:nth-child(2) {margin-right: 13%; }
     }
+
+    .header-3.small-text {margin-top: 0; }
   }
 
   .development__cards .cards-container {
     justify-content: space-around;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 
     .card {
       max-width: 410px;
       background: rgba($white, .05);
       box-shadow: $main-shadow;
       max-height: max-content;
-      margin: 5px;
+      margin: 5px 5px 30px;
 
       &__description { margin: 0; }
 
@@ -53,29 +59,64 @@
 
   &__help {
     background: $titan_white;
-    padding: 72px 0 79px 0;
+
+    &.wrap { padding-bottom: 45px; }
+
+    .list-with-images {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
 
     .header-3.small-text { margin-top: 0; }
   }
 
   .solutions_cases__case_study {
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .25);
-    padding: 89px 0 93px 0;
 
     &_image img { max-width: 250px; }
+
+    h2.header-2 { width: 70%; }
+
+    &_top { padding-top: 10px; }
+
+    .description ul li {
+      position: relative;
+      padding-left: 40px;
+      margin-top: 25px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        width: 20px;
+        height: 20px;
+        background: center/cover no-repeat url('/assets/images/privacy_policy/sun.webp');
+        mix-blend-mode: luminosity;
+      }
+    }
   }
 
   &__project {
     background-image: linear-gradient(to top left, $purple-heart, $black_sea);
     box-shadow: $light-purple-shadow;
-    padding: 106px 0 92px 0;
 
     .purple-text { color: $buzok; }
 
+    .header-3.small-text {
+      margin-top: 0;
+      font-family: 'Cera Regular';
+    }
+
     .list-with-images {
       &__item {
-        margin-bottom: 80px;
+        margin-bottom: 65px;
         align-items: flex-start;
+
+        .header-2.purple-text {
+          margin-top: 30px;
+          margin-bottom: 20px;
+        }
       }
     }
 
@@ -92,14 +133,39 @@
 @media screen and (max-width: 659px) {
   .ecommerce {
     .list-with-images.horizontal .list-with-images__item {
+      margin: 0 0 25px 0;
+
       &:first-child,
-      &:nth-child(2) { margin: 1vh 0; }
+      &:nth-child(2) { margin: 0 0 25px 0; }
+
+      &:last-child { margin-bottom: 35px; }
     }
   }
 }
 
 @media screen and (max-width: 767px) {
   .ecommerce {
+    .development__cards .cards-container {
+      margin: 50px 0;
+
+      .card {
+        max-width: 330px;
+
+        &:last-child { margin-bottom: 0; }
+
+        &__icon {
+          width: 75px;
+          height: 75px;
+
+          img {
+            width: 55px;
+            height: 55px;
+            padding: 10px;
+          }
+        }
+      }
+    }
+
     .list-with-images.horizontal .list-with-images__item {
       max-width: 200px;
 
@@ -111,34 +177,37 @@
 
     .solutions_cases__case_study {
       box-shadow: inset 0px 14px 25px -15px rgba($purple-heart, .25);
-      padding: 60px 0 42px 0;
 
-      &_image img { max-width: 140px; }
-    }
+      &_image {
+        margin-top: 0;
+        margin-bottom: 10px;
 
-    &__main {
-      padding: 79px 0 25px 0;
+        img { max-width: 120px; }
+      }
 
-      .list-with-images.horizontal .list-with-images__item { margin-top: 1vh; }
-    }
+      .description ul li {
+        padding-left: 25px;
+        margin-top: 20px;
 
-    &__help { padding: 52px 0 18px 0; }
-
-    &__project {
-      padding: 60px 0 56px 0;
-
-      .list-with-images {
-        &__item {
-          margin-bottom: 40px;
-
-          &-text { margin-top: 23px; }
+        &::after {
+          left: 0;
+          top: 7px;
+          width: 12px;
+          height: 12px;
         }
       }
     }
 
-    &__help,
+    &__main.wrap { padding-bottom: 0; }
+
     &__project {
-      .header-3.small-text { margin-bottom: 4vh; }
+      .list-with-images {
+        &__item {
+          .header-2.purple-text { margin-top: 20px; }
+
+          .description { text-align: center; }
+        }
+      }
     }
   }
 }

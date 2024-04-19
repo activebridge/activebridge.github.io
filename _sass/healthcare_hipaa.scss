@@ -1,25 +1,25 @@
 .healthcare_hipaa {
-  .header-3.small-text {
-    font-weight: 900;
-    margin: 8vh 0;
-  }
-
   &__main {
     background: linear-gradient(90deg, $sky-ua 0%, rgba($sky-ua, 0.5) 18.75%, $white 91.14%);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-    padding: 117px 0 113px 0;
 
-    .list-with-images__item {
-      align-items: center;
+    .description + .header-2 { margin-top: 60px; }
 
-      &-icon img { box-shadow: none; }
+    .list-with-images {
+      margin-bottom: 0;
+      margin-top: 50px;
+
+      &__item {
+        &:last-child { margin-bottom: 0; }
+
+        &-icon img { box-shadow: none; }
+      }
     }
   }
 
   &__case_study {
     background: linear-gradient(180deg, $white 25.64%, $palianytsia 100%);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
-    padding: 89px 0 70px 0;
   }
 
   .solutions_cases__case_study_image img { transform: matrix(-1, 0, 0, 1, 0, 0); }
@@ -27,25 +27,20 @@
   &__solutions {
     background: linear-gradient(122.21deg, $black_sea 0%, $purple-heart 100%);
     box-shadow: 0px 4px 25px rgba($purple-heart, .25);
-    padding: 60px 0 84px 0;
 
     .list-with-images {
-      margin-top: 8vh;
-
       &__item {
-        margin-top: 5vh;
+        margin-top: 65px;
+        align-items: flex-start;
 
         &_elements {
           color: $buzok;
-          margin: 2vh 0;
+          margin-top: 30px;
         }
       }
     }
 
-    .button {
-      border-color: transparent;
-      box-shadow: $light-purple-shadow;
-    }
+    .button { box-shadow: $light-purple-shadow; }
   }
 }
 
@@ -53,18 +48,21 @@
   .healthcare_hipaa {
     &__main {
       background: linear-gradient($sky-ua, rgba($sky-ua, .5), $white);
-      padding: 79px 0 53px 0;
+
+      &.wrap { padding-top: 100px; }
+
+      .description + .header-2 { margin-top: 30px; }
     }
 
-    &__case_study { padding: 60px 0 40px 0}
-    
-    &__solutions { padding: 40px 0 61px 0;}
+    &__solutions .list-with-images__item { margin-top: 50px; }
   }
 
-  .solutions_cases__case_study{
+  .solutions_cases__case_study {
     &_image {
       mix-blend-mode: luminosity;
       transform: scaleX(-1);
+      margin-top: 35px;
+      margin-bottom: 20px;
     }
   }
 }

@@ -1,6 +1,4 @@
 .solutions_cases {
-  .button { padding: 2vh 3vw; }
-
   .list-with-images.horizontal {
     .list-with-images__item { align-items: center; }
   }
@@ -8,48 +6,52 @@
   .header-3 { margin-bottom: 50px; }
 
   .list-with-images {
-    margin: 5vh 0 0;
-
     &__item {
-      .header-2.without-margin { margin: 0 0 1vh; }
+      .description {
+        line-height: 1.5;
 
-      .description.without-margin { margin-top: 0; }
+        &.without-margin { margin-top: 0; }
+      }
 
       &-icon img { border-radius: 30px; }
 
       &-icon.big-img img {
         max-width: 250px;
+        margin-right: 50px;
         border-radius: 35px
       }
 
       &_elements {
         margin-top: 0;
-        padding-left: 1vw;
+        padding-left: 15px;
         text-align: left;
       }
 
       &_element {
+        margin-bottom: 0;
         font-size: 18px;
         font-style: italic;
-        line-height: 150%;
+        line-height: 1.5;
       }
     }
   }
 
   .header-3.small-text {
+    margin-top: 75px;
+    font-family: "Cera-Bold";
     font-size: 22px;
-    letter-spacing: .1em;
-    margin: 3vh 0 5vh;
-
-    &.with-margin { margin-top: 5vh; }
+    font-weight: 900;
+    letter-spacing: normal;
   }
 
-  .description.text-center { margin-top: 5vh; }
+  .description.text-center {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 
   &__case_study {
     background-image: linear-gradient($palianytsia, transparent);
-
-    .header-2.with-margin { margin: 5vh 0; }
 
     ul {
       list-style: none;
@@ -66,22 +68,30 @@
     }
 
     &_list_item {
-      margin: 2vh 0;
       font-size: 18px;
+      line-height: 2;
     }
 
     &_image img {
-      max-width: 200px;
+      max-width: 235px;
       width: 100%;
       mix-blend-mode: luminosity;
     }
 
     &_bottom_list {
-      .header-2.with-margin { margin-bottom: 2vh; }
+      li {
+        margin-top: 60px;
+
+        &:first-child { margin-top: 40px; }
+      }
+
+      .header-2.with-margin { margin-bottom: 30px; }
     }
   }
 
   &__idea {
+    padding-top: 15px;
+    padding-bottom: 35px;
     align-items: center;
     background-image: linear-gradient(135deg, $purple-heart, $sky-ua);
     display: flex;
@@ -112,14 +122,14 @@
     }
 
     p {
-      font-size: 1.25em;
+      font-size: 18px;
       line-height: 1.5;
       margin: 0;
       text-align: left;
     }
 
     .button {
-      margin-bottom: 5vh;
+      margin-bottom: 20px;
       max-width: 500px;
     }
   }
@@ -127,18 +137,17 @@
 
 @media screen and (max-width: 767px) {
   .solutions_cases {
-    .button { width: 90%;}
-
-    .header-2 {
-      font-size: .85em;
-
-      &.mobile-margin { margin: 3vh 0 0; }
-    }
+    .header-3 { margin-bottom: 30px; }
 
     .header-3.small-text {
-      font-size: .85em;
-      letter-spacing: .1em;
-      margin: 2vh 0;
+      font-size: 14px;
+      margin-top: 35px;
+    }
+
+    .description.text-center {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: justify;
     }
 
     &__case_study {
@@ -148,26 +157,33 @@
         order: 2;
         margin: 0;
 
-        &_item { font-size: 0.8em; }
+        &_item { font-size: 12px; }
       }
 
       &_image {
         order: 1;
 
-        img { max-width: 140px; }
+        img { max-width: 100px; }
       }
 
       &_top {
         flex-direction: column;
         padding: 0;
       }
+
+      &_bottom_list {
+        li { margin-top: 40px; }
+
+        .header-2.with-margin {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+      }
     }
 
     &__idea {
       flex-wrap: wrap;
-      padding: 1vh 5vh 5vh;
-
-      &.wrap { padding-top: 3vh; }
+      padding-bottom: 40px;
 
       &_img {
         width: 100%;
@@ -177,10 +193,13 @@
 
       &_text { width: 100%; }
 
-      .button { margin: 0 auto 3vh;}
+      .button {
+        margin: 0 auto 20px;
+        width: 300px;
+      }
 
       p {
-        font-size: .8em;
+        font-size: 12px;
         max-width: 550px;
         margin: auto;
       }
@@ -189,17 +208,16 @@
     .list-with-images {
       margin: 0;
 
-      &__item{
-        .header-2.without-margin { margin: 2vh 0; }
+      &__item {
+        .description.without-margin { margin-top: 20px; }
 
-        &-icon.big-img img { max-width: 120px; }
-
-        &_elements { padding-left: 2vw; }
-
-        &_element {
-          font-size: .8em;
-          line-height: 1.5;
+        &-icon.big-img img {
+          max-width: 120px;
+          margin-right: 0;
+          border-radius: 20px;
         }
+
+        &_element { font-size: 12px; }
       }
     }
   }

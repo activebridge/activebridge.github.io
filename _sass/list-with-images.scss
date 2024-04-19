@@ -90,6 +90,12 @@
     }
 
     .description { font-size: 12px; }
+
+    &_element:before {
+      width: 8px;
+      height: 8px;
+      left: -14px;
+    }
   }
 
   .list-with-images.horizontal {

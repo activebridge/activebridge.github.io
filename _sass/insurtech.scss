@@ -1,35 +1,61 @@
 .insurtech {
-  .header-3.small-text {
-    font-weight: 900;
-    letter-spacing: normal;
-    margin: 8vh 0;
+  .list-with-images.horizontal {
+    .list-with-images__item .header-2 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
   }
 
   &__main {
     background-image: linear-gradient(to right top, $palianytsia, #EFF1F5, #EFF1F5, $palianytsia);
-    padding: 117px 0 104px 0;
 
-    .description.with-margin  { margin-bottom: 8vh; }
+    &.wrap { padding-bottom: 45px; }
 
-    .list-with-images__item-icon img { box-shadow: none; }
+    .list-with-images {
+      margin-bottom: 0;
+
+      &__item-icon img { box-shadow: none; }
+    }
   }
 
   &__design_and_development {
     background-image: linear-gradient(-45deg, rgba($buzok, .5), #EFF1F5, #EFF1F5);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 90px 0 83px 0;
 
-    .description { margin-top: 5vh; }
+    h2.header-2 { margin-bottom: 50px; }
 
-    .list-with-images__item-text .description { margin-top: 1vh; }
+    .list-with-images {
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
 
-    .header-3.small-text { margin: 58px 0 48px 0; }
+    .web_dev_services__full_stack-list {
+      padding-left: 35px;
+      margin: 40px 0;
+
+      &-item {
+        margin-bottom: 20px;
+        color: $black;
+
+        &::after {
+          background: center / cover no-repeat url(/assets/images/privacy_policy/sun.webp);
+          left: -35px;
+          top: 5px;
+          width: 12px;
+          height: 12px;
+          transform: translateY(50%);
+        }
+      }
+    }
   }
 
   .solutions_cases__case_study {
     background-image: linear-gradient(rgba($buzok, .75), rgba($sky-ua, .75));
     box-shadow: 0px 0px 20px 4px rgba($purple-heart, .05);
-    padding: 89px 0 95px 0;
+
+    &_top { padding-top: 40px; }
+
+    &_bottom_list li:first-child { margin-top: 20px; }
   }
 
   &__features {
@@ -37,47 +63,34 @@
                 no-repeat url('/assets/images/insurtech/cloud-2.webp'),
                 linear-gradient(30deg, $kviten, $titan_white, $titan_white);
     background-blend-mode: luminosity;
-    background-position: top 2% left 0, top 50% right 0, top 0 left 0;
-    padding: 100px 0 106px 0;
+    background-position: top 0 left 0, top 50% right 0, top 0 left 0;
     position: relative;
 
+    &.wrap { padding-bottom: 20px; }
+
     .header-3.small-text {
-      font-weight: 400;
-      margin: 0 0 6vh 0;
+      font-family: 'Cera Regular', serif;
+      margin: 0;
     }
 
-    .web_dev_services__full_stack-list {
-      padding-left: 45px;
-
-      &-item {
-        color: $black;
-
-        &::after {
-          left: -45px;
-          top: 0;
-          width: 22px;
-          height: 22px;
-          background: center/cover no-repeat url('/assets/images/privacy_policy/sun.webp');
-          transform: translateY(50%);
-        }
-      }
-    }
+    .list-with-images { margin-bottom: 0 }
 
     .list-with-images.horizontal .list-with-images__item {
       max-width: 23%;
       margin-right: 7px;
       margin-left: 7px;
+      margin-bottom: 60px;
     }
   }
 
   &__full_circle {
     background-image: linear-gradient(to left top, $black_sea, $main-violet, $kviten);
     box-shadow: inset 0px 0px 20px 4px rgba($purple-heart, .25);
-    padding: 99px 0 95px 0;
 
     .button {
       background-color: $white;
       font-weight: 400;
+
       &:hover { color: $main-violet !important; }
     }
 
@@ -98,43 +111,75 @@
 
 @media screen and (max-width: 767px) {
   .insurtech {
-    .header-3.small-text { margin: 5vh 0; }
+    .list-with-images.horizontal .list-with-images__item {
+      .header-2 {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
 
-    .list-with-images .list-with-images__item .header-2 { margin-top: 1.5vh; }
+      .description { text-align: justify; }
+    }
+
+    .list-with-images__item:last-child { margin-bottom: 0; }
 
     .web_dev_services__full_stack-list-item {
-      margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
 
     &__main {
       background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5);
-      padding: 79px 0 73px 0;
+
+      &.wrap { padding-top: 100px; }
+
+      .description.with-margin { margin: 30px 0 50px; }
     }
 
     &__design_and_development {
-      padding: 50px 0 27px 0;
+      background-image: linear-gradient(-45deg, rgba($buzok, .5), rgba($palianytsia, .75));
 
       .header-2 { margin-top: 0; }
 
-      .header-3.small-text { margin: 30px 0 11px 0; }
+      h2.header-2 { margin-bottom: 40px; }
+
+      .web_dev_services__full_stack-list {
+        padding-left: 25px;
+        margin: 20px 0;
+
+        &-item::after {
+          left: -25px;
+          top: 0px;
+        }
+      }
+
+      .list-with-images { margin-top: 0; }
     }
 
     .solutions_cases__case_study {
-      padding: 60px 0 63px 0;
+      &_top { padding-top: 0; }
 
-      .header-2.with-margin { margin: 20px 0 0 0; }
+      &_image {
+        margin-top: 20px;
+
+        img { max-width: 120px; }
+      }
     }
 
     &__features {
-      padding: 52px 0 51px 0;
+      .header-3.small-text {
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
 
-      .header-3.small-text { margin-top: 0; }
-
-      .list-with-images.horizontal .list-with-images__item { max-width: 100%; }
+      .list-with-images.horizontal .list-with-images__item {
+        max-width: 400px;
+        margin-bottom: 50px;
+      }
     }
 
-    &__full_circle { padding: 45px 0 60px 0;}
+    &__full_circle {
+      .header-2.with-margin { margin-bottom: 40px; }
+    }
 
     .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
   }
