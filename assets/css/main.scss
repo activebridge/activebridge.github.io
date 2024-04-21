@@ -125,6 +125,15 @@ ul, ol { margin-left: 0; }
   margin-bottom: 40px;
 }
 
+.block-sub-title {
+  font-family: "Cera Regular", serif;
+  font-size: 22px;
+  letter-spacing: 0.4em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
 .message {
   font-size: 22px;
   line-height: 35px;
@@ -370,8 +379,8 @@ b { font-family: "Cera-Bold", serif; }
   }
   .block-cera-title,.block-cera-title,.message { margin-bottom: 25px; }
 
-  .message {
-    font-size: 18px;
+  .message, .block-sub-title{
+    font-size: 15px;
     line-height: 25px;
   }
 }
