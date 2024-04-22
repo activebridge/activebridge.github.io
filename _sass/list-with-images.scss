@@ -18,6 +18,7 @@
     }
 
     .description { margin: 1vh 0; }
+    .message { text-align: left; }
 
     &_element {
       list-style: none;
@@ -88,6 +89,7 @@
     }
 
     .description { font-size: .8em; }
+    .message { text-align: center; }
   }
 
   .list-with-images.horizontal {
