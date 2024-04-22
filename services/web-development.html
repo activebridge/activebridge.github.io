@@ -1,7 +1,7 @@
 ---
 permalink: /services/web-development
 layout: default
-title: From MVP to Сomplete Product. Web Development Services | Active Bridge
+title: From MVP to Complete Product. Web Development Services | Active Bridge
 description: Enhance your business processes leveraging our web application
              development services. We excel at crafting digital experiences that
              both look and work impressive.
@@ -13,10 +13,11 @@ json-ld: web-development
 <div class="container web_dev_services development">
   <div class="web_dev_services__main wrap">
     <div class="wrapper" style="view-transition-name: web-development;">
-      <div class="header-2 large-header">{{ site.data.web_dev_services.title }}</div>
-      <div class="description">{{ site.data.web_dev_services.description }}</div>
+      <p class="page-title">{{ site.data.web_dev_services.page-title }}</p>
+      <p class="message inria-regular">{{ site.data.web_dev_services.title }}</p>
+      <p class="description mb-4">{{ site.data.web_dev_services.description }}</p>
       <div class="web_dev_services__list">
-        <div class="header-3">{{ site.data.web_dev_services.expertise.title }}</div>
+        <h2 class="block-sub-title">{{ site.data.web_dev_services.expertise.title }}</h2>
         <div class="web_dev_services__list-wrap">
           <img src="/assets/images/web_development_services/star.webp" alt="Star">
           <ul class="web_dev_services__list-text">
@@ -31,11 +32,9 @@ json-ld: web-development
 
   <div class="web_dev_services__web_solutions wrap">
     <div class="wrapper dark-text-inversion">
-      <div class="header-2">{{ site.data.web_dev_services.web_solutions.title }}</div>
-      <div class="web_dev_services__list">
-        <div class="header-3">
-          {{ site.data.web_dev_services.web_solutions.subtitle_1 }}
-        </div>
+      <p class="message inria-bold">{{ site.data.web_dev_services.web_solutions.title }}</p>
+      <div class="web_dev_services__list mb-6">
+        <h2 class="block-sub-title">{{ site.data.web_dev_services.web_solutions.subtitle_1 }}</h2>
         <div class="web_dev_services__list-wrap">
           <img src="/assets/images/web_development_services/branded_cloud.webp" alt="Cloud">
           <ul class="web_dev_services__list-text list_with_columns">
@@ -45,23 +44,15 @@ json-ld: web-development
           </ul>
         </div>
       </div>
-      <div class="header-2">
-        {{ site.data.web_dev_services.web_solutions.subtitle_2 }}
-      </div>
+      <p class="message inria-bold">{{ site.data.web_dev_services.web_solutions.subtitle_2 }}</p>
     </div>
   </div>
 
   <div class="web_dev_services__full_stack wrap">
     <div class="wrapper">
-      <h1 class="header-3 white-text">
-        {{ site.data.web_dev_services.full_stack.title }}
-      </h1>
-      <div class="description">
-        {{ site.data.web_dev_services.full_stack.description_1 }}
-      </div>
-      <div class="description">
-        {{ site.data.web_dev_services.full_stack.description_2 }}
-      </div>
+      <h1 class="block-cera-title white-text">{{ site.data.web_dev_services.full_stack.title }}</h1>
+      <p class="description mb-4">{{ site.data.web_dev_services.full_stack.description_1 }}</p>
+      <p class="description">{{ site.data.web_dev_services.full_stack.description_2 }}</p>
       <ul class="web_dev_services__full_stack-list">
         {% for item in site.data.web_dev_services.full_stack.all %}
           <li class="web_dev_services__full_stack-list-item inria-regular">
@@ -69,17 +60,13 @@ json-ld: web-development
           </li>
         {% endfor %}
       </ul>
-      <div class="description">
-        {{ site.data.web_dev_services.full_stack.description_3 }}
-      </div>
+      <p class="description">{{ site.data.web_dev_services.full_stack.description_3 }}</p>
     </div>
   </div>
 
   <div class="web_dev_services__customized_approach wrap">
     <div class="wrapper dark-text-inversion">
-      <h2 class="header-2">
-        {{ site.data.web_dev_services.customized_approach.title }}
-      </h2>
+      <h2 class="block-inria-title">{{ site.data.web_dev_services.customized_approach.title }}</h2>
       <div class="list-with-images">
         {% for item in site.data.web_dev_services.customized_approach.all %}
           <div class="list-with-images__item">
@@ -87,8 +74,8 @@ json-ld: web-development
               <img src="/assets/images/web_development_services/{{ item.icon }}" alt="Approach">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2">{{ item.title }}</div>
-              <div class="description">{{ item.description }}</div>
+              <h3 class="message inria-bold text-left mb-0 mt-2">{{ item.title }}</h3>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -98,7 +85,7 @@ json-ld: web-development
 
   <div class="web_dev_services__technologies wrap">
     <div class="wrapper">
-      <h2 class="header-2">{{ site.data.web_dev_services.technologies.title }}</h2>
+      <h2 class="message inria-bold">{{ site.data.web_dev_services.technologies.title }}</h2>
       <img class="desktop-only" src="/assets/images/web_development_services/technologies_d_table.svg" alt="Technologies">
       <img class="mobile-only" src="/assets/images/web_development_services/technologies_m_table.svg" alt="Technologies">
       <a href="/expertise" id="web_dev_technologies" class="button white-text violet-button" data-link="transition">
@@ -109,19 +96,15 @@ json-ld: web-development
 
   <div class="web_dev_services__our_approach wrap">
     <div class="wrapper">
-      <h2 class="header-2 white-text">{{ site.data.web_dev_services.our_approach.title }}</h2>
-      <div class="description white-text">
-        {{ site.data.web_dev_services.our_approach.description_1 }}
-      </div>
-      <div class="description white-text">
-        {{ site.data.web_dev_services.our_approach.description_2 }}
-      </div>
+      <h2 class="block-inria-title white-text">{{ site.data.web_dev_services.our_approach.title }}</h2>
+      <p class="description white-text mb-4">{{ site.data.web_dev_services.our_approach.description_1 }}</p>
+      <p class="description white-text">{{ site.data.web_dev_services.our_approach.description_2 }}</p>
     </div>
   </div>
 
   <div class="web_dev_services__solutions wrap">
     <div class="wrapper">
-      <div class="header-2">{{ site.data.web_dev_services.solutions.title }}</div>
+      <div class="message inria-bold mb-0">{{ site.data.web_dev_services.solutions.title }}</div>
       <div class="about_us_info__items">
         <div class="about_us_info__container">
           {% for item in site.data.web_dev_services.solutions.all %}
@@ -144,12 +127,8 @@ json-ld: web-development
 
   <div class="web_dev_services__contract_approaches development__cards wrap">
     <div class="wrapper dark-text-inversion">
-      <div class="header-3">
-        {{ site.data.web_dev_services.contract_approaches.title }}
-      </div>
-      <div class="header-2">
-        {{ site.data.web_dev_services.contract_approaches.description }}
-      </div>
+      <h2 class="block-cera-title">{{ site.data.web_dev_services.contract_approaches.title }}</h2>
+      <p class="message inria-regular">{{ site.data.web_dev_services.contract_approaches.description }}</p>
       <div class="cards-container">
         {% for item in site.data.web_dev_services.contract_approaches.all %}
           <div class="card">

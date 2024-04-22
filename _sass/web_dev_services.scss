@@ -1,10 +1,5 @@
 .web_dev_services {
   &__list {
-    .header-3 {
-      margin-bottom: 5vh;
-      font-size: 1.4em;
-    }
-
     &-wrap {
       display: flex;
       align-items: center;
@@ -30,24 +25,11 @@
   &__main {
     background-image: linear-gradient(to right top, $moon_raker, #F7EFFC, $moon_raker);
     filter: var(--filter-invert);
-    .description { margin: 8vh 0; }
   }
 
   &__web_solutions {
     background-image: linear-gradient(to bottom, var(--white), $palianytsia);
     box-shadow: 0px 0px 15px 0px $moon_raker;
-
-    .header-2 {
-      font-size: 1.3em;
-      line-height: 1.6;
-
-      &:first-child {
-        max-width: 75%;
-        margin-bottom: 7vh;
-      }
-
-      &:last-child { margin-top: 7vh; }
-    }
 
     img {
       max-width: 25em;
@@ -61,16 +43,7 @@
     background-color: $dark-purple;
     margin-top: -2vh;
     margin-bottom: -25px;
-
-    .header-3 {
-      margin-bottom: 5vh;
-      font-size: 1.8em;
-    }
-
-    .description {
-      margin-bottom: 1.5em;
-      color: $buzok;
-    }
+    .description { color: $buzok; }
 
     &-list {
       list-style: none;
@@ -108,8 +81,6 @@
   &__technologies {
     background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
 
-    .header-2 { margin-bottom: 8vh; }
-
     .button {
       margin-top: 8vh;
       background: $main-gradient;
@@ -119,23 +90,11 @@
   &__our_approach {
     background: $main-gradient;
     box-shadow: 0px 0px 20px -3px #6b6897;
-
-    .header-2 {
-      margin-bottom: 6vh;
-      margin-top: 0;
-    }
-
-    .description:not(:last-child) { margin-bottom: 1.5em; }
   }
 
   &__solutions {
     background-image: linear-gradient(to bottom, rgba($moon_raker, .5), $white);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
-
-    .header-2 {
-      font-size: 1.3em;
-      line-height: 1.6;
-    }
 
     .about_us_info__container {
       width: 100%;
@@ -144,7 +103,6 @@
       flex-wrap: wrap;
       margin-top: 7vh;
     }
-
     .about_us_info__items { flex-direction: column; }
 
     .about_us_info__item {
@@ -158,7 +116,6 @@
       background: linear-gradient(135deg, $main-violet, $purple-heart);
       border-color: $kviten;
       margin-bottom: 10px;
-
       p { -webkit-text-fill-color: $white; }
     }
   }
@@ -181,7 +138,6 @@
   .development__cards {
     .cards-container {
       .card { justify-content: space-between; }
-
       .card__description { margin: 30px 0; }
     }
   }
@@ -189,10 +145,7 @@
 
 @media screen and (max-width: 700px) {
   .web_dev_services {
-    .header-2 { font-size: 18px; }
-
     &__list {
-      .header-3 { font-size: 1.2em; }
 
       &-wrap {
         flex-wrap: wrap;
@@ -205,33 +158,18 @@
 
         &.list_with_columns {
           columns: 2;
-
           li:nth-last-child(-n+4) { margin-left: 2vh; }
         }
       }
-
       img { margin-bottom: 30px; }
     }
 
-    &__main {
-      .description {
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-      }
-    }
-
-    &__web_solutions {
-      img { width: 55vw; }
-
-      .header-2:first-child { max-width: 100%; }
-    }
+    &__web_solutions { img { width: 55vw; } }
 
     &__full_stack {
       margin-top: -3vh;
       margin-bottom: -5vh;
       background-position: 77% 75%;
-
-      .header-3 { font-size: 1.2em; }
 
       &-list {
         padding-inline-start: 0;
@@ -252,14 +190,9 @@
 
     &__technologies {
       img.mobile-only  { max-width: 78vw; }
-
       .button { margin-top: 4vh; }
     }
-
     &__solutions .about_us_info__item { width: 45%; }
-
-    &__our_approach .header-2 { margin-bottom: 3vh; }
-
     &__industries #web_dev_button { max-width: 300px; }
   }
 }
