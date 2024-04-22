@@ -302,11 +302,12 @@ b { font-family: "Cera-Bold", serif; }
 }
 
 @media (max-width: 930px) {
-  .container { padding-top: 0; }
   .main-svg { display: none;}
 }
 
 @media (max-width: 767px) {
+  .container { padding-top: 0; }
+
   .body-content {
     display: flex;
     flex-direction: row;
