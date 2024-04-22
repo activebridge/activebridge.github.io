@@ -13,10 +13,10 @@ json-ld: services
 <div class="container services">
   <div class="info-container services__main wrap">
     <div class="wrapper">
-      <div class="header-3 white-text">{{ site.data.services.services }}</div>
-      <h1 class="header-5 white-text">{{ site.data.services.pick_right_stack }}</h1>
+      <p class="page-title white-text">{{ site.data.services.services }}</p>
+      <h1 class="message white-text inria-regular">{{ site.data.services.pick_right_stack }}</h1>
       <div class="services__description-wrap" style="view-transition-name: services;">
-        <div class="description white-text">{{ site.data.services.learn_and_grow }}</div>
+        <p class="description white-text">{{ site.data.services.learn_and_grow }}</p>
         <img src="/assets/images/services/flower.webp" alt="Flower">
       </div>
     </div>
@@ -25,8 +25,8 @@ json-ld: services
   <div class="alabaster services__web-dev">
     <div class="overlay"></div>
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.services.web_services.title }}</h2>
-      <div class="description">{{ site.data.services.web_services.description }}</div>
+      <h2 class="block-cera-title">{{ site.data.services.web_services.title }}</h2>
+      <p class="description">{{ site.data.services.web_services.description }}</p>
     </div>
     <div class="carousel-background">
       <div class="carousel-scroll" >
@@ -59,12 +59,8 @@ json-ld: services
 
   <div class="services__custom-ror-dev">
     <div class="wrapper">
-      <h2 class="header-3 white-text">
-        {{ site.data.services.custom_ror_dev_services.title }}
-      </h2>
-      <div class="description white-text">
-        {{ site.data.services.custom_ror_dev_services.description }}
-      </div>
+      <h2 class="block-cera-title white-text">{{ site.data.services.custom_ror_dev_services.title }}</h2>
+      <p class="description white-text">{{ site.data.services.custom_ror_dev_services.description }}</p>
     </div>
     <div class="carousel-scroll" >
       <div class="carousel-scroll__scroller" data-scroll="scroller">
@@ -95,16 +91,16 @@ json-ld: services
 
   <div class="services__mobile-dev development__cards wrap">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.services.mobile_dev_services.title }}</h2>
-      <div class="description">{{ site.data.services.mobile_dev_services.description }}</div>
+      <h2 class="block-cera-title">{{ site.data.services.mobile_dev_services.title }}</h2>
+      <p class="description">{{ site.data.services.mobile_dev_services.description }}</p>
       <div class="cards-container">
         {% for item in site.data.services.mobile_dev_services.all %}
           <div class="card">
-            <div class="card__title-2 purple-heart">{{ item.title }}</div>
+            <h3 class="card__title-2 purple-heart">{{ item.title }}</h3>
             <div class="card__icon">
               <img src="/assets/images/services/mobile_dev_services/{{ item.icon }}" alt="Icon">
             </div>
-            <div class="card__description">{{ item.description }}</div>
+            <p class="card__description">{{ item.description }}</p>
           </div>
         {% endfor %}
       </div>
@@ -116,16 +112,14 @@ json-ld: services
 
   <div class="info-container services__engagement-models development__cards wrap">
     <div class="wrapper">
-      <div class="header-3 white-text">{{ site.data.services.engagement_models.title }}</div>
-      <div class="description white-text inria">
-        {{ site.data.services.engagement_models.description }}
-      </div>
+      <h2 class="block-cera-title white-text">{{ site.data.services.engagement_models.title }}</h2>
+      <p class="description white-text inria-regular">{{ site.data.services.engagement_models.description }}</p>
       <div class="cards-container">
         {% for item in site.data.services.engagement_models.all %}
           <div class="card">
             <div class="card-content">
-              <div class="card__title-2 white-text">{{ item.title }}</div>
-              <div class="card__description white-text">{{ item.description }}</div>
+              <h3 class="card__title-2 white-text">{{ item.title }}</h3>
+              <p class="card__description white-text">{{ item.description }}</p>
             </div>
             <a id="engagement_model_{{ item.index }}" class="button white-text violet-button" href="{{ item.link }}" data-link="transition">
               {{ site.data.services.learn_more }}
@@ -139,8 +133,8 @@ json-ld: services
 
   <div class="alabaster services__approaches">
     <div class="wrapper">
-      <div class="header-2">{{ site.data.services.approaches.subtitle }}</div>
-      <div class="header-3">{{ site.data.services.approaches.title }}</div>
+      <h2 class="block-cera-title">{{ site.data.services.approaches.title }}</h2>
+      <p class="message inria-bold">{{ site.data.services.approaches.subtitle }}</p>
     </div>
     <div class="wrapper timeline animated-cards" data-animation="snake">
       <svg class="desktop-svg" viewBox="0 0 578 1387" fill="none" preserveAspectRatio="none">
@@ -152,12 +146,8 @@ json-ld: services
             <img src="/assets/images/services/approach/approach_{{ item.index }}.webp" alt="Approach">
           </div>
           <div class="timeline-item__content">
-            <div class="timeline-item__content-title inria">
-              {{ item.title}}
-            </div>
-            <div class="timeline-item__content-description">
-              {{ item.description}}
-            </div>
+            <h3 class="timeline-item__content-title inria-bold">{{ item.title}}</h3>
+            <p class="timeline-item__content-description">{{ item.description}}</p>
           </div>
         </div>
       {% endfor %}
