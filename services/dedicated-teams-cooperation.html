@@ -13,16 +13,17 @@ json-ld: dedicated-teams-cooperation
 <div class="container staff_augmentation_services development">
   <div class="staff_augmentation_services__main">
     <div class="wrapper">
-      <div class="header-3 white-text">{{ site.data.team_extension.title }}</div>
-      <div class="header-2 with-margin">{{ site.data.team_extension.subtitle }}</div>
+      <p class="page-title white-text">{{ site.data.team_extension.page-title }}</p>
+      <h2 class="block-inria-title">{{ site.data.team_extension.title }}</h2>
+      <p class="message inria-regular">{{ site.data.team_extension.subtitle }}</p>
       <div class="list-with-images horizontal">
         {% for item in site.data.team_extension.specialists %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/team_extension/{{ item.icon }}" alt="Specialist">
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -32,43 +33,31 @@ json-ld: dedicated-teams-cooperation
 
   <div class="staff_augmentation_services__team_as_service">
     <div class="wrapper">
-      <h1 class="header-3">{{ site.data.team_extension.team_as_service.title }}</h1>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.team_as_service.subtitle }}
-      </div>
-      <div class="header-3 blue">
-        {{ site.data.team_extension.team_as_service.list_title }}
-      </div>
+      <h1 class="block-cera-title">{{ site.data.team_extension.team_as_service.title }}</h1>
+      <p class="message inria-regular">{{ site.data.team_extension.team_as_service.subtitle }}</p>
+      <h2 class="block-sub-title blue">{{ site.data.team_extension.team_as_service.list_title }}</h2>
       <ul class="web_dev_services__full_stack-list">
         {% for item in site.data.team_extension.team_as_service.all %}
-          <li class="web_dev_services__full_stack-list-item">
-            {{ item.item }}
-          </li>
+          <li class="web_dev_services__full_stack-list-item">{{ item.item }}</li>
         {% endfor %}
       </ul>
-      <div class="description">
-        {{ site.data.team_extension.team_as_service.description }}
-      </div>
+      <p class="description">{{ site.data.team_extension.team_as_service.description }}</p>
     </div>
   </div>
 
   <div class="staff_augmentation_services__extension wrap">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.team_extension.extension.title }}</h2>
-      <div class="description with-margin">
-        {{ site.data.team_extension.extension.description }}
-      </div>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.extension.subtitle }}
-      </div>
-      <div class="list-with-images horizontal">
+      <h2 class="block-cera-title">{{ site.data.team_extension.extension.title }}</h2>
+      <p class="description mb-4">{{ site.data.team_extension.extension.description }}<p>
+      <p class="message inria-bold">{{ site.data.team_extension.extension.subtitle }}</p>
+      <div class="list-with-images horizontal mb-0">
         {% for item in site.data.team_extension.extension.all %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/team_extension/{{ item.icon }}" alt="Extension">
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -78,51 +67,43 @@ json-ld: dedicated-teams-cooperation
 
   <div class="staff_augmentation_services__advantages wrap">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.team_extension.advantages.title }}</h2>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.advantages.subtitle }}
-      </div>
-      <div class="list-with-images horizontal">
+      <h2 class="block-cera-title">{{ site.data.team_extension.advantages.title }}</h2>
+      <p class="message inria-bold">{{ site.data.team_extension.advantages.subtitle }}</p>
+      <div class="list-with-images horizontal mb-0">
         {% for item in site.data.team_extension.advantages.all %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/team_extension/{{ item.icon }}" alt="Advantage">
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
       </div>
-      <div class="header-2">{{ site.data.team_extension.advantages.description }}</div>
+      <p class="description cera-bold">{{ site.data.team_extension.advantages.description }}</p>
     </div>
   </div>
 
   <div class="staff_augmentation_services__dedicated_model">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.team_extension.dedicated_model.title }}</h2>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.dedicated_model.subtitle_1 }}
-      </div>
-      <div class="staff_augmentation_services__dedicated_model_description">
+      <h2 class="block-cera-title">{{ site.data.team_extension.dedicated_model.title }}</h2>
+      <p class="description">{{ site.data.team_extension.dedicated_model.subtitle_1 }}</p>
+      <div class="staff_augmentation_services__dedicated_model_description mb-4">
         <div class="staff_augmentation_services__dedicated_model_description_icon">
           <img src="/assets/images/team_extension/magic_trick.webp" alt="Magic Trick">
         </div>
-        <div class="description">
-          {{ site.data.team_extension.dedicated_model.description }}
-        </div>
+        <p class="description">{{ site.data.team_extension.dedicated_model.description }}</p>
       </div>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.dedicated_model.subtitle_2 }}
-      </div>
-      <div class="list-with-images horizontal">
+      <p class="message inria-bold">{{ site.data.team_extension.dedicated_model.subtitle_2 }}</p>
+      <div class="list-with-images horizontal mb-0">
         {% for item in site.data.team_extension.dedicated_model.all %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/team_extension/{{ item.icon }}" alt="Model">
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -133,10 +114,8 @@ json-ld: dedicated-teams-cooperation
   <div class="staff_augmentation_services__benefits wrap">
     <div class="wrapper">
       <img src="/assets/images/team_extension/key.webp" alt="Key" class="absolute-img">
-      <div class="header-3">{{ site.data.team_extension.benefits.title }}</div>
-      <div class="header-2 with-margin">
-        {{ site.data.team_extension.benefits.subtitle }}
-      </div>
+      <h2 class="block-cera-title">{{ site.data.team_extension.benefits.title }}</h2>
+      <p class="message inria-bold mb-4">{{ site.data.team_extension.benefits.subtitle }}</p>
       <ul class="web_dev_services__full_stack-list">
         {% for item in site.data.team_extension.benefits.all %}
           <li class="web_dev_services__full_stack-list-item">
@@ -149,15 +128,13 @@ json-ld: dedicated-teams-cooperation
 
   <div class="staff_augmentation_services__transparency">
     <div class="wrapper">
-      <div class="header-2 white-text">
-        {{ site.data.team_extension.transparency }}
-      </div>
+      <p class="message inria-bold mb-0 white-text">{{ site.data.team_extension.transparency }}</p>
     </div>
   </div>
 
   <div class="staff_augmentation_services__process">
     <div class="wrap">
-      <div class="header-3">{{ site.data.team_extension.process.title }}</div>
+      <h2 class="block-cera-title mb-0">{{ site.data.team_extension.process.title }}</h2>
     </div>
     <div class="timeline wrapper animated-cards" data-animation="snake">
       <svg class="desktop-svg" viewBox="0 0 888 1397" fill="none" preserveAspectRatio="none">
@@ -169,8 +146,8 @@ json-ld: dedicated-teams-cooperation
             <img src="/assets/images/team_extension/{{ item.icon }}" alt="Process">
           </div>
           <div class="timeline-item__content">
-            <div class="timeline-item__content-title inria">{{ item.title }}</div>
-            <div class="timeline-item__content-description">{{ item.description }}</div>
+            <h3 class="timeline-item__content-title inria">{{ item.title }}</h3>
+            <p class="timeline-item__content-description">{{ item.description }}</p>
           </div>
         </div>
       {% endfor %}
@@ -179,15 +156,15 @@ json-ld: dedicated-teams-cooperation
 
   <div class="staff_augmentation_services__services wrap development__cards">
     <div class="wrapper">
-      <div class="header-2">{{ site.data.team_extension.services.title }}</div>
+      <h2 class="message inria-bold">{{ site.data.team_extension.services.title }}</h2>
       <div class="cards-container">
         {% for item in site.data.team_extension.services.all %}
           <div class="card">
-            <div class="card__title-2">{{ item.title }}</div>
+            <h3 class="card__title-2">{{ item.title }}</h3>
             <div class="card__icon">
               <img src="/assets/images/team_extension/{{ item.icon }}" alt="Service">
             </div>
-            <div class="card__description">{{ item.description }}</div>
+            <p class="card__description">{{ item.description }}</p>
           </div>
         {% endfor %}
       </div>
