@@ -128,6 +128,7 @@
 
   &__services {
     background-image: linear-gradient(var(--white), $sky-ua);
+    box-shadow: 0 4px 25px 0 rgba($purple-heart, .25);
 
     .button {
       margin-top: 8vh;
