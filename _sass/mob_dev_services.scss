@@ -1,31 +1,8 @@
 .mob_dev_services {
-  .header-2 { font-size: 22px; }
-
-  &__cross_platform,
-  &__engagement-models {
-    .header-2 { margin-top: 25px; }
-  }
-
   &.development .list-with-images {
-    margin: 4vh 0 0;
-
     &__item-icon img {
       border-radius: 20px;
       box-shadow: none;
-    }
-  }
-
-  .header-2.with-margin {
-    margin: 5vh auto;
-    max-width: 70%;
-  }
-
-  .description.with_margin {
-    margin-top: 6vh;
-
-    &-2 {
-      margin-top: 2vh;
-      margin-bottom: 6vh;
     }
   }
 
@@ -33,11 +10,6 @@
     padding-top: 14vh;
     background-image: linear-gradient(-135deg, $medium_purple 28.4%, rgba($buzok, .7) 52.42%, $medium_purple 73.77%);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
-
-    .header-3:not(:first-child) {
-      margin-top: 7vh;
-      font-size: 1.4em;
-    }
 
     .list-with-images.horizontal .list-with-images__item {
       max-width: 150px;
@@ -47,8 +19,6 @@
 
   &__cross_platform {
     background-image: linear-gradient($white, $palianytsia);
-
-    .header-2.with-margin { margin-bottom: 0; }
 
     &.development__cards {
       .cards-container {
@@ -66,8 +36,6 @@
   &__react_native {
     background-image: linear-gradient($sky-ua, $white);
     box-shadow: 0 4px 25px 0 rgba($purple-heart, .25);
-
-    .description.with_margin { margin: 6vh 0; }
   }
 
   &__flutter {
@@ -78,16 +46,11 @@
   &__ionic {
     background-image: linear-gradient(135deg, $black_sea, $black_sea, $main-violet);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
-
-    .description.with_margin { margin-bottom: 6vh; }
   }
 
   &__approaches {
     .timeline-item { padding-bottom: 100px; }
-
     .timeline-item:last-child:nth-child(odd)::before { bottom: 3em; }
-
-    .header-2 { margin: 6vh 0 0; }
   }
 
   &__engagement-models {
@@ -97,12 +60,6 @@
 
 @media screen and (max-width: 767px) {
   .mob_dev_services {
-    .header-2 { font-size: 1em; }
-
-    .header-2.with-margin { max-width: 100%; }
-
-    .header-3:not(:first-child) { font-size: 1.1em; }
-
     .list-with-images.horizontal {
       justify-content: space-around;
       .list-with-images__item-icon img { max-width: 135px; }
@@ -117,7 +74,6 @@
 @media screen and (max-width: 767px) {
   .mob_dev_services {
     &__main.wrap { padding-top: 7vh; }
-
     &__approaches .timeline-item { padding-bottom: 30px; }
   }
 }
