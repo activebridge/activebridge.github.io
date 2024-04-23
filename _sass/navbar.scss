@@ -125,9 +125,9 @@ header {
       -webkit-transition: all .5s ease-in-out;
 
       .header-navbar__sub-link {
-        color: $black;
         display: block;
         padding: 10px 20px;
+        color: var(--black);
         font-size: 0.7em;
         letter-spacing: 0.1em;
         text-decoration: none;
