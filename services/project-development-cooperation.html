@@ -13,42 +13,33 @@ json-ld: project-development-cooperation
 <div class="container project_dev_services development">
   <div class="project_dev_services__main">
     <div class="wrapper dark-text-inversion">
-      <div class="header-3">{{ site.data.project_development.title }}</div>
-      <div class="header-2 with-margin">
-        {{ site.data.project_development.subtitle_1 }}
-      </div>
-      <div class="description">
-        {{ site.data.project_development.description_1 }}
-      </div>
-      <div class="header-2 with-margin">
-        {{ site.data.project_development.subtitle_2 }}
-      </div>
+      <p class="page-title">{{ site.data.project_development.page-title }}</p>
+      <h2 class="block-inria-title">{{ site.data.project_development.title }}</h2>
+      <p class="message inria-regular">{{ site.data.project_development.subtitle_1 }}</p>
+      <p class="description mb-4">{{ site.data.project_development.description_1 }}</p>
+      <h3 class="message inria-bold">{{ site.data.project_development.subtitle_2 }}</h3>
       <div class="list-with-images horizontal">
         {% for item in site.data.project_development.level %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               {% include svgs/services/{{ item.icon }} %}
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.title }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.title }}</p>
             </div>
           </div>
         {% endfor %}
       </div>
-      <div class="description">
-        {{ site.data.project_development.description_2 }}
-      </div>
-      <div class="header-2 with-margin">
-        {{ site.data.project_development.subtitle_3 }}
-      </div>
-      <div class="list-with-images horizontal">
+      <p class="description mb-4">{{ site.data.project_development.description_2 }}</p>
+      <p class="message inria-bold mb-0">{{ site.data.project_development.subtitle_3 }}</p>
+      <div class="list-with-images horizontal mb-0">
         {% for item in site.data.project_development.contract %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/project_development/{{ item.icon }}" alt="Contract">
             </div>
-            <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+            <div class="list-with-images__item-text mt-1">
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -58,30 +49,28 @@ json-ld: project-development-cooperation
 
   <div class="project_dev_services__key_benefits wrap">
     <div class="wrapper dark-text-inversion">
-      <h1 class="header-3">{{ site.data.project_development.key_benefits.title }}</h1>
-      <div class="list-with-images horizontal">
+      <h1 class="block-cera-title">{{ site.data.project_development.key_benefits.title }}</h1>
+      <div class="list-with-images horizontal mb-0">
         {% for item in site.data.project_development.key_benefits.all %}
           <div class="list-with-images__item">
             <div class="list-with-images__item-icon">
               <img src="/assets/images/project_development/{{ item.icon }}" alt="Key">
             </div>
             <div class="list-with-images__item-text">
-              <div class="description">{{ item.description }}</div>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
       </div>
-      <div class="header-2 with-margin">
-        {{ site.data.project_development.key_benefits.subtitle }}
-      </div>
+      <div class="message inria-bold mb-0">{{ site.data.project_development.key_benefits.subtitle }}</div>
     </div>
   </div>
 
   <div class="project_dev_services__workflow">
-    <div class="wrap">
-      <h2 class="header-3 white-text">
-        {{ site.data.project_development.workflow.title }}
-      </h2>
+    <div class="wrapper">
+      <div class="vertical-p-8 ">
+        <h2 class="block-cera-title mb-0 white-text">{{ site.data.project_development.workflow.title }}</h2>
+      </div>
     </div>
     <div class="timeline wrapper timeline animated-cards" data-animation="snake">
       <svg class="desktop-svg" viewBox="0 0 863 2496" fill="none" preserveAspectRatio="none">
@@ -93,17 +82,11 @@ json-ld: project-development-cooperation
             <img src="/assets/images/project_development/{{ item.icon }}" alt="Workflow">
           </div>
           <div class="timeline-item__content">
-            <div class="timeline-item__content-title inria white-text">
-              {{ item.title }}
-            </div>
-            <div class="timeline-item__content-description white-text">
-              {{ item.description }}
-            </div>
+            <h3 class="timeline-item__content-title inria white-text">{{ item.title }}</h3>
+            <p class="timeline-item__content-description white-text">{{ item.description }}</p>
             {% if item.class %}{% include svgs/services/project-dev-circle.html %}{% endif %}
             <div class="timeline-item__content-output">
-              <div class="timeline-item__content-output-title">
-                {{ site.data.project_development.workflow.client_gets_title }}
-              </div>
+              <p class="timeline-item__content-output-title">{{ site.data.project_development.workflow.client_gets_title }}</p>
               <ul class="timeline-item__content-output-list">
                 {% for el in item.client_gets %}
                   <li class="timeline-item__content-output-item">{{ el.item }}</li>
@@ -124,9 +107,7 @@ json-ld: project-development-cooperation
 
   <div class="development__cards wrap flex-columns-center">
     <div class="wrapper flex-columns-center dark-text-inversion">
-      <div class="header-2">
-        {{ site.data.team_extension.services.title }}
-      </div>
+      <h2 class="message inria-bold">{{ site.data.team_extension.services.title }}</h2>
       <div class="cards-container">
         {% for item in site.data.team_extension.services.all %}
           <div class="card">
