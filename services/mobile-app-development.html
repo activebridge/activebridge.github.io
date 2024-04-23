@@ -12,12 +12,10 @@ json-ld: mobile-app-development
 <div class="container mob_dev_services development">
   <div class="mob_dev_services__main wrap">
     <div class="wrapper">
-      <div class="header-3 white-text">{{ site.data.mob_dev_services.title }}</div>
-      <div class="header-2 with-margin">{{ site.data.mob_dev_services.subtitle }}</div>
-      <div class="description white-text">
-        {{ site.data.mob_dev_services.description }}
-      </div>
-      <div class="header-3">{{ site.data.mob_dev_services.industries_title }}</div>
+      <p class="page-title">{{ site.data.mob_dev_services.page-title }}</p>
+      <p class="message inria-bold with-margin">{{ site.data.mob_dev_services.subtitle }}</p>
+      <p class="description white-text mb-4">{{ site.data.mob_dev_services.description }}</p>
+      <h2 class="block-sub-title">{{ site.data.mob_dev_services.industries_title }}</h2>
       <div class="list-with-images horizontal">
         {% for item in site.data.mob_dev_services.industries %}
           <div class="list-with-images__item">
@@ -25,7 +23,7 @@ json-ld: mobile-app-development
               <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Industry">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2 white-text">{{ item.title }}</div>
+              <h3 class="message inria-bold white-text mt-1 mb-0">{{ item.title }}</h3>
             </div>
           </div>
         {% endfor %}
@@ -35,33 +33,27 @@ json-ld: mobile-app-development
 
   <div class="mob_dev_services__cross_platform wrap development__cards">
     <div class="wrapper dark-text-inversion">
-      <h1 class="header-3">{{ site.data.mob_dev_services.cross_platform.title }}</h1>
-      <div class="header-2">
-        {{ site.data.mob_dev_services.cross_platform.description }}
-      </div>
+      <h1 class="block-cera-title">{{ site.data.mob_dev_services.cross_platform.title }}</h1>
+      <p class="message inria-bold">{{ site.data.mob_dev_services.cross_platform.description }}</p>
       <div class="cards-container">
         {% for item in site.data.mob_dev_services.cross_platform.all %}
           <div class="card">
-            <div class="card__title-2">{{ item.title }}</div>
+            <h3 class="card__title-2">{{ item.title }}</h3>
             <div class="card__icon">
               <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
             </div>
-            <div class="card__description">{{ item.description }}</div>
+            <p class="card__description">{{ item.description }}</p>
           </div>
         {% endfor %}
       </div>
-      <div class="header-2 with-margin">
-        {{ site.data.mob_dev_services.cross_platform.subtitle }}
-      </div>
+      <p class="message inria-bold mt-2">{{ site.data.mob_dev_services.cross_platform.subtitle }}</p>
     </div>
   </div>
 
   <div class="mob_dev_services__react_native wrap">
     <div class="wrapper dark-text-inversion">
-      <h2 class="header-3">{{ site.data.mob_dev_services.react_native.title }}</h2>
-      <div class="description with_margin">
-        {{ site.data.mob_dev_services.react_native.description }}
-      </div>
+      <h2 class="block-cera-title">{{ site.data.mob_dev_services.react_native.title }}</h2>
+      <p class="description">{{ site.data.mob_dev_services.react_native.description }}</p>
       <div class="list-with-images">
         {% for item in site.data.mob_dev_services.react_native.all %}
           <div class="list-with-images__item">
@@ -69,8 +61,8 @@ json-ld: mobile-app-development
               <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2">{{ item.title }}</div>
-              <div class="description">{{ item.description }}</div>
+              <h3 class="message inria-bold mb-0 mt-2">{{ item.title }}</h3>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -80,13 +72,9 @@ json-ld: mobile-app-development
 
   <div class="mob_dev_services__flutter wrap">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.mob_dev_services.flutter.title }}</h2>
-      <div class="description with_margin">
-        {{ site.data.mob_dev_services.flutter.description_1 }}
-      </div>
-      <div class="description with_margin-2">
-        {{ site.data.mob_dev_services.flutter.description_2 }}
-      </div>
+      <h2 class="block-cera-title">{{ site.data.mob_dev_services.flutter.title }}</h2>
+      <p class="description mb-4">{{ site.data.mob_dev_services.flutter.description_1 }}</p>
+      <p class="description">{{ site.data.mob_dev_services.flutter.description_2 }}</p>
       <div class="list-with-images">
         {% for item in site.data.mob_dev_services.flutter.all %}
           <div class="list-with-images__item">
@@ -94,8 +82,8 @@ json-ld: mobile-app-development
               <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2">{{ item.title }}</div>
-              <div class="description">{{ item.description }}</div>
+              <h3 class="message inria-bold mb-0 mt-2">{{ item.title }}</h3>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -105,10 +93,8 @@ json-ld: mobile-app-development
 
   <div class="mob_dev_services__ionic wrap">
     <div class="wrapper">
-      <h2 class="header-3 white-text">{{ site.data.mob_dev_services.ionic.title }}</h2>
-      <div class="description with_margin white-text">
-        {{ site.data.mob_dev_services.ionic.description }}
-      </div>
+      <h2 class="block-cera-title white-text">{{ site.data.mob_dev_services.ionic.title }}</h2>
+      <p class="description white-text">{{ site.data.mob_dev_services.ionic.description }}</p>
       <div class="list-with-images">
         {% for item in site.data.mob_dev_services.ionic.all %}
           <div class="list-with-images__item">
@@ -116,7 +102,7 @@ json-ld: mobile-app-development
               <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Icon">
             </div>
             <div class="list-with-images__item-text">
-              <div class="header-2 white-text">{{ item.title }}</div>
+              <h3 class="message inria-bold white-text mb-0 mt-2">{{ item.title }}</h3>
               <div class="description white-text">{{ item.description }}</div>
             </div>
           </div>
@@ -126,9 +112,11 @@ json-ld: mobile-app-development
   </div>
 
   <div class="mob_dev_services__approaches dark-text-inversion">
-    <div class="wrap">
-      <div class="header-3">{{ site.data.mob_dev_services.approaches.title }}</div>
-      <div class="header-2">{{ site.data.mob_dev_services.approaches.subtitle }}</div>
+    <div class="wrapper">
+      <div class="vertical-p-8">
+        <h2 class="block-cera-title">{{ site.data.mob_dev_services.approaches.title }}</h2>
+        <p class="message inria-bold mb-0">{{ site.data.mob_dev_services.approaches.subtitle }}</p>
+      </div>
     </div>
     <div class="wrapper timeline solutions-first-animated-cards animated-cards" data-animation="snake">
       <svg class="desktop-svg" viewBox="0 0 891 2998" fill="none" preserveAspectRatio="none">
@@ -140,17 +128,11 @@ json-ld: mobile-app-development
             <img src="/assets/images/mob_development_services/{{ item.icon }}" alt="Approach">
           </div>
           <div class="timeline-item__content">
-            <div class="timeline-item__content-title inria">
-              {{ item.title}}
-            </div>
-            <div class="timeline-item__content-description">
-              {{ item.description}}
-            </div>
+            <h3 class="timeline-item__content-title inria">{{ item.title}}</h3>
+            <p class="timeline-item__content-description">{{ item.description}}</p>
             {% if item.output %}
               <div class="timeline-item__content-output">
-                <div class="timeline-item__content-output-title">
-                  {{ site.data.mob_dev_services.approaches.output }}
-                </div>
+                <p class="timeline-item__content-output-title">{{ site.data.mob_dev_services.approaches.output }}</p>
                 <ul class="timeline-item__content-output-list">
                   {% for el in item.output %}
                     <li class="timeline-item__content-output-item">{{ el.text }}</li>
@@ -166,17 +148,13 @@ json-ld: mobile-app-development
 
   <div class="development__cards wrap mob_dev_services__engagement-models">
     <div class="wrapper dark-text-inversion">
-      <div class="header-3">
-        {{ site.data.ror_dev_services.engagement_models.title }}
-      </div>
-      <div class="header-2">
-        {{ site.data.ror_dev_services.engagement_models.subtitle }}
-      </div>
+      <h2 class="block-cera-title">{{ site.data.ror_dev_services.engagement_models.title }}</h2>
+      <p class="message inria-bold">{{ site.data.ror_dev_services.engagement_models.subtitle }}</p>
       <div class="cards-container">
         {% for item in site.data.ror_dev_services.engagement_models.all %}
           <div class="card">
-            <div class="card__title-2">{{ item.title }}</div>
-            <div class="card__description">{{ item.description }}</div>
+            <h3 class="card__title-2">{{ item.title }}</h3>
+            <p class="card__description">{{ item.description }}</p>
             <a href="{{ item.link }}" class="button" id="mob_app_{{ item.index }}" data-link="transition">
               {{ site.data.web_dev_services.button }}
             </a>
