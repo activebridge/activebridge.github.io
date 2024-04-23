@@ -41,45 +41,59 @@ $light-purple-shadow:  2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15
 $main-shadow:          0px 4px 20px 0px rgba($dark_black, .2), inset -2px -2px 12px 0px rgba($dark_black, .25);
 $violet-hover-shadow:  inset -1px 4px 13px -5px var(--white), inset -1px -5px 5px var(--amethyst-purple), 2px 1px 12px 0px $main-violet;
 $violet-active-shadow: inset 0px 0px 15px 1px rgba($main-violet, .3);
+$dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0px rgba($white, .25);
 
 :root {
-  --filter-invert: invert(0);
-  --white: #{$white};
-  --black: #{$dark_black};
-  --purple: #{$main-violet};
-  --rgba-white: #{$rgba-white};
-  --carousel-bg: #{$white};
-  --daisy-bill: #{#231F20};
-  --def-method: #{#212121};
-  --pree-line: #{#2D1A46};
-  --freestak: #{$dark_black};
-  --body-color: #{$black};
-  --amethyst-purple: #{$deep_amethyst};
-  --lilac-sea: #{$main-lilac};
-  --pie-purple: #{$pie-chart-border};
-  --transparent-btn: #{transparent};
+  --filter-invert:             invert(0);
+  --white:                     #{$white};
+  --black:                     #{$dark_black};
+  --purple:                    #{$main-violet};
+  --rgba-white:                #{$rgba-white};
+  --carousel-bg:               #{$white};
+  --daisy-bill:                #{#231F20};
+  --def-method:                #{#212121};
+  --pree-line:                 #{#2D1A46};
+  --freestak:                  #{$black};
+  --body-color:                #{$black};
+  --amethyst-purple:           #{$deep_amethyst};
+  --lilac-sea:                 #{$main-lilac};
+  --pie-purple:                #{$pie-chart-border};
+  --transparent-btn:           #{transparent};
+  --main-shadow:               #{$main-shadow};
+  --white-purple:              #{$white};
+  --white-black:               #{$white};
+  --transparent-gradient-dark: #{rgba($white, .5)};
+  --transparent-white-btn:     #{rgba($white, 0.85)};
+
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
 }
 
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --filter-invert: invert(1) hue-rotate(180deg);
-    --white: #{$dark_black};
-    --black: #{$white};
-    --purple: #{$dark-purple};
-    --rgba-white: #{$rgba-black};
-    --carousel-bg: #{$dark-purple};
-    --daisy-bill: #{$white};
-    --def-method: #{$white};
-    --pree-line: #{$white};
-    --freestak: #{$white};
-    --body-color: #{$white};
-    --amethyst-purple: #{#4c2b84};
-    --lilac-sea: #{$black_sea};
-    --pie-purple: #{#4c2b84};
-    --transparent-btn: #{rgba($dark-purple, .5)};
+    --filter-invert:             invert(1) hue-rotate(180deg);
+    --white:                     #{$dark_black};
+    --black:                     #{$white};
+    --purple:                    #{$dark-purple};
+    --rgba-white:                #{$rgba-black};
+    --carousel-bg:               #{$dark-purple};
+    --daisy-bill:                #{$white};
+    --def-method:                #{$white};
+    --pree-line:                 #{$white};
+    --freestak:                  #{$white};
+    --body-color:                #{$white};
+    --amethyst-purple:           #{#4c2b84};
+    --lilac-sea:                 #{$black_sea};
+    --pie-purple:                #{#4c2b84};
+    --transparent-btn:           #{rgba($dark-purple, .5)};
+    --main-shadow:               #{$dark-main-shadow};
+    --white-purple:              #{rgba($dark_black, .25)};
+    --white-black:               #{$black};
+    --transparent-gradient-dark: #{linear-gradient(to bottom, rgba($dark_black, .1), rgba($dark-purple, .7), rgba($dark-purple, .7))};
+    --transparent-white-btn:     #{rgba($dark_black, .6)};
+
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
+
   .dark-background-dark-content { background-color: $black_sea; }
   }
 }

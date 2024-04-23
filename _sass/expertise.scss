@@ -33,7 +33,7 @@
   padding: 6vh 6vw;
   border-radius: 20px;
   background: var(--white);
-  box-shadow: $main-shadow;
+  box-shadow: var(--main-shadow);
 
   .chart-bar {
     display: flex;

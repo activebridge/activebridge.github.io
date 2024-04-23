@@ -1,4 +1,6 @@
 .about {
+  &__vision { background-image: linear-gradient(to top, var(--carousel-bg), var(--white)); }
+
   &__crew {
     background: center/cover no-repeat url("/assets/images/about/crew.webp");
     background-color: $gray;
@@ -32,7 +34,10 @@
       box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px $black;
     }
 
-    &-button { background-color: $white !important; }
+    &-button { background-color: var(--white-purple) !important; }
+
+    .description.white-text,
+    .block-cera-title.white-text { color: $white !important; }
   }
 
   &__benefits {
@@ -45,7 +50,7 @@
       height: 60%;
       right: 0;
       top: 40%;
-      background-color: var(--rgba-white);
+      background: var(--transparent-gradient-dark);
       backdrop-filter: blur(1.5px);
     }
 
@@ -121,14 +126,18 @@
       position: relative;
       min-height: 100vh;
     }
-    &-text { line-height: 1.6; }
+    &-text {
+      line-height: 1.6;
+
+      .block-cera-title { color: var(--white-black); }
+    }
 
     &-button {
       position: absolute;
       bottom: 0;
       left: 50%;
       min-width: 500px;
-      background-color: rgba($white, .85) !important;
+      background-color: var(--transparent-white-btn) !important;
       transform: translate(-50%, -50%);
     }
   }
@@ -154,7 +163,7 @@
   &__item-image {
     align-items: center;
     background-color: var(--white);
-    border: 6px solid $pie-chart-border;
+    border: 6px solid var(--pie-purple);
     border-radius: 50%;
     display: flex;
     flex-shrink: 0;
@@ -205,7 +214,7 @@
 
     &__benefits {
       .overlay {
-        top: 53%;
+        top: 57%;
         height: 43%;
       }
 
