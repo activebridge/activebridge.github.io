@@ -106,7 +106,7 @@
     }
 
     &__cards {
-      background-image: linear-gradient(to top, $buzok, $white);
+      background-image: linear-gradient(to top, $buzok, var(--white));
 
       .header-2,
       .card__title-2 { font-size: 16px; }

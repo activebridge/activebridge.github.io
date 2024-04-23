@@ -74,7 +74,7 @@
 p { margin: 0; }
 
 body {
-  color: $black;
+  color: var(--body-color);
   font-family: 'Cera Regular', serif;
   -webkit-tap-highlight-color: transparent;
   background-color: var(--white);
@@ -97,12 +97,13 @@ ul, ol { margin-left: 0; }
   svg { width: 140vw; }
 }
 
-.white-text { color: $white !important; }
+.white-text { color: var(--white) !important; }
 
 // TODO: new block titles, changes to reduce the difference of styles, use clear class names
 .page-title {
   position: inherit;
   margin-bottom: 50px;
+  color: $black;
   font-size: 45px;
   z-index: 1;
   letter-spacing: 0.5em;
@@ -120,6 +121,7 @@ ul, ol { margin-left: 0; }
 }
 
 .block-inria-title {
+  color: $black;
   font-family: "Inria Bold", serif;
   font-size: 30px;
   font-weight: 700;
@@ -136,6 +138,7 @@ ul, ol { margin-left: 0; }
 }
 
 .message {
+  color: $black;
   font-size: 22px;
   line-height: 35px;
   margin-bottom: 40px;
@@ -223,6 +226,7 @@ ul, ol { margin-left: 0; }
 
 .description {
   text-align: center;
+  color: $black;
   font-size: 18px;
   line-height: 1.8em;
 
@@ -340,7 +344,7 @@ b { font-family: "Cera-Bold", serif; }
     &__navigation-links {
       position: sticky;
       box-sizing: border-box;
-      background: linear-gradient(#aa30be, #5723B5);
+      background: linear-gradient($main-violet, $purple-heart);
       top: 0;
       height: 100%;
       width: 70vw;
@@ -386,3 +390,11 @@ b { font-family: "Cera-Bold", serif; }
     line-height: 25px;
   }
 }
+
+.st2{ fill: var(--daisy-bill); }
+
+.dm { fill: var(--def-method); }
+
+.pl { fill: var(--pree-line); }
+
+.fr { fill: var(--freestak);  }

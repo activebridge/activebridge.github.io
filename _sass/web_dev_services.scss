@@ -79,7 +79,8 @@
   }
 
   &__technologies {
-    background: center/cover no-repeat url('/assets/images/expertise/technologies-bg.webp');
+    background-image: linear-gradient(135deg, $main-violet, rgba($moon_raker, .5), rgba($moon_raker, .5), $purple-heart);
+
 
     .button {
       margin-top: 8vh;
