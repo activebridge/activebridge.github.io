@@ -1,4 +1,5 @@
 .mb-0 { margin-bottom: 0 !important; }
+.mb-2 { margin-bottom: 20px; }
 .mb-4 { margin-bottom: 40px; }
 .mb-6 { margin-bottom: 60px; }
 .mt-1 { margin-top: 10px; }
@@ -10,6 +11,7 @@
 .inria-bold { font-family: "Inria Bold", serif; }
 .inria-regular { font-family: "Inria Regular", serif; }
 .blue { color: $sky-ua }
+.text-upcase { text-transform: uppercase; }
 
 @media (max-width: 767px) {
   .mb-4 { margin-bottom: 25px; }
