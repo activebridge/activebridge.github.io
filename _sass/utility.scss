@@ -5,6 +5,7 @@
 .mt-1 { margin-top: 10px; }
 .mt-2 { margin-top: 20px; }
 .vertical-p-8 { padding: 80px 0; }
+.pt-6 { padding-top: 60px; }
 
 .cera-regular { font-family: "Cera Regular", serif; }
 .cera-bold { font-family: "Cera-Bold", serif; }
@@ -16,4 +17,5 @@
 @media (max-width: 767px) {
   .mb-4 { margin-bottom: 25px; }
   .vertical-p-8 { padding: 60px 0; }
+  .pt-6 { padding-top: 40px; }
 }

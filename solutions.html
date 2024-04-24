@@ -12,13 +12,14 @@ redirect_from:
   - /portfolio
 ---
 
-<div class="solutions">
+<div class="solutions container">
   <section class="solutions__main">
     <div class="wrapper">
       <div style="view-transition-name: solutions;">
-        <h1 class="header-3">{{ site.data.solutions.title }}</h1>
-        <p class="header-2">{{ site.data.solutions.subtitle }}</p>
-        <div class="description">{{ site.data.solutions.description }}</div>
+        <p class="page-title">{{ site.data.solutions.page-title }}</p>
+        <h1 class="block-inria-title">{{ site.data.solutions.title }}</h1>
+        <p class="message inria-regular">{{ site.data.solutions.subtitle }}</p>
+        <p class="description mb-4">{{ site.data.solutions.description }}</p>
       </div>
       <div class="solutions__about-us about_us_info">
         <div class="about_us_info__items">
@@ -53,12 +54,12 @@ redirect_from:
   </section>
   <div class="solutions__text wrap">
     <div class="wrapper">
-      <div class="header-2 white-text">{{site.data.solutions.text}}</div>
+      <p class="message inria-bold mb-0 white-text">{{site.data.solutions.text}}</p>
     </div>
   </div>
-  <section class="solutions__industries container">
+  <section class="solutions__industries pt-6">
     <div class="wrapper">
-      <h3 class="header-3">{{site.data.solutions.industries.title}}</h3>
+      <h2 class="block-cera-title mb-0">{{site.data.solutions.industries.title}}</h2>
     </div>
     <div class="carousel-scroll" >
       <div class="carousel-scroll__scroller" data-scroll="scroller">
@@ -82,14 +83,14 @@ redirect_from:
     </div>
     <div class="solutions__circle-background">
       <div class="wrapper">
-        <h3 class="header-2">{{site.data.solutions.industries.subtitle_1}}</h3>
+        <p class="message inria-bold">{{site.data.solutions.industries.subtitle_1}}</p>
         <p class="description">{{site.data.solutions.industries.description}}</p>
       </div>
       {% include solutions_subpages_carousel.html %}
       <div class="wrapper ">
-        <p class="header-2 with-margin">{{site.data.solutions.industries.subtitle_2}}</p>
-        <h2 class="header-3">{{site.data.solutions.project_development.title}}</h2>
-        <p class="header-2">{{site.data.solutions.project_development.description}}</p>
+        <p class="message inria-bold">{{site.data.solutions.industries.subtitle_2}}</p>
+        <h2 class="block-cera-title">{{site.data.solutions.project_development.title}}</h2>
+        <p class="message inria-bold">{{site.data.solutions.project_development.description}}</p>
       </div>
     </div>
     <div class="solutions__project-development">
@@ -103,8 +104,8 @@ redirect_from:
             <img src="/assets/images/solutions/{{item.image}}.webp" alt="Approach">
           </div>
           <div class="timeline-item__content">
-            <div class="timeline-item__content-title inria">{{ item.title}}</div>
-            <div class="timeline-item__content-description">{{ item.description}}</div>
+            <h3 class="timeline-item__content-title inria">{{ item.title}}</h3>
+            <p class="timeline-item__content-description">{{ item.description}}</p>
           </div>
           <div class="timeline__processes">
             {% for process in item.processes%}
@@ -120,8 +121,8 @@ redirect_from:
     </div>
     <div class="solutions__staff-augmentation">
       <div class="wrapper">
-        <h3 class="header-3">{{ site.data.solutions.staff_augmentation.title }}</h3>
-        <p class="header-2">{{ site.data.solutions.staff_augmentation.description }}</p>
+        <h2 class="block-cera-title">{{ site.data.solutions.staff_augmentation.title }}</h2>
+        <p class="message inria-bold">{{ site.data.solutions.staff_augmentation.description }}</p>
       </div>
       <div class="wrapper timeline animated-cards" data-animation="snake">
         <svg class="desktop-svg" viewBox="0 0 889 1299" fill="none" preserveAspectRatio="none">
@@ -151,8 +152,8 @@ redirect_from:
     </div>
     <div class="solutions__build-test-product wrap">
       <div class="wrapper">
-        <h3 class="header-3 white-text">{{ site.data.solutions.build-test-product.title }}</h3>
-        <p class="header-2 white-text">{{ site.data.solutions.build-test-product.description }}</p>
+        <h2 class="block-cera-title white-text">{{ site.data.solutions.build-test-product.title }}</h2>
+        <p class="message inria-regular white-text">{{ site.data.solutions.build-test-product.description }}</p>
       </div>
       <div class="carousel-scroll" >
         <div class="carousel-scroll__scroller" data-scroll="scroller">
