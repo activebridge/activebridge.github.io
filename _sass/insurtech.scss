@@ -1,16 +1,7 @@
 .insurtech {
-  .header-3.small-text {
-    font-weight: 900;
-    letter-spacing: normal;
-    margin: 8vh 0;
-  }
-
   &__main {
     background-image: linear-gradient(to right top, $palianytsia, #EFF1F5, #EFF1F5, $palianytsia);
     padding: 117px 0 104px 0;
-
-    .description.with-margin  { margin-bottom: 8vh; }
-
     .list-with-images__item-icon img { box-shadow: none; }
   }
 
@@ -18,10 +9,6 @@
     background-image: linear-gradient(-45deg, rgba($buzok, .5), #EFF1F5, #EFF1F5);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
     padding: 90px 0 83px 0;
-
-    .description { margin-top: 5vh; }
-    .list-with-images__item-text .description { margin-top: 1vh; }
-    .header-3.small-text { margin: 58px 0 48px 0; }
 
     .personal-info {
       &__list {
@@ -65,11 +52,6 @@
     padding: 100px 0 106px 0;
     position: relative;
 
-    .header-3.small-text {
-      font-weight: 400;
-      margin: 0 0 6vh 0;
-    }
-
     .list-with-images.horizontal .list-with-images__item {
       max-width: 23%;
       margin-right: 7px;
@@ -87,10 +69,8 @@
       font-weight: 400;
       &:hover { color: $main-violet !important; }
     }
-
     .list-with-images__item-icon img { box-shadow: none; }
   }
-
   .solutions_cases__idea { background-image: linear-gradient(to left, $main-violet, $buzok); }
 }
 
@@ -105,39 +85,18 @@
 
 @media screen and (max-width: 767px) {
   .insurtech {
-    .header-3.small-text { margin: 5vh 0; }
-
-    .list-with-images .list-with-images__item .header-2 { margin-top: 1.5vh; }
-
     &__main {
       background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5);
       padding: 79px 0 73px 0;
     }
-
-    &__design_and_development {
-      padding: 50px 0 27px 0;
-
-      .header-2 { margin-top: 0; }
-
-      .header-3.small-text { margin: 30px 0 11px 0; }
-    }
-
-    .solutions_cases__case_study {
-      padding: 60px 0 63px 0;
-
-      .header-2.with-margin { margin: 20px 0 0 0; }
-    }
+    &__design_and_development { padding: 50px 0 27px 0; }
+    .solutions_cases__case_study { padding: 60px 0 63px 0; }
 
     &__features {
       padding: 52px 0 51px 0;
-
-      .header-3.small-text { margin-top: 0; }
-
       .list-with-images.horizontal .list-with-images__item { max-width: 100%; }
     }
-
     &__full_circle { padding: 45px 0 60px 0;}
-
     .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
     .personal-info { &__info-line { font-size: 12px; } }
   }

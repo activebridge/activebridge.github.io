@@ -1,8 +1,10 @@
+page-title: InsurTech Solutions
 title:  Insurance application development solutions
-description:  The InsurTech products sector revolutionizes how customers manage their insurance, offering holistic and user-friendly
-              solutions like never before.<br><br>At Active Bridge, our dedicated developers craft secure and reliable InsurTech
-              solutions, prioritizing the highest level of data integrity. We empower companies to automate manual operations and
-              claims verification, minimize human errors, and enhance customer experiences through our expertise in remote technology.
+sub-title: The InsurTech products sector revolutionizes how customers manage their insurance, offering holistic and user-friendly
+           solutions like never before.
+description: At Active Bridge, our dedicated developers craft secure and reliable InsurTech
+             solutions, prioritizing the highest level of data integrity. We empower companies to automate manual operations and
+             claims verification, minimize human errors, and enhance customer experiences through our expertise in remote technology.
 solutions:
   - icon: solution_1
     title: Insurance industry expertise
@@ -75,7 +77,7 @@ case_study:
 features:
   title: Features
   all:
-    - title: Billing workflow automation
+    - title: Features were implemented
       description: DaisyBill workers’ comp technology provides a workflow solution that makes it easy for an employer’s
                     team to systematically manage bill submission and payer responses.
       icon: feature_1
