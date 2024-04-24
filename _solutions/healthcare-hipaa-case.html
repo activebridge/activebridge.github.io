@@ -10,14 +10,15 @@ description: We create effective healthcare applications in compliance with HIPA
 json-ld: healthcare-hipaa-case
 ---
 
-<section class="container healthcare_hipaa development solutions_cases">
+<section class="container healthcare_hipaa solutions_cases">
   <div class="healthcare_hipaa__main">
     <div class="wrapper">
-      <h1 class="header-3">{{ site.data.healthcare_hipaa.title }}</h1>
-      <p class="description with-margin text-center">{{ site.data.healthcare_hipaa.description_1 }}</p>
-      <h2 class="header-2">{{ site.data.healthcare_hipaa.subtitle_1 }}</h2>
-      <p class="description with-margin text-center ">{{ site.data.healthcare_hipaa.description_2 }}</p>
-      <p class="header-3 small-text">{{ site.data.healthcare_hipaa.subtitle_2 }}</p>
+      <p class="page-title">{{ site.data.healthcare_hipaa.page-title }}</p>
+      <h1 class="block-inria-title">{{ site.data.healthcare_hipaa.title }}</h1>
+      <p class="description mb-4">{{ site.data.healthcare_hipaa.description_1 }}</p>
+      <h2 class="message inria-bold">{{ site.data.healthcare_hipaa.subtitle_1 }}</h2>
+      <p class="description mb-4">{{ site.data.healthcare_hipaa.description_2 }}</p>
+      <p class="message cera-bold text-upcase">{{ site.data.healthcare_hipaa.subtitle_2 }}</p>
       <div class="list-with-images">
         {% for item in site.data.healthcare_hipaa.help %}
           <div class="list-with-images__item">
@@ -25,8 +26,8 @@ json-ld: healthcare-hipaa-case
               <img src= "/assets/images/hipaa/{{ item.icon }}.webp" alt="circle">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2">{{ item.title }}</p>
-              <p class="description">{{ item.description }}</p>
+              <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
+              <p class="description text-justify">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -35,10 +36,10 @@ json-ld: healthcare-hipaa-case
   </div>
   <div class="solutions_cases__case_study healthcare_hipaa__case_study">
     <div class="wrapper">
-      <h2 class="header-3">{{ site.data.healthcare_hipaa.case_study.title }}</h2>
-      <p class="header-2">{{ site.data.healthcare_hipaa.case_study.subtitle }}</p>
+      <h2 class="block-cera-title">{{ site.data.healthcare_hipaa.case_study.title }}</h2>
+      <p class="message inria-bold mb-0">{{ site.data.healthcare_hipaa.case_study.subtitle }}</p>
       <div class="solutions_cases__case_study_top">
-        <ul class="solutions_cases__case_study_list">
+        <ul class="solutions_cases__case_study_list mb-4">
           {% for element in site.data.healthcare_hipaa.case_study.top_info %}
             <li class="solutions_cases__case_study_list_item">{{ element.item }}</li>
           {% endfor %}
@@ -51,8 +52,8 @@ json-ld: healthcare-hipaa-case
         <ul class="solutions_cases__case_study_bottom_list">
           {% for element in site.data.healthcare_hipaa.case_study.bottom_info %}
             <li>
-              <p class="header-2 with-margin">{{ element.title }}</p>
-              <p class="description">{{ element.description }}</p>
+              <p class="message inria-bold mb-0">{{ element.title }}</p>
+              <p class="description text-justify mt-2 mb-4">{{ element.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -61,7 +62,7 @@ json-ld: healthcare-hipaa-case
   </div>
   <div class="healthcare_hipaa__solutions">
     <div class="wrapper">
-      <h2 class="header-3 with-margin white-text">{{ site.data.healthcare_hipaa.solutions.title }}</h2>
+      <h2 class="block-cera-title white-text">{{ site.data.healthcare_hipaa.solutions.title }}</h2>
       <div class="list-with-images">
         {% for element in site.data.healthcare_hipaa.solutions.all %}
           <div class="list-with-images__item">
@@ -69,8 +70,8 @@ json-ld: healthcare-hipaa-case
               <img src="/assets/images/hipaa/{{ element.icon }}.webp" alt="">
             </div>
             <div class="list-with-images__item-text">
-              <h3 class="header-2 white-text without-margin">{{ element.title }}</h3>
-              <p class="description white-text without-margin">{{ element.description }}</p>
+              <h3 class="message inria-bold white-text mb-0 mt-1">{{ element.title }}</h3>
+              <p class="description white-text text-justify">{{ element.description }}</p>
               <ul class="list-with-images__item_elements">
                 {% for item in element.elements %}
                   <li class="list-with-images__item_element">{{ item.item }}</li>
