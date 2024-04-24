@@ -1,11 +1,4 @@
 .solutions {
-  .header-2 {
-    line-height: 1.5;
-    max-width: 100%;
-  }
-
-  .header-3 { margin: 6vh 0; }
-
   &__text {
     background: $main-gradient;
     padding: 10vh 18vw;
@@ -13,13 +6,10 @@
 
   &__main {
     background: linear-gradient(0deg, $white 50%, $azovstal 100%);
-    padding: 7vh;
-
-    .header-2 { max-width: 75%; }
-
-    .description { margin: 6vh 0; }
+    padding: 7vh 0;
 
     .about_us_info {
+
       &__item {
         color: $purple-heart;
 
@@ -55,20 +45,16 @@
     max-width: 1100px;
     padding: 40px 0 0 0;
 
-    .header-2.with-margin { margin: 50px 0 100px; }
-
     .animate-visibility {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
     }
   }
-
   .timeline { margin-top: 5vh; }
 
   .timeline-item {
     &:nth-child(even) .timeline__processes { padding-left: 7vh; }
-
     &:nth-child(odd) .timeline__processes { padding-right: 7vh; }
   }
 
@@ -132,37 +118,13 @@
     }
   }
 
-  &__industries {
-    .header-3 {
-      margin-bottom: 6vh;
-      margin-top: 0;
-    }
-
-    .purple-text { color: $purple-heart; }
-
-    .header-2 {
-      margin: 5vh 0;
-
-      &:last-child {
-        margin-bottom: 3vh;
-        margin-top: 6vh;
-      }
-    }
-  }
-
-  &__project-development {
-    .header-3 { margin: 0 0 6vh; }
-  }
-
   &__staff-augmentation {
     padding-bottom: 7vh;
 
     .timeline__processes {
       &-item {
         color: $main-violet;
-
         &::before { background-color: $main-violet; }
-
         &::after { border-color: $main-violet; }
       }
     }
@@ -184,42 +146,23 @@
 
   &__services {
     background: $main-gradient;
-    .header-3 { margin: 2vh 0 0; }
-
-    .header-2 {
-      color: rgba($white, .7);
-      font-family: 'Cera Regular', serif;
-      font-size: 1.3em;
-      font-weight: 100;
-      letter-spacing: 0.4em;
-      text-transform: uppercase;
-    }
 
     .button {
       width: 45%;
       margin-top: 0;
     }
   }
-
-  &__build-test-product {
-    background: $main-gradient;
-    .header-3 { letter-spacing: 0.2em; }
-  }
+  &__build-test-product { background: $main-gradient; }
 }
 
 @media (max-width: 930px) {
   .solutions {
     &__main {
-      padding: 55px 0 40px 0;
-
-      .about-us {
-        flex-direction: column;
-        align-items: center;
-
-        &__info-wrapper { margin-bottom: 30px; }
+      .about_us_info{
+        &__items { display: block; }
+        &__container { justify-content: center; }
       }
     }
-
     &__awards { width: 100%;}
   }
 }
@@ -233,39 +176,10 @@
 
     .timeline-item {
       padding-bottom: 20px;
-
       &:nth-child(even) .timeline__processes { padding-left: 0; }
-
       &:nth-child(odd) .timeline__processes { padding-right: 0; }
     }
-
-    .header-2 { font-size: .9em; }
-
-    .description {
-      font-size: .8em;
-      line-height: 1.6;
-      text-align: justify;
-    }
-
-    &__main {
-      .header-2 {
-        max-width: 100%;
-        text-align: justify;
-      }
-
-      .about-us {
-        &__info {
-          align-items: center;
-          color: $purple-heart;
-          display: flex;
-
-          img {
-            margin-right: 17px;
-            width: 60px;
-          }
-        }
-      }
-    }
+    .description { text-align: justify; }
 
     &__awards {
       img {
@@ -273,8 +187,6 @@
         max-width: 130px;
       }
     }
-
-    &__text .header-2 { text-align: justify; }
 
     .timeline-item {
       .timeline__processes {
@@ -296,9 +208,7 @@
             top: 5px;
             width: 1px;
           }
-
           &:first-child::before { width: 1px; }
-
           &:last-child::before { height: 0; }
 
           &::after {
@@ -306,16 +216,12 @@
             top: 3px;
             left: 0;
           }
-
           &:first-child { margin-top: 0; }
-
           &:last-child { margin-bottom: 0; }
-
           .arrow { display: none; }
         }
       }
     }
-
     &__staff-augmentation .timeline-item__icon::before { background-color: $kviten; }
   }
 }
