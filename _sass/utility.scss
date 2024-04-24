@@ -13,6 +13,7 @@
 .inria-regular { font-family: "Inria Regular", serif; }
 .blue { color: $sky-ua }
 .text-upcase { text-transform: uppercase; }
+.text-left { text-align: left !important; }
 
 @media (max-width: 767px) {
   .mb-4 { margin-bottom: 25px; }
