@@ -8,11 +8,13 @@ description: Active Bridge team has 10 years of expertise in health insurance pr
 json-ld: insurtech-case
 ---
 
-<section class="container insurtech development solutions_cases">
+<section class="container insurtech solutions_cases">
   <div class="insurtech__main">
     <div class="wrapper">
-      <h1 class="header-3">{{ site.data.insurtech.title }}</h1>
-      <p class="description with-margin">{{ site.data.insurtech.description }}</p>
+      <p class="page-title">{{ site.data.insurtech.page-title }}</p>
+      <h1 class="block-inria-title">{{ site.data.insurtech.title }}</h1>
+      <p class="message inria-regular">{{ site.data.insurtech.sub-title }}</p>
+      <p class="description text-justify mb-6">{{ site.data.insurtech.description }}</p>
       <div class="list-with-images horizontal">
         {% for item in site.data.insurtech.solutions %}
           <div class="list-with-images__item">
@@ -20,8 +22,8 @@ json-ld: insurtech-case
               <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2">{{ item.title }}</p>
-              <p class="description">{{ item.description }}</p>
+              <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
+              <p class="description text-left">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -30,14 +32,14 @@ json-ld: insurtech-case
   </div>
   <div class="insurtech__design_and_development">
     <div class="wrapper">
-      <h2 class="header-2">{{ site.data.insurtech.design_and_development.title }}</h2>
-      <p class="description">{{ site.data.insurtech.design_and_development.description }}</p>
+      <h2 class="block-cera-title">{{ site.data.insurtech.design_and_development.title }}</h2>
+      <p class="description text-justify">{{ site.data.insurtech.design_and_development.description }}</p>
       <ul class="personal-info__list">
         {% for element in site.data.insurtech.design_and_development.all %}
           <li class="personal-info__info-line">{{ element.item }}</li>
         {% endfor %}
       </ul>
-      <p class="header-3 small-text">{{ site.data.insurtech.design_and_development.help_title }}</p>
+      <p class="message cera-bold text-upcase">{{ site.data.insurtech.design_and_development.help_title }}</p>
       <div class="list-with-images">
         {% for item in site.data.insurtech.design_and_development.help %}
           <div class="list-with-images__item">
@@ -45,8 +47,8 @@ json-ld: insurtech-case
               <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2">{{ item.title }}</p>
-              <p class="description">{{ item.description }}</p>
+              <p class="message inria-bold mb-0 mt-1">{{ item.title }}</p>
+              <p class="description text-justify">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -55,8 +57,8 @@ json-ld: insurtech-case
   </div>
   <div class="solutions_cases__case_study">
     <div class="wrapper">
-      <p class="header-3">{{ site.data.insurtech.case_study.title }}</p>
-      <h2 class="header-2">{{ site.data.insurtech.case_study.subtitle }}</h2>
+      <p class="block-cera-title">{{ site.data.insurtech.case_study.title }}</p>
+      <h2 class="message inria-bold mb-0">{{ site.data.insurtech.case_study.subtitle }}</h2>
       <div class="solutions_cases__case_study_top">
         <ul class="solutions_cases__case_study_list">
           {% for element in site.data.insurtech.case_study.top_info %}
@@ -71,8 +73,8 @@ json-ld: insurtech-case
         <ul class="solutions_cases__case_study_bottom_list">
           {% for element in site.data.insurtech.case_study.bottom_info %}
             <li>
-              <p class="header-2 with-margin">{{ element.title }}</p>
-              <p class="description">{{ element.description }}</p>
+              <p class="message inria-bold mb-0 mt-1">{{ element.title }}</p>
+              <p class="description text-justify mt-2 mb-4">{{ element.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -81,7 +83,7 @@ json-ld: insurtech-case
   </div>
   <div class="insurtech__features">
     <div class="wrapper">
-      <p class="header-3 small-text">{{ site.data.insurtech.features.title }}</p>
+      <h2 class="block-cera-title">{{ site.data.insurtech.features.title }}</h2>
       <div class="list-with-images horizontal">
         {% for item in site.data.insurtech.features.all %}
           <div class="list-with-images__item">
@@ -89,7 +91,7 @@ json-ld: insurtech-case
               <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2">{{ item.title }}</p>
+              <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
               <p class="description">{{ item.description }}</p>
             </div>
           </div>
@@ -99,7 +101,7 @@ json-ld: insurtech-case
   </div>
   <div class="insurtech__full_circle">
     <div class="wrapper">
-      <p class="header-2 with-margin white-text">{{ site.data.insurtech.full_circle.title }}</p>
+      <h2 class="block-inria-title white-text">{{ site.data.insurtech.full_circle.title }}</h2>
       <div class="list-with-images">
         {% for item in site.data.insurtech.full_circle.all %}
           <div class="list-with-images__item">
@@ -107,8 +109,8 @@ json-ld: insurtech-case
               <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2 without-margin white-text">{{ item.title }}</p>
-              <p class="description without-margin white-text">{{ item.description }}</p>
+              <h3 class="message inria-bold white-text mb-0 mt-1">{{ item.title }}</h3>
+              <p class="description text-justify white-text">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
