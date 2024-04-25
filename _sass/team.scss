@@ -1,4 +1,7 @@
 .team {
+  .message,
+  .description { color: var(--body-color); }
+
   &__main {
     background: center/cover no-repeat url('/assets/images/team/team-bg.webp');
     background-color: $dusty-silver;
@@ -7,12 +10,12 @@
 
   &__help {
     padding: 3vh 18vw;
-    background-color: $sky-ua;
+    background-color: var(--sky-post);
     box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
   }
 
   &__people {
-    background-image: linear-gradient(to right, $sky-ua, $white);
+    background-image: linear-gradient(to right, $sky-ua, var(--white));
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
     *::before,
@@ -79,6 +82,7 @@
   &__crew {
     background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     box-shadow: 0px 0px 20px 0px rgba($dark_black, .25);
+    color: $black;
   }
 
   &__important_things {
@@ -122,7 +126,7 @@
     .button { margin-top: 3.5em; }
 
     &.development__cards {
-      background-image: linear-gradient(to bottom, $kviten, $white);
+      background-image: linear-gradient(to bottom, $kviten, var(--white));
     }
   }
 }
