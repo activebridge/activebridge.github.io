@@ -8,23 +8,24 @@ description: We help you to reach your customers on the go with a cross-platform
 json-ld: ecommerce-case
 ---
 
-<section class="container ecommerce development solutions_cases">
+<section class="container ecommerce solutions_cases">
   <div class="ecommerce__main wrap development__cards">
     <div class="wrapper">
-      <h1 class="header-3 white-text">{{ site.data.e_commerce.title}}</h1>
-      <p class="description with-margin white-text">{{ site.data.e_commerce.description }}</p>
+      <p class="page-title white-text">{{ site.data.e_commerce.page-title}}</p>
+      <h1 class="block-inria-title white-text">{{ site.data.e_commerce.title }}</h1>
+      <p class="description white-text text-justify">{{ site.data.e_commerce.description }}</p>
       <div class="cards-container">
         {% for item in site.data.e_commerce.cards%}
           <div class="card">
-            <h2 class="card__title-2 white-text">{{ item.title }}</h2>
+            <h3 class="card__title-2 white-text mb-2">{{ item.title }}</h3>
             <div class="card__icon">
               <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
             </div>
-            <div class="card__description white-text">{{ item.description }}</div>
+            <p class="card__description white-text">{{ item.description }}</p>
           </div>
         {% endfor %}
       </div>
-      <p class="header-3 small-text white-text">{{ site.data.e_commerce.expertise_title }}</p>
+      <h2 class="block-sub-title white-text">{{ site.data.e_commerce.expertise_title }}</h2>
       <div class="list-with-images horizontal">
         {% for item in site.data.e_commerce.expertise %}
           <div class="list-with-images__item">
@@ -32,7 +33,7 @@ json-ld: ecommerce-case
               <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2 white-text">{{ item.title }}</p>
+              <p class="message inria-bold white-text mb-0 mt-1">{{ item.title }}</p>
             </div>
           </div>
         {% endfor %}
@@ -41,7 +42,7 @@ json-ld: ecommerce-case
   </div>
   <div class="ecommerce__help">
     <div class="wrapper">
-      <p class="header-3 small-text">{{ site.data.e_commerce.help_title }}</p>
+      <h2 class="message cera-bold text-upcase">{{ site.data.e_commerce.help_title }}</h2>
       <div class="list-with-images">
         {% for item in site.data.e_commerce.help%}
         <div class="list-with-images__item">
@@ -49,8 +50,8 @@ json-ld: ecommerce-case
             <img src= "/assets/images/insurtech/{{ item.icon }}.webp" alt="icon">
           </div>
           <div class="list-with-images__item-text">
-            <p class="header-2">{{ item.title }}</p>
-            <p class="description">{{ item.description }}</p>
+            <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
+            <p class="description text-justify">{{ item.description }}</p>
           </div>
         </div>
         {% endfor %}
@@ -59,8 +60,8 @@ json-ld: ecommerce-case
   </div>
   <div class="solutions_cases__case_study">
     <div class="wrapper">
-      <p class="header-3">{{ site.data.e_commerce.case_study.title }}</p>
-      <h2 class="header-2 mobile-margin">{{ site.data.e_commerce.case_study.subtitle }}</h2>
+      <h2 class="block-cera-title">{{ site.data.e_commerce.case_study.title }}</h2>
+      <p class="message inria-bold mb-0">{{ site.data.e_commerce.case_study.subtitle }}</p>
       <div class="solutions_cases__case_study_top">
         <ul class="solutions_cases__case_study_list">
           {% for element in site.data.e_commerce.case_study.top_info %}
@@ -75,8 +76,8 @@ json-ld: ecommerce-case
         <ul class="solutions_cases__case_study_bottom_list">
           {% for element in site.data.e_commerce.case_study.bottom_info %}
             <li>
-              <p class="header-2 with-margin">{{ element.title }}</p>
-              <div class="description">{{ element.description }}</div>
+              <h3 class="message inria-bold mb-0 mt-1">{{ element.title }}</h3>
+              <div class="description text-justify mt-2 mb-4">{{ element.description }}</div>
             </li>
           {% endfor %}
         </ul>
@@ -85,7 +86,7 @@ json-ld: ecommerce-case
   </div>
   <div class="ecommerce__project">
     <div class="wrapper">
-      <p class="header-3 small-text white-text">{{ site.data.e_commerce.project.title }}</p>
+      <h2 class="message cera-bold text-upcase white-text">{{ site.data.e_commerce.project.title }}</h2>
       <div class="list-with-images">
         {% for item in site.data.e_commerce.project.info%}
           <div class="list-with-images__item">
@@ -93,10 +94,10 @@ json-ld: ecommerce-case
               <img src= "/assets/images/ecommerce/{{ item.icon }}.webp" alt="icon">
             </div>
             <div class="list-with-images__item-text">
-              <p class="header-2 white-text">{{ item.title }}</p>
-              <p class="description white-text">{{ item.description }}</p>
-              <p class="header-2 purple-text">{{ site.data.e_commerce.project.features }}</p>
-              <ul class="list-with-images__item_elements">
+              <h3 class="message inria-bold mb-0 mt-1 white-text">{{ item.title }}</h3>
+              <p class="description white-text text-justify">{{ item.description }}</p>
+              <p class="message inria-bold mb-0 mt-1 purple-text">{{ site.data.e_commerce.project.features }}</p>
+              <ul class="list-with-images__item_elements mt-1">
                 {% for element in item.elements %}
                   <li class="list-with-images__item_element purple-text">{{ element.item }}</li>
                 {% endfor %}
