@@ -5,7 +5,7 @@ layout: default
 <section class="post-navigation" style="view-transition-name: post-navigation-block">
   <div class="wrapper">
     <div class="blog-main__navigation">
-      <p class="header-3">Categories:</p>
+      <p class="block-sub-title cera-medium mb-0">Categories:</p>
 
       {% assign all_categories = site.posts | map: 'categories' | join: ',' | split: ',' | uniq %}
       {% for category in all_categories %}
@@ -35,7 +35,7 @@ layout: default
   <div class="post-content__left-block"></div>
 
   <section class="post-content__main wrapper">
-    <h1 class="header-3">{{ page.post-title }}</h1>
+    <h1 class="block-cera-title">{{ page.post-title }}</h1>
     <div class="post-content__mobile">{% include post_info.html %}</div>
 
     {{ content }}
