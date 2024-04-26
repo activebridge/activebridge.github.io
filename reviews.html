@@ -14,8 +14,8 @@ json-ld: reviews
   <div class="reviews__main-container" >
     <div class="wrapper">
       <div style="view-transition-name: reviews;">
-        <h1 class="header-3 white-text">{{ site.data.testimonials.title }}</h1>
-        <h2 class="header-2 white-text">{{ site.data.testimonials.subtitle }}</h2>
+        <h1 class="page-title white-text">{{ site.data.testimonials.title }}</h1>
+        <p class="message inria-regular white-text">{{ site.data.testimonials.subtitle }}</p>
       </div>
       <div class="reviews__awards">
         {% for award in site.data.reviews.awards%}
@@ -54,7 +54,7 @@ json-ld: reviews
   </div>
   <div class="reviews__solutions wrap">
     <div class="wrapper">
-      <h2 class="header-5 white-text">{{ site.data.testimonials.solutions.description }}</h2>
+      <h2 class="message inria-bold white-text">{{ site.data.testimonials.solutions.description }}</h2>
     </div>
     <div class="carousel-scroll" >
       <div class="carousel-scroll__scroller" data-scroll="scroller">
@@ -82,15 +82,15 @@ json-ld: reviews
   </div>
   <div class="reviews__expertise wrap development__cards">
     <div class="wrapper">
-      <div class="header-3">{{ site.data.team.expertise.title }}</div>
-      <div class="header-2">{{ site.data.team.expertise.description }}</div>
+      <h2 class="block-cera-title">{{ site.data.team.expertise.title }}</h2>
+      <p class="message inria-regular">{{ site.data.team.expertise.description }}</p>
       {% include dev_expertise_cards.html %}
     </div>
   </div>
   <div class="reviews__tell-us">
     <div class="wrapper">
-      <p class="header-5">{{ site.data.testimonials.tell-us.title }}</p>
-      <p class="description">{{ site.data.testimonials.tell-us.description }}</p>
+      <h2 class="message inria-bold">{{ site.data.testimonials.tell-us.title }}</h2>
+      <p class="description text-justify">{{ site.data.testimonials.tell-us.description }}</p>
       <a href="/contacts" class="button white-text violet-button" data-link="transition">{{ site.data.testimonials.tell-us.button }}</a>
     </div>
   </div>
