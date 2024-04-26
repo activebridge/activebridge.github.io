@@ -42,8 +42,6 @@
   &:hover::after { opacity: 1; }
   &:visited { color: var(--black); }
   &:active { box-shadow: $active-shadow; }
-
-  &.white-text { color: $white !important; }
 }
 
 .violet-button { box-shadow: $violet-shadow;}
