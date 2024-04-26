@@ -5,14 +5,10 @@
     .list-with-images__item { align-items: center; }
   }
 
-  .header-3 { margin-bottom: 50px; }
-
   .list-with-images {
     margin: 5vh 0 0;
 
     &__item {
-      .header-2.without-margin { margin: 0 0 1vh; }
-
       .description.without-margin { margin-top: 0; }
 
       &-icon img { border-radius: 30px; }
@@ -34,21 +30,10 @@
       }
     }
   }
-
-  .header-3.small-text {
-    font-size: 22px;
-    letter-spacing: .1em;
-    margin: 3vh 0 5vh;
-
-    &.with-margin { margin-top: 5vh; }
-  }
-
   .description.text-center { margin-top: 5vh; }
 
   &__case_study {
     background-image: linear-gradient($palianytsia, transparent);
-
-    .header-2.with-margin { margin: 5vh 0; }
 
     ul {
       list-style: none;
@@ -73,10 +58,6 @@
       max-width: 200px;
       width: 100%;
       mix-blend-mode: luminosity;
-    }
-
-    &_bottom_list {
-      .header-2.with-margin { margin-bottom: 2vh; }
     }
   }
 
@@ -128,18 +109,6 @@
   .solutions_cases {
     .button { width: 90%;}
 
-    .header-2 {
-      font-size: .85em;
-
-      &.mobile-margin { margin: 3vh 0 0; }
-    }
-
-    .header-3.small-text {
-      font-size: .85em;
-      letter-spacing: .1em;
-      margin: 2vh 0;
-    }
-
     &__case_study {
       background-image: linear-gradient(transparent, $palianytsia);
 
@@ -189,10 +158,7 @@
       margin: 0;
 
       &__item{
-        .header-2.without-margin { margin: 2vh 0; }
-
         &-icon.big-img img { max-width: 120px; }
-
         &_elements { padding-left: 2vw; }
 
         &_element {

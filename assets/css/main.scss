@@ -100,7 +100,6 @@ ul, ol { margin-left: 0; }
 // .white-text { color: var(--white) !important; }
 .white-text { color: $white !important; }
 
-// TODO: new block titles, changes to reduce the difference of styles, use clear class names
 .page-title {
   position: inherit;
   margin-bottom: 50px;
@@ -143,29 +142,6 @@ ul, ol { margin-left: 0; }
   font-size: 22px;
   line-height: 35px;
   margin-bottom: 40px;
-}
-
-// TODO: will remove the old ones after adding new ones everywhere
-.header-2 {
-  margin: 0 auto;
-  font-family: 'Inria Bold', serif;
-  font-size: 22px;
-}
-
-.header-3 {
-  font-size: 1.9em;
-  text-transform: uppercase;
-  font-weight: 100;
-  letter-spacing: 0.4em;
-  line-height: 1.6;
-}
-
-.header-4 { font-size: 1.2em; }
-
-.header-5 {
-  font-size: 1.4em;
-  font-family: 'Inria Bold', serif;
-  line-height: 1.8em;
 }
 
 .inria { font-family: 'Inria Bold', serif; }
@@ -235,9 +211,6 @@ ul, ol { margin-left: 0; }
     text-align: justify;
     text-align-last: center;
   }
-
-  &.with-padding { padding: 0 25%; }
-  &.with-margin { margin: 2.5em auto; }
 }
 
 .text-justify { text-align: justify; }
@@ -356,24 +329,10 @@ b { font-family: "Cera-Bold", serif; }
     }
   }
 
-  .header-5 { font-size: 1em; }
-
-  .header-3 { font-size: 1.2em; }
-
-  .header-2 {
-    max-width: 90%;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: 1.25em;
-    line-height: 1.8;
-  }
-
   .description {
     font-size: 14px;
     color: $black;
   }
-
-  .description.with-padding { padding: 0 8%; }
 
   .page-title {
     font-size: 25px;

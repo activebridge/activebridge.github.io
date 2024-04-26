@@ -11,12 +11,6 @@
       margin-right: 4vh;
     }
 
-    .header-2 {
-      font-size: 22px;
-      margin: 1.5vh 0 1vh;
-      text-align: left;
-    }
-
     .description { margin: 1vh 0; }
     .message { text-align: left; }
 
@@ -54,7 +48,6 @@
     flex-direction: column;
     max-width: 28%;
 
-    .header-2,
     .description,
     .message {
       text-align: center;
@@ -83,12 +76,6 @@
         margin-right: 0;
       }
     }
-
-    .header-2  {
-      text-align: center;
-      font-size: 14px;
-    }
-
     .description { font-size: .8em; }
     .message { text-align: center; }
   }
