@@ -11,7 +11,7 @@
   .absolute-icon {
     position: absolute;
     max-width: 200px;
-    width: 22vw;
+    width: 10vw;
     mix-blend-mode: luminosity;
 
     &:first-child {
@@ -70,8 +70,6 @@
     .web_dev_services__full_stack-list-item::after {
       background: center/cover no-repeat url('/assets/images/privacy_policy/sun.webp');
     }
-
-    .description { margin: 50px 0 }
   }
 
   &__security {
@@ -79,19 +77,8 @@
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .5);
     padding: 55px 0 84px 0;
   }
-
-  &__description { margin: 50px 0; }
 }
-
 .info-about-you .white-text { margin-bottom: 28px; }
-
-.vendor-info {
-  .header-2:not(:first-child) {
-    font-family: 'Cera-Bold', serif;
-    margin-top: 31px;
-    font-size: 20px;
-  }
-}
 
 .security {
   &__top-block {
@@ -116,17 +103,12 @@
       width: 300px;
       z-index: 2;
     }
-
     &::before { left: 5%; }
-
     &::after { right: 5%; }
   }
 
-  .header-2 { margin: 50px 0 30px 0; }
-
   &__description {
     text-align: justify;
-
     &:last-child { margin-top: 30px; }
   }
 }
@@ -145,6 +127,7 @@
     .absolute-icon {
       position: static;
       max-width: 120px;
+      width: 120px;
     }
 
     .web_dev_services__full_stack-list-item {
@@ -153,17 +136,13 @@
     }
 
     &__top-container { padding: 100px 20px; }
-
     &__personal-info,
     &__vendor-info { padding: 50px 20px; }
   }
 
-  .info-about-you .header-2:not(.white-text) { text-align: center; }
-
   .security {
     &__top-block {
       img { width: 150px; }
-
       &::before,
       &::after { width: 20vw; }
     }
