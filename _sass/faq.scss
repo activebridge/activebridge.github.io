@@ -23,8 +23,6 @@
     border-bottom: none;
   }
 
-  &__description { margin-bottom: 32px!important; }
-
   details {
     user-select: none;
     overflow: hidden;
@@ -90,8 +88,6 @@
 
 @media (max-width: 930px) {
   .faq {
-    &__description { margin-bottom: 51px; }
-
     &__bottom-info {
       .wrapper { flex-direction: column; }
 
@@ -108,12 +104,12 @@
 @media (max-width: 767px) {
   .faq {
     &__main-content {
-      background-position: top 107px left 0, top 0 left 0;
+      background-position: top 100px left 0, top 0 left 0;
       background-size: 140px 140px, cover;
       padding: 66px 0 88px 0;
 
       &::after {
-        bottom: -5%;
+        bottom: -4%;
         content: url('/assets/images/faq/Cloud-4.webp');
       }
     }
@@ -122,13 +118,8 @@
       font-size: 10px;
       padding: 12px 15px;
     }
-
     &__detail-description .description { margin: 7px 14px 11px 15px;}
-
     &__table { z-index: 0;}
-
-    &__description { font-size: 12px; }
-
     &__gift { width: 150px; }
   }
 }
