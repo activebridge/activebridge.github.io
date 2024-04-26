@@ -30,8 +30,8 @@
     }
 
     .crew__item {
-      background-color: rgba($white, .75);
-      box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px $black;
+      background-color: var(--crew-card-rgba);
+      box-shadow: $main-shadow;
     }
 
     &-button { background-color: var(--white-purple) !important; }
@@ -114,8 +114,26 @@
   }
 
   &__testimonials {
-    background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
     padding: 150px 0 80px 0;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: center/cover no-repeat url('/assets/images/about/about-bg.webp');
+      filter: var(--filter-invert);
+    }
+
+    .wrapper {
+      position: sticky;
+
+      .block-inria-title,
+      .description { color: var(--body-color); }
+    }
   }
 
   &__culture {
@@ -140,6 +158,13 @@
       background-color: var(--transparent-white-btn) !important;
       transform: translate(-50%, -50%);
     }
+  }
+
+  #about-read-testimonials {
+    background-color: var(--transparent-dark-btn);
+    color: $black !important;
+
+    &:hover { color: $main-violet !important; }
   }
 }
 

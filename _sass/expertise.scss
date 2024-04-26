@@ -127,6 +127,13 @@
       }
     }
   }
+
+  #about-chart-container-button {
+    background-color: var(--transparent-dark-btn);
+    color: var(--white-black) !important;
+
+    &:hover { color: $main-violet !important; }
+  }
 }
 
 .expertise-cards {
