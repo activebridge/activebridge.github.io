@@ -1,11 +1,4 @@
 .development {
-  .header-2 {
-    max-width: 100%;
-    line-height: 1.5;
-  }
-
-  .large-header { font-size: 30px; }
-
   .description {
     text-align: justify;
     font-size: 18px;
@@ -40,13 +33,10 @@
     background: radial-gradient(circle, rgba($buzok, 1) 0%, rgba($white, 1) 60%);
     box-shadow: inset -6px 12px 15px -7px $moon_raker;
 
-    .header-2,
     .card__title-2  {
       font-size: 1.25em;
       line-height: 1.6;
     }
-
-    .header-2 { margin: 6vh 0 8vh; }
 
     .cards-container {
       margin-bottom: 0;
@@ -88,12 +78,6 @@
     background: $main-gradient;
     padding: 7vh 0;
     box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, .25);
-
-    .header-2 {
-      max-width: 75%;
-      font-size: 1.25em;
-      line-height: 1.8;
-    }
   }
 }
 
@@ -107,8 +91,6 @@
 
     &__cards {
       background-image: linear-gradient(to top, $buzok, $white);
-
-      .header-2,
       .card__title-2 { font-size: 16px; }
 
       .cards-container {
@@ -125,16 +107,10 @@
           .button { font-size: 11px; }
         }
       }
-
-      .header-2 { margin: 3vh 0 4vh; }
     }
-
-    &__offer .header-2 { max-width: 100%; }
 
     .list-with-images {
       margin: 6vh 0;
-
-      .header-2 { font-size: .9em; }
 
       &__item .description {
         font-size: .8em;
@@ -146,8 +122,6 @@
 
 @media screen and (max-width: 768px) {
   .development {
-    .large-header { font-size: 18px; }
-
     .description { font-size: .8em }
   }
 }

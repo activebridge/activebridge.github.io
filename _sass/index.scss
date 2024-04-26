@@ -14,6 +14,7 @@
   }
 
   .description {
+    margin: 0 auto;
     position: inherit;
     max-width: 700px;
     width: 100%;
@@ -230,12 +231,6 @@
   .index {
 
     &-home {
-      .description.with-padding {
-        font-size: .75em;
-        text-align: justify;
-        text-align-last: center;
-      }
-
       .button { margin-top: 3em; }
     }
 
