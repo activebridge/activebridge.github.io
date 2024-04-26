@@ -97,7 +97,8 @@ ul, ol { margin-left: 0; }
   svg { width: 140vw; }
 }
 
-.white-text { color: var(--white) !important; }
+// .white-text { color: var(--white) !important; }
+.white-text { color: $white !important; }
 
 // TODO: new block titles, changes to reduce the difference of styles, use clear class names
 .page-title {
@@ -390,11 +391,3 @@ b { font-family: "Cera-Bold", serif; }
     line-height: 25px;
   }
 }
-
-.st2{ fill: var(--daisy-bill); }
-
-.dm { fill: var(--def-method); }
-
-.pl { fill: var(--pree-line); }
-
-.fr { fill: var(--freestak);  }

@@ -150,13 +150,14 @@
       margin-bottom: 20px;
       padding: 10px 30px;
       background: $main-gradient;
-      color: $white;
+      color: var(--white);
       font-size: 11px;
       scale: 0.72;
 
       &:hover {
-        color: $black_sea;
-        background: $white;
+        // color: $black_sea;
+        color: var(--sea-white);
+        background: var(--white);
       }
     }
   }

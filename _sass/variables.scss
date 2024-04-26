@@ -32,7 +32,6 @@ $dark-theme-black:        #000;
 $rgba-white:              255,255,255;
 $rgba-black:              0,0,0,1;
 
-// $main-gradient:        linear-gradient(135deg, $main-violet, $purple-heart);
 $main-gradient:        linear-gradient(135deg, $purple-heart, var(--purple));
 
 $active-shadow:        inset 2px 2px 5px grey, inset -2px -2px 5px var(--white);
@@ -50,14 +49,9 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
   --purple:                    #{$main-violet};
   --rgba-white:                #{$rgba-white};
   --carousel-bg:               #{$white};
-  --daisy-bill:                #{#231F20};
-  --def-method:                #{#212121};
-  --pree-line:                 #{#2D1A46};
-  --freestak:                  #{$black};
   --body-color:                #{$black};
   --amethyst-purple:           #{$deep_amethyst};
   --lilac-sea:                 #{$main-lilac};
-  --pie-purple:                #{$pie-chart-border};
   --transparent-btn:           #{transparent};
   --main-shadow:               #{$main-shadow};
   --white-purple:              #{$white};
@@ -66,10 +60,17 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
   --transparent-white-btn:     #{rgba($white, 0.85)};
   --sky-post:                  #{$sky-ua};
   --sky-black:                 #{$sky-ua};
+  --navbar-shadow:             #{rgba($dark_black, 0.25)};
+  --white-gradient:            #{$alabaster};
+  --technologies:              #{linear-gradient(135deg, $main-violet, $white, $white, $purple-heart)};
+  --sea-white:                 #{$black_sea};
+  --card-bg-rgba:              #{rgba($white, .4)};
+  --transparent-dark-btn:      #{transparent};
+  --lavender-purple:           #{#EBDEF5};
+  --lilac-black:               #{$main-lilac};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
 }
-
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -79,14 +80,9 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
     --purple:                    #{$dark-purple};
     --rgba-white:                #{$rgba-black};
     --carousel-bg:               #{$dark-purple};
-    --daisy-bill:                #{$white};
-    --def-method:                #{$white};
-    --pree-line:                 #{$white};
-    --freestak:                  #{$white};
     --body-color:                #{$white};
     --amethyst-purple:           #{#4c2b84};
     --lilac-sea:                 #{$black_sea};
-    --pie-purple:                #{#4c2b84};
     --transparent-btn:           #{rgba($dark-purple, .5)};
     --main-shadow:               #{$dark-main-shadow};
     --white-purple:              #{rgba($dark_black, .25)};
@@ -95,6 +91,14 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
     --transparent-white-btn:     #{rgba($dark_black, .6)};
     --sky-post:                  #{$post-links};
     --sky-black:                 #{$dark-purple};
+    --navbar-shadow:             #{rgba($white, 0.25)};
+    --white-gradient:            #{linear-gradient(to top, rgba($dark_black, .1), rgba($dark-purple, .7), rgba($dark-purple, .7))};
+    --technologies:              #{linear-gradient(135deg, $black_sea, $main-violet, $purple-heart)};
+    --sea-white:                 #{$white};
+    --card-bg-rgba:              #{rgba($dark_black, .25)};
+    --transparent-dark-btn:      #{rgba($white, .9)};
+    --lavender-purple:           #{$dark-purple};
+    --lilac-black:               #{$dark_black};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
 

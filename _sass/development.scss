@@ -57,7 +57,7 @@
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        background: rgba($white, .4);
+        background: var(--card-bg-rgba);
         max-height: max-content;
 
         &__icon img {
