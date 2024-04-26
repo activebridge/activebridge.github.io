@@ -118,6 +118,7 @@
     justify-content: space-between;
     padding: 7vh 20% 4vh 20%;
     background: $azovstal;
+    filter: var(--filter-invert);
 
     &__container {
       display: flex;
