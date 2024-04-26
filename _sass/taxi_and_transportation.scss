@@ -6,8 +6,6 @@
     }
   }
 
-  .description.without-margin { margin-bottom: 30px; }
-
   .development__cards {
     .cards-container {
       justify-content: space-around;
@@ -20,9 +18,7 @@
         box-shadow: $main-shadow;
 
         &__title-2 { margin-bottom: 10px; }
-
         &__icon img { mix-blend-mode: normal; }
-
         &__description { font-size: 14px; }
       }
     }
@@ -32,15 +28,8 @@
     background-image: linear-gradient(-30deg, $purple-heart, $black_sea);
     padding: 117px 0 135px 0;
 
-    .header-3 { margin-bottom: 35px; }
-
-    .description { margin-bottom: 5vh; }
-
-    .description.with-margin { margin-bottom: 2vh; }
-
     .list-with-images {
       margin: 5vh 0 0;
-
       &__item { margin-bottom: 30px; }
     }
   }
@@ -49,7 +38,6 @@
     background-image: linear-gradient(135deg, $buzok, $purple-heart);
     padding: 75px 0 105px 0;
   }
-
   &__case_study { padding: 89px 0 94px 0; }
 
   &__solutions {
@@ -66,20 +54,13 @@
     background-color: rgba($purple-heart, .6);
     box-shadow: 0px 0px 25px 4px rgba($black, .2 );
     padding: 32px 0 27px 0;
-
-    .description {
-      margin-top: 1vh;
-      text-align: center;
-    }
   }
 
   &__cross_platform_app {
     background-image: linear-gradient(35deg, $kviten, $titan_white, $titan_white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
     padding: 69px 0 92px 0;
-
     .purple-text { color: $main-violet; }
-
     .list-with-images__item_element::before { border: 1px solid $main-violet; }
   }
 
@@ -92,10 +73,8 @@
       background-color: $white;
       font-weight: 400;
       margin-top: 20px;
-
       &:hover { color: $main-violet !important; }
     }
-
     .list-with-images__item_element::before { border: 1px solid $purple-heart; }
   }
 }
@@ -117,9 +96,7 @@
     height: 10px;
     top: 27%
   }
-
   &::before { left: 0; }
-
   &::after { right: 0 }
 
   &__item {
@@ -145,7 +122,6 @@
       left: 75%;
       width: 82%;
      }
-
     &::after { right: 75% }
 
     &_icon {
@@ -181,28 +157,15 @@
 @media screen and (max-width: 767px) {
   .taxi_and_transportation {
     .list-with-images__item { margin-bottom: 35px; }
-
     &__main { padding: 92px 0 15px 0; }
-
     &__expertise { padding: 60px 0 76px 0; }
-
     &__case_study { padding: 60px 0 51px 0; }
-
-    &__solutions {
-      padding: 39px 0 8px 0;
-
-      .header-2.with-margin { margin-bottom: 50px;}
-    }
+    &__solutions { padding: 39px 0 8px 0;}
 
     &__solutions .list-with-images__item {
       flex-direction: column;
       justify-content: center;
-
-      &-text {
-        width: 100%;
-
-        .header-2.without-margin { margin: 23px 0 14px 0;}
-      }
+      &-text { width: 100%; }
 
       &-icon {
         margin: 0 auto;
@@ -213,15 +176,8 @@
         }
       }
     }
-
-    &__security {
-      padding: 16px 0 44px 0;
-
-      .description { text-align: justify; }
-    }
-
+    &__security { padding: 16px 0 44px 0; }
     &__cross_platform_app { padding: 29px 0 21px 0; }
-
     &__admin_panel { padding: 29px 0 61px 0; }
   }
 
@@ -235,7 +191,6 @@
       content: '';
       left: 46px;
     }
-
     &::before { top: 0; }
 
     &::after {
@@ -249,7 +204,6 @@
       justify-content: flex-start;
       max-width: 100%;
       min-width: 100%;
-
       &:not(:last-child) { margin-bottom: 4vh; }
 
       &::before,
@@ -259,13 +213,9 @@
         left: 50px;
         width: 2px;
       }
-
       &::before { top: -50px; }
-
       &::after { top: 100px; }
-
       &_icon { margin-right: 1.5em; }
-
       &_text { font-size: 12px;}
     }
   }
