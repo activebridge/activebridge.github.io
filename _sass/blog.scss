@@ -3,14 +3,6 @@
     background: linear-gradient(180deg, $kviten 0%, $white 30%);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
     padding-top: 117px;
-
-    .header-3 { margin-bottom: 30px; }
-
-    .header-2 {
-      font-size: 1.3em;
-      line-height: 1.5;
-      max-width: 80%;
-    }
   }
 }
 
@@ -24,17 +16,12 @@
     padding: 50px 0;
     text-align: left;
 
-    .header-3.small-text {
-      font-family: 'Cera-Medium';
-      font-size: 22px;
-      letter-spacing: normal;
-    }
-
     li {
       font-family: 'Cera Regular', serif;
       font-size: 18px;
       font-weight: 400;
-      line-height: 150%
+      line-height: 150%;
+      margin-left: 15px;
     }
   }
 
@@ -69,12 +56,7 @@
       color: $kviten;
       position: relative;
     }
-
-    .header-3 {
-      font-family: 'Cera-Medium';
-      font-size: 14px;
-      margin-bottom: 0;
-    }
+    .block-sub-title { font-size: 14px; }
   }
 }
 
@@ -83,11 +65,6 @@
   padding: 40px 0 20px 0;
 
   .wrapper {
-    .header-2 {
-      margin-top: 0;
-      text-transform: uppercase;
-    }
-
     .posts { padding-top: 30px; }
   }
 }
@@ -225,12 +202,6 @@
     font-size: 20px;
     line-height: 1.5;
     margin: 10px 0 0 40px;
-  }
-
-  h1 {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 40px;
   }
 
   h2 {
@@ -473,21 +444,12 @@
       background: linear-gradient(180deg, $kviten 0%, $white 75.52%);
       box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
       padding-top: 117px;
-
-      .header-2 {
-        font-size: 0.8em;
-        max-width: 90%;
-      }
     }
   }
 
   .blog-main {
     &__articles {
       li { font-size: 0.8em; }
-
-      .header-3.small-text {
-        font-size: 1.2em;
-      }
     }
 
     &__navigation {
@@ -495,7 +457,7 @@
       flex-wrap: wrap;
       justify-content: flex-start;
 
-      a, .header-3 {
+      a, .block-sub-title {
         font-size: 12px;
         margin: 0 10px 10px 0;
       }
@@ -504,9 +466,7 @@
 
   .post-content {
     display: block;
-
     &__desktop { display: none;}
-
     &__mobile { display: block; }
   }
 
@@ -523,7 +483,6 @@
 
     &__author {
       display: inline;
-
       span:last-child { display: inline; }
     }
   }
@@ -562,12 +521,10 @@
     background: rgba($black, .72);
     border-radius: 3px;
   }
-
   &:hover { &:before, &:after { display: block; } }
 
   &:active, &:focus {
     outline: none;
-    
     &:after { content: 'Copied!'; }
   }
 }
@@ -582,7 +539,10 @@
   .prev-next-posts-mob-title { display: inline-block; }
 
   .post-content {
-    .header-3 { font-size: 24px; }
+    .block-cera-title {
+      font-size: 24px;
+      line-height: 1.6;
+    }
     h2 { font-size: 22px }
     h3 { font-size: 20px }
     h4,p { font-size: 18px }
