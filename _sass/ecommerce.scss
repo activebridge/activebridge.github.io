@@ -1,6 +1,4 @@
 .ecommerce {
-  .header-3.small-text { font-weight: 900; }
-
   &__main {
     background-image: linear-gradient(135deg, $black_sea, $main-violet);
     padding: 137px 0 55px 0;
@@ -10,10 +8,8 @@
         max-width: 37%;
         width: 37%;
       }
-
       &:first-child { margin-left: 13%; }
-
-      &:nth-child(2) {margin-right: 13%; }
+      &:nth-child(2) { margin-right: 13%; }
     }
   }
 
@@ -27,10 +23,7 @@
       box-shadow: $main-shadow;
       max-height: max-content;
       margin: 5px;
-
       &__description { margin: 0; }
-
-      &__title-2 { margin-bottom: 20px; }
 
       &__icon {
         background-color: $white;
@@ -54,14 +47,11 @@
   &__help {
     background: $titan_white;
     padding: 72px 0 79px 0;
-
-    .header-3.small-text { margin-top: 0; }
   }
 
   .solutions_cases__case_study {
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .25);
     padding: 89px 0 93px 0;
-
     &_image img { max-width: 250px; }
   }
 
@@ -69,7 +59,6 @@
     background-image: linear-gradient(to top left, $purple-heart, $black_sea);
     box-shadow: $light-purple-shadow;
     padding: 106px 0 92px 0;
-
     .purple-text { color: $buzok; }
 
     .list-with-images {
@@ -112,16 +101,13 @@
     .solutions_cases__case_study {
       box-shadow: inset 0px 14px 25px -15px rgba($purple-heart, .25);
       padding: 60px 0 42px 0;
-
       &_image img { max-width: 140px; }
     }
 
     &__main {
       padding: 79px 0 25px 0;
-
       .list-with-images.horizontal .list-with-images__item { margin-top: 1vh; }
     }
-
     &__help { padding: 52px 0 18px 0; }
 
     &__project {
@@ -130,15 +116,9 @@
       .list-with-images {
         &__item {
           margin-bottom: 40px;
-
           &-text { margin-top: 23px; }
         }
       }
-    }
-
-    &__help,
-    &__project {
-      .header-3.small-text { margin-bottom: 4vh; }
     }
   }
 }
