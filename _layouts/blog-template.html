@@ -6,10 +6,10 @@ layout: default
   <div class="blog__main-block blog-main">
     <div class="wrapper">
       <div class="blog-main__header-description">
-        <h1 class="header-3">{{ site.data.blog.title }}</h2>
-        <h2 class="header-2">{{ site.data.blog.description }}</p>
+        <h1 class="page-title">{{ site.data.blog.title }}</h2>
+        <h2 class="message inria-bold">{{ site.data.blog.description }}</p>
           <ul class="blog-main__articles">
-            <p class="header-3 small-text">{{ site.data.blog.articles.title }}</p>
+            <p class="message cera-medium text-upcase text-left">{{ site.data.blog.articles.title }}</p>
             {% for element in site.data.blog.articles.lines %}
               <li>{{ element.description }}</li>
             {% endfor %}
@@ -18,7 +18,7 @@ layout: default
 
       <div class="blog-content">
         <div class="blog-main__navigation" style="view-transition-name: blog-main-nav;">
-          <p class="header-3">Categories:</p>
+          <p class="block-sub-title cera-medium mb-0">Categories:</p>
 
           {% for nav in site.data.blog.navigation %}
             {% if nav.category == page.category %}
