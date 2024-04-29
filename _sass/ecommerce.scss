@@ -1,7 +1,6 @@
 .ecommerce {
   &__main {
     background-image: linear-gradient(135deg, $black_sea, $main-violet);
-    padding: 137px 0 55px 0;
 
     .list-with-images.horizontal .list-with-images__item {
       &:nth-child(-n+2) {
@@ -46,19 +45,16 @@
 
   &__help {
     background: $titan_white;
-    padding: 72px 0 79px 0;
   }
 
   .solutions_cases__case_study {
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .25);
-    padding: 89px 0 93px 0;
     &_image img { max-width: 250px; }
   }
 
   &__project {
     background-image: linear-gradient(to top left, $purple-heart, $black_sea);
     box-shadow: $light-purple-shadow;
-    padding: 106px 0 92px 0;
     .purple-text { color: $buzok; }
 
     .list-with-images {
@@ -100,18 +96,11 @@
 
     .solutions_cases__case_study {
       box-shadow: inset 0px 14px 25px -15px rgba($purple-heart, .25);
-      padding: 60px 0 42px 0;
       &_image img { max-width: 140px; }
     }
-
-    &__main {
-      padding: 79px 0 25px 0;
-      .list-with-images.horizontal .list-with-images__item { margin-top: 1vh; }
-    }
-    &__help { padding: 52px 0 18px 0; }
+    &__main { .list-with-images.horizontal .list-with-images__item { margin-top: 1vh; } }
 
     &__project {
-      padding: 60px 0 56px 0;
 
       .list-with-images {
         &__item {

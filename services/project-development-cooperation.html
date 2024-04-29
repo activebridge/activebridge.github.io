@@ -11,7 +11,7 @@ json-ld: project-development-cooperation
 ---
 
 <div class="project_dev_services development">
-  <div class="project_dev_services__main">
+  <div class="project_dev_services__main py-9">
     <div class="wrapper dark-text-inversion">
       <p class="page-title">{{ site.data.project_development.page-title }}</p>
       <h2 class="block-inria-title">{{ site.data.project_development.title }}</h2>
@@ -31,7 +31,7 @@ json-ld: project-development-cooperation
         {% endfor %}
       </div>
       <p class="description mb-4">{{ site.data.project_development.description_2 }}</p>
-      <p class="message inria-bold mb-0">{{ site.data.project_development.subtitle_3 }}</p>
+      <p class="message inria-bold">{{ site.data.project_development.subtitle_3 }}</p>
       <div class="list-with-images horizontal mb-0">
         {% for item in site.data.project_development.contract %}
           <div class="list-with-images__item">
@@ -47,7 +47,7 @@ json-ld: project-development-cooperation
     </div>
   </div>
 
-  <div class="project_dev_services__key_benefits wrap">
+  <div class="project_dev_services__key_benefits py-9">
     <div class="wrapper dark-text-inversion">
       <h1 class="block-cera-title">{{ site.data.project_development.key_benefits.title }}</h1>
       <div class="list-with-images horizontal mb-0">
@@ -66,11 +66,9 @@ json-ld: project-development-cooperation
     </div>
   </div>
 
-  <div class="project_dev_services__workflow">
+  <div class="project_dev_services__workflow pt-9">
     <div class="wrapper">
-      <div class="vertical-p-8 ">
-        <h2 class="block-cera-title mb-0 white-text">{{ site.data.project_development.workflow.title }}</h2>
-      </div>
+      <h2 class="block-cera-title white-text">{{ site.data.project_development.workflow.title }}</h2>
     </div>
     <div class="timeline wrapper timeline animated-cards" data-animation="snake">
       <svg class="desktop-svg" viewBox="0 0 863 2496" fill="none" preserveAspectRatio="none">
@@ -105,7 +103,7 @@ json-ld: project-development-cooperation
     </div>
   </div>
 
-  <div class="development__cards wrap flex-columns-center">
+  <div class="development__cards flex-columns-center py-9">
     <div class="wrapper flex-columns-center dark-text-inversion">
       <h2 class="message inria-bold">{{ site.data.team_extension.services.title }}</h2>
       <div class="cards-container">

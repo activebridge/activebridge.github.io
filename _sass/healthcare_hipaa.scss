@@ -2,8 +2,6 @@
   &__main {
     background: linear-gradient(90deg, $sky-ua 0%, rgba($sky-ua, 0.5) 18.75%, $white 91.14%);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
-    padding: 117px 0 113px 0;
-
     .list-with-images__item {
       align-items: center;
       &-icon img { box-shadow: none; }
@@ -13,22 +11,15 @@
   &__case_study {
     background: linear-gradient(180deg, $white 25.64%, $palianytsia 100%);
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
-    padding: 89px 0 70px 0;
   }
-
   .solutions_cases__case_study_image img { transform: matrix(-1, 0, 0, 1, 0, 0); }
 
   &__solutions {
     background: linear-gradient(122.21deg, $black_sea 0%, $purple-heart 100%);
     box-shadow: 0px 4px 25px rgba($purple-heart, .25);
-    padding: 60px 0 84px 0;
 
     .list-with-images {
-      margin-top: 8vh;
-
       &__item {
-        margin-top: 5vh;
-
         &_elements {
           color: $buzok;
           margin: 2vh 0;
@@ -47,10 +38,7 @@
   .healthcare_hipaa {
     &__main {
       background: linear-gradient($sky-ua, rgba($sky-ua, .5), $white);
-      padding: 79px 0 53px 0;
     }
-    &__case_study { padding: 60px 0 40px 0}
-    &__solutions { padding: 40px 0 61px 0;}
 
     .solutions_cases__case_study {
       &_image {

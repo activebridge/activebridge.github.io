@@ -10,7 +10,6 @@
   }
 
   &__help {
-    padding: 3vh 18vw;
     background-color: $sky-ua;
     box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
     filter: var(--filter-invert);
@@ -161,11 +160,6 @@
       background-size: 250% 115%;
     }
 
-    &__help {
-      padding-right: 12vw;
-      padding-left: 12vw;
-    }
-
     &__people {
       .wrapper::after { display: none }
       .block-cera-title { &::before,&::after { display: none; } }
@@ -206,12 +200,5 @@
       }
     }
     &__photo { height: 190px; }
-
-    &__expertise {
-      .button {
-        padding-right: 10vw;
-        padding-left: 10vw;
-      }
-    }
   }
 }

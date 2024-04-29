@@ -4,7 +4,6 @@
                 linear-gradient(132deg, $palianytsia 8.4%, $buzok 52.42%, $sky-ua 93.77%);
     background-blend-mode: luminosity;
     background-position: top 87px left 0, top 0 left 0;
-    padding: 191px 0 113px 0;
     position: relative;
 
     &::after {
@@ -57,9 +56,7 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 500ms ease-out, border-bottom 0ms 500ms linear;
-
     .description { margin: 21px 10px 33px 63px}
-
     p, li { text-align: justify; }
   }
   ul { margin: 0 0 0 10px; }
@@ -67,7 +64,6 @@
   &__bottom-info {
     background: linear-gradient(116deg, $purple-heart, var(--sky-black));
     box-shadow: 2px 2px 20px 4px rgba(0, 0, 0, 0.25);
-    padding: 26px 0 24px 0;
 
     .wrapper {
       align-items: center;
@@ -96,7 +92,6 @@
         margin-bottom: 2em;
       }
     }
-
     &__gift { margin-bottom: 24px; }
   }
 }
@@ -106,7 +101,6 @@
     &__main-content {
       background-position: top 100px left 0, top 0 left 0;
       background-size: 140px 140px, cover;
-      padding: 66px 0 88px 0;
 
       &::after {
         bottom: -4%;

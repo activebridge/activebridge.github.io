@@ -22,14 +22,12 @@
       z-index: 1;
     }
 
-    &-container {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      padding: 4.5vh 0 3vh;
-    }
+    .crew__item {
+      background-color: rgba($white, .75);
+      box-shadow: inset -1px 4px 13px -5px $white, inset -1px -5px 5px grey, 2px 1px 12px 0px $black;
 
-    &-button { background-color: var(--white-purple) !important; }
+      &-button { background-color: var(--white-purple) !important; }
+    }
 
     .description.white-text,
     .block-cera-title.white-text { color: $white !important; }
@@ -222,16 +220,6 @@
   .about {
     .button { margin-top: 0; }
 
-    &__crew {
-      &-container { justify-content: center; }
-
-      &-item {
-        max-width: 55vw;
-        margin-bottom: 5vh;
-        padding: 10vw 5vw;
-      }
-    }
-
     &__benefits {
       .overlay {
         top: 57%;
@@ -273,8 +261,6 @@
         &-description { font-size: .9em; }
       }
     }
-    &__testimonials { padding: 60px 0; }
-
     &__culture-button { min-width: 300px; }
   }
 
