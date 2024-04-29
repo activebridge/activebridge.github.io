@@ -19,7 +19,6 @@
   &__main {
     min-height: 85vh;
     height: 100%;
-    margin-top: -1em;
 
     .services__description-wrap {
       display: flex;
@@ -51,12 +50,9 @@
 
   &__web-dev {
     position: relative;
-    padding-bottom: 60px;
 
     .wrapper {
       position: relative;
-      padding-top: 8vh;
-      padding-bottom: 0;
       z-index: 2;
 
       &:last-child { padding-top: 0; }
@@ -79,8 +75,6 @@
 
   &__custom-ror-dev {
     background-color: $black_sea;
-    padding-bottom: 60px;
-    padding-top: 8vh;
     position: relative;
 
     &::before {
@@ -127,11 +121,8 @@
   }
 
   &__approaches {
-    padding: 120px 0;
     .button { background: transparent; }
   }
-
-  .timeline-item { padding-bottom: 80px; }
 }
 
 @media (max-width: 768px) {
@@ -152,8 +143,6 @@
       }
     }
     &__engagement-models-img { bottom: -1em; }
-    &__approaches { padding: 65px 0 45px 0; }
-
     &__mobile-dev.development__cards .cards-container,
     &__engagement-models.development__cards .cards-container {
       .card {

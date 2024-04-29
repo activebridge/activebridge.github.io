@@ -4,7 +4,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding-top: .5em;
 
       img {
         max-width: 250px;
@@ -120,10 +119,6 @@
   }
 
   &__industries {
-    padding: 10vh 0;
-  }
-
-  &__industries {
     #web_dev_button {
       color: $white;
       background: $buzok;
@@ -176,7 +171,6 @@
         &-item {
           font-size: .8em;
           margin-top: 10vh;
-          margin-bottom: 10vh;
 
           &::after {
             left: 50%;

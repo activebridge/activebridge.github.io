@@ -6,11 +6,7 @@
   }
 
   .list-with-images {
-    margin: 5vh 0 0;
-
     &__item {
-      .description.without-margin { margin-top: 0; }
-
       &-icon img { border-radius: 30px; }
 
       &-icon.big-img img {
@@ -133,9 +129,6 @@
 
     &__idea {
       flex-wrap: wrap;
-      padding: 1vh 5vh 5vh;
-
-      &.wrap { padding-top: 3vh; }
 
       &_img {
         width: 100%;

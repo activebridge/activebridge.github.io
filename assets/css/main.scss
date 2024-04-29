@@ -217,8 +217,6 @@ ul, ol { margin-left: 0; }
   }
 }
 
-.wrap { padding: 90px 0; }
-
 @keyframes fill {
   0% {
     width: 0%;
@@ -265,7 +263,6 @@ b { font-family: "Cera-Bold", serif; }
 }
 
 @media (max-width: 767px) {
-  .wrap { padding: 60px 0; }
   .body-content__main-section { padding-top: 0;}
 
   .body-content {
