@@ -97,6 +97,13 @@
       }
     }
   }
+
+  #project_dev_button {
+    background: var(--transparent-dark-btn);
+    color: $black;
+
+    &:hover { color: $main-violet; }
+  }
 }
 
 @media screen and (max-width: 700px) {
