@@ -64,7 +64,7 @@
 
     &__holder {
       background: no-repeat url('/assets/images/index/technologies_photo.webp');
-      background-size: 60%;
+      background-size: contain;
       background-position: left top;
       display: flex;
       width: 100%;
@@ -78,7 +78,7 @@
       justify-content: center;
       position: relative;
       margin-left: auto;
-      width: 50%;
+      width: 52%;
       overflow: hidden;
       background: linear-gradient(135deg, #EBDEF5, $main-lilac);
       border-top: 1px solid rgba($dark_black, .2);
