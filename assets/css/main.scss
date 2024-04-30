@@ -246,7 +246,7 @@ ul, ol { margin-left: 0; }
   padding: 0 30px;
 }
 
-.purple-text { color: $purple-heart; }
+.purple-text { color: var(--purple-violet); }
 
 .body-content {
   display: flex;

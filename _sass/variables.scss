@@ -4,6 +4,7 @@ $black:                   #333;
 $black_sea:               #2E2B33;
 $buzok:                   #a49feb;
 $dark_black:              #000;
+$dark_cerulean:           #004779;
 $dark-purple:             #1b0b37;
 $dark-violet:             #844ca9;
 $deep_amethyst:           #9480a7;
@@ -57,9 +58,9 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
   --white-purple:              #{$white};
   --white-black:               #{$white};
   --transparent-gradient-dark: #{rgba($white, .5)};
-  --transparent-white-btn:     #{rgba($white, 0.85)};
+  --transparent-white-btn:     #{rgba($white, .85)};
   --sky-black:                 #{$sky-ua};
-  --navbar-shadow:             #{rgba($dark_black, 0.25)};
+  --navbar-shadow:             #{rgba($dark_black, .25)};
   --white-gradient:            #{$alabaster};
   --technologies:              #{linear-gradient(135deg, $main-violet, rgba($moon_raker, .5), rgba($moon_raker, .5), $purple-heart)};
   --card-bg-rgba:              #{rgba($white, .4)};
@@ -74,6 +75,11 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
   --raker-sea-black-gradient:  #{rgba($moon_raker, .5), $white};
   --purple-white:              #{$purple-heart};
   --buzok-white:               #{$buzok};
+  --sky-blue:                  #{$sky-ua};
+  --ror-cards:                 #{rgba($white, .7)};
+  --purple-violet:             #{$purple-heart};
+  --light-pink-gradient:       #{rgba($kviten, .4), rgba($azovstal, .4)};
+  --purple-sea:                #{$purple-heart};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color) } }
 }
@@ -111,6 +117,11 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
     --raker-purple-gradient:     #{$dark-purple, $dark_black};
     --purple-white:              #{$white};
     --buzok-white:               #{$white};
+    --sky-blue:                  #{$dark_cerulean};
+    --ror-cards:                 #{rgba($dark_black, .25)};
+    --purple-violet:             #{$main-violet};
+    --light-pink-gradient:       #{#171721, rgba($dark-purple, .5)};
+    --purple-sea:                #{$black_sea};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color); } }
 
