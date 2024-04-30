@@ -28,7 +28,7 @@
     background: radial-gradient(circle, rgba($palianytsia, 1) 0%, var(--white) 60%);
     box-shadow: inset 0px 12px 15px -7px $moon_raker;
     transition: all 1s ease-out;
-    filter: var(--filter-invert);
+    // filter: var(--filter-invert);
 
     & * {
      transition: all 1s ease-out;
@@ -143,7 +143,11 @@
   }
 
   .development__cards {
-    .cards-container .card { justify-content: space-between; }
+    .cards-container .card {
+      justify-content: space-between;
+
+      .button { background-color: var(--transparent-dark-btn); }
+    }
   }
 }
 
