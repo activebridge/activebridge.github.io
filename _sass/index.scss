@@ -1,6 +1,5 @@
 .home-page-container {
   position: relative;
-  top: 40px;
   min-height: 100vh;
   padding-bottom: 7em;
   background: center/cover no-repeat url('/assets/images/index/background.webp');
@@ -9,10 +8,7 @@
   z-index: 1;
   filter: var(--filter-invert);
 
-  .index-logo {
-    width: 210px;
-    margin-top: 70px;
-  }
+  .index-logo { width: 210px; }
 
   .description {
     margin: 0 auto;
@@ -77,7 +73,6 @@
 
   &-technologies {
     &__container {
-      padding-top: 8vh;
       background: linear-gradient(135deg, var(--white), var(--lilac-sea));
     }
 
@@ -162,7 +157,6 @@
   }
 
   &-solutions {
-    padding: 8vh 0;
     background-color: $light-grey;
     position: relative;
 
