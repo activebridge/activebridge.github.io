@@ -30,15 +30,17 @@ $ocean_light:             #e0effd;
 $rgba-white:              255,255,255;
 $rgba-black:              0,0,0,1;
 
-$main-gradient:        linear-gradient(135deg, $purple-heart, var(--purple));
+$main-gradient:             linear-gradient(135deg, $purple-heart, var(--purple));
+$dark-gradient-bg-carousel: linear-gradient(135deg, $dark-purple, rgba(193, 201, 214, .5));
 
-$active-shadow:        inset 2px 2px 5px grey, inset -2px -2px 5px var(--white);
-$violet-shadow:        inset 2px 7px 10px -5px #9c64d2, inset -4px -5px 16px #4c2b84;
-$light-purple-shadow:  2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0px rgba($dark_black, .15);
-$main-shadow:          0px 4px 20px 0px rgba($dark_black, .2), inset -2px -2px 12px 0px rgba($dark_black, .25);
-$violet-hover-shadow:  inset -1px 4px 13px -5px var(--white), inset -1px -5px 5px var(--amethyst-purple), 2px 1px 12px 0px $main-violet;
-$violet-active-shadow: inset 0px 0px 15px 1px rgba($main-violet, .3);
-$dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0px rgba($white, .25);
+$active-shadow:             inset 2px 2px 5px grey, inset -2px -2px 5px var(--white);
+$violet-shadow:             inset 2px 7px 10px -5px #9c64d2, inset -4px -5px 16px #4c2b84;
+$light-purple-shadow:       2px 2px 18px 2px rgba($dark_black, .15), inset 0px 4px 15px 0px rgba($dark_black, .15);
+$main-shadow:               0px 4px 20px 0px rgba($dark_black, .2), inset -2px -2px 12px 0px rgba($dark_black, .25);
+$violet-hover-shadow:       inset -1px 4px 13px -5px var(--white), inset -1px -5px 5px var(--amethyst-purple), 2px 1px 12px 0px $main-violet;
+$violet-active-shadow:      inset 0px 0px 15px 1px rgba($main-violet, .3);
+$dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0px rgba($white, .25);
+
 
 :root {
   --filter-invert:             invert(0);
@@ -67,6 +69,8 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
   --lilac-black:               #{$main-lilac};
   --crew-card-rgba:            #{rgba($white, .75)};
   --sea-violet:                #{$black_sea};
+  --white-gradient-dark:       #{rgba($white, .7)};
+  --lilac-buzok:               #{$main-lilac};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
 }
@@ -99,9 +103,11 @@ $dark-main-shadow:     0px 4px 20px 0px rgba($white, .2), inset -2px -2px 12px 0
     --lilac-black:               #{$dark_black};
     --crew-card-rgba:            #{rgba($dark_black, .5)};
     --sea-violet:                #{$main-violet};
+    --white-gradient-dark:       #{$dark-gradient-bg-carousel};
+    --lilac-buzok:               #{$buzok};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black); } }
 
-  .dark-background-dark-content { background: linear-gradient(135deg, $dark-purple, rgba(193, 201, 214, .5)); }
+  .dark-background-dark-content { background: $dark-gradient-bg-carousel; }
   }
 }
