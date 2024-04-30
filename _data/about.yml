@@ -43,9 +43,10 @@ crew:
 benefits:
   title: Benefits
   subtitle: What makes Active Bridge a competitive application development house?
-  description: "Clients get access to the full breadth of skills and experience that our team
-                has to offer. Our staff isn’t big, but 90% of them are senior/middle rails
-                developers with an extensive background in object-oriented development. "
+  description: "Active Bridge distinguishes itself as a leading application development house,
+                leveraging a compact team of senior and middle Rails developers to deliver technology
+                expertise and object-oriented programming. Our motivated team excels in seamlesslyintegrating
+                with client operations, driven by a passion for emerging technologies and complex projects."
   all:
   - title: Technology expertise
     description: "Clients get access to the full breadth of skills and experience that our team
