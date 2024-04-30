@@ -11,9 +11,7 @@
   }
 
   &__solutions { .button { margin-top: 30px; } }
-
   &__testimonials {
-    padding-bottom: 60px;
     position: relative;
 
     &::before {
@@ -27,8 +25,6 @@
       filter: var(--filter-invert);
       z-index: -1;
     }
-
-    .wrapper { padding-top: 8vh; }
 
     .button {
       background-color: var(--transparent-dark-btn);
