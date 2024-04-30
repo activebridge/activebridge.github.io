@@ -61,8 +61,7 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
   --sky-black:                 #{$sky-ua};
   --navbar-shadow:             #{rgba($dark_black, 0.25)};
   --white-gradient:            #{$alabaster};
-  --technologies:              #{linear-gradient(135deg, $main-violet, $white, $white, $purple-heart)};
-  --sea-white:                 #{$black_sea};
+  --technologies:              #{linear-gradient(135deg, $main-violet, rgba($moon_raker, .5), rgba($moon_raker, .5), $purple-heart)};
   --card-bg-rgba:              #{rgba($white, .4)};
   --transparent-dark-btn:      #{transparent};
   --lavender-purple:           #{#EBDEF5};
@@ -71,8 +70,12 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
   --sea-violet:                #{$black_sea};
   --white-gradient-dark:       #{rgba($white, .7)};
   --lilac-buzok:               #{$main-lilac};
+  --raker-sea-gradient:        #{$moon_raker, #F7EFFC, $moon_raker};
+  --raker-sea-black-gradient:  #{rgba($moon_raker, .5), $white};
+  --purple-white:              #{$purple-heart};
+  --buzok-white:               #{$buzok};
 
-  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black) } }
+  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color) } }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -96,7 +99,6 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
     --navbar-shadow:             #{rgba($white, 0.25)};
     --white-gradient:            #{linear-gradient(to top, rgba($dark_black, .1), rgba($dark-purple, .7), rgba($dark-purple, .7))};
     --technologies:              #{linear-gradient(135deg, $black_sea, $main-violet, $main-violet, $purple-heart)};
-    --sea-white:                 #{$white};
     --card-bg-rgba:              #{rgba($dark_black, .25)};
     --transparent-dark-btn:      #{rgba($white, .9)};
     --lavender-purple:           #{$dark-purple};
@@ -105,8 +107,12 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
     --sea-violet:                #{$main-violet};
     --white-gradient-dark:       #{$dark-gradient-bg-carousel};
     --lilac-buzok:               #{$buzok};
+    --raker-sea-gradient:        #{$black_sea, $purple-heart};
+    --raker-purple-gradient:     #{$dark-purple, $dark_black};
+    --purple-white:              #{$white};
+    --buzok-white:               #{$white};
 
-  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--black); } }
+  .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color); } }
 
   .dark-background-dark-content { background: $dark-gradient-bg-carousel; }
   }

@@ -22,10 +22,7 @@
     &-item:not(:last-child) { margin-bottom: 1.5em; }
   }
 
-  &__main {
-    background-image: linear-gradient(to right top, $moon_raker, #F7EFFC, $moon_raker);
-    filter: var(--filter-invert);
-  }
+  &__main { background-image: linear-gradient(to right top, var(--raker-sea-gradient)); }
 
   &__web_solutions {
     background-image: linear-gradient(to bottom, var(--white), $palianytsia);
@@ -43,6 +40,7 @@
     background-color: $dark-purple;
     margin-top: -2vh;
     margin-bottom: -25px;
+
     .description { color: $buzok; }
 
     &-list {
@@ -79,7 +77,7 @@
   }
 
   &__technologies {
-    background-image: linear-gradient(135deg, $main-violet, rgba($moon_raker, .5), rgba($moon_raker, .5), $purple-heart);
+    background-image: var(--technologies);
 
     .button {
       margin-top: 8vh;
@@ -93,8 +91,10 @@
   }
 
   &__solutions {
-    background-image: linear-gradient(to bottom, rgba($moon_raker, .5), $white);
+    background-image: linear-gradient(to bottom, var(--raker-purple-gradient));
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
+
+    .message { color: var(--body-color); }
 
     .about_us_info__container {
       width: 100%;
@@ -126,12 +126,12 @@
 
   &__industries {
     #web_dev_button {
-      color: $white;
-      background: $buzok;
+      color: var(--white-black);
+      background: var(--buzok-white);
       max-width: 470px;
       box-sizing: border-box;
 
-      &:hover { color: $black;}
+      &:hover { color: $main-violet; }
     }
   }
 
@@ -139,6 +139,12 @@
     .cards-container {
       .card { justify-content: space-between; }
       .card__description { margin: 30px 0; }
+
+      .button {
+        background-color: var(--transparent-dark-btn);
+
+        &:hover { color: $main-violet; }
+      }
     }
   }
 }
