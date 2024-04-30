@@ -184,7 +184,7 @@
 
   &__item-image {
     align-items: center;
-    background-color: var(--white);
+    background-color: $white;
     border: 6px solid $pie-chart-border;
     border-radius: 50%;
     display: flex;
