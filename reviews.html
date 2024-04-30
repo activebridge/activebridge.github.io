@@ -10,8 +10,8 @@ scripts: [details, carousel]
 json-ld: reviews
 ---
 
-<section class="container reviews" id="container">
-  <div class="reviews__main-container" >
+<section class="reviews">
+  <div class="reviews__main-container py-9">
     <div class="wrapper">
       <div style="view-transition-name: reviews;">
         <h1 class="page-title white-text">{{ site.data.testimonials.title }}</h1>
@@ -26,7 +26,7 @@ json-ld: reviews
       </div>
     </div>
   </div>
-  <div class="reviews__testimonials-container">
+  <div class="reviews__testimonials-container py-9">
     <div class="wrapper">
       <div class="overlay"></div>
       <div class="accordion">
@@ -52,7 +52,7 @@ json-ld: reviews
       </div>
     </div>
   </div>
-  <div class="reviews__solutions wrap">
+  <div class="reviews__solutions py-9">
     <div class="wrapper">
       <h2 class="message inria-bold white-text">{{ site.data.testimonials.solutions.description }}</h2>
     </div>
@@ -80,14 +80,14 @@ json-ld: reviews
       <a class="button white-text violet-button" href="/solutions" data-link="transition">{{ site.data.testimonials.solutions.button }}</a>
     </div>
   </div>
-  <div class="reviews__expertise wrap development__cards">
+  <div class="reviews__expertise wrap development__cards py-9">
     <div class="wrapper">
       <h2 class="block-cera-title">{{ site.data.team.expertise.title }}</h2>
       <p class="message inria-regular">{{ site.data.team.expertise.description }}</p>
       {% include dev_expertise_cards.html %}
     </div>
   </div>
-  <div class="reviews__tell-us">
+  <div class="reviews__tell-us py-9">
     <div class="wrapper">
       <h2 class="message inria-bold">{{ site.data.testimonials.tell-us.title }}</h2>
       <p class="description text-justify">{{ site.data.testimonials.tell-us.description }}</p>

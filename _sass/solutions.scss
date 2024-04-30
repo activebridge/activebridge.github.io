@@ -1,12 +1,8 @@
 .solutions {
-  &__text {
-    background: $main-gradient;
-    padding: 10vh 18vw;
-  }
+  &__text { background: $main-gradient; }
 
   &__main {
     background: linear-gradient(0deg, $white 50%, $azovstal 100%);
-    padding: 7vh 0;
 
     .about_us_info {
 
@@ -25,7 +21,6 @@
   }
 
   &__awards {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -119,8 +114,6 @@
   }
 
   &__staff-augmentation {
-    padding-bottom: 7vh;
-
     .timeline__processes {
       &-item {
         color: $main-violet;
@@ -139,7 +132,6 @@
     .button {
       font-weight: 400;
       margin-top: 0;
-      padding: 22px 70px;
     }
   }
 

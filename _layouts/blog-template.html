@@ -3,12 +3,12 @@ layout: default
 ---
 
 <section class="blog">
-  <div class="blog__main-block blog-main">
+  <div class="blog__main-block blog-main pt-9">
     <div class="wrapper">
       <div class="blog-main__header-description">
         <h1 class="page-title">{{ site.data.blog.title }}</h2>
         <h2 class="message inria-bold">{{ site.data.blog.description }}</p>
-          <ul class="blog-main__articles">
+          <ul class="blog-main__articles py-4">
             <p class="message cera-medium text-upcase text-left">{{ site.data.blog.articles.title }}</p>
             {% for element in site.data.blog.articles.lines %}
               <li>{{ element.description }}</li>
@@ -32,7 +32,7 @@ layout: default
         </div>
         {{ content }}
 
-        <div class="posts">
+        <div class="posts mb-4">
           {% for post in paginator.posts %}
               {% assign name = post.post-id %}
               {% assign post = post %}
@@ -47,7 +47,7 @@ layout: default
             {% assign category-name = page.category %}
           {% endif %}
 
-          <div class="pagination">
+          <div class="pagination mb-4">
             {% if paginator.previous_page %}
               <a class="pagination__page" href="{{ paginator.previous_page_path | relative_url }}" data-link="blog-link">&lt;</a>
             {% else %}

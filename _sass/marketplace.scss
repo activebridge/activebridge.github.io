@@ -4,7 +4,6 @@
   &__main {
     background-image: linear-gradient(135deg, $black_sea, $sky-ua);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 137px 0 55px 0;
 
     .list-with-images.horizontal {
       justify-content: space-around;
@@ -40,7 +39,6 @@
   &__b2c {
     background-image: linear-gradient(135deg, $azovstal, $black_sea);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 70px 0 100px 0;
     .list-with-images { columns: 2; }
 
     &_top {
@@ -57,18 +55,15 @@
   &__development {
     background-color: $titan_white;
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .2);
-    padding: 72px 0 67px 0;
   }
 
   .solutions_cases__case_study {
     background-image: linear-gradient(to right, $black_sea, $palianytsia);
-    padding: 89px 0 93px 0;
     &_image img { max-width: 250px; }
   }
 
   &__solutions {
     background-image: linear-gradient(to top, $white,  $white, $palianytsia);
-    padding: 90px 0 94px 0;
 
     .list-with-images {
       &__item {
@@ -95,7 +90,6 @@
 @media screen and (max-width: 767px) {
   .marketplace {
     &__main {
-      padding: 79px 0 34px 0;
       .list-with-images.horizontal .list-with-images__item { max-width: 140px; }
     }
 
@@ -114,7 +108,6 @@
     }
 
     &__b2c {
-      padding: 60px 0 39px 0;
 
       &_top {
         flex-wrap: wrap;
@@ -139,11 +132,8 @@
       }
     }
 
-    &__development { padding: 50px 0; }
-    .solutions_cases__case_study { padding: 60px 0; }
 
     &__solutions {
-      padding: 48px 0 60px 0;
       .list-with-images__item { margin-bottom: 36px; }
     }
     .solutions_cases__idea { background-image: linear-gradient(to left top, $palianytsia, $buzok); }

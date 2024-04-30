@@ -141,14 +141,8 @@ ul, ol { margin-left: 0; }
 
 .inria { font-family: 'Inria Bold', serif; }
 
-.info-container {
-  background: $main-gradient;
-  padding-bottom: 7vh;
-
-  .content { padding: 5vh 20% 0 20%; }
-
-  &.alabaster { background-color: $alabaster; }
-}
+.info-container { background: $main-gradient;}
+.alabaster { background-color: $alabaster; }
 
 .card {
   padding: 40px 30px;
@@ -211,15 +205,6 @@ ul, ol { margin-left: 0; }
 
 .text-center { text-align: center; }
 
-.container {
-  padding-top: 60px;
-  width: 100%;
-  text-align: center;
-  transition: width .5s;
-
-  &.index { padding: 0; }
-}
-
 .desktop-only {
   @media (max-width: 767px){
     display: none!important;
@@ -231,8 +216,6 @@ ul, ol { margin-left: 0; }
     display: none!important;
   }
 }
-
-.wrap { padding: 8vh 0; }
 
 @keyframes fill {
   0% {
@@ -264,6 +247,7 @@ ul, ol { margin-left: 0; }
   display: flex;
   flex-direction: column-reverse;
 }
+.body-content__main-section { padding-top: 60px;}
 
 b { font-family: "Cera-Bold", serif; }
 
@@ -279,7 +263,7 @@ b { font-family: "Cera-Bold", serif; }
 }
 
 @media (max-width: 767px) {
-  .container { padding-top: 0; }
+  .body-content__main-section { padding-top: 0;}
 
   .body-content {
     display: flex;

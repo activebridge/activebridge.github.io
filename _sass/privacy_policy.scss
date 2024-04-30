@@ -30,13 +30,11 @@
     background: linear-gradient(312deg, $purple-heart 0%, $buzok 44.74%, $palianytsia 89.47%);
     border: 1px solid $black;
     box-shadow: 0px 4px 4px 0px rgba($dark_black, .25);
-    padding: 191px 0 138px 0;
   }
 
   &__personal-info {
     background: linear-gradient(116deg, $buzok 0%, $white 100%);
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .5);
-    padding: 87px 0 53px 0;
 
     .web_dev_services__full_stack-list-item::after {
       background: center/cover no-repeat url('/assets/images/privacy_policy/ruby.webp');
@@ -65,7 +63,6 @@
   &__vendor-info {
     background: linear-gradient(129deg, $palianytsia 0%, rgba(251, 223, 137, 0.00) 100%);
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .5);
-    padding: 87px 0 112px 0;
 
     .web_dev_services__full_stack-list-item::after {
       background: center/cover no-repeat url('/assets/images/privacy_policy/sun.webp');
@@ -75,7 +72,6 @@
   &__security {
     background: $titan_white;
     box-shadow: 0px 0px 20px 0px rgba($purple-heart, .5);
-    padding: 55px 0 84px 0;
   }
 }
 .info-about-you .white-text { margin-bottom: 28px; }
@@ -134,10 +130,6 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
-
-    &__top-container { padding: 100px 20px; }
-    &__personal-info,
-    &__vendor-info { padding: 50px 20px; }
   }
 
   .security {

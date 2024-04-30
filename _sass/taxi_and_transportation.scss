@@ -26,7 +26,6 @@
 
   &__main {
     background-image: linear-gradient(-30deg, $purple-heart, $black_sea);
-    padding: 117px 0 135px 0;
 
     .list-with-images {
       margin: 5vh 0 0;
@@ -36,14 +35,11 @@
 
   &__expertise {
     background-image: linear-gradient(135deg, $buzok, $purple-heart);
-    padding: 75px 0 105px 0;
   }
-  &__case_study { padding: 89px 0 94px 0; }
 
   &__solutions {
     background-image: linear-gradient(-67deg, $buzok, $white, $white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
-    padding: 90px 0;
 
     .list-with-images {
       &__item_element::before { border: 1px solid $buzok; }
@@ -53,13 +49,11 @@
   &__security {
     background-color: rgba($purple-heart, .6);
     box-shadow: 0px 0px 25px 4px rgba($black, .2 );
-    padding: 32px 0 27px 0;
   }
 
   &__cross_platform_app {
     background-image: linear-gradient(35deg, $kviten, $titan_white, $titan_white);
     box-shadow: 0px 0px 25px 4px rgba($moon_raker, .35);
-    padding: 69px 0 92px 0;
     .purple-text { color: $main-violet; }
     .list-with-images__item_element::before { border: 1px solid $main-violet; }
   }
@@ -67,7 +61,6 @@
   &__admin_panel {
     background-image: linear-gradient(35deg, $buzok, $kviten);
     box-shadow: inset 0px 0px 25px 4px rgba($purple-heart, .4);
-    padding: 69px 0 119px 0;
 
     .button {
       background-color: $white;
@@ -157,10 +150,6 @@
 @media screen and (max-width: 767px) {
   .taxi_and_transportation {
     .list-with-images__item { margin-bottom: 35px; }
-    &__main { padding: 92px 0 15px 0; }
-    &__expertise { padding: 60px 0 76px 0; }
-    &__case_study { padding: 60px 0 51px 0; }
-    &__solutions { padding: 39px 0 8px 0;}
 
     &__solutions .list-with-images__item {
       flex-direction: column;
@@ -176,9 +165,6 @@
         }
       }
     }
-    &__security { padding: 16px 0 44px 0; }
-    &__cross_platform_app { padding: 29px 0 21px 0; }
-    &__admin_panel { padding: 29px 0 61px 0; }
   }
 
   .horizontal_timeline {

@@ -1,14 +1,12 @@
 .insurtech {
   &__main {
     background-image: linear-gradient(to right top, $palianytsia, #EFF1F5, #EFF1F5, $palianytsia);
-    padding: 117px 0 104px 0;
     .list-with-images__item-icon img { box-shadow: none; }
   }
 
   &__design_and_development {
     background-image: linear-gradient(-45deg, rgba($buzok, .5), #EFF1F5, #EFF1F5);
     box-shadow: inset 0px 0px 20px 0px rgba($black, .25);
-    padding: 90px 0 83px 0;
 
     .personal-info {
       &__list {
@@ -40,7 +38,6 @@
   .solutions_cases__case_study {
     background-image: linear-gradient(rgba($buzok, .75), rgba($sky-ua, .75));
     box-shadow: 0px 0px 20px 4px rgba($purple-heart, .05);
-    padding: 89px 0 95px 0;
   }
 
   &__features {
@@ -48,8 +45,7 @@
                 no-repeat url('/assets/images/insurtech/cloud-2.webp'),
                 linear-gradient(30deg, $kviten, $titan_white, $titan_white);
     background-blend-mode: luminosity;
-    background-position: top 2% left 0, top 50% right 0, top 0 left 0;
-    padding: 100px 0 106px 0;
+    background-position: top 0 left 0, top 50% right 0, top 0 left 0;
     position: relative;
 
     .list-with-images.horizontal .list-with-images__item {
@@ -85,17 +81,8 @@
 
 @media screen and (max-width: 767px) {
   .insurtech {
-    &__main {
-      background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5);
-      padding: 79px 0 73px 0;
-    }
-    &__design_and_development { padding: 50px 0 27px 0; }
-    .solutions_cases__case_study { padding: 60px 0 63px 0; }
-
-    &__features {
-      padding: 52px 0 51px 0;
-      .list-with-images.horizontal .list-with-images__item { max-width: 100%; }
-    }
+    &__main { background-image: linear-gradient($palianytsia, #EFF1F5, #EFF1F5); }
+    &__features { .list-with-images.horizontal .list-with-images__item { max-width: 100%; } }
     &__full_circle { padding: 45px 0 60px 0;}
     .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
     .personal-info { &__info-line { font-size: 12px; } }

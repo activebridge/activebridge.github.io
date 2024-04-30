@@ -6,6 +6,10 @@
 .mt-2 { margin-top: 20px; }
 .vertical-p-8 { padding: 80px 0; }
 .pt-6 { padding-top: 60px; }
+.pt-9 { padding-top: 90px; }
+.pb-9 { padding-bottom: 90px; }
+.py-4 { padding: 40px 0; }
+.py-9 { padding: 90px 0; }
 
 .cera-regular { font-family: "Cera Regular", serif; }
 .cera-bold { font-family: "Cera-Bold", serif; }
@@ -17,10 +21,12 @@
 .text-left { text-align: left !important; }
 .text-right { text-align: right !important; }
 
-
 @media (max-width: 767px) {
   .mb-4 { margin-bottom: 25px; }
   .mb-6 { margin-bottom: 40px; }
   .vertical-p-8 { padding: 60px 0; }
   .pt-6 { padding-top: 40px; }
+  .pt-9 { padding-top: 60px; }
+  .pb-9 { padding-bottom: 60px; }
+  .py-9 { padding: 60px 0; }
 }
