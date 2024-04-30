@@ -131,6 +131,12 @@
     .cards-container {
       .card { justify-content: space-between; }
       .card__description { margin: 30px 0; }
+
+      .button {
+        background-color: var(--transparent-dark-btn);
+
+        &:hover { color: $main-violet; }
+      }
     }
   }
 }
