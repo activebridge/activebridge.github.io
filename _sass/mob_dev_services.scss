@@ -36,6 +36,7 @@
   &__react_native {
     background-image: linear-gradient($sky-ua, var(--white));
     box-shadow: 0 4px 25px 0 rgba($purple-heart, .25);
+  }
 
   &__flutter {
     background-image: linear-gradient(-135deg, $moon_raker 28.4%, rgba($moon_raker, .25) 52.42%, $moon_raker 73.77%);

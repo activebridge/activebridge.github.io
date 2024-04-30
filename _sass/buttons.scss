@@ -53,14 +53,15 @@
   .button {
     height: 100px;
     max-width: 500px;
-    color: var(--white);
+    margin-top: 0;
+    padding: 22px;
+    background: var(--transparent-dark-btn);
+    color: var(--white-black);
     font-weight: 700;
     line-height: 150%;
     letter-spacing: 10px;
-    padding: 22px;
-    margin-top: 0;
 
-    &:hover { color: var(--black); }
+    &:hover { color: var(--sea-violet); }
   }
 }
 
