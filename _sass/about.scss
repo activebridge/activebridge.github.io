@@ -14,7 +14,7 @@
       right: 0;
       bottom: 0;
       backdrop-filter: blur(8px);
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, .5);
     }
 
     .wrapper {
@@ -27,8 +27,7 @@
       box-shadow: $main-shadow;
     }
 
-      &-button { background-color: var(--white-purple) !important; }
-    }
+    &-button { background-color: var(--white-purple) !important; }
 
     .description.white-text,
     .block-cera-title.white-text { color: $white !important; }
