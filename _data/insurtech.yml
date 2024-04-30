@@ -105,7 +105,7 @@ features:
                     friendly reminder emails. The Task Dashboard alerts the user’s team of what to do and when
                     to do it.
       icon: feature_6
-    - title: Free schedule calculator
+    - title: Fee schedule calculator
       description: DaisyBill’s Calculator is comprised of six separate Fee Schedules and five separate Calculators.
                     Each Calculator references a specific Fee Schedule or Fee Schedules
       icon: feature_7
