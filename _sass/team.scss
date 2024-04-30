@@ -10,13 +10,13 @@
   }
 
   &__help {
-    background-color: var(--sky-post);
+    background-color: $sky-ua;
     box-shadow: inset 0px 2px 20px 0px rgba($dark_black, .1), 0px 0px 12px 0px rgba($dark_black, .5);
     filter: var(--filter-invert);
   }
 
   &__people {
-    background-image: linear-gradient(to right, $sky-ua, var(--white));
+    background-image: linear-gradient(to right, var(--sky-blue), var(--white));
     box-shadow: 0px 4px 25px 0px rgba($purple-heart, .25);
 
     *::before,
