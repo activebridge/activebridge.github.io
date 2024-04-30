@@ -80,6 +80,7 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
   --purple-violet:             #{$purple-heart};
   --light-pink-gradient:       #{rgba($kviten, .4), rgba($azovstal, .4)};
   --purple-sea:                #{$purple-heart};
+  --light-purple-gradient:     #{$medium_purple 28.4%, rgba($buzok, .7) 52.42%, $medium_purple 73.77%};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color) } }
 }
@@ -122,6 +123,7 @@ $dark-main-shadow:          0px 4px 20px 0px rgba($white, .2), inset -2px -2px 1
     --purple-violet:             #{$main-violet};
     --light-pink-gradient:       #{#171721, rgba($dark-purple, .5)};
     --purple-sea:                #{$black_sea};
+    --light-purple-gradient:     #{$medium_purple, #9c64d2, $medium_purple};
 
   .dark-text-inversion { h1,h2,h3,h4,p,div,li {color: var(--body-color); } }
 
