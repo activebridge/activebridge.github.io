@@ -1,17 +1,12 @@
 .home-page-container {
   position: relative;
-  top: 40px;
   min-height: 100vh;
   padding-bottom: 7em;
   background: center/cover no-repeat url('/assets/images/index/background.webp');
   background-color: $alabaster;
   line-height: 1.5;
   z-index: 1;
-
-  .index-logo {
-    width: 210px;
-    margin-top: 70px;
-  }
+  .index-logo { width: 210px; }
 
   .description {
     margin: 0 auto;
@@ -20,7 +15,6 @@
     width: 100%;
     z-index: 1;
   }
-
   .button { background: rgba($white, .4); }
 }
 
@@ -65,7 +59,6 @@
 
   &-technologies {
     &__container {
-      padding-top: 8vh;
       background: linear-gradient(135deg, $white, $main-lilac);
     }
 
@@ -150,7 +143,6 @@
   }
 
   &-solutions {
-    padding: 8vh 0;
     background: center/cover no-repeat url('/assets/images/index/solutions-photo.webp');
     background-color: $light-grey;
 
