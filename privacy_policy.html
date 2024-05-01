@@ -14,7 +14,7 @@ json-ld: privacy_policy
     <div class="wrapper">
       <img src="/assets/images/privacy_policy/sheild.webp" alt="Sheild" class="absolute-icon">
       <h1 class="page-title">{{ site.data.privacy_policy.title }}</h1>
-      <p class="description text-justify mb-4">{{ site.data.privacy_policy.description }}</p>
+      <p class="description mb-4">{{ site.data.privacy_policy.description }}</p>
       <section class="info-about-you">
         <h2 class="message inria-bold white-text">{{ site.data.privacy_policy.info_about_you.title }}</h2>
         <div class="list-with-images">
@@ -25,7 +25,7 @@ json-ld: privacy_policy
               </div>
               <div class="list-with-images__item-text">
                 <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-                <p class="description white-text text-justify">{{ item.description }}</p>
+                <p class="description white-text">{{ item.description }}</p>
               </div>
             </div>
           {% endfor %}
@@ -47,12 +47,12 @@ json-ld: privacy_policy
   <section class="privacy-policy__vendor-info py-9">
     <div class="wrapper vendor-info">
       <h2 class="message inria-bold">{{ site.data.privacy_policy.vendor_info.title }}</h2>
-      <p class="description text-justify mb-4"> {{ site.data.privacy_policy.vendor_info.description }}</p>
+      <p class="description mb-4"> {{ site.data.privacy_policy.vendor_info.description }}</p>
       {% for block in site.data.privacy_policy.vendor_info.blocks %}
         <h3 class="description cera-bold">{{ block.title }}</h3>
         <ul class="web_dev_services__full_stack-list">
           {% for line in block.lines %}
-            <li class="description web_dev_services__full_stack-list-item text-justify">{{ line.description }}</li>
+            <li class="description web_dev_services__full_stack-list-item">{{ line.description }}</li>
           {% endfor %}
         </ul>
       {% endfor %}

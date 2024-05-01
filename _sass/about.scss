@@ -60,7 +60,6 @@
         &-text {
           padding: 7vh 7vh 5vh;
           line-height: 1.7;
-          text-align: justify;
         }
       }
 
@@ -95,7 +94,7 @@
         }
       }
 
-      &-text { text-align: justify; }
+      &-text { text-align: left; }
 
       &-title {
         margin-bottom: 3vh;

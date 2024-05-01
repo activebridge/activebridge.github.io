@@ -31,7 +31,7 @@ json-ld: home
         </svg>
         <p class="page-title">{{ site.data.index.active_bridge }}</p>
         <h1 class="block-inria-title">{{ site.data.index.first_title }}</h1>
-        <p class="description with-margin">{{ site.data.index.teams_expertise }}</p>
+        <p class="description with-margin text-center">{{ site.data.index.teams_expertise }}</p>
         <a id="index-free-consultation" class="button" href="/contacts" data-link="transition">
           {{ site.data.index.free_consultation }}
         </a>
@@ -62,9 +62,9 @@ json-ld: home
       <div class="index-technologies dark-text-inversion">
         <h2 class="block-cera-title">{{ site.data.index.our_vision }}</h2>
         <h3 class="message cera-bold ">{{ site.data.index.care_about_your_projects }}</h3>
-        <p class="description text-justify mb-4 inria-regular">{{ site.data.index.dedicated_developers }}</p>
+        <p class="description mb-4 inria-regular">{{ site.data.index.dedicated_developers }}</p>
         <h2 class="message cera-bold ">{{ site.data.index.core_technology }}</h2>
-        <p class="description text-justify mb-4 inria-regular">{{ site.data.index.technologies_knowledge }}</p>
+        <p class="description mb-4 inria-regular">{{ site.data.index.technologies_knowledge }}</p>
         <p class="block-cera-title">{{ site.data.index.featured_technologies }}</p>
       </div>
     </div>
@@ -84,13 +84,13 @@ json-ld: home
   <div class="index-services development__cards py-9">
     <div class="wrapper dark-text-inversion">
       <h2 class="message inria-bold">{{ site.data.index.expert_web_services }}</h2>
-      <p class="description justify-center mb-4">{{ site.data.index.embedded_teams }}</p>
+      <p class="description mb-4">{{ site.data.index.embedded_teams }}</p>
       <p class="block-cera-title"> {{ site.data.index.our_services }}</p>
       <div class="cards-container">
         {% for service in site.data.index.services %}
           <div class="card">
             <div class="card__title-2 purple-heart"> {{ service.title }} </div>
-            <div class="card__description index-services__item-description">
+            <div class="card__description">
               {{ service.description }}
             </div>
           </div>
@@ -105,7 +105,7 @@ json-ld: home
   <div class="info-container index-about-us py-9">
     <div class="wrapper">
       <p class="block-cera-title white-text">{{ site.data.index.our_company }}</p>
-      <p class="description text-justify mb-4 white-text inria-regular">{{ site.data.index.about_us_description }}</p>
+      <p class="description mb-4 white-text inria-regular">{{ site.data.index.about_us_description }}</p>
     </div>
     <div class="about_us_info desktop-only">
       {% include about_us_info.html %}

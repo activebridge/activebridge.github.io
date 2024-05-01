@@ -27,7 +27,7 @@ json-ld: healthcare-hipaa-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -53,7 +53,7 @@ json-ld: healthcare-hipaa-case
           {% for element in site.data.healthcare_hipaa.case_study.bottom_info %}
             <li>
               <p class="message inria-bold mb-0">{{ element.title }}</p>
-              <p class="description text-justify mt-2 mb-4">{{ element.description }}</p>
+              <p class="description mt-2 mb-4">{{ element.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -71,7 +71,7 @@ json-ld: healthcare-hipaa-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold white-text mb-0 mt-1">{{ element.title }}</h3>
-              <p class="description white-text text-justify">{{ element.description }}</p>
+              <p class="description white-text">{{ element.description }}</p>
               <ul class="list-with-images__item_elements">
                 {% for item in element.elements %}
                   <li class="list-with-images__item_element">{{ item.item }}</li>

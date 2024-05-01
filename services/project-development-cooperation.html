@@ -10,7 +10,7 @@ scripts: [animation]
 json-ld: project-development-cooperation
 ---
 
-<div class="project_dev_services development">
+<div class="project_dev_services">
   <div class="project_dev_services__main py-9">
     <div class="wrapper dark-text-inversion">
       <p class="page-title">{{ site.data.project_development.page-title }}</p>
@@ -24,8 +24,8 @@ json-ld: project-development-cooperation
             <div class="list-with-images__item-icon">
               {% include svgs/services/{{ item.icon }} %}
             </div>
-            <div class="list-with-images__item-text mt-1">
-              <p class="description">{{ item.title }}</p>
+            <div class="list-with-images__item-text mt-1 mb-1">
+              <p class="description text-center">{{ item.title }}</p>
             </div>
           </div>
         {% endfor %}

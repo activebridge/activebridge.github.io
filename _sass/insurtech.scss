@@ -12,7 +12,7 @@
       &__list {
         list-style-type:none;
         padding: 36px 0 0 40px;
-        text-align: justify;
+        text-align: left;
       }
 
       &__info-line {
@@ -61,7 +61,6 @@
   &__full_circle {
     background-image: linear-gradient(to left top, var(--sea-violet), var(--purple), var(--kviten-black_sea));
     box-shadow: inset 0px 0px 20px 4px rgba($purple-heart, .25);
-    padding: 99px 0 95px 0;
 
     .button {
       background-color: $white;
@@ -84,8 +83,7 @@
 @media screen and (max-width: 767px) {
   .insurtech {
     &__main { background-image: linear-gradient($palianytsia, var(--light-black), var(--light-black)); }
-    &__features { .list-with-images.horizontal .list-with-images__item { max-width: 100%; } }
-    &__full_circle { padding: 45px 0 60px 0;}
+    &__features { .list-with-images.horizontal .list-with-images__item { max-width: 400px; } }
     .solutions_cases__idea { background-image: linear-gradient(to left top, $buzok, $main-violet); }
     .personal-info { &__info-line { font-size: 12px; } }
   }
