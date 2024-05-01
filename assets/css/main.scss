@@ -191,14 +191,9 @@ ul, ol { margin-left: 0; }
 }
 
 .description {
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   line-height: 1.8em;
-
-  &.justify-center {
-    text-align: justify;
-    text-align-last: center;
-  }
 }
 
 .text-justify { text-align: justify; }

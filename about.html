@@ -43,11 +43,11 @@ json-ld: about
 
   <div class="about__vision py-9">
     <div class="wrapper">
-      <p class="description text-justify mb-4 inria-regular"> {{ site.data.about.information.first }}</p>
-      <p class="description text-justify mb-4 inria-regular">{{ site.data.about.information.second }}</p>
+      <p class="description mb-4 inria-regular"> {{ site.data.about.information.first }}</p>
+      <p class="description mb-4 inria-regular">{{ site.data.about.information.second }}</p>
       <h2 class="block-cera-title">{{ site.data.about.company_vision.title }}</h2>
       <p class="message inria-bold">{{ site.data.about.company_vision.subtitle }}</p>
-      <p class="description text-justify">{{ site.data.about.company_vision.description }}</p>
+      <p class="description">{{ site.data.about.company_vision.description }}</p>
       <div class="chart-container">
         {% include expertise_chart.html %}
         <a class="button" href="/expertise" id="about-chart-container-button" data-link="transition">{{ site.data.about.company_vision.button }}</a>
@@ -57,7 +57,7 @@ json-ld: about
 
   <div class="about__crew py-9">
     <div class="wrapper">
-      <p class="description white-text text-justify inria-regular mb-4">{{ site.data.about.crew.description }}</p>
+      <p class="description white-text inria-regular mb-4">{{ site.data.about.crew.description }}</p>
       <p class="block-cera-title white-text mb-0">{{ site.data.about.crew.title }}</p>
       {% include crew.html %}
       <a class="button about__crew-button" id="about__crew-button" href="/about/team" data-link="transition">
@@ -71,7 +71,7 @@ json-ld: about
     <div class="wrapper">
       <p class="block-cera-title">{{ site.data.about.benefits.title }}</p>
       <h2 class="message inria-bold">{{ site.data.about.benefits.subtitle }}</h2>
-      <p class="description text-justify mb-4">{{ site.data.about.benefits.description }}</p>
+      <p class="description mb-4">{{ site.data.about.benefits.description }}</p>
       <div class="accordion">
         {% for benefit in site.data.about.benefits.all %}
         <div class="accordion__item">
@@ -79,7 +79,7 @@ json-ld: about
             <summary><span>{{ benefit.title }}</span></summary>
           </details>
           <div class="accordion__item-content">
-            <p>{{ benefit.description }}</p>
+            <p class="accordion__item-text">{{ benefit.description }}</p>
           </div>
         </div>
         {% endfor %}
@@ -124,7 +124,7 @@ json-ld: about
     <div class="wrapper">
       <div class="about__culture-text">
         <p class="block-cera-title"> {{ site.data.about.culture.title }}</p>
-        <p class="description text-justify inria-bold">{{ site.data.about.culture.description }}</p>
+        <p class="description inria-bold">{{ site.data.about.culture.description }}</p>
       </div>
       <a id="about-culture-button" class="button about__culture-button" href="/contacts" data-link="transition">
         {{ site.data.about.culture.button }}

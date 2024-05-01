@@ -14,7 +14,7 @@ json-ld: insurtech-case
       <p class="page-title">{{ site.data.insurtech.page-title }}</p>
       <h1 class="block-inria-title">{{ site.data.insurtech.title }}</h1>
       <p class="message inria-regular">{{ site.data.insurtech.sub-title }}</p>
-      <p class="description text-justify mb-6">{{ site.data.insurtech.description }}</p>
+      <p class="description mb-6">{{ site.data.insurtech.description }}</p>
       <div class="list-with-images horizontal">
         {% for item in site.data.insurtech.solutions %}
           <div class="list-with-images__item">
@@ -33,7 +33,7 @@ json-ld: insurtech-case
   <div class="insurtech__design_and_development py-9">
     <div class="wrapper">
       <h2 class="block-cera-title">{{ site.data.insurtech.design_and_development.title }}</h2>
-      <p class="description text-justify">{{ site.data.insurtech.design_and_development.description }}</p>
+      <p class="description">{{ site.data.insurtech.design_and_development.description }}</p>
       <ul class="personal-info__list">
         {% for element in site.data.insurtech.design_and_development.all %}
           <li class="personal-info__info-line">{{ element.item }}</li>
@@ -48,7 +48,7 @@ json-ld: insurtech-case
             </div>
             <div class="list-with-images__item-text">
               <p class="message inria-bold mb-0 mt-1">{{ item.title }}</p>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -74,7 +74,7 @@ json-ld: insurtech-case
           {% for element in site.data.insurtech.case_study.bottom_info %}
             <li>
               <p class="message inria-bold mb-0 mt-1">{{ element.title }}</p>
-              <p class="description text-justify mt-2 mb-4">{{ element.description }}</p>
+              <p class="description mt-2 mb-4">{{ element.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -99,7 +99,7 @@ json-ld: insurtech-case
       </div>
     </div>
   </div>
-  <div class="insurtech__full_circle">
+  <div class="insurtech__full_circle py-9">
     <div class="wrapper">
       <h2 class="block-inria-title white-text">{{ site.data.insurtech.full_circle.title }}</h2>
       <div class="list-with-images">
@@ -110,7 +110,7 @@ json-ld: insurtech-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold white-text mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify white-text">{{ item.description }}</p>
+              <p class="description white-text">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}

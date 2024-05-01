@@ -114,27 +114,7 @@
       height: 40px;
     }
   }
-
-  &-services {
-    background-color: $main-lilac;
-
-    .card {
-      &__title-2 {
-        font-family: 'Inria Bold', serif;
-        font-size: 1.4em;
-        line-height: 1.4em;
-      }
-
-      &__description {
-        display: -webkit-box;
-        -webkit-line-clamp: 8;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        font-size: 1em;
-      }
-    }
-  }
+  &-services { background-color: $main-lilac; }
 
   &-about-us {
     padding: 8vh 0;
@@ -285,28 +265,6 @@
             top: 40px;
             right: 0;
             z-index: 2;
-          }
-        }
-      }
-    }
-
-    &-services {
-      &.development__cards {
-        .cards-container {
-          .card {
-            min-width: 300px;
-            height: auto;
-            margin: 0 10vw;
-            padding: 30px;;
-
-            &:not(:last-child) { margin-bottom: 5vh; }
-
-            &__title-2 { font-size: 1.2em; }
-
-            &__description {
-              font-size: 0.8em;
-              line-height: 1.8em;
-            }
           }
         }
       }

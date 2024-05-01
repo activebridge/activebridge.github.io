@@ -1,9 +1,4 @@
 .development {
-  .description {
-    text-align: justify;
-    font-size: 18px;
-  }
-
   .list-with-images {
     &__item {
       margin-bottom: 3vh;
@@ -57,7 +52,7 @@
 
         &__description {
           font-size: 16px;
-          line-height: 1.4;
+          line-height: 21px;
           text-align: left;
         }
 
@@ -112,11 +107,5 @@
         line-height: 1.5;
       }
     }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .development {
-    .description { font-size: .8em }
   }
 }
