@@ -13,8 +13,8 @@ json-ld: taxi-and-transportation-case
     <div class="wrapper">
       <p class="page-title white-text">{{ site.data.taxi_and_transportation.page-title }}</p>
       <h1 class="block-inria-title white-text">{{ site.data.taxi_and_transportation.title }}</h1>
-      <p class="description text-justify white-text mb-4">{{ site.data.taxi_and_transportation.description_1 }}</p>
-      <p class="description text-justify white-text mb-4">{{ site.data.taxi_and_transportation.description_2 }}</p>
+      <p class="description white-text mb-4">{{ site.data.taxi_and_transportation.description_1 }}</p>
+      <p class="description white-text mb-4">{{ site.data.taxi_and_transportation.description_2 }}</p>
       <h2 class="message cera-bold text-upcase white-text">{{ site.data.taxi_and_transportation.subtitle_2 }}</h2>
       <div class="list-with-images">
         {% for item in site.data.taxi_and_transportation.help %}
@@ -24,7 +24,7 @@ json-ld: taxi-and-transportation-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold white-text mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description white-text text-justify">{{ item.description }}</p>
+              <p class="description white-text">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -66,7 +66,7 @@ json-ld: taxi-and-transportation-case
           {% for item in site.data.taxi_and_transportation.case_study.bottom_info %}
             <li class="solutions_cases__case_study_list_item">
               <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify mt-2 mb-4">{{ item.description }}</p>
+              <p class="description mt-2 mb-4">{{ item.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -87,7 +87,7 @@ json-ld: taxi-and-transportation-case
           </div>
         {% endfor %}
       </div>
-      <p class="description text-justify mb-4">{{ site.data.taxi_and_transportation.solutions.description }}</p>
+      <p class="description mb-4">{{ site.data.taxi_and_transportation.solutions.description }}</p>
       <p class="block-sub-title">{{ site.data.taxi_and_transportation.features }}</p>
       <div class="list-with-images">
         {% for item in site.data.taxi_and_transportation.solutions.features %}
@@ -97,7 +97,7 @@ json-ld: taxi-and-transportation-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
               <p class="message inria-bold mb-0 mt-1 purple-text">{{ site.data.taxi_and_transportation.features_title }}</p>
               <ul class="list-with-images__item_elements mt-1">
                 {% for element in item.elements %}
@@ -129,7 +129,7 @@ json-ld: taxi-and-transportation-case
             </div>
             <div class="list-with-images__item-text">
               <h4 class="message inria-bold mb-0 mt-1">{{ item.title }}</h4>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
               <p class="message inria-bold mb-0 mt-1 purple-text">{{ site.data.taxi_and_transportation.features_title }}</p>
               <ul class="list-with-images__item_elements mt-1">
                 {% for element in item.elements %}
@@ -155,7 +155,7 @@ json-ld: taxi-and-transportation-case
             </div>
             <div class="list-with-images__item-text">
               <h4 class="message inria-bold mb-0 mt-1">{{ item.title }}</h4>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
               <p class="message inria-bold mb-0 mt-1 white-text">{{ site.data.taxi_and_transportation.features_title }}</p>
               <ul class="list-with-images__item_elements mt-1">
                 {% for element in item.elements %}

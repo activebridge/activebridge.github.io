@@ -13,7 +13,7 @@ json-ld: marketplace-case
     <div class="wrapper">
       <p class="page-title white-text">{{ site.data.marketplace.page-title }}</p>
       <h1 class="block-inria-title white-text">{{ site.data.marketplace.title }}</h1>
-      <p class="description mb-4 white-text text-justify">{{ site.data.marketplace.description }}</p>
+      <p class="description mb-4 white-text">{{ site.data.marketplace.description }}</p>
       <p class="message inria-regular  white-text">{{ site.data.marketplace.sub-title}}</p>
       <div class="marketplace__b2b mb-2">
         <div class="marketplace__b2b_img">
@@ -21,7 +21,7 @@ json-ld: marketplace-case
         </div>
         <div class="marketplace__b2b_text">
           <h2 class="message inria-bold white-text mb-2">{{ site.data.marketplace.b2b.title }}</h2>
-          <p class="description text-justify white-text">{{ site.data.marketplace.b2b.description }}</p>
+          <p class="description white-text">{{ site.data.marketplace.b2b.description }}</p>
         </div>
       </div>
       <h2 class="block-sub-title white-text">{{ site.data.marketplace.some_features }}</h2>
@@ -44,7 +44,7 @@ json-ld: marketplace-case
       <div class="marketplace__b2c_top">
         <div class="marketplace__b2c_top_text">
           <h2 class="message inria-bold">{{ site.data.marketplace.b2c.title }}</h2>
-          <p class="description text-right">{{ site.data.marketplace.b2c.description }}</p>
+          <p class="description">{{ site.data.marketplace.b2c.description }}</p>
         </div>
         <div class="marketplace__b2c_top_img">
           <img src= "/assets/images/marketplace/payment-done.webp" alt="bill">
@@ -76,7 +76,7 @@ json-ld: marketplace-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
             </div>
           </div>
         {% endfor %}
@@ -102,7 +102,7 @@ json-ld: marketplace-case
           {% for element in site.data.marketplace.case_study.bottom_info %}
             <li>
               <h3 class="message inria-bold mb-0 mt-1 white-text">{{ element.title }}</h3>
-              <p class="description text-justify mt-2 mb-4 white-text">{{ element.description }}</p>
+              <p class="description mt-2 mb-4 white-text">{{ element.description }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -112,7 +112,7 @@ json-ld: marketplace-case
   <div class="marketplace__solutions py-9">
     <div class="wrapper">
       <h2 class="block-cera-title purple-text">{{ site.data.marketplace.solutions.title }}</h2>
-      <p class="description text-justify mb-4">{{ site.data.marketplace.solutions.description }}</p>
+      <p class="description mb-4">{{ site.data.marketplace.solutions.description }}</p>
       <div class="list-with-images">
         {% for item in site.data.marketplace.solutions.all%}
           <div class="list-with-images__item">
@@ -121,7 +121,7 @@ json-ld: marketplace-case
             </div>
             <div class="list-with-images__item-text">
               <h3 class="message inria-bold mb-0 mt-1">{{ item.title }}</h3>
-              <p class="description text-justify">{{ item.description }}</p>
+              <p class="description">{{ item.description }}</p>
               <p class="message inria-bold mb-0 mt-1 purple-text">{{ site.data.marketplace.solutions.functionality }}</p>
               <ul class="list-with-images__item_elements mt-1">
                 {% for element in item.elements %}

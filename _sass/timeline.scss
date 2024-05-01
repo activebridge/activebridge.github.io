@@ -13,8 +13,6 @@
       .timeline-item__content {
         &-title { text-align: right; }
 
-        &-description { text-align: right; }
-
         &-output {
           &-title { text-align: right; }
 
@@ -107,11 +105,7 @@
         margin: 30px 0;
         text-align: center;
       }
-
-      &-description {
-        font-size: 0.8em;
-        text-align: justify;
-      }
+      &-description { font-size: 0.8em; }
     }
   }
 
@@ -149,8 +143,6 @@
           margin-left: 0;
 
           &-title { text-align: center; }
-
-          &-description { text-align: justify; }
 
           &-output {
             &-title { text-align: center; }
