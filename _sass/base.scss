@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'Cera Regular';
-  src: url(/assets/fonts/Cera.woff2);
+  font-family: 'FixelText-Regular';
+  src: url(/assets/fonts/FixelText-Regular.woff2);
   font-weight: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Cera-Bold';
-  src: url(/assets/fonts/Cera-Bold.woff2);
+  font-family: 'FixelText-Bold';
+  src: url(/assets/fonts/FixelText-Bold.woff2);
   font-weight: 700;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Cera-Medium';
-  src: url(/assets/fonts/Cera-Medium.woff2);
+  font-family: 'FixelText-Medium';
+  src: url(/assets/fonts/FixelText-Medium.woff2);
   font-weight: 600;
   font-display: swap;
 }
@@ -34,7 +34,7 @@
 
 body {
   color: $black;
-  font-family: 'Cera Regular', serif;
+  font-family: 'FixelText-Regular', serif;
   -webkit-tap-highlight-color: transparent;
 }
 p { margin: 0; }
@@ -61,7 +61,7 @@ ul, ol { margin-left: 0; }
 }
 
 .block-cera-title {
-  font-family: "Cera Regular", serif;
+  font-family: "FixelText-Regular", serif;
   font-size: 30px;
   letter-spacing: 0.4em;
   text-align: center;
@@ -77,7 +77,7 @@ ul, ol { margin-left: 0; }
 }
 
 .block-sub-title {
-  font-family: "Cera Regular", serif;
+  font-family: "FixelText-Regular", serif;
   font-size: 22px;
   letter-spacing: 0.4em;
   text-align: center;
@@ -219,11 +219,11 @@ ul, ol { margin-left: 0; }
     margin-bottom: 30px;
   }
 
-  .block-inria-title,.block-cera-title {
+  .block-inria-title,.block-fixel-title {
     font-size: 18px;
     line-height: 23px;
   }
-  .block-cera-title,.block-cera-title,.message { margin-bottom: 25px; }
+  .block-fixel-title,.block-fixel-title,.message { margin-bottom: 25px; }
 
   .message, .block-sub-title{
     font-size: 15px;

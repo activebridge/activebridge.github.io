@@ -12,7 +12,7 @@
     background: rgba(193, 201, 214, 0.01);
     box-shadow: $light-purple-shadow;
     color: $black_sea;
-    font-family: "Cera Regular", serif;
+    font-family: "FixelText-Regular", serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -26,7 +26,7 @@
 
     &--select {
       width: 600px;
-      font-family: "Cera Regular", serif;
+      font-family: "FixelText-Regular", serif;
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
@@ -52,7 +52,7 @@
   &__form-label {
     align-self: start;
     color: $black_sea;
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
     font-size: 15px;
     font-style: normal;
     line-height: 150%;
@@ -85,7 +85,7 @@
     display: inline-block;
     max-height: 30px;
     margin-top: 20px;
-    font: italic 14px/2 'Cera Regular', serif;
+    font: italic 14px/2 'FixelText-Regular', serif;
     text-align: center;
   }
 
