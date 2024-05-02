@@ -175,7 +175,7 @@
   &__container-items { margin-right: 10%; }
 
   &__item {
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
     display: flex;
     align-items: center;
     margin-bottom: 3vh;
@@ -197,7 +197,7 @@
     p {
       background: linear-gradient(135deg, $main-violet, $purple-heart);
       background-clip: text;
-      font-family: 'Cera Regular';
+      font-family: 'FixelText-Regular';
       font-size: 40px;
       font-weight: 700;
       -webkit-background-clip: text;

@@ -76,7 +76,7 @@
 
       &.bold {
         color: $black;
-        font-family: 'Cera-Medium';
+        font-family: 'FixelText-Medium';
         &:hover { color: var(--footer-hover); }
       }
     }
@@ -173,7 +173,7 @@
       &__item {
         font-size: 0.75em;
 
-        &.bold { font-family: "Cera-Bold"; }
+        &.bold { font-family: "FixelText-Bold"; }
       }
     }
 

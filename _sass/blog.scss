@@ -15,7 +15,7 @@
     text-align: left;
 
     li {
-      font-family: 'Cera Regular', serif;
+      font-family: 'FixelText-Regular', serif;
       font-size: 18px;
       font-weight: 400;
       line-height: 150%;
@@ -103,7 +103,7 @@
 
   &__title {
     font-size: 14px;
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
   }
 
   &__info-block {
@@ -125,7 +125,7 @@
   }
 
   &__info-block-description {
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
     font-size: 12px;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -134,7 +134,7 @@
     z-index: 2;
 
     &:last-child { padding-bottom: 5px; }
-    span { font-family: 'Cera Regular'; }
+    span { font-family: 'FixelText-Regular'; }
 
     p:not(.post__info-block-category) { color: var(--white-black); }
   }
@@ -212,14 +212,14 @@
   }
 
   h3 {
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
     font-size: 22px;
     font-style: normal;
     margin: 20px 0;
   }
 
   h4 {
-    font-family: 'Cera Regular';
+    font-family: 'FixelText-Regular';
     font-size: 18px;
     font-style: normal;
   }
@@ -319,13 +319,13 @@
 
 .post-description {
   &__title {
-    font-family: 'Cera-Bold';
+    font-family: 'FixelText-Bold';
     font-style: italic;
     font-size: 14px;
     margin-bottom: 5px;
 
     span {
-      font-family: 'Cera Regular';
+      font-family: 'FixelText-Regular';
       font-style: normal;
     }
   }
@@ -412,7 +412,7 @@
     text-transform: uppercase;
 
     p {
-      font-family: 'Cera-Bold';
+      font-family: 'FixelText-Bold';
       display: inline-block;
       position: relative;
 
