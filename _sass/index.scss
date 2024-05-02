@@ -51,6 +51,27 @@
   }
 }
 
+.top-section {
+  animation: fill 1s ease-out;
+  left: -10%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 6vh;
+  width: 100%;
+  svg { width: 140vw; }
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 .index {
   &-home {
     position: relative;

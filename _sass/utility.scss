@@ -21,6 +21,19 @@
 .text-upcase { text-transform: uppercase; }
 .text-left { text-align: left !important; }
 .text-right { text-align: right !important; }
+.purple-text { color: $purple-heart; }
+.text-justify { text-align: justify; }
+.text-center { text-align: center; }
+.info-container { background: $main-gradient !important; }
+.alabaster { background-color: $alabaster; }
+.white-text { color: $white !important; }
+b { font-family: "Cera-Bold", serif; }
+
+.flex-columns-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 @media (max-width: 767px) {
   .mb-4 { margin-bottom: 25px; }
