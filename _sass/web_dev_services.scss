@@ -39,8 +39,6 @@
   &__full_stack {
     background: center/cover no-repeat url('/assets/images/web_development_services/web_dev_bg.webp');
     background-color: $dark-purple;
-    margin-top: -2vh;
-    margin-bottom: -25px;
     .description { color: $buzok; }
 
     &-list {
@@ -161,8 +159,6 @@
     &__web_solutions { img { width: 55vw; } }
 
     &__full_stack {
-      margin-top: -3vh;
-      margin-bottom: -5vh;
       background-position: 77% 75%;
 
       &-list {
