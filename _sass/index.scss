@@ -43,6 +43,27 @@
   }
 }
 
+.top-section {
+  animation: fill 1s ease-out;
+  left: -10%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 6vh;
+  width: 100%;
+  svg { width: 140vw; }
+}
+
+@keyframes fill {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
 .index {
   &-home {
     position: relative;
@@ -146,6 +167,15 @@
     background: $main-gradient;
   }
 }
+
+@media (max-width: 1200px) {
+  .top-section {
+    left: -5%;
+    svg { width: 140vw; }
+  }
+}
+
+@media (max-width: 930px) { .main-svg { display: none;} }
 
 @media (max-width: 767px) {
   .home-page-container {
