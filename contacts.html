@@ -19,7 +19,7 @@ redirect_from:
       <p class="message inria-regular">{{ site.data.contacts.description }}</p>
     </div>
 
-    <form class="contacts__form" id="contactsForm">
+    <form class="contacts__form" id="contactsForm" action="https://email-sender.2056sanya9snake.workers.dev" method="post">
       <input type="hidden" id="contact-email" name="contactEmail" value="{{ site.email }}">
       <div class="contacts__form-group contacts__form-select">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
@@ -33,6 +33,11 @@ redirect_from:
       <div class="contacts__form-group">
         <label class="contacts__form-label" for="name"> Your Name*</label>
         <input class="contacts__field" type="name" name="name" id="name" placeholder="Alex Howard" required="true">
+      </div>
+
+      <div class="contacts__form-group">
+        <label class="contacts__form-label" for="email"> Your Email*</label>
+        <input class="contacts__field" type="email" name="email" id="email" placeholder="alexhoward@mail.com" required="true">
       </div>
 
       <div class="contacts__form-group">
