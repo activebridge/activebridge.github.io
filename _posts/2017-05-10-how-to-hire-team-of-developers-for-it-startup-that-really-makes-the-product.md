@@ -17,6 +17,9 @@ date-modified: "2020-02-25"
 description: "You have a thoughtful idea, vision, clear understanding of the goal, a few first potential investors, and even
               a budget"
 title: "How to Hire a Dedicated Team of Developers for Your Project"
+
+redirect_from:
+  - /blog/article/how-to-hire-team-of-developers-for-it-startup-that-really-makes-the-product
 ---
 
 Now, you’ve decided to give the world a new product or service. You have a thoughtful idea, vision, clear understanding of the goal, a few first potential investors, and even a budget. For now to complete the team remains a subject. 

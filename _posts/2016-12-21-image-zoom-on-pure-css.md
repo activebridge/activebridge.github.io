@@ -16,6 +16,9 @@ article-body: ""
 date-modified: "2020-02-25"
 description: "I believe that every shopping website has ability zoom the product image."
 title: "Image Zoom on Pure CSS"
+
+redirect_from:
+  - /blog/article/how-to-implement-nice-image-uploader-to-tinymce
 ---
 
 When you are building an e-commerce website, especially a showcase, a website gallery, a template selling website ..., you always need many good images for using and giving your visitors/customers the detailed view of your images (or your product).

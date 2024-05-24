@@ -17,6 +17,11 @@ date-modified: "2020-02-25"
 description: "It sounds extremely challenging. Being able to change the expected outcome of a method can cause all sorts of
               weird behavior and difficult to track down bugs. Monkey Patch to help."
 title: "Monkey Patch a Complete Guide"
+
+redirect_from:
+  - /blog/article/how-not-to-cut-your-source-with-sharp-knife-as-monkey-patch-in-ruby
+  - /blog/article/why-ruby-on-rails-development-company
+  - /blog/article/mvc-pattern-quick-review
 ---
 
 One of the most powerful Ruby features is the ability to re-open any class and change it’s methods.

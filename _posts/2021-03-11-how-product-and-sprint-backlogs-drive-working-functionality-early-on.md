@@ -18,6 +18,9 @@ date-modified: "2021-11-24"
 description: "The use of short development cycles called \"sprints\" perfectly aligns with the fast-paced nature of business
              in the modern era"
 title: "How Product and Sprint Backlogs Add Value to a Product"
+
+redirect_from:
+  - /blog/article/how-product-and-sprint-backlogs-drive-working-functionality-early-on
 ---
 
 Agile project management has grown in popularity significantly over the last ten years, and with good reason. The use of short development cycles called "sprints" perfectly aligns with the fast-paced nature of business in the modern era. Additionally, the drive for better performance, efficiency, and results in a world where approximately [66% of development projects fail](https://www.tiempodev.com/blog/why-software-development-projects-fail/ ), makes agile management methods attractive to most businesses. 

@@ -16,6 +16,9 @@ article-body: ""
 date-modified: "2020-03-23"
 description: "Just in the United States, there are over 223,000 open positions, of which 90% are outside Silicon Valley"
 title: "All You Need to Know Finding the Right IT Staff Augmentation Vendor"
+
+redirect_from:
+  - /blog/article/finding-the-right-it-staff-augmentation-vendor-extended-guide
 ---
 
 The demand for qualified software developers is growing faster than ever. Just in the United States, there are over 223,000 open positions, of which 90% are outside Silicon Valley. [Monster Job Board](http://www.arcgis.com/apps/MapJournal/index.html?appid=b1c59eaadfd945a68a59724a59dbf7b1) indicates that the staff shortage might be much greater than many would expect. According to [their most recent survey of employers](https://www.monster.com/career-advice/article/tech-talent-gap-survey-0816), the shortage of qualified programmers today might be at its worst since 2008.

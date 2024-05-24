@@ -17,6 +17,9 @@ date-modified: "2020-02-25"
 description: "This was expressed both in new customers who came through the site and in the ability to quickly inform
               existing customers about your products and services"
 title: "5 Reasons Why You Should Refresh Your Website"
+
+redirect_from:
+  - /blog/article/how-to-determine-that-you-need-refresh-your-website-checklist
 ---
 
 Ten years ago your company invested in the site development significant resources, now you have got some revenue from it. This was expressed both in new customers who came through the site and in the ability to quickly inform existing customers about your products and services.

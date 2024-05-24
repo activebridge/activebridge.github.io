@@ -17,6 +17,9 @@ date-modified: "2022-01-20"
 description: "It offers next-level simplicity and flexibility and has resulted in some of the most engaging and efficient
               web apps we use every day"
 title: "Does ReactJS Front-end Pair Well with Ruby on Rails Back-end?"
+
+redirect_from:
+  - /blog/article/why-you-should-choose-react-js-with-rails-backend-for-your-web-app
 ---
 
 React.js is one of the most popular frameworks out there, and with good reason. It offers next-level simplicity and flexibility and has resulted in some of the most engaging and efficient web apps we use every day. It's even been dubbed the future of web development!

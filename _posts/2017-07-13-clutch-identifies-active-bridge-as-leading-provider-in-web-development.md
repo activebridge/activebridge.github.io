@@ -16,6 +16,9 @@ article-body: ""
 date-modified: "2020-02-25"
 description: "Ruby on Rails is our expertise and is what drives the vision for our company"
 title: "Active Bridge is a Leading Web Service Provider"
+
+redirect_from:
+  - /blog/article/active-bridge-recognized-as-a-top-it-business-services-firm-in-ukraine-by-clutch
 ---
 
 # Clutch Identifies Active Bridge as Leading Provider in Web Development
