@@ -145,7 +145,7 @@
 
   #about-chart-container-button {
     background-color: var(--transparent-dark-btn);
-    color: var(--white-black) !important;
+    color: $black !important;
 
     &:hover { color: $main-violet !important; }
   }

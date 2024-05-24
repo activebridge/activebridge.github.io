@@ -77,7 +77,7 @@
       &.bold {
         color: $black;
         font-family: 'Cera-Medium';
-        &:hover { color: $main-violet; }
+        &:hover { color: var(--footer-hover); }
       }
     }
 
@@ -85,7 +85,7 @@
       color: rgba($black, .8);
       text-decoration: none;
 
-      &:hover { color: $main-violet; }
+      &:hover { color: var(--footer-hover); }
     }
 
     &-copyright {

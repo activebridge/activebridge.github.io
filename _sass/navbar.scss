@@ -6,7 +6,7 @@ header {
   z-index: 5;
   width: 100%;
   background-color: var(--white);
-  box-shadow: 0px 4px 4px 0px rgba(#000, .25);
+  box-shadow: 0px 4px 4px 0px var(--navbar-shadow);
   view-transition-name: header;
 
   #menu-btn { display: none; }
@@ -63,6 +63,7 @@ header {
       box-shadow: $violet-active-shadow;
       background: transparent;
       border: none;
+      font-family: 'Cera-Bold';
     }
   }
 }
