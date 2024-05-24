@@ -17,6 +17,11 @@ date-modified: "2020-02-25"
 description: "The goal of machine learning is to determine what interrelations between different indicators will be detected
               by artificial intelligence"
 title: "Understanding Bounce Rate to Improve It"
+
+redirect_from:
+  - /blog/article/three-main-factors-influencing-on-bounce-rate-and-conversion-according-to-machine-learning-determination
+  - /blog/staffing-trends-change-the-way-businesses-acquire-tech-talents
+  - /blog/article/fighting-duplication-in-angularjs-controllers
 ---
 
 [SOASTA](https://www.soasta.com/)  provides a number of services for analytics and site testing. The company's specialists used huge arrays of data collected by their analytics system. The goal of machine learning is to determine what interrelations between different indicators will be detected by artificial intelligence. Tammy Everts from Soasta and Pat Minnan from Google have presented the results at the Velocity 2016 conference, that was held in New York in September 2016.

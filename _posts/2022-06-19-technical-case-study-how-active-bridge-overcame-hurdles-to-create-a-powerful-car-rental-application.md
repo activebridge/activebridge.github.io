@@ -16,6 +16,9 @@ article-body: ""
 date-modified: "2022-06-29"
 description: "At ActiveBridge, we're always happy to share our technical solutions with our readers"
 title: "Technical Case Study: Reaching the Max Limit for Ids in Postgres"
+
+redirect_from:
+  - /blog/article/technical-case-study-how-active-bridge-overcame-hurdles-to-create-a-powerful-car-rental-application
 ---
 
 Sometimes, the best way to see what a technical solution can do for you is to understand how it worked for others. At ActiveBridge, we're always happy to share our technical solutions with our readers. And that's why today, we'll dive into the issues we faced developing a car rental application for one of our customers. 

@@ -17,6 +17,10 @@ date-modified: "2020-02-25"
 description: "On-demand mobile applications are currently attracting a lot of interest at both the customers and developers
               levels"
 title: "Tips to Build Uber Car Animation Features in Your App"
+
+redirect_from:
+  - /blog/how-to-build-uber-car-animation-using-mapbox-markers-76a9aa42-82b5-4a3d-bd65-c96cf2b9d0cf
+  - /blog/article/how-to-build-uber-car-animation-using-mapbox-markers-76a9aa42-82b5-4a3d-bd65-c96cf2b9d0cf
 ---
 
 As a full-stack developer, every time I see state-of-the-art features in mobile applications, I always try to figure out their core and implement in my work. On-demand mobile applications are currently attracting a lot of interest at both the customers and developers levels. Nowadays Uber app is one of the most popular mobile applications, that’s gained more attention. Because of its user experience and development solutions.  Every local business wants an Uber-like taxi app or its clone.  

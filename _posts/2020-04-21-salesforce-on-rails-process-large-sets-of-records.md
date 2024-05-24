@@ -16,6 +16,9 @@ article-body: ""
 date-modified: "2020-06-25"
 description: "We are Ruby on Rails developers"
 title: "Bulk API: Process large sets of records from Rails app to Salesforce"
+
+redirect_from:
+  - /blog/article/salesforce-on-rails-process-large-sets-of-records
 ---
 
 authors: **Alex Borodai, Vlad Tupytskyi**

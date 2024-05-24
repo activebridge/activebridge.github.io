@@ -17,6 +17,11 @@ date-modified: "2020-02-25"
 description: "A lot of customers complain that outstaffing agencies frequently replace the interviewed developer to another
               one"
 title: "Reasons why the one could resort to code stylometry"
+
+redirect_from:
+  - /blog/article/ruby-code-stylometry
+  - /getting_started
+  - /blog/article/one-doesn-t-simple-run-an-agile-project
 ---
 
 A little while ago we’ve discussed topical issues in our agency meeting. The agenda was about the setup of developers. A lot of customers complain that outstaffing agencies frequently replace the interviewed developer to another one. 
