@@ -17,6 +17,10 @@ date-modified: "2020-02-25"
 description: "However, now, along with information society foundation cryptography’s became one of the main tools providing
               confidentiality, authorization, electronic payments"
 title: "Encryption. Ruby practice"
+
+redirect_from:
+  - /blog/article/what-is-the-best-strategy-for-encrypting-files-in-ruby
+  - /blog/article/unobtrusive-scripting-adapter-vs-remote-part-ajax-file-uploader
 ---
 
 ## Symmetric encryption in Ruby

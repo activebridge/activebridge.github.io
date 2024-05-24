@@ -17,6 +17,9 @@ date-modified: "2021-12-09"
 description: "The concept was born out of the need for businesses to test hypotheses and learn about product ideas quickly
               rather than waiting for a full launch"
 title: "How Ruby on Rails Aligns with MVP Development Best Practices"
+
+redirect_from:
+  - /blog/article/why-ruby-on-rails-might-be-a-good-choice-for-your-mvp-tech-stack
 ---
 
 Although it is commonplace in many organizations, the minimum viable product (MVP) only celebrated its [20th birthday ](https://en.wikipedia.org/wiki/Minimum_viable_product) in 2021. The concept was born out of the need for businesses to test hypotheses and learn about product ideas quickly rather than waiting for a full launch. 
