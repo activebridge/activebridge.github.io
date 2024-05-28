@@ -223,6 +223,14 @@
   &:visited { color: $white; }
 }
 
+@media (max-width: 1200px) {
+  .top-section {
+    left: -5%;
+    svg { width: 140vw; }
+  }
+}
+
+@media (max-width: 930px) { .main-svg { display: none;} }
 
 @media (max-width: 767px) {
   .home-page-container {
