@@ -21,11 +21,11 @@
 .text-upcase { text-transform: uppercase; }
 .text-left { text-align: left !important; }
 .text-right { text-align: right !important; }
-.purple-text { color: $purple-heart; }
+.purple-text { color: var(--purple-violet); }
 .text-justify { text-align: justify; }
 .text-center { text-align: center; }
 .info-container { background: $main-gradient !important; }
-.alabaster { background-color: $alabaster; }
+.alabaster { background: var(--white-gradient); }
 .white-text { color: $white !important; }
 b { font-family: "FixelText-Bold", serif; }
 

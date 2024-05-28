@@ -63,6 +63,9 @@
     background-color: $titan_white;
     box-shadow: inset 0px 4px 25px 0px rgba($purple-heart, .2);
     filter: var(--filter-invert);
+
+    .message,
+    .description { color: $black; }
   }
 
   .solutions_cases__case_study {

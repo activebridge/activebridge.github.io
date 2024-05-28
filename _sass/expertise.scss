@@ -2,8 +2,6 @@
   .message,
   .description { color: var(--body-color); }
 
-  &__main { background: var(--white-gradient); }
-
   &__technologies {
     background: var(--technologies);
     box-shadow: 0px 0px 20px -3px grey;
@@ -38,6 +36,8 @@
     min-height: 85vh;
     background: center/cover no-repeat url('/assets/images/expertise/tell-us.webp');
     background-color: $dark-violet;
+
+    .white-text:not(.button) { color: var(--white) !important; }
   }
 }
 

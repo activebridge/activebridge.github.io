@@ -49,7 +49,9 @@
     filter: var(--filter-invert);
     position: relative;
 
-    .block-cera-title { color: $black; }
+    .block-cera-title,
+    .message,
+    .description { color: $black; }
 
     .list-with-images.horizontal .list-with-images__item {
       max-width: 23%;

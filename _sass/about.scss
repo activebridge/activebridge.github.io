@@ -139,11 +139,8 @@
       position: relative;
       min-height: 100vh;
     }
-    &-text {
-      line-height: 1.6;
-
-      .block-cera-title { color: var(--white-black); }
-    }
+    
+    &-text { line-height: 1.6; }
 
     &-button {
       position: absolute;

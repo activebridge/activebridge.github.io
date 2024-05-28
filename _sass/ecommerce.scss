@@ -46,6 +46,9 @@
   &__help {
     background: $titan_white;
     filter: var(--filter-invert);
+
+    .message,
+    .description { color: $black; }
   }
 
   .solutions_cases__case_study {

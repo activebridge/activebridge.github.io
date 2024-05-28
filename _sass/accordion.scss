@@ -28,7 +28,7 @@
         justify-content: center;
         padding: .75em;
         box-shadow: $main-shadow;
-        color: $black;
+        color: var(--body-color);
         list-style-type: none !important;
         letter-spacing: 0.4em;
         text-transform: uppercase;
@@ -37,7 +37,7 @@
         &::before,
         &::after {
           content: '';
-          border-color: $white transparent transparent transparent;
+          border-color: var(--white) transparent transparent transparent;
           border-style: solid;
           border-width: 15px 7.5px 0 7.5px;
           height: 0px;

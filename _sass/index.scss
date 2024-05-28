@@ -12,12 +12,15 @@
 
   .description {
     margin: 0 auto;
-    position: inherit;
+    position: sticky;
     max-width: 700px;
     width: 100%;
     color: $dark_black;
     z-index: 1;
   }
+
+  .page-title,
+  .block-inria-title { color: $black; }
 
   .button {
     background: rgba(var(--rgba-white), .4);

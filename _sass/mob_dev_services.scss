@@ -48,7 +48,7 @@
     box-shadow: 0 4px 25px 0 rgba($purple-heart, .25);
     filter: var(--filter-invert);
 
-    .block-cera-title { color: $black; }
+    * { color: $black; }
   }
 
   &__ionic {
