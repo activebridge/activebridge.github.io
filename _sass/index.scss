@@ -185,6 +185,8 @@
     align-items: center;
     padding-bottom: 0;
     top: 0;
+    background-size: cover;
+
     .page-title { order: 2; }
 
     .index-logo {
@@ -197,6 +199,7 @@
       font-size: 15px;
       order: 3;
     }
+
     .description { display: none; }
 
     .awards-img {
@@ -230,7 +233,6 @@
   }
 
   .index {
-
     &-home {
       .button { margin-top: 3em; }
     }
