@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 7em;
-  background: center/cover no-repeat url('/assets/images/index/background.webp');
+  background: url('/assets/images/index/background.webp') no-repeat center/100% 100%;
   background-color: $alabaster;
   line-height: 1.5;
   z-index: 1;
@@ -45,12 +45,13 @@
 
 .top-section {
   animation: fill 1s ease-out;
-  left: -10%;
+  left: -3%;
   height: 100%;
   position: absolute;
   overflow: hidden;
-  top: 6vh;
+  top: 43vh;
   width: 100%;
+
   svg { width: 140vw; }
 }
 
