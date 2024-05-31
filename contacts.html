@@ -19,7 +19,7 @@ redirect_from:
       <p class="message inria-regular">{{ site.data.contacts.description }}</p>
     </div>
 
-    <form class="contacts__form" id="contactsForm" action="https://email-sender.2056sanya9snake.workers.dev" method="post">
+    <form class="contacts__form" id="contactsForm" action="https://mailer.pwt.workers.dev/" method="post">
       <input type="hidden" id="contact-email" name="contactEmail" value="{{ site.email }}">
       <div class="contacts__form-group contacts__form-select">
         <label class="contacts__form-label" for="subject">Contact Reason*</label>
@@ -44,7 +44,6 @@ redirect_from:
         <label class="contacts__form-label contacts__form-label" for="body">Provide the project details and your expectations in case of cooperating with our team</label>
         <textarea class="contacts__field" id="body" name="body" placeholder="Type here"></textarea>
       </div>
-
       <button class="button contacts__submit-btn" type="submit" id="send" type="submit">Send</button>
       <a class="contacts__field contacts__to-faq mb-4" href="/privacy_policy" data-link="transition">{{site.data.contacts.link_to_faq}}</a>
       <div class="contacts__after-send after-send">
@@ -57,4 +56,5 @@ redirect_from:
       </div>
     </form>
   </div>
+  {% include modal.html %}
 </div>

@@ -1,5 +1,8 @@
-document.getElementById('contactsForm').addEventListener('submit', function(event) {
+const closeModal = () => { window.modalwindow.close() }
+
+window.contactsForm.addEventListener('submit', function(event) {
   event.preventDefault();
+  let modal = window.modalwindow;
   const formData = new FormData(this);
   fetch(this.action, {
     method: 'POST',
@@ -14,8 +17,10 @@ document.getElementById('contactsForm').addEventListener('submit', function(even
     })
   })
   .then(response => response.text())
-  .then(data => console.log(data))
+  .then(data => {
+    modal.showModal();
+    modal.querySelector('.message').textContent = data;
+    this.reset();
+  })
   .catch(error => console.error('Error:', error));
-
-  this.reset();
 });

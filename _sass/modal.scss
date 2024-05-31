@@ -1,0 +1,7 @@
+.modal {
+  &::backdrop { background-color: rgba(0, 0, 0, 0.5)}
+  border: none;
+  border-radius: 5px;
+  background-color: #dbdfeb;
+  &__close { margin-left: 90%; }
+}
