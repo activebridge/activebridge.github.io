@@ -85,7 +85,7 @@ function setCarousel(scroller) {
 
     const start = element.scrollLeft;
     const change = to - start;
-    const duration = 400;
+    const duration = 500;
     let currentTime = 0;
 
     function animateScroll() {
