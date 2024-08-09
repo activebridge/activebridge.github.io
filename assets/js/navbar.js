@@ -42,4 +42,18 @@ function innitMobileNavbar() {
   scroller.addEventListener('touchend', function(event) {
     dragSvg.classList.remove('touch-right', 'touch-left');
   });
+
+  const observer = new IntersectionObserver((entries) => {
+    const carouselsOverlays = document.querySelectorAll('.magnifying-overlay');
+
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        carouselsOverlays.forEach((element) => element.style.display = 'block')
+      } else {
+        carouselsOverlays.forEach((element) => element.style.display = 'none')
+      }
+    });
+  }, { threshold: [0] });
+
+  observer.observe(closeMobileNavButton);
 }

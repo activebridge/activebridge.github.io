@@ -41,29 +41,23 @@ redirect_from:
       <p class="block-sub-title">{{ site.data.expertise.industries.title }}</p>
     </div>
     <div class="carousel-scroll" >
-      <div class="carousel-scroll__scroller" data-scroll="scroller">
-        <div class="frame"></div>
-        <div class="frame"></div>
+      <div class="carousel-scroll__scroller" data-scroll="scroller" onscroll='loop(event)'>
         {% for element in site.data.expertise.industries.all %}
-          <div class="carousel-scroll__item" data-scroll="item">
-            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-              <h2 class="animate-visibility__title">{{ element.title }}</h2>
-              <div class="animate-visibility__image">
-                <img src="/assets/images/{{ element.icon }}" alt="Logo">
-              </div>
-              <p class="text-center italic">{{ site.data.expertise.industries.devs_work_on }}</p>
-              <div class="animate-visibility__description">
-                <ul class="animate-visibility__list">
-                  {% for item in element.items %}
-                    <li class="animate-visibility__list-item">{{ item }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity" data-scroll="item">
+            <h2 class="animate-visibility__title">{{ element.title }}</h2>
+            <div class="animate-visibility__image">
+              <img src="/assets/images/{{ element.icon }}" alt="Logo">
+            </div>
+            <p class="text-center italic">{{ site.data.expertise.industries.devs_work_on }}</p>
+            <div class="animate-visibility__description">
+              <ul class="animate-visibility__list">
+                {% for item in element.items %}
+                  <li class="animate-visibility__list-item">{{ item }}</li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
         {% endfor %}
-        <div class="frame"></div>
-        <div class="frame"></div>
       </div>
       <div class="magnifying-overlay"></div>
     </div>

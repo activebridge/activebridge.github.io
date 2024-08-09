@@ -30,22 +30,16 @@ json-ld: services
     </div>
     <div class="carousel-background">
       <div class="carousel-scroll" >
-        <div class="carousel-scroll__scroller" data-scroll="scroller">
-          <div class="frame"></div>
-          <div class="frame"></div>
+        <div class="carousel-scroll__scroller" data-scroll="scroller" onscroll='loop(event)'>
           {% for item in site.data.services.web_services.all %}
-            <div class="carousel-scroll__item" data-scroll="item">
-              <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-                <h2 class="animate-visibility__title">{{ item.title }}</h2>
-                <div class="animate-visibility__image">
-                  <img src="/assets/images/services/web_dev/{{ item.icon }}" alt="Logo">
-                </div>
-                <div class="animate-visibility__description">{{ item.description }}</div>
+            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity" data-scroll="item">
+              <h2 class="animate-visibility__title">{{ item.title }}</h2>
+              <div class="animate-visibility__image">
+                <img src="/assets/images/services/web_dev/{{ item.icon }}" alt="Logo">
               </div>
+              <div class="animate-visibility__description">{{ item.description }}</div>
             </div>
           {% endfor %}
-          <div class="frame"></div>
-          <div class="frame"></div>
         </div>
         <div class="magnifying-overlay"></div>
       </div>
@@ -63,22 +57,16 @@ json-ld: services
       <p class="description white-text">{{ site.data.services.custom_ror_dev_services.description }}</p>
     </div>
     <div class="carousel-scroll" >
-      <div class="carousel-scroll__scroller" data-scroll="scroller">
-        <div class="frame"></div>
-        <div class="frame"></div>
+      <div class="carousel-scroll__scroller" data-scroll="scroller" onscroll='loop(event)'>
         {% for item in site.data.services.custom_ror_dev_services.all %}
-          <div class="carousel-scroll__item" data-scroll="item">
-            <div class="carousel-scroll__animate-visibility animate-visibility with-opacity">
-              <h2 class="animate-visibility__title">{{ item.title }}</h2>
-              <div class="animate-visibility__image">
-                <img src="/assets/images/services/custom_ror_dev/{{ item.icon }}" alt="Logo">
-              </div>
-              <div class="animate-visibility__description">{{ item.description }}</div>
+          <div class="carousel-scroll__animate-visibility animate-visibility with-opacity" data-scroll="item">
+            <h2 class="animate-visibility__title">{{ item.title }}</h2>
+            <div class="animate-visibility__image">
+              <img src="/assets/images/services/custom_ror_dev/{{ item.icon }}" alt="Logo">
             </div>
+            <div class="animate-visibility__description">{{ item.description }}</div>
           </div>
         {% endfor %}
-        <div class="frame"></div>
-        <div class="frame"></div>
       </div>
       <div class="magnifying-overlay"></div>
     </div>

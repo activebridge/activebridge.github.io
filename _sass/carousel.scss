@@ -1,9 +1,9 @@
-.carousel-scroll{
-  margin: 0 auto;
-  max-width: 950px;
+.carousel-scroll {
   position: relative;
-
   &__scroller {
+    max-width: 950px;
+    margin: 20px auto;
+    position: relative;
     background-color: inherit;
     display: grid;
     grid-auto-flow: column;
@@ -13,86 +13,40 @@
     place-items: center;
     overflow: scroll;
     margin: 0 auto;
-    scroll-snap-type: x mandatory;
     scrollbar-width: none;
-
+    perspective: 1000px;
+    touch-action: pan-y;
     &::-webkit-scrollbar { display: none; }
   }
 
-  &__item {
-    view-timeline-name: --item;
-    view-timeline-axis: inline;
-    padding: 0;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    margin: 0;
-    min-height: 100px;
-    height: 350px;
-  }
-
-  .magnifying-overlay {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    transform: translateX(-50%);
-    pointer-events: none;
-    z-index: 4;
-  }
-
-  .carousel-scroll__item.scaling-up {
-    z-index: 3;
-
-    .animate-visibility {
-      animation: scaleUp 0.4s ease-in-out forwards;
-      transform: scale(1.4);
-      -webkit-transform: scale(1.4);
-    }
-  }
-
-  @keyframes scaleUp {
-    from {
-      opacity: 0.5;
-      transform: scale(1);
-      -webkit-transform: scale(1)
-    }
-
-    to {
-      opacity: 1;
-      transform: scale(1.4);
-      -webkit-transform: scale(1.4);
-    }
-  }
-
   &__animate-visibility {
-    animation: scalify ease-in-out;
-    animation-timeline: --item;
+    animation: scalify ease-in-out forwards;
+    min-height: 100px;
+    height: 400px;
     background: $white;
+    scale: max(calc(20% + (100% - 1% * var(--viewport))), 50%);
+    opacity: calc(1 - var(--viewport) / 80);
+    transform: rotate3d(0, 1, 0, calc(-1deg * var(--viewport2)));
+    transition: opacity .1s;
     border-radius: 20px;
     box-sizing: border-box;
-    box-shadow: -2px -2px 12px 2px rgba($dark_black, .25) inset;
+    box-shadow: -2px -2px 12px 2px rgba($black, .25) inset;
     cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
-    margin: 0 15px;
+    margin: 0;
     padding: 18px;
     position: relative;
     overflow: hidden;
     user-select: none;
-    width: 277px;
+    width: 320px;
     z-index: 1;
   }
-
-  &__animate-visibility.with-opacity { opacity: 0.5; }
 
   @keyframes scalify {
     50% {
       opacity: 1;
-      scale: 1.4;
-      z-index: 3;
     }
   }
 }
@@ -117,7 +71,8 @@
     font-size: 11px;
     line-height: 15px;
     height: 70%;
-    text-align: left;
+
+    p { text-align: justify; }
     &::-webkit-scrollbar { display: none; }
   }
 
@@ -126,10 +81,8 @@
     display: flex;
     justify-content: center;
     margin: 10px 0;
-
     img, svg { width: 90px; }
   }
-
   &__image.without-margin { margin-bottom: 0; }
 
   &__list {
@@ -139,7 +92,6 @@
     margin-top: 10px;
     padding-left: 10px;
     text-align: left;
-
     &::-webkit-scrollbar { display: none; }
   }
 
@@ -178,15 +130,16 @@
   }
 }
 
-@media (max-width: 767px ) {
+@media (max-width: 930px ) {
   .carousel-scroll {
-    &__scroller { height: 450px; }
+    &__scroller { max-width: 750px; }
+
     &__animate-visibility {
       padding: 15px;
       width: 250px;
+      height: 300px;
     }
 
-    &__item { height: 290px; }
   }
 
   .animate-visibility {
@@ -199,10 +152,8 @@
 
     &__image {
       margin-bottom: 10px;
-
       img, svg { width: 70px; }
     }
-
     &__list { font-size: 10px; }
   }
 
@@ -213,10 +164,27 @@
   }
 }
 
+@media (max-width: 768px) {
+  .carousel-scroll {
+    &__scroller { max-width: 500px; }
+    &__animate-visibility { scale: max(calc(30% + (100% - 1% * var(--viewport))), 50%); }
+  }
+
+}
+
 @media (max-width: 480px ) {
   .carousel-scroll {
-    padding: 0 5px;
-
-    &__animate-visibility { width: 220px; }
+    &__scroller {  max-width: 400px; }
+    &__animate-visibility { width: 200px; }
   }
+}
+
+.magnifying-overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
