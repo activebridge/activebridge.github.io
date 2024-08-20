@@ -9,7 +9,7 @@ layout: null
       {% unless page.sitemap_exclude or page.url contains '404.html' or page.url contains '.xml' or page.url contains '.css'%}
         <url>
           <loc>{{ site.url }}{{ page.url | remove: 'index.html' | remove: '.html' }}</loc>
-          <lastmod>{{ page.date-modified | date: '%Y-%m-%d' }}</lastmod>
+          <lastmod>{{ page.date-modified | default: site.default-date-modified | date: '%Y-%m-%d' }}</lastmod>
         </url>
       {% endunless %}
     {% endif %}
