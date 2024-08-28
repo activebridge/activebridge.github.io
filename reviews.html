@@ -57,7 +57,7 @@ json-ld: reviews
       <h2 class="message inria-bold white-text">{{ site.data.testimonials.solutions.description }}</h2>
     </div>
     <div class="carousel-scroll" >
-      <div class="carousel-scroll__scroller" data-scroll="scroller" onscroll='loop(event)'>
+      <div class="carousel-scroll__scroller" data-scroll="scroller">
         {% for item in site.data.testimonials.solutions.all %}
           <div class="carousel-scroll__animate-visibility animate-visibility with-opacity" data-scroll="item">
             <h2 class="animate-visibility__title">{{ item.title }}</h2>
