@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 default-date-modified: '2024-04-01'
 sass:
-  style: compact
+  style: compressed
 
 # Build settings
 theme: minima
