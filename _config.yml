@@ -38,6 +38,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-redirect-from
+  - jekyll-minifier
 
 include: ['_solutions']
 
@@ -52,6 +53,13 @@ pagination:
 google:
   tag_manager:
     container_id: GTM-PH7L55P
+
+jekyll-minifier:
+  compress_css: false
+  compress_javascript: true
+  compress_html: true
+  uglifier_args:
+    harmony: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
