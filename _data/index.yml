@@ -6,25 +6,24 @@ teams_expertise: Leverage Active Bridge's expertise to build scalable applicatio
 free_consultation: Get Your Free Consultation Today
 help_startups: We're here to assist startups and SMEs in overcoming both complex and routine technological challenges,
                serving as your trusted partner.
-testimonials_description: Unique business challenges demand bespoke solutions. At Active Bridge, our expertise in Ruby on Rails and
-                          complementary technologies enables us to tailor and execute solutions that precisely meet each client's specific
-                          needs. Specializing in Ruby on Rails, we offer custom web and mobile application development, IT staff augmentation,
-                          and cloud solutions tailored to your unique business needs.
+testimonials_description: Unique business challenges demand bespoke solutions. Our expertise in Ruby on Rails and
+                          complementary technologies allows us to craft and implement solutions precisely tailored to each
+                          client's specific needs.
 read_testimonials: Read all testimonials
 our_vision: 'Our vision:<br> professional team as a service'
-care_about_your_projects: We care about your project, users, profit, and growth. We are ready to fill the technology
-                          gap in your business and share our expertise.
+care_about_your_projects: We care about your project, users, profitability, and growth. Ready to bridge your technology gaps,
+                          we share our expertise to drive your success
 dedicated_developers: Active Bridge offers dedicated full-stack developers to scale projects and enhance in-house capabilities.
                       Our teams seamlessly integrate with your business processes, delivering expert development and innovative
                       technology solutions on demand.
-core_technology: Ruby on Rails is our core technology
-technologies_knowledge: but our team has extensive knowledge in other technologies compatible with Rails and needed to provide
-                        custom web and mobile apps, online marketplaces, CRM, ERP, and cloud-based software solutions.
+core_technology: While Ruby on Rails is our core technology
+technologies_knowledge: team's extensive complementary tech stack enables us to deliver reliable, scalable solutions for web,
+                        cloud-based applications, e-commerce platforms, CRM, and ERP systems.
 featured_technologies: Featured technologies
-expert_web_services: We provide expert web, cloud-based engineering and consultancy services
-embedded_teams: Active Bridge tailors our embedded teams to our clients’ specific demands, ensuring each client will always have
-                the right developers for the project at hand. Partner with Active Bridge for bespoke technology solutions that drive growth.
-                Our agile, expert teams integrate seamlessly into your projects, delivering excellence from conception to completion.
+expert_web_services: We deliver expert web and cloud-based engineering and consultancy services tailored to your needs.
+embedded_teams: At Active Bridge, we build embedded teams customized to clients' unique requirements, ensuring you always have
+                the right talent for the job. Partner with us for bespoke technology solutions that fuel growth. Our agile,
+                dedicated teams integrate seamlessly into your projects, delivering reliable results from inception to deployment.
 our_services: Our services
 services:
 - title: Custom Ruby on Rails development services
@@ -38,12 +37,11 @@ services:
 learn_more: Learn more about our expertise
 view_services: View our services
 our_company: Our company
-about_us_description: Active Bridge is an IT company specializing in providing dedicated full-stack developers on-demand to clients
-                      looking to augment their in-house teams. Active Bridge is headquartered in Arizona, US, with an R&D center in
-                      Ukraine. We started in 2013 as a small team of Ukrainian developers with a passion for Ruby on Rails and an
-                      unstoppable drive to provide effective web solutions for our clients. Since then, we’ve successfully assisted
-                      our clients in developing and maintaining websites and web-based systems, mobile applications, and software
-                      products.
+about_us_description: Active Bridge is a trusted IT partner specializing in on-demand, dedicated full-stack developers for clients
+                      seeking to enhance their in-house teams. Headquartered in Arizona, USA, with an R&D center in Ukraine, we began our
+                      journey in 2013 as a passionate team of Ukrainian developers driven by a shared love for Ruby on Rails and a
+                      commitment to delivering effective web solutions. Since then, we’ve grown into a global team that has successfully
+                      developed and maintained websites, web-based systems, mobile applications, and software products for diverse industries.
 about_us_items:
 - logo: "10"
   text: years of remote development
@@ -63,8 +61,7 @@ view_all_solutions: View all solutions
 solutions:
 - logo: healthcare.webp
   title: Healthcare & HIPPA HealthTech
-  description: Active Bridge provides end-to-end custom <span class="purple-text">web development solutions</span> for non-financial
-               businesses, fintech organizations, and banks.
+  description: We deliver secure and HIPPA compliant healthcare web development solutions for hospitals, doctors, patients.
   index: 1
 - logo: bank.webp
   title: Finance & Banking
