@@ -1,25 +1,24 @@
 page-title: Our Team
-title: It is all about people you work with
+title: It's all about the people you work with
 subtitle_1: Our success is not only due to the quality of our work; it's down to the people working at Active Bridge,
             our approach to collaboration, and the way we treat our clients.
-description: At Active Bridge, we prioritize ensuring that our team members feel invested in the company's success and
-             valued for their opinions and viewpoints. We consider our team indispensable and take proactive measures
-             to understand their needs and incorporate them into shaping the company's future.
-subtitle_2: We are here to help you to make an impact through technology.
+description: At Active Bridge, we ensure our team members feel integral to the company's success and valued for their
+             perspectives. We consider our team indispensable, proactively understanding their needs and involving them
+             in shaping our future.
+subtitle_2: We are here to help you make an impact through technology.
 ab_people:
   title: Who are Active Bridge people
-  subtitle: The team of Ruby on Rails developers
-  description: with 10+ years of remote development experience for enterprise organizations and applications for
-               startups.
+  subtitle: Our team comprises Ruby on Rails developers
+  description: with over 10 years of remote development experience, serving both enterprise organizations and startups.
 important_things:
   title: We’re working as remote dedicated teams, but always try to keep important things first
   items:
   - icon: important_thing_1.webp
-    title: Passion for ror engineering
-    description: Ruby on Rails and add-ones technologies
+    title: Passion for RoR Engineering
+    description: Expertise in Ruby on Rails and complementary technologies
   - icon: important_thing_2.webp
-    title: Challenging projects
-    description: Projects where it's worth a brainstorming session
+    title: Challenging Projects
+    description: Engaging in projects that encourage innovative brainstorming
   - icon: important_thing_3.webp
     title: Friendship and trust
     description: Ping-pong and outdoor teambuildings
@@ -30,7 +29,7 @@ important_things:
     title: Community support
     description: Conferences and open source contribution
 expertise:
-  title: Build a great product with our Ruby on Rails expertise
+  title: Leverage our Ruby on Rails expertise to build exceptional products
   description: We are ready to take over the implementation of your idea starting with project designing over
                development and testing up to product launch and beyond
   items:
