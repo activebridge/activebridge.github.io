@@ -1,6 +1,6 @@
 page-title: Cooperation Model
-title: Team Extension Engament model
-subtitle: Experience management flexibility by augmenting your in-house team with our experts, offering offshore specialist rates.
+title: Staff Augmentation Engagement Contract
+subtitle: Enhance your team's capabilities by integrating our seasoned professionals, providing cost-effective offshore expertise.
 specialists:
 - icon: experts_1.webp
   description: of Computer Science Master’s degree talents
@@ -13,8 +13,7 @@ specialists:
                onboarding
 team_as_service:
   title: Professional Team  as a Service
-  subtitle: We strike the perfect balance between growing alongside our success
-            and keeping our team small enough to be highly flexible and agile.
+  subtitle: We maintain an optimal balance between growth and agility, ensuring our team remains flexible and responsive to your needs.
   list_title: Our dedicated development teams
   all:
   - item: with over <b>10 years of remote work experience,</b> our dedicated development
@@ -22,9 +21,8 @@ team_as_service:
   - item: have a deep understanding of <b>OOP principles</b> and 10+ years of
           web/cloud software engineering expertise, all programmers have a
           <b>BS or MS in Computer Science</b>
-  - item: consist of professional web and mobile developers with development
-          experience in <b>Fintech, EdTech, Healthcare, Travel</b> and <b>Logistics, CRM</b>,
-          and <b>SaaS</b> products
+  - item: comprise seasoned web and mobile developers with experience across various industries, including <b>Fintech,
+          EdTech, Healthcare, Travel</b> and <b>Logistics, CRM </b>, and <b>SaaS</b> products
   - item: have <b>B2 - C2 certified English knowledge</b>, meaning our remote
           developers can speak and understand English well
   - item: are passionate about <b>Ruby on Rails</b> and add-ons technologies and
@@ -44,38 +42,33 @@ extension:
             solution for companies which
   all:
   - icon: team_1.webp
-    description: already have launched a long-term project and wish to enhance
-                 the existing team with needed technical expertise
+    description: Have an ongoing long-term project and seek to augment your team with specialized technical expertise
   - icon: team_2.webp
-    description: plan to develop a new product, but are limited to the technical
-                 specialists in their local area
+    description: Intend to develop a new product but face limitations in accessing local technical specialists
   - icon: team_3.webp
-    description: plan to hire a remote specialist to fulfill specific web
-                 development task requirements
+    description: Require a remote specialist to execute specific web development tasks
 advantages:
   title: Advantages
   subtitle: business gets using managed team collaboration model
   all:
   - icon: advantage_1.webp
-    description: Engage flexible, qualified help when needed for a limited times
+    description: Access flexible, qualified assistance as needed for specific timeframes
   - icon: advantage_2.webp
-    description: More cost-efficient than hiring full-time employees
+    description: Benefit from cost efficiencies compared to hiring full-time employees
   - icon: advantage_3.webp
-    description: No additional overhead or tax burden on in-house staff
+    description: Avoid additional overhead or tax liabilities associated with in-house staff
   - icon: advantage_4.webp
-    description: No recruiters to engage in costly and time-consuming interviewing
+    description: Eliminate the need for recruiters, reducing costs and time associated with interviewing
   description: Our developers become an integrated part of your existing in-house
                development team for the project duration. They will immerse
                themselves in your project, adopt and maintain your company culture,
                and make your team’s goals their own, ensuring seamless integration.
 dedicated_model:
   title: The dedicated development team model
-  subtitle_1: Choosing to work with a dedicated development team, you get an
-              already formed group of developers and/or other tech specialists
-              engaged in your project exclusively. This team becomes a natural
-              extension of your internal team, you can manage a dedicated team
-              of developers as your full-time employees, even though they work
-              from our office and we provide them complete administrative support.
+  subtitle_1: By partnering with a dedicated development team, you gain access to a pre-assembled group of experienced
+              developers and technical specialists who work exclusively on your project. This team becomes a seamless
+              extension of your internal workforce. You retain full management control over the team, while we handle
+              all administrative and logistical support from our office.
   description: We provide a team of dedicated developers on a long-term basis
                following your estimates. You may choose to manage the team from
                your side or assign one of our Active Bridge project managers to
