@@ -13,7 +13,7 @@ information:
           professionals with over 40 successful projects under our belt.
 company_vision:
   title: Company Vision
-  subtitle: Professional team as a service
+  subtitle: Delivering Professional Teams as a Service
   description: We effort to provide our customers with the most effective development solutions
                possible. Each client’s business, problems, and ideas require a customized approach.
                It is possible due to our 10 years of experience working remotely, our passion for
@@ -22,13 +22,12 @@ company_vision:
   button: Discover our expertise
 crew:
   title: CREW
-  description: One of the most important collaborating aspects is Active Bridge’s people. We work
-                40 hours per week, support flexible schedules, we’re family-friendly, and provide all
-                our developers with flexibility and freedom to continue working on their professional
-                growth. Active Bridge company strikes the perfect balance between growing alongside
-                our success and keeping our team small enough to be highly flexible and agile. So our
-                on-demand engineers integrating directly with the customer’s existing business processes
-                offer them productive work and expertise in required technologies.
+  description: At Active Bridge, our team is our greatest asset. We support flexible, family-friendly schedules
+               and encourage continuous professional growth, ensuring our developers remain motivated and at the
+               forefront of technological advancements. Active Bridge company strikes the perfect balance between
+               growing alongside our success and keeping our team small enough to be highly flexible and agile.
+               So our on-demand engineers integrating directly with the customer’s existing business processes
+               offer them productive work and expertise in required technologies.
   all:
   - image: about/CREW_Galushka.webp
     name: Alex Galushka
@@ -48,59 +47,50 @@ benefits:
                 expertise and object-oriented programming. Our motivated team excels in seamlesslyintegrating
                 with client operations, driven by a passion for emerging technologies and complex projects."
   all:
-  - title: Technology expertise
-    description: "Clients get access to the full breadth of skills and experience that our team
-                  has to offer. Our staff isn’t big, but 90% of them are senior/middle rails
-                  developers with an extensive background in object-oriented development. "
+  - title: Technology Expertise
+    description: "Clients benefit from our team's extensive skills and experience. With 90% of our staff being
+                  senior or middle-level Rails developers, we offer deep expertise in object-oriented development."
     index: 1
-  - title: A motivated workforce
-    description: Active Bridge provides remote development teams having years of experience
-                 integrating with the clients’ in-house teams and treating every project as
-                 if it was their own. They get driven by emerging technologies, challenging
-                 tasks, and code contributes.
+  - title: A motivated Workforce
+    description: Our contract web developers participate in meetings as often as a client requires, send daily,
+                 weekly, or monthly status reports depending on the customer’s needs. We always guarantee that
+                 programmers are assigned to only a single project, meaning a client always have their full
+                 dedication to the team’s goals.
     index: 2
-  - title: Workflow transparency
-    description: Our contract web developers participate in meetings as often as a client
-                  requires, send daily, weekly, or monthly status reports depending on the
-                  customer’s needs. We always guarantee that programmers are assigned to only
-                  a single project, meaning a client always have their full dedication to the
-                  team’s goals.
+  - title: Workflow Transparency
+    description: Our contract web developers engage in meetings as frequently as clients require and provide
+                 status reports tailored to client preferences. We ensure that programmers are dedicated to a
+                 single project, offering full commitment to the client's objectives."
     index: 3
-  - title: Agile fashion development
-    description: We enable our clients to quickly add experienced development staff on a
-                 project-by-project basis. Our remote full-stack web developers easily
-                 join any project as in-house employees, adhering to Agile methodologies,
-                 like Scrum and Kanban.
-
+  - title: Agile Development
+    description: We empower clients to swiftly augment their teams with experienced developers on a project-by-project
+                 basis. Our remote full-stack web developers integrate seamlessly, adhering to Agile methodologies
+                 such as Scrum and Kanban.
     index: 4
-  - title: IT staffing solutions
-    description: Active Bridge takes care of the sourcing and selection of qualified
-                  candidates among the company bench with the needed skills and experience
-                  level for the client’s job.
+  - title: IT Staffing Solutions
+    description: Active Bridge manages the sourcing and selection of qualified candidates from our talent pool,
+                 ensuring they possess the necessary skills and experience to meet client requirements.
     index: 5
 key_facts:
   title: Key facts
   subtitle: about Active Bridge as the team of dedicated Ruby on Rails developers
   all:
   - image: key_facts_1
-    title: <span>10+</span> years of remote development experience
-    description: "Growing since 2013, our team of over 40 development professionals who thrive on the cutting-edge of technology and embrace our clients’ mindsets to seamlessly integrate with their teams."
+    title: <span>10+</span> years of excellence in remote development
+    description: Since 2013, our team of over 40 highly skilled professionals has delivered cutting-edge solutions, seamlessly integrating into our clients' workflows to drive project success.
   - image: key_facts_2
     title: Huge dev stack
     description: On-demand developers with deep knowledge and significant experience in object-centric, document-centric languages, frameworks, DSMs platforms, and APIs.
   - image: key_facts_3
     title: Fluent communication
-    description: Our remote full-stack developers have B2 - C2 certified English knowledge, meaning we can integrate easily into your teams and meetings without any worry of language barriers getting in the way.
+    description: Our remote full-stack developers are B2 to C2 certified in English, ensuring seamless communication and integration into your teams and meetings without language barriers.
   - image: key_facts_4
     title: Cost efficiency
-    description: To enhance our offshore IT services' affordability, Active Bridge maintains research, development, and technical support operations in Ukraine. This strategic choice, enables us to offer superior value, allowing our clients to optimize their development budgets without compromising quality.
+    description: Active Bridge optimizes development budgets without compromising quality by maintaining research, development, and technical support operations in Ukraine. This strategic approach ensures cost-effective solutions while delivering exceptional value.
   - image: key_facts_5
-    title: <span>4</span> own social-responsible products
-    description: Active Bridge actively contributes to open source projects and develops proprietary products that make a positive impact on the community. Our portfolio includes an innovative eco-friendly taxi application, akin to Uber, designed for local eco-taxi services, and a comprehensive open platform dedicated to code refactoring.
+    title: <span>4</span> socially responsible products
+    description: Active Bridge is committed to making a positive impact through contributions to open-source projects and proprietary innovations. Our portfolio includes an eco-friendly taxi app for local services and a comprehensive open platform for code refactoring, driving sustainability and innovation.
 culture:
   title: A culture of quality and collaboration
-  description: Active Bridge's passion for sustainable technologies drives us to identify and
-               execute the right solutions for each unique customer need. We value the
-               trust our clients put in us to help them meet their needs and build their products, and we are
-               motivated by the pursuit of their successes as if they were our own.
+  description: At Active Bridge, our passion for sustainable technologies drives us to craft tailored solutions for every client’s unique needs. We deeply value the trust our clients place in us, striving to achieve their goals with the same dedication as we would our own.
   button: Get free project consultation with our CTO
