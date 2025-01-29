@@ -1,32 +1,31 @@
 page-title: InsurTech Solutions
 title:  Insurance application development
-sub-title: The InsurTech products sector revolutionizes how customers manage their insurance, offering holistic and user-friendly
-           solutions like never before.
+sub-title: The InsurTech sector is revolutionizing customer interactions with insurance, providing comprehensive and
+           user-friendly solutions that set new industry standards.
 description: At Active Bridge, our dedicated developers craft secure and reliable InsurTech
              solutions, prioritizing the highest level of data integrity. We empower companies to automate manual operations and
              claims verification, minimize human errors, and enhance customer experiences through our expertise in remote technology.
 solutions:
   - icon: solution_1
     title: Insurance industry expertise
-    description: Developing cloud software and applications for the insurance niche requires a certain level of experience
-                  from creators. Our team has 6 years of practice in this field, and we successfully launched InsurTech
-                  projects.
+    description: Developing cloud software and applications for the insurance sector demands specialized expertise.
+                 With over 6 years of experience, our team has successfully launched numerous InsurTech projects,
+                 demonstrating a deep understanding of industry-specific challenges and requirements.
   - icon: solution_2
     title: Industry-relevant tech stack
     description: We are tracking the changing InsurTech market dynamics and constantly replenishing our solutions with
                   innovative technologies.
   - icon: solution_3
     title: Guarantees and confidentiality
-    description: We guarantee a high level of confidence, competitiveness, reliability, and scalability of our solutions.
-                  We always sign an NDA and assign specialists of various profiles, including those responsible for
-                  compliance with the project quality indicators.
+    description: We ensure our solutions are competitive, reliable, and scalable, instilling confidence in our clients.
+                 We prioritize confidentiality by signing NDAs and assigning specialists responsible for maintaining
+                 high-quality standards and compliance throughout the project lifecycle.
 design_and_development:
   title:  Insurance product design and development
-  description: "Our dedicated development teams adeptly navigate the complexities of InsurTech product development, addressing security,
-                compliance, scalability, high load capacities, and seamless integration with third-party services among other challenges,
-                ensuring robust and reliable solutions.<br><br>
-                <b>InsurTech product development services are handy for insurance companies,
-                agencies, brokerages, and reinsurers that:</b>"
+  description: "Our dedicated development teams expertly manage the complexities of InsurTech product development,
+               tackling challenges related to security, compliance, scalability, high-load capacities, and seamless
+               third-party service integration, delivering robust and dependable solutions.<br><br>
+               <b>InsurTech product development services are handy for insurance companies, agencies, brokerages, and reinsurers that:</b>"
   all:
     - item: provide life and health, property and casualty insurance services;
     - item: provide workers claim compensation solutions;
@@ -56,62 +55,51 @@ case_study:
     - item: "Client’s location: <b>New York, United States</b>"
   bottom_info:
     - title: "About the client:"
-      description: DaisyBill is a mission-focused company serving healthcare service providers who digitally manage
-                    and dispatch workers’ compensation bills to employers. The company pioneered an innovative, data-driven
-                    service to help transform the complex workers’ compensation process. DaisyBill offers a range of Software
-                    as a Service (SaaS) subscriptions to help those who care for injured workers to get paid accurately,
-                    quickly, and without administrative burdens.
+      description: DaisyBill is a mission-driven company that empowers healthcare service providers to streamline and digitize
+                   workers’ compensation billing processes. Through their innovative, data-driven Software as a Service (SaaS)
+                   platform, DaisyBill simplifies the complexities of workers' compensation billing, enabling providers to get
+                   paid accurately, efficiently, and without administrative hurdles.
     - title: "Challenge:"
       description: "DaisyBill aimed to create Revenue Cycle Management (RCM) software to streamline how healthcare providers handle
                    and submit workers’ compensation bills to employers. Workers' compensation billing is notoriously complex,
                    time-consuming, and frustrating. The primary objective was to develop software that navigates through the maze
                    of workers’ comp requirements and regulations, significantly simplifying the process."
     - title: "Solutions:"
-      description: "This cloud-based insurance management platform revolutionizes how healthcare providers, employers, and employees
-      manage insurance tasks. By automating routine manual operations, it significantly eases the burden of insurance management.
-      This feature-rich, modular platform streamlines insurance processes, including paperwork handling, document storage,
-      billing workflows, billing statistics, and verified bill delivery tracking, making insurance tasks simpler and more efficient
-      for all parties involved."
+      description: Active Bridge collaborated with DaisyBill to build a feature-rich, modular cloud-based platform designed to
+                   revolutionize workers’ compensation management. The platform automates manual operations, streamlines billing
+                   workflows, and integrates advanced analytics to simplify insurance processes. This innovative solution significantly
+                   reduces the administrative burden on healthcare providers and improves efficiency for all stakeholders.
     - title: "Technologies:"
       description: Ruby on Rails, PostgreSQL, TFA, Selenium, REDIS
 features:
-  title: Features
+  title: Implemented Features
   all:
     - title: Features were implemented
-      description: DaisyBill workers’ comp technology provides a workflow solution that makes it easy for an employer’s
-                    team to systematically manage bill submission and payer responses.
+      description: DaisyBill workers’ comp technology provides a workflow solution that makes it easy for an employer’s team to
+                   systematically manage bill submission and payer responses.
       icon: feature_1
-    - title: Document management and verifying
-      description: Revenue cycle management cloud software also helps to store all sensitive documents securely in one
-                    place. This feature allows import and export functionality to simplify the user’s data handling
-                    process. The feature provides a comprehensive bill history, including an electronic receipt verifying
-                    the payer received both your bill and attached supporting medical records.
+    - title: Document Management and Verification
+      description: Secure storage of sensitive documents with import/export functionality. Comprehensive bill history with electronic
+                   receipts verifying payer receipt of bills and supporting medical records.
       icon: feature_2
-    - title: Billing statistics and reports
-      description: The platform also provides inbuilt analytics capability, which generates custom reports on employers’
-                    information, patient records, procedure, and claims administration to comply with workers’ compensation
-                    guidelines.
+    - title: Billing Statistics and Reports
+      description: Custom analytics generating detailed reports on employer data, patient records, procedures, and claims to ensure
+                   compliance with workers’ compensation guidelines.
       icon: feature_3
-    - title: Validation of bills for compliance
-      description: Workers’ compensation bills software scrubs every bill and alerts users to any errors prior to
-                    submitting the bill.
+    - title: Compliance Validation
+      description: Pre-submission bill scrubbing alerts users to errors, ensuring regulatory compliance and reducing rejections.
       icon: feature_4
-    - title: RFA delivery verification
-      description: RFA that was faxed from DaisyBill cloud-based insurance management software is retained and can
-                    be provided for the proof that proof the payer received the RFA.
+    - title: RFA Delivery Verification
+      description: Retention of faxed RFAs within the system, providing proof of receipt by payers.
       icon: feature_5
-    - title: Tasks and friendly reminder emails
-      description: Task Dashboard replaces spreadsheets and sticky notes with organized, automated, tasks and
-                    friendly reminder emails. The Task Dashboard alerts the user’s team of what to do and when
-                    to do it.
+    - title: Task Management and Notifications
+      description: A Task Dashboard with automated tasks and reminder emails, alerting users of pending actions and deadlines.
       icon: feature_6
-    - title: Fee schedule calculator
-      description: DaisyBill’s Calculator is comprised of six separate Fee Schedules and five separate Calculators.
-                    Each Calculator references a specific Fee Schedule or Fee Schedules
+    - title: Fee Schedule Calculator
+      description: Includes six separate Fee Schedules and five dedicated Calculators, each referencing specific workers’ compensation fee schedules.
       icon: feature_7
-    - title: Built API
-      description: The software offers an API that lets businesses integrate DaisyBill with existing revenue cycle
-                    management software and export data into CSV and ANSI formats.
+    - title: API Integration
+      description: An API enabling seamless integration with existing RCM software, allowing data exports in CSV and ANSI formats.
       icon: feature_8
 full_circle:
   title: What’s important in a full-circle insurance product development
