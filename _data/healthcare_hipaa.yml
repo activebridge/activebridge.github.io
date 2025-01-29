@@ -8,18 +8,16 @@ description_2: We specialize in creating functional healthcare applications that
                e-prescribing modules, enterprise applications, billing systems, and more.
 subtitle_2: How we can help with custom healthcare app development
 help:
-  - title: Full-cycle assistance
+  - title: "Full-Cycle Assistance:"
     icon: help_1
-    description: of medical project development, from cloud hosting and UX/UI design, through app development and QA,
-                  to technical delivery, security compliance, maintenance, and support.
-  - title: Rapid development
+    description: Providing end-to-end medical project development services, including cloud hosting, UX/UI design,
+                 application development, quality assurance, technical delivery, security compliance, maintenance, and support.
+  - title: "Rapid Development:"
     icon: help_2
-    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
-                  it into a solid, scalable, and reliable product
-  - title: Cross-platform solutions
+    description: Utilizing agile methodologies to expedite MVP creation, enabling swift market entry and evolution into a robust, scalable, and reliable product.
+  - title: "Cross-Platform Solutions:"
     icon: help_3
-    description: of custom healthcare apps development based on wide experience in complying with industry and market
-                  regulations
+    description: Developing custom healthcare applications with cross-platform compatibility, leveraging extensive experience in adhering to industry and market regulations.
 case_study:
   title: Case Study
   subtitle: A HIPAA-compliant communication and clinical collaboration platform
@@ -34,10 +32,11 @@ case_study:
                     healthcare providers, prescribers, pharmacists, and vendors by securing clinical communications and
                     electronic patient health information (ePHI).
     - title: "Challenge:"
-      description: Our task was to develop a software system that encrypted data transactions between entities licensed to handle
-                   sensitive patient health information within the United States. We aimed to create a reliable medical application
-                   and a secure HIPAA-compliant cloud hosting environment available 24/7. Additionally, we needed to develop assets
-                   for healthcare professionals to manage and resolve prescription orders from mobile devices.
+      description: We were tasked with developing a software system capable of encrypting data transactions between
+                   entities authorized to handle sensitive patient health information in the United States. Our objectives
+                   included creating a reliable medical application, establishing a secure HIPAA-compliant cloud hosting
+                   environment accessible 24/7, and developing tools for healthcare professionals to manage and process
+                   prescription orders via mobile devices.
     - title: "Technologies:"
       description: Ruby on Rails, Grape, MySQL, Anycable, Redis, ActiveRecord, Sidekiq, Elasticsearch, Electron, Angular 11,
                     Ionic 3, IOS, Android, Windows, MacOS, Docker, AWS
@@ -45,9 +44,9 @@ solutions:
   title: Solutions
   all:
     - title: User identification
-      description: When users create an account profile on Mediprocity’s new system, they generate an encryption key
-                    protecting all patient health information. That key can be updated using the “Super Admin” user-account
-                    feature. The admin panel is configured for both organizations and private individuals.
+      description: Users generate a unique encryption key during account creation, ensuring all patient health information
+                   (PHI) is protected. This encryption key can be updated through the “Super Admin” user-account feature for
+                   enhanced security management.
       icon: solution_1
       elements:
         - item: an encrypted communication layer (SSL)
