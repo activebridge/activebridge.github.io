@@ -6,6 +6,15 @@
   box-shadow: 0px 2px 10px 10px rgba(23, 19, 43, 0.10);
   padding-bottom: 200px;
 
+  &__form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+
   &__field {
     border: none;
     border-radius: 30px;
@@ -21,11 +30,11 @@
     outline: none;
     padding: 0 30px;
     text-align: justify;
-    width: 540px;
+    width: calc(100% - 60px);
     &::placeholder { border-bottom: 1px solid rgba($black_sea, .15); }
 
     &--select {
-      width: 600px;
+      width: 100%;
       font-family: "FixelText-Regular", serif;
       -webkit-appearance: none;
       -moz-appearance: none;
@@ -37,7 +46,6 @@
    height: 60px;
    border: none;
    max-width: 600px;
-   min-width: 320px
   }
 
   &__form-group {
@@ -46,7 +54,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto 25px auto;
-    max-width: 600px;
+    width: 100%;
   }
 
   &__form-label {
@@ -83,15 +91,14 @@
 
   &__to-faq {
     display: inline-block;
-    max-height: 30px;
+    height: unset;
     margin-top: 20px;
     font: italic 14px/2 'FixelText-Regular', serif;
     text-align: center;
+    width: calc(100% - 60px);
   }
 
   textarea {
-    max-width: 600px;
-    min-width: 320px;
     width: 100%;
     box-sizing: border-box;
     padding-top: 17px;
@@ -110,19 +117,12 @@
 @media (max-width: 767px) {
   .contacts {
     padding-bottom: 250px;
-    &__form-group { max-width: 300px; }
     &__form-label { font-size: 12px; }
     &__form-select::before { top: 45px; }
 
-    &__field {
-      width: 260px;
-      &--select { width: 300px; }
-    }
-    &__submit-btn { width: 300px; }
-
     &__to-faq {
       padding: 0;
-      width: 310px;
+      width: 100%;
     }
   }
 
