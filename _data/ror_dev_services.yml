@@ -1,11 +1,8 @@
 page-title: RoR Development
 title: Since 2013, we've empowered our partners with robust, fast-loading Rails apps, showcasing our comprehensive expertise.
-subtitle: Thanks to our expertise in Ruby on Rails development, we provide a high
-          input when it comes to strategic direction, tech stack, and design
-description: We are confident in our identity as a leading Ruby on Rails development company.
-             Not just because we managed to collect and grow the team of
-             professional RoR developers, but because we’re able to provide
-             scalable, smooth solutions for public websites and complex enterprise
+subtitle: Leveraging our expertise in Ruby on Rails development, we offer significant contributions to strategic direction, technology stack selection, and design.
+description: As a leading Ruby on Rails development company, we have assembled a team of professional developers
+             capable of delivering scalable and seamless solutions for both public websites and complex enterprise
              resource planning applications.
 ror:
   title: Ruby on Rails <br> web development services
@@ -18,9 +15,8 @@ ror:
                  more user requests per minute in the future.
   - title: E-commerce and marketplace development
     icon: ror_dev_2.webp
-    description: Our <b>full-stack Ruby on Rails developers</b> design
-                 high-performative B2B, B2C marketplace solutions and e-commerce
-                 platforms with outstanding UIs and extensive functionality.
+    description: Our <b>full-stack Ruby on Rails developers</b> craft high-performance B2B and B2C marketplace solutions,
+                 as well as e-commerce platforms, featuring exceptional user interfaces and comprehensive functionality.
   - title: Ruby on Rails migration
     icon: ror_dev_3.webp
     description: If you consider your project technology outdated, our developers
@@ -34,12 +30,11 @@ ror:
                  and performance improvements.
 reasons:
   title: Why do we advocate Ruby on Rails technology?
-  description: We do love Ruby on Rails because it’s a fast, reliable framework
-               that includes everything needed to build complex database-backed
-               applications. Rails framework has built-in support for varied
-               settings across development, test, and production, and utilizing
-               RoR means long-term maintainability and reduced risk of problems
-               caused by human error. <b>Technology has powered the web since 2004</b>.
+  description: We advocate for Ruby on Rails due to its speed and reliability. This comprehensive framework
+               facilitates the development of complex, database-backed applications. With built-in support
+               for various environments—development, testing, and production—Ruby on Rails ensures long-term
+               maintainability and minimizes risks associated with human error.
+               <b>Technology has powered the web since 2004</b>.
   all:
   - title: Ruby
     description: Ruby is a dynamic, interpreted, open-source programming language

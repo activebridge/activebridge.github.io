@@ -8,8 +8,8 @@ sub-title: We assist our clients in building successful, scalable, and high-qual
 some_features: Some Features
 b2b:
   title: B2B marketplace development
-  description: Our full-stack developers build B2B marketplaces. B2B wholesale platforms serve as a place connecting
-                wholesale suppliers with bulk buyers in different industries.
+  description: Our full-stack developers specialize in building B2B marketplaces that connect wholesale suppliers with bulk buyers
+               across various industries, facilitating seamless and efficient transactions.
   all:
     - icon: b2b_1
       title: CRM development & integrations
@@ -29,8 +29,8 @@ b2b:
       title: Maps with advanced filtering
 b2c:
   title: B2C marketplace development
-  description: We design and develop a B2C marketplace with outstanding UIs and wide functionality so that users
-                can enjoy the easiest purchasing experience.
+  description: We design and develop B2C marketplaces featuring exceptional user interfaces and extensive functionalities,
+               ensuring users enjoy a seamless purchasing experience.
   all:
     - icon: b2c_1
       title: Authentication and authorization
@@ -56,16 +56,16 @@ help_title: How we can help with online marketplace app development
 help:
   - icon: process_1
     title: Full-cycle assistance
-    description: of B2B, B2C marketplace development, from cloud hosting and UX/UI design, through app development and
-                  QA, to technical delivery, security compliance, maintenance, and support.
+    description: We offer comprehensive support for B2B and B2C marketplace development, encompassing cloud hosting, UX/UI design,
+                 app development, quality assurance, technical delivery, security compliance, maintenance, and ongoing support.
   - icon: process_2
     title: Rapid development
-    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
-                  it into a solid, scalable, and reliable product
+    description: Leveraging agile methodologies, we expedite the development of Minimum Viable Products (MVPs), enabling quick
+                 market entry while ensuring scalability and reliability as the product evolves.
   - icon: process_3
     title: Cross-platform solutions
-    description: of custom  custom online marketplace development based on wide experience in complying with industry and
-                  market regulations
+    description: Our team specializes in developing cross-platform online marketplaces, ensuring compliance with industry standards
+                 and delivering seamless experiences on web, iOS, and Android platforms.
 case_study:
   title: Case Study
   subtitle: An online marketplace and data-center management software
@@ -76,24 +76,28 @@ case_study:
     - item: "Client’s location: <b>New York, United States</b>"
   bottom_info:
     - title: "About the client:"
-      description: Upstack company acts as an intermediate between potential customers and suppliers of DC services around
-                    the United States, such as colocation, dedicated servers, cloud servers, managed hosting, IP transit,
-                    and other hosting services
+      description: Upstack is a company that bridges the gap between potential customers and suppliers of data center (DC) services
+                   across the United States. Their offerings include colocation, dedicated servers, cloud servers, managed hosting,
+                   IP transit, and other hosting-related services. Upstack aims to simplify the process of finding and acquiring DC
+                   services for businesses nationwide.
     - title: "Challenge:"
-      description:  Our task was to develop a platform tailored to serve the data center marketplace, emphasizing colocation and IP transit.
-                    Additionally, the platform needed to encompass various other data center services, including wholesale space,
-                    dedicated servers, remote hands, and internet exchanges.<br><br>Upstack envisioned the data center marketplace
-                    web application as the premier destination for providers and in-market buyers of data center services statewide.
-                    The goal was to streamline data processing and user interactions, making it effortless for users to navigate and
-                    access a wide range of services.
+      description:  "Upstack’s vision was to create a state-of-the-art data center marketplace application. The platform needed to
+                    be a one-stop destination for providers and buyers of data center services, focusing on:<br><br>
+                    Comprehensive Service Coverage: supporting a broad range of data center services, including colocation,
+                    IP transit, wholesale space, dedicated servers, remote hands, and internet exchanges.<br><br>
+                    User-Friendly Experience: simplifying navigation and enabling seamless interactions between providers and buyers.<br><br>
+                    Efficient Data Processing: ensuring fast and accurate handling of user data and service information.<br><br>
+                    The challenge was to build a robust, scalable platform capable of supporting the unique needs of the data center marketplace while
+                    maintaining  special performance and usability."
     - title: "Technologies:"
       description: Ruby on Rails / React / Sidekiq / Puma / Devise / PostgreSQL / Heroku
 solutions:
-  title: Solutions
+  title: Solution
   description:  Our dedicated development team conducted a comprehensive analysis and came up with a solution that brings
                 maximum personalization to the data-center management software and online marketplace.<br><br> We’ve been
                 building an application that combines key features of classic and contest marketplaces. The platform lets data
                 center service providers and buyers get custom solutions by launching a complex search system.
+  sub_title: Implemented Features
   functionality: Extended functionality
   all:
     - title: Scalable architecture and maintainability of the application

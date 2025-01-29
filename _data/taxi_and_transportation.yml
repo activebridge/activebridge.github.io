@@ -12,35 +12,38 @@ features: Features
 features_title: Extended features
 help:
   - icon: help_1
-    title: We offer full-cycle assistance
-    description: for transportation project development, covering cloud hosting and UX/UI design, through app development and QA,
-                 to technical delivery, security compliance, maintenance, and support.
+    title: "Full-Cycle Assistance:"
+    description: We provide comprehensive support for transportation project development, including cloud hosting, UX/UI design,
+                 app development, quality assurance, technical delivery, security compliance, maintenance, and ongoing support.
   - icon: help_2
-    title: Rapid development
-    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
-                  it into a solid, scalable, and reliable product
+    title: "Rapid Development:"
+    description: Utilizing agile methodologies, we expedite development of MVPs, enabling swift market entry and subsequent
+                 transformation into robust, scalable, and reliable applications.
   - icon: help_3
-    title: Cross-platform solutions
-    description: of custom taxi and transportation apps development based on experience in complying with industry
-                  and market regulations
+    title: "Cross-Platform Solutions:"
+    description: Our custom taxi and transportation app development ensures compliance with industry and market regulations,
+                 delivering seamless experiences across multiple platforms.
 expertise:
   title: Expertise
   all:
-    - title: Food delivery app development solutions
+    - title: Food Delivery App Development
       icon: expertise_1
-      description: Our team of tech talents design UI/UX delivery app solutions that provide couriers and administrators with
-                    broad functionalities for order and customer management. These solutions are cross-platform food delivery
-                    applications consisting of a food ordering app, food seller/restaurant admin app, and delivery agent app.
-    - title: Taxi booking app development solutions
+      description: "We design intuitive UI/UX for cross-platform food delivery applications, providing couriers and administrators
+                   with comprehensive functionalities for order and customer management. Our solutions include dedicated apps
+                   for customers, restaurant administratorMapping and Logistics Solutions: 'We create custom supply chain
+                   management applications, covering every step from inventory management to order fulfillment. Our applications
+                   are enhanced with accurate mapping, advanced navigation features, and GPS capabilities to optimize logistics
+                   operations.'s, and delivery agents."
+    - title: Taxi Booking App Development
       icon: expertise_2
       description: Our dedicated development teams offer a personalized approach for every taxi business, from requirement
                     gathering to the taxi company app launch. We build entirely customized and tested taxi booking solutions
                     that are fast and easy to use, are ready for further scaling, and ensure high data security.
-    - title: Mapping and logistic solutions
+    - title: Mapping and Logistics Solutions
       icon: expertise_3
-      description: We develop custom supply chain management applications or embedded functions for each step of the process,
-                    from inventory management to order fulfillment. We empower applications with precise maps, navigation
-                    features, and GPS capabilities.
+      description: We create custom supply chain management applications, covering every step from inventory management to
+                   order fulfillment. Our applications are enhanced with accurate mapping, advanced navigation features,
+                   and GPS capabilities to optimize logistics operations.
 case_study:
   title: Case Study
   subtitle: Custom taxi app development solution for the local market
@@ -55,13 +58,18 @@ case_study:
                     of a local on-demand transportation system. The product is a complete web and mobile-based solution
                     covering all the modern features passengers, drivers, and managers need.
     - title: "Challenge:"
-      description:  It became clear that the local market needed a taxi service provider which bases its service on
-                    a fundamentally new technological approach with an emphasis on the eco component of the business.
-                    Developing a taxi service was a part of the solution.<br><br>The app’s primary goal is booking secure
-                    individual and carpooling rides of taxi company's vehicles. CabLook Taxi aimed at building a cross-platform
-                    application for the tech-friendly public. By developing applications for drivers and passengers,
-                    the company planned to expand it with add-ons such as food delivery features, corporate travel, and
-                    shuttle service. The app is a powerful web-based management system and a functional taxi booking solution.
+      description:  "The local transportation market required a taxi service that not only embraced technological innovation
+                    but also emphasized eco-conscious business practices. CabLook Taxi identified the need for a modern,
+                    cross-platform taxi application to meet these demands.<br><br>
+                    The primary goals included:
+                    <ul>
+                      <li>Secure Booking: enabling individual and carpooling rides for passengers.</li>
+                      <li>Cross-Platform Accessibility: creating user-friendly applications for both drivers and passengers.</li>
+                      <li>Expansion Features: planning add-ons such as food delivery, corporate travel, and shuttle services to broaden the service offerings.</li>
+                      <li>Management System: developing a robust, web-based platform to manage operations efficiently.</li>
+                    <ul><br>
+                    The challenge was to combine these features into a scalable, user-friendly solution that aligned with the company’s
+                    eco-conscious values and appealed to a tech-savvy audience."
     - title: "Technologies:"
       description: Ruby on Rails / PostgreSQL / React Native / IOS / Android
 solutions:

@@ -82,13 +82,12 @@
       &-name {
         p {
           padding: 0 6px;
+          font-size: 18px;
 
           &:first-child {
             font-family: 'Inria Bold', serif;
             font-size: 22px;
           }
-
-          &:last-child { font-size: 18px; }
         }
       }
     }
@@ -122,9 +121,8 @@
       }
 
       &-customer-name {
+        p { font-size: 0.8em; }
         p:first-child { font-size: 1em; }
-
-        p:last-child { font-size: 0.8em; }
       }
     }
   }

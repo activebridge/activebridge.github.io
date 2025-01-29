@@ -1,11 +1,9 @@
 services: Services
 pick_right_stack: Picking the right tech stack, we help startups and SMEs looking to solve their technical business challenges, complex or routine
-learn_and_grow: The insatiable need to learn and grow is part of the fundamental nature of all human beings. Our team
-                accomplishes both by continually seeking out new and more efficient ways to provide custom application
-                development services at Active Bridge. We encourage our developers to constantly pursue new knowledge,
-                whether it be taking educational courses, attending conferences, or just sharing their knowledge around
-                the office, or contributing to open source. We believe that where there is growth, there is innovation,
-                and that belief drives us forward.
+learn_and_grow: At Active Bridge, we believe that continuous learning and growth are essential. Our team constantly seeks
+                innovative and efficient methods to deliver custom application development services. We encourage our developers
+                to pursue new knowledge through educational courses, conferences, knowledge sharing, and open-source contributions.
+                This commitment to growth fuels our drive for innovation.
 web_services:
   title: Web application development services
   description: Beyond web development, we aim to be your comprehensive technology partner, scaling your business with our
@@ -39,13 +37,13 @@ custom_ror_dev_services:
     index: 1
   - title: Custom Ruby on Rails development
     icon: custom_ror_dev.webp
-    description: We have a team of Senior/Middle RoR developers providing complete and effective web solutions built on reliable, robust,
-                 portable, and maintainable code for startups as well as enterprises.
+    description: Our team of Senior and Mid-level Ruby on Rails developers delivers comprehensive web solutions, building
+                 reliable, robust, and maintainable code for both startups and enterprises.
     index: 2
   - title: Ruby on Rails application delivery and support
     icon: ror_delivery_support.webp
-    description: We maintain the integrity of our code and provide regular technology updates, website speed optimization, backups,
-                 user experience improvements, security improvements, and more.
+    description: We ensure code integrity and offer ongoing support, including technology updates, performance
+                 optimization, backups, user experience enhancements, and security improvements.
     index: 3
 mobile_dev_services:
   title: Mobile application development services
@@ -55,8 +53,8 @@ mobile_dev_services:
   all:
   - title: Launching an application on various platforms
     icon: launching_on_various_platforms.webp
-    description: Our developers write one source code for all platforms. You don’t need to hire separate tech teams for each platform,
-                 as it’s possible to launch and update an application by using a variety of cross-platform development tools.
+    description: Our developers utilize a single codebase to deploy applications across multiple platforms. This eliminates the
+                 need for separate technical teams, enabling seamless launches and updates with advanced cross-platform development tools.
   - title: Flutter, Ionic & React Native for mobile app development
 
     icon: flutter_ionic_react.webp

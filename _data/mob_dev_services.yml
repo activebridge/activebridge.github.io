@@ -1,11 +1,9 @@
 page-title: Mobile App Development
-subtitle: We build responsive mobile applications with rich features and solid
-          security.
-description: With over 5 years of experience, our team excels in developing custom
-             mobile applications across industries including healthcare, edtech, taxi & transportation,
-             and travel & booking. Leveraging our technological expertise, proactive approach, and agile
-             methodology, we ensure that your investments are optimized throughout the
-             <b>mobile app development process</b>.
+subtitle: We build responsive mobile applications that combine rich features with robust security measures.
+description: Leveraging over a decade of experience, our team excels in developing custom mobile applications across
+             diverse industries, including healthcare, educational technology, transportation, and travel booking.
+             By combining technological proficiency with a proactive approach and agile methodologies, we optimize
+             your investments throughout the <b>mobile app development lifecycle</b>.
 industries_title: "Industries:"
 industries:
 - title: Healthcare
@@ -18,13 +16,12 @@ industries:
   icon: industry_4.webp
 cross_platform:
   title: Cross-platform mobile app development services
-  description: our dedicated teams provide
+  description: "Our dedicated teams offer:"
   all:
   - title: React Native<br> rapid development
     icon: white_react.webp
-    description: Our cross-platform mobile technology engineers provide high-performing
-                 code that delivers app excellent engagement and conversions across
-                 iOS, Android, Web platforms.
+    description: Our <b>Cross-platform engineers</b> deliver high-performance code, ensuring exceptional engagement and
+                 conversion rates across iOS, Android, and web platforms.
   - title: Flutter<br> app development
     icon: white_flutter.webp
     description: Our <b>Flutter developers</b> provide effective, high-performing,
@@ -33,21 +30,17 @@ cross_platform:
                  testing process.
   - title: Ionic<br> development services
     icon: white_ionic.webp
-    description: Our <b>Ionic developers build</b> customized applications, that
-                 run fast on all of the latest mobile devices, thanks to Ionic
-                 library of mobile-optimized UI components, gestures, and tools
-                 for building highly interactive apps
+    description: Our <b>Ionic developers</b> create customized applications optimized for performance across the latest
+                 mobile devices, utilizing Ionic's library of mobile-optimized UI components, gestures, and tools
+                 to build highly interactive apps.
   subtitle: Our experts build robust native applications or equally functional
            cross-platform apps that users love.
 react_native:
   title: React Native app development
-  description: Our <b>React Native Development company</b> delivers high-performance
-               and secure mobile applications. React Native is a JavaScript
-               framework for developing cross-platform applications. We don’t
-               build a web or a hybrid app, Active Bridge creates projects
-               identical to native iOS and Android ones with building components
-               and APIs. The result is a mobile UI with all features of the native
-               apps.
+  description: At Active Bridge, we deliver high-performance, secure mobile applications using React Native,
+               a JavaScript framework for cross-platform development. Our approach ensures that applications are
+               indistinguishable from native iOS and Android apps, providing a mobile UI with all the features of
+               native applications.
   all:
   - title: Rapid and cheap mobile app development
     icon: react_native_1.webp
@@ -57,24 +50,18 @@ react_native:
                  up to 30% compared to native Android/iOS projects.
   - title: Custom interface design with UI/UX components
     icon: react_native_2.webp
-    description: Leveraging React Native framework, developers create apps with
-                 an engaging user experience. React Native helps our engineers
-                 to build flawless UI/UX design with push animations, basic
-                 transitions, overrides, and gestures.
+    description: Utilizing the React Native framework, our developers craft applications that offer engaging user
+                 experiences, incorporating seamless animations, transitions, and intuitive gestures.
   - title: Easy to update any changes in functionality
     icon: react_native_3.webp
-    description: React Native intuitive modular architecture provides the ability
-                to update applications quickly. It’s profitable for businesses
-                to create stable, flexible applications that withstand AppStore
-                and PlayMarket requirements.
+    description: React Native's intuitive modular architecture allows for swift application updates, enabling businesses
+                 to maintain stable and flexible applications that comply with App Store and Play Market standards.
 flutter:
   title: Flutter application development
-  description_1: Flutter is a mobile app software development kit (SDK) built by
-                Google for Android and iOS. It is a <b>cross-platform app
-                development tool</b>. Businesses use Flutter to fill the gap
-                between quality and productivity and to build apps for iOS and
-                Android without extra costs. It is one of the newest cross-platform
-                technologies our development team prefers to use.
+  description_1: Flutter, developed by Google, is a powerful software development kit (SDK) for creating high-quality,
+                <b>cross-platform applications</b> for Android and iOS. Businesses leverage Flutter to balance quality and
+                productivity, building feature-rich applications without incurring additional costs. As one of the most
+                innovative cross-platform technologies, Flutter is a preferred choice for our development team.
   description_2: What’s unique about Flutter, it makes it possible to build apps
                  that look and work like native ones but without native components.
   all:
@@ -124,30 +111,28 @@ ionic:
                  build robust hybrid apps.</p>
 approaches:
   title: Cross-platform application development approach
-  subtitle: We assist you to build intuitive, easy-to-use applications that
-            attract and retain user attention.
+  subtitle: We help you create intuitive, user-friendly applications designed to captivate and retain your audience's attention.
   output: "Output:"
   all:
   - title: Discovery stage.
     icon: approach_1.webp
-    description: A client approaches us with an idea for a mobile app. We request
-                 a Terms of Reference (ToR), and if the customer doesn’t have
-                 one, we send a brief for developing a mobile app. The brief helps
-                 to prioritize the app’s goals and objectives. If required, we
-                 sign an NDA.
+    description: The process begins when a client presents an idea for a mobile app. We request a Terms of Reference (ToR),
+                 or if unavailable, provide a brief to outline the app’s goals and objectives. This ensures a clear
+                 understanding of project priorities. If necessary, we sign a Non-Disclosure Agreement (NDA) to protect
+                 client confidentiality.
   - title: Estimation stage
     icon: approach_2.webp
-    description: A quick estimation takes from a few hours to a day and provides
-                 a rough idea of the labor involved. A detailed estimation takes
-                 from several days to a week, but it gives a precise idea of a result.
+    description: "We provide two types of estimates based on project complexity. Quick Estimation: Completed within hours
+                 or a day, offering a general overview of labor requirements. Detailed Estimation: Takes several days
+                 to a week, delivering a precise breakdown of tasks and expected outcomes."
     output:
       - text: scope of tasks
       - text: project budget
   - title: Analysis and Planning stage
     icon: approach_3.webp
-    description: Analytics is not always part of the mobile app development
-                 process. Analysts identify the requirements for a mobile application,
-                 build schemes of user interactions, design the basis of UI - wireframes.
+    description: During this stage, our analysts identify key requirements for the mobile application, design user
+                 interaction flows, and create initial wireframes for the user interface. While optional, this stage
+                 is invaluable for aligning functionality with business goals.
     output:
     - text: functional requirements specification
     - text: specification of non-functional requirements
@@ -183,7 +168,6 @@ approaches:
     - text: security testing
   - title: Deployment & Support stage
     icon: approach_7.webp
-    description: "Our team handles the technical aspects of deployment, configuration, setup, and distribution to app stores
-                  or other platforms during the Deployment & Support stage. We ensure a seamless launch and provide ongoing support
-                  to address post-launch issues.Output: Deployed application across desired platforms Ongoing support and maintenance
-                  services Continuous monitoring and updates for optimal performance."
+    description: During the Deployment and Support stage, we manage all technical aspects, including deployment,
+                 configuration, and distribution to app stores or other platforms. Our team ensures a seamless launch
+                 and provides continuous support to address post-launch issues, maintain performance, and implement updates.
