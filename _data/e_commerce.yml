@@ -1,11 +1,8 @@
 page-title: E-commerce solutions
 title: Custom e-commerce web development
-description:  With more than 9 years of eCommerce development experience and extensive expertise in building online
-              software solutions that connect all parts of the E-commerce value chain, Active Bridge’s dedicated development
-              teams help clients grow businesses and sell online.<br><br>We assist retail businesses that embrace digital
-              transformation to succeed in the competitive eCommerce market. Capitalizing on our solid grasp of Ruby on Rails
-              and other cutting-edge technologies, we provide scalable custom eCommerce websites with integrated CRM & ERP
-              systems, complex databases, and cloud-based architecture.
+description:  Leveraging over 9 years of e-commerce development experience, Active Bridge's dedicated teams specialize in crafting
+              online solutions that integrate every aspect of the e-commerce value chain, empowering clients to expand their
+              businesses and enhance online sales.
 cards:
   - title: eCommerce web application development and retail software
     icon: computer
@@ -34,17 +31,16 @@ expertise:
 help_title: How we can help with eCommerce web app development
 help:
   - icon: process_1
-    title: Full-cycle assistance
-    description: of Ecommerce project development, from cloud hosting and UX/UI design, through app development
-                  and QA, to technical delivery, security compliance, maintenance, and support.
+    title: "Full-Cycle Assistance:"
+    description: Providing end-to-end e-commerce project development services, including cloud hosting, UX/UI design,
+                 app development, quality assurance, technical delivery, security compliance, maintenance, and support.
   - icon: process_2
-    title: Rapid development
-    description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
-                  it into a solid, scalable, and reliable product
+    title: "Rapid Development:"
+    description: Employing agile methodologies to deliver Minimum Viable Products (MVPs) swiftly, which can be
+                 evolved into robust, scalable, and reliable products.
   - icon: process_3
-    title: Cross-platform solutions
-    description: of custom retail software development based on strong experience in complying with industry and
-                  market regulations.
+    title: "Cross-Platform Solutions:"
+    description: Developing custom retail software with cross-platform compatibility, leveraging extensive experience in adhering to industry and market regulations.
 case_study:
   title: Case Study
   subtitle: A B2C eCommerce platform with optimized supply chain management and logistics for sustainable clothes
@@ -56,9 +52,9 @@ case_study:
     - item: "Client’s location: <b>Hong Kong, Hong Kong</b>"
   bottom_info:
     - title: "About the client:"
-      description: SewSewYou is an innovative company advocating sustainable consumption and sustainable fashion
-                    principles. SewSewYou connects influencers designing sustainable activewear, suppliers, and
-                    factories sewing clothes with the end consumer.
+      description: Our client, based in Hong Kong, specializes in sustainable fashion, partnering with numerous brands to
+                   provide eco-friendly clothing and accessories. Their global e-commerce platform is dedicated to promoting
+                   sustainable practices and meeting the growing demand for environmentally conscious products.
     - title: "Challenge:"
       description: SewSewYou founder conducted fashion market research and discovered issues related to pollution
                     and overconsumption. SewSewYou team believes that on-demand clothing doesn’t need to be expensive.
