@@ -1,10 +1,66 @@
-{
-  "@context": "http://schema.org",
-  "@type": "ItemPage",
-  "name": "Healthcare Web Application Development Project Example",
-  "author": "Active Bridge",
-  "contributor": "Mediprocity",
-  "significantLink": "activebridge.org/solutions/hippa-product-development-solutions",
-  "description": "Cross-platform development project example of a HIPAA-compliant communication and clinical collaboration platform.",
-  "datePublished": "2009-10-10"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "HealthTech Solutions by Active Bridge",
+    "description": "Active Bridge provides expertise in HealthTech solutions, offering HIPAA-compliant web and mobile app development for healthcare providers globally.",
+    "url": "https://activebridge.org/solutions/healthcare-hipaa-case",
+    "about": "HealthTech Solutions",
+    "creator": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://imgur.com/SUEWchJ",
+      "sameAs": [
+        "https://www.linkedin.com/company/active-bridge/",
+        "https://github.com/activebridge",
+        "https://www.facebook.com/ActiveBridgeTeam",
+        "https://twitter.com/activebridge"
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://activebridge.org/solutions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "HealthTech Solution",
+        "item": "https://activebridge.org/solutions/healthcare-hipaa-case"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.com",
+      "availableLanguage": ["English", "Ukrainian"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]

@@ -3,11 +3,15 @@
   <head>
     {% gtm head %}
     <meta charset="utf-8">
+
     {% if page.json-ld %}
-      <script type="application/ld+json">
-        {{ site.data.seo[page.json-ld] | jsonify }}
-      </script>
+      {% for item in site.data.seo[page.json-ld] %}
+        <script type="application/ld+json">
+          {{ item | jsonify }}
+        </script>
+      {% endfor %}
     {% endif %}
+
     {% if page.layout == "post" %}{% include post_seo.html %}{% endif %}
     {% include blog_meta_tags.html %}
 

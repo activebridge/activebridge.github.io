@@ -1,23 +1,46 @@
-{
-  "@context": "http://schema.org",
-  "@type": "Blog",
-  "name": "Active Bridge Insights: Ruby on Rails & Web Dev Innovation",
-  "url": "https://active bridge.org/blog",
-  "description": "Discover expert insights on Ruby on Rails, Agile, UX/UI, and web development. Elevate your project with our curated content designed for innovators and decision-makers.",
-  "publisher": {
-    "@type": "LocalBusiness",
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Active Bridge Blog",
+    "description": "Explore the latest insights, updates, and articles from Active Bridge on Ruby on Rails development, IT staff augmentation, and industry trends.",
+    "url": "https://activebridge.org/blog/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://activebridge.org/blog/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
     "name": "Active Bridge",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://activebridge.org/path/to/logo.png"
-    },
-    "address": {
-                  "@type":"PostalAddress",
-                  "addressCountry":"US",
-                  "postalCode":"85016",
-                  "addressRegion": "AZ",
-                  "addressLocality": "Phoenix",
-                  "streetAddress":"3506 North 24th Street"
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org"
     }
   }
-}
+]

@@ -1,21 +1,70 @@
-{
-  "@context": "http://schema.org",
-  "@type": "AboutPage",
-  "name": "Active Bridge",
-  "description": "Active Bridge is a contract development company that specializes in providing on-demand full-stack engineers to help our clients and augment their in-house teams.",
-  "image": "https://imgur.com/SUEWchJ",
-  "provider": "Active Bridge",
-  "about": {
-      "@type": "LocalBusiness",
-      "name": "Active Bridge",
-      "logo": "https://imgur.com/SUEWchJ",
-      "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Phoenix",
-          "addressRegion": "AZ",
-          "postalCode": "85016",
-          "addressCountry": "US"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "description": "Learn more about Active Bridge, your trusted partner for Ruby on Rails development, IT staff augmentation, and custom web solutions. Since 2013, we’ve been committed to crafting scalable, high-quality applications that drive business success.",
+    "foundingDate": "2013-10-11",
+    "founder": {
+      "@type": "Person",
+      "name": "Alex Galushka",
+      "jobTitle": "Founder/CEO",
+      "image": "https://activebridge.org/assets/images/about/CREW_Galushka.webp",
+      "sameAs": [
+        "https://twitter.com/galulex",
+        "https://www.linkedin.com/in/galulex/"
+      ]
+    },
+    "address": [
+      {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressRegion": "AZ",
+        "addressLocality": "Phoenix",
+        "postalCode": "85016",
+        "streetAddress": "3506 North 24th Street"
+      },
+      {
+        "@type": "PostalAddress",
+        "addressCountry": "UA",
+        "addressRegion": "Cherkaska",
+        "addressLocality": "Cherkasy",
+        "postalCode": "18000",
+        "streetAddress": "Evgena Kukhartsa 8"
       }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org",
+      "url": "https://activebridge.org/contact"
+    }
   },
-  "url": "activebridge.org/about"
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://activebridge.org/about"
+      }
+    ]
+  }
+]

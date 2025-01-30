@@ -1,16 +1,81 @@
-{
-  "@context": "http://schema.org",
-  "@type": "Offer",
-  "name": "Ruby on Rails Development Services",
-  "category": "Tech Services",
-  "description": "Our Ruby on Rails development team makes the most of the technologies and builds really effective business solutions that always work.",
-  "areaServed": [
-                 "US",
-                 "UK",
-                 "AU",
-                 "CA"
-  ],
-  "price": "30.00 - 100.00/hour",
-  "priceCurrency": "USD",
-  "seller": "Active Bridge"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Ruby on Rails Development Services by Active Bridge",
+    "description": "Active Bridge specializes in Ruby on Rails development services, providing scalable, secure, and high-performance web applications tailored to your needs.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://imgur.com/SUEWchJ",
+      "sameAs": [
+        "https://www.linkedin.com/company/active-bridge/",
+        "https://github.com/activebridge",
+        "https://www.facebook.com/ActiveBridgeTeam",
+        "https://twitter.com/activebridge"
+      ]
+    },
+    "serviceType": [
+      "Custom Ruby on Rails Development",
+      "Web Application Development",
+      "Maintenance and Support",
+      "Cloud-Based Solutions"
+    ],
+    "areaServed": {
+      "@type": "Place",
+      "name": "Global"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "Remote"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://activebridge.org/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ruby on Rails Development",
+        "item": "https://activebridge.org/services/ruby-on-rails-development"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org",
+      "availableLanguage": ["English", "Ukrainian"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]

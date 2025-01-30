@@ -1,22 +1,75 @@
-{
-  "@context": "http://schema.org",
-  "@type": "WebPage",
-  "name": "About Active Bridge Team",
-  "description": "The team of Ruby on Rails developers with 8+ years of remote development experience for enterprise organizations and applications for startups.",
-  "about": {
-      "@type": "LocalBusiness",
-      "name": "Active Bridge",
-      "image": "https://imgur.com/SUEWchJ",
-      "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "3506 North 24th Street",
-      "addressLocality": "Phoenix",
-      "addressRegion": "AZ",
-      "postalCode": " 85016",
-      "addressCountry": "US"
-    },
-    "url": "activebridge.org/about/team",
-    "telephone": "+18888053503",
-    "email": "contact@activebridge.org"
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "Meet the Active Bridge Team",
+    "url": "https://activebridge.org/about/team",
+    "description": "Meet the talented team behind Active Bridge, specializing in Ruby on Rails development, IT staff augmentation, and custom web solutions."
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://activebridge.org/about"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Team",
+        "item": "https://activebridge.org/about/team"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Active Bridge Team Members",
+    "description": "Meet our leadership team and talented professionals driving success at Active Bridge.",
+    "itemListElement": [
+      {
+        "@type": "Person",
+        "name": "Alex Galushka",
+        "jobTitle": "Founder & CEO",
+        "url": "https://activebridge.org/assets/images/about/CREW_Galushka.webp",
+        "sameAs": "https://www.linkedin.com/in/galulex/"
+      },
+      {
+        "@type": "Person",
+        "name": "Alex Lukin",
+        "jobTitle": "CTO",
+        "url": "https://activebridge.org/assets/images/about/CREW_Lukin.webp",
+        "sameAs": "https://www.linkedin.com/in/lukin/"
+      },
+      {
+        "@type": "Person",
+        "name": "Olexandr Marchenko",
+        "jobTitle": "CFO",
+        "url": "https://activebridge.org/assets/images/about/CREW_Marchenko.webp",
+        "sameAs": "https://www.linkedin.com/in/olexandr-marchenko/"
+      }
+    ]
   }
-}
+]

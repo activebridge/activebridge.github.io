@@ -1,16 +1,81 @@
-{
-  "@context": "http://schema.org",
-  "@type": "Offer",
-  "name": "Web Application Development Services",
-  "category": "Tech Services",
-  "description": "From MVP to scalable web solutions, Active Bridge provides custom web development services and a transparent process",
-  "areaServed": [
-                 "US",
-                 "UK",
-                 "CA",
-                 "AU"
-  ],
-  "price": "30.00 - 60.00/hour",
-  "priceCurrency": "USD",
-  "seller": "Active Bridge"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Web Development Services by Active Bridge",
+    "description": "Active Bridge offers professional web development services, specializing in Ruby on Rails, custom web solutions, and scalable application development.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://imgur.com/SUEWchJ",
+      "sameAs": [
+        "https://www.linkedin.com/company/active-bridge/",
+        "https://github.com/activebridge",
+        "https://www.facebook.com/ActiveBridgeTeam",
+        "https://twitter.com/activebridge"
+      ]
+    },
+    "serviceType": [
+      "Ruby on Rails Development",
+      "Custom Web Development",
+      "Scalable Application Development",
+      "Cloud Solutions"
+    ],
+    "areaServed": {
+      "@type": "Place",
+      "name": "Global"
+    },
+    "availableChannel": {
+      "@type": "ServiceChannel",
+      "serviceLocation": {
+        "@type": "Place",
+        "name": "Remote"
+      }
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://activebridge.org/services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Web Development",
+        "item": "https://activebridge.org/services/web-development"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org",
+      "availableLanguage": ["English", "Ukrainian"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]

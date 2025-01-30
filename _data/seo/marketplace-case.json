@@ -1,10 +1,66 @@
-{
-  "@context": "http://schema.org",
-  "@type": "ItemPage",
-  "name": "Online Marketplace. SaaS Project",
-  "author": "Active Bridge",
-  "contributor": "Upstack",
-  "significantLink": "activebridge.org/solutions/marketplase-saas-development-solutions",
-  "description": "Cloud software development project example of an online marketplace and data-center management software.",
-  "datePublished": "2017-10-12"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Marketplace Solutions by Active Bridge",
+    "description": "Active Bridge specializes in developing marketplace solutions, including multi-vendor platforms and scalable online marketplaces tailored to your business needs.",
+    "url": "https://activebridge.org/solutions/marketplace-case",
+    "about": "Marketplace Solutions",
+    "creator": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://activebridge.org/logo.png",
+      "sameAs": [
+        "https://www.linkedin.com/company/active-bridge/",
+        "https://github.com/activebridge",
+        "https://www.facebook.com/ActiveBridgeTeam",
+        "https://twitter.com/activebridge"
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://activebridge.org/solutions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Marketplace Solution",
+        "item": "https://activebridge.org/solutions/marketplace-case"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://activebridge.org/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@active-bridge.com",
+      "availableLanguage": ["English", "Ukrainian"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]
