@@ -1,71 +1,126 @@
-{
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-  "itemReviewed": "ProfessionalService",
-  "name": "Active Bridge's development services",
-  "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "reviewCount": "17"
-  },
-  "review": [
-             {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Ben"
-                },
-                "reviewBody": "They bring excellent Agile and TDD software development practices to our team and are effective and efficient collaborators. "
-             },
-              {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Joseph"
-                },
-                "reviewBody": "Collaborating with their engineers has kept us delivering running, tested features in an Agile fashion across multiple countries and time zones."
-              },
-             {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "Julie"
-                },
-                "reviewBody": " The whole team were very responsive, organized and have great communication skills."
-             },
-             {
-                "@type": "Review",
-                "reviewRating": {
-                    "@type": "Rating",
-                    "ratingValue": "5"
-                },
-                "author": {
-                    "@type": "Person",
-                    "name": "David"
-                },
-                "reviewBody": "Their staff are as competent and productive as the three times more expensive people, and deliver more code per dollar than the three times less expensive people"
-             }
-  ],
-  "url": "activebridge.org/reviews",
-  "image": "https://imgur.com/SUEWchJ",
-  "telephone": "+18888053503",
-  "address": {
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Active Bridge's Development Services",
+    "description": "Active Bridge provides professional development services specializing in Ruby on Rails, custom web/software development, and IT staff augmentation.",
+    "url": "https://activebridge.org/reviews",
+    "image": "https://imgur.com/SUEWchJ",
+    "telephone": "+18888053503",
+    "address": {
       "@type": "PostalAddress",
       "streetAddress": "3506 North 24th Street",
       "addressLocality": "Phoenix",
       "postalCode": "85016",
       "addressCountry": "US"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "reviewCount": "17"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Ben"
+        },
+        "reviewBody": "They bring excellent Agile and TDD software development practices to our team and are effective and efficient collaborators.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Active Bridge"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Joseph"
+        },
+        "reviewBody": "Collaborating with their engineers has kept us delivering running, tested features in an Agile fashion across multiple countries and time zones.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Active Bridge"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Julie"
+        },
+        "reviewBody": "The whole team were very responsive, organized and have great communication skills.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Active Bridge"
+        }
+      },
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "David"
+        },
+        "reviewBody": "Their staff are as competent and productive as the three times more expensive people, and deliver more code per dollar than the three times less expensive people.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Active Bridge"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Reviews",
+        "item": "https://activebridge.org/reviews"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://activebridge.org/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org"
+    }
   }
-}
+]

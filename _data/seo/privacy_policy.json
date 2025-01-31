@@ -1,56 +1,58 @@
-{
-  "@context": "http://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Active Bridge",
-  "description": "Active Bridge helps clients to build a qualitative web products thanks to our niche RoR expertise and 90% senior/middle developers on our board.",
-  "url": "https://activebridge.org/",
-  "image": "https://imgur.com/SUEWchJ",
-  "email": "contact@activebridge.org",
-  "telephone": "+18888053503",
-  "address": [
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Active Bridge",
+    "description": "Active Bridge helps clients to build a qualitative web products thanks to our niche RoR expertise and 90% senior/middle developers on our board.",
+    "url": "https://activebridge.org/",
+    "image": "https://imgur.com/SUEWchJ",
+    "email": "contact@activebridge.org",
+    "telephone": "+18888053503",
+    "address": [
+                {
+                    "@type":"PostalAddress",
+                    "addressCountry":"US",
+                    "postalCode":"85016",
+                    "addressRegion": "AZ",
+                    "addressLocality": "Phoenix",
+                    "streetAddress":"3506 North 24th Street"
+    },
               {
-                  "@type":"PostalAddress",
-                  "addressCountry":"US",
-                  "postalCode":"85016",
-                  "addressRegion": "AZ",
-                  "addressLocality": "Phoenix",
-                  "streetAddress":"3506 North 24th Street"
-  },
-            {
-                "@type": "PostalAddress",
-                "addressCountry": "UA",
-                "postalCode": "18000",
-                "addressRegion": "Cherkaska",
-                "addressLocality": "Cherkasy",
-                "streetAddress": "Evgena Kukhartsa 8"
+                  "@type": "PostalAddress",
+                  "addressCountry": "UA",
+                  "postalCode": "18000",
+                  "addressRegion": "Cherkaska",
+                  "addressLocality": "Cherkasy",
+                  "streetAddress": "Evgena Kukhartsa 8"
+    }
+    ],
+    "founder": {
+                  "@type":"Person",
+                  "name":"Alex Galushka",
+                  "gender": "Male",
+                  "jobTitle":"Founder/CEO",
+                  "image":"https://imgur.com/ef2d29e",
+                  "sameAs": [
+                               "https://twitter.com/galulex",
+                               "https://www.linkedin.com/in/galulex/"
+                    ]
+    },
+    "foundingDate": "2013-10-11",
+    "sameAs": [
+               "https://www.linkedin.com/company/active-bridge/",
+               "https://github.com/activebridge",
+               "https://www.facebook.com/ActiveBridgeTeam",
+               "https://twitter.com/activebridge"
+    ],
+    "contactPoint": [
+        {
+            "@type" : "ContactPoint",
+            "contactType": "customer service",
+            "telephone": "+18888053503",
+            "email": "contact@activebridge.org",
+            "url": "https://activebridge.org/"
+        }
+    ],
+    "priceRange": "$30.00 - $60.00/hour"
   }
-  ],
-  "founder": {
-                "@type":"Person",
-                "name":"Alex Galushka",
-                "gender": "Male",
-                "jobTitle":"Founder/CEO",
-                "image":"https://imgur.com/ef2d29e",
-                "sameAs": [
-                             "https://twitter.com/galulex",
-                             "https://www.linkedin.com/in/galulex/"
-                  ]
-  },
-  "foundingDate": "2013-10-11",
-  "sameAs": [
-             "https://www.linkedin.com/company/active-bridge/",
-             "https://github.com/activebridge",
-             "https://www.facebook.com/ActiveBridgeTeam",
-             "https://twitter.com/activebridge"
-  ],
-  "contactPoint": [
-      {
-          "@type" : "ContactPoint",
-          "contactType": "customer service",
-          "telephone": "+18888053503",
-          "email": "contact@activebridge.org",
-          "url": "https://activebridge.org/"
-      }
-  ],
-  "priceRange": "$30.00 - $60.00/hour"
-}
+]

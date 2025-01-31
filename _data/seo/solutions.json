@@ -1,50 +1,77 @@
-{
-  "@context": "http://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Custom Technology Solutions by Active Bridge",
-  "description": "Leverage our programming expertise in building high-performance, interactive, user-friendly applications. Active Bridge offers custom technology solutions tailored to business growth, specializing in industries such as Finance & Banking, Healthcare, InsurTech, E-commerce, Logistics, and Education.",
-  "provider": {
-    "@type": "LocalBusiness",
-    "name": "Active Bridge",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "3506 North 24th Street",
-      "addressLocality": "Phoenix",
-      "addressRegion": "AZ",
-      "postalCode": "85016",
-      "addressCountry": "US"
-    },
-    "telephone": "+18888053503",
-    "logo": "https://imgur.com/SUEWchJ",
-    "url": "https://activebridge.org"
-  },
-  "serviceType": "Software Development",
-  "areaServed": "Globally",
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Technology Solutions Services",
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Industry Solutions Offered by Active Bridge",
+    "description": "Explore industry-specific solutions for HealthTech, InsurTech, E-commerce, and beyond, designed to drive innovation and meet your unique business needs",
     "itemListElement": [
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Finance & Banking solutions"
-        }
+        "@type": "ListItem",
+        "position": 1,
+        "name": "HealthTech Solutions",
+        "url": "https://activebridge.org/solutions/healthtech"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Healthcare & HIPPA HealthTech solutions"
-        }
+        "@type": "ListItem",
+        "position": 2,
+        "name": "InsurTech Solutions",
+        "url": "https://activebridge.org/solutions/insurtech"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "e-Commerce, Marketplace development solutions"
-        }
+        "@type": "ListItem",
+        "position": 3,
+        "name": "E-commerce Solutions",
+        "url": "https://activebridge.org/solutions/e-commerce"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "B2C Marketplace Solutions",
+        "url": "https://activebridge.org/solutions/b2c-marketplace"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Travel and Logistics Solutions",
+        "url": "https://activebridge.org/solutions/travel-logistic"
       }
     ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://activebridge.org/solutions"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://activebridge.org/logo.png",
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@activebridge.org"
+    }
   }
-}
+]

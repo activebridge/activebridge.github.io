@@ -1,10 +1,66 @@
-{
-  "@context": "http://schema.org",
-  "@type": "ItemPage",
-  "name": "eCommerce Website Project",
-  "author": "Active Bridge",
-  "contributor": "SewSew You ltd",
-  "significantLink": "activebridge.org/solutions/custom-ecommerce-web-development",
-  "description": "Web development project example of a B2C eCommerce platform with optimized supply chain management and logistics for sustainable clothes brands.",
-  "datePublished": "2018-12-10"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "E-commerce Solutions by Active Bridge",
+    "description": "Active Bridge specializes in scalable E-commerce solutions, including custom online stores and multi-vendor platforms tailored to your business needs.",
+    "url": "https://activebridge.org/solutions/ecommerce-case",
+    "about": "E-commerce Solutions",
+    "creator": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://imgur.com/SUEWchJ",
+      "sameAs": [
+        "https://www.linkedin.com/company/active-bridge/",
+        "https://github.com/activebridge",
+        "https://www.facebook.com/ActiveBridgeTeam",
+        "https://twitter.com/activebridge"
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://activebridge.org/solutions"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "E-commerce Solution",
+        "item": "https://activebridge.org/solutions/ecommerce-case"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+18888053503",
+      "email": "contact@active-bridge.com",
+      "availableLanguage": ["English", "Ukrainian"]
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]

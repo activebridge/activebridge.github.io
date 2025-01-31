@@ -1,39 +1,62 @@
-{
-  "@context": "http://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Web, Cloud Software, Mobile Application Development Services",
-  "description": "Picking the right tech stack, Active Bridge help startups and SMEs looking to solve their technical business challenges, complex or routine.",
-  "priceRange": "$30.00 - $60.00",
-  "address": [
-              {
-                  "@type": "PostalAddress",
-                  "addressCountry": "US",
-                  "postalCode": "85016",
-                  "streetAddress": "3506 North 24th Street"
-              }
-  ],
-  "telephone": "+18888053503",
-  "areaServed": [
-                 "US",
-                 "UK",
-                 "CA",
-                 "AU"
-  ],
-  "award": [
-            "Top App Development Companies, 2020",
-            "Top B2B Companies Ukraine, 2018",
-            "Best Web Developers in Phoenix, 2020",
-            "Top Web & Software Development company, 2019",
-            "Top Firms Arizona, 2020"
-  ],
-  "contactPoint": [
-                   {
-                      "@type": "contactPoint",
-                      "contactType": "Customer services",
-                      "email": "contact@activebridge.org",
-                      "telephone": "+18888053503",
-                      "url": "activebridge.org/services"
-                   }
-  ],
-  "image": "https://imgur.com/SUEWchJ"
-}
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Web Development and IT Staff Augmentation Services",
+    "description": "Active Bridge provides expert Ruby on Rails development, IT staff augmentation, custom web and mobile app solutions tailored for startups and enterprises, delivering scalable and reliable results",
+    "provider": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "url": "https://activebridge.org",
+      "logo": "https://imgur.com/SUEWchJ",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+18888053503",
+        "email": "contact@activebridge.org"
+      }
+    },
+    "serviceType": [
+      "Ruby on Rails Development",
+      "Custom Web Development",
+      "Mobile App Development",
+      "IT Staff Augmentation",
+      "Cloud Solutions"
+    ],
+    "areaServed": {
+      "@type": "Place",
+      "name": "Global"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://activebridge.org/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Services",
+        "item": "https://activebridge.org/services"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://activebridge.org",
+    "logo": "https://imgur.com/SUEWchJ",
+    "sameAs": [
+      "https://www.linkedin.com/company/active-bridge/",
+      "https://github.com/activebridge",
+      "https://www.facebook.com/ActiveBridgeTeam",
+      "https://twitter.com/activebridge"
+    ]
+  }
+]
