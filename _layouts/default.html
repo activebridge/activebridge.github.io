@@ -25,7 +25,7 @@
     <meta property="og:image" content="{{ '/assets/images/FB_Cover_Dark.webp' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="view-transition" content="same-origin" />
     {% if page.url == "/" %}
-      <link rel="canonical" href="{{ site.url | prepend: site.baseurl | prepend: page.url | remove: 'index.html' | remove: '.html' }}"/>
+      <link rel="canonical" href="{{ site.url | remove: 'index.html' | remove: '.html' }}"/>
     {% endif %}
 
     <title>{{ page.title }}</title>
