@@ -41,6 +41,7 @@ plugins:
   - jekyll-minifier
 
 include: ['_solutions']
+permalink: pretty
 
 pagination:
   enabled: true
