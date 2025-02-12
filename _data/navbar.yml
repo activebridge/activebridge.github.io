@@ -5,9 +5,9 @@ links:
   - section: Team
     link: /about/team
 - page: Expertise
-  link: /expertise
+  link: /expertise/
 - page: Services
-  link: /services
+  link: /services/
   items:
   - section: Web Development
     link: /services/web-development
@@ -20,7 +20,7 @@ links:
   - section: Project Development
     link: /services/project-development-cooperation
 - page: Solutions
-  link: /solutions
+  link: /solutions/
   items:
   - section: HealthTech/HIPAA-compliant
     link: /solutions/healthcare-hipaa-case
@@ -33,9 +33,9 @@ links:
   - section: Travel/Logistic
     link: /solutions/taxi-and-transportation-case
 - page: Reviews
-  link: /reviews
+  link: /reviews/
 - page: FAQ
-  link: /faq
+  link: /faq/
 - page: Blog
   link: /blog/
 reviews: Reviews
