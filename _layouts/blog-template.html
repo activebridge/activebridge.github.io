@@ -58,7 +58,7 @@ layout: default
               {% if page-num == paginator.page %}
                 <span class="pagination__current-page">{{ page-num }}</span>
               {% elsif page-num == 1 %}
-                <a class="pagination__page" href="{{ site.paginate_path | prepend: category-name | prepend: '/blog/' | replace: '/page:num', '/' }}" data-link="blog-link">{{ page-num }}</a>
+                <a class="pagination__page" href="{{ site.paginate_path | prepend: category-name | prepend: '/blog/' | replace: '/page:num' }}" data-link="blog-link">{{ page-num }}</a>
               {% else %}
                 <a class="pagination__page" href="{{ site.paginate_path | prepend: category-name | prepend: '/blog/' | replace: '//', '/' | replace: 'page:num', page-num }}/" data-link="blog-link">{{ page-num }}</a>
               {% endif %}
