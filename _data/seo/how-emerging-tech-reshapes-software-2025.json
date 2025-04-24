@@ -1,0 +1,28 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "How Emerging Tech is Reshaping Custom Software Development in 2025",
+    "description": "Explore how AI, cloud-native architecture, DevSecOps, and low-code are reshaping software development in 2025 — and what it means for tech leaders.",
+    "author": {
+      "@type": "Person",
+      "name": "Daria Zymina",
+      "url": "https://www.linkedin.com/in/dariazymina"
+    },
+    "datePublished": "2025-04-22",
+    "dateModified": "2025-04-22",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://activebridge.org/blog/how-emerging-tech-is-reshaping-custom-software-development"
+    },
+    "image": "https://activebridge.org/assets/images/blog/posts/business_growth/how-emerging-tech-is-reshaping-custom-software-development-back.webp",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Active Bridge",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://activebridge.org/assets/images/logo/logo-dark.svg"
+      }
+    }
+  }
+]
