@@ -1,0 +1,28 @@
+[
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Rails in 2025: Trends, Tools, and Real-World Use Cases",
+      "description": "From AI-powered DevOps to modern Rails tooling, see where Rails stands in 2025 and why it still powers fast, scalable, and stable apps across industries.",
+      "author": {
+        "@type": "Person",
+        "name": "Daria Zymina",
+        "url": "https://www.linkedin.com/in/dariazymina"
+      },
+      "datePublished": "2025-05-10",
+      "dateModified": "2025-05-10",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://activebridge.org/blog/how-ruby-on-rails-evolves-in-2025"
+      },
+      "image": "https://activebridge.org/assets/images/blog/posts/engineering/how-ruby-on-rails-evolves-in-2025-back.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Active Bridge",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://activebridge.org/assets/images/logo/logo-dark.svg"
+        }
+      }
+    }
+  ]
