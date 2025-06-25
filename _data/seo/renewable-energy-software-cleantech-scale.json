@@ -1,0 +1,41 @@
+
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is custom backend architecture important for CleanTech platforms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Custom backend systems enable CleanTech platforms to scale securely, adapt to evolving compliance requirements, and support real-time operations such as AI forecasting, IoT automation, and ESG data governance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does AI improve forecasting in renewable energy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI, particularly machine learning and ensemble models, improves day-ahead forecasting accuracy, enabling better grid balancing, reduced costs, and enhanced reliability for wind and solar energy sources."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes software audit-ready for ESG compliance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Audit-ready ESG software includes features like immutable audit logs, version control, standardized GHG methodologies, role-based access, and export-ready reports that align with CSRD, SEC, or GRI frameworks."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where does blockchain fit in clean energy software?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blockchain is useful for verifying renewable energy certificates and peer-to-peer trading, but it's not ideal for real-time control. For most CleanTech use cases, purpose-built backend systems are more efficient."
+        }
+      }
+    ]
+  }
+]
