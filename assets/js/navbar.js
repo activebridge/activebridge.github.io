@@ -6,6 +6,13 @@ function innitMobileNavbar() {
   const navButton = document.querySelector('.menu-icon');
   const closeMobileNavButton = document.querySelector('.menu-close-ico')
   const scroller = document.querySelector('.body-content')
+  const mainContent = document.querySelector('.body-content__main-section');
+
+  mainContent.addEventListener('click', () => {
+    if (scroller.scrollLeft > 0) {
+      scroller.scroll({ left: 0, behavior: "smooth" });
+    }
+  });
 
   closeMobileNavButton.addEventListener('click', () => {
     scroller.scroll({ left: 0, behavior: "smooth", });
