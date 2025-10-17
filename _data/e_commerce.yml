@@ -4,16 +4,16 @@ description:  Leveraging over 9 years of e-commerce development experience, Acti
               online solutions that integrate every aspect of the e-commerce value chain, empowering clients to expand their
               businesses and enhance online sales.
 cards:
-  - title: eCommerce web application development and retail software
+  - title: e-commerce web application development and retail software
     icon: computer
-    description: Our eCommerce web development company can assist you whether you are launching a new eCommerce platform
+    description: Our e-commerce web development company can assist you whether you are launching a new e-commerce platform
                   or revamping your existing one. We manage all issues related to secure networks, remote server
                   configuration, infrastructure solutions, and database management. Active Bridge’s cloud configuration
                   experts help you take full advantage of flexible and highly scalable product deployment so you can focus
                   on growing and featuring your platform.
-  - title: eCommerce mobile application solutions
+  - title: e-commerce mobile application solutions
     icon: mobile
-    description: We help you reach your customers on the go with a cross-platform eCommerce app. Our e-commerce web
+    description: We help you reach your customers on the go with a cross-platform e-commerce app. Our e-commerce web
                   developers have already delivered many mobile online store solutions enhanced with rich functionality
                   and a user-friendly interface.
 expertise_title: Expertise
@@ -21,14 +21,14 @@ expertise:
   - icon: expertise_1
     title: Online store development
   - icon: expertise_2
-    title: Retails software development
+    title: Retail software development
   - icon: expertise_3
     title: CRM and ERP system integration
   - icon: expertise_4
     title: Cloud and database management
   - icon: expertise_5
     title: API and payment systems integration
-help_title: How we can help with eCommerce web app development
+help_title: How we can help with e-commerce web app development
 help:
   - icon: process_1
     title: "Full-Cycle Assistance:"
@@ -43,7 +43,7 @@ help:
     description: Developing custom retail software with cross-platform compatibility, leveraging extensive experience in adhering to industry and market regulations.
 case_study:
   title: Case Study
-  subtitle: A B2C eCommerce platform with optimized supply chain management and logistics for sustainable clothes
+  subtitle: A B2C e-commerce platform with optimized supply chain management and logistics for sustainable clothes
             brands
   top_info:
     - item: "Contract type: <b>team augmentation contract type</b>"
@@ -84,16 +84,16 @@ project:
         - item: Consistent User Experience (UX) across every device and screen size
     - title: Complex e-commerce platform search engine with dynamically changing filters
       description: We designed and developed advanced filtering and search logic, based on multiple dynamically
-                    changed rules.
+                    changing rules.
       icon: features_2
       elements:
         - item: Autosuggestions that appear as consumers type their inquiries in the search bar
-        - item: Consumers can browse brands' products by size, category, and price., check their availability in
+        - item: Consumers can browse brands' products by size, category, and price, check their availability in
                 stocks, and view prices, specifications, codes of spare parts, etc.
     - title: Affiliate subsystem with its own custom-built CRM
       description: The main goal of the customized vendors' CRM solution was to maintain relationships with both
                     customers and factories (suppliers) for long periods of time. CRM should be enabled on multiple
-                    devices both stationary and mobile.
+                    devices, both desktop and mobile.
       icon: features_3
       elements:
         - item: Vendors can streamline order management, create shipments, accept refunds, and more.

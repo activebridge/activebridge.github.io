@@ -60,7 +60,7 @@ help_businesses: We help businesses from healthcare, finance, retail, education,
 view_all_solutions: View all solutions
 solutions:
 - logo: healthcare.webp
-  title: Healthcare & HIPPA HealthTech
+  title: Healthcare & HIPAA HealthTech
   description: We deliver secure and HIPPA compliant healthcare web development solutions for hospitals, doctors, patients.
   index: 1
 - logo: bank.webp

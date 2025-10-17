@@ -35,11 +35,11 @@ design_and_development:
   help:
     - icon: process_1
       title: Full-cycle assistance
-      description: of InsurTeach project development, from cloud hosting and UX/UI design, through app development and
+      description: of InsurTech project development, from cloud hosting and UX/UI design, through app development and
                     QA, to technical delivery, security compliance, maintenance, and support.
     - icon: process_2
       title: Rapid development
-      description: based on the agile practice that facilitates getting MVP in a short period of time and transforming
+      description: based on the agile practice that facilitates getting an MVP in a short period of time and transforming
                     it into a solid, scalable, and reliable product
     - icon: process_3
       title: Cross-platform solutions

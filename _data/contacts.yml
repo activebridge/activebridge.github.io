@@ -1,6 +1,6 @@
 title: Contact Us
 sub_title: Let's build the next impactful product together
-description: We'd love to hear what you are working on. Fill the form here and we'll get back to you in 24 hours,
+description: We'd love to hear what you are working on. Fill out the form here and we'll get back to you in 24 hours,
              or you can chat with us live using social networks and mobile.
 form:
   description:
@@ -18,6 +18,6 @@ select:
     - description: I need an estimate
     - description: I want to join your team
     - description: I want to sell you something
-    - description: Just have a talks
+    - description: Just to have a talk
 
 link_to_faq: Learn more about how we process your data
