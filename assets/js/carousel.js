@@ -87,9 +87,15 @@ const setCarousel = (scroller) => {
     const offsetWidth = target.offsetWidth;
 
     const checkPos = () => {
-      [...target.children].map(e => {
-        const toCenter = Math.abs(window.outerWidth / 2 - e.getBoundingClientRect().left - e.getBoundingClientRect().width / 2);
-        const toCenter2 = window.outerWidth / 2 - e.getBoundingClientRect().left - e.getBoundingClientRect().width / 2;
+      [...target.children].forEach(e => {
+        const childRect = e.getBoundingClientRect();
+        // Optimization: Only process elements currently visible on screen.
+        if (childRect.right < 0 || childRect.left > window.innerWidth) {
+          return; // Skip heavy calculations for off-screen elements
+        }
+
+        const toCenter = Math.abs(window.innerWidth / 2 - childRect.left - childRect.width / 2);
+        const toCenter2 = window.innerWidth / 2 - childRect.left - childRect.width / 2;
         const viewport = toCenter / offsetWidth * 100;
         const viewport2 = toCenter2 / offsetWidth * 100;
         e.style.setProperty('--viewport', viewport);
