@@ -52,7 +52,7 @@ industries:
     - Integrations
     - Multi-device synchronization
     index: 3
-  - title: Logistic & Transportation
+  - title: Logistics & Transportation
     icon: 'index/solutions/logistic.webp'
     items:
     - Live status tracking

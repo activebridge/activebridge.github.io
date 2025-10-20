@@ -41,7 +41,7 @@ reasons:
                  with a focus on simplicity and productivity and utilizes metaprogramming
                  to create <span class="purple-text">fully-functional applications<span>.
     icon: reason_1.webp
-  - title: Ruby on rails
+  - title: Ruby on Rails
     description: Ruby on Rails is a fully functional, multi-level framework based
                  on the Model-View-Controller architecture. It enables building
                  <span class="purple-text">database-driven web apps</span>,
@@ -55,7 +55,7 @@ reasons:
                  Model-View-Controller system makes modularity and extensibility
                  of an app. So developers can extend any app with new features.
                  In addition, we use <span class="purple-text">Agile web
-                 development methodology</span>, ready-to-use ruby on rails
+                 development methodology</span>, ready-to-use Ruby on Rails
                  development tools, and an ecosystem to work productively.
     icon: reason_3.webp
   - title: Api integration
@@ -70,7 +70,7 @@ reasons:
                  <span class="purple-text">enhances project scalability</span>.
                  Whether you have a simple website or cloud-based software system,
                  it can work flawlessly based on this reliable technology. The
-                 framework works with the <span class="purple-text">raised load
+                 framework works with the <span class="purple-text">increased load
                  and saves time</span> on the deployment process.
     icon: reason_5.webp
   - title: Security

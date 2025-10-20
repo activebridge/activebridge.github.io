@@ -14,10 +14,10 @@ information:
 company_vision:
   title: Company Vision
   subtitle: Delivering Professional Teams as a Service
-  description: We effort to provide our customers with the most effective development solutions
+  description: We strive to provide our customers with the most effective development solutions
                possible. Each client’s business, problems, and ideas require a customized approach.
                It is possible due to our 10 years of experience working remotely, our passion for
-               sustainable technologies, driven staff, and our worked-out practice of creating the
+               sustainable technologies, driven staff, and our proven practice of creating the
                conditions for efficient collaboration.
   button: Discover our expertise
 crew:
@@ -44,7 +44,7 @@ benefits:
   subtitle: What makes Active Bridge a competitive application development house?
   description: "Active Bridge distinguishes itself as a leading application development house,
                 leveraging a compact team of senior and middle Rails developers to deliver technology
-                expertise and object-oriented programming. Our motivated team excels in seamlesslyintegrating
+                expertise and object-oriented programming. Our motivated team excels in seamlessly integrating
                 with client operations, driven by a passion for emerging technologies and complex projects."
   all:
   - title: Technology Expertise
@@ -54,7 +54,7 @@ benefits:
   - title: A motivated Workforce
     description: Our contract web developers participate in meetings as often as a client requires, send daily,
                  weekly, or monthly status reports depending on the customer’s needs. We always guarantee that
-                 programmers are assigned to only a single project, meaning a client always have their full
+                 programmers are assigned to only a single project, meaning a client always has their full
                  dedication to the team’s goals.
     index: 2
   - title: Workflow Transparency
@@ -79,7 +79,7 @@ key_facts:
     title: <span>10+</span> years of excellence in remote development
     description: Since 2013, our team of over 40 highly skilled professionals has delivered cutting-edge solutions, seamlessly integrating into our clients' workflows to drive project success.
   - image: key_facts_2
-    title: Huge dev stack
+    title: Extensive dev stack
     description: On-demand developers with deep knowledge and significant experience in object-centric, document-centric languages, frameworks, DSMs platforms, and APIs.
   - image: key_facts_3
     title: Fluent communication

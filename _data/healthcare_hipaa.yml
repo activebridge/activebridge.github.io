@@ -51,7 +51,7 @@ solutions:
       elements:
         - item: an encrypted communication layer (SSL)
         - item: role-based authentication and permissions management
-        - item: bruteforce application login detection and blocking of access for suspicious users
+        - item: brute-force application login detection and blocking of access for suspicious users
     - title: Security message system
       description: All-in-one secure messaging, forms, and RX Orders. Any transfer of text, documents, images, graphics,
                     or any other type of information is encrypted and available only to the sender and the intended recipient
@@ -72,7 +72,7 @@ solutions:
 
 
     - title: Complex project architecture
-      description: The system is designed to handle scale user databases, transactions, and messages and store this information
+      description: The system is designed to handle large-scale user databases, transactions, and messages and store this information
                     for ten years. The architecture is multifaceted not only in terms of technology, but also in terms of its
                     use case, roles, development, and deployment.
       icon: solution_4

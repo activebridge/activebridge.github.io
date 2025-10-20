@@ -127,13 +127,13 @@ project_development:
                    set up the development environment, and grant the client access to communication and tracking tools.
       image: project_development_2
       processes:
-        - item: Creating precious estimates
+        - item: Creating precise estimates
         - item: Composing dedicated team
         - item: Setting up the development environment
         - item: Set up first development sprint
     - title: 'UI/UX design and project development'
       description: During this stage, we create a final visual representation of your project ( or you can
-                    provide staff from your in-house designer) and the development team starts to implement it.
+                    provide designs from your in-house designer) and the development team starts to implement it.
       image: project_development_3
       processes:
         - item: Creating wire-frames
@@ -161,7 +161,7 @@ staff_augmentation:
       processes:
         - item: Intro call
         - item: Discuss requirements for the candidate
-        - item: We select developers among our poll
+        - item: We select developers from our pool
         - item: Interview
         - item: Sign agreement
     - title: Onboarding

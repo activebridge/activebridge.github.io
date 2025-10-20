@@ -74,7 +74,7 @@ flutter:
     icon: flutter_2.webp
     description: Flutter is built based on the principles of <b>modern development
                  practices</b>. It means developers create mobile applications
-                 with <b>reach UI elements</b> in only several lines of code.
+                 with <b>rich UI elements</b> in only several lines of code.
                  The Flutter includes two ranges of widgets corresponding to
                  Google’s design language (Material Design widgets) and Apple’s
                  iOS design language.
@@ -83,7 +83,7 @@ flutter:
     description: Flutter helps to rephrase the content to UI manually and can
                  update factors in the state. So mobile developers can skip various
                  needless actions to build <b>swift and flawless UI</b>. Also,
-                 Fluter makes the testing process <b>quicker and more efficient</b>.
+                 Flutter makes the testing process <b>quicker and more efficient</b>.
                  Engineers use a single test for both platforms.
 ionic:
   title: Ionic <br> application development
@@ -105,7 +105,7 @@ ionic:
     description: <p>Ionic framework focuses on agile languages and enables fast
                  development at a low cost. Also, the Ionic development team
                  designs space-optimized apps. This optimization enhances RAM
-                 and escalates the efficiency of a particular device.</p>
+                 and increases the efficiency of a particular device.</p>
                  <p>Our Ionic developers leverage the mobile SDK, plugins, themes,
                  UI library, widgets, side menu, touch, and other elements to
                  build robust hybrid apps.</p>

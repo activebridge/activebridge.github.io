@@ -13,13 +13,13 @@ details:
     answer: We have been serving the U.S., Canadian and European markets for 10 years. During this time we have
             helped launch successful projects, such as Knock Knock City, Foundersuite, SplitPayments, and many
             others. We are not just an outsourcing service provider, but a full-fledged partner to our clients
-            who want to take their business to the next level. So many of our clients make business with us today.
+            who want to take their business to the next level. So many of our clients do business with us today.
             You can always ask for references about our work from our customers. And you can always check the ratings
             provided by independent sites, such as Clutch and Expertise.
     size: normal
   - question: What is your average hourly rate or minimum project budget?
     answer: Our average rate depends on the developers’ level of expertise. Rates vary depending on the developer's
-            experience, soft skills and hard skills they have. An average Junior’s developer rate is $25/h, an average
+            experience, soft skills and hard skills they have. The average rate for a Junior developer is $25/h, an average
             Middle developer’s rate is $35/h, an average Senior’s rate is $45/h.<br>
             We work on fix price cooperation model. The minimum project budget, in this case, is $30.000.
     size: normal
@@ -27,7 +27,7 @@ details:
     answer: Our main expertise is developing web-based systems, web applications, cloud-based software, cross-platform
             applications, and PWA. All our developers have a Bachelor’s or Master’s degree in computer science, have deep
             knowledge in OOP, and build great projects utilizing Ruby on Rails, React JS, React Native, Angular JS, and
-            add-ones technologies.
+            add-on technologies.
     size: normal
   - question: What data and materials do you expect a client provides to proceed with project development?
     answer: We start with an introductory call with a client to clarify a client’s needs and expectations and obtain the
@@ -59,7 +59,7 @@ details:
       - item: slack channel access to discuss any project issues/ideas/related details with all project team members.
       - item: "access to our development environment: Github account with a project source code, Heroku service, project’s
               domain access, project management tools."
-      - item: product and sprint backlogs, regular daily meetings, retrospective, sprint reporting, timelog reports for billing.
+      - item: product and sprint backlogs, regular daily meetings, retrospective, sprint reporting, time log reports for billing.
       - item: continuous-integration and code reviews
     size: large
   - question: What type of project-related documents and developments does a client own?
