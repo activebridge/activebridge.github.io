@@ -1,0 +1,137 @@
+[
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.activebridge.org/blog/audit-ready-backend-esg-compliance-csrd-xbrl"
+  },
+  "headline": "ESG Reporting Software: Build an Audit-Ready Backend",
+  "description": "ESG reporting software needs an audit-ready backend: traceability, RBAC/RLS, versioned rules, data tests, and CSRD Inline XBRL tagging—so evidence is ready on demand.",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.activebridge.org/assets/blog/audit-ready-esg-backend-cover.webp",
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "url": "https://www.activebridge.org"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Active Bridge",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.activebridge.org/assets/logo.png",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "datePublished": "2025-10-17",
+  "dateModified": "2025-10-17",
+  "isAccessibleForFree": true,
+  "keywords": [
+    "audit-ready backend",
+    "ESG reporting software",
+    "CSRD reporting software",
+    "XBRL tagging for CSRD",
+    "ESG data lineage",
+    "audit trail",
+    "RBAC",
+    "Postgres RLS",
+    "dbt",
+    "Great Expectations",
+    "Scope 3 data pipeline",
+    "ESG data integration",
+    "ESRS taxonomy",
+    "ESEF validation",
+    "OpenTelemetry",
+    "SOC 2",
+    "ISO 27001",
+    "assurance readiness",
+    "evidence bundle"
+  ],
+  "articleSection": [
+    "Introduction",
+    "What an Audit-Ready Backend Really Requires",
+    "Why Most MVPs Miss Audit Readiness",
+    "How to Build an Audit-Ready Backend in Rails",
+    "Reporting & Tagging for Assurance (CSRD, XBRL, ESEF)",
+    "Integrations That Matter for ESG (ERP, Utilities, IoT)",
+    "Business Outcomes and ROI",
+    "Conclusion: Build Proof into the Backend",
+    "FAQs"
+  ],
+  "about": [
+    { "@type": "Thing", "name": "Corporate Sustainability Reporting Directive (CSRD)" },
+    { "@type": "Thing", "name": "Inline XBRL (iXBRL)" },
+    { "@type": "Thing", "name": "ESRS Taxonomy" },
+    { "@type": "Thing", "name": "Environmental, Social, and Governance (ESG)" },
+    { "@type": "Thing", "name": "Row-Level Security (RLS)" },
+    { "@type": "Thing", "name": "SOC 2" },
+    { "@type": "Thing", "name": "ISO/IEC 27001" }
+  ],
+  "mentions": [
+    { "@type": "CreativeWork", "name": "DORA Metrics" },
+    { "@type": "CreativeWork", "name": "NIST SP 800-53 AU" }
+  ],
+  "wordCount": 3200,
+  "timeRequired": "PT16M"
+},
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an audit-ready backend for ESG compliance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An architecture where evidence is routine: traceability with stable IDs and run IDs, RBAC with segregation of duties (often enforced with Postgres RLS), versioned rules and immutable audit logs, data-quality checks (dbt/Great Expectations), CI/CD evidence, and CSRD iXBRL validation with per-period evidence bundles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are audit trails implemented in Rails for CSRD reporting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Combine model history (e.g., PaperTrail) with an append-only audit log of system events stamped with run IDs and calculation parameters; hash-chain rows for tamper-evidence and link disclosure records to audit events and the ESRS taxonomy version used."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What’s the difference between data lineage and audit logging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lineage explains how a figure was produced (inputs → transforms → outputs). The audit log records who did what, when, and why. Both are required for assurance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should Scope 3 pipelines handle supplier data and emission factors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use intake contracts with validations, tier supplier onboarding, maintain a versioned factor catalog (valid-from/valid-to), store rule/factor versions with each run, and reconcile ERP totals with model inputs using a short period report."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which controls map to SOC 2 and ISO 27001 for an ESG platform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Access controls (RBAC/SoD, RLS, secret rotation), change management (PR reviews and gated releases), logging/monitoring (append-only audit events, OpenTelemetry to SIEM), and data governance (classification, retention, backups, vendor controls)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is XBRL tagging prepared on the backend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pin the ESRS taxonomy version, keep a concept-to-source-field mapping, make tagging deterministic, run pre-file iXBRL validation, and package an evidence bundle with validator outputs and the taxonomy checksum."
+      }
+    }
+  ]
+}
+]
