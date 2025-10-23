@@ -35,7 +35,7 @@ The following is a concise blueprint with Rails examples that generalize to mode
 
 An audit-ready backend makes evidence routine. Each reported figure carries a path back to its inputs, the transformations applied, and the approvals recorded; re-running the process should produce the same result. **In 2023, 98.6% of S&P 500 companies** issued sustainability reports, so expectations have shifted from narratives to verifiable numbers. CSRD moves disclosures to XHTML with Inline XBRL, using the ESRS taxonomy, so figures are tagged and machine-navigable. EFRAG’s materials (including the non-authoritative IG 3 datapoint list) illustrate the breadth of tagging: materiality filters what is disclosed, but the underlying data must be structured and linkable.
 
-![`Diagram showing five pillars: traceability, access control (RBAC/RLS), versioning & immutable logs, configurable ESG logic, and retention & evidence bundle—supporting an audit-ready backend`](.https://i.imgur.com/4OM3Z2T.png)
+![`Diagram showing five pillars: traceability, access control (RBAC/RLS), versioning & immutable logs, configurable ESG logic, and retention & evidence bundle—supporting an audit-ready backend`](https://i.imgur.com/4OM3Z2T.png)
 
 **Audit readiness** should be integrated into the architecture and workflow from the start, not added later as an afterthought:
 
