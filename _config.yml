@@ -53,7 +53,7 @@ pagination:
 
 google:
   tag_manager:
-    container_id: GTM-PH7L55P
+    container_id: GTM-MQ456KMC
 
 jekyll-minifier:
   compress_css: false
